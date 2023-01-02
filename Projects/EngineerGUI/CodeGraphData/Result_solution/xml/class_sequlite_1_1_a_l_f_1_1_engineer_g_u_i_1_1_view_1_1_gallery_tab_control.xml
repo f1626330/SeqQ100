@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_gallery_tab_control" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::View::GalleryTabControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_gallery_tab_control_1a65d501f04d08105f09515f3c287ed7f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.View.GalleryTabControl.GalleryTabControl</definition>
+        <argsstring>()</argsstring>
+        <name>GalleryTabControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/GalleryTabControl.xaml.cs" line="12" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/GalleryTabControl.xaml.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_gallery_tab_control_1aa711dcd2bfd6dae12700dc42034a121b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.View.GalleryTabControl._BlackBox_KeyUp</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>_BlackBox_KeyUp</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/GalleryTabControl.xaml.cs" line="17" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/GalleryTabControl.xaml.cs" bodystart="17" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_gallery_tab_control_1ade11832b99a26909f532a74a1491380a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.View.GalleryTabControl._WhiteBox_KeyUp</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>_WhiteBox_KeyUp</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/GalleryTabControl.xaml.cs" line="30" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/GalleryTabControl.xaml.cs" bodystart="30" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>GalleryTabControl.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="474">
+        <label>Sequlite.ALF.EngineerGUI.View.GalleryTabControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_gallery_tab_control"/>
+        <childnode refid="475" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="475">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="476">
+        <label>Sequlite.ALF.EngineerGUI.View.GalleryTabControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_gallery_tab_control"/>
+        <childnode refid="477" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="477">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/GalleryTabControl.xaml.cs" line="11" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/GalleryTabControl.xaml.cs" bodystart="10" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_gallery_tab_control_1aa711dcd2bfd6dae12700dc42034a121b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::GalleryTabControl</scope><name>_BlackBox_KeyUp</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_gallery_tab_control_1ade11832b99a26909f532a74a1491380a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::GalleryTabControl</scope><name>_WhiteBox_KeyUp</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_gallery_tab_control_1a65d501f04d08105f09515f3c287ed7f0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::GalleryTabControl</scope><name>GalleryTabControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

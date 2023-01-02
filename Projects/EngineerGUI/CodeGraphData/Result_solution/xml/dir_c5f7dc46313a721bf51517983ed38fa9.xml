@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c5f7dc46313a721bf51517983ed38fa9" kind="dir">
+    <compoundname>D:/Source/Alf/TestBench/Hywire.MotionControllerTest</compoundname>
+    <innerdir refid="dir_a4947097e5c95e6f75520f8431418e3a">D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Properties</innerdir>
+    <innerfile refid="_test_bench_2_hywire_8_motion_controller_test_2_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_motion_controller_test_2_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_motion_controller_test_2_motion_view_model_8cs">MotionViewModel.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_motion_controller_test_2_workspace_8cs">Workspace.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/"/>
+  </compounddef>
+</doxygen>

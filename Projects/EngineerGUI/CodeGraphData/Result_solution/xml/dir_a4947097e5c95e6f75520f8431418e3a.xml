@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_a4947097e5c95e6f75520f8431418e3a" kind="dir">
+    <compoundname>D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Properties</compoundname>
+    <innerfile refid="_test_bench_2_hywire_8_motion_controller_test_2_properties_2_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_motion_controller_test_2_properties_2_resources_8_designer_8cs">Resources.Designer.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_motion_controller_test_2_properties_2_settings_8_designer_8cs">Settings.Designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Properties/"/>
+  </compounddef>
+</doxygen>

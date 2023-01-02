@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::RunTimeParameter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1acc8d9c49b94303ef599cae3e0702bf0e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.RunTimeParameter.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1a49b06f0886004942d55757644ea8d288" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; int, <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter" kindref="compound">TileParameter</ref> &gt;</type>
+        <definition>Dictionary&lt;int, TileParameter&gt; Sequlite.Image.Processing.RunTimeParameter._tiles</definition>
+        <argsstring></argsstring>
+        <name>_tiles</name>
+        <initializer>= new Dictionary&lt;int, <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter" kindref="compound">TileParameter</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1a65be6a15216b5110f4303a3f5c8070bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.RunTimeParameter.RunTimeParameter</definition>
+        <argsstring>(string name)</argsstring>
+        <name>RunTimeParameter</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1a23adc3769b451024ad1942fe1bb7b9de" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.RunTimeParameter.Add</definition>
+        <argsstring>(int tile, int cycle, int color, float value)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>int</type>
+          <declname>tile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cycle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1a134bbf72cfdb23b0f4fadf77e726d34b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.RunTimeParameter.GetByCycle</definition>
+        <argsstring>(int tile, int clr, ref Dictionary&lt; int, float &gt; ret)</argsstring>
+        <name>GetByCycle</name>
+        <param>
+          <type>int</type>
+          <declname>tile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>clr</declname>
+        </param>
+        <param>
+          <type>ref Dictionary&lt; int, float &gt;</type>
+          <declname>ret</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1a47dc5b5f90791c56ffb5d36541af95b2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Sequlite.Image.Processing.RunTimeParameter.AvailableTiles</definition>
+        <argsstring>()</argsstring>
+        <name>AvailableTiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" bodystart="32" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RunTimeParameter.cs" bodystart="8" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1a49b06f0886004942d55757644ea8d288" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::RunTimeParameter</scope><name>_tiles</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1a23adc3769b451024ad1942fe1bb7b9de" prot="package" virt="non-virtual"><scope>Sequlite::Image::Processing::RunTimeParameter</scope><name>Add</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1a47dc5b5f90791c56ffb5d36541af95b2" prot="package" virt="non-virtual"><scope>Sequlite::Image::Processing::RunTimeParameter</scope><name>AvailableTiles</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1a134bbf72cfdb23b0f4fadf77e726d34b" prot="package" virt="non-virtual"><scope>Sequlite::Image::Processing::RunTimeParameter</scope><name>GetByCycle</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1acc8d9c49b94303ef599cae3e0702bf0e" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::RunTimeParameter</scope><name>name</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter_1a65be6a15216b5110f4303a3f5c8070bb" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RunTimeParameter</scope><name>RunTimeParameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

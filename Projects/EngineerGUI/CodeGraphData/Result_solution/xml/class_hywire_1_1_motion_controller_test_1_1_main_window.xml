@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_motion_controller_test_1_1_main_window" kind="class" prot="public">
+    <compoundname>Hywire::MotionControllerTest::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_motion_controller_test_1_1_main_window_1a71938489fcb6d0ecfb4d456fdc5ca1ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.MotionControllerTest.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/MainWindow.xaml.cs" line="10" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/MainWindow.xaml.cs" bodystart="10" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MainWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="731">
+        <label>Window</label>
+      </node>
+      <node id="730">
+        <label>Hywire.MotionControllerTest.MainWindow</label>
+        <link refid="class_hywire_1_1_motion_controller_test_1_1_main_window"/>
+        <childnode refid="731" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="733">
+        <label>Window</label>
+      </node>
+      <node id="732">
+        <label>Hywire.MotionControllerTest.MainWindow</label>
+        <link refid="class_hywire_1_1_motion_controller_test_1_1_main_window"/>
+        <childnode refid="733" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/MainWindow.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/MainWindow.xaml.cs" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_main_window_1a71938489fcb6d0ecfb4d456fdc5ca1ef" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::MainWindow</scope><name>MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

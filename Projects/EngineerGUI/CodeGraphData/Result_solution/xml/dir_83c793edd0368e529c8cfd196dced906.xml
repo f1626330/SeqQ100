@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_83c793edd0368e529c8cfd196dced906" kind="dir">
+    <compoundname>D:/Source/Alf/TestBench</compoundname>
+    <innerdir refid="dir_1dc6cc1c089c6c1b95f71eb473973a50">D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest</innerdir>
+    <innerdir refid="dir_6462a080315b3503771bb2eecc3159af">D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest</innerdir>
+    <innerdir refid="dir_8ea3dee5bad301b4a2da1178d4028d0d">D:/Source/Alf/TestBench/Hywire.ALF.LEDTest</innerdir>
+    <innerdir refid="dir_5e6b0cbb72509c89c369f4887a548af0">D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest</innerdir>
+    <innerdir refid="dir_961adfcd7ac80cc7da9b73d50d59cbb9">D:/Source/Alf/TestBench/Hywire.ALF.PumpTest</innerdir>
+    <innerdir refid="dir_8ea6ae59e7f79a45808607e52f3d7808">D:/Source/Alf/TestBench/Hywire.ALF.ValveTest</innerdir>
+    <innerdir refid="dir_92633f57c1e872d1745626ca505852b2">D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest</innerdir>
+    <innerdir refid="dir_36d7ecf074cae232a5f9005cd936b66b">D:/Source/Alf/TestBench/Hywire.ChartDisplayTest</innerdir>
+    <innerdir refid="dir_c5f7dc46313a721bf51517983ed38fa9">D:/Source/Alf/TestBench/Hywire.MotionControllerTest</innerdir>
+    <innerdir refid="dir_6632b95b87b59fd595e54073f7dcf1ab">D:/Source/Alf/TestBench/Sequlite.BadImageCheck</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/TestBench/"/>
+  </compounddef>
+</doxygen>

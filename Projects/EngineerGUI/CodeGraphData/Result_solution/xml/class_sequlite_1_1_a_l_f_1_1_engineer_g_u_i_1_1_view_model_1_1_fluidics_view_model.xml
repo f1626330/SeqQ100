@@ -1,0 +1,1296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aaf8043a13b9d330ba7cd74cfca69dab8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution" kindref="compound">ValveSolution</ref></type>
+        <definition>ValveSolution Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._SelectedSolution</definition>
+        <argsstring></argsstring>
+        <name>_SelectedSolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="17" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a0fd8788a608b48007906de298ef3fa7b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode" kindref="compound">PumpMode</ref></type>
+        <definition>PumpMode Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._SelectedMode</definition>
+        <argsstring></argsstring>
+        <name>_SelectedMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="18" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a858d10980a2b669d33bd3facc44ce32a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._AspRate</definition>
+        <argsstring></argsstring>
+        <name>_AspRate</name>
+        <initializer>= SettingsManager.ConfigSettings.FluidicsStartupSettings.AspRate</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="19" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1ccd7587ae55f1f053d6a684f67995ba" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._DispRate</definition>
+        <argsstring></argsstring>
+        <name>_DispRate</name>
+        <initializer>= SettingsManager.ConfigSettings.FluidicsStartupSettings.DisRate</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="20" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ade83e9df0690e03cb96ea4645e67468f" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._PumpVolume</definition>
+        <argsstring></argsstring>
+        <name>_PumpVolume</name>
+        <initializer>= SettingsManager.ConfigSettings.FluidicsStartupSettings.Volume</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="21" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1af04f297859c2f343955b4a27bc1b06df" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._IsOverflowSensorOn</definition>
+        <argsstring></argsstring>
+        <name>_IsOverflowSensorOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="22" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ab9cc30524974b1baa6882c977b2ef257" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._IsCartridgeSnsrOn</definition>
+        <argsstring></argsstring>
+        <name>_IsCartridgeSnsrOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="23" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1abef0d6bcd108075c2766861b478afc05" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._IsFCSnsrOn</definition>
+        <argsstring></argsstring>
+        <name>_IsFCSnsrOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="24" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a40de12e36e78d734da025c1a2ba08558" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._IsFCClampSnsrOn</definition>
+        <argsstring></argsstring>
+        <name>_IsFCClampSnsrOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="25" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a7a00e4ff605547aff50f574a82392983" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._IsPumpRunning</definition>
+        <argsstring></argsstring>
+        <name>_IsPumpRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="26" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1adbccf11baf458db22562adb94d69eabe" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._IsFCLoaded</definition>
+        <argsstring></argsstring>
+        <name>_IsFCLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="27" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1af7903d4190d3fbaf97dc97af44d0e32f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._IsCartridgeLoaded</definition>
+        <argsstring></argsstring>
+        <name>_IsCartridgeLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="28" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a918a8c60c084003820d967dae74de890" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._PumpActualPos</definition>
+        <argsstring></argsstring>
+        <name>_PumpActualPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="30" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a164b82b0b69878e4a545e0fae1c346db" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._PumpAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>_PumpAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="31" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ae601c249cbabade97c057443257ccdfc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread" kindref="compound">RunPumpingThread</ref></type>
+        <definition>RunPumpingThread Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._RunPumpingThread</definition>
+        <argsstring></argsstring>
+        <name>_RunPumpingThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="32" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1accd6e09caf1cb65e9d695022572d005c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._IsMovingCartridge</definition>
+        <argsstring></argsstring>
+        <name>_IsMovingCartridge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="33" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1adc476d70fe7f67b741486dda9dc254ca" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._ValvePos</definition>
+        <argsstring></argsstring>
+        <name>_ValvePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="34" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a441ff1b6f4efc2ba48ec9ccb7ba07dd2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._CurrentVolume</definition>
+        <argsstring></argsstring>
+        <name>_CurrentVolume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="67" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a12fec097e910e6a070b8518050879424" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._SetSolutionCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetSolutionCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="380" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a86646e6f127f986fc502039e5bfe437f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._RunPumpCmd</definition>
+        <argsstring></argsstring>
+        <name>_RunPumpCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="413" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aa0678f30ccc3bf4615b39dc2e9061a24" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._MoveFlowChipCmd</definition>
+        <argsstring></argsstring>
+        <name>_MoveFlowChipCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="542" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="542" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a695451d607c33cc08f84b9ffd61513a8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._MoveCartridgeCmd</definition>
+        <argsstring></argsstring>
+        <name>_MoveCartridgeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="590" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="590" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ad805f8f9b37583a54c28a8094a1abcf0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._ResetVolCmd</definition>
+        <argsstring></argsstring>
+        <name>_ResetVolCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="638" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="638" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aeb30d9f15eb877f62f7994db38c55dfa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._ResetValveCmd</definition>
+        <argsstring></argsstring>
+        <name>_ResetValveCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="669" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="669" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a15db7526c9f36cdf3beb656f47664638" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution" kindref="compound">ValveSolution</ref> &gt;</type>
+        <definition>List&lt;ValveSolution&gt; Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.SolutionOptions</definition>
+        <argsstring></argsstring>
+        <name>SolutionOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="92" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1acdb6fd300c168518bd3b1da7e5b1c409" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableCollection&lt; int &gt;</type>
+        <definition>ObservableCollection&lt;int&gt; Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.SolutionVolumes</definition>
+        <argsstring></argsstring>
+        <name>SolutionVolumes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="93" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a54e7bdee67047766358652b70ab096d2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution" kindref="compound">ValveSolution</ref></type>
+        <definition>ValveSolution Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.SelectedSolution</definition>
+        <argsstring></argsstring>
+        <name>SelectedSolution</name>
+        <initializer>= new ObservableCollection&lt;int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="94" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a461da104a3162a48315681aa3042c41b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode" kindref="compound">PumpMode</ref> &gt;</type>
+        <definition>List&lt;PumpMode&gt; Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ModeOptions</definition>
+        <argsstring></argsstring>
+        <name>ModeOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="107" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a79d8587f18cb83be1ce5c237bf9f773f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode" kindref="compound">PumpMode</ref></type>
+        <definition>PumpMode Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.SelectedMode</definition>
+        <argsstring></argsstring>
+        <name>SelectedMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="109" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ab1556a365acc11be25ff13015b53ce1f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.IsAllowPathChange</definition>
+        <argsstring></argsstring>
+        <name>IsAllowPathChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="124" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a0c27156e6ac13176364ea2b033542a9d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" kindref="member">PathOptions</ref> &gt;</type>
+        <definition>List&lt;PathOptions&gt; Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.AvailablePaths</definition>
+        <argsstring></argsstring>
+        <name>AvailablePaths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="129" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a45f7444342a5c516d1f3ca44f5613df3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" kindref="member">PathOptions</ref></type>
+        <definition>PathOptions Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.SelectedPath</definition>
+        <argsstring></argsstring>
+        <name>SelectedPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="130" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a7a5b73e4fcddc41750b2e34e0e386f70" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller" kindref="compound">ValveController</ref></type>
+        <definition>ValveController Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Valve</definition>
+        <argsstring></argsstring>
+        <name>Valve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="150" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="150" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a64b4349ec5330fa90fe1a963b691d540" compoundref="_fluidics_view_model_8cs" startline="393" endline="404">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteSetSolutionCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a6c484ce0d1033b92b4e55d798f4707b5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller" kindref="compound">PumpController</ref></type>
+        <definition>PumpController Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Pump</definition>
+        <argsstring></argsstring>
+        <name>Pump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="152" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="152" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a62b1d0b74feb49974a127728b9191c3c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.PumpAspRateRange</definition>
+        <argsstring></argsstring>
+        <name>PumpAspRateRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="154" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a79ba7fcd8cff6169b3546085064def47" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.PumpDispRateRange</definition>
+        <argsstring></argsstring>
+        <name>PumpDispRateRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="158" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aee4d9ce9ff806a939a4a7672d13d92cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.PumpVolRange</definition>
+        <argsstring></argsstring>
+        <name>PumpVolRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="162" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a11b43824e61d66e7da26d1e5d8a1e586" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ChemiTemperRange</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="166" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1afcba720efee333391aa43dc24c85de67" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ChemiTemperRampRange</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperRampRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="170" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a32e17ef3402780edaa9e7bd6c765591e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.AspRate</definition>
+        <argsstring></argsstring>
+        <name>AspRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="175" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ac12fb293ff9a14180955dcd5ca394d35" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.DispRate</definition>
+        <argsstring></argsstring>
+        <name>DispRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="188" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ae889fcffdc33e5795eda9de4b54a81da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.PumpVolume</definition>
+        <argsstring></argsstring>
+        <name>PumpVolume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="201" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1d1f619691fb89501643c9329a3bca74" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.IsOverflowSensorOn</definition>
+        <argsstring></argsstring>
+        <name>IsOverflowSensorOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="214" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a9d5745f755d37a3e95e49a099cf46ba6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.IsCartridgeSensorOn</definition>
+        <argsstring></argsstring>
+        <name>IsCartridgeSensorOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="227" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a6e16df3f0dfeff95136a55aedf8c2ed1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.IsFCSensorOn</definition>
+        <argsstring></argsstring>
+        <name>IsFCSensorOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="240" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aa5e1fa43c8e9b247d91ecd4527c3a047" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.IsFCClampSensorOn</definition>
+        <argsstring></argsstring>
+        <name>IsFCClampSensorOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="253" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a07754a1442402169af9684980613b216" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.IsPumpRunning</definition>
+        <argsstring></argsstring>
+        <name>IsPumpRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="266" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a6b9ee7668a8d0d582a4e55a02a6ec684" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.IsFCLoaded</definition>
+        <argsstring></argsstring>
+        <name>IsFCLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="279" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a54eb12fdbc39a5f3719194a49cf55ba3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.IsCartridgeLoaded</definition>
+        <argsstring></argsstring>
+        <name>IsCartridgeLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="292" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="293" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a47be44273dd4750a7d66f4a986864385" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.PumpActualPos</definition>
+        <argsstring></argsstring>
+        <name>PumpActualPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="328" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a8c427d2832410f9facfaee366923737c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.PumpAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>PumpAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="340" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1acdc883b3ecf6569fd97f5bbab143c58d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.IsMovingCartridge</definition>
+        <argsstring></argsstring>
+        <name>IsMovingCartridge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="352" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ab5c3982d4fdbad0c5a1047104109c71f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ValvePos</definition>
+        <argsstring></argsstring>
+        <name>ValvePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="365" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a206f19823d324072a5e23ad2929164c6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.SetSolutionCmd</definition>
+        <argsstring></argsstring>
+        <name>SetSolutionCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="381" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a68fc62aafb11817ab5662657397a0fb7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.RunPumpCmd</definition>
+        <argsstring></argsstring>
+        <name>RunPumpCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="414" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1adf07f16f762aa4295531310fcd5fc629" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.MoveFlowChipCmd</definition>
+        <argsstring></argsstring>
+        <name>MoveFlowChipCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="543" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="544" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1accee19c541eedb2c741a753b2f934219" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.MoveCartridgeCmd</definition>
+        <argsstring></argsstring>
+        <name>MoveCartridgeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="591" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="592" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aae8028dc616b91011af85f6ead23bcd6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ResetVolCmd</definition>
+        <argsstring></argsstring>
+        <name>ResetVolCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="639" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="640" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aa3f53860eb123100729821e31b7ae489" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ResetValveCmd</definition>
+        <argsstring></argsstring>
+        <name>ResetValveCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="670" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="671" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a22d116f9497f91f2f2e114a81d21b5fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.FluidicsViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>FluidicsViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="38" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a3c386c02543964b47848039e449c11e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="42" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="42" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a75ba54e093526ea239020a7682b9d2e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Pump_OnStatusChanged</definition>
+        <argsstring>()</argsstring>
+        <name>Pump_OnStatusChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="69" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="69" bodyend="88"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" compoundref="_settings_manager_8cs" startline="15">Sequlite.ALF.Configuration.SettingsManager.ConfigSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ab327dc91155bd54b87ead233f4af8fae" compoundref="_pump_controller_8cs" startline="98">Sequlite.ALF.Fluidics.PumpController.IsPullingFC</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a6a224eb3d5731cde3ca5b9e5a0321441" compoundref="_fluidics_manager_8cs" startline="12">Sequlite.ALF.Fluidics.FluidicsManager.Pump</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a91eae18064855ca7b43330b53bad46dd" compoundref="_pump_controller_8cs" startline="95">Sequlite.ALF.Fluidics.PumpController.PumpAbsolutePos</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a86d2c8437088c57498f7649d30e1fe52" compoundref="_config_settings_8cs" startline="18">Sequlite.ALF.Configuration.ConfigSettings.PumpIncToVolFactor</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a17f794c63f155816f7c1d36d00e6ab0a" compoundref="_pump_controller_8cs" startline="97">Sequlite.ALF.Fluidics.PumpController.StartPos</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a64b4349ec5330fa90fe1a963b691d540" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteSetSolutionCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetSolutionCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="393" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="393" bodyend="404"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af717d399b1a42949031d1c09ed3bb733" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="103">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.FluidicsVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller_1a72cc8546d957d3da6e6020e61d6f1efc" compoundref="_valve_controller_8cs" startline="38">Sequlite.ALF.Fluidics.ValveController.IsConnected</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a7a5b73e4fcddc41750b2e34e0e386f70" compoundref="_fluidics_view_model_8cs" startline="150">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Valve</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a8a04afdf827c3821f09b78ca8ef1d10b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.CanExecuteSetSolutionCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetSolutionCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="406" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="406" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1cf0b05670cb98ea9f9f82a9fd723306" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteRunPumpCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteRunPumpCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="426" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="426" bodyend="521"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" compoundref="_settings_manager_8cs" startline="15">Sequlite.ALF.Configuration.SettingsManager.ConfigSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range_1a6b747ca4b1fca4d1f041173a4753ad03" compoundref="_setting_range_8cs" startline="5">Sequlite.ALF.Common.SettingRange.LimitLow</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a70acfeda071bcbe9b8e9770af1e5eadb" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="13">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Owner</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a15e42d80fc204e638951ca13235aa996" compoundref="_config_settings_8cs" startline="19">Sequlite.ALF.Configuration.ConfigSettings.PumpAspRateRange</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1aec0673bcb091d50212f23b172ee8accd" compoundref="_config_settings_8cs" startline="20">Sequlite.ALF.Configuration.ConfigSettings.PumpDispRateRange</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a86d2c8437088c57498f7649d30e1fe52" compoundref="_config_settings_8cs" startline="18">Sequlite.ALF.Configuration.ConfigSettings.PumpIncToVolFactor</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a23cc7dc40b072c7496c751cc2e72808b" compoundref="_config_settings_8cs" startline="21">Sequlite.ALF.Configuration.ConfigSettings.PumpVolRange</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a815346077b9b6dddd938b915b8f9c259" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel._RunPumpingThread_Completed</definition>
+        <argsstring>(ThreadBase sender, ThreadBase.ThreadExitStat exitState)</argsstring>
+        <name>_RunPumpingThread_Completed</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base" kindref="compound">ThreadBase</ref></type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0ae32b8605809e5183eaec8a37a1aef9" kindref="member">ThreadBase.ThreadExitStat</ref></type>
+          <declname>exitState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="523" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="523" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ad720b89424a431cd64a1428b9d021aaf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.CanExecuteRunPumpCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteRunPumpCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="535" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="535" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a9120f4ffb656599fd3421db94ea9f907" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveFlowChipCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteMoveFlowChipCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="555" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="555" bodyend="581"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" compoundref="_settings_manager_8cs" startline="15">Sequlite.ALF.Configuration.SettingsManager.ConfigSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1afd871d390919ada56fa67cf15564d8b3" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="90">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.MotionController</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a91a9c64f27a1ce4b74cfeaa3990f436c" compoundref="_config_settings_8cs" startline="16">Sequlite.ALF.Configuration.ConfigSettings.MotionFactorSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ab40ad2109df86fa7690893c6ccc062e8" compoundref="_config_settings_8cs" startline="15">Sequlite.ALF.Configuration.ConfigSettings.MotionStartupSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a0177d0b358bf7643dedcb1a21072e9d4" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="99">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MotionVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a4de2ca4f4adbc3ee9ee30882334a851c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.CanExecuteMoveFlowChipCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteMoveFlowChipCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="583" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="583" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a177d9f26ecc42b4195e9b1e3ff61380a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveCartridgeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteMoveCartridgeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="603" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="603" bodyend="629"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" compoundref="_settings_manager_8cs" startline="15">Sequlite.ALF.Configuration.SettingsManager.ConfigSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1afd871d390919ada56fa67cf15564d8b3" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="90">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.MotionController</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a91a9c64f27a1ce4b74cfeaa3990f436c" compoundref="_config_settings_8cs" startline="16">Sequlite.ALF.Configuration.ConfigSettings.MotionFactorSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a8355bf63f543b6920ac3146f63e6335c" compoundref="_config_settings_8cs" startline="14">Sequlite.ALF.Configuration.ConfigSettings.MotionSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ab40ad2109df86fa7690893c6ccc062e8" compoundref="_config_settings_8cs" startline="15">Sequlite.ALF.Configuration.ConfigSettings.MotionStartupSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a0177d0b358bf7643dedcb1a21072e9d4" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="99">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MotionVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ab67a2bfb76d148a3e150915b6810b537" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.CanExecuteMoveCartridgeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteMoveCartridgeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="631" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="631" bodyend="634"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a5085ef2a22b624ab1d40d3afe394dce5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteResetVolCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteResetVolCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="651" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="651" bodyend="660"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a6f844d48c871dfb59a8774c0a439fb96" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.CanExecuteResetVolCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteResetVolCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="662" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="662" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a67ba43c556bd74ca425cf0edb15138c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteResetValveCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteResetValveCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="682" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="682" bodyend="685"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ae6297746720ba0cb6895059c24d9b556" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.CanExecuteResetValveCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteResetValveCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="687" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="687" bodyend="690"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="440">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="441">
+        <label>IDisposable</label>
+      </node>
+      <node id="439">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="440" relation="public-inheritance">
+        </childnode>
+        <childnode refid="441" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="438">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model"/>
+        <childnode refid="439" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="449">
+        <label>Sequlite.ALF.Fluidics.RunPumpingThread</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread"/>
+        <childnode refid="450" relation="public-inheritance">
+        </childnode>
+        <childnode refid="451" relation="usage">
+          <edgelabel>_PumpingSettings</edgelabel>
+        </childnode>
+        <childnode refid="452" relation="usage">
+          <edgelabel>_Valve</edgelabel>
+        </childnode>
+        <childnode refid="453" relation="usage">
+          <edgelabel>_Pump</edgelabel>
+        </childnode>
+      </node>
+      <node id="451">
+        <label>Sequlite.ALF.Fluidics.PumpingSettings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings"/>
+      </node>
+      <node id="450">
+        <label>ThreadBase</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_thread_base"/>
+      </node>
+      <node id="456">
+        <label>Sequlite.ALF.Fluidics.ValveSolution</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution"/>
+      </node>
+      <node id="447">
+        <label>ICommand</label>
+      </node>
+      <node id="444">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="448">
+        <label>Sequlite.ALF.Fluidics.PumpMode</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode"/>
+      </node>
+      <node id="445">
+        <label>IDisposable</label>
+      </node>
+      <node id="443">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="444" relation="public-inheritance">
+        </childnode>
+        <childnode refid="445" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="453">
+        <label>Sequlite.ALF.Fluidics.PumpController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller"/>
+        <childnode refid="454" relation="usage">
+          <edgelabel>_Answer</edgelabel>
+        </childnode>
+        <childnode refid="455" relation="usage">
+          <edgelabel>_DTAnswer</edgelabel>
+        </childnode>
+      </node>
+      <node id="446">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="447" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="455">
+        <label>Sequlite.ALF.Fluidics.PumpDTProtocol</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol"/>
+      </node>
+      <node id="442">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model"/>
+        <childnode refid="443" relation="public-inheritance">
+        </childnode>
+        <childnode refid="446" relation="usage">
+          <edgelabel>_MoveCartridgeCmd</edgelabel>
+          <edgelabel>_ResetValveCmd</edgelabel>
+          <edgelabel>_SetSolutionCmd</edgelabel>
+          <edgelabel>_MoveFlowChipCmd</edgelabel>
+          <edgelabel>_RunPumpCmd</edgelabel>
+          <edgelabel>_ResetVolCmd</edgelabel>
+        </childnode>
+        <childnode refid="448" relation="usage">
+          <edgelabel>_SelectedMode</edgelabel>
+        </childnode>
+        <childnode refid="449" relation="usage">
+          <edgelabel>_RunPumpingThread</edgelabel>
+        </childnode>
+        <childnode refid="456" relation="usage">
+          <edgelabel>_SelectedSolution</edgelabel>
+        </childnode>
+      </node>
+      <node id="454">
+        <label>Sequlite.ALF.Fluidics.PumpOEMProtocol</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol"/>
+      </node>
+      <node id="452">
+        <label>Sequlite.ALF.Fluidics.ValveController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" line="15" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FluidicsViewModel.cs" bodystart="14" bodyend="692"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a858d10980a2b669d33bd3facc44ce32a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_AspRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a441ff1b6f4efc2ba48ec9ccb7ba07dd2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_CurrentVolume</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1ccd7587ae55f1f053d6a684f67995ba" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_DispRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1af7903d4190d3fbaf97dc97af44d0e32f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_IsCartridgeLoaded</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ab9cc30524974b1baa6882c977b2ef257" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_IsCartridgeSnsrOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a40de12e36e78d734da025c1a2ba08558" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_IsFCClampSnsrOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1adbccf11baf458db22562adb94d69eabe" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_IsFCLoaded</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1abef0d6bcd108075c2766861b478afc05" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_IsFCSnsrOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1accd6e09caf1cb65e9d695022572d005c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_IsMovingCartridge</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1af04f297859c2f343955b4a27bc1b06df" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_IsOverflowSensorOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a7a00e4ff605547aff50f574a82392983" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_IsPumpRunning</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a695451d607c33cc08f84b9ffd61513a8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_MoveCartridgeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aa0678f30ccc3bf4615b39dc2e9061a24" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_MoveFlowChipCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a164b82b0b69878e4a545e0fae1c346db" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_PumpAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a918a8c60c084003820d967dae74de890" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_PumpActualPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ade83e9df0690e03cb96ea4645e67468f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_PumpVolume</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aeb30d9f15eb877f62f7994db38c55dfa" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_ResetValveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ad805f8f9b37583a54c28a8094a1abcf0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_ResetVolCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a86646e6f127f986fc502039e5bfe437f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_RunPumpCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ae601c249cbabade97c057443257ccdfc" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_RunPumpingThread</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a815346077b9b6dddd938b915b8f9c259" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_RunPumpingThread_Completed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a0fd8788a608b48007906de298ef3fa7b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_SelectedMode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aaf8043a13b9d330ba7cd74cfca69dab8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_SelectedSolution</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a12fec097e910e6a070b8518050879424" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_SetSolutionCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1adc476d70fe7f67b741486dda9dc254ca" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>_ValvePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a32e17ef3402780edaa9e7bd6c765591e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>AspRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a0c27156e6ac13176364ea2b033542a9d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>AvailablePaths</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ab67a2bfb76d148a3e150915b6810b537" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>CanExecuteMoveCartridgeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a4de2ca4f4adbc3ee9ee30882334a851c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>CanExecuteMoveFlowChipCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ae6297746720ba0cb6895059c24d9b556" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>CanExecuteResetValveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a6f844d48c871dfb59a8774c0a439fb96" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>CanExecuteResetVolCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ad720b89424a431cd64a1428b9d021aaf" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>CanExecuteRunPumpCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a8a04afdf827c3821f09b78ca8ef1d10b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>CanExecuteSetSolutionCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1afcba720efee333391aa43dc24c85de67" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ChemiTemperRampRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a11b43824e61d66e7da26d1e5d8a1e586" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ChemiTemperRange</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ac12fb293ff9a14180955dcd5ca394d35" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>DispRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a177d9f26ecc42b4195e9b1e3ff61380a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ExecuteMoveCartridgeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a9120f4ffb656599fd3421db94ea9f907" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ExecuteMoveFlowChipCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a67ba43c556bd74ca425cf0edb15138c6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ExecuteResetValveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a5085ef2a22b624ab1d40d3afe394dce5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ExecuteResetVolCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1cf0b05670cb98ea9f9f82a9fd723306" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ExecuteRunPumpCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a64b4349ec5330fa90fe1a963b691d540" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ExecuteSetSolutionCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a22d116f9497f91f2f2e114a81d21b5fe" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>FluidicsViewModel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a3c386c02543964b47848039e449c11e3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>Initialize</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ab1556a365acc11be25ff13015b53ce1f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>IsAllowPathChange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a54eb12fdbc39a5f3719194a49cf55ba3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>IsCartridgeLoaded</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a9d5745f755d37a3e95e49a099cf46ba6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>IsCartridgeSensorOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aa5e1fa43c8e9b247d91ecd4527c3a047" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>IsFCClampSensorOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a6b9ee7668a8d0d582a4e55a02a6ec684" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>IsFCLoaded</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a6e16df3f0dfeff95136a55aedf8c2ed1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>IsFCSensorOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1acdc883b3ecf6569fd97f5bbab143c58d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>IsMovingCartridge</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1d1f619691fb89501643c9329a3bca74" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>IsOverflowSensorOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a07754a1442402169af9684980613b216" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>IsPumpRunning</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a461da104a3162a48315681aa3042c41b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ModeOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1accee19c541eedb2c741a753b2f934219" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>MoveCartridgeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1adf07f16f762aa4295531310fcd5fc629" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>MoveFlowChipCmd</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a6c484ce0d1033b92b4e55d798f4707b5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>Pump</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a75ba54e093526ea239020a7682b9d2e2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>Pump_OnStatusChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a8c427d2832410f9facfaee366923737c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>PumpAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a47be44273dd4750a7d66f4a986864385" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>PumpActualPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a62b1d0b74feb49974a127728b9191c3c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>PumpAspRateRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a79ba7fcd8cff6169b3546085064def47" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>PumpDispRateRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aee4d9ce9ff806a939a4a7672d13d92cb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>PumpVolRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ae889fcffdc33e5795eda9de4b54a81da" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>PumpVolume</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aa3f53860eb123100729821e31b7ae489" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ResetValveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1aae8028dc616b91011af85f6ead23bcd6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ResetVolCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a68fc62aafb11817ab5662657397a0fb7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>RunPumpCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a79d8587f18cb83be1ce5c237bf9f773f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>SelectedMode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a45f7444342a5c516d1f3ca44f5613df3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>SelectedPath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a54e7bdee67047766358652b70ab096d2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>SelectedSolution</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a206f19823d324072a5e23ad2929164c6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>SetSolutionCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a15db7526c9f36cdf3beb656f47664638" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>SolutionOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1acdb6fd300c168518bd3b1da7e5b1c409" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>SolutionVolumes</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a7a5b73e4fcddc41750b2e34e0e386f70" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>Valve</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1ab5c3982d4fdbad0c5a1047104109c71f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</scope><name>ValvePos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

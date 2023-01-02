@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::DirectoryNumber</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1aa6174a3de05cdb774f7e312e76e3a8b6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.DirectoryNumber._tile</definition>
+        <argsstring></argsstring>
+        <name>_tile</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1a0bfdd0b2f1f6d376c084d24612e0f281" prot="private" static="no" mutable="no">
+        <type>DirectoryInfo</type>
+        <definition>DirectoryInfo Sequlite.ALF.Imaging.DirectoryNumber._di</definition>
+        <argsstring></argsstring>
+        <name>_di</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1a35bc90334d4deaed9f39fef20e9e9237" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.DirectoryNumber._cycle</definition>
+        <argsstring></argsstring>
+        <name>_cycle</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1aa72207e60a7bf2bfe9a4e941f7c95fa6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.DirectoryNumber.Tile</definition>
+        <argsstring></argsstring>
+        <name>Tile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_processing_c_m_d_1ac624d375a5ebd7e6f629089a8b6075e7" compoundref="_sequlite_8_a_l_f_8_imaging_2_image_processing_c_m_d_8cs" startline="1142" endline="1226">Sequlite.ALF.Imaging.ImageProcessingCMD.RunCycles</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1ac08e8ba94a8bae0d93a0f8109cc87aca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DirectoryInfo</type>
+        <definition>DirectoryInfo Sequlite.ALF.Imaging.DirectoryNumber.BaseDirectory</definition>
+        <argsstring></argsstring>
+        <name>BaseDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_processing_c_m_d_1ac624d375a5ebd7e6f629089a8b6075e7" compoundref="_sequlite_8_a_l_f_8_imaging_2_image_processing_c_m_d_8cs" startline="1142" endline="1226">Sequlite.ALF.Imaging.ImageProcessingCMD.RunCycles</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_processing_c_m_d_1a420a3ea2ab269a23e2ae9d77da05d996" compoundref="_sequlite_8_a_l_f_8_imaging_2_image_processing_c_m_d_8cs" startline="1021" endline="1025">Sequlite.ALF.Imaging.ImageProcessingCMD.RunCyclesSynch</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1a6d8bf72fa8b8e934684d27d1d725f90f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.DirectoryNumber.Cycle</definition>
+        <argsstring></argsstring>
+        <name>Cycle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_processing_c_m_d_1ac624d375a5ebd7e6f629089a8b6075e7" compoundref="_sequlite_8_a_l_f_8_imaging_2_image_processing_c_m_d_8cs" startline="1142" endline="1226">Sequlite.ALF.Imaging.ImageProcessingCMD.RunCycles</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_processing_c_m_d_1a420a3ea2ab269a23e2ae9d77da05d996" compoundref="_sequlite_8_a_l_f_8_imaging_2_image_processing_c_m_d_8cs" startline="1021" endline="1025">Sequlite.ALF.Imaging.ImageProcessingCMD.RunCyclesSynch</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1a9869b6ec62a737eddb23f34a8047fb53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.DirectoryNumber.DirectoryNumber</definition>
+        <argsstring>(int num, DirectoryInfo di, int cycle=0)</argsstring>
+        <name>DirectoryNumber</name>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>di</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cycle</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" bodystart="15" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/DirectoryNumber.cs" bodystart="9" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1a35bc90334d4deaed9f39fef20e9e9237" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::DirectoryNumber</scope><name>_cycle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1a0bfdd0b2f1f6d376c084d24612e0f281" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::DirectoryNumber</scope><name>_di</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1aa6174a3de05cdb774f7e312e76e3a8b6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::DirectoryNumber</scope><name>_tile</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1ac08e8ba94a8bae0d93a0f8109cc87aca" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::DirectoryNumber</scope><name>BaseDirectory</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1a6d8bf72fa8b8e934684d27d1d725f90f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::DirectoryNumber</scope><name>Cycle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1a9869b6ec62a737eddb23f34a8047fb53" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::DirectoryNumber</scope><name>DirectoryNumber</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number_1aa72207e60a7bf2bfe9a4e941f7c95fa6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::DirectoryNumber</scope><name>Tile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

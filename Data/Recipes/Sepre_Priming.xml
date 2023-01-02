@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recipe Name="Priming" CreatedTime="7/6/2022 2:00:00 PM" UpdatedTime="7/6/2022 2:13:36 PM" ToolVersion=" 3.3.0.0">
+  <Steps>
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="500" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="2000" PullValve3="3" PullValve2="6" PumpPullingPaths="0000" PullingPath="Bypass" Volume="250" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="2000" PullValve3="2" PullValve2="5" PumpPullingPaths="0000" PullingPath="BypassPrime" Volume="250" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="2" PullValve2="1" PumpPullingPaths="0111" PullingPath="Test1" Volume="250" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="2" PullValve2="2" PumpPullingPaths="1011" PullingPath="Test2" Volume="250" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="2" PullValve2="3" PumpPullingPaths="1101" PullingPath="Test3" Volume="250" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="2" PullValve2="4" PumpPullingPaths="1110" PullingPath="Test4" Volume="250" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="500" Reagent="22" PumpingType="PullPush" />
+  </Steps>
+</Recipe>

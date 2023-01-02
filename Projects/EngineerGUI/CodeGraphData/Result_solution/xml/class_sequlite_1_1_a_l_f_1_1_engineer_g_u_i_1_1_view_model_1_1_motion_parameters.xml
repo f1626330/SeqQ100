@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a72d1ad6ad5f3b536a6046a45ad7c7d58" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters._Header</definition>
+        <argsstring></argsstring>
+        <name>_Header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="143" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1add76d94506a634da37524273fedcf7bc" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters._MaxSpeed</definition>
+        <argsstring></argsstring>
+        <name>_MaxSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="144" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a4f264e6bd0215d2f7335b0e6f5b1300e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters._MaxAccel</definition>
+        <argsstring></argsstring>
+        <name>_MaxAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="145" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a0003908ae18601437962e24535274ed2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters._RangeHigh</definition>
+        <argsstring></argsstring>
+        <name>_RangeHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="146" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ac2b6f8536afc7bf55b1980db1d79ab9e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters._RangeLow</definition>
+        <argsstring></argsstring>
+        <name>_RangeLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="147" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a7783447c51e70814f7b852c5c819b13e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters._SetMaxSpeedCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetMaxSpeedCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="211" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a965ea51bdf55f6e3ac2e35e60e08c593" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters._SetMaxAccelCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetMaxAccelCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="239" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ac85c8d4134b1b7b2eec67002b0520977" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters._SetRangeCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetRangeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="267" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ac872d7b899467f1c0b5ca812f909f003" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.Header</definition>
+        <argsstring></argsstring>
+        <name>Header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="149" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a19bd719826227abdd3ece16604187f07" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.MaxSpeed</definition>
+        <argsstring></argsstring>
+        <name>MaxSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="161" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1aef65b4aa07362b81d44712ffe38d4901" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.MaxAccel</definition>
+        <argsstring></argsstring>
+        <name>MaxAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="173" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a646f7c53a67589b731154e75c2b1bd2b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.RangeHigh</definition>
+        <argsstring></argsstring>
+        <name>RangeHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="185" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a12254a182b963140afdced387d71c59c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.RangeLow</definition>
+        <argsstring></argsstring>
+        <name>RangeLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="197" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a01036887f63b78326cd917eaff22afa4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.SetMaxSpeedCmd</definition>
+        <argsstring></argsstring>
+        <name>SetMaxSpeedCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="212" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ad46eca675fee4540434988188474ad58" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.SetMaxAccelCmd</definition>
+        <argsstring></argsstring>
+        <name>SetMaxAccelCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="240" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ad364e0f3fcb323da0279c0897c604a2f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.SetRangeCmd</definition>
+        <argsstring></argsstring>
+        <name>SetRangeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="268" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a0e65af94e04870c183a0688c437e37a4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.ExecuteSetMaxSpeedCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetMaxSpeedCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="224" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="224" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a6224c730177280b6c1cc1ab2e5f15899" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.CanExecuteSetMaxSpeedCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetMaxSpeedCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="232" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="232" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ae78d4772fda7aaac4bf92c8789c6fa12" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.ExecuteSetMaxAccelCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetMaxAccelCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="252" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="252" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1af5b9d8488a7044a091a5f20f61806223" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.CanExecuteSetMaxAccelCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetMaxAccelCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="260" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a9ddccffb8a161fa28632fda1d056c56f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.ExecuteSetRangeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetRangeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="280" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="280" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a16ba6bcef4ad00478151b186071f373f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.CanExecuteSetRangeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetRangeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="299" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a1d9121e8248c1da00cad90caf91b03bd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters.Save</definition>
+        <argsstring>()</argsstring>
+        <name>Save</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="306" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="306" bodyend="382"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="791">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="789">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters"/>
+        <childnode refid="790" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="792">
+        <label>IDisposable</label>
+      </node>
+      <node id="790">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="791" relation="public-inheritance">
+        </childnode>
+        <childnode refid="792" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="798">
+        <label>ICommand</label>
+      </node>
+      <node id="795">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="793">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters"/>
+        <childnode refid="794" relation="public-inheritance">
+        </childnode>
+        <childnode refid="797" relation="usage">
+          <edgelabel>_SetMaxAccelCmd</edgelabel>
+          <edgelabel>_SetRangeCmd</edgelabel>
+          <edgelabel>_SetMaxSpeedCmd</edgelabel>
+        </childnode>
+      </node>
+      <node id="796">
+        <label>IDisposable</label>
+      </node>
+      <node id="794">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="795" relation="public-inheritance">
+        </childnode>
+        <childnode refid="796" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="797">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="798" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="141" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="140" bodyend="384"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a72d1ad6ad5f3b536a6046a45ad7c7d58" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>_Header</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a4f264e6bd0215d2f7335b0e6f5b1300e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>_MaxAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1add76d94506a634da37524273fedcf7bc" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>_MaxSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a0003908ae18601437962e24535274ed2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>_RangeHigh</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ac2b6f8536afc7bf55b1980db1d79ab9e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>_RangeLow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a965ea51bdf55f6e3ac2e35e60e08c593" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>_SetMaxAccelCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a7783447c51e70814f7b852c5c819b13e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>_SetMaxSpeedCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ac85c8d4134b1b7b2eec67002b0520977" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>_SetRangeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1af5b9d8488a7044a091a5f20f61806223" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>CanExecuteSetMaxAccelCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a6224c730177280b6c1cc1ab2e5f15899" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>CanExecuteSetMaxSpeedCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a16ba6bcef4ad00478151b186071f373f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>CanExecuteSetRangeCmd</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ae78d4772fda7aaac4bf92c8789c6fa12" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>ExecuteSetMaxAccelCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a0e65af94e04870c183a0688c437e37a4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>ExecuteSetMaxSpeedCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a9ddccffb8a161fa28632fda1d056c56f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>ExecuteSetRangeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ac872d7b899467f1c0b5ca812f909f003" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>Header</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1aef65b4aa07362b81d44712ffe38d4901" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>MaxAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a19bd719826227abdd3ece16604187f07" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>MaxSpeed</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a646f7c53a67589b731154e75c2b1bd2b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>RangeHigh</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a12254a182b963140afdced387d71c59c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>RangeLow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a1d9121e8248c1da00cad90caf91b03bd" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>Save</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ad46eca675fee4540434988188474ad58" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>SetMaxAccelCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1a01036887f63b78326cd917eaff22afa4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>SetMaxSpeedCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters_1ad364e0f3fcb323da0279c0897c604a2f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</scope><name>SetRangeCmd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

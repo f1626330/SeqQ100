@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources" kind="class" prot="package">
+    <compoundname>Hywire::ALF::ZStageTest::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources_1a71500aa41e8367379a8cb182c9c4adfa" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Hywire.ALF.ZStageTest.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" line="27" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources_1a6e8f7fb3d29b782952cdca6337804f82" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Hywire.ALF.ZStageTest.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" line="29" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources_1ada1cc2b903c22898d792abc0f71b401c" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Hywire.ALF.ZStageTest.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>返回此类使用的缓存的 ResourceManager 实例。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" line="39" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources_1a4799c4ea2146d371df301a272b0a5049" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Hywire.ALF.ZStageTest.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>使用此强类型资源类，为所有资源查找 重写当前线程的 CurrentUICulture 属性。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" line="54" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources_1aabdd06852d6fcbbd10af3586a1a48f4c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.ZStageTest.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" line="32" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>一个强类型的资源类，用于查找本地化的字符串等。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1093">
+        <label>Hywire.ALF.ZStageTest.Properties.Resources</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources"/>
+        <childnode refid="1094" relation="usage">
+          <edgelabel>resourceCulture</edgelabel>
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+      <node id="1094">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" line="25" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Properties/Resources.Designer.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources_1a4799c4ea2146d371df301a272b0a5049" prot="package" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources_1a6e8f7fb3d29b782952cdca6337804f82" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources_1a71500aa41e8367379a8cb182c9c4adfa" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources_1ada1cc2b903c22898d792abc0f71b401c" prot="package" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_properties_1_1_resources_1aabdd06852d6fcbbd10af3586a1a48f4c" prot="package" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

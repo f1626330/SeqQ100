@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_imaging" kind="namespace">
+    <compoundname>Sequlite::ALF::Imaging</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file" prot="public">Sequlite::ALF::Imaging::AffineFile</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command" prot="public">Sequlite::ALF::Imaging::AutoFocusCommand</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity" prot="public">Sequlite::ALF::Imaging::PvCamSensitivity</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity" prot="public">Sequlite::ALF::Imaging::RgbLedIntensity</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting" prot="public">Sequlite::ALF::Imaging::CameraModeSetting</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting" prot="public">Sequlite::ALF::Imaging::ChemiSetting</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting" prot="public">Sequlite::ALF::Imaging::VisibleImagingSetting</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode" prot="public">Sequlite::ALF::Imaging::LiveMode</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings" prot="public">Sequlite::ALF::Imaging::SystemSettings</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column" prot="public">Sequlite::ALF::Imaging::CCDBadColumn</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_directory_number" prot="public">Sequlite::ALF::Imaging::DirectoryNumber</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_file_manipulator" prot="public">Sequlite::ALF::Imaging::FileManipulator</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image" prot="public">Sequlite::ALF::Imaging::FindQCFromImage</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_capture_command" prot="public">Sequlite::ALF::Imaging::ImageCaptureCommand</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel_settings" prot="public">Sequlite::ALF::Imaging::ImageChannelSettings</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel" prot="public">Sequlite::ALF::Imaging::ImageChannel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info" prot="public">Sequlite::ALF::Imaging::ImageInfo</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command" prot="public">Sequlite::ALF::Imaging::ImageLiveCommand</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_processing_c_m_d" prot="public">Sequlite::ALF::Imaging::ImageProcessingCMD</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i" prot="public">Sequlite::ALF::Imaging::IntensityBLI</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_sharpness_evaluation" prot="public">Sequlite::ALF::Imaging::SharpnessEvaluation</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a08e0c44e2f034c8576f181938793d9d4" prot="public" static="no">
+        <name>ChemiSampleType</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a08e0c44e2f034c8576f181938793d9d4ac1ee77aa43203f0b51ff1e5ed3674863" prot="public">
+          <name>Blot</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a08e0c44e2f034c8576f181938793d9d4abc9a8055ff921d3d9c876ff6eb02fddb" prot="public">
+          <name>Plate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a08e0c44e2f034c8576f181938793d9d4a90589c47f06eb971d548591f23c285af" prot="public">
+          <name>Custom</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="7" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a0da7261dee4b45b4da33285138dfc7f6" prot="public" static="no">
+        <name>SensitivityType</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a0da7261dee4b45b4da33285138dfc7f6a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a0da7261dee4b45b4da33285138dfc7f6ab5b8e20937205384be7b9e0c29a28fdb" prot="public">
+          <name>Lowest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a0da7261dee4b45b4da33285138dfc7f6a28d0edd045e05cf5af64e35ae0c4c6ef" prot="public">
+          <name>Low</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a0da7261dee4b45b4da33285138dfc7f6a87f8a6ab85c9ced3702b4ea641ad4bb5" prot="public">
+          <name>Medium</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a0da7261dee4b45b4da33285138dfc7f6a655d20c1ca69519ca647684edbb2db35" prot="public">
+          <name>High</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a0da7261dee4b45b4da33285138dfc7f6a582996407922dab08d5cf2b3d2a7c1c9" prot="public">
+          <name>Highest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1ab0dd883bf1dffc48034ea479bbed0ae9" prot="public" static="no">
+        <name>ChemiModeType</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1ab0dd883bf1dffc48034ea479bbed0ae9a66ba162102bbf6ae31b522aec561735e" prot="public">
+          <name>Single</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1ab0dd883bf1dffc48034ea479bbed0ae9aeb2527806a7e1ef48009eaaa785368fe" prot="public">
+          <name>Cumulative</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1ab0dd883bf1dffc48034ea479bbed0ae9aa0bf169f2539e893e00d7b1296bc4d8e" prot="public">
+          <name>Multiple</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a6c899db9d207d1c75fdece37ef37d8a1" prot="public" static="no">
+        <name>ExposureType</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a6c899db9d207d1c75fdece37ef37d8a1a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a6c899db9d207d1c75fdece37ef37d8a1a5ed710cf6c1c4f55bc203e7aabfd410e" prot="public">
+          <name>OverExposure</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a6c899db9d207d1c75fdece37ef37d8a1abea2c035d6ce6f6980a1545a4c6a4e59" prot="public">
+          <name>UnderExposure</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a6c899db9d207d1c75fdece37ef37d8a1af6a8c03445404bb0f5a532b792c5787d" prot="public">
+          <name>WideDynamicRange</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a5d6ecab88720726dda0d3d950cbf44ab" prot="public" static="no">
+        <name>ChannelType</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a5d6ecab88720726dda0d3d950cbf44abab50339a10e1de285ac99d4c3990b8693" prot="public">
+          <name>NONE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a5d6ecab88720726dda0d3d950cbf44abaa2d9547b5d3dd9f05984475f7c926da0" prot="public">
+          <name>RED</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a5d6ecab88720726dda0d3d950cbf44aba9de0e5dd94e861317e74964bed179fa0" prot="public">
+          <name>GREEN</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1a5d6ecab88720726dda0d3d950cbf44abab5bf627e448384cf3a4c35121ca6008d" prot="public">
+          <name>WHITE</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageChannelSettings.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageChannelSettings.cs" bodystart="6" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1aec5110a36b4743dbb128f4e2aae1592e" prot="public" static="no">
+        <name>ImageChannelType</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1aec5110a36b4743dbb128f4e2aae1592ea6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1aec5110a36b4743dbb128f4e2aae1592eaee38e4d5dd68c4e440825018d549cb47" prot="public">
+          <name>Red</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1aec5110a36b4743dbb128f4e2aae1592ead382816a3cbeed082c9e216e7392eed1" prot="public">
+          <name>Green</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1aec5110a36b4743dbb128f4e2aae1592ea9594eec95be70e7b1710f730fdda33d9" prot="public">
+          <name>Blue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1aec5110a36b4743dbb128f4e2aae1592ea994ae1d9731cebe455aff211bcb25b93" prot="public">
+          <name>Gray</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_imaging_1aec5110a36b4743dbb128f4e2aae1592ea3037bfcfe8ff40986452eec97ea71b84" prot="public">
+          <name>Mix</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageInfo.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageInfo.cs" bodystart="15" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

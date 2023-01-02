@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_negate_converter" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::LogicalNegateConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_negate_converter_1a8617a4b8c0115bf296800da818a3746e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.LogicalNegateConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>System.Globalization.CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalNegateConverter.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalNegateConverter.cs" bodystart="9" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_negate_converter_1af6d5dbe1752738f408b21b987b9f30a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.LogicalNegateConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>System.Globalization.CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalNegateConverter.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalNegateConverter.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="648">
+        <label>IValueConverter</label>
+      </node>
+      <node id="647">
+        <label>Sequlite.WPF.Framework.LogicalNegateConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_negate_converter"/>
+        <childnode refid="648" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="650">
+        <label>IValueConverter</label>
+      </node>
+      <node id="649">
+        <label>Sequlite.WPF.Framework.LogicalNegateConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_negate_converter"/>
+        <childnode refid="650" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalNegateConverter.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalNegateConverter.cs" bodystart="7" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_negate_converter_1a8617a4b8c0115bf296800da818a3746e" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::LogicalNegateConverter</scope><name>Convert</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_negate_converter_1af6d5dbe1752738f408b21b987b9f30a8" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::LogicalNegateConverter</scope><name>ConvertBack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

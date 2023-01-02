@@ -1,0 +1,71 @@
+﻿<Window x:Class="Sequlite.ALF.EngineerGUI.View.RecipetoolView.StepEditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sequlite.ALF.EngineerGUI.View.RecipetoolView"
+        xmlns:vm="clr-namespace:Sequlite.ALF.EngineerGUI.ViewModel.RecipetoolVM"
+        mc:Ignorable="d"
+        Title="Edit Step..." Height="800" Width="580" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:SetTemperStepViewModel}">
+            <local:SetTemperStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:StopTemperStepViewModel}">
+            <local:StopTemperStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:SetPreHeatTemperStepViewModel}">
+            <local:SetPreHeatTempStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:StopPreHeatingStepViewModel}">
+            <local:StopPreHeatingStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ImagingStepViewModel}">
+            <local:ImagingStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:MoveStageStepViewModel}">
+            <local:MoveStageStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:PumpingStepViewModel}">
+            <local:PumpingStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:LoopStepViewModel}">
+            <local:LoopStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:RunRecipeStepViewModel}">
+            <local:RunRecipeStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:WaitingStepViewModel}">
+            <local:WaitingStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:CommentStepViewModel}">
+            <local:CommentStepView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:PumpingStepVMRev2}">
+            <local:PumpingStepViewRev2/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:MoveStageStepVMRev2}">
+            <local:MoveStageViewRev2/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <ContentControl Grid.Row="0" Content="{Binding Path=CurrentStep}"/>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right">
+                <Button Content="Update" Margin="5" Command="{Binding Path=UpdateCmd}"/>
+                <Button Content="Cancel" Margin="5" Click="CancelButton_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

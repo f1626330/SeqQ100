@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace" kind="class" prot="public">
+    <compoundname>Hywire::ALF::LEDTest::Workspace</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a28a75c6eba410efb002715efdad00f11" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" kindref="compound">Mainboard</ref></type>
+        <definition>Mainboard Hywire.ALF.LEDTest.Workspace._MB</definition>
+        <argsstring></argsstring>
+        <name>_MB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="19" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1ab7edf499c41ca50185b2bd071ffab83d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace._Interval1</definition>
+        <argsstring></argsstring>
+        <name>_Interval1</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="20" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1af5fc854bad3924f8f4d81e814b54ac5a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace._Interval2</definition>
+        <argsstring></argsstring>
+        <name>_Interval2</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="21" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a6323737425d4c560b7abefadfcc0cc66" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace._Interval3</definition>
+        <argsstring></argsstring>
+        <name>_Interval3</name>
+        <initializer>= 500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="22" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a4aba2ab6beb83681208f6d5c1fd83756" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace._Interval4</definition>
+        <argsstring></argsstring>
+        <name>_Interval4</name>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="23" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1abbcb85991fdcd648376c011e70e9383d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace._Loops</definition>
+        <argsstring></argsstring>
+        <name>_Loops</name>
+        <initializer>= 3000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="24" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a7caa4db9bb43fb6bbf4f3fe9a5ed7696" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.LEDTest.Workspace._IsTesting</definition>
+        <argsstring></argsstring>
+        <name>_IsTesting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="25" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a5589619ebb5ad377bf804f4c8277e4e4" prot="private" static="no" mutable="no">
+        <type>Thread</type>
+        <definition>Thread Hywire.ALF.LEDTest.Workspace._TestThread</definition>
+        <argsstring></argsstring>
+        <name>_TestThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="26" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a9946bf20f0214800f98d7385350defa3" prot="private" static="no" mutable="no">
+        <type>StringBuilder</type>
+        <definition>StringBuilder Hywire.ALF.LEDTest.Workspace._LogInfo</definition>
+        <argsstring></argsstring>
+        <name>_LogInfo</name>
+        <initializer>= new StringBuilder()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="27" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a45d675ea2baf44276e862e012c0cbc7e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace._PDValue</definition>
+        <argsstring></argsstring>
+        <name>_PDValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="28" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1aba65680ee91c8829e437b2d6a5f67abb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Hywire.ALF.LEDTest.Workspace._FolderStr</definition>
+        <argsstring></argsstring>
+        <name>_FolderStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="29" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a5215cec13df2114918c5344129fb26f1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.LEDTest.Workspace._StartCmd</definition>
+        <argsstring></argsstring>
+        <name>_StartCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="100" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1ae5fef201d5821064d18d22918bcc43b5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.LEDTest.Workspace._StopCmd</definition>
+        <argsstring></argsstring>
+        <name>_StopCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="301" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a2159474df2071629d89a072e10b16896" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace.Interval1</definition>
+        <argsstring></argsstring>
+        <name>Interval1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="33" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a16b67490d3fe3debee60d9e61f2e1f6f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace.Interval2</definition>
+        <argsstring></argsstring>
+        <name>Interval2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="45" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1abc9681d4eae31c8a7338c2e519010105" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace.Interval3</definition>
+        <argsstring></argsstring>
+        <name>Interval3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="57" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a021d0693cb8a319ae521bf546df24b8b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace.Interval4</definition>
+        <argsstring></argsstring>
+        <name>Interval4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="69" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a1fd3ee6a6a9c39982136a3616367e2b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Hywire.ALF.LEDTest.Workspace.Loops</definition>
+        <argsstring></argsstring>
+        <name>Loops</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="81" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a19910c9325d237a01983e1a51d3ab51c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Hywire.ALF.LEDTest.Workspace.LogInfo</definition>
+        <argsstring></argsstring>
+        <name>LogInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="93" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a4fe9c2b13a0f55002f7346590a61bb13" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.LEDTest.Workspace.StartCmd</definition>
+        <argsstring></argsstring>
+        <name>StartCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="101" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1aa4bc18d77985aab56278fbf401e1e34d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.LEDTest.Workspace.StopCmd</definition>
+        <argsstring></argsstring>
+        <name>StopCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="302" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1afcf2a6ec9a78cd9d54a330b17249ad1e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.LEDTest.Workspace.ExecuteStartCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteStartCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="113" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="113" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1afbca39f5815db2f47a987c4b374377aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.LEDTest.Workspace.TestProcess</definition>
+        <argsstring>()</argsstring>
+        <name>TestProcess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="121" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="121" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a97329819bd74c3adbeefe3fbb6a83092" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.LEDTest.Workspace.IntervalTest</definition>
+        <argsstring>(int interval)</argsstring>
+        <name>IntervalTest</name>
+        <param>
+          <type>int</type>
+          <declname>interval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="159" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="159" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a6f40c25349aa34758f25c5aa25f04790" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.LEDTest.Workspace.CanExecuteStartCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteStartCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="294" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="294" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a22fd2fb3c522653a4d9467fd85acaf13" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.LEDTest.Workspace.ExecuteStopCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteStopCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="314" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="314" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1adb631458909ddfdc99ab1170ea96b7c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.LEDTest.Workspace.CanExecuteStopCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteStopCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="326" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="326" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a7c256c64f8003aac9110edffc01750e2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.LEDTest.Workspace.ClearLogInfo</definition>
+        <argsstring>()</argsstring>
+        <name>ClearLogInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="339" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="339" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a1a766d524c8363e0452c2e725156414b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.LEDTest.Workspace.AppendLogInfo</definition>
+        <argsstring>(string info)</argsstring>
+        <name>AppendLogInfo</name>
+        <param>
+          <type>string</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="345" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="345" bodyend="365"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1ad56ad9f82ee814d655bf608bbbc35e73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.LEDTest.Workspace.Initial</definition>
+        <argsstring>()</argsstring>
+        <name>Initial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="332" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="332" bodyend="337"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1389">
+        <label>Hywire.ALF.LEDTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace"/>
+        <childnode refid="1390" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1391">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1392">
+        <label>IDisposable</label>
+      </node>
+      <node id="1390">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1391" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1392" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1393">
+        <label>Hywire.ALF.LEDTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace"/>
+        <childnode refid="1394" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1397" relation="usage">
+          <edgelabel>_StartCmd</edgelabel>
+          <edgelabel>_StopCmd</edgelabel>
+        </childnode>
+        <childnode refid="1399" relation="usage">
+          <edgelabel>_MB</edgelabel>
+        </childnode>
+      </node>
+      <node id="1399">
+        <label>Sequlite.ALF.MainBoard.Mainboard</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard"/>
+        <childnode refid="1400" relation="usage">
+          <edgelabel>_LEDOnTimer</edgelabel>
+        </childnode>
+        <childnode refid="1401" relation="usage">
+          <edgelabel>_LEDLock</edgelabel>
+        </childnode>
+        <childnode refid="1402" relation="usage">
+          <edgelabel>_Comm</edgelabel>
+        </childnode>
+      </node>
+      <node id="1403">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="1400" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1398">
+        <label>ICommand</label>
+      </node>
+      <node id="1395">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1396">
+        <label>IDisposable</label>
+      </node>
+      <node id="1394">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1395" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1396" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1397">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="1398" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1400">
+        <label>System</label>
+      </node>
+      <node id="1402">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="1403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1401">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" line="17" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/Workspace.cs" bodystart="16" bodyend="367"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1aba65680ee91c8829e437b2d6a5f67abb" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_FolderStr</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1ab7edf499c41ca50185b2bd071ffab83d" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_Interval1</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1af5fc854bad3924f8f4d81e814b54ac5a" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_Interval2</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a6323737425d4c560b7abefadfcc0cc66" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_Interval3</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a4aba2ab6beb83681208f6d5c1fd83756" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_Interval4</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a7caa4db9bb43fb6bbf4f3fe9a5ed7696" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_IsTesting</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a9946bf20f0214800f98d7385350defa3" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_LogInfo</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1abbcb85991fdcd648376c011e70e9383d" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_Loops</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a28a75c6eba410efb002715efdad00f11" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_MB</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a45d675ea2baf44276e862e012c0cbc7e" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_PDValue</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a5215cec13df2114918c5344129fb26f1" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_StartCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1ae5fef201d5821064d18d22918bcc43b5" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_StopCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a5589619ebb5ad377bf804f4c8277e4e4" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>_TestThread</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a1a766d524c8363e0452c2e725156414b" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>AppendLogInfo</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a6f40c25349aa34758f25c5aa25f04790" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>CanExecuteStartCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1adb631458909ddfdc99ab1170ea96b7c1" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>CanExecuteStopCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a7c256c64f8003aac9110edffc01750e2" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>ClearLogInfo</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1afcf2a6ec9a78cd9d54a330b17249ad1e" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>ExecuteStartCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a22fd2fb3c522653a4d9467fd85acaf13" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>ExecuteStopCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1ad56ad9f82ee814d655bf608bbbc35e73" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>Initial</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a2159474df2071629d89a072e10b16896" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>Interval1</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a16b67490d3fe3debee60d9e61f2e1f6f" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>Interval2</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1abc9681d4eae31c8a7338c2e519010105" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>Interval3</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a021d0693cb8a319ae521bf546df24b8b" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>Interval4</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a97329819bd74c3adbeefe3fbb6a83092" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>IntervalTest</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a19910c9325d237a01983e1a51d3ab51c" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>LogInfo</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a1fd3ee6a6a9c39982136a3616367e2b0" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>Loops</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1a4fe9c2b13a0f55002f7346590a61bb13" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>StartCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1aa4bc18d77985aab56278fbf401e1e34d" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>StopCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace_1afbca39f5815db2f47a987c4b374377aa" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::Workspace</scope><name>TestProcess</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

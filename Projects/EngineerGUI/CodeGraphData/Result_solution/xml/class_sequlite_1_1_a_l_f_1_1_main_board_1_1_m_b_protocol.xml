@@ -1,0 +1,996 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::MainBoard::MBProtocol</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct" prot="public">Sequlite::ALF::MainBoard::MBProtocol::ProtocolStruct</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a12d061a9925c3bdff5da3e634d756b73" prot="public" static="no">
+        <name>Addesses</name>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a12d061a9925c3bdff5da3e634d756b73a083149936b645591fef01dd1eaf5a766" prot="public">
+          <name>MainBoard</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a757cecb894c1c9ac100e1f9fd1892ee3" prot="public" static="no">
+        <name>Functions</name>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a757cecb894c1c9ac100e1f9fd1892ee3a66c1b4c7f3dc385b68a9fa903ccd016d" prot="public">
+          <name>Query</name>
+          <initializer>= 0x03</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a757cecb894c1c9ac100e1f9fd1892ee3a51ac4bf63a0c6a9cefa7ba69b4154ef1" prot="public">
+          <name>Setting</name>
+          <initializer>= 0x10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" prot="public" static="no">
+        <name>Registers</name>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a6c2f9b8a40f0c65c5847b5b482a7aba9" prot="public">
+          <name>DeviceType</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20ab0fa50d4cf25138ac53459b7a53f171b" prot="public">
+          <name>HWVersion</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a746014b12d87d33b3c85e48ce8015b08" prot="public">
+          <name>FWVersion</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a16b362d7bf4178b44246c010325751a4" prot="public">
+          <name>GLEDIntensity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a82f5d1baa4151fec7f6c55d4eacadcbe" prot="public">
+          <name>GLEDStatus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20af6e51f6d24aebd8893a97f6501d2fbd4" prot="public">
+          <name>RLEDIntensity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a578cbbdca3a598a53af05eb438300a67" prot="public">
+          <name>RLEDStatus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20ac0b8998fd5a20631e839e141cbecbf93" prot="public">
+          <name>OnOffInputs</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20af8d39c80b01899658adf2f6aa86563a6" prot="public">
+          <name>ChemiTemperCtrlSwitch</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a8e949a73169de3d9826e87d9e805c8dd" prot="public">
+          <name>ChemiTemperCtrlRamp</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a6280b97a6f6d1ce1901bbe0126204341" prot="public">
+          <name>ChemiTemperCtrlPower</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20afb0f9768b68bf13b939ce6499b1c9458" prot="public">
+          <name>ChemiTemper</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20ae3ae31139d7374749b4875b3ebc8e3ce" prot="public">
+          <name>HeatSinkTemper</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a2573ad5b2a5c61ffa97114dd8bc71d8b" prot="public">
+          <name>CoolerTemper</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a9a1bc5fd61be102d8ab5306d75f3a9c6" prot="public">
+          <name>AmbientTemper</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20aef10e3e66194574239485783041e3989" prot="public">
+          <name>PDValue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20af077d8626a1886fe003a5950c56c173d" prot="public">
+          <name>WLEDIntensity</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a47bd2b2601d8d70b17f5e00615ddb656" prot="public">
+          <name>WLEDStatus</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20ad7b9a1502c550a71360ca683eacbd083" prot="public">
+          <name>FilterPosition</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20ad92ade4f1c7f91a8f1c9f950354352af" prot="public">
+          <name>YMotionSpeed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a1caa0637deef1690cf79146690181923" prot="public">
+          <name>YMotionAccel</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a2c912a949a100fc68d49e1c1610504a2" prot="public">
+          <name>YMotionPos</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a342c4741ec5a9660a583aace17c3ab7e" prot="public">
+          <name>YMotionEn</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20aad205741b1289264dcf179214a3d0e0f" prot="public">
+          <name>PMotionPos</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20abbbef3dc216a73e2dfaba5d2b9b57cb8" prot="public">
+          <name>TemperCtrlPro</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a7b1499a2a95b0826624b1e568e86a34c" prot="public">
+          <name>TemperCtrlInt</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a80141f023ccbf1bf33ed5d125d283ae4" prot="public">
+          <name>TemperCtrlDif</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20a4fd425232eeb1419532f8503e05a87c3" prot="public">
+          <name>PMotionEnable</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20af47c890313b297d62052302c58407da5" prot="public">
+          <name>PMotionPower</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20abe60cddd45f7e9cd124117e01ef917ed" prot="public">
+          <name>TemperCtrlPower</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="23" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a00778cb3050fca8c6d6e2bc89937d1cc" prot="public" static="no">
+        <name>FrameBorder</name>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a00778cb3050fca8c6d6e2bc89937d1cca98921133d10fbdb0fb6dbb7b2648befe" prot="public">
+          <name>Head</name>
+          <initializer>= 0x55</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a00778cb3050fca8c6d6e2bc89937d1cca87557f11575c0ad78e4e28abedc13b6e" prot="public">
+          <name>End</name>
+          <initializer>= 0xaa</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="56" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a665e92792fe6d1e7cfd4d08a7156d411" prot="public" static="no">
+        <name>SettingResults</name>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a665e92792fe6d1e7cfd4d08a7156d411a8f3d10eb21bd36347c258679eba9e92b" prot="public">
+          <name>Finished</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a665e92792fe6d1e7cfd4d08a7156d411adb5042c205d8557a533101afd94358a1" prot="public">
+          <name>BusyDoing</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a665e92792fe6d1e7cfd4d08a7156d411ad7c8c85bf79bbe1b7188497c32c3b0ca" prot="public">
+          <name>Failed</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="62" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="61" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a52f14333bf8741bb3eb9ce655b199695" prot="package" static="yes" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1acae8fd603f9dc4bbe7146354b87835a6" kindref="member">ChangeStatusHandle</ref></type>
+        <definition>ChangeStatusHandle Sequlite.ALF.MainBoard.MBProtocol.OnChangingStatus</definition>
+        <argsstring></argsstring>
+        <name>OnChangingStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a1c691772104edd4f207de6d02b686c32" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.MainBoard.MBProtocol.DeviceType</definition>
+        <argsstring></argsstring>
+        <name>DeviceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="70" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a5c5fdb06908f1df38518c59ea6626965" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.MainBoard.MBProtocol.HWVersion</definition>
+        <argsstring></argsstring>
+        <name>HWVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="71" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a80656773c7900e2bf6e40515e9df1815" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.MainBoard.MBProtocol.FWVersion</definition>
+        <argsstring></argsstring>
+        <name>FWVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="72" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1ab7166e139bc883f02c6dc1ef1ca0472d" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.MBProtocol.GLEDIntensity</definition>
+        <argsstring></argsstring>
+        <name>GLEDIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="73" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aec6c339c57a08e658701c4e8e70ecab5" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.MBProtocol.IsGLEDOn</definition>
+        <argsstring></argsstring>
+        <name>IsGLEDOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="74" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1acc5b1807958ef26d5f546908494dd5ca" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.MBProtocol.RLEDIntensity</definition>
+        <argsstring></argsstring>
+        <name>RLEDIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="75" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a4c78631a24ed44e86bd3e30703e8751b" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.MBProtocol.IsRLEDOn</definition>
+        <argsstring></argsstring>
+        <name>IsRLEDOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="76" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1adba10c468b1cef7fd507e64b497ee8ef" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type" kindref="compound">OnOffInputsType</ref></type>
+        <definition>OnOffInputsType Sequlite.ALF.MainBoard.MBProtocol.OnOffInputs</definition>
+        <argsstring></argsstring>
+        <name>OnOffInputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="77" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a7a891d103270051616b9c09be58565ea" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.MBProtocol.IsChemiTemperCtrlOn</definition>
+        <argsstring></argsstring>
+        <name>IsChemiTemperCtrlOn</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type" kindref="compound">OnOffInputsType</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="78" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1abe45176ffc49f47f5376e02ac5964470" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.MBProtocol.ChemiTemperCtrlRamp</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperCtrlRamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="79" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1ab9309ee085cd156e05ebcea42ed9d041" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.MBProtocol.ChemiTemperCtrlPower</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperCtrlPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="80" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a54a69cb772f16576b6aee46f5f7f0c7d" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.MBProtocol.ChemiTemper</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="81" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a68b8ce2e5753b672066a867866466528" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.MBProtocol.HeatSinkTemper</definition>
+        <argsstring></argsstring>
+        <name>HeatSinkTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="82" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1af3884e7fcf023885d08c30d182f9e13e" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.MBProtocol.CoolerTemper</definition>
+        <argsstring></argsstring>
+        <name>CoolerTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="83" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a083665e1b0913969f2ef0e6c3b6b89ef" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.MBProtocol.AmbientTemper</definition>
+        <argsstring></argsstring>
+        <name>AmbientTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="84" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1affb47c296753faf778df5eaecd553611" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.MBProtocol.PDValue</definition>
+        <argsstring></argsstring>
+        <name>PDValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="85" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a2daff7d704074f0a87ae54ee3781fd3a" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.MBProtocol.WLEDIntensity</definition>
+        <argsstring></argsstring>
+        <name>WLEDIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="86" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa85786edbf67021cf6199e58ae07e6b6" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.MBProtocol.IsWLEDOn</definition>
+        <argsstring></argsstring>
+        <name>IsWLEDOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="87" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aea51c229b4dae5af6ebda6d03be57ecf" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.MBProtocol.FilterPos</definition>
+        <argsstring></argsstring>
+        <name>FilterPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="88" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a1636bcecaf0b972672cd4ec3e00d63d9" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.MBProtocol.YMotionSpd</definition>
+        <argsstring></argsstring>
+        <name>YMotionSpd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="89" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a47454012fbae1417955bd2b282c71296" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.MBProtocol.YMotionAcc</definition>
+        <argsstring></argsstring>
+        <name>YMotionAcc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="90" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a8552aa926f48abc2c57648b1cf9b4df6" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.MBProtocol.YMotionPos</definition>
+        <argsstring></argsstring>
+        <name>YMotionPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="91" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a37bb255769485169bc9b7698240af349" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.MBProtocol.IsYMotionEnabled</definition>
+        <argsstring></argsstring>
+        <name>IsYMotionEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="92" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a670da087a23ccf704f54c5497b7b37bf" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.MBProtocol.PMotionPos</definition>
+        <argsstring></argsstring>
+        <name>PMotionPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="93" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a2060d124db6f21f7efc88b044f1f08f3" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.MBProtocol.TemperCtrlPro</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlPro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="94" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1ad5eb2ae79add544f1353b2bcd38a85ae" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.MBProtocol.TemperCtrlInt</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="95" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a867b1a9ee73435b027f837c4d99ab651" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.MBProtocol.TemperCtrlDif</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlDif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="96" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa7f3b5e6956a3c9711322649ed79de01" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.MBProtocol.TemperCtrlPower</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="97" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a10a2ee9880599a1a74d141c4202c34ff" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.MBProtocol.IsPMotionEnabled</definition>
+        <argsstring></argsstring>
+        <name>IsPMotionEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="98" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a24d02d8d5beb979e88e9bbed5f4ad620" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.MBProtocol.PMotionPower</definition>
+        <argsstring></argsstring>
+        <name>PMotionPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="99" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1ae896a7b6fb5ab1dc732e43012ce12b28" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>CommStatus</type>
+        <definition>CommStatus Sequlite.ALF.MainBoard.MBProtocol.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="102" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a7a22fdbbfdc96098a4faa846acfd9d3d" prot="private" static="yes" mutable="no">
+        <type>CommStatus</type>
+        <definition>CommStatus Sequlite.ALF.MainBoard.MBProtocol._Status</definition>
+        <argsstring></argsstring>
+        <name>_Status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="101" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1acae8fd603f9dc4bbe7146354b87835a6" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.MainBoard.MBProtocol.ChangeStatusHandle</definition>
+        <argsstring>(CommStatus newStatus)</argsstring>
+        <name>ChangeStatusHandle</name>
+        <param>
+          <type>CommStatus</type>
+          <declname>newStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa1a9d1888dfc98bcb852ca56939a6c4e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.MainBoard.MBProtocol.MasterRequest</definition>
+        <argsstring>(ProtocolStruct sendingFrame)</argsstring>
+        <name>MasterRequest</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct" kindref="compound">ProtocolStruct</ref></type>
+          <declname>sendingFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="128" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="128" bodyend="140"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1aa9f171e7966f5457c5fe13b01b9e1c39" compoundref="_m_b_protocol_8cs" startline="117">Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.Address</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a00d14cea9bc84afd43d3c550cef8975d" compoundref="_m_b_protocol_8cs" startline="118">Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.Function</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1aeb1568769048e6495739e4a16a54c99c" compoundref="_m_b_protocol_8cs" startline="123">Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.ProtocolEnd</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a669c5fce285677673b999079a93ed9ba" compoundref="_m_b_protocol_8cs" startline="116">Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.ProtocolHead</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a205d4382d6deb829cba240e0fd2d6198" compoundref="_m_b_protocol_8cs" startline="119">Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.StartedModule</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1abb1ceb845bf39638da89c8f280efe287" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.MainBoard.MBProtocol.Query</definition>
+        <argsstring>(Registers startedModule, byte numbers)</argsstring>
+        <name>Query</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">Registers</ref></type>
+          <declname>startedModule</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>numbers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="142" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="142" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a328b90f384e1fa07c5e69236b2ebfca7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.MainBoard.MBProtocol.Setting</definition>
+        <argsstring>(Registers startedModule, byte numbers, byte[] dataField)</argsstring>
+        <name>Setting</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">Registers</ref></type>
+          <declname>startedModule</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>numbers</declname>
+        </param>
+        <param>
+          <type>byte[]</type>
+          <declname>dataField</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="159" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="159" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a221c23366a096a4d836d9cdffa537cd0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.ALF.MainBoard.MBProtocol.ResponseDecoding</definition>
+        <argsstring>(byte[] readBuf, int readIndex, out int detectedFrameIndex, out Registers startReg, out int regNumbers)</argsstring>
+        <name>ResponseDecoding</name>
+        <param>
+          <type>byte[]</type>
+          <declname>readBuf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>readIndex</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>detectedFrameIndex</declname>
+        </param>
+        <param>
+          <type>out <ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">Registers</ref></type>
+          <declname>startReg</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>regNumbers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="181" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="181" bodyend="374"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a116fcdb4f6a065d4627ad124b74c0320" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.MainBoard.MBProtocol.IntToMsbFirstBytes</definition>
+        <argsstring>(int number)</argsstring>
+        <name>IntToMsbFirstBytes</name>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="380" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="380" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a16dcba65de16b63fe250d755f57f4c09" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Sequlite.ALF.MainBoard.MBProtocol.MsbFirstBytesToInt</definition>
+        <argsstring>(byte[] source, int offset)</argsstring>
+        <name>MsbFirstBytesToInt</name>
+        <param>
+          <type>byte[]</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="389" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="389" bodyend="393"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="767">
+        <label>Sequlite.ALF.MainBoard.MBProtocol</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol"/>
+        <childnode refid="768" relation="usage">
+          <edgelabel>_Status</edgelabel>
+        </childnode>
+      </node>
+      <node id="768">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="8" bodyend="396"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a7a22fdbbfdc96098a4faa846acfd9d3d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>_Status</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a12d061a9925c3bdff5da3e634d756b73" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>Addesses</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a083665e1b0913969f2ef0e6c3b6b89ef" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>AmbientTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1acae8fd603f9dc4bbe7146354b87835a6" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>ChangeStatusHandle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a54a69cb772f16576b6aee46f5f7f0c7d" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>ChemiTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1ab9309ee085cd156e05ebcea42ed9d041" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>ChemiTemperCtrlPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1abe45176ffc49f47f5376e02ac5964470" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>ChemiTemperCtrlRamp</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1af3884e7fcf023885d08c30d182f9e13e" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>CoolerTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a1c691772104edd4f207de6d02b686c32" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>DeviceType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aea51c229b4dae5af6ebda6d03be57ecf" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>FilterPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a00778cb3050fca8c6d6e2bc89937d1cc" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>FrameBorder</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a757cecb894c1c9ac100e1f9fd1892ee3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>Functions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a80656773c7900e2bf6e40515e9df1815" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>FWVersion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1ab7166e139bc883f02c6dc1ef1ca0472d" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>GLEDIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a68b8ce2e5753b672066a867866466528" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>HeatSinkTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a5c5fdb06908f1df38518c59ea6626965" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>HWVersion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a116fcdb4f6a065d4627ad124b74c0320" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>IntToMsbFirstBytes</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a7a891d103270051616b9c09be58565ea" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>IsChemiTemperCtrlOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aec6c339c57a08e658701c4e8e70ecab5" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>IsGLEDOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a10a2ee9880599a1a74d141c4202c34ff" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>IsPMotionEnabled</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a4c78631a24ed44e86bd3e30703e8751b" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>IsRLEDOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa85786edbf67021cf6199e58ae07e6b6" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>IsWLEDOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a37bb255769485169bc9b7698240af349" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>IsYMotionEnabled</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa1a9d1888dfc98bcb852ca56939a6c4e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>MasterRequest</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a16dcba65de16b63fe250d755f57f4c09" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>MsbFirstBytesToInt</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a52f14333bf8741bb3eb9ce655b199695" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>OnChangingStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1adba10c468b1cef7fd507e64b497ee8ef" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>OnOffInputs</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1affb47c296753faf778df5eaecd553611" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>PDValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a670da087a23ccf704f54c5497b7b37bf" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>PMotionPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a24d02d8d5beb979e88e9bbed5f4ad620" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>PMotionPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1abb1ceb845bf39638da89c8f280efe287" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>Query</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>Registers</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a221c23366a096a4d836d9cdffa537cd0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>ResponseDecoding</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1acc5b1807958ef26d5f546908494dd5ca" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>RLEDIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a328b90f384e1fa07c5e69236b2ebfca7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>Setting</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a665e92792fe6d1e7cfd4d08a7156d411" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>SettingResults</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1ae896a7b6fb5ab1dc732e43012ce12b28" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>Status</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a867b1a9ee73435b027f837c4d99ab651" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>TemperCtrlDif</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1ad5eb2ae79add544f1353b2bcd38a85ae" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>TemperCtrlInt</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa7f3b5e6956a3c9711322649ed79de01" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>TemperCtrlPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a2060d124db6f21f7efc88b044f1f08f3" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>TemperCtrlPro</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a2daff7d704074f0a87ae54ee3781fd3a" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>WLEDIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a47454012fbae1417955bd2b282c71296" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>YMotionAcc</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a8552aa926f48abc2c57648b1cf9b4df6" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>YMotionPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a1636bcecaf0b972672cd4ec3e00d63d9" prot="package" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol</scope><name>YMotionSpd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

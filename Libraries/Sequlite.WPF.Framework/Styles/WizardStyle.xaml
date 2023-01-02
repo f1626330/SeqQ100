@@ -1,0 +1,119 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Sequlite.WPF.Framework"
+                    >
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Sequlite.WPF.Framework;component/Styles/ColorDictionary.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!--<local:ObjectToColorConverter x:Key="ObjectToColorNullSafe" />-->
+
+    <Style x:Key="wizradButtonStyle" TargetType="{x:Type Button}">
+        <Setter Property="Padding" Value="3.5,0" />
+        <Setter Property="Margin" Value="10" />
+        <Setter Property="MinWidth" Value="80" />
+        <Setter Property="FontSize" Value="22" />
+       
+        <Setter Property="local:CornerRadiusSetter.CornerRadius" Value="3.5" />
+    </Style>
+
+    
+
+    <!-- HEADERED CONTENT CONTROL STYLE -->
+    
+    <!-- HEADERED CONTENT CONTROL STYLE -->
+    <Style x:Key="wizardHeaderedControlStyle"  TargetType="{x:Type HeaderedContentControl}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type HeaderedContentControl}">
+                    <StackPanel Margin="2,0">
+                        <Grid Margin="1,1,1,12" RenderTransformOrigin="0.5,0.5">
+                            <!-- step header underline shape -->
+                            <Rectangle
+                              Fill="AliceBlue"
+                              Height="3"
+                              Margin="10,0"
+                              Opacity="0.6"
+                              RadiusX="8"
+                              RadiusY="8"
+                              VerticalAlignment="Bottom" 
+                              />        
+                            <!-- step header name -->
+                            <ContentPresenter
+                              ContentSource="Header"
+                              TextBlock.FontSize="30"
+                              TextBlock.FontWeight="DemiBold"
+                              TextBlock.Foreground="DarkGray"
+                              HorizontalAlignment="Center"
+                              VerticalAlignment="Center" 
+                              />        
+                            <Grid.Effect>
+                                <DropShadowEffect Opacity="0.2" />
+                            </Grid.Effect>
+                            <Grid.RenderTransform>
+                                <RotateTransform Angle="-3" />
+                            </Grid.RenderTransform>
+                        </Grid>
+                        <Grid>
+                            <Rectangle Fill="{TemplateBinding Background}" />
+                            <ContentPresenter ContentSource="Content" />
+                        </Grid>
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <!-- WIZARD STEP TEMPLATE -->
+    <DataTemplate x:Key="wizardStepTemplate">
+        <Border
+        x:Name="bdOuter"
+        BorderBrush="Goldenrod"
+        BorderThickness="0,0,1,1"
+        CornerRadius="0,12,12,0"
+        Margin="1,1,1,12"
+        Opacity="0.25"
+        SnapsToDevicePixels="True"
+        >
+
+            <!-- , TopLeft, TopRight, BottomRight, BottomLeft, step shape -->
+          <Border
+          x:Name="bdInner"
+          Background="#EFFEFEFE"
+          BorderBrush="LightBlue"
+          BorderThickness="2,2,1,1"
+          CornerRadius="0,12,12,0"
+          Padding="5"
+          >
+            <!--step text -->
+            <TextBlock 
+                x:Name="txt"
+                Margin="4,0,0,0"
+                FontSize="22"
+                Text="{Binding Path=DisplayName }" 
+            />
+            </Border>
+        </Border>
+
+        <DataTemplate.Triggers>
+            <DataTrigger Binding="{Binding Path=IsCurrentPage}" Value="True">
+                <Setter
+            TargetName="txt"
+            Property="FontWeight"
+            Value="Bold"
+            />
+            <Setter
+            TargetName="bdInner"
+            Property="Background"
+            Value="AliceBlue" 
+            />
+            <Setter
+            TargetName="bdOuter"
+            Property="Opacity"
+            Value="1" 
+            />
+            </DataTrigger>
+        </DataTemplate.Triggers>
+    </DataTemplate>
+</ResourceDictionary>

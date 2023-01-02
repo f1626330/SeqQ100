@@ -1,0 +1,13 @@
+﻿[*.cs]
+
+# CS0168: Variable is declared but never used
+dotnet_diagnostic.CS0168.severity = silent
+
+# IDE0017: Simplify object initialization
+dotnet_style_object_initializer = false:suggestion
+
+# IDE0018: Inline variable declaration
+csharp_style_inlined_variable_declaration = false:suggestion
+
+# IDE0044: Add readonly modifier
+dotnet_style_readonly_field = false:suggestion

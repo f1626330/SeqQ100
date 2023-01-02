@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c63ff6a97f1cffbe8f6e54470010746c" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.Image.Processing</compoundname>
+    <innerdir refid="dir_2831af75228cf3ab29a0ee8bf2f7402f">D:/Source/Alf/Libraries/Sequlite.Image.Processing/Properties</innerdir>
+    <innerdir refid="dir_3674a055060781523fa72ce00f737040">D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils</innerdir>
+    <innerfile refid="_bad_image_identifier_8cs">BadImageIdentifier.cs</innerfile>
+    <innerfile refid="_cycle_parameter_8cs">CycleParameter.cs</innerfile>
+    <innerfile refid="_despeckler3x3_filter_8cs">Despeckler3x3Filter.cs</innerfile>
+    <innerfile refid="_despeckler_filter_8cs">DespecklerFilter.cs</innerfile>
+    <innerfile refid="_sequlite_8_image_8_processing_2_directory_number_8cs">DirectoryNumber.cs</innerfile>
+    <innerfile refid="_fast_gaussian_filter_8cs">FastGaussianFilter.cs</innerfile>
+    <innerfile refid="_flat_field_calibrate_8cs">FlatFieldCalibrate.cs</innerfile>
+    <innerfile refid="_i_image_statistics_8cs">IImageStatistics.cs</innerfile>
+    <innerfile refid="_image_arithmetic_8cs">ImageArithmetic.cs</innerfile>
+    <innerfile refid="_sequlite_8_image_8_processing_2_image_info_8cs">ImageInfo.cs</innerfile>
+    <innerfile refid="_sequlite_8_image_8_processing_2_image_processing_8cs">ImageProcessing.cs</innerfile>
+    <innerfile refid="_sequlite_8_image_8_processing_2_image_processing_c_m_d_8cs">ImageProcessingCMD.cs</innerfile>
+    <innerfile refid="_image_processing_helper_8cs">ImageProcessingHelper.cs</innerfile>
+    <innerfile refid="_image_statistics_8cs">ImageStatistics.cs</innerfile>
+    <innerfile refid="_rank_filter_8cs">RankFilter.cs</innerfile>
+    <innerfile refid="_r_i_p_p_stats_8cs">RIPPStats.cs</innerfile>
+    <innerfile refid="_run_time_parameter_8cs">RunTimeParameter.cs</innerfile>
+    <innerfile refid="_tile_parameter_8cs">TileParameter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/"/>
+  </compounddef>
+</doxygen>

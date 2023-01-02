@@ -1,0 +1,1012 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a00c91febdf0f36cfeed86d92000016b6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" kindref="compound">Mainboard</ref></type>
+        <definition>Mainboard Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._MainBoard</definition>
+        <argsstring></argsstring>
+        <name>_MainBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="15" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a2b5eb7859e4428d71bb6e6895714e601" prot="private" static="no" mutable="no">
+        <type>Thread</type>
+        <definition>Thread Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._QueryingThread</definition>
+        <argsstring></argsstring>
+        <name>_QueryingThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="16" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a559d868ff02878e529b05f20ad0e4878" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._DeviceType</definition>
+        <argsstring></argsstring>
+        <name>_DeviceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="18" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a3c0d60c2df071caa8dcd1b1c461eebdc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._HWVersion</definition>
+        <argsstring></argsstring>
+        <name>_HWVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="19" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a859fa4c3fd97abe1dc420f66dcd4322c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._FWVersion</definition>
+        <argsstring></argsstring>
+        <name>_FWVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="20" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a0b370d1167f692326693afa9ec85fcb0" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._GLEDIntensityGet</definition>
+        <argsstring></argsstring>
+        <name>_GLEDIntensityGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="21" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a01ec68afdb0478ccc86b61c906c415d2" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._GLEDIntensitySet</definition>
+        <argsstring></argsstring>
+        <name>_GLEDIntensitySet</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="22" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a32e769acc8d1e452b1875ad8b59ce35e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._IsGLEDOnGet</definition>
+        <argsstring></argsstring>
+        <name>_IsGLEDOnGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="23" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a83fe006dfe28786a3e8bd8be7e88b8d3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._IsGLEDOnSet</definition>
+        <argsstring></argsstring>
+        <name>_IsGLEDOnSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="24" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aa30059fc51bd364728be2be6bc338cc4" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._RLEDIntensityGet</definition>
+        <argsstring></argsstring>
+        <name>_RLEDIntensityGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="25" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1acd9af6c5459df3bc038b8b0e3ae23497" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._RLEDIntensitySet</definition>
+        <argsstring></argsstring>
+        <name>_RLEDIntensitySet</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="26" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1afa70fa953c3b8839a32a0e40cbc9544d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._IsRLEDOnGet</definition>
+        <argsstring></argsstring>
+        <name>_IsRLEDOnGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="27" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1acca5c424f5e1c6e0e8c1646e3ff074b4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._IsRLEDOnSet</definition>
+        <argsstring></argsstring>
+        <name>_IsRLEDOnSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="28" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a3c0594a0fe3978f46e1afa292d84dace" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._WLEDIntensityGet</definition>
+        <argsstring></argsstring>
+        <name>_WLEDIntensityGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="29" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a59e386d4a2dbdc01a538d528119481eb" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._WLEDIntensitySet</definition>
+        <argsstring></argsstring>
+        <name>_WLEDIntensitySet</name>
+        <initializer>= 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="30" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a76d0f62e50ac265c4591a2dc6757ac2f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._IsWLEDOnGet</definition>
+        <argsstring></argsstring>
+        <name>_IsWLEDOnGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="31" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aaacdcc4b5b053abf7da5ded2d5d885f7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._IsWLEDOnSet</definition>
+        <argsstring></argsstring>
+        <name>_IsWLEDOnSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="32" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a3505467a26c8ca498f85cb6019769295" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._IsDoorSnsrOn</definition>
+        <argsstring></argsstring>
+        <name>_IsDoorSnsrOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="34" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab55a916ebf769f42f21030072e5005a7" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._PDValue</definition>
+        <argsstring></argsstring>
+        <name>_PDValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="36" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a0b2db1a4b01da5ec5ea3f51acac2f1f0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._IsGLEDSelected</definition>
+        <argsstring></argsstring>
+        <name>_IsGLEDSelected</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="38" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aa12669283ca331bbb1cae737f5f43613" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._IsRLEDSelected</definition>
+        <argsstring></argsstring>
+        <name>_IsRLEDSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="39" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a15c1c59e591bbecae59481d02b42d583" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._IsWLEDSelected</definition>
+        <argsstring></argsstring>
+        <name>_IsWLEDSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="40" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a300048c565d2f0a46d21ac555a4d4b1a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._SetLEDIntensityCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetLEDIntensityCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="459" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a623b90d3712b4f5b8b29a6b26f829191" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._GetPDValueCmd</definition>
+        <argsstring></argsstring>
+        <name>_GetPDValueCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="498" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="498" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab19fa62fd1881c7f2edb044097d7d23b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" kindref="compound">Mainboard</ref></type>
+        <definition>Mainboard Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.MainBoard</definition>
+        <argsstring></argsstring>
+        <name>MainBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="155" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="155" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acbb39be0a6afe557c86153a6f4c567de" compoundref="_camera_view_model_8cs" startline="467" endline="520">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteCaptureCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77be8e0d1d4adfc5076f56dc8c22dcb4" compoundref="_camera_view_model_8cs" startline="683" endline="738">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteLiveModeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a192f5b1184316171dd65a6a6b8a569d2" compoundref="_chemistry_view_model_8cs" startline="501" endline="507">Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSetCoolerTemperCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a26ea37947a39a0fce48d2e6b1b26d2bf" compoundref="_chemistry_view_model_8cs" startline="342" endline="365">Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSetTemperCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae927b2ea6420dfe9605c80c6fa0cdfb4" compoundref="_auto_focus_view_model_8cs" startline="269" endline="296">Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStartCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a5260554ddc40c1dc9f8abfffa994142c" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_main_window_8xaml_8cs" startline="31" endline="61">Sequlite.ALF.EngineerGUI.MainWindow.Window_Closing</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a0a66f472cf730f10a2ed288e4fac08af" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.DeviceType</definition>
+        <argsstring></argsstring>
+        <name>DeviceType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="157" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1af7550810269eab43beadbaaf69c27d5a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.HWVersion</definition>
+        <argsstring></argsstring>
+        <name>HWVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="169" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="170" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ac84bff42b3cdc5849276bceee86c9e92" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.FWVersion</definition>
+        <argsstring></argsstring>
+        <name>FWVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="181" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a7db45272c5381b31528827974287f36e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.GLEDIntensityGet</definition>
+        <argsstring></argsstring>
+        <name>GLEDIntensityGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="193" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a8bcd5ebe7ea9c0c59390ff4ad6c48e69" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.GLEDIntensitySet</definition>
+        <argsstring></argsstring>
+        <name>GLEDIntensitySet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="205" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a8872e5d2e67f75e878e6a4962dca1cf4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsGLEDOnGet</definition>
+        <argsstring></argsstring>
+        <name>IsGLEDOnGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="225" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ad2c8c0832eb679f459339c692a1ab713" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsGLEDOnSet</definition>
+        <argsstring></argsstring>
+        <name>IsGLEDOnSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="237" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ac3d60c463273f699074c02eee726eb39" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.RLEDIntensityGet</definition>
+        <argsstring></argsstring>
+        <name>RLEDIntensityGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="252" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ac6eec2c3bc6b8cd1ff6aec836c960ffc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.RLEDIntensitySet</definition>
+        <argsstring></argsstring>
+        <name>RLEDIntensitySet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="264" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a991de77ebdc344edf450ecaed217c625" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsRLEDOnGet</definition>
+        <argsstring></argsstring>
+        <name>IsRLEDOnGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="284" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a6ebdb395ae6889cb167b79384a4cd7f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsRLEDOnSet</definition>
+        <argsstring></argsstring>
+        <name>IsRLEDOnSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="296" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a203589872023f7826ab0ddd43809175f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.WLEDIntensityGet</definition>
+        <argsstring></argsstring>
+        <name>WLEDIntensityGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="311" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a3bfa7749072d6848a17abec7c67f64f7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.WLEDIntensitySet</definition>
+        <argsstring></argsstring>
+        <name>WLEDIntensitySet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="323" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab79770d9425d912502834554dfe9e709" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsWLEDOnGet</definition>
+        <argsstring></argsstring>
+        <name>IsWLEDOnGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="343" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ad885f290c5d2a18ab2c728c4af8fd88a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsWLEDOnSet</definition>
+        <argsstring></argsstring>
+        <name>IsWLEDOnSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="355" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1afc3fef53f2bb7c8b929222f0042d0eab" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.PDValue</definition>
+        <argsstring></argsstring>
+        <name>PDValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="370" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a7c04f2616ac30efbc6abaa33901545c2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.ChemiTemperGet</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="382" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a65d95b4c7fc0454928233320ecc99874" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.HeatSinkTemper</definition>
+        <argsstring></argsstring>
+        <name>HeatSinkTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="386" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="387" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ae781f378db574171a9eeb2407d917ca6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.CoolerTemper</definition>
+        <argsstring></argsstring>
+        <name>CoolerTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="390" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a184127389383ad7c35fa0ba1d1e8dcc8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.AmbientTemper</definition>
+        <argsstring></argsstring>
+        <name>AmbientTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="394" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a73239a0f5af27df69b9cb7acdb74a884" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsDoorOpened</definition>
+        <argsstring></argsstring>
+        <name>IsDoorOpened</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="398" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ae0fe4e9999f5c4bc5161cc3798595c68" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.DoorStatus</definition>
+        <argsstring></argsstring>
+        <name>DoorStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="411" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab612673437619ead417483291bed45ed" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsGLEDSelected</definition>
+        <argsstring></argsstring>
+        <name>IsGLEDSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="420" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="421" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acbb39be0a6afe557c86153a6f4c567de" compoundref="_camera_view_model_8cs" startline="467" endline="520">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteCaptureCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77be8e0d1d4adfc5076f56dc8c22dcb4" compoundref="_camera_view_model_8cs" startline="683" endline="738">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteLiveModeCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ae25a9b967c160413c6c908b98e4cab96" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsRLEDSelected</definition>
+        <argsstring></argsstring>
+        <name>IsRLEDSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="432" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="433" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acbb39be0a6afe557c86153a6f4c567de" compoundref="_camera_view_model_8cs" startline="467" endline="520">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteCaptureCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77be8e0d1d4adfc5076f56dc8c22dcb4" compoundref="_camera_view_model_8cs" startline="683" endline="738">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteLiveModeCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aaf8429bf90c2818ce6a4f57b93ac02c6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsWLEDSelected</definition>
+        <argsstring></argsstring>
+        <name>IsWLEDSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="444" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="445" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acbb39be0a6afe557c86153a6f4c567de" compoundref="_camera_view_model_8cs" startline="467" endline="520">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteCaptureCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77be8e0d1d4adfc5076f56dc8c22dcb4" compoundref="_camera_view_model_8cs" startline="683" endline="738">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteLiveModeCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a3b9446dc4e0bfee7edc13e8732ba271e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.SetLEDIntensityCmd</definition>
+        <argsstring></argsstring>
+        <name>SetLEDIntensityCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="460" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="461" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aa384b538b03299d12f5e36fe7e89d9b4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.GetPDValueCmd</definition>
+        <argsstring></argsstring>
+        <name>GetPDValueCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="499" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="500" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ac335b21e141ca9a796ec13a754792d59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.MainBoardViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>MainBoardViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="44" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="44" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aefb190c3a08450d2adc478b9d4ad1d4a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._MainBoard_OnLEDStatusChanged</definition>
+        <argsstring>(LEDTypes led, bool status)</argsstring>
+        <name>_MainBoard_OnLEDStatusChanged</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+          <declname>led</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="56" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="56" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a9e733de40e4f22e31711454b6ac6fe75" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel._MainBoard_OnUpdateStatus</definition>
+        <argsstring>(MBProtocol.Registers startReg, int regNumbers)</argsstring>
+        <name>_MainBoard_OnUpdateStatus</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">MBProtocol.Registers</ref></type>
+          <declname>startReg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>regNumbers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="75" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="75" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab12bb5b9b70f81ba066f79117216f9ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.ExecuteSetLEDIntensityCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetLEDIntensityCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="472" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="472" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a8c42208234dec85f28b6dd1eb44e0156" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.CanExecuteSetLEDIntensityCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetLEDIntensityCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="491" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="491" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a80222493e2b78cd9a71df876e8406d04" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.ExecuteGetPDValueCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteGetPDValueCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="511" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="511" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ac669306be01744b641e1650d48ae1bf4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.CanExecuteGetPDValueCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteGetPDValueCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="516" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="516" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1afec579d77f456441741a9876064de097" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.QueryingProcess</definition>
+        <argsstring>()</argsstring>
+        <name>QueryingProcess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="522" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="522" bodyend="574"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a91f4e070088a08f53913a097208e5509" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="104">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.ChemistryVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a5e35afe3bb078e2952cb0a8d9618f7bc" compoundref="_chemistry_view_model_8cs" startline="267">Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.SampleInterval</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="689">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="690">
+        <label>IDisposable</label>
+      </node>
+      <node id="688">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="689" relation="public-inheritance">
+        </childnode>
+        <childnode refid="690" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="687">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model"/>
+        <childnode refid="688" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="697">
+        <label>Sequlite.ALF.MainBoard.Mainboard</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard"/>
+        <childnode refid="698" relation="usage">
+          <edgelabel>_LEDOnTimer</edgelabel>
+        </childnode>
+        <childnode refid="699" relation="usage">
+          <edgelabel>_LEDLock</edgelabel>
+        </childnode>
+        <childnode refid="700" relation="usage">
+          <edgelabel>_Comm</edgelabel>
+        </childnode>
+      </node>
+      <node id="701">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="698" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="696">
+        <label>ICommand</label>
+      </node>
+      <node id="693">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="694">
+        <label>IDisposable</label>
+      </node>
+      <node id="692">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="693" relation="public-inheritance">
+        </childnode>
+        <childnode refid="694" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="695">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="696" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="698">
+        <label>System</label>
+      </node>
+      <node id="700">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="701" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="691">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model"/>
+        <childnode refid="692" relation="public-inheritance">
+        </childnode>
+        <childnode refid="695" relation="usage">
+          <edgelabel>_GetPDValueCmd</edgelabel>
+          <edgelabel>_SetLEDIntensityCmd</edgelabel>
+        </childnode>
+        <childnode refid="697" relation="usage">
+          <edgelabel>_MainBoard</edgelabel>
+        </childnode>
+      </node>
+      <node id="699">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" line="13" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MainBoardViewModel.cs" bodystart="12" bodyend="575"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a559d868ff02878e529b05f20ad0e4878" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_DeviceType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a859fa4c3fd97abe1dc420f66dcd4322c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_FWVersion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a623b90d3712b4f5b8b29a6b26f829191" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_GetPDValueCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a0b370d1167f692326693afa9ec85fcb0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_GLEDIntensityGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a01ec68afdb0478ccc86b61c906c415d2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_GLEDIntensitySet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a3c0d60c2df071caa8dcd1b1c461eebdc" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_HWVersion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a3505467a26c8ca498f85cb6019769295" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_IsDoorSnsrOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a32e769acc8d1e452b1875ad8b59ce35e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_IsGLEDOnGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a83fe006dfe28786a3e8bd8be7e88b8d3" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_IsGLEDOnSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a0b2db1a4b01da5ec5ea3f51acac2f1f0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_IsGLEDSelected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1afa70fa953c3b8839a32a0e40cbc9544d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_IsRLEDOnGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1acca5c424f5e1c6e0e8c1646e3ff074b4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_IsRLEDOnSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aa12669283ca331bbb1cae737f5f43613" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_IsRLEDSelected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a76d0f62e50ac265c4591a2dc6757ac2f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_IsWLEDOnGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aaacdcc4b5b053abf7da5ded2d5d885f7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_IsWLEDOnSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a15c1c59e591bbecae59481d02b42d583" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_IsWLEDSelected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a00c91febdf0f36cfeed86d92000016b6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_MainBoard</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aefb190c3a08450d2adc478b9d4ad1d4a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_MainBoard_OnLEDStatusChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a9e733de40e4f22e31711454b6ac6fe75" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_MainBoard_OnUpdateStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab55a916ebf769f42f21030072e5005a7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_PDValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a2b5eb7859e4428d71bb6e6895714e601" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_QueryingThread</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aa30059fc51bd364728be2be6bc338cc4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_RLEDIntensityGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1acd9af6c5459df3bc038b8b0e3ae23497" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_RLEDIntensitySet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a300048c565d2f0a46d21ac555a4d4b1a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_SetLEDIntensityCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a3c0594a0fe3978f46e1afa292d84dace" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_WLEDIntensityGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a59e386d4a2dbdc01a538d528119481eb" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>_WLEDIntensitySet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a184127389383ad7c35fa0ba1d1e8dcc8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>AmbientTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ac669306be01744b641e1650d48ae1bf4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>CanExecuteGetPDValueCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a8c42208234dec85f28b6dd1eb44e0156" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>CanExecuteSetLEDIntensityCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a7c04f2616ac30efbc6abaa33901545c2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>ChemiTemperGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ae781f378db574171a9eeb2407d917ca6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>CoolerTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a0a66f472cf730f10a2ed288e4fac08af" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>DeviceType</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ae0fe4e9999f5c4bc5161cc3798595c68" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>DoorStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a80222493e2b78cd9a71df876e8406d04" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>ExecuteGetPDValueCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab12bb5b9b70f81ba066f79117216f9ab" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>ExecuteSetLEDIntensityCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ac84bff42b3cdc5849276bceee86c9e92" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>FWVersion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aa384b538b03299d12f5e36fe7e89d9b4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>GetPDValueCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a7db45272c5381b31528827974287f36e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>GLEDIntensityGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a8bcd5ebe7ea9c0c59390ff4ad6c48e69" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>GLEDIntensitySet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a65d95b4c7fc0454928233320ecc99874" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>HeatSinkTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1af7550810269eab43beadbaaf69c27d5a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>HWVersion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a73239a0f5af27df69b9cb7acdb74a884" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>IsDoorOpened</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a8872e5d2e67f75e878e6a4962dca1cf4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>IsGLEDOnGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ad2c8c0832eb679f459339c692a1ab713" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>IsGLEDOnSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab612673437619ead417483291bed45ed" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>IsGLEDSelected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a991de77ebdc344edf450ecaed217c625" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>IsRLEDOnGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a6ebdb395ae6889cb167b79384a4cd7f5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>IsRLEDOnSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ae25a9b967c160413c6c908b98e4cab96" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>IsRLEDSelected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab79770d9425d912502834554dfe9e709" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>IsWLEDOnGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ad885f290c5d2a18ab2c728c4af8fd88a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>IsWLEDOnSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aaf8429bf90c2818ce6a4f57b93ac02c6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>IsWLEDSelected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab19fa62fd1881c7f2edb044097d7d23b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>MainBoard</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ac335b21e141ca9a796ec13a754792d59" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>MainBoardViewModel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1afc3fef53f2bb7c8b929222f0042d0eab" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>PDValue</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1afec579d77f456441741a9876064de097" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>QueryingProcess</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ac3d60c463273f699074c02eee726eb39" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>RLEDIntensityGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ac6eec2c3bc6b8cd1ff6aec836c960ffc" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>RLEDIntensitySet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a3b9446dc4e0bfee7edc13e8732ba271e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>SetLEDIntensityCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a203589872023f7826ab0ddd43809175f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>WLEDIntensityGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1a3bfa7749072d6848a17abec7c67f64f7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</scope><name>WLEDIntensitySet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

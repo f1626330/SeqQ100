@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+  <!--  Camera settings  -->
+  <BinFactors>
+    <BinFactor Position="1" VerticalBins="1" HorizontalBins="1" DisplayName="1x1" />
+    <BinFactor Position="2" VerticalBins="2" HorizontalBins="2" DisplayName="2x2" />
+    <BinFactor Position="3" VerticalBins="3" HorizontalBins="3" DisplayName="3x3" />
+    <BinFactor Position="4" VerticalBins="4" HorizontalBins="4" DisplayName="4x4" />
+    <BinFactor Position="5" VerticalBins="6" HorizontalBins="6" DisplayName="6x6" />
+    <BinFactor Position="6" VerticalBins="8" HorizontalBins="8" DisplayName="8x8" />
+  </BinFactors>
+
+  <Gains>
+    <Gain Position="1" Value="1" DisplayName="1x" />
+    <Gain Position="2" Value="2" DisplayName="2x" />
+    <Gain Position="3" Value="3" DisplayName="3x" />
+  </Gains>
+
+  <CameraDefaultSettings>
+    <CameraSetting Name="BinFactor" Value="1"/>
+    <CameraSetting Name="Gain" Value="1"/>
+    <CameraSetting Name="RoiLeft" Value="400"/>
+    <CameraSetting Name="RoiTop" Value="350"/>
+    <CameraSetting Name="RoiWidth" Value="2500"/>
+    <CameraSetting Name="RoiHeight" Value="2100"/>
+    <CameraSetting Name="ReadoutSpeed" Value="Fast"/>
+    <CameraSetting Name="ExtraExposure" Value="0.1"/>
+  </CameraDefaultSettings>
+  
+  <!--  Motion settings  -->
+  <MotionSettings>
+    <MotionSetting Type="Filter" MaxSpeed="10.0" MaxAccel="500.0" Min="0" Max="4"/>
+    <MotionSetting Type="YStage" MaxSpeed="6.0" MaxAccel="500.0" Min="0" Max="150.0"/>
+    <MotionSetting Type="ZStage" MaxSpeed="3000.0" MaxAccel="3000.0" Min="-600" Max="1100"/>
+    <MotionSetting Type="Cartridge" MaxSpeed="3.0" MaxAccel="500.0" Min="0" Max="80"/>
+    <MotionSetting Type="XStage" MaxSpeed="40.0" MaxAccel="500.0" Min="0" Max="45.0"/>
+  </MotionSettings>
+
+  <MotionStartupSettings>
+    <MotionStartupSetting Type="Filter" Speed="4.5" Accel="300" Absolute="1" Relative="1"/>
+    <MotionStartupSetting Type="YStage" Speed="5.0" Accel="500" Absolute="0" Relative="0"/>
+    <MotionStartupSetting Type="ZStage" Speed="1500" Accel="1500" Absolute="0" Relative="0"/>
+    <MotionStartupSetting Type="Cartridge" Speed="5.0" Accel="500" Absolute="0" Relative="0"/>
+    <MotionStartupSetting Type="XStage" Speed="10.0" Accel="500" Absolute="0" Relative="0"/>
+  </MotionStartupSettings>
+
+  <MotionFactors>
+    <MotionFactor Type="Filter" Factor="1000"/>
+    <MotionFactor Type="YStage" Factor="5039.37008"/>
+    <MotionFactor Type="ZStage" Factor="1"/>
+    <MotionFactor Type="Cartridge" Factor="2104.05"/>
+    <MotionFactor Type="XStage" Factor="10000.0"/>
+  </MotionFactors>
+
+  <YStageRegions>
+    <Region Position="1" Ypos="0" Zpos="10000.0"/>
+    <Region Position="2" Ypos="2" Zpos="10000.0"/>
+    <Region Position="3" Ypos="3" Zpos="10000.0"/>
+    <Region Position="4" Ypos="4" Zpos="10000.0"/>
+    <Region Position="5" Ypos="5" Zpos="10000.0"/>
+    <Region Position="6" Ypos="6" Zpos="10000.0"/>
+    <Region Position="7" Ypos="7" Zpos="10000.0"/>
+    <Region Position="8" Ypos="8" Zpos="10000.0"/>
+    <Region Position="9" Ypos="9" Zpos="10000.0"/>
+    <Region Position="10" Ypos="10" Zpos="10000.0"/>
+    <Region Position="11" Ypos="11" Zpos="10000.0"/>
+    <Region Position="12" Ypos="12" Zpos="10000.0"/>
+    <Region Position="13" Ypos="13" Zpos="10000.0"/>
+    <Region Position="14" Ypos="14" Zpos="10000.0"/>
+    <Region Position="15" Ypos="15" Zpos="10000.0"/>
+    <Region Position="16" Ypos="16" Zpos="10000.0"/>
+    <Region Position="17" Ypos="17" Zpos="10000.0"/>
+    <Region Position="18" Ypos="18" Zpos="10000.0"/>
+    <Region Position="19" Ypos="19" Zpos="10000.0"/>
+    <Region Position="20" Ypos="20" Zpos="10000.0"/>
+    <Region Position="21" Ypos="21" Zpos="10000.0"/>
+    <Region Position="22" Ypos="22" Zpos="10000.0"/>
+    <Region Position="23" Ypos="23" Zpos="10000.0"/>
+    <Region Position="24" Ypos="24" Zpos="10000.0"/>
+    <Region Position="25" Ypos="25" Zpos="10000.0"/>
+    <Region Position="26" Ypos="26" Zpos="10000.0"/>
+    <Region Position="27" Ypos="27" Zpos="10000.0"/>
+    <Region Position="28" Ypos="28" Zpos="10000.0"/>
+    <Region Position="29" Ypos="29" Zpos="10000.0"/>
+    <Region Position="30" Ypos="30" Zpos="10000.0"/>
+    <Region Position="31" Ypos="31" Zpos="10000.0"/>
+    <Region Position="32" Ypos="32" Zpos="10000.0"/>
+    <Region Position="33" Ypos="33" Zpos="10000.0"/>
+    <Region Position="34" Ypos="34" Zpos="10000.0"/>
+    <Region Position="35" Ypos="35" Zpos="10000.0"/>
+    <Region Position="36" Ypos="36" Zpos="10000.0"/>
+    <Region Position="37" Ypos="37" Zpos="10000.0"/>
+    <Region Position="38" Ypos="38" Zpos="10000.0"/>
+    <Region Position="39" Ypos="39" Zpos="10000.0"/>
+    <Region Position="40" Ypos="40" Zpos="10000.0"/>
+  </YStageRegions>
+  <StageRegions>
+    <RegionsSetting Name="Lane" Value="4"/>
+    <RegionsSetting Name="Row" Value="4"/>
+    <RegionsSetting Name="Column" Value="45"/>
+    <RegionsSetting Name ="Interval" Value="1"/>
+    <RegionsSetting Name="StartPointX1" Value ="0"/>
+    <RegionsSetting Name="StartPointY1" Value ="0"/>
+    <RegionsSetting Name="StartPointX2" Value ="0"/>
+    <RegionsSetting Name="StartPointY2" Value ="6"/>
+    <RegionsSetting Name="StartPointX3" Value ="0"/>
+    <RegionsSetting Name="StartPointY3" Value ="12"/>
+    <RegionsSetting Name="StartPointX4" Value ="0"/>
+    <RegionsSetting Name="StartPointY4" Value ="18"/>
+  </StageRegions>
+  <FilterPositionSettings>
+    <FilterPositionSetting Pos="1" Value="0.32"/>
+    <FilterPositionSetting Pos="2" Value="1.92"/>
+    <FilterPositionSetting Pos="3" Value="3.52"/>
+    <FilterPositionSetting Pos="4" Value="5.12"/>
+  </FilterPositionSettings>
+  
+  <!--  LED settings  -->
+  <LEDSettings>
+    <LEDSetting Type="G" Max="100" Min="1" MaxOnTime="100"/>
+    <LEDSetting Type="R" Max="100" Min="1" MaxOnTime="100"/>
+    <LEDSetting Type="W" Max="100" Min="1" MaxOnTime="10000"/>
+  </LEDSettings>
+  
+  <!--  Fluidics Settings  -->
+  <FluidicsSettings>
+  <!--  Pump settings  -->
+    <PumpSetting Name="PosToVolFactor" Value="6.000"/>      <!--  Position(Increments) To Volume(uL) Factor  -->
+    <PumpSetting Name="AspRateLimitLow" Value="25"/>        <!--  Unit of uL  -->
+    <PumpSetting Name="AspRateLimitHigh" Value="5000"/>      <!--  Unit of uL  -->
+    <PumpSetting Name="DispRateLimitLow" Value="25"/>       <!--  Unit of uL  -->
+    <PumpSetting Name="DispRateLimitHigh" Value="5000"/>     <!--  Unit of uL  -->
+    <PumpSetting Name="PumpVolLimitLow" Value="10"/>        <!--  Unit of uL/min  -->
+    <PumpSetting Name="PumpVolLimitHigh" Value="14000"/>    <!--  Unit of uL/min  -->
+    <PumpSetting Name="DelayTime" Value="3"/>               <!--  delay time between asprite and dispense, default flow rate @ 2000 uL/min  -->
+    
+    <!--  Chemistry settings  -->
+    <ChemiSetting Name="TemperLimitLow" Value="20.0"/>
+    <ChemiSetting Name="TemperLimitHigh" Value="120.0"/>
+    <ChemiSetting Name="TemperRampLimitLow" Value="0.001"/>
+    <ChemiSetting Name="TemperRampLimitHigh" Value="2.0"/>
+    
+    <!--  Pump default setttings  -->
+    <DefaultPumping Name="AspRate" Value="2000"/>
+    <DefaultPumping Name="DisRate" Value="5000"/>
+    <DefaultPumping Name="Volume" Value="500"/>
+
+    <!--  Pump Path default setttings  -->
+    <DefaultPumpPath Type ="Test1" valve2="1" valve3="2" pumpvalve="0111"/>
+    <DefaultPumpPath Type ="Test2" valve2="2" valve3="2" pumpvalve="1011"/>
+    <DefaultPumpPath Type ="Test3" valve2="3" valve3="2" pumpvalve="1101"/>
+    <DefaultPumpPath Type ="Test4" valve2="4" valve3="2" pumpvalve="1110"/>
+    <DefaultPumpPath Type ="BypassTest" valve2="5" valve3="2" pumpvalve="0000"/>
+    <DefaultPumpPath Type ="Bypass" valve2="6" valve3="3" pumpvalve="0000"/>
+    
+    <!--  Chemistry default settings  -->
+    <DefaultChemistry Name="Temper" Value="20"/>
+    <DefaultChemistry Name="Ramp" Value="2"/>
+  </FluidicsSettings>
+
+  <!--  Auto focusing settings  -->
+  <AutoFocusSettings>
+    <AutoFocusSetting Name="RoiLeft" Value="2115"/>
+    <AutoFocusSetting Name="RoiTop" Value="2047"/>
+    <AutoFocusSetting Name="RoiWidth" Value="110"/>
+    <AutoFocusSetting Name="RoiHeight" Value="70"/>
+    <AutoFocusSetting Name="LED" Value="White"/>
+    <AutoFocusSetting Name="Intensity" Value="100"/>
+    <AutoFocusSetting Name="Exposure" Value="1"/>
+    <AutoFocusSetting Name="Speed" Value="800"/>
+    <AutoFocusSetting Name="Accel" Value="1500"/>
+    <AutoFocusSetting Name="ZRange" Value="12"/>
+    <AutoFocusSetting Name="FilterIndex" Value="3"/>
+    <AutoFocusSetting Name="OffsetLED" Value="Green"/>
+    <AutoFocusSetting Name="OffsetIntensity" Value="10"/>
+    <AutoFocusSetting Name="OffsetExposure" Value="0.5"/>
+    <AutoFocusSetting Name="OffsetFilterIndex" Value="1"/>
+  </AutoFocusSettings>
+
+</Config>

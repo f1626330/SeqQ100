@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_or_to_visibility_multi_converter" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::LogicalOrToVisibilityMultiConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IMultiValueConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_or_to_visibility_multi_converter_1add56255e47eb8f8c770125c9ed835a03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.LogicalOrToVisibilityMultiConverter.Convert</definition>
+        <argsstring>(object[] values, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object[]</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalOrToVisibilityMultiConverter.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalOrToVisibilityMultiConverter.cs" bodystart="10" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_or_to_visibility_multi_converter_1a7a0002075393bdfbe338db4b365e0b98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object[]</type>
+        <definition>object [] Sequlite.WPF.Framework.LogicalOrToVisibilityMultiConverter.ConvertBack</definition>
+        <argsstring>(object value, Type[] targetTypes, object parameter, CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type[]</type>
+          <declname>targetTypes</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalOrToVisibilityMultiConverter.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalOrToVisibilityMultiConverter.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="660">
+        <label>IMultiValueConverter</label>
+      </node>
+      <node id="659">
+        <label>Sequlite.WPF.Framework.LogicalOrToVisibilityMultiConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_or_to_visibility_multi_converter"/>
+        <childnode refid="660" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="662">
+        <label>IMultiValueConverter</label>
+      </node>
+      <node id="661">
+        <label>Sequlite.WPF.Framework.LogicalOrToVisibilityMultiConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_or_to_visibility_multi_converter"/>
+        <childnode refid="662" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalOrToVisibilityMultiConverter.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/LogicalOrToVisibilityMultiConverter.cs" bodystart="8" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_or_to_visibility_multi_converter_1add56255e47eb8f8c770125c9ed835a03" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::LogicalOrToVisibilityMultiConverter</scope><name>Convert</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_or_to_visibility_multi_converter_1a7a0002075393bdfbe338db4b365e0b98" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::LogicalOrToVisibilityMultiConverter</scope><name>ConvertBack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

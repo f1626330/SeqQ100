@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_9148b389d6d619ce2f6cdea3d8f4f622" kind="dir">
+    <compoundname>D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel</compoundname>
+    <innerfile refid="_auto_focus_view_model_8cs">AutoFocusViewModel.cs</innerfile>
+    <innerfile refid="_camera_view_model_8cs">CameraViewModel.cs</innerfile>
+    <innerfile refid="_chemistry_view_model_8cs">ChemistryViewModel.cs</innerfile>
+    <innerfile refid="_detector_parameters_view_model_8cs">DetectorParametersViewModel.cs</innerfile>
+    <innerfile refid="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_file_view_model_8cs">FileViewModel.cs</innerfile>
+    <innerfile refid="_fluidics_view_model_8cs">FluidicsViewModel.cs</innerfile>
+    <innerfile refid="_image_gallery_view_model_8cs">ImageGalleryViewModel.cs</innerfile>
+    <innerfile refid="_main_board_view_model_8cs">MainBoardViewModel.cs</innerfile>
+    <innerfile refid="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs">MotionViewModel.cs</innerfile>
+    <innerfile refid="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_pane_view_model_8cs">PaneViewModel.cs</innerfile>
+    <innerfile refid="_recipe_view_model_8cs">RecipeViewModel.cs</innerfile>
+    <innerfile refid="_steps_tree_view_model_8cs">StepsTreeViewModel.cs</innerfile>
+    <innerfile refid="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs">Workspace.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/"/>
+  </compounddef>
+</doxygen>

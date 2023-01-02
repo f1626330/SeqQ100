@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_282882b001d311da050bb83c04307e06" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.CameraLib</compoundname>
+    <innerdir refid="dir_2ef518a797c0f6234b8a098d4b100db0">D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs</innerdir>
+    <innerdir refid="dir_be48979f8f345e94b6cf4ea3eab2a527">D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics</innerdir>
+    <innerdir refid="dir_8f39de32f62f9ca81c85ec8e89a66f1e">D:/Source/Alf/Libraries/Sequlite.CameraLib/Properties</innerdir>
+    <innerfile refid="_camera_lib_base_8cs">CameraLibBase.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/"/>
+  </compounddef>
+</doxygen>

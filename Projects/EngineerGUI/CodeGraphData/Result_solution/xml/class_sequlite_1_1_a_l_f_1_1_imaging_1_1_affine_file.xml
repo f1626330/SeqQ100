@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::AffineFile</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a7ab608d48b65bf42a0b85a3447b2dffc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.AffineFile._filename</definition>
+        <argsstring></argsstring>
+        <name>_filename</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a38084bf252952e47218c0ab701995e11" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.AffineFile._ver</definition>
+        <argsstring></argsstring>
+        <name>_ver</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a94776d22d39b5ab49e391182d9ddeb03" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Sequlite.ALF.Imaging.AffineFile._err</definition>
+        <argsstring></argsstring>
+        <name>_err</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a14fc7e6ac90820a9b4ef6bf9a40aa070" prot="private" static="no" mutable="no">
+        <type>ulong</type>
+        <definition>ulong Sequlite.ALF.Imaging.AffineFile._N</definition>
+        <argsstring></argsstring>
+        <name>_N</name>
+        <initializer>= 0UL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a339b6629600e3d30d94c49932cde8425" compoundref="_affine_file_8cs" startline="83" endline="94">Sequlite.ALF.Imaging.AffineFile.Compare</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1aede4452f67532d5331fe285a9551dbc9" prot="private" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] Sequlite.ALF.Imaging.AffineFile._flt</definition>
+        <argsstring></argsstring>
+        <name>_flt</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a339b6629600e3d30d94c49932cde8425" compoundref="_affine_file_8cs" startline="83" endline="94">Sequlite.ALF.Imaging.AffineFile.Compare</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a289c6749633e94a020cfc3e6aa3f9f17" compoundref="_affine_file_8cs" startline="65" endline="81">Sequlite.ALF.Imaging.AffineFile.UpdateFile</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1aae0796e2c5de3984e0a59d4e50155ba6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float[]</type>
+        <definition>float [] Sequlite.ALF.Imaging.AffineFile.Flt</definition>
+        <argsstring></argsstring>
+        <name>Flt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1ab31908824e3b42a370f8963724c4728f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ulong</type>
+        <definition>ulong Sequlite.ALF.Imaging.AffineFile.N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a3abb1c1ccce26d582df8778d2a8030c1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Sequlite.ALF.Imaging.AffineFile.Err</definition>
+        <argsstring></argsstring>
+        <name>Err</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1ae1ba105644ee4be9d11fec111a7d1c22" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.AffineFile.Ver</definition>
+        <argsstring></argsstring>
+        <name>Ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a8e508ce37eb3298c7a56339437ed6779" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.AffineFile.AffineFile</definition>
+        <argsstring>(string name)</argsstring>
+        <name>AffineFile</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1aa58ea3c50a37073fe9d9fc7765657da8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.AffineFile.WriteFile</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>WriteFile</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="45" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="45" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a5ba00e57effade6328590f651e77f0a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.AffineFile.add</definition>
+        <argsstring>(AffineFile newFov)</argsstring>
+        <name>add</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file" kindref="compound">AffineFile</ref></type>
+          <declname>newFov</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="58" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="58" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a289c6749633e94a020cfc3e6aa3f9f17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.AffineFile.UpdateFile</definition>
+        <argsstring>(AffineFile af)</argsstring>
+        <name>UpdateFile</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file" kindref="compound">AffineFile</ref></type>
+          <declname>af</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="65" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="65" bodyend="81"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1aede4452f67532d5331fe285a9551dbc9" compoundref="_affine_file_8cs" startline="15">Sequlite.ALF.Imaging.AffineFile._flt</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a9ed0fa67cf9f95274464d94d6a7bb080" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.AffineFile.ReadFile</definition>
+        <argsstring>()</argsstring>
+        <name>ReadFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="28" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a339b6629600e3d30d94c49932cde8425" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.AffineFile.Compare</definition>
+        <argsstring>(AffineFile cmp)</argsstring>
+        <name>Compare</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file" kindref="compound">AffineFile</ref></type>
+          <declname>cmp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="83" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="83" bodyend="94"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1aede4452f67532d5331fe285a9551dbc9" compoundref="_affine_file_8cs" startline="15">Sequlite.ALF.Imaging.AffineFile._flt</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a14fc7e6ac90820a9b4ef6bf9a40aa070" compoundref="_affine_file_8cs" startline="14">Sequlite.ALF.Imaging.AffineFile._N</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AffineFile.cs" bodystart="9" bodyend="95"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a94776d22d39b5ab49e391182d9ddeb03" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>_err</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a7ab608d48b65bf42a0b85a3447b2dffc" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>_filename</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1aede4452f67532d5331fe285a9551dbc9" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>_flt</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a14fc7e6ac90820a9b4ef6bf9a40aa070" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>_N</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a38084bf252952e47218c0ab701995e11" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>_ver</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a5ba00e57effade6328590f651e77f0a2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>add</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a8e508ce37eb3298c7a56339437ed6779" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>AffineFile</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a339b6629600e3d30d94c49932cde8425" prot="package" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>Compare</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a3abb1c1ccce26d582df8778d2a8030c1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>Err</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1aae0796e2c5de3984e0a59d4e50155ba6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>Flt</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1ab31908824e3b42a370f8963724c4728f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>N</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a9ed0fa67cf9f95274464d94d6a7bb080" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>ReadFile</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1a289c6749633e94a020cfc3e6aa3f9f17" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>UpdateFile</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1ae1ba105644ee4be9d11fec111a7d1c22" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>Ver</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_affine_file_1aa58ea3c50a37073fe9d9fc7765657da8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AffineFile</scope><name>WriteFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

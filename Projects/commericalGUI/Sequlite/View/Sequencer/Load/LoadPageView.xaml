@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="Sequlite.UI.View.LoadPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.UI.View"
+             xmlns:vm="clr-namespace:Sequlite.UI.ViewModel"
+             xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="loadFlowCell">
+                <!--<Button Command="{Binding Path=AddCommand}">Add</Button>-->
+                <local:LoadFlowCellPageView DataContext="{Binding}"/>
+            </DataTemplate>
+            <DataTemplate x:Key="loadReagents">
+                <local:LoadReagentsPageView DataContext="{Binding}"/>
+            </DataTemplate>
+            <DataTemplate x:Key="loadBuffer">
+                <local:LoadBufferPageView DataContext="{Binding}"/>
+            </DataTemplate>
+            <DataTemplate x:Key="loadWaste">
+                <local:LoadWastePageView DataContext="{Binding}"/>
+            </DataTemplate>
+
+            <Style x:Key="selectableContentStyle" TargetType="{x:Type ContentPresenter}">
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding Path=CurrentSubpageIndex}" Value="0">
+                        <Setter Property="ContentTemplate" Value="{StaticResource loadFlowCell}" />
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=CurrentSubpageIndex}" Value="1">
+                        <Setter Property="ContentTemplate" Value="{StaticResource loadReagents}" />
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=CurrentSubpageIndex}" Value="2">
+                        <Setter Property="ContentTemplate" Value="{StaticResource loadBuffer}" />
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding Path=CurrentSubpageIndex}" Value="3">
+                        <Setter Property="ContentTemplate" Value="{StaticResource loadWaste}" />
+                    </DataTrigger>
+                    <!--  your other Status' here -->
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+   
+        <ContentPresenter Content="{Binding}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                          Style="{StaticResource selectableContentStyle}" >
+        </ContentPresenter>
+   
+</UserControl>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_chemistry_settings" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Configuration::ChemistrySettings</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_chemistry_settings_1af64680ad00a7a6faf6cf015c7c415201" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Configuration.ChemistrySettings.Temper</definition>
+        <argsstring></argsstring>
+        <name>Temper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_chemistry_settings_1a76aae976dc263f1f811a4fa0c609f788" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Configuration.ChemistrySettings.Ramp</definition>
+        <argsstring></argsstring>
+        <name>Ramp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="44" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="42" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="41" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_chemistry_settings_1a76aae976dc263f1f811a4fa0c609f788" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ChemistrySettings</scope><name>Ramp</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_chemistry_settings_1af64680ad00a7a6faf6cf015c7c415201" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ChemistrySettings</scope><name>Temper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

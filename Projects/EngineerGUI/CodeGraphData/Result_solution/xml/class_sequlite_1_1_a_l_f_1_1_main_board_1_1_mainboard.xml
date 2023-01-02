@@ -1,0 +1,1295 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::MainBoard::Mainboard</compoundname>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1abc43c90c23c91946c3d1b0e7e0012a86" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ab0c18e7e8e58cf8b615b6cd88409579e" kindref="member">EventHandler</ref></type>
+        <definition>EventHandler Sequlite.ALF.MainBoard.Mainboard.OnUpdateStatus</definition>
+        <argsstring></argsstring>
+        <name>OnUpdateStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af6d6af47af662cfeda8a7c6486d42cbe" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3c5fef9afee0590f39b3ab745620b7b6" kindref="member">OnLEDStatusChangedHandle</ref></type>
+        <definition>OnLEDStatusChangedHandle Sequlite.ALF.MainBoard.Mainboard.OnLEDStatusChanged</definition>
+        <argsstring></argsstring>
+        <name>OnLEDStatusChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a1bc92b8b5d6a8b297f79d82808388211" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm" kindref="compound">SerialComm</ref></type>
+        <definition>SerialComm Sequlite.ALF.MainBoard.Mainboard._Comm</definition>
+        <argsstring></argsstring>
+        <name>_Comm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af380ba7b6bdbc419be194a955ef39f97" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard._IsGLEDSetOn</definition>
+        <argsstring></argsstring>
+        <name>_IsGLEDSetOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ad3a80596601595f5440b958ceff00c8c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard._IsRLEDSetOn</definition>
+        <argsstring></argsstring>
+        <name>_IsRLEDSetOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a4ba70faa045d2815382ad5dbc87c709a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard._IsWLEDSetOn</definition>
+        <argsstring></argsstring>
+        <name>_IsWLEDSetOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3eceabb390c47fb01576a397df97a6a6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard._GLEDOnTimerCounts</definition>
+        <argsstring></argsstring>
+        <name>_GLEDOnTimerCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a8bbc0f906ead1ed2e471e90b69e767bf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard._RLEDOnTimerCounts</definition>
+        <argsstring></argsstring>
+        <name>_RLEDOnTimerCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a914bc2b7d2ed21b5c42b65e1e537b683" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard._WLEDOnTimerCounts</definition>
+        <argsstring></argsstring>
+        <name>_WLEDOnTimerCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a84e88773e334d38635b686253a43aa0b" prot="private" static="no" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Sequlite.ALF.MainBoard.Mainboard._LEDOnTimer</definition>
+        <argsstring></argsstring>
+        <name>_LEDOnTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a217cb7e1b2aa6ec859b1ea94691aa641" prot="private" static="yes" mutable="no">
+        <type>object</type>
+        <definition>object Sequlite.ALF.MainBoard.Mainboard._LEDLock</definition>
+        <argsstring></argsstring>
+        <name>_LEDLock</name>
+        <initializer>= new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3c760c96a291bd8f4556b8cb2c01adf1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.IsConnected</definition>
+        <argsstring></argsstring>
+        <name>IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="86" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a6e7481eb730d922be96f9fe641df8564" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.BaudRate</definition>
+        <argsstring></argsstring>
+        <name>BaudRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="87" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af6c2f177f9ccdfcb3c2831d5d068f811" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.MainBoard.Mainboard.DeviceType</definition>
+        <argsstring></argsstring>
+        <name>DeviceType</name>
+        <initializer>= 115200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="89" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1aaff58c0293f16cc543ac1cac411753a8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.MainBoard.Mainboard.HWVersion</definition>
+        <argsstring></argsstring>
+        <name>HWVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="90" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a53eeb68b0f8ffdb25e93be977de5e635" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.MainBoard.Mainboard.FWVersion</definition>
+        <argsstring></argsstring>
+        <name>FWVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="91" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a01de79d272f1564e8d983d93af421bb3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.Mainboard.GLEDIntensity</definition>
+        <argsstring></argsstring>
+        <name>GLEDIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="92" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af4826cbf4778e915f809d69249628a9a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.IsGLEDOn</definition>
+        <argsstring></argsstring>
+        <name>IsGLEDOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="93" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3ebb772d7c861326a1a41c9bdc4f2392" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.Mainboard.RLEDIntensity</definition>
+        <argsstring></argsstring>
+        <name>RLEDIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="94" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a571761fb8cf90b580552d25e0e5cb3da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.IsRLEDOn</definition>
+        <argsstring></argsstring>
+        <name>IsRLEDOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="95" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a9ebf2b07fd8186abe2b466a4dab933ab" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type" kindref="compound">OnOffInputsType</ref></type>
+        <definition>OnOffInputsType Sequlite.ALF.MainBoard.Mainboard.OnOffInputs</definition>
+        <argsstring></argsstring>
+        <name>OnOffInputs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="96" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a7593be323ffb28dd0fbb4926e4f77db8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.IsChemiTemperCtrlOn</definition>
+        <argsstring></argsstring>
+        <name>IsChemiTemperCtrlOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="97" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ac2f9057e0d273a744f5b162e2f09b127" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.Mainboard.ChemiTemperCtrlRamp</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperCtrlRamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="98" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a118be040050474f19dd90744b3c7b6fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.Mainboard.ChemiTemperCtrlPower</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperCtrlPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="99" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a239d32627a913e4e40d0ab108ec27cad" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.Mainboard.ChemiTemper</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="100" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a4ecf761d951e25620a3e81cc449f8221" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.Mainboard.HeatSinkTemper</definition>
+        <argsstring></argsstring>
+        <name>HeatSinkTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="101" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ac6df48beed544cfe33672e2241d274ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.Mainboard.CoolerTemper</definition>
+        <argsstring></argsstring>
+        <name>CoolerTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="102" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ae1a74ba0a57fce8b45fd7a5e15c9ef61" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MainBoard.Mainboard.AmbientTemper</definition>
+        <argsstring></argsstring>
+        <name>AmbientTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="103" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a0ad9ae77b6f59b09ba01161fc9e4c28e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.Mainboard.PDValue</definition>
+        <argsstring></argsstring>
+        <name>PDValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="104" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a47d6f542cddf01aead3eb6a0a6841eb7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.Mainboard.WLEDIntensity</definition>
+        <argsstring></argsstring>
+        <name>WLEDIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="105" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a28e4fb50ae9dfca7e5fea759c3385109" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.IsWLEDOn</definition>
+        <argsstring></argsstring>
+        <name>IsWLEDOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="106" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a66afcc87c6b4b54745264392e3b59e9d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.FilterPos</definition>
+        <argsstring></argsstring>
+        <name>FilterPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="107" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a40614d5408ac4f6972ab2ac6fb62195b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.Mainboard.YMotionSpd</definition>
+        <argsstring></argsstring>
+        <name>YMotionSpd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="108" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a78a56ee2e5f3e3382bd73662597e12f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.Mainboard.YMotionAcc</definition>
+        <argsstring></argsstring>
+        <name>YMotionAcc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="109" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a25a1def3f8c10f1819c25aeec45b5ac5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.YMotionPos</definition>
+        <argsstring></argsstring>
+        <name>YMotionPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="110" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a0da7403dfa613aafe241a8b7edb88f99" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.IsYMotionEnabled</definition>
+        <argsstring></argsstring>
+        <name>IsYMotionEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="111" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a99f252a40a638b3f1b80a7d34bdf605a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.PMotionPos</definition>
+        <argsstring></argsstring>
+        <name>PMotionPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="112" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a22a2ea8da881373fd75c3dfddcaaf6a6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.TemperCtrlPro</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlPro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="113" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a1baa7368d8b53b2df3ff3772f5a839c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.TemperCtrlInt</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlInt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="114" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a52f73770313bdc7f6790b9a4ec5a5d5e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.TemperCtrlDif</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlDif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="115" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1aaf0008bdfc2581765af6f1813ab99c4e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.TemperCtrlPower</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="116" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a42ebf1e96177d8b856c2751a169f4b82" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.IsCartridgeEnabled</definition>
+        <argsstring></argsstring>
+        <name>IsCartridgeEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="117" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a0a5ba4811eae211ec47334268955c700" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.CartridgePower</definition>
+        <argsstring></argsstring>
+        <name>CartridgePower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="118" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af3480ab9bdf2d8d0494acda4f90bc5ec" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.GLEDMaxOnTime</definition>
+        <argsstring></argsstring>
+        <name>GLEDMaxOnTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="120" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1aa0e8ca668f9ab2c0da3f1583cf9d6db3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.RLEDMaxOnTime</definition>
+        <argsstring></argsstring>
+        <name>RLEDMaxOnTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="121" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1acee09ab5caad9f064a75c0e639aff46e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.Mainboard.WLEDMaxOnTime</definition>
+        <argsstring></argsstring>
+        <name>WLEDMaxOnTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="122" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ab0c18e7e8e58cf8b615b6cd88409579e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.MainBoard.Mainboard.EventHandler</definition>
+        <argsstring>(MBProtocol.Registers startReg, int numbers)</argsstring>
+        <name>EventHandler</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">MBProtocol.Registers</ref></type>
+          <declname>startReg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numbers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3c5fef9afee0590f39b3ab745620b7b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.MainBoard.Mainboard.OnLEDStatusChangedHandle</definition>
+        <argsstring>(LEDTypes led, bool status)</argsstring>
+        <name>OnLEDStatusChangedHandle</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+          <declname>led</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a299c1734a8284c71bfb20a089ec8fab8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.MainBoard.Mainboard.Mainboard</definition>
+        <argsstring>()</argsstring>
+        <name>Mainboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="31" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a1e29b0aefa870bb446befb066e5f3892" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MainBoard.Mainboard.Connect</definition>
+        <argsstring>()</argsstring>
+        <name>Connect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="126" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="126" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a033e7f1b7fafa9ad14f596d4423945be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetDeviceInfo</definition>
+        <argsstring>()</argsstring>
+        <name>GetDeviceInfo</name>
+        <briefdescription>
+<para>Get device information: device type, hardware version, firmware version </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>truth if reading is successful.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="139" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ae86e045fc307003150a35122eb722530" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetLEDIntensity</definition>
+        <argsstring>(LEDTypes ledType)</argsstring>
+        <name>GetLEDIntensity</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+          <declname>ledType</declname>
+        </param>
+        <briefdescription>
+<para>Get the intensity of the specified LED. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ledType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>0: Green LED; 1: Red LED; 2: White LED;</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>truth if reading is successful.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="149" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="149" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ab14e0fed0d4d62e7b9675bc2926b7436" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.SetLEDIntensity</definition>
+        <argsstring>(LEDTypes ledType, uint intensity)</argsstring>
+        <name>SetLEDIntensity</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+          <declname>ledType</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>intensity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="169" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="169" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a04f2900b1efd95fe90095a2d1615b06b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetLEDStatus</definition>
+        <argsstring>(LEDTypes ledType)</argsstring>
+        <name>GetLEDStatus</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+          <declname>ledType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="189" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="189" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1aaa672dd08face4aa49ef013a2fdb3169" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.SetLEDStatus</definition>
+        <argsstring>(LEDTypes ledType, bool isOn)</argsstring>
+        <name>SetLEDStatus</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+          <declname>ledType</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isOn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="213" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="213" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a175f1b9cc0f38cef821d636756e614b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetOnOffStatus</definition>
+        <argsstring>()</argsstring>
+        <name>GetOnOffStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="284" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="284" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1acd198e008523d76ce843121b83652fdf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetChemiTemperCtrlStatus</definition>
+        <argsstring>()</argsstring>
+        <name>GetChemiTemperCtrlStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="289" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="289" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a1fa94c49823995ca378f88c474995977" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.SetChemiTemperCtrlStatus</definition>
+        <argsstring>(bool isCtrlOn)</argsstring>
+        <name>SetChemiTemperCtrlStatus</name>
+        <param>
+          <type>bool</type>
+          <declname>isCtrlOn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="294" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="294" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ae7382b19c187df03dc212572a6017465" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetChemiTemperCtrlRamp</definition>
+        <argsstring>()</argsstring>
+        <name>GetChemiTemperCtrlRamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="299" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ac6c26fc18a2cd07eef45956a6075c489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.SetChemiTemperCtrlRamp</definition>
+        <argsstring>(double newRamp)</argsstring>
+        <name>SetChemiTemperCtrlRamp</name>
+        <param>
+          <type>double</type>
+          <declname>newRamp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="304" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="304" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a138aec338b90b3b1b1eb25f5eabef048" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetChemiTemperCtrlPower</definition>
+        <argsstring>()</argsstring>
+        <name>GetChemiTemperCtrlPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="309" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="309" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a9d1a0343ccf22ce175a78fbd5cdd0526" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetChemiTemper</definition>
+        <argsstring>()</argsstring>
+        <name>GetChemiTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="314" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="314" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a749ccd93fa20a79b2a6e63d1c7770224" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.SetChemiTemper</definition>
+        <argsstring>(double newTemper)</argsstring>
+        <name>SetChemiTemper</name>
+        <param>
+          <type>double</type>
+          <declname>newTemper</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="319" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="319" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a13ad77c9c0e6f5bef70c43e3a7b78373" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetCoolerTemper</definition>
+        <argsstring>()</argsstring>
+        <name>GetCoolerTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="324" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="324" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a4e009e50c2ea5d285416d3c1b1c64005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.SetCoolerTemper</definition>
+        <argsstring>(double newTemper)</argsstring>
+        <name>SetCoolerTemper</name>
+        <param>
+          <type>double</type>
+          <declname>newTemper</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="329" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="329" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3fa7c0b604a535c7210c2cfdf7ceb6b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetAmbientTemper</definition>
+        <argsstring>()</argsstring>
+        <name>GetAmbientTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="334" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="334" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a30f76ce1fc84eecef5e5ca17cb38c138" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetPDValue</definition>
+        <argsstring>()</argsstring>
+        <name>GetPDValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="339" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="339" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1abe7ed16a58fe99ebe38d341ad88ba187" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetTemperCtrlParameters</definition>
+        <argsstring>()</argsstring>
+        <name>GetTemperCtrlParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="343" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="343" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a6f9c0db0fd0320b96fc640d4d8684152" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.SetTemperCtrlParameters</definition>
+        <argsstring>(int kp, int ki, int kd, int maxCrntPcnt)</argsstring>
+        <name>SetTemperCtrlParameters</name>
+        <param>
+          <type>int</type>
+          <declname>kp</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ki</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxCrntPcnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="347" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="347" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a751721ef413f06af5c568aaec2550126" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.SetCartridgeMotorStatus</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>SetCartridgeMotorStatus</name>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="354" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="354" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a33e24783dd071148719198a9dd26a29d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.GetCartridgeMotorStatus</definition>
+        <argsstring>()</argsstring>
+        <name>GetCartridgeMotorStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="358" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="358" bodyend="361"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af5d744146bbe0eaaa1e6aa632e1f78a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.SetCartridgeMotorPower</definition>
+        <argsstring>(int powerPercent)</argsstring>
+        <name>SetCartridgeMotorPower</name>
+        <param>
+          <type>int</type>
+          <declname>powerPercent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="362" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="362" bodyend="365"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3bb02786d10c8855457764274ac0eb6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.Query</definition>
+        <argsstring>(MBProtocol.Registers module, bool waitForResponse)</argsstring>
+        <name>Query</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">MBProtocol.Registers</ref></type>
+          <declname>module</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitForResponse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="368" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="368" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a5bb72b8d16a8b3ac58a12ac203e4070a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.Query</definition>
+        <argsstring>(MBProtocol.Registers module, byte numbers, bool waitForResponse)</argsstring>
+        <name>Query</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">MBProtocol.Registers</ref></type>
+          <declname>module</declname>
+        </param>
+        <param>
+          <type>byte</type>
+          <declname>numbers</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitForResponse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="393" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="393" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1adaee45ea985573a0a316777e9894fbfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.Setting</definition>
+        <argsstring>(MBProtocol.Registers module, int targetValue, bool waitForResponse)</argsstring>
+        <name>Setting</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">MBProtocol.Registers</ref></type>
+          <declname>module</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>targetValue</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitForResponse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="419" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="419" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a8acf81daed49e3d30548d9a5569e30a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.Mainboard.Setting</definition>
+        <argsstring>(MBProtocol.Registers module, int[] targetValues, bool waitForResponse)</argsstring>
+        <name>Setting</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">MBProtocol.Registers</ref></type>
+          <declname>module</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>targetValues</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitForResponse</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="446" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="446" bodyend="479"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1abe2be5243a50b42ea0e133049e05f674" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MainBoard.Mainboard._LEDOnTimer_Elapsed</definition>
+        <argsstring>(object sender, System.Timers.ElapsedEventArgs e)</argsstring>
+        <name>_LEDOnTimer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Timers.ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="46" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="46" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a6df85634e393eb74564bd02d8ab12a14" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MainBoard.Mainboard._Comm_OnResponseArrived</definition>
+        <argsstring>()</argsstring>
+        <name>_Comm_OnResponseArrived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="79" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="678">
+        <label>Sequlite.ALF.MainBoard.Mainboard</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard"/>
+        <childnode refid="679" relation="usage">
+          <edgelabel>_LEDOnTimer</edgelabel>
+        </childnode>
+        <childnode refid="680" relation="usage">
+          <edgelabel>_LEDLock</edgelabel>
+        </childnode>
+        <childnode refid="681" relation="usage">
+          <edgelabel>_Comm</edgelabel>
+        </childnode>
+      </node>
+      <node id="682">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="679" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="679">
+        <label>System</label>
+      </node>
+      <node id="681">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="682" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="680">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" bodystart="7" bodyend="481"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a1bc92b8b5d6a8b297f79d82808388211" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_Comm</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a6df85634e393eb74564bd02d8ab12a14" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_Comm_OnResponseArrived</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3eceabb390c47fb01576a397df97a6a6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_GLEDOnTimerCounts</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af380ba7b6bdbc419be194a955ef39f97" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_IsGLEDSetOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ad3a80596601595f5440b958ceff00c8c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_IsRLEDSetOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a4ba70faa045d2815382ad5dbc87c709a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_IsWLEDSetOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a217cb7e1b2aa6ec859b1ea94691aa641" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_LEDLock</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a84e88773e334d38635b686253a43aa0b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_LEDOnTimer</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1abe2be5243a50b42ea0e133049e05f674" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_LEDOnTimer_Elapsed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a8bbc0f906ead1ed2e471e90b69e767bf" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_RLEDOnTimerCounts</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a914bc2b7d2ed21b5c42b65e1e537b683" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>_WLEDOnTimerCounts</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ae1a74ba0a57fce8b45fd7a5e15c9ef61" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>AmbientTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a6e7481eb730d922be96f9fe641df8564" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>BaudRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a0a5ba4811eae211ec47334268955c700" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>CartridgePower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a239d32627a913e4e40d0ab108ec27cad" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>ChemiTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a118be040050474f19dd90744b3c7b6fe" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>ChemiTemperCtrlPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ac2f9057e0d273a744f5b162e2f09b127" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>ChemiTemperCtrlRamp</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a1e29b0aefa870bb446befb066e5f3892" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>Connect</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ac6df48beed544cfe33672e2241d274ef" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>CoolerTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af6c2f177f9ccdfcb3c2831d5d068f811" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>DeviceType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ab0c18e7e8e58cf8b615b6cd88409579e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>EventHandler</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a66afcc87c6b4b54745264392e3b59e9d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>FilterPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a53eeb68b0f8ffdb25e93be977de5e635" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>FWVersion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3fa7c0b604a535c7210c2cfdf7ceb6b2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetAmbientTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a33e24783dd071148719198a9dd26a29d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetCartridgeMotorStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a9d1a0343ccf22ce175a78fbd5cdd0526" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetChemiTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a138aec338b90b3b1b1eb25f5eabef048" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetChemiTemperCtrlPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ae7382b19c187df03dc212572a6017465" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetChemiTemperCtrlRamp</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1acd198e008523d76ce843121b83652fdf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetChemiTemperCtrlStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a13ad77c9c0e6f5bef70c43e3a7b78373" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetCoolerTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a033e7f1b7fafa9ad14f596d4423945be" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetDeviceInfo</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ae86e045fc307003150a35122eb722530" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetLEDIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a04f2900b1efd95fe90095a2d1615b06b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetLEDStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a175f1b9cc0f38cef821d636756e614b3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetOnOffStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a30f76ce1fc84eecef5e5ca17cb38c138" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetPDValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1abe7ed16a58fe99ebe38d341ad88ba187" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GetTemperCtrlParameters</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a01de79d272f1564e8d983d93af421bb3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GLEDIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af3480ab9bdf2d8d0494acda4f90bc5ec" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>GLEDMaxOnTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a4ecf761d951e25620a3e81cc449f8221" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>HeatSinkTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1aaff58c0293f16cc543ac1cac411753a8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>HWVersion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a42ebf1e96177d8b856c2751a169f4b82" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>IsCartridgeEnabled</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a7593be323ffb28dd0fbb4926e4f77db8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>IsChemiTemperCtrlOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3c760c96a291bd8f4556b8cb2c01adf1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>IsConnected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af4826cbf4778e915f809d69249628a9a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>IsGLEDOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a571761fb8cf90b580552d25e0e5cb3da" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>IsRLEDOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a28e4fb50ae9dfca7e5fea759c3385109" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>IsWLEDOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a0da7403dfa613aafe241a8b7edb88f99" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>IsYMotionEnabled</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a299c1734a8284c71bfb20a089ec8fab8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>Mainboard</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af6d6af47af662cfeda8a7c6486d42cbe" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>OnLEDStatusChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3c5fef9afee0590f39b3ab745620b7b6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>OnLEDStatusChangedHandle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a9ebf2b07fd8186abe2b466a4dab933ab" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>OnOffInputs</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1abc43c90c23c91946c3d1b0e7e0012a86" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>OnUpdateStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a0ad9ae77b6f59b09ba01161fc9e4c28e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>PDValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a99f252a40a638b3f1b80a7d34bdf605a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>PMotionPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3bb02786d10c8855457764274ac0eb6e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>Query</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a5bb72b8d16a8b3ac58a12ac203e4070a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>Query</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a3ebb772d7c861326a1a41c9bdc4f2392" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>RLEDIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1aa0e8ca668f9ab2c0da3f1583cf9d6db3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>RLEDMaxOnTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1af5d744146bbe0eaaa1e6aa632e1f78a2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>SetCartridgeMotorPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a751721ef413f06af5c568aaec2550126" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>SetCartridgeMotorStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a749ccd93fa20a79b2a6e63d1c7770224" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>SetChemiTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ac6c26fc18a2cd07eef45956a6075c489" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>SetChemiTemperCtrlRamp</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a1fa94c49823995ca378f88c474995977" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>SetChemiTemperCtrlStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a4e009e50c2ea5d285416d3c1b1c64005" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>SetCoolerTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1ab14e0fed0d4d62e7b9675bc2926b7436" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>SetLEDIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1aaa672dd08face4aa49ef013a2fdb3169" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>SetLEDStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a6f9c0db0fd0320b96fc640d4d8684152" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>SetTemperCtrlParameters</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1adaee45ea985573a0a316777e9894fbfd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>Setting</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a8acf81daed49e3d30548d9a5569e30a1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>Setting</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a52f73770313bdc7f6790b9a4ec5a5d5e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>TemperCtrlDif</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a1baa7368d8b53b2df3ff3772f5a839c4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>TemperCtrlInt</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1aaf0008bdfc2581765af6f1813ab99c4e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>TemperCtrlPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a22a2ea8da881373fd75c3dfddcaaf6a6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>TemperCtrlPro</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a47d6f542cddf01aead3eb6a0a6841eb7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>WLEDIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1acee09ab5caad9f064a75c0e639aff46e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>WLEDMaxOnTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a78a56ee2e5f3e3382bd73662597e12f5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>YMotionAcc</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a25a1def3f8c10f1819c25aeec45b5ac5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>YMotionPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard_1a40614d5408ac4f6972ab2ac6fb62195b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::Mainboard</scope><name>YMotionSpd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

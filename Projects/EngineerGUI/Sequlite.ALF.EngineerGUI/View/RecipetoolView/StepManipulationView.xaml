@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="Sequlite.ALF.EngineerGUI.View.RecipetoolView.StepManipulationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.ALF.EngineerGUI.View.RecipetoolView"
+             xmlns:vm="clr-namespace:Sequlite.ALF.EngineerGUI.ViewModel.RecipetoolVM"
+             mc:Ignorable="d" 
+             d:DesignHeight="100" d:DesignWidth="400">
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Append" Width ="80" Margin="5" VerticalAlignment="Center"
+                    Command="{Binding Path=AddStepCmd}" CommandParameter="{x:Static vm:AddStepTypes.Append}"/>
+            <Button Content="Insert" Width ="80" Margin="5" VerticalAlignment="Center"
+                    Command="{Binding Path=AddStepCmd}" CommandParameter="{x:Static vm:AddStepTypes.Insert}"/>
+            <Button Content="Embed" Width ="80" Margin="5" VerticalAlignment="Center"
+                    Command="{Binding Path=AddStepCmd}" CommandParameter="{x:Static vm:AddStepTypes.AddToChild}"/>
+            <Button Content="Remove" Width ="80" Margin="5" VerticalAlignment="Center"
+                    Command="{Binding Path=RemoveStepCmd}"/>
+            <Button Content="Move Up" Width ="80" Margin="5" VerticalAlignment="Center"
+                    Command="{Binding Path=MoveStepCmd}" CommandParameter="Up"/>
+            <Button Content="Move Down" Width ="80" Margin="5" VerticalAlignment="Center" Command="{Binding Path=MoveStepCmd}" CommandParameter="Down"/>
+        </StackPanel>
+
+    </Grid>
+</UserControl>
+

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_motion_control_1_1_motion_signal_polarity" kind="class" prot="public">
+    <compoundname>Hywire::MotionControl::MotionSignalPolarity</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1ac3205ca42e9a9da3ab123253949f82f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionSignalPolarity.ClkPolar</definition>
+        <argsstring></argsstring>
+        <name>ClkPolar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="697" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1a94873b6e12a972bb9f19467159db4066" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionSignalPolarity.DirPolar</definition>
+        <argsstring></argsstring>
+        <name>DirPolar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="698" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="698" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1a4723b43031577fdb0c04629f9a589087" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionSignalPolarity.EnaPolar</definition>
+        <argsstring></argsstring>
+        <name>EnaPolar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="699" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="699" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1a4271ba9dc37834f27ff3da084bf04a8d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionSignalPolarity.FwdLmtPolar</definition>
+        <argsstring></argsstring>
+        <name>FwdLmtPolar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="700" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="700" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1abf301a5d3507c0d22d3561606d2f2bb2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionSignalPolarity.BwdLmtPolar</definition>
+        <argsstring></argsstring>
+        <name>BwdLmtPolar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="701" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1a1575251bc7c61d75e16006578df02a9b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionSignalPolarity.HomePolar</definition>
+        <argsstring></argsstring>
+        <name>HomePolar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="702" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="702" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1a6b83dba022f3209384da657a9ff83e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte</type>
+        <definition>byte Hywire.MotionControl.MotionSignalPolarity.MapToByte</definition>
+        <argsstring>()</argsstring>
+        <name>MapToByte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="704" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="704" bodyend="714"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1aaa63dfd0d7cef5f21bfcb0703c009034" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.MotionControl.MotionSignalPolarity.MapFromByte</definition>
+        <argsstring>(byte polar)</argsstring>
+        <name>MapFromByte</name>
+        <param>
+          <type>byte</type>
+          <declname>polar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="716" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="716" bodyend="724"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="696" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="695" bodyend="725"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1abf301a5d3507c0d22d3561606d2f2bb2" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionSignalPolarity</scope><name>BwdLmtPolar</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1ac3205ca42e9a9da3ab123253949f82f6" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionSignalPolarity</scope><name>ClkPolar</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1a94873b6e12a972bb9f19467159db4066" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionSignalPolarity</scope><name>DirPolar</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1a4723b43031577fdb0c04629f9a589087" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionSignalPolarity</scope><name>EnaPolar</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1a4271ba9dc37834f27ff3da084bf04a8d" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionSignalPolarity</scope><name>FwdLmtPolar</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1a1575251bc7c61d75e16006578df02a9b" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionSignalPolarity</scope><name>HomePolar</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1aaa63dfd0d7cef5f21bfcb0703c009034" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionSignalPolarity</scope><name>MapFromByte</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity_1a6b83dba022f3209384da657a9ff83e97" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionSignalPolarity</scope><name>MapToByte</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

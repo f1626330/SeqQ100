@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B38A4E4B-1388-4835-90DC-189496ECAD74}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Sequlite.ALF.App</RootNamespace>
+    <AssemblyName>Sequlite.ALF.App</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\..\RuleSets\SequliteRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;DisableBarCodeReader,DisableFCDoor,DisableReagentDoor,DisableFlowCheck,DisableRFIDReader</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>..\..\RuleSets\SequliteRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Factory\SeqAppFactory.cs" />
+    <Compile Include="Helper\AppMessageSubscriber.cs" />
+    <Compile Include="Impl\SeqApp-Sequence-offline.cs" />
+    <Compile Include="Impl\SequenceDataInfoHelper.cs" />
+    <Compile Include="Impl\SequenceOfflineDataProcess.cs" />
+    <Compile Include="Impl\SeqApp-Monitor.cs" />
+    <Compile Include="Impl\SeqApp-RunSetup.cs" />
+    <Compile Include="Impl\SeqApp-Check.cs" />
+    <Compile Include="Impl\SeqApp-Sequence.cs" />
+    <Compile Include="Impl\SeqApp-PostRun.cs" />
+    <Compile Include="Impl\SeqApp-Init.cs" />
+    <Compile Include="Impl\SeqApp-Load.cs" />
+    <Compile Include="Impl\SeqApp.cs" />
+    <Compile Include="Interface\IAppMessage.cs" />
+    <Compile Include="Interface\IPostRun.cs" />
+    <Compile Include="Interface\IRunSetup.cs" />
+    <Compile Include="Interface\ISequence.cs" />
+    <Compile Include="Interface\ISysetmCheck.cs" />
+    <Compile Include="Interface\ISystemInit.cs" />
+    <Compile Include="Interface\ILoad.cs" />
+    <Compile Include="Interface\ISeqApp.cs" />
+    <Compile Include="Interface\ISystemMonitor.cs" />
+    <Compile Include="Type\AppMessage.cs" />
+    <Compile Include="Type\AppRunWashStatus.cs" />
+    <Compile Include="Type\AppSequenceStatus.cs" />
+    <Compile Include="Type\LowDiskSpaceMessage.cs" />
+    <Compile Include="Type\CheckHardwareProgressMessage.cs" />
+    <Compile Include="Type\SampleSheetDataInfo.cs" />
+    <Compile Include="Type\TemperatureStatus.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hywire.CommLibrary\Hywire.CommLibrary.csproj">
+      <Project>{4007B575-FEE9-4959-B81A-436E51258451}</Project>
+      <Name>Hywire.CommLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Hywire.MotionControl\Hywire.MotionControl.csproj">
+      <Project>{AC2D1C88-799C-4A61-9899-1656E3AA8FD3}</Project>
+      <Name>Hywire.MotionControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PVCam.NET\PVCAM\PVCAM.NET.csproj">
+      <Project>{9bc64f67-33c2-4a01-b09e-6e2def9f7c7f}</Project>
+      <Name>PVCAM.NET</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.Common\Sequlite.ALF.Common.csproj">
+      <Project>{62dba0e8-7f0c-4575-a907-b0d153f51524}</Project>
+      <Name>Sequlite.ALF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.Fluidics\Sequlite.ALF.Fluidics.csproj">
+      <Project>{07a59f91-59d0-41ef-96a5-3ce699bfb68d}</Project>
+      <Name>Sequlite.ALF.Fluidics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.Imaging\Sequlite.ALF.Imaging.csproj">
+      <Project>{11a1623a-e83d-450d-a013-f54bf2887715}</Project>
+      <Name>Sequlite.ALF.Imaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.MainBoard\Sequlite.ALF.MainBoard.csproj">
+      <Project>{c7850d7d-a231-4ce4-bc75-9787f59bcc75}</Project>
+      <Name>Sequlite.ALF.MainBoard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.MotionControl\Sequlite.ALF.MotionControl.csproj">
+      <Project>{0d77fd7c-df0d-4c9e-91dd-0c19b118edaf}</Project>
+      <Name>Sequlite.ALF.MotionControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.RecipeLib\Sequlite.ALF.RecipeLib.csproj">
+      <Project>{b1cfa372-fe3f-4cb6-94d4-d7fff1a55f1d}</Project>
+      <Name>Sequlite.ALF.RecipeLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.SerialPeripherals\Sequlite.ALF.SerialPeripherals.csproj">
+      <Project>{012c1a13-7463-4845-ae77-e1f5c30fc228}</Project>
+      <Name>Sequlite.ALF.SerialPeripherals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.CameraLib\Sequlite.CameraLib.csproj">
+      <Project>{50e85e96-5a2f-46a9-87d3-9407981aeea1}</Project>
+      <Name>Sequlite.CameraLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="fasterflect">
+      <Version>3.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Reactive">
+      <Version>5.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="ValueInjecter">
+      <Version>3.2.0</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

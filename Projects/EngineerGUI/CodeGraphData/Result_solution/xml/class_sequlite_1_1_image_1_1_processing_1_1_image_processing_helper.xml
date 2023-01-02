@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::ImageProcessingHelper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1a7bcf4bfb9edf29ce25476bb0c9018f55" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void Sequlite.Image.Processing.ImageProcessingHelper.GetPixelIntensity</definition>
+        <argsstring>(WriteableBitmap srcImage, Point pt, ref int iRedData, ref int iGreenData, ref int iBlueData, ref int iGrayData)</argsstring>
+        <name>GetPixelIntensity</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <param>
+          <type><ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref></type>
+          <declname>pt</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>iRedData</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>iGreenData</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>iBlueData</declname>
+        </param>
+        <param>
+          <type>ref int</type>
+          <declname>iGrayData</declname>
+        </param>
+        <briefdescription>
+<para>Get pixel intensity at the specified coordinate </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>bitmap</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iCol</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iRow</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iRedData</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iGreenData</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iBlueData</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" bodystart="20" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac6057b8c8b00fb831fc1d95b784dc86f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</definition>
+        <argsstring>(ref WriteableBitmap srcimg, ImageInfo imginfo, ref WriteableBitmap dstimg)</argsstring>
+        <name>UpdateDisplayImage</name>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>srcimg</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+          <declname>imginfo</declname>
+        </param>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>dstimg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" line="389" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" bodystart="389" bodyend="660"/>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a6d39394b48908d790d2607e6ad37fec5" compoundref="_sequlite_8_image_8_processing_2_image_info_8cs" startline="141">Sequlite.Image.Processing.ImageInfo.BlueChannel</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aefe27331e904cbbb7a6d8668af1e64c6" compoundref="_sequlite_8_image_8_processing_2_image_info_8cs" startline="164">Sequlite.Image.Processing.ImageInfo.CaptureType</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a8f7ce63b8bbfca882b5f829cf25331d7" compoundref="_sequlite_8_image_8_processing_2_image_info_8cs" startline="146">Sequlite.Image.Processing.ImageInfo.GrayChannel</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a27e3d547d7151c1bc0301d140d21b22f" compoundref="_sequlite_8_image_8_processing_2_image_info_8cs" startline="136">Sequlite.Image.Processing.ImageInfo.GreenChannel</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel_1aae45fd2cd9631c61a83a05bea07f553f" compoundref="_sequlite_8_image_8_processing_2_image_info_8cs" startline="37">Sequlite.Image.Processing.ImageChannel.IsAutoChecked</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel_1ab9fb17016d84e1f12095385dc441f6cc" compoundref="_sequlite_8_image_8_processing_2_image_info_8cs" startline="38">Sequlite.Image.Processing.ImageChannel.IsInvertChecked</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1abd5e60988ee061a642dd82408af9370d" compoundref="_sequlite_8_image_8_processing_2_image_info_8cs" startline="152">Sequlite.Image.Processing.ImageInfo.MixChannel</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a50a54b2bc549e2d8a693a21773346f1c" compoundref="_sequlite_8_image_8_processing_2_image_info_8cs" startline="157">Sequlite.Image.Processing.ImageInfo.NumOfChannels</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ae211184da3a341a9cf53b54a299b01ee" compoundref="_sequlite_8_image_8_processing_2_image_info_8cs" startline="131">Sequlite.Image.Processing.ImageInfo.RedChannel</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aed15dcd60b2f8c02580258ca920d67ad" compoundref="_sequlite_8_image_8_processing_2_image_info_8cs" startline="168">Sequlite.Image.Processing.ImageInfo.SelectedChannel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1aad82e41650f86df4d6418063a990c0e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</definition>
+        <argsstring>(byte *[] srcImages, int nWidth, int nHeight, int nStride, PixelFormat pixelFormat, ImageInfo imageInfo, byte *pDstImageData, int nDstStride)</argsstring>
+        <name>UpdateDisplayImage</name>
+        <param>
+          <type>byte *[]</type>
+          <declname>srcImages</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nHeight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nStride</declname>
+        </param>
+        <param>
+          <type>PixelFormat</type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+          <declname>imageInfo</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDstImageData</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDstStride</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="namespace_sequlite_1_1_image" kindref="compound">Image</ref> contrasting: Expected color order: R/G/B/Gray </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcImages</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>imageInfo</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para><para><ref refid="namespace_sequlite_1_1_image" kindref="compound">Image</ref> contrasting: Expected color order: R/G/B/Gray </para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcImages</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>imageInfo</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" line="1113" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" bodystart="1113" bodyend="1149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ad8504e4bc46fde0cf8ebdc20ed120e0b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</definition>
+        <argsstring>(byte *pSrcimage, int nWidth, int nHeight, int nStride, PixelFormat srcPixelFormat, ImageInfo imageinfo, byte *pDstImageData, int nDstStride)</argsstring>
+        <name>UpdateDisplayImage</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrcimage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nWidth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nHeight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nStride</declname>
+        </param>
+        <param>
+          <type>PixelFormat</type>
+          <declname>srcPixelFormat</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+          <declname>imageinfo</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDstImageData</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nDstStride</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" line="1151" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" bodystart="1151" bodyend="1172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1acf46eccd98c120733f69555dcdad9886" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>static unsafe WriteableBitmap Sequlite.Image.Processing.ImageProcessingHelper.PasteMarkerImage</definition>
+        <argsstring>(WriteableBitmap chemiImage, WriteableBitmap blobsImage, WriteableBitmap clippedImage, Rect clippedRect)</argsstring>
+        <name>PasteMarkerImage</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>chemiImage</declname>
+        </param>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>blobsImage</declname>
+        </param>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>clippedImage</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>clippedRect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" line="1257" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" bodystart="1257" bodyend="1358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac14f6b2cd209b40ac42f2b7e959156a1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>static unsafe WriteableBitmap Sequlite.Image.Processing.ImageProcessingHelper.PasteRgbMarkerImage</definition>
+        <argsstring>(WriteableBitmap chemiImage, WriteableBitmap blobsImage, WriteableBitmap clippedImage, Rect clippedRect)</argsstring>
+        <name>PasteRgbMarkerImage</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>chemiImage</declname>
+        </param>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>blobsImage</declname>
+        </param>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>clippedImage</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>clippedRect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" line="1360" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" bodystart="1360" bodyend="1388"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1aca42d6e8ce4acfdbe2e1b20b3c437fc9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>static unsafe WriteableBitmap Sequlite.Image.Processing.ImageProcessingHelper.Paste24bppImage</definition>
+        <argsstring>(BitmapSource srcImage, WriteableBitmap clippedImage, Rect clippedRect)</argsstring>
+        <name>Paste24bppImage</name>
+        <param>
+          <type>BitmapSource</type>
+          <declname>srcImage</declname>
+        </param>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>clippedImage</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>clippedRect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" line="1466" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" bodystart="1466" bodyend="1517"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1af35809fab65a5a3c21634535e4523c1e" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>static unsafe WriteableBitmap Sequlite.Image.Processing.ImageProcessingHelper.PasteImage</definition>
+        <argsstring>(WriteableBitmap srcImage, WriteableBitmap clippedImage, Rect clippedRect)</argsstring>
+        <name>PasteImage</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>clippedImage</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>clippedRect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" line="1390" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" bodystart="1390" bodyend="1429"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1a27f795f1f5c7420f9b5ff171d1415a71" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>static unsafe WriteableBitmap Sequlite.Image.Processing.ImageProcessingHelper.MakeNonZeroPixelValueOnes</definition>
+        <argsstring>(WriteableBitmap srcImage)</argsstring>
+        <name>MakeNonZeroPixelValueOnes</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" line="1431" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" bodystart="1431" bodyend="1464"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingHelper.cs" bodystart="9" bodyend="1550"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1a7bcf4bfb9edf29ce25476bb0c9018f55" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingHelper</scope><name>GetPixelIntensity</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1a27f795f1f5c7420f9b5ff171d1415a71" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingHelper</scope><name>MakeNonZeroPixelValueOnes</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1aca42d6e8ce4acfdbe2e1b20b3c437fc9" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingHelper</scope><name>Paste24bppImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1af35809fab65a5a3c21634535e4523c1e" prot="package" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingHelper</scope><name>PasteImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1acf46eccd98c120733f69555dcdad9886" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingHelper</scope><name>PasteMarkerImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac14f6b2cd209b40ac42f2b7e959156a1" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingHelper</scope><name>PasteRgbMarkerImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac6057b8c8b00fb831fc1d95b784dc86f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingHelper</scope><name>UpdateDisplayImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1aad82e41650f86df4d6418063a990c0e1" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingHelper</scope><name>UpdateDisplayImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ad8504e4bc46fde0cf8ebdc20ed120e0b" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingHelper</scope><name>UpdateDisplayImage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

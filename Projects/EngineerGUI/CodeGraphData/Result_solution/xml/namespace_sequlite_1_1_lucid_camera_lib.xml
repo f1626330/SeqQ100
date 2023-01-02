@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_lucid_camera_lib" kind="namespace">
+    <compoundname>Sequlite::LucidCameraLib</compoundname>
+    <innerclass refid="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager" prot="public">Sequlite::LucidCameraLib::CameraManager</innerclass>
+    <innerclass refid="class_sequlite_1_1_lucid_camera_lib_1_1_lucid_camera_base" prot="public">Sequlite::LucidCameraLib::LucidCameraBase</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

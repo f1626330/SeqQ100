@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7c12aac02d4a1380345c841b4cbb9d4c" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM</compoundname>
+    <innerfile refid="_relay_command_8cs">RelayCommand.cs</innerfile>
+    <innerfile refid="_view_model_base_8cs">ViewModelBase.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/"/>
+  </compounddef>
+</doxygen>

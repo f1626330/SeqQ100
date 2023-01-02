@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace" kind="class" prot="public">
+    <compoundname>Hywire::ALF::ValveTest::Workspace</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a183bf07bf167b9f53649427bbaf61017" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace" kindref="compound">Workspace</ref></type>
+        <definition>Workspace Hywire.ALF.ValveTest.Workspace.This</definition>
+        <argsstring></argsstring>
+        <name>This</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="13" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1accb9164a4e458343146c14dca97f71fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.ValveTest.Workspace.ConnectCmd</definition>
+        <argsstring></argsstring>
+        <name>ConnectCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="46" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1ac0c5f98edd6af6f428701ec45bde4fa0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Hywire.ALF.ValveTest.Workspace.ConnectionInfo</definition>
+        <argsstring></argsstring>
+        <name>ConnectionInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="81" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1ae46dfce0d51116f740d3a1c1fc8d4f59" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.ValveTest.Workspace.HomeCmd</definition>
+        <argsstring></argsstring>
+        <name>HomeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="97" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a6640699da89e45bf2a230e62afad4b72" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; Hywire.ALF.ValveTest.Workspace.PosOptions</definition>
+        <argsstring></argsstring>
+        <name>PosOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="125" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1adee1426a328db01507d4dfd1deb61c1d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Hywire.ALF.ValveTest.Workspace.SelectedPosition</definition>
+        <argsstring></argsstring>
+        <name>SelectedPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="128" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1acdb40a5c8d7699fe0c99d3fc5b602c14" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Hywire.ALF.ValveTest.Workspace.CurrentPos</definition>
+        <argsstring></argsstring>
+        <name>CurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="144" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a37de4dbb452249a3ff412ad489e11517" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.ValveTest.Workspace.SetPosCmd</definition>
+        <argsstring></argsstring>
+        <name>SetPosCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="160" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1aeeca5903675283c21a4318b4317f0f03" prot="private" static="no" mutable="no">
+        <type>Thread</type>
+        <definition>Thread Hywire.ALF.ValveTest.Workspace._QueryingThread</definition>
+        <argsstring></argsstring>
+        <name>_QueryingThread</name>
+        <initializer>= new <ref refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace" kindref="compound">Workspace</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="15" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1af9b563fe75f7e069c0222c39dfa93b79" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.ValveTest.Workspace._ConnectCmd</definition>
+        <argsstring></argsstring>
+        <name>_ConnectCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="45" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a3422e3c2bf6949f7af64a21393d0aa67" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Hywire.ALF.ValveTest.Workspace._ConnectionInfo</definition>
+        <argsstring></argsstring>
+        <name>_ConnectionInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="80" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a5dace27e4562cd3c247cc0af919a3cf6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.ValveTest.Workspace._HomeCmd</definition>
+        <argsstring></argsstring>
+        <name>_HomeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="96" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a3702d389314897162e3c7d2fb7a56873" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hywire.ALF.ValveTest.Workspace._SelectedPosition</definition>
+        <argsstring></argsstring>
+        <name>_SelectedPosition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="127" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1adbdafbe67e9e530be64396de0aebb4e7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hywire.ALF.ValveTest.Workspace._CurrentPos</definition>
+        <argsstring></argsstring>
+        <name>_CurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="143" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a563d9d06ad3fd2f68302c170258b2e36" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.ValveTest.Workspace._SetPosCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetPosCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="159" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a56ce1f9dd7f5dd9d9a9b33ef45cc9e72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.ValveTest.Workspace.Workspace</definition>
+        <argsstring>()</argsstring>
+        <name>Workspace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="17" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="17" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a1ef13985d6392ae6c4781e80c48468e6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ValveTest.Workspace.QueryProcessing</definition>
+        <argsstring>()</argsstring>
+        <name>QueryProcessing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="31" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="31" bodyend="42"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller_1a72cc8546d957d3da6e6020e61d6f1efc" compoundref="_valve_controller_8cs" startline="38">Sequlite.ALF.Fluidics.ValveController.IsConnected</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller_1a35fb52922da4ba8937237ed654c72b07" compoundref="_valve_controller_8cs" startline="39">Sequlite.ALF.Fluidics.ValveController.Status</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a28400f28fad818e1a49cb5c8475653c3" compoundref="_fluidics_manager_8cs" startline="13">Sequlite.ALF.Fluidics.FluidicsManager.Valve</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1aa89feedc854a6f26b257cea391ab17fa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ValveTest.Workspace.ExecuteConnectCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteConnectCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="58" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="58" bodyend="71"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller_1a72cc8546d957d3da6e6020e61d6f1efc" compoundref="_valve_controller_8cs" startline="38">Sequlite.ALF.Fluidics.ValveController.IsConnected</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a28400f28fad818e1a49cb5c8475653c3" compoundref="_fluidics_manager_8cs" startline="13">Sequlite.ALF.Fluidics.FluidicsManager.Valve</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1adf23997f8024a6353a5309992745e21f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ValveTest.Workspace.CanExecuteConnectCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteConnectCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="73" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a1348ed3986938955c72805308b4afd8e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ValveTest.Workspace.ExecuteHomeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteHomeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="109" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="109" bodyend="116"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller_1a35fb52922da4ba8937237ed654c72b07" compoundref="_valve_controller_8cs" startline="39">Sequlite.ALF.Fluidics.ValveController.Status</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a28400f28fad818e1a49cb5c8475653c3" compoundref="_fluidics_manager_8cs" startline="13">Sequlite.ALF.Fluidics.FluidicsManager.Valve</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a8659f6ad2190a32e20d391b54ce98b15" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ValveTest.Workspace.CanExecuteHomeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteHomeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="118" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a86d89ab4c1627195b1816a9566e0f343" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ValveTest.Workspace.ExecuteSetPosCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetPosCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="172" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="172" bodyend="189"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller_1a8d75449b5d46e4d65d4b106b017d50d5" compoundref="_valve_controller_8cs" startline="230" endline="291">Sequlite.ALF.Fluidics.ValveController.SetToNewPos</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller_1a35fb52922da4ba8937237ed654c72b07" compoundref="_valve_controller_8cs" startline="39">Sequlite.ALF.Fluidics.ValveController.Status</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a28400f28fad818e1a49cb5c8475653c3" compoundref="_fluidics_manager_8cs" startline="13">Sequlite.ALF.Fluidics.FluidicsManager.Valve</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a9e1b876f16e643a8b9bf9175d55f95b6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ValveTest.Workspace.CanExecuteSetPosCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetPosCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="191" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="191" bodyend="194"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1342">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1343">
+        <label>IDisposable</label>
+      </node>
+      <node id="1341">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1342" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1343" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1340">
+        <label>Hywire.ALF.ValveTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace"/>
+        <childnode refid="1341" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1349">
+        <label>ICommand</label>
+      </node>
+      <node id="1346">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1347">
+        <label>IDisposable</label>
+      </node>
+      <node id="1345">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1346" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1347" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1348">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="1349" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1344">
+        <label>Hywire.ALF.ValveTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace"/>
+        <childnode refid="1345" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1348" relation="usage">
+          <edgelabel>_SetPosCmd</edgelabel>
+          <edgelabel>_HomeCmd</edgelabel>
+          <edgelabel>_ConnectCmd</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" line="12" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Workspace.cs" bodystart="11" bodyend="197"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1af9b563fe75f7e069c0222c39dfa93b79" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>_ConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a3422e3c2bf6949f7af64a21393d0aa67" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>_ConnectionInfo</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1adbdafbe67e9e530be64396de0aebb4e7" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>_CurrentPos</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a5dace27e4562cd3c247cc0af919a3cf6" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>_HomeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1aeeca5903675283c21a4318b4317f0f03" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>_QueryingThread</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a3702d389314897162e3c7d2fb7a56873" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>_SelectedPosition</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a563d9d06ad3fd2f68302c170258b2e36" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>_SetPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1adf23997f8024a6353a5309992745e21f" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>CanExecuteConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a8659f6ad2190a32e20d391b54ce98b15" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>CanExecuteHomeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a9e1b876f16e643a8b9bf9175d55f95b6" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>CanExecuteSetPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1accb9164a4e458343146c14dca97f71fe" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>ConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1ac0c5f98edd6af6f428701ec45bde4fa0" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>ConnectionInfo</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1acdb40a5c8d7699fe0c99d3fc5b602c14" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>CurrentPos</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1aa89feedc854a6f26b257cea391ab17fa" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>ExecuteConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a1348ed3986938955c72805308b4afd8e" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>ExecuteHomeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a86d89ab4c1627195b1816a9566e0f343" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>ExecuteSetPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1ae46dfce0d51116f740d3a1c1fc8d4f59" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>HomeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a6640699da89e45bf2a230e62afad4b72" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>PosOptions</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>PropertyChanged</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a1ef13985d6392ae6c4781e80c48468e6" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>QueryProcessing</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1adee1426a328db01507d4dfd1deb61c1d" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>SelectedPosition</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a37de4dbb452249a3ff412ad489e11517" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>SetPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a183bf07bf167b9f53649427bbaf61017" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>This</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a56ce1f9dd7f5dd9d9a9b33ef45cc9e72" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Workspace</scope><name>Workspace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

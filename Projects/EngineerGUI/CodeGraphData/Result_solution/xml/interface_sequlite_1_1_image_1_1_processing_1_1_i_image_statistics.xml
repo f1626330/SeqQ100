@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics" kind="interface" prot="public">
+    <compoundname>Sequlite::Image::Processing::IImageStatistics</compoundname>
+    <derivedcompoundref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_statistics" prot="public" virt="non-virtual">Sequlite.Image.Processing.ImageStatistics</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1a85bcc504ac1741b7230b4f28e7706626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.IImageStatistics.GetTotalSum</definition>
+        <argsstring>(WriteableBitmap image, Rectangle roi)</argsstring>
+        <name>GetTotalSum</name>
+        <reimplementedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_statistics_1af3e9e6c66d67aead7e52f940d89a68ad">GetTotalSum</reimplementedby>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>roi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/IImageStatistics.cs" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1ae2a3675ce632da21ee5c5fe96281911c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.IImageStatistics.GetAverage</definition>
+        <argsstring>(WriteableBitmap image, Rectangle roi)</argsstring>
+        <name>GetAverage</name>
+        <reimplementedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_statistics_1a016e866d408091d4093afe35120426c2">GetAverage</reimplementedby>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>roi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/IImageStatistics.cs" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1a30b069f9e73cd650642fe50d79cef867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.IImageStatistics.GetStdDeviation</definition>
+        <argsstring>(WriteableBitmap image, Rectangle roi)</argsstring>
+        <name>GetStdDeviation</name>
+        <reimplementedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_statistics_1aa5887c0b9219b25effd06bc85f94efd1">GetStdDeviation</reimplementedby>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>roi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/IImageStatistics.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1a0caaa44748b0957caac6f1d05e7ee556" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.IImageStatistics.GetMedian</definition>
+        <argsstring>(WriteableBitmap image, Rectangle roi)</argsstring>
+        <name>GetMedian</name>
+        <reimplementedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_statistics_1ae57e11af877b9b8725d0135015b323af">GetMedian</reimplementedby>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>roi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/IImageStatistics.cs" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1acff43e7348fde9c4a073c2158316dcf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.IImageStatistics.GetPixelMin</definition>
+        <argsstring>(WriteableBitmap image, Rectangle rectROI)</argsstring>
+        <name>GetPixelMin</name>
+        <reimplementedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_statistics_1a4388636e3dae6f73f68ace7d3900c29e">GetPixelMin</reimplementedby>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>rectROI</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/IImageStatistics.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1a98a3cd1a9f651014c449e0e8cfc3d0cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.IImageStatistics.GetPixelMax</definition>
+        <argsstring>(WriteableBitmap image, Rectangle roi)</argsstring>
+        <name>GetPixelMax</name>
+        <reimplementedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_statistics_1a6bf6852d9a9e8886058cff322050934a">GetPixelMax</reimplementedby>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>Rectangle</type>
+          <declname>roi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/IImageStatistics.cs" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="497">
+        <label>Sequlite.Image.Processing.IImageStatistics</label>
+        <link refid="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics"/>
+      </node>
+      <node id="498">
+        <label>Sequlite.Image.Processing.ImageStatistics</label>
+        <link refid="class_sequlite_1_1_image_1_1_processing_1_1_image_statistics"/>
+        <childnode refid="497" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/IImageStatistics.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/IImageStatistics.cs" bodystart="7" bodyend="20"/>
+    <listofallmembers>
+      <member refid="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1ae2a3675ce632da21ee5c5fe96281911c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::IImageStatistics</scope><name>GetAverage</name></member>
+      <member refid="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1a0caaa44748b0957caac6f1d05e7ee556" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::IImageStatistics</scope><name>GetMedian</name></member>
+      <member refid="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1a98a3cd1a9f651014c449e0e8cfc3d0cc" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::IImageStatistics</scope><name>GetPixelMax</name></member>
+      <member refid="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1acff43e7348fde9c4a073c2158316dcf0" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::IImageStatistics</scope><name>GetPixelMin</name></member>
+      <member refid="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1a30b069f9e73cd650642fe50d79cef867" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::IImageStatistics</scope><name>GetStdDeviation</name></member>
+      <member refid="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics_1a85bcc504ac1741b7230b4f28e7706626" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::IImageStatistics</scope><name>GetTotalSum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_control_panel" kind="class" prot="public">
+    <compoundname>Hywire::ALF::EthernetCameraTest::ControlPanel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_control_panel_1aa0672d67fc5293f5bb9386088ad0dcc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.EthernetCameraTest.ControlPanel.ControlPanel</definition>
+        <argsstring>()</argsstring>
+        <name>ControlPanel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/ControlPanel.xaml.cs" line="10" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/ControlPanel.xaml.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ControlPanel.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="310">
+        <label>Hywire.ALF.EthernetCameraTest.ControlPanel</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_control_panel"/>
+        <childnode refid="311" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="311">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="312">
+        <label>Hywire.ALF.EthernetCameraTest.ControlPanel</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_control_panel"/>
+        <childnode refid="313" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="313">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/ControlPanel.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/ControlPanel.xaml.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_control_panel_1aa0672d67fc5293f5bb9386088ad0dcc6" prot="public" virt="non-virtual"><scope>Hywire::ALF::EthernetCameraTest::ControlPanel</scope><name>ControlPanel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

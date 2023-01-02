@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Engineering View Component">
+    <Position X="0.573" Y="0.5" Height="0.448" Width="17.884" />
+  </Comment>
+  <Comment CommentText="Engineering View Model">
+    <Position X="0.5" Y="7.854" Height="0.354" Width="18.256" />
+  </Comment>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.AutoFocusTabControl">
+    <Position X="16.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\AutoFocusTabControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.CcdViewControl">
+    <Position X="13.5" Y="6.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\CcdViewControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.ChemiTemperControl">
+    <Position X="2.5" Y="1.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>View\ChemiTemperControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.DetectorParameterSetupWind" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="1.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\DetectorParameterSetupWind.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.FlowControlControl" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\FlowControlControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.FluidicsTabControl" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\FluidicsTabControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.GalleryTabControl" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAABAAA=</HashCode>
+      <FileName>View\GalleryTabControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.ImageContainerControl" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\ImageContainerControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.ImageInfoControl" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\ImageInfoControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.ImageViewerControl" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="3.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>CIAAEAAIAAAAAAogAACEAIIAAAAAAAAAAAAAAgCAAAw=</HashCode>
+      <FileName>View\ImageViewerControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.ImagingTabControl" BaseTypeListCollapsed="true">
+    <Position X="7" Y="1.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIAAAAAAAACgIgAACEAABAAAAIABQAAAAAIKCQUAw=</HashCode>
+      <FileName>View\ImagingTabControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.LedsViewControl" BaseTypeListCollapsed="true">
+    <Position X="16.5" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\LedsViewControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.MainBoardControl" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MainBoardControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.MotorsViewControl" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\MotorsViewControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.PDViewControl" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\PDViewControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.RecipeTabControl" BaseTypeListCollapsed="true">
+    <Position X="10.75" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\RecipeTabControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.RIPPTabControl" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\RIPPTabControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel">
+    <Position X="6.25" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>g4QKMAIaBAIpYRgUABgEiQQIIWwdCQOQDQgACHCADgA=</HashCode>
+      <FileName>ViewModel\AutoFocusViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel">
+    <Position X="3.5" Y="24.75" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.RegionAdornerDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ViewModel\CameraViewModel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IlIISIExgQgxYSnUuRCeSQ2TpCMQCDoMLmAtRGfORRA=</HashCode>
+      <FileName>ViewModel\CameraViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel">
+    <Position X="10.75" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EA71QADABUmAAQAYEIEAHICiKSALADkBRaxSCADAAEI=</HashCode>
+      <FileName>ViewModel\ChemistryViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel">
+    <Position X="13" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BgRACAAAAAAAoAEAAAAAAAEBAAAAABAQAIABgAAAAAA=</HashCode>
+      <FileName>ViewModel\DetectorParametersViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters">
+    <Position X="15.75" Y="8.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BAAKIIAAAQAACIAACAAEBAAACAAACEUgIACIAAAAAJA=</HashCode>
+      <FileName>ViewModel\DetectorParametersViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel">
+    <Position X="0.75" Y="12.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AABCgUAABCwABUBEToAFBUAMyAAACADAACBjAADAABA=</HashCode>
+      <FileName>ViewModel\FileViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel">
+    <Position X="3.5" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>cQkQRoIADAAAoU4WkaUEAISMCshAEQEFAgNKAIQEKjg=</HashCode>
+      <FileName>ViewModel\FluidicsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.ImageGalleryViewModel">
+    <Position X="13" Y="18" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>QIAEBAAACAAgAAAAAAQAAABIAAAEAAAIAAAgAAQAEJA=</HashCode>
+      <FileName>ViewModel\ImageGalleryViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel">
+    <Position X="0.75" Y="23.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IBAwBAQIkQCRQEADQpQAkAgAgAwEIgEkQSIBAhBAQAE=</HashCode>
+      <FileName>ViewModel\MainBoardViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel">
+    <Position X="15.75" Y="14.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>wCI8ASaCtQIMkgoIIE0BYAI2SQCAAghAAAMxEBB3RKA=</HashCode>
+      <FileName>ViewModel\MotionViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel">
+    <Position X="0.75" Y="8.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAEAAUAAAAEAAAIAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>ViewModel\PaneViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel">
+    <Position X="8.5" Y="17" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gICBQAgSgHQEYIARIEAOQFAPkBkhBQAESpiwViDYMEA=</HashCode>
+      <FileName>ViewModel\RecipeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel">
+    <Position X="13" Y="13.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAQAAEgAAEAAAAAAEQAAAAAAAAAIAAAAAAAKQAAA=</HashCode>
+      <FileName>ViewModel\StepsTreeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sequlite.ALF.EngineerGUI.ViewModel.Workspace">
+    <Position X="8.5" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BEBCAimAAJAIAYBRAAABBEBEQgACAUEAAAAAQQAABAI=</HashCode>
+      <FileName>ViewModel\Workspace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Sequlite.ALF.EngineerGUI.ViewModel.CameraStatusEnums">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAABAAAgABAQA=</HashCode>
+      <FileName>ViewModel\CameraViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sequlite.ALF.EngineerGUI.ViewModel.DirtyType">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAACAAAAAAEAAAA=</HashCode>
+      <FileName>ViewModel\FileViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

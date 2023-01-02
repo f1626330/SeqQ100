@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_fd5b26f26299a08ad18a071fefb3d0af" kind="dir">
+    <compoundname>D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI</compoundname>
+    <innerdir refid="dir_cf712071d154fad54df95f0571ba5515">D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/Properties</innerdir>
+    <innerdir refid="dir_f90eb4c69362e0327686c7afd36af521">D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View</innerdir>
+    <innerdir refid="dir_9148b389d6d619ce2f6cdea3d8f4f622">D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel</innerdir>
+    <innerdir refid="dir_1989c2eb2c70d3d13dc33f8a76f6133f">D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/WpfConverters</innerdir>
+    <innerfile refid="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_cartridge_motor_window_8xaml_8cs">CartridgeMotorWindow.xaml.cs</innerfile>
+    <innerfile refid="_launch_window_8xaml_8cs">LaunchWindow.xaml.cs</innerfile>
+    <innerfile refid="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/"/>
+  </compounddef>
+</doxygen>

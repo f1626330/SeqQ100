@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_camera_lib_1_1_speed_table" kind="class" prot="public">
+    <compoundname>Sequlite::CameraLib::SpeedTable</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_speed_table_1a0383182ddf1c4f8950118a1a18563e81" prot="private" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.SpeedTable.readoutPorts</definition>
+        <argsstring></argsstring>
+        <name>readoutPorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="76" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_speed_table_1aee17e2da57eedecb787424a4c0499ba8" prot="private" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.SpeedTable.readoutSpeeds</definition>
+        <argsstring></argsstring>
+        <name>readoutSpeeds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="77" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_speed_table_1aca53af85ac3b3067169711ffc0bb009c" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_sequlite_1_1_camera_lib_1_1_readout_option" kindref="compound">ReadoutOption</ref> &gt;</type>
+        <definition>List&lt;ReadoutOption&gt; Sequlite.CameraLib.SpeedTable.readoutOption</definition>
+        <argsstring></argsstring>
+        <name>readoutOption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="78" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_speed_table_1a876a9147bd4a55f58391405a8e64c901" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.SpeedTable.ReadoutPorts</definition>
+        <argsstring></argsstring>
+        <name>ReadoutPorts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="80" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_speed_table_1a0415a85ec370b14a3bc65de207e04f5e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.SpeedTable.ReadoutSpeeds</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSpeeds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="85" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_speed_table_1a4ab2641a7b8c86928d5f4ba45fdcdd04" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="struct_sequlite_1_1_camera_lib_1_1_readout_option" kindref="compound">ReadoutOption</ref> &gt;</type>
+        <definition>List&lt;ReadoutOption&gt; Sequlite.CameraLib.SpeedTable.ReadoutOption</definition>
+        <argsstring></argsstring>
+        <name>ReadoutOption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="90" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_speed_table_1a6ffb8056794a0ce54b8b17eb4dbdab07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.CameraLib.SpeedTable.SpeedTable</definition>
+        <argsstring>()</argsstring>
+        <name>SpeedTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="96" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="96" bodyend="99"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="75" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="74" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_speed_table_1aca53af85ac3b3067169711ffc0bb009c" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::SpeedTable</scope><name>readoutOption</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_speed_table_1a4ab2641a7b8c86928d5f4ba45fdcdd04" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::SpeedTable</scope><name>ReadoutOption</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_speed_table_1a876a9147bd4a55f58391405a8e64c901" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::SpeedTable</scope><name>ReadoutPorts</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_speed_table_1a0383182ddf1c4f8950118a1a18563e81" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::SpeedTable</scope><name>readoutPorts</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_speed_table_1aee17e2da57eedecb787424a4c0499ba8" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::SpeedTable</scope><name>readoutSpeeds</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_speed_table_1a0415a85ec370b14a3bc65de207e04f5e" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::SpeedTable</scope><name>ReadoutSpeeds</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_speed_table_1a6ffb8056794a0ce54b8b17eb4dbdab07" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::SpeedTable</scope><name>SpeedTable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

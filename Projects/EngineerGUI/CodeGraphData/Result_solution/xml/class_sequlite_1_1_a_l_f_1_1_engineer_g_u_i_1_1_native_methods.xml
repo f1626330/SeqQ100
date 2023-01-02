@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::NativeMethods</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a012d75d04dcf325287398bca18c40969" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint Sequlite.ALF.EngineerGUI.NativeMethods.ES_SYSTEM_REQUIRED</definition>
+        <argsstring></argsstring>
+        <name>ES_SYSTEM_REQUIRED</name>
+        <initializer>= 0x00000001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="244" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a9ab535a1fdce9b14b524adc7efccebcf" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint Sequlite.ALF.EngineerGUI.NativeMethods.ES_DISPLAY_REQUIRED</definition>
+        <argsstring></argsstring>
+        <name>ES_DISPLAY_REQUIRED</name>
+        <initializer>= 0x00000002</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="245" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a320874ded5db69a1c6ab828e42a0d48b" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint Sequlite.ALF.EngineerGUI.NativeMethods.ES_USER_PRESENT</definition>
+        <argsstring></argsstring>
+        <name>ES_USER_PRESENT</name>
+        <initializer>= 0x00000004</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="246" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1af2b704eef2cfaf019555d461a9d7c4e2" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint Sequlite.ALF.EngineerGUI.NativeMethods.ES_AWAYMODE_REQUIRED</definition>
+        <argsstring></argsstring>
+        <name>ES_AWAYMODE_REQUIRED</name>
+        <initializer>= 0x00000040</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="247" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1aa84279384aa189fbee56dd4f184da18a" prot="public" static="no" mutable="no">
+        <type>const uint</type>
+        <definition>const uint Sequlite.ALF.EngineerGUI.NativeMethods.ES_CONTINUOUS</definition>
+        <argsstring></argsstring>
+        <name>ES_CONTINUOUS</name>
+        <initializer>= 0x80000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="248" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a04619bac6d5a12ee7e755eaf5a7b0d7c" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.ALF.EngineerGUI.NativeMethods.SetForegroundWindow</definition>
+        <argsstring>(IntPtr hWnd)</argsstring>
+        <name>SetForegroundWindow</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hWnd</declname>
+        </param>
+        <briefdescription>
+<para>Brings the thread that created the specified window into the foreground and activates the window. Keyboard input is directed to the window, and various visual cues are changed for the user. The system assigns a slightly higher priority to the thread that created the foreground window than it does to other threads. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hWnd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A handle to the window that should be activated and brought to the foreground. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>If the window was brought to the foreground, the return value is nonzero. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="194" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a8a8e81ce4e8683d844fac9e3ebb7c07e" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.ALF.EngineerGUI.NativeMethods.ShowWindow</definition>
+        <argsstring>(IntPtr hWnd, WindowShowStyle nCmdShow)</argsstring>
+        <name>ShowWindow</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hWnd</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8" kindref="member">WindowShowStyle</ref></type>
+          <declname>nCmdShow</declname>
+        </param>
+        <briefdescription>
+<para>Shows a Window</para>        </briefdescription>
+        <detaileddescription>
+<para>To perform certain special effects when showing or hiding a window, use AnimateWindow.</para><para>The first time an application calls ShowWindow, it should use the WinMain function&apos;s nCmdShow parameter as its nCmdShow .. Subsequent calls to ShowWindow must use one of the values in the given list, instead of the one specified by the WinMain function&apos;s nCmdShow parameter.</para><para>As noted in the discussion of the nCmdShow parameter, the nCmdShow value is ignored in the first call to ShowWindow if the program that launched the application specifies startup information in the structure. In this case, ShowWindow uses the information specified in the STARTUPINFO structure to show the window. On subsequent calls, the application must call ShowWindow with .. set to SW_SHOWDEFAULT to use the startup information provided by .. program that launched the application. This behavior is designed .. the following situations: </para><para><itemizedlist>
+<listitem>
+<para>Applications create their main window by calling .. with the WS_VISIBLE flag set.  </para></listitem>
+<listitem>
+<para>Applications create their main window by calling .. with the WS_VISIBLE flag cleared, and later call ShowWindow .. SW_SHOW flag set to make it visible. </para></listitem>
+</itemizedlist>
+</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hWnd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Handle to the window.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nCmdShow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Specifies how the window is to be shown. This parameter is ignored the first time an application calls ShowWindow, if the program that launched the application provides a STARTUPINFO structure. Otherwise, the first time ShowWindow .. , the value should be the value obtained by the WinMain function .. nCmdShow parameter. In subsequent calls, this parameter .. the WindowShowStyle members.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>If the window was previously visible, the return value is nonzero. If the window was previously hidden, the return value is zero. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="234" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a104b619743a0244643245e18eea5f5ed" prot="package" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int Sequlite.ALF.EngineerGUI.NativeMethods.GetWindowLong</definition>
+        <argsstring>(IntPtr hWnd, int nIndex)</argsstring>
+        <name>GetWindowLong</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>hWnd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nIndex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="238" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a5ef6b490163f9006d91f230be327a1a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint Sequlite.ALF.EngineerGUI.NativeMethods.SetThreadExecutionState</definition>
+        <argsstring>(uint esFlags)</argsstring>
+        <name>SetThreadExecutionState</name>
+        <param>
+          <type>uint</type>
+          <declname>esFlags</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="242" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="180" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="179" bodyend="249"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1af2b704eef2cfaf019555d461a9d7c4e2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::NativeMethods</scope><name>ES_AWAYMODE_REQUIRED</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1aa84279384aa189fbee56dd4f184da18a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::NativeMethods</scope><name>ES_CONTINUOUS</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a9ab535a1fdce9b14b524adc7efccebcf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::NativeMethods</scope><name>ES_DISPLAY_REQUIRED</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a012d75d04dcf325287398bca18c40969" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::NativeMethods</scope><name>ES_SYSTEM_REQUIRED</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a320874ded5db69a1c6ab828e42a0d48b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::NativeMethods</scope><name>ES_USER_PRESENT</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a104b619743a0244643245e18eea5f5ed" prot="package" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::NativeMethods</scope><name>GetWindowLong</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a04619bac6d5a12ee7e755eaf5a7b0d7c" prot="package" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::NativeMethods</scope><name>SetForegroundWindow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a5ef6b490163f9006d91f230be327a1a1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::NativeMethods</scope><name>SetThreadExecutionState</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods_1a8a8e81ce4e8683d844fac9e3ebb7c07e" prot="package" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::NativeMethods</scope><name>ShowWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

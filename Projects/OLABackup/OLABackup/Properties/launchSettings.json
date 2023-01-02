@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "OLABackup": {
+      "commandName": "Project",
+      "commandLineArgs": "--srcDir D:\\Sequlite\\ALF\\Recipe\\Images\\test1_211103-101213 --backupDir D:\\temp1\\test1_211103-101213\\Instrument --taskDir D:\\temp1 --backupStep Final"
+    }
+  }
+}

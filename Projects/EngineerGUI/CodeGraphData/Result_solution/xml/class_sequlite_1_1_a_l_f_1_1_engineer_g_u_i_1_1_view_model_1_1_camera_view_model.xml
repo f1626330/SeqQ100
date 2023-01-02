@@ -1,0 +1,1868 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77a12493581315041d7b786959a0fa71" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a765eb144e79ca188a5486023c8fa053a" kindref="member">RegionAdornerDelegate</ref></type>
+        <definition>RegionAdornerDelegate Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.RegionAdornerChanged</definition>
+        <argsstring></argsstring>
+        <name>RegionAdornerChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="27" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a8a2120c63a815b6a24c039ff978c624b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera" kindref="compound">PhotometricsCamera</ref></type>
+        <definition>PhotometricsCamera Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._ActiveCamera</definition>
+        <argsstring></argsstring>
+        <name>_ActiveCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="31" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a66507aca3638a425fbdaa2c1cde03543" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._IsConnected</definition>
+        <argsstring></argsstring>
+        <name>_IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="32" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a93a211ab28b167cbef5c0f15db986529" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._ExposureTime</definition>
+        <argsstring></argsstring>
+        <name>_ExposureTime</name>
+        <initializer>= 0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="33" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a5c334bc4b78f79cb57c5695406feb343" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_binning_factor_type" kindref="compound">BinningFactorType</ref></type>
+        <definition>BinningFactorType Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._SelectedBinning</definition>
+        <argsstring></argsstring>
+        <name>_SelectedBinning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="34" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1abdfa37c1cbb42537b33af948fcaaf9de" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type" kindref="compound">GainType</ref></type>
+        <definition>GainType Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._SelectedGain</definition>
+        <argsstring></argsstring>
+        <name>_SelectedGain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="35" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab572308d04eda99580b44358cbfe7eff" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type" kindref="compound">ReadoutType</ref></type>
+        <definition>ReadoutType Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._SelectedReadout</definition>
+        <argsstring></argsstring>
+        <name>_SelectedReadout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="36" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1abf8daa80c85441e0bffde83808379f8b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._RoiLeft</definition>
+        <argsstring></argsstring>
+        <name>_RoiLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="37" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a500c00c0c857826f259fe72dc4bacf55" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._RoiTop</definition>
+        <argsstring></argsstring>
+        <name>_RoiTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="38" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a7d6e5938de9168621e910f85a5c8eb9e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._RoiWidth</definition>
+        <argsstring></argsstring>
+        <name>_RoiWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="39" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a0ff531f7c21ea6defb50f59853bb14c8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._RoiHeight</definition>
+        <argsstring></argsstring>
+        <name>_RoiHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="40" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1addbfd828d7523cb0a2fe017413b0176a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CCDTemperSet</definition>
+        <argsstring></argsstring>
+        <name>_CCDTemperSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="41" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ae4040ed9f42fbe22e1dbb043b69afbbf" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CCDTemperGet</definition>
+        <argsstring></argsstring>
+        <name>_CCDTemperGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="42" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a0fb6087f23c5e03757e037fe4a650cbc" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a6d703d88f74eeba3c64756d490f16700" kindref="member">CameraStatusEnums</ref></type>
+        <definition>CameraStatusEnums Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._WorkingStatus</definition>
+        <argsstring></argsstring>
+        <name>_WorkingStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="43" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a0ed2d4a3eabca6360a6420a24c5ecd8e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_capture_command" kindref="compound">ImageCaptureCommand</ref></type>
+        <definition>ImageCaptureCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CaptureProcess</definition>
+        <argsstring></argsstring>
+        <name>_CaptureProcess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="44" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a5ea79977b8b8a0ac13bd9c8cb0fa22d5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command" kindref="compound">ImageLiveCommand</ref></type>
+        <definition>ImageLiveCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._LiveProcess</definition>
+        <argsstring></argsstring>
+        <name>_LiveProcess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="45" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a6b16315a0a524b37e3ea8d544b1cfd1a" prot="private" static="no" mutable="no">
+        <type>BitmapSource</type>
+        <definition>BitmapSource Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._LiveImage</definition>
+        <argsstring></argsstring>
+        <name>_LiveImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="46" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a5fa4eba8b6e218858444f42c51aab37c" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._SelectedRegion</definition>
+        <argsstring></argsstring>
+        <name>_SelectedRegion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="47" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ade81fefcc06b8fdd842ce1bce47d241b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._BadImageCounts</definition>
+        <argsstring></argsstring>
+        <name>_BadImageCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="48" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab5c9bb273f7d9b733e08bc483fe6f347" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._IsCaptureFullROI</definition>
+        <argsstring></argsstring>
+        <name>_IsCaptureFullROI</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="49" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a209419ffc9bc79382bbf5bced97e0eaf" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._IsRestarting</definition>
+        <argsstring></argsstring>
+        <name>_IsRestarting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="50" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a534423b14b714b630fd8e52cbc95fd49" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._IsCaptureAverage</definition>
+        <argsstring></argsstring>
+        <name>_IsCaptureAverage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="51" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab8baefd7cc54e4b5bc96b15a32adbeab" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._LEDFailureCount</definition>
+        <argsstring></argsstring>
+        <name>_LEDFailureCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="52" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acfd747cf131283cbea321ab1b6a6c4d8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._SetCCDTemperCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetCCDTemperCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="366" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a24757f885cd49e26f22b95964ffe6289" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._ReadCCDTemperCmd</definition>
+        <argsstring></argsstring>
+        <name>_ReadCCDTemperCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="394" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="394" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aefea423fb84ef8828fdeeb16f97c3172" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._ResetRoiCmd</definition>
+        <argsstring></argsstring>
+        <name>_ResetRoiCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="419" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab42d2f9d37dce477c36c968882be25ee" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CaptureCmd</definition>
+        <argsstring></argsstring>
+        <name>_CaptureCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="454" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aed4d232a3d30fc4746f028821dafdbde" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._ContinuousCmd</definition>
+        <argsstring></argsstring>
+        <name>_ContinuousCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="644" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="644" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a36155d07b3ebd9760f29ce5b76183ac7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._LiveModeCmd</definition>
+        <argsstring></argsstring>
+        <name>_LiveModeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="670" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="670" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aa465cfb43e8d973a34ae42cacf45f443" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CancelCmd</definition>
+        <argsstring></argsstring>
+        <name>_CancelCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="824" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="824" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a982b06459a710ef071c2fa0ec873c6b3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CaptureLiveImageCmd</definition>
+        <argsstring></argsstring>
+        <name>_CaptureLiveImageCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="859" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="859" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ad76ed69c13d99037101e62918d3db8f3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._ResetBadImageCountsCmd</definition>
+        <argsstring></argsstring>
+        <name>_ResetBadImageCountsCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="885" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="885" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a1b04d0230f981caf1e4ddd08ca23a0a4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._RestartCameraCmd</definition>
+        <argsstring></argsstring>
+        <name>_RestartCameraCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="910" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="910" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a86782a2d98b9f1a92343fde00e9b2b1c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base" kindref="compound">CameraLibBase</ref></type>
+        <definition>CameraLibBase Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ActiveCamera</definition>
+        <argsstring></argsstring>
+        <name>ActiveCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="75" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="76" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae927b2ea6420dfe9605c80c6fa0cdfb4" compoundref="_auto_focus_view_model_8cs" startline="269" endline="296">Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStartCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a30380bed5aab20a48909da6828cc90d9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.IsConnected</definition>
+        <argsstring></argsstring>
+        <name>IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="79" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="80" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a5260554ddc40c1dc9f8abfffa994142c" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_main_window_8xaml_8cs" startline="31" endline="61">Sequlite.ALF.EngineerGUI.MainWindow.Window_Closing</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a27074cfaea076c5f173c3d3d4e86cee4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExposureTime</definition>
+        <argsstring></argsstring>
+        <name>ExposureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="92" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a81785fe779a40f44b3e053297c1022c2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ObservableCollection&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_binning_factor_type" kindref="compound">BinningFactorType</ref> &gt;</type>
+        <definition>ObservableCollection&lt;BinningFactorType&gt; Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.BinningOptions</definition>
+        <argsstring></argsstring>
+        <name>BinningOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="104" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aa878a082390c0c96391a6ca6d165bc4a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_binning_factor_type" kindref="compound">BinningFactorType</ref></type>
+        <definition>BinningFactorType Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.SelectedBinning</definition>
+        <argsstring></argsstring>
+        <name>SelectedBinning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="105" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a1a28b66139a32a68f85fe04ca2131694" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ObservableCollection&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type" kindref="compound">GainType</ref> &gt;</type>
+        <definition>ObservableCollection&lt;GainType&gt; Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.GainOptions</definition>
+        <argsstring></argsstring>
+        <name>GainOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="137" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aaa3d3afbf9a7a0924bdf86fa2b08cd77" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type" kindref="compound">GainType</ref></type>
+        <definition>GainType Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.SelectedGain</definition>
+        <argsstring></argsstring>
+        <name>SelectedGain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="138" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a6fa71808bfb2f83dc74b5708eca391ae" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ObservableCollection&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type" kindref="compound">ReadoutType</ref> &gt;</type>
+        <definition>ObservableCollection&lt;ReadoutType&gt; Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ReadoutOptions</definition>
+        <argsstring></argsstring>
+        <name>ReadoutOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="158" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aa137b06fb7f4061a16df9aadce792fc2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type" kindref="compound">ReadoutType</ref></type>
+        <definition>ReadoutType Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.SelectedReadout</definition>
+        <argsstring></argsstring>
+        <name>SelectedReadout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="159" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a1e7cf8392339ce3825fc51b2c84d1e95" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.RoiLeft</definition>
+        <argsstring></argsstring>
+        <name>RoiLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="171" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a3841f912937f6791edf033bc04c93f91" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.RoiTop</definition>
+        <argsstring></argsstring>
+        <name>RoiTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="185" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aa94aca92014409927a883ee2084d6a52" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.RoiWidth</definition>
+        <argsstring></argsstring>
+        <name>RoiWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="199" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a7a6848992d4238a2cf988f98e156dfa5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.RoiHeight</definition>
+        <argsstring></argsstring>
+        <name>RoiHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="211" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a9ad62fb977a797003fbc57dbcabe3179" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CCDTemperSet</definition>
+        <argsstring></argsstring>
+        <name>CCDTemperSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="223" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1adecacf08a4b1cc865caa79ecd941ab91" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CCDTemperGet</definition>
+        <argsstring></argsstring>
+        <name>CCDTemperGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="235" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aeeab59321e371ca72ac912ed0ea92061" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a6d703d88f74eeba3c64756d490f16700" kindref="member">CameraStatusEnums</ref></type>
+        <definition>CameraStatusEnums Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.WorkingStatus</definition>
+        <argsstring></argsstring>
+        <name>WorkingStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="247" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="248" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a5260554ddc40c1dc9f8abfffa994142c" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_main_window_8xaml_8cs" startline="31" endline="61">Sequlite.ALF.EngineerGUI.MainWindow.Window_Closing</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1afb527de74d6109cb4205b964aa3fcf9c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>BitmapSource</type>
+        <definition>BitmapSource Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.LiveImage</definition>
+        <argsstring></argsstring>
+        <name>LiveImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="259" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="260" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_imaging_tab_control_1a2aaf91fa1952b022f4b81deb63f6555d" compoundref="_imaging_tab_control_8xaml_8cs" startline="212" endline="229">Sequlite.ALF.EngineerGUI.View.ImagingTabControl._LiveImage_SizeChanged</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a3b85ba21ebc2b597141471bab728a567" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Rect</type>
+        <definition>Rect Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.SelectedRegion</definition>
+        <argsstring></argsstring>
+        <name>SelectedRegion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="271" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a4220c57dc3af3dea62594a502dad76a2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.BadImageCounts</definition>
+        <argsstring></argsstring>
+        <name>BadImageCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="300" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ac0c39d7ca909ee392f40f922e6495087" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.LEDFailureCount</definition>
+        <argsstring></argsstring>
+        <name>LEDFailureCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="313" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a167d6ae0d279857f56a205f798e97faa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.IsCaptureFullROI</definition>
+        <argsstring></argsstring>
+        <name>IsCaptureFullROI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="325" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a9261c9253bb62fc00bc73942628fb16f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.IsRestarting</definition>
+        <argsstring></argsstring>
+        <name>IsRestarting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="338" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ac195692aa4a2fd2b1a9544088af9d1c7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.IsCaptureAverage</definition>
+        <argsstring></argsstring>
+        <name>IsCaptureAverage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="351" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a830a4177e142578d7746d4155e0728be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.SetCCDTemperCmd</definition>
+        <argsstring></argsstring>
+        <name>SetCCDTemperCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="367" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a45de1d446ca4eeadc885b159ddb085c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ReadCCDTemperCmd</definition>
+        <argsstring></argsstring>
+        <name>ReadCCDTemperCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="395" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a814ac1d65162c34bab5bd031766e3937" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ResetRoiCmd</definition>
+        <argsstring></argsstring>
+        <name>ResetRoiCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="420" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a92d5c0344d71d5e5dffb438f07b8c8eb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CaptureCmd</definition>
+        <argsstring></argsstring>
+        <name>CaptureCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="455" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a7f2df4c81060b6d60bf9d1ca1f148b6f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ContinuousCmd</definition>
+        <argsstring></argsstring>
+        <name>ContinuousCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="645" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="646" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1affb1973f62a99f20562786522fa3d4da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.LiveModeCmd</definition>
+        <argsstring></argsstring>
+        <name>LiveModeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="671" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="672" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a853b9b226b30d77f0ed434a8f569c7f4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CancelCmd</definition>
+        <argsstring></argsstring>
+        <name>CancelCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="825" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a44badd694033aa8f8c38849315429dc5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CaptureLiveImageCmd</definition>
+        <argsstring></argsstring>
+        <name>CaptureLiveImageCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="860" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="861" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a3ba0054697db30c8de72005730dc9130" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ResetBadImageCountsCmd</definition>
+        <argsstring></argsstring>
+        <name>ResetBadImageCountsCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="886" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a2bd20b3545b3922b1fffde4f9219e7fd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.RestartCameraCmd</definition>
+        <argsstring></argsstring>
+        <name>RestartCameraCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="911" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="912" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a765eb144e79ca188a5486023c8fa053a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.RegionAdornerDelegate</definition>
+        <argsstring>(bool bIsVisible)</argsstring>
+        <name>RegionAdornerDelegate</name>
+        <param>
+          <type>bool</type>
+          <declname>bIsVisible</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a1f00d39affc2f584b620c64410073619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CameraViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>CameraViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="56" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ac0c1bb5d831f8fe2c65aeb219d106a83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="60" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="60" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a5852d0a99ef0e7dcf0e56397bf105591" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.Imaging_OnLEDStateChanged</definition>
+        <argsstring>(LEDTypes led, bool newState)</argsstring>
+        <name>Imaging_OnLEDStateChanged</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+          <declname>led</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="522" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="522" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1adc0385f75fcbe3c0002d6d2799a8c72f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.InitializeCamera</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="942" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="942" bodyend="986"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aace086710c819e9cbdecbd3bbfee3630" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CloseCamera</definition>
+        <argsstring>()</argsstring>
+        <name>CloseCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="987" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="987" bodyend="990"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a3d11f841c3c72840e6a351503f179096" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteSetCCDTemperCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetCCDTemperCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="379" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="379" bodyend="385"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aed350e77cf265f513dccdb92e0c8e162" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CanExecuteSetCCDTemperCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetCCDTemperCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="387" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="387" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a97eba52e713c0ee44cd851d6d60e5a91" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteReadCCDTemperCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteReadCCDTemperCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="407" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="407" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab1d329bac7899fb2bfd918dad0c1e52d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CanExecuteReadCCDTemperCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteReadCCDTemperCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="412" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="412" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a6621e332d1b607c08bcf401d78e77770" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteResetRoiCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteResetRoiCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="432" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="432" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a7405553080c635bf77b408a346cff3a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CanExecuteResetRoiCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteResetRoiCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="447" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="447" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acbb39be0a6afe557c86153a6f4c567de" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteCaptureCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteCaptureCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="467" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="467" bodyend="520"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab612673437619ead417483291bed45ed" compoundref="_main_board_view_model_8cs" startline="421">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsGLEDSelected</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ae25a9b967c160413c6c908b98e4cab96" compoundref="_main_board_view_model_8cs" startline="433">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsRLEDSelected</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aaf8429bf90c2818ce6a4f57b93ac02c6" compoundref="_main_board_view_model_8cs" startline="445">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsWLEDSelected</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab19fa62fd1881c7f2edb044097d7d23b" compoundref="_main_board_view_model_8cs" startline="155">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.MainBoard</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af637674b4bc00a0ba294a8a16710a510" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="101">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MainBoardVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a70acfeda071bcbe9b8e9770af1e5eadb" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="13">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Owner</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a1ef599b59c403f81196a157f40abf78a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CaptureProcess_OnCaptureBadImage</definition>
+        <argsstring>()</argsstring>
+        <name>_CaptureProcess_OnCaptureBadImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="538" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="538" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aecde5ca3c46c934db8ec8d440226b6cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CaptureProcess_OnLEDFailure</definition>
+        <argsstring>()</argsstring>
+        <name>_CaptureProcess_OnLEDFailure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="542" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="542" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1af3cafafa827628eee8998811272d8267" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CaptureProcess_CompletionEstimate</definition>
+        <argsstring>(ThreadBase sender, DateTime dateTime, double estTime)</argsstring>
+        <name>_CaptureProcess_CompletionEstimate</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base" kindref="compound">ThreadBase</ref></type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>dateTime</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>estTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="546" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="546" bodyend="555"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a5e58eac96ac980f32d52ac891541769c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CaptureProcess_CommandStatus</definition>
+        <argsstring>(object sender, string status)</argsstring>
+        <name>_CaptureProcess_CommandStatus</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="557" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="557" bodyend="563"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1addfb6ad33c9aae0ef062cdab930cecc1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._CaptureProcess_Completed</definition>
+        <argsstring>(ThreadBase sender, ThreadBase.ThreadExitStat exitState)</argsstring>
+        <name>_CaptureProcess_Completed</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base" kindref="compound">ThreadBase</ref></type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0ae32b8605809e5183eaec8a37a1aef9" kindref="member">ThreadBase.ThreadExitStat</ref></type>
+          <declname>exitState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="565" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="565" bodyend="635"/>
+        <references refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a9d630019081a6ee79e140289cad5378c" compoundref="_thread_base_8cs" startline="54">Sequlite.CommandLib.ThreadBase.Error</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_capture_command_1aa4609404dee182d097acc0d5df300320" compoundref="_image_capture_command_8cs" startline="71">Sequlite.ALF.Imaging.ImageCaptureCommand.IsFailedToSetLED</references>
+        <references refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ae52ad7ae28d438cb3cc56646aa1a0d8e" compoundref="_thread_base_8cs" startline="49">Sequlite.CommandLib.ThreadBase.IsOutOfMemory</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aac7331572b7fdc3eaf90d5ca0891774e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CanExecuteCaptureCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteCaptureCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="637" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="637" bodyend="640"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a62953a18d46cefc29d140bb1abcb6837" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteContinuousCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteContinuousCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="657" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="657" bodyend="661"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab01a2f07d58b4f8c1266d49f4cfe3219" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CanExecuteContinuousCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteContinuousCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="663" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="663" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77be8e0d1d4adfc5076f56dc8c22dcb4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteLiveModeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteLiveModeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="683" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="683" bodyend="738"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab612673437619ead417483291bed45ed" compoundref="_main_board_view_model_8cs" startline="421">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsGLEDSelected</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ae25a9b967c160413c6c908b98e4cab96" compoundref="_main_board_view_model_8cs" startline="433">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsRLEDSelected</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1aaf8429bf90c2818ce6a4f57b93ac02c6" compoundref="_main_board_view_model_8cs" startline="445">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.IsWLEDSelected</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab19fa62fd1881c7f2edb044097d7d23b" compoundref="_main_board_view_model_8cs" startline="155">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.MainBoard</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af637674b4bc00a0ba294a8a16710a510" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="101">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MainBoardVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a70acfeda071bcbe9b8e9770af1e5eadb" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="13">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Owner</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a9621b951db30577cd239abd911a1a8a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._LiveProcess_OnCaptureLiveImage</definition>
+        <argsstring>(WriteableBitmap capturedImage, ImageInfo imageInfo)</argsstring>
+        <name>_LiveProcess_OnCaptureLiveImage</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>capturedImage</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+          <declname>imageInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="740" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="740" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aed9ef4551629acdf6fb80e60f97d9e99" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._LiveProcess_LiveImageReceived</definition>
+        <argsstring>(BitmapSource displayBitmap)</argsstring>
+        <name>_LiveProcess_LiveImageReceived</name>
+        <param>
+          <type>BitmapSource</type>
+          <declname>displayBitmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="754" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="754" bodyend="768"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a3dfd4a0bf51b00c02985b779c78fff6b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel._LiveProcess_Completed</definition>
+        <argsstring>(ThreadBase sender, ThreadBase.ThreadExitStat exitState)</argsstring>
+        <name>_LiveProcess_Completed</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base" kindref="compound">ThreadBase</ref></type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0ae32b8605809e5183eaec8a37a1aef9" kindref="member">ThreadBase.ThreadExitStat</ref></type>
+          <declname>exitState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="770" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="770" bodyend="815"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ad577cd9e68315b809cd8bdce1d55f7e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CanExecuteLiveModeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteLiveModeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="817" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="817" bodyend="820"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a283c8c9f12b92201a20bb652034b4669" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteCancelCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteCancelCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="837" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="837" bodyend="850"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ac67d11ec3e7bbeb1f29126301088e580" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CanExecuteCancelCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteCancelCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="852" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="852" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aa43a1deb6289002f5ba95903345422c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteCaptureLiveImageCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteCaptureLiveImageCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="872" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="872" bodyend="876"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a66c853cc3569d05c46c59e2e2bdbcd21" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CanExecuteCaptureLiveImageCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteCaptureLiveImageCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="878" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="878" bodyend="881"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ae9efa769c0fbd3084a889025e2cafa27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteResetBadImageCountsCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteResetBadImageCountsCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="898" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="898" bodyend="901"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a9bde55eeac613c773941f56ba4034709" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CanExecuteResetBadImageCountsCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteResetBadImageCountsCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="903" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="903" bodyend="906"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a6501ceac33b309e60697680f08ee1cb7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteRestartCameraCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteRestartCameraCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="923" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="923" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aba187399701701a4514ec3f6505c93db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.CanExecuteRestartCameraCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteRestartCameraCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="935" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="935" bodyend="938"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="198">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="199">
+        <label>IDisposable</label>
+      </node>
+      <node id="197">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+        <childnode refid="199" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="196">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model"/>
+        <childnode refid="197" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="209">
+        <label>Sequlite.CameraLib.PVCamCamera</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera"/>
+        <childnode refid="210" relation="usage">
+          <edgelabel>m_imgStats</edgelabel>
+        </childnode>
+        <childnode refid="211" relation="usage">
+          <edgelabel>m_roiMetadata</edgelabel>
+        </childnode>
+        <childnode refid="212" relation="usage">
+          <edgelabel>m_acqParamsContext</edgelabel>
+        </childnode>
+        <childnode refid="213" relation="usage">
+          <edgelabel>m_centroid</edgelabel>
+        </childnode>
+        <childnode refid="214" relation="usage">
+          <edgelabel>m_frameInfoLatest</edgelabel>
+          <edgelabel>m_md_frameHeader</edgelabel>
+          <edgelabel>m_region</edgelabel>
+          <edgelabel>m_mdFrame</edgelabel>
+          <edgelabel>m_EOFHandlerDelegate</edgelabel>
+        </childnode>
+        <childnode refid="215" relation="usage">
+          <edgelabel>m_frameMetadata</edgelabel>
+        </childnode>
+        <childnode refid="216" relation="usage">
+          <edgelabel>m_spdTable</edgelabel>
+        </childnode>
+        <childnode refid="217" relation="usage">
+          <edgelabel>PVCamVersion</edgelabel>
+          <edgelabel>m_EofEvent</edgelabel>
+          <edgelabel>CameraList</edgelabel>
+          <edgelabel>NrOfCameras</edgelabel>
+        </childnode>
+      </node>
+      <node id="213">
+        <label>Sequlite.CameraLib.Centroid</label>
+        <link refid="struct_sequlite_1_1_camera_lib_1_1_centroid"/>
+      </node>
+      <node id="221">
+        <label>Sequlite.CameraLib.CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+      <node id="216">
+        <label>Sequlite.CameraLib.SpeedTable</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_speed_table"/>
+      </node>
+      <node id="232">
+        <label>Sequlite.ALF.Common.GainType</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type"/>
+      </node>
+      <node id="211">
+        <label>Sequlite.CameraLib.ROIMetadata</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata"/>
+      </node>
+      <node id="228">
+        <label>Sequlite.ALF.MainBoard.Mainboard</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard"/>
+        <childnode refid="229" relation="usage">
+          <edgelabel>_LEDOnTimer</edgelabel>
+        </childnode>
+        <childnode refid="217" relation="usage">
+          <edgelabel>_LEDLock</edgelabel>
+        </childnode>
+        <childnode refid="230" relation="usage">
+          <edgelabel>_Comm</edgelabel>
+        </childnode>
+      </node>
+      <node id="219">
+        <label>ThreadBase</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_thread_base"/>
+      </node>
+      <node id="231">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="229" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="212">
+        <label>Sequlite.CameraLib.AcqParamsContext</label>
+        <link refid="struct_sequlite_1_1_camera_lib_1_1_acq_params_context"/>
+      </node>
+      <node id="205">
+        <label>ICommand</label>
+      </node>
+      <node id="202">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="226">
+        <label>Sequlite.ALF.Common.ReadoutType</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type"/>
+      </node>
+      <node id="214">
+        <label>Photometrics.Pvcam.PvTypes</label>
+        <link refid="class_photometrics_1_1_pvcam_1_1_pv_types"/>
+      </node>
+      <node id="203">
+        <label>IDisposable</label>
+      </node>
+      <node id="201">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="202" relation="public-inheritance">
+        </childnode>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>Sequlite.ALF.Imaging.ImageInfo</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info"/>
+        <childnode refid="224" relation="public-inheritance">
+        </childnode>
+        <childnode refid="225" relation="usage">
+          <edgelabel>_MixChannel</edgelabel>
+          <edgelabel>_GreenChannel</edgelabel>
+          <edgelabel>_RedChannel</edgelabel>
+        </childnode>
+      </node>
+      <node id="215">
+        <label>Sequlite.CameraLib.FrameMetadata</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_frame_metadata"/>
+      </node>
+      <node id="204">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="205" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="218">
+        <label>Sequlite.ALF.Imaging.ImageCaptureCommand</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_capture_command"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+        <childnode refid="220" relation="usage">
+          <edgelabel>_MainBoard</edgelabel>
+        </childnode>
+        <childnode refid="221" relation="usage">
+          <edgelabel>_ActiveCamera</edgelabel>
+        </childnode>
+        <childnode refid="222" relation="usage">
+          <edgelabel>_ImageSetting</edgelabel>
+        </childnode>
+        <childnode refid="223" relation="usage">
+          <edgelabel>_ImageInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="229">
+        <label>System</label>
+      </node>
+      <node id="230">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="231" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="206">
+        <label>Sequlite.ALF.Common.BinningFactorType</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_binning_factor_type"/>
+      </node>
+      <node id="210">
+        <label>Sequlite.CameraLib.ImageStats</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_image_stats"/>
+      </node>
+      <node id="227">
+        <label>Sequlite.ALF.Imaging.ImageLiveCommand</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command"/>
+        <childnode refid="219" relation="public-inheritance">
+        </childnode>
+        <childnode refid="228" relation="usage">
+          <edgelabel>_Mainboard</edgelabel>
+        </childnode>
+        <childnode refid="221" relation="usage">
+          <edgelabel>_ActiveCamera</edgelabel>
+        </childnode>
+        <childnode refid="222" relation="usage">
+          <edgelabel>_ImageChannel</edgelabel>
+        </childnode>
+        <childnode refid="223" relation="usage">
+          <edgelabel>_ImageInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="220">
+        <label>MainBoard</label>
+      </node>
+      <node id="222">
+        <label>Sequlite.ALF.Imaging.ImageChannelSettings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel_settings"/>
+      </node>
+      <node id="225">
+        <label>Sequlite.ALF.Imaging.ImageChannel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel"/>
+        <childnode refid="224" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="207">
+        <label>Sequlite.CameraLib.PhotometricsCamera</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+        <childnode refid="209" relation="usage">
+          <edgelabel>_PVCamCamera</edgelabel>
+        </childnode>
+      </node>
+      <node id="200">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model"/>
+        <childnode refid="201" relation="public-inheritance">
+        </childnode>
+        <childnode refid="204" relation="usage">
+          <edgelabel>_CancelCmd</edgelabel>
+          <edgelabel>_SetCCDTemperCmd</edgelabel>
+          <edgelabel>_ContinuousCmd</edgelabel>
+          <edgelabel>_ResetRoiCmd</edgelabel>
+          <edgelabel>_LiveModeCmd</edgelabel>
+          <edgelabel>_RestartCameraCmd</edgelabel>
+          <edgelabel>_ResetBadImageCountsCmd</edgelabel>
+          <edgelabel>_CaptureLiveImageCmd</edgelabel>
+          <edgelabel>_ReadCCDTemperCmd</edgelabel>
+          <edgelabel>_CaptureCmd</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="206" relation="usage">
+          <edgelabel>_SelectedBinning</edgelabel>
+        </childnode>
+        <childnode refid="207" relation="usage">
+          <edgelabel>_ActiveCamera</edgelabel>
+        </childnode>
+        <childnode refid="218" relation="usage">
+          <edgelabel>_CaptureProcess</edgelabel>
+        </childnode>
+        <childnode refid="226" relation="usage">
+          <edgelabel>_SelectedReadout</edgelabel>
+        </childnode>
+        <childnode refid="227" relation="usage">
+          <edgelabel>_LiveProcess</edgelabel>
+        </childnode>
+        <childnode refid="232" relation="usage">
+          <edgelabel>_SelectedGain</edgelabel>
+        </childnode>
+      </node>
+      <node id="224">
+        <label>ICloneable</label>
+      </node>
+      <node id="217">
+        <label>static</label>
+      </node>
+      <node id="208">
+        <label>CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="25" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="24" bodyend="992"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a8a2120c63a815b6a24c039ff978c624b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_ActiveCamera</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ade81fefcc06b8fdd842ce1bce47d241b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_BadImageCounts</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aa465cfb43e8d973a34ae42cacf45f443" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CancelCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab42d2f9d37dce477c36c968882be25ee" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CaptureCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a982b06459a710ef071c2fa0ec873c6b3" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CaptureLiveImageCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a0ed2d4a3eabca6360a6420a24c5ecd8e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CaptureProcess</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a5e58eac96ac980f32d52ac891541769c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CaptureProcess_CommandStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1addfb6ad33c9aae0ef062cdab930cecc1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CaptureProcess_Completed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1af3cafafa827628eee8998811272d8267" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CaptureProcess_CompletionEstimate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a1ef599b59c403f81196a157f40abf78a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CaptureProcess_OnCaptureBadImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aecde5ca3c46c934db8ec8d440226b6cd" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CaptureProcess_OnLEDFailure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ae4040ed9f42fbe22e1dbb043b69afbbf" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CCDTemperGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1addbfd828d7523cb0a2fe017413b0176a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_CCDTemperSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aed4d232a3d30fc4746f028821dafdbde" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_ContinuousCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a93a211ab28b167cbef5c0f15db986529" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_ExposureTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a534423b14b714b630fd8e52cbc95fd49" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_IsCaptureAverage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab5c9bb273f7d9b733e08bc483fe6f347" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_IsCaptureFullROI</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a66507aca3638a425fbdaa2c1cde03543" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_IsConnected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a209419ffc9bc79382bbf5bced97e0eaf" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_IsRestarting</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab8baefd7cc54e4b5bc96b15a32adbeab" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_LEDFailureCount</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a6b16315a0a524b37e3ea8d544b1cfd1a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_LiveImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a36155d07b3ebd9760f29ce5b76183ac7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_LiveModeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a5ea79977b8b8a0ac13bd9c8cb0fa22d5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_LiveProcess</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a3dfd4a0bf51b00c02985b779c78fff6b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_LiveProcess_Completed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aed9ef4551629acdf6fb80e60f97d9e99" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_LiveProcess_LiveImageReceived</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a9621b951db30577cd239abd911a1a8a0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_LiveProcess_OnCaptureLiveImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a24757f885cd49e26f22b95964ffe6289" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_ReadCCDTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ad76ed69c13d99037101e62918d3db8f3" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_ResetBadImageCountsCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aefea423fb84ef8828fdeeb16f97c3172" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_ResetRoiCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a1b04d0230f981caf1e4ddd08ca23a0a4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_RestartCameraCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a0ff531f7c21ea6defb50f59853bb14c8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_RoiHeight</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1abf8daa80c85441e0bffde83808379f8b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_RoiLeft</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a500c00c0c857826f259fe72dc4bacf55" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_RoiTop</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a7d6e5938de9168621e910f85a5c8eb9e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_RoiWidth</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a5c334bc4b78f79cb57c5695406feb343" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_SelectedBinning</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1abdfa37c1cbb42537b33af948fcaaf9de" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_SelectedGain</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab572308d04eda99580b44358cbfe7eff" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_SelectedReadout</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a5fa4eba8b6e218858444f42c51aab37c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_SelectedRegion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acfd747cf131283cbea321ab1b6a6c4d8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_SetCCDTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a0fb6087f23c5e03757e037fe4a650cbc" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>_WorkingStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a86782a2d98b9f1a92343fde00e9b2b1c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ActiveCamera</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a4220c57dc3af3dea62594a502dad76a2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>BadImageCounts</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a81785fe779a40f44b3e053297c1022c2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>BinningOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a1f00d39affc2f584b620c64410073619" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CameraViewModel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a853b9b226b30d77f0ed434a8f569c7f4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CancelCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ac67d11ec3e7bbeb1f29126301088e580" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CanExecuteCancelCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aac7331572b7fdc3eaf90d5ca0891774e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CanExecuteCaptureCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a66c853cc3569d05c46c59e2e2bdbcd21" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CanExecuteCaptureLiveImageCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab01a2f07d58b4f8c1266d49f4cfe3219" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CanExecuteContinuousCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ad577cd9e68315b809cd8bdce1d55f7e4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CanExecuteLiveModeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ab1d329bac7899fb2bfd918dad0c1e52d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CanExecuteReadCCDTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a9bde55eeac613c773941f56ba4034709" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CanExecuteResetBadImageCountsCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a7405553080c635bf77b408a346cff3a7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CanExecuteResetRoiCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aba187399701701a4514ec3f6505c93db" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CanExecuteRestartCameraCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aed350e77cf265f513dccdb92e0c8e162" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CanExecuteSetCCDTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a92d5c0344d71d5e5dffb438f07b8c8eb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CaptureCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a44badd694033aa8f8c38849315429dc5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CaptureLiveImageCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1adecacf08a4b1cc865caa79ecd941ab91" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CCDTemperGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a9ad62fb977a797003fbc57dbcabe3179" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CCDTemperSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aace086710c819e9cbdecbd3bbfee3630" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>CloseCamera</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a7f2df4c81060b6d60bf9d1ca1f148b6f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ContinuousCmd</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a283c8c9f12b92201a20bb652034b4669" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExecuteCancelCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acbb39be0a6afe557c86153a6f4c567de" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExecuteCaptureCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aa43a1deb6289002f5ba95903345422c9" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExecuteCaptureLiveImageCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a62953a18d46cefc29d140bb1abcb6837" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExecuteContinuousCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77be8e0d1d4adfc5076f56dc8c22dcb4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExecuteLiveModeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a97eba52e713c0ee44cd851d6d60e5a91" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExecuteReadCCDTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ae9efa769c0fbd3084a889025e2cafa27" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExecuteResetBadImageCountsCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a6621e332d1b607c08bcf401d78e77770" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExecuteResetRoiCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a6501ceac33b309e60697680f08ee1cb7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExecuteRestartCameraCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a3d11f841c3c72840e6a351503f179096" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExecuteSetCCDTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a27074cfaea076c5f173c3d3d4e86cee4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ExposureTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a1a28b66139a32a68f85fe04ca2131694" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>GainOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a5852d0a99ef0e7dcf0e56397bf105591" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>Imaging_OnLEDStateChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ac0c1bb5d831f8fe2c65aeb219d106a83" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>Initialize</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1adc0385f75fcbe3c0002d6d2799a8c72f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>InitializeCamera</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ac195692aa4a2fd2b1a9544088af9d1c7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>IsCaptureAverage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a167d6ae0d279857f56a205f798e97faa" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>IsCaptureFullROI</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a30380bed5aab20a48909da6828cc90d9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>IsConnected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a9261c9253bb62fc00bc73942628fb16f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>IsRestarting</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1ac0c39d7ca909ee392f40f922e6495087" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>LEDFailureCount</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1afb527de74d6109cb4205b964aa3fcf9c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>LiveImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1affb1973f62a99f20562786522fa3d4da" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>LiveModeCmd</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a45de1d446ca4eeadc885b159ddb085c8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ReadCCDTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a6fa71808bfb2f83dc74b5708eca391ae" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ReadoutOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77a12493581315041d7b786959a0fa71" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>RegionAdornerChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a765eb144e79ca188a5486023c8fa053a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>RegionAdornerDelegate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a3ba0054697db30c8de72005730dc9130" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ResetBadImageCountsCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a814ac1d65162c34bab5bd031766e3937" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>ResetRoiCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a2bd20b3545b3922b1fffde4f9219e7fd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>RestartCameraCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a7a6848992d4238a2cf988f98e156dfa5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>RoiHeight</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a1e7cf8392339ce3825fc51b2c84d1e95" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>RoiLeft</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a3841f912937f6791edf033bc04c93f91" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>RoiTop</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aa94aca92014409927a883ee2084d6a52" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>RoiWidth</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aa878a082390c0c96391a6ca6d165bc4a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>SelectedBinning</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aaa3d3afbf9a7a0924bdf86fa2b08cd77" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>SelectedGain</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aa137b06fb7f4061a16df9aadce792fc2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>SelectedReadout</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a3b85ba21ebc2b597141471bab728a567" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>SelectedRegion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a830a4177e142578d7746d4155e0728be" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>SetCCDTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aeeab59321e371ca72ac912ed0ea92061" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</scope><name>WorkingStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

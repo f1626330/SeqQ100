@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::VisibleImagingSetting</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1a38ad6eea807f0af3ee6b337b07cbf417" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.VisibleImagingSetting.Bin</definition>
+        <argsstring></argsstring>
+        <name>Bin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="185" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1aaac62ac6606fa8cd50bc8af47067d491" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.VisibleImagingSetting.ReadoutSpeed</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="186" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1a811f002ab59287b5143aa89898f94f1b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.VisibleImagingSetting.Gain</definition>
+        <argsstring></argsstring>
+        <name>Gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="187" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1a45887405c185083b9c2e21e539a3a9a7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.VisibleImagingSetting.MinExposure</definition>
+        <argsstring></argsstring>
+        <name>MinExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="188" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1aa93b3369f4820014952697ec1b948635" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.VisibleImagingSetting.MaxExposure</definition>
+        <argsstring></argsstring>
+        <name>MaxExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="189" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1ab022c7fc31004829a33752aa5d3fbefa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.VisibleImagingSetting.AutoExposureUpperCeiling</definition>
+        <argsstring></argsstring>
+        <name>AutoExposureUpperCeiling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="190" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1a854fa8ddeec386499b135925103a58fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.VisibleImagingSetting.ScalingThreshold</definition>
+        <argsstring></argsstring>
+        <name>ScalingThreshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="191" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1aafa075d907ac43e8162fce767ee04130" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.VisibleImagingSetting.VisibleImagingSetting</definition>
+        <argsstring>()</argsstring>
+        <name>VisibleImagingSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="193" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="193" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="184" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="183" bodyend="196"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1ab022c7fc31004829a33752aa5d3fbefa" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::VisibleImagingSetting</scope><name>AutoExposureUpperCeiling</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1a38ad6eea807f0af3ee6b337b07cbf417" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::VisibleImagingSetting</scope><name>Bin</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1a811f002ab59287b5143aa89898f94f1b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::VisibleImagingSetting</scope><name>Gain</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1aa93b3369f4820014952697ec1b948635" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::VisibleImagingSetting</scope><name>MaxExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1a45887405c185083b9c2e21e539a3a9a7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::VisibleImagingSetting</scope><name>MinExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1aaac62ac6606fa8cd50bc8af47067d491" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::VisibleImagingSetting</scope><name>ReadoutSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1a854fa8ddeec386499b135925103a58fe" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::VisibleImagingSetting</scope><name>ScalingThreshold</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting_1aafa075d907ac43e8162fce767ee04130" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::VisibleImagingSetting</scope><name>VisibleImagingSetting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

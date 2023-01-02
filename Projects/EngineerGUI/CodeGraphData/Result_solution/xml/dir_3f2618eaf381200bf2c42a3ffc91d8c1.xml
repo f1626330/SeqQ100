@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3f2618eaf381200bf2c42a3ffc91d8c1" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.Adorner</compoundname>
+    <innerdir refid="dir_a305466e133e113d7834bec77b4af1f5">D:/Source/Alf/Libraries/Sequlite.Adorner/Properties</innerdir>
+    <innerfile refid="_adorner_8cs">Adorner.cs</innerfile>
+    <innerfile refid="_cropping_adorner_8cs">CroppingAdorner.cs</innerfile>
+    <innerfile refid="_punctured_rect_8cs">PuncturedRect.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/"/>
+  </compounddef>
+</doxygen>

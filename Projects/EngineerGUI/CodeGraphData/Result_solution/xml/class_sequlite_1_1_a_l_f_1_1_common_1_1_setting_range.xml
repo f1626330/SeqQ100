@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Common::SettingRange</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range_1a6b747ca4b1fca4d1f041173a4753ad03" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.SettingRange.LimitLow</definition>
+        <argsstring></argsstring>
+        <name>LimitLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/SettingRange.cs" line="5" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/SettingRange.cs" bodystart="5" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1cf0b05670cb98ea9f9f82a9fd723306" compoundref="_fluidics_view_model_8cs" startline="426" endline="521">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteRunPumpCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range_1a0d0d588bd62e8701e948b20aae6993f7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.SettingRange.LimitHigh</definition>
+        <argsstring></argsstring>
+        <name>LimitHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/SettingRange.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/SettingRange.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/SettingRange.cs" line="4" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/SettingRange.cs" bodystart="3" bodyend="7"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range_1a0d0d588bd62e8701e948b20aae6993f7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::SettingRange</scope><name>LimitHigh</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range_1a6b747ca4b1fca4d1f041173a4753ad03" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::SettingRange</scope><name>LimitLow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

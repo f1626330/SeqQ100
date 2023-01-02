@@ -1,0 +1,839 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_command_lib_1_1_command_mediator" kind="class" prot="public">
+    <compoundname>Sequlite::CommandLib::CommandMediator</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a137c2489fad4e58c7356e10383e0f946" prot="protected" static="no" mutable="no">
+        <type>Dictionary&lt; string, object &gt;</type>
+        <definition>Dictionary&lt;string, object&gt; Sequlite.CommandLib.CommandMediator._SupportedResources</definition>
+        <argsstring></argsstring>
+        <name>_SupportedResources</name>
+        <initializer>= new Dictionary&lt;string, object&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a6a9803e8ba7f264ed48e8279898a9301" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.CommandLib.CommandMediator._MediatorName</definition>
+        <argsstring></argsstring>
+        <name>_MediatorName</name>
+        <initializer>= &quot;CommandMediator&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="59" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1af2d1f062d0abf8388957f6ce10344a21" prot="protected" static="no" mutable="no">
+        <type><ref refid="namespace_sequlite_1_1_command_lib_1adc5a29b22e0b03d81283d0c6816dd40a" kindref="member">CommandMediatorState</ref></type>
+        <definition>CommandMediatorState Sequlite.CommandLib.CommandMediator._State</definition>
+        <argsstring></argsstring>
+        <name>_State</name>
+        <initializer>= CommandMediatorState.Idle</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="60" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a752098b1fe45a6c000ab55260125dd84" prot="protected" static="no" mutable="no">
+        <type><ref refid="interface_sequlite_1_1_command_lib_1_1_i_logger" kindref="compound">ILogger</ref></type>
+        <definition>ILogger Sequlite.CommandLib.CommandMediator._Logger</definition>
+        <argsstring></argsstring>
+        <name>_Logger</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="61" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1ac844cfa1041d6bda15c825bce7de2dfe" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.CommandLib.CommandMediator._IsSimulationMode</definition>
+        <argsstring></argsstring>
+        <name>_IsSimulationMode</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="62" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1aaeb2e4b739fdbd4eda71d6198818c9ef" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_base_command" kindref="compound">BaseCommand</ref></type>
+        <definition>BaseCommand Sequlite.CommandLib.CommandMediator._ExecutingCommand</definition>
+        <argsstring></argsstring>
+        <name>_ExecutingCommand</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="63" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1ade368dc1d3e457f0932f9c0bf92c0fbe" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref></type>
+        <definition>ExecutionState Sequlite.CommandLib.CommandMediator._ExecutingCommandState</definition>
+        <argsstring></argsstring>
+        <name>_ExecutingCommandState</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="64" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a75c1d26a1e8a70560abf3c7194fdf021" prot="protected" static="no" mutable="no">
+        <type>Thread</type>
+        <definition>Thread Sequlite.CommandLib.CommandMediator._MediatorThread</definition>
+        <argsstring></argsstring>
+        <name>_MediatorThread</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="68" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a6491bcd1b7f83feb241d3850a88c6a24" prot="protected" static="no" mutable="no">
+        <type>AutoResetEvent</type>
+        <definition>AutoResetEvent Sequlite.CommandLib.CommandMediator._ResetEvent</definition>
+        <argsstring></argsstring>
+        <name>_ResetEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="69" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a00a7ed8db75933f7ea8f4f6398551a7c" prot="protected" static="no" mutable="no">
+        <type>Object</type>
+        <definition>Object Sequlite.CommandLib.CommandMediator._CommandSyncObject</definition>
+        <argsstring></argsstring>
+        <name>_CommandSyncObject</name>
+        <initializer>= new Object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="70" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1aa05330e17237b9742c20d0ccf8cbd295" prot="protected" static="no" mutable="no">
+        <type>Object</type>
+        <definition>Object Sequlite.CommandLib.CommandMediator._LoggerSyncObject</definition>
+        <argsstring></argsstring>
+        <name>_LoggerSyncObject</name>
+        <initializer>= new Object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="71" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1acf80352743ffd9bb4baab5057016ed70" prot="protected" static="no" mutable="no">
+        <type>Object</type>
+        <definition>Object Sequlite.CommandLib.CommandMediator._ResourcesSyncObject</definition>
+        <argsstring></argsstring>
+        <name>_ResourcesSyncObject</name>
+        <initializer>= new Object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="72" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a4a113aef184a766fae70819d04a913bb" prot="protected" static="no" mutable="no">
+        <type>Object</type>
+        <definition>Object Sequlite.CommandLib.CommandMediator._PerfProfilingSyncObject</definition>
+        <argsstring></argsstring>
+        <name>_PerfProfilingSyncObject</name>
+        <initializer>= new Object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="73" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1af2230c8ec3452a0f105af64b7e3ccdba" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.CommandLib.CommandMediator._bProfileCommandPerformance</definition>
+        <argsstring></argsstring>
+        <name>_bProfileCommandPerformance</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="75" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1abd25ebddc5843bda34c69bd3386f9122" prot="protected" static="no" mutable="no">
+        <type>Dictionary&lt; string, List&lt; long &gt; &gt;</type>
+        <definition>Dictionary&lt;string, List&lt;long&gt; &gt; Sequlite.CommandLib.CommandMediator._PerformanceTable</definition>
+        <argsstring></argsstring>
+        <name>_PerformanceTable</name>
+        <initializer>= new Dictionary&lt;string, List&lt;long&gt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="76" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a02bd482eb674e536b73cb3844f4dd263" prot="protected" static="no" mutable="no">
+        <type>char[]</type>
+        <definition>char [] Sequlite.CommandLib.CommandMediator._TrimChars</definition>
+        <argsstring></argsstring>
+        <name>_TrimChars</name>
+        <initializer>= new char[] { &apos;\r&apos;, &apos;\b&apos; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="77" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1ac41b3e12668f1c5a795306195201ae19" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="namespace_sequlite_1_1_command_lib_1a666eb32ea80497f12f00b9445a92bcf8" kindref="member">ExceptionDelegate</ref></type>
+        <definition>ExceptionDelegate Sequlite.CommandLib.CommandMediator.Exception</definition>
+        <argsstring></argsstring>
+        <name>Exception</name>
+        <briefdescription>
+<para>Exception event is raised on command exception. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="82" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a7de4b4feec58fd9dc4d305286d0cf10f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="namespace_sequlite_1_1_command_lib_1a15c6ef1fd710f46e46eaa72dec0f09df" kindref="member">StateChangedDelegate</ref></type>
+        <definition>StateChangedDelegate Sequlite.CommandLib.CommandMediator.StateChanged</definition>
+        <argsstring></argsstring>
+        <name>StateChanged</name>
+        <briefdescription>
+<para>StateChanged event is raised when the state of the mediator changes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="86" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a0611210eb679771ac4fa7aa066feaf1b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespace_sequlite_1_1_command_lib_1adc5a29b22e0b03d81283d0c6816dd40a" kindref="member">CommandMediatorState</ref></type>
+        <definition>CommandMediatorState Sequlite.CommandLib.CommandMediator.State</definition>
+        <argsstring></argsstring>
+        <name>State</name>
+        <briefdescription>
+<para>Get the current state of the command mediator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="93" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a1894278289f2528ace1207c7d355cde3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.CommandLib.CommandMediator.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Get the name of the command mediator. For derived command mediators set the name of the commamd mediator in the constructor of the derived class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="104" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a34f8e8f242651e82c0be00999dea37d8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.CommandLib.CommandMediator.IsSimulationMode</definition>
+        <argsstring></argsstring>
+        <name>IsSimulationMode</name>
+        <briefdescription>
+<para>Get/set whether we are in simulation mode. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="114" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a1c8425ed408383ca770f4c1b36c4f2dc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>object</type>
+        <definition>object Sequlite.CommandLib.CommandMediator.this[string resource]</definition>
+        <argsstring></argsstring>
+        <name>this[string resource]</name>
+        <briefdescription>
+<para>Get a supported resource by name. If the resource does not exist this indexer returns NULL. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resource</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="133" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a3a91d6052ef5b3bf57919e94bc090e9b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.CommandLib.CommandMediator.ProfileCommandPerformance</definition>
+        <argsstring></argsstring>
+        <name>ProfileCommandPerformance</name>
+        <briefdescription>
+<para>Get/set the flag to start/stop command performance profiling. IF true, all executed commands profile their performance (See method <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a83c293d79cca0359774659187be85542" kindref="member">GetPerformanceProfileSnapShot</ref>). </para>        </briefdescription>
+        <detaileddescription>
+<para>Call method <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a60f196ffde4e415edcbf90c1077b5515" kindref="member">ResetCommandPerformanceProfiler</ref> to clear all pervious performance profilings from the internal hash table. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="157" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a06722498634aadc1bc9f03069a81d9e4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="interface_sequlite_1_1_command_lib_1_1_i_logger" kindref="compound">ILogger</ref></type>
+        <definition>ILogger Sequlite.CommandLib.CommandMediator.Logger</definition>
+        <argsstring></argsstring>
+        <name>Logger</name>
+        <briefdescription>
+<para>Get the logger object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="168" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a2fc4b112d551f340fa8a555011bd2e2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.CommandLib.CommandMediator.CommandMediator</definition>
+        <argsstring>()</argsstring>
+        <name>CommandMediator</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="180" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="180" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a273038af95b2de72d9909ee630a6ed5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.SetLogger</definition>
+        <argsstring>(ILogger logger)</argsstring>
+        <name>SetLogger</name>
+        <param>
+          <type><ref refid="interface_sequlite_1_1_command_lib_1_1_i_logger" kindref="compound">ILogger</ref></type>
+          <declname>logger</declname>
+        </param>
+        <briefdescription>
+<para>Set the logger for this object instance. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logFilePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Full path for log file.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="203" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="203" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a4c25ffde35210d9f8728448883e08413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.AddSupportedResource</definition>
+        <argsstring>(string resourceName, object resource)</argsstring>
+        <name>AddSupportedResource</name>
+        <param>
+          <type>string</type>
+          <declname>resourceName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>resource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resourceName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>service</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="218" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="218" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a658b95348598ac1c913c6d7982cd5660" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.RemoveSupportedResource</definition>
+        <argsstring>(string resourceName)</argsstring>
+        <name>RemoveSupportedResource</name>
+        <param>
+          <type>string</type>
+          <declname>resourceName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>resourceName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="250" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="250" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1aea4a5e56d2013d031291e74e920e738d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref></type>
+        <definition>ExecutionState Sequlite.CommandLib.CommandMediator.ExecuteCommand</definition>
+        <argsstring>(BaseCommand command)</argsstring>
+        <name>ExecuteCommand</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_base_command" kindref="compound">BaseCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Execute the command as non-blocking (asynchronous). Command exceptions are swallowed but logged when running asynchonously; However, the user can subscribe to the ExceptionOcurred event to be notified when an exception occurs. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>command</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="271" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="271" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a9c713aaaef0211bd34b683474c1f25a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref></type>
+        <definition>ExecutionState Sequlite.CommandLib.CommandMediator.ExecuteCommandBlocking</definition>
+        <argsstring>(BaseCommand command)</argsstring>
+        <name>ExecuteCommandBlocking</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_base_command" kindref="compound">BaseCommand</ref></type>
+          <declname>command</declname>
+        </param>
+        <briefdescription>
+<para>Execute the command as blocking (synchronous). All command exceptions are logged and then re-thrown when executed blocking (however, they are consumed by <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref> when executed asynchronously by <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1aea4a5e56d2013d031291e74e920e738d" kindref="member">ExecuteCommand</ref> method). </para>        </briefdescription>
+        <detaileddescription>
+<para>Blocking commands will not raise the <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref>&apos;s OnStateChanged event. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>command</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="305" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="305" bodyend="327"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1ab740a7eeda51a7b3327aa1d8dd82136d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.Cancel</definition>
+        <argsstring>()</argsstring>
+        <name>Cancel</name>
+        <briefdescription>
+<para>Cancels (aborts) the executing command (if there is one). If the command is a <ref refid="class_sequlite_1_1_command_lib_1_1_serial_command" kindref="compound">SerialCommand</ref> or a <ref refid="class_sequlite_1_1_command_lib_1_1_parallel_command" kindref="compound">ParallelCommand</ref> all child commands of the parent command will be canceled (aborted). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="336" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="336" bodyend="342"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a60f196ffde4e415edcbf90c1077b5515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.ResetCommandPerformanceProfiler</definition>
+        <argsstring>()</argsstring>
+        <name>ResetCommandPerformanceProfiler</name>
+        <briefdescription>
+<para>Reset or clear all previously accrued command performance timings. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="349" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="349" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a83c293d79cca0359774659187be85542" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, List&lt; long &gt; &gt;</type>
+        <definition>Dictionary&lt;string, List&lt;long&gt; &gt; Sequlite.CommandLib.CommandMediator.GetPerformanceProfileSnapShot</definition>
+        <argsstring>()</argsstring>
+        <name>GetPerformanceProfileSnapShot</name>
+        <briefdescription>
+<para>Get a dictionary of all executed commands and their execution times. The dictionary key is the command name and the value is a generic list of type long where this value is the list of all command execution times in milliseconds. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="365" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="365" bodyend="379"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a052f1728d3292f311e52984754e65166" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.CommandExecutorWorkerThread</definition>
+        <argsstring>()</argsstring>
+        <name>CommandExecutorWorkerThread</name>
+        <briefdescription>
+<para>The command processing worker thread. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="390" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="390" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1ac510f62748f0759b0425bdd782893dfc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Sequlite.CommandLib.CommandMediator.CommandExecutorWorker</definition>
+        <argsstring>()</argsstring>
+        <name>CommandExecutorWorker</name>
+        <briefdescription>
+<para>The command executor worker method. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="433" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="433" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a043f65fa08ea1609a9c94ca5b2923819" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.RaiseStateChangedEvent</definition>
+        <argsstring>(CommandMediatorState state)</argsstring>
+        <name>RaiseStateChangedEvent</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_command_lib_1adc5a29b22e0b03d81283d0c6816dd40a" kindref="member">CommandMediatorState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>state</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="502" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="502" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1ae6265dec2c40e1788b2bd4c4df92a1a0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.RaiseOnExceptionEvent</definition>
+        <argsstring>(Exception ex)</argsstring>
+        <name>RaiseOnExceptionEvent</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1ac41b3e12668f1c5a795306195201ae19" kindref="member">Exception</ref></type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ex</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="520" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="520" bodyend="526"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a114d04e719a05e6485ef9c5614230a90" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.LogCommandPerformance</definition>
+        <argsstring>(long elapsedTime_ms, string name)</argsstring>
+        <name>LogCommandPerformance</name>
+        <param>
+          <type>long</type>
+          <declname>elapsedTime_ms</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>elapsedTime_ms</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="536" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="536" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a7322fe769b5644c50a25d080dd2df1f7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.LogMessage</definition>
+        <argsstring>(string msg)</argsstring>
+        <name>LogMessage</name>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+<para>Log a message to the attached logger. See method <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a273038af95b2de72d9909ee630a6ed5e" kindref="member">SetLogger</ref> to attach a logger. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>msg</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="567" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="567" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1a6b7d111ad2d1227b9460eebb36fe1e8a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.LogException</definition>
+        <argsstring>(string header, Exception ex)</argsstring>
+        <name>LogException</name>
+        <param>
+          <type>string</type>
+          <declname>header</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1ac41b3e12668f1c5a795306195201ae19" kindref="member">Exception</ref></type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+<para>Log an exception to the attached logger. See method <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a273038af95b2de72d9909ee630a6ed5e" kindref="member">SetLogger</ref> to attach a logger. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>header</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ex</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="582" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="582" bodyend="587"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_command_mediator_1abc09abea73ef52a6f39447eeb466ebb3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.CommandMediator.LogCommandExecutionState</definition>
+        <argsstring>(ExecutionState execState)</argsstring>
+        <name>LogCommandExecutionState</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref></type>
+          <declname>execState</declname>
+        </param>
+        <briefdescription>
+<para>Log the command execution state to the attached logger.S ee method <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a273038af95b2de72d9909ee630a6ed5e" kindref="member">SetLogger</ref> to attach a logger. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>execState</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="597" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="597" bodyend="606"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of the <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref> class. This class is purposed to be a SPOT (Single Point Of Truth) utility that executes and profiles (optionally) commands. This class provides a single point for serial/parallel commands, general logging, command logging and exception handling/logging. It also provides events to the UI layer that notify it when commands are running and completed. </para>    </briefdescription>
+    <detaileddescription>
+<para>Copyright: Created by Tony Jenniges, 2008-2009, All rights reserved.</para><para>Contact: <ulink url="mailto:tonyjenniges@yahoo.com">tonyjenniges@yahoo.com</ulink></para><para>/// </para><para><itemizedlist>
+</itemizedlist>
+Advantages of <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref> SPOT (Single Point Of Truth) utility that can be used on multiple projects (and battle tested and hardened). Common point for application logging Common point for application exception handling Command performance profiling and reporting Multi-threaded command execution. Less implementation code in GUI (i.e., &apos;thin&apos; client UI) </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="283">
+        <label>Sequlite.CommandLib.BaseCommand</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_base_command"/>
+        <childnode refid="283" relation="usage">
+          <edgelabel>_Parent</edgelabel>
+        </childnode>
+        <childnode refid="281" relation="usage">
+          <edgelabel>_OwningMediator</edgelabel>
+        </childnode>
+        <childnode refid="284" relation="usage">
+          <edgelabel>_ExecutionInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="285">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="284">
+        <label>Sequlite.CommandLib.ExecutionState</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_execution_state"/>
+        <childnode refid="285" relation="public-inheritance">
+        </childnode>
+        <childnode refid="284" relation="usage">
+          <edgelabel>_ParentExecutionState</edgelabel>
+        </childnode>
+      </node>
+      <node id="282">
+        <label>Sequlite.CommandLib.ILogger</label>
+        <link refid="interface_sequlite_1_1_command_lib_1_1_i_logger"/>
+      </node>
+      <node id="281">
+        <label>Sequlite.CommandLib.CommandMediator</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_command_mediator"/>
+        <childnode refid="282" relation="usage">
+          <edgelabel>_Logger</edgelabel>
+        </childnode>
+        <childnode refid="283" relation="usage">
+          <edgelabel>_ExecutingCommand</edgelabel>
+        </childnode>
+        <childnode refid="284" relation="usage">
+          <edgelabel>_ExecutingCommandState</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="56" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="55" bodyend="610"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1af2230c8ec3452a0f105af64b7e3ccdba" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_bProfileCommandPerformance</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a00a7ed8db75933f7ea8f4f6398551a7c" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_CommandSyncObject</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1aaeb2e4b739fdbd4eda71d6198818c9ef" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_ExecutingCommand</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1ade368dc1d3e457f0932f9c0bf92c0fbe" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_ExecutingCommandState</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1ac844cfa1041d6bda15c825bce7de2dfe" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_IsSimulationMode</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a752098b1fe45a6c000ab55260125dd84" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_Logger</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1aa05330e17237b9742c20d0ccf8cbd295" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_LoggerSyncObject</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a6a9803e8ba7f264ed48e8279898a9301" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_MediatorName</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a75c1d26a1e8a70560abf3c7194fdf021" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_MediatorThread</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1abd25ebddc5843bda34c69bd3386f9122" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_PerformanceTable</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a4a113aef184a766fae70819d04a913bb" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_PerfProfilingSyncObject</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a6491bcd1b7f83feb241d3850a88c6a24" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_ResetEvent</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1acf80352743ffd9bb4baab5057016ed70" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_ResourcesSyncObject</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1af2d1f062d0abf8388957f6ce10344a21" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_State</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a137c2489fad4e58c7356e10383e0f946" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_SupportedResources</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a02bd482eb674e536b73cb3844f4dd263" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>_TrimChars</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a4c25ffde35210d9f8728448883e08413" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>AddSupportedResource</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1ab740a7eeda51a7b3327aa1d8dd82136d" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>Cancel</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1ac510f62748f0759b0425bdd782893dfc" prot="protected" virt="virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>CommandExecutorWorker</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a052f1728d3292f311e52984754e65166" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>CommandExecutorWorkerThread</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a2fc4b112d551f340fa8a555011bd2e2e" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>CommandMediator</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1ac41b3e12668f1c5a795306195201ae19" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>Exception</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1aea4a5e56d2013d031291e74e920e738d" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>ExecuteCommand</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a9c713aaaef0211bd34b683474c1f25a6" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>ExecuteCommandBlocking</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a83c293d79cca0359774659187be85542" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>GetPerformanceProfileSnapShot</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a34f8e8f242651e82c0be00999dea37d8" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>IsSimulationMode</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1abc09abea73ef52a6f39447eeb466ebb3" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>LogCommandExecutionState</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a114d04e719a05e6485ef9c5614230a90" prot="package" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>LogCommandPerformance</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a6b7d111ad2d1227b9460eebb36fe1e8a" prot="package" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>LogException</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a06722498634aadc1bc9f03069a81d9e4" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>Logger</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a7322fe769b5644c50a25d080dd2df1f7" prot="package" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>LogMessage</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a1894278289f2528ace1207c7d355cde3" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>Name</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a3a91d6052ef5b3bf57919e94bc090e9b" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>ProfileCommandPerformance</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1ae6265dec2c40e1788b2bd4c4df92a1a0" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>RaiseOnExceptionEvent</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a043f65fa08ea1609a9c94ca5b2923819" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>RaiseStateChangedEvent</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a658b95348598ac1c913c6d7982cd5660" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>RemoveSupportedResource</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a60f196ffde4e415edcbf90c1077b5515" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>ResetCommandPerformanceProfiler</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a273038af95b2de72d9909ee630a6ed5e" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>SetLogger</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a0611210eb679771ac4fa7aa066feaf1b" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>State</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a7de4b4feec58fd9dc4d305286d0cf10f" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>StateChanged</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_command_mediator_1a1c8425ed408383ca770f4c1b36c4f2dc" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::CommandMediator</scope><name>this[string resource]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

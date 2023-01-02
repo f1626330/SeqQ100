@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_camera_lib_1_1_readout_option" kind="struct" prot="public">
+    <compoundname>Sequlite::CameraLib::ReadoutOption</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1ad17c718b9a31bf578bea715cad7f57bc" prot="public" static="no" mutable="no">
+        <type>Int16</type>
+        <definition>Int16 Sequlite.CameraLib.ReadoutOption.m_port</definition>
+        <argsstring></argsstring>
+        <name>m_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="110" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a81df164fa131bad610d01149350e4ea1" prot="public" static="no" mutable="no">
+        <type>Int16</type>
+        <definition>Int16 Sequlite.CameraLib.ReadoutOption.m_speed</definition>
+        <argsstring></argsstring>
+        <name>m_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="111" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a5e0e5ade2351b851211e149ce726497a" prot="public" static="no" mutable="no">
+        <type>Int16</type>
+        <definition>Int16 Sequlite.CameraLib.ReadoutOption.m_bitDepth</definition>
+        <argsstring></argsstring>
+        <name>m_bitDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="112" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a45539f44894f6e8b61b61d25199b242a" prot="public" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.ReadoutOption.m_gainStates</definition>
+        <argsstring></argsstring>
+        <name>m_gainStates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="113" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a88f9242af3fd88d66956522a79ac2689" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Sequlite.CameraLib.ReadoutOption.m_portDesc</definition>
+        <argsstring></argsstring>
+        <name>m_portDesc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="114" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a8316212e317f54c695c3a9bb2cfb07c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Int16</type>
+        <definition>Int16 Sequlite.CameraLib.ReadoutOption.BitDepth</definition>
+        <argsstring></argsstring>
+        <name>BitDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="116" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1af6a39863e8c485b73dca7c0e1ad0f815" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.ReadoutOption.GainStates</definition>
+        <argsstring></argsstring>
+        <name>GainStates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="122" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1acbfa6dd2bd3a03791cfcfb3576e891d3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Int16</type>
+        <definition>Int16 Sequlite.CameraLib.ReadoutOption.Port</definition>
+        <argsstring></argsstring>
+        <name>Port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="128" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1afebc9220a190fd27f419ea609ef8e996" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Int16</type>
+        <definition>Int16 Sequlite.CameraLib.ReadoutOption.Speed</definition>
+        <argsstring></argsstring>
+        <name>Speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="134" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a64ff067c31025a566ddf4038c9ee85d7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.CameraLib.ReadoutOption.PortDesc</definition>
+        <argsstring></argsstring>
+        <name>PortDesc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="140" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a1d593bb34e3081a9409bb2915b8592ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.CameraLib.ReadoutOption.ReadoutOption</definition>
+        <argsstring>(Int16 portNr, Int16 speedNr, Int16 bD, UInt32 gS, string portDescription)</argsstring>
+        <name>ReadoutOption</name>
+        <param>
+          <type>Int16</type>
+          <declname>portNr</declname>
+        </param>
+        <param>
+          <type>Int16</type>
+          <declname>speedNr</declname>
+        </param>
+        <param>
+          <type>Int16</type>
+          <declname>bD</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>gS</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>portDescription</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="146" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="146" bodyend="153"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="109" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="108" bodyend="154"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a8316212e317f54c695c3a9bb2cfb07c4" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>BitDepth</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1af6a39863e8c485b73dca7c0e1ad0f815" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>GainStates</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a5e0e5ade2351b851211e149ce726497a" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>m_bitDepth</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a45539f44894f6e8b61b61d25199b242a" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>m_gainStates</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1ad17c718b9a31bf578bea715cad7f57bc" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>m_port</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a88f9242af3fd88d66956522a79ac2689" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>m_portDesc</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a81df164fa131bad610d01149350e4ea1" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>m_speed</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1acbfa6dd2bd3a03791cfcfb3576e891d3" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>Port</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a64ff067c31025a566ddf4038c9ee85d7" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>PortDesc</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1a1d593bb34e3081a9409bb2915b8592ab" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>ReadoutOption</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_readout_option_1afebc9220a190fd27f419ea609ef8e996" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReadoutOption</scope><name>Speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

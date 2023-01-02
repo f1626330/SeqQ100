@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata" kind="class" prot="public">
+    <compoundname>Sequlite::CameraLib::ROIMetadata</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1ab3801daffadb6f25861113380c40bafd" prot="private" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.ROIMetadata.m_roiNr</definition>
+        <argsstring></argsstring>
+        <name>m_roiNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="319" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a2c4077bfa87c17e60c5fcf10440bbb7e" prot="private" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.ROIMetadata.m_s1</definition>
+        <argsstring></argsstring>
+        <name>m_s1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="320" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a6ab4509a9e4fd30ad527bd9242fe8f6e" prot="private" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.ROIMetadata.m_s2</definition>
+        <argsstring></argsstring>
+        <name>m_s2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="321" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a8f3244aa411afe213205285e28ea51e5" prot="private" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.ROIMetadata.m_p1</definition>
+        <argsstring></argsstring>
+        <name>m_p1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="322" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1ab4d94a1a190197a030e843be73094e41" prot="private" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.ROIMetadata.m_p2</definition>
+        <argsstring></argsstring>
+        <name>m_p2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="323" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a8cb2a1dcbb3c441a3ec448425005fe28" prot="private" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.ROIMetadata.m_roiCount</definition>
+        <argsstring></argsstring>
+        <name>m_roiCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="325" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1ad2ae1e2f1686a977a9d9726d1b724a23" prot="private" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.ROIMetadata.m_timeStampBOR</definition>
+        <argsstring></argsstring>
+        <name>m_timeStampBOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="326" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a5e8ab6a002b85732c61345b8f523b6ec" prot="private" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.ROIMetadata.m_timeStampEOR</definition>
+        <argsstring></argsstring>
+        <name>m_timeStampEOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="327" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1ac2a9e9e91b07fdc53680d1126c23e982" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.ROIMetadata.ROINr</definition>
+        <argsstring></argsstring>
+        <name>ROINr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="329" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a2325e5e549af8b087b8f8c62cf883c8f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.ROIMetadata.ROICount</definition>
+        <argsstring></argsstring>
+        <name>ROICount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="334" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="335" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1ab4203dd75f9ade6e93ac3d0c96b677b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.ROIMetadata.S1</definition>
+        <argsstring></argsstring>
+        <name>S1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="339" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1aee0e44eb077eb25402f0095fee3ef434" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.ROIMetadata.S2</definition>
+        <argsstring></argsstring>
+        <name>S2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="344" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a15034a3cab13939c5890f64c361f1fc0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.ROIMetadata.P1</definition>
+        <argsstring></argsstring>
+        <name>P1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="349" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a7f2bae7b9e019f80232c2c06c9b653ed" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.ROIMetadata.P2</definition>
+        <argsstring></argsstring>
+        <name>P2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="354" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a3a1a6eb86d765d51adb86e1ab618a154" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.ROIMetadata.TimeStampBOR</definition>
+        <argsstring></argsstring>
+        <name>TimeStampBOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="360" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1afd9ef83bdbbccca22838e560a1ba38cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.ROIMetadata.TimeStampEOR</definition>
+        <argsstring></argsstring>
+        <name>TimeStampEOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="366" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="318" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="317" bodyend="372"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a8f3244aa411afe213205285e28ea51e5" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>m_p1</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1ab4d94a1a190197a030e843be73094e41" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>m_p2</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a8cb2a1dcbb3c441a3ec448425005fe28" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>m_roiCount</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1ab3801daffadb6f25861113380c40bafd" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>m_roiNr</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a2c4077bfa87c17e60c5fcf10440bbb7e" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>m_s1</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a6ab4509a9e4fd30ad527bd9242fe8f6e" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>m_s2</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1ad2ae1e2f1686a977a9d9726d1b724a23" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>m_timeStampBOR</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a5e8ab6a002b85732c61345b8f523b6ec" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>m_timeStampEOR</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a15034a3cab13939c5890f64c361f1fc0" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>P1</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a7f2bae7b9e019f80232c2c06c9b653ed" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>P2</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a2325e5e549af8b087b8f8c62cf883c8f" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>ROICount</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1ac2a9e9e91b07fdc53680d1126c23e982" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>ROINr</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1ab4203dd75f9ade6e93ac3d0c96b677b2" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>S1</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1aee0e44eb077eb25402f0095fee3ef434" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>S2</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1a3a1a6eb86d765d51adb86e1ab618a154" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>TimeStampBOR</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata_1afd9ef83bdbbccca22838e560a1ba38cb" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ROIMetadata</scope><name>TimeStampEOR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

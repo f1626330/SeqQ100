@@ -1,0 +1,87 @@
+﻿<Window x:Class="Sequlite.ALF.EngineerGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:Sequlite.ALF.EngineerGUI.View;assembly=Sequlite.UIControl"
+        xmlns:loganalyzer="clr-namespace:Sequlite.LogAnalyzer;assembly=LogAnalyzer"
+        xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+        mc:Ignorable="d"
+        Title="ALF EUI" Height="800" Width="1280" WindowStartupLocation="CenterScreen"   WindowState="Maximized"
+        wpfFramework:WindowClosingBehavior.Closed="{Binding WindowClosed}"
+        wpfFramework:WindowClosingBehavior.Closing="{Binding WindowClosing}"
+        wpfFramework:DialogBoxBehavior.DialogViewModels="{Binding Dialogs}"
+        >
+    
+    <!--<Grid>
+        <view:EUIControl ></view:EUIControl>
+    </Grid>-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+
+        </Grid.RowDefinitions>
+        <TabControl>
+            <TabItem  x:Name="tabItem" Header="Imaging">
+                <views:ImagingTabControl IsEnabled="{Binding Path=DataContext.IsBusy, Converter={StaticResource boolReverseConverter}, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Control}}}"/>
+            </TabItem>
+            <TabItem Header="Chemi/Fluidics">
+                <views:FluidicsTabControl DataContext="{Binding Path=FluidicsVM}"/>
+            </TabItem>
+            <TabItem Header="Gallery">
+                <views:GalleryTabControl DataContext="{Binding Path=ImageGalleryVM}"/>
+            </TabItem>
+
+            <TabItem Header="Auto Focus Test">
+                <views:AutoFocusTabControl DataContext="{Binding Path=AutoFocusVM}" IsEnabled="{Binding DataContext.IsBusy, Converter={StaticResource booleanReverseConverter}, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Window}}}"/>
+            </TabItem>
+
+            <TabItem Header="Recipe">
+                <views:RecipeTabControl DataContext="{Binding Path=RecipeVM}"/>
+            </TabItem>
+            <TabItem Header="OLA">
+                <views:OLATabControl DataContext="{Binding Path=RecipeVM}" />
+            </TabItem>
+            <TabItem Header="RecipeTool">
+                <views:RecipeToolTabControl/>
+            </TabItem>
+            <TabItem Header="LED/PD Calibration" Visibility="{Binding Path=IsMachineRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}">
+                <views:LedPdCalibrationTab DataContext="{Binding Path=LedPdCalibrationVm}"/>
+            </TabItem>
+            <!--<TabItem Header="Image Transformation Tool" Visibility="{Binding Path=IsMachineRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}">
+                <imagecorrection:MainWindow DataContext="{Binding Path=MainWindow}"/>
+            </TabItem>-->
+            <TabItem Header="SysLog Analyzer Tool" Visibility="{Binding Path=IsMachineRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}">
+                <loganalyzer:MainWindow DataContext="{Binding Path=MainWindow}"/>
+            </TabItem>
+            <TabItem Header="Hardware Verify" Visibility="{Binding Path=IsMachineRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}">
+                <views:HardwareVerificationView DataContext="{Binding Path=HwVerifyVm}"/>
+            </TabItem>
+        </TabControl>
+
+        <!--<Grid Grid.Row="0" Height="{Binding ActualHeight, ElementName=tabItem}" 
+            VerticalAlignment="Top" Margin="0,2,0,0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" 
+                VerticalAlignment="Center" Margin="20,0">
+                <TextBlock VerticalAlignment="Center" Margin="10,0" FontSize="16" 
+                   Foreground="Red" FontFamily="Calibri">My Text</TextBlock>
+                <Button Content="My Button" />
+            </StackPanel>
+        </Grid>-->
+        <!--  Status bar  -->
+        <Grid  Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="75" />
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.Column="0" >
+                <TextBlock Text="Status:" Margin="5"/>
+                <TextBlock Text="{Binding Path=StatusInfo, TargetNullValue=N/A}" Margin="5"/>
+            </StackPanel>
+            <Button  Grid.Column="1" Content="Log Window" Command="{Binding ShowLogWindowCmd}" HorizontalAlignment="Center"
+                     Margin="5" ToolTip="Open Log Window"/>
+        </Grid>
+    </Grid>
+</Window>

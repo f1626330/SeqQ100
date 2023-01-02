@@ -1,0 +1,27 @@
+2018.12.21-V1.0.0.1221:
+Initial project set up;
+
+2019.2.1-V2.0.0.0
+Implement both Create recipe and import recipe function;
+
+2019.2.9-V2.0.0.1:
+Modified the capture image step, now each channel (R and G) owns its exposure time; 
+
+2019.2.25-V2.0.1.0:
+Modified some default settings in creating new recipes;
+Added software version string in app title bar;
+
+2019.3.19-V2.0.1.1:
+Fixed recipe name and created/updated time update bug;
+
+2019.6.7-V3.0.0.0:
+Rearrange the Recipe tool project structure;
+
+2019.6.18-V3.0.1.0:
+New Capture Image Step creation with auto focusing and reference focuses;
+
+2019.6.19-V3.0.2.0:
+Rebuilt the Capture Image Step, it contains regions, each region has it's own imagings and focuses;
+
+2019.7.9-V3.0.2.1:
+Fixed: failed to modify steps of loaded recipe;

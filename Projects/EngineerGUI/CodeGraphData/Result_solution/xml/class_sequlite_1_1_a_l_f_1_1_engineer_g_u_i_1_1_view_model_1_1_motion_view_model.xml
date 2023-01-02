@@ -1,0 +1,1190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a130bf7862a8f0d204a1b449b3ef80087" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._FMotionSpeed</definition>
+        <argsstring></argsstring>
+        <name>_FMotionSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="14" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a89ae50fdc619addc6195646daba006a3" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._YMotionSpeed</definition>
+        <argsstring></argsstring>
+        <name>_YMotionSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="15" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ae97a02425aeb7d4a77fbb5f2f40e88ac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._ZMotionSpeed</definition>
+        <argsstring></argsstring>
+        <name>_ZMotionSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="16" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1af6306a5d2098246b87ddaaa485b5a171" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._CMotionSpeed</definition>
+        <argsstring></argsstring>
+        <name>_CMotionSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="17" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ae8a9b394c25136782c4117b07f985a2e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._FMotionAccel</definition>
+        <argsstring></argsstring>
+        <name>_FMotionAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="19" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a2efd68791f821b08ece96d234974a846" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._YMotionAccel</definition>
+        <argsstring></argsstring>
+        <name>_YMotionAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="20" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ae81665a6b1af3f75ffb009f27e747764" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._ZMotionAccel</definition>
+        <argsstring></argsstring>
+        <name>_ZMotionAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="21" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a331383e2259f69e88faea61d2f7cdb58" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._CMotionAccel</definition>
+        <argsstring></argsstring>
+        <name>_CMotionAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="22" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a666cee3f3ea0a0fe2c80853c8926e516" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._FMotionAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>_FMotionAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="24" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a8d98b34c6783eb2eeeb25ccabee909b1" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._YMotionAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>_YMotionAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="25" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a35317b762abcc94ce65dde1fcbcbc41a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._ZMotionAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>_ZMotionAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="26" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0f76de7a7adc6a9f1f6962f00d8a9f99" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._CMotionAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>_CMotionAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="27" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1abdbe3e1a7d96d5e770982a284e0e369a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._FMotionPosShift</definition>
+        <argsstring></argsstring>
+        <name>_FMotionPosShift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="29" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1aa097e846d3e4b838975166f55c25aedb" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._YMotionPosShift</definition>
+        <argsstring></argsstring>
+        <name>_YMotionPosShift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="30" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1aaaf40da95050f903e8eea36b801efa0b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._ZMotionPosShift</definition>
+        <argsstring></argsstring>
+        <name>_ZMotionPosShift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="31" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a5e922c3ef55e912ac92c44255379c41d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._FMotionCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>_FMotionCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="33" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1adf6e6ea1de2d2161f6c237883aa5bdc5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._YMotionCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>_YMotionCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="34" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a19d40f45c43e97e4e8885955691c4c72" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._ZMotionCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>_ZMotionCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="35" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ac99d2cf606a45039fe9e0e1cc5158d54" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._CMotionCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>_CMotionCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="36" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ab428ba886af19938b3befeb01e66e2da" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._FMotionLimitL</definition>
+        <argsstring></argsstring>
+        <name>_FMotionLimitL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="42" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a4ed2aec9ea1666373eb6a07237ed4270" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._YMotionLimitL</definition>
+        <argsstring></argsstring>
+        <name>_YMotionLimitL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="43" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a37b0dca6f16e5f7bace8384bfbc5a599" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._ZMotionLimitL</definition>
+        <argsstring></argsstring>
+        <name>_ZMotionLimitL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="44" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a59a12146512b0e6f1975df2ef37eea6d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._FMotionLimitH</definition>
+        <argsstring></argsstring>
+        <name>_FMotionLimitH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="46" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a9a934951079b0b4ff4fa0fcd62a49cb5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._YMotionLimitH</definition>
+        <argsstring></argsstring>
+        <name>_YMotionLimitH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="47" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1aa9a5ca699cae7143cd01590cf01024d9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._ZMotionLimitH</definition>
+        <argsstring></argsstring>
+        <name>_ZMotionLimitH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="48" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a4413b1cad43d74820b84f840ab7ba076" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._IsGalilAlive</definition>
+        <argsstring></argsstring>
+        <name>_IsGalilAlive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="50" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a6765c94caf843c87625c245df62fa574" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._IsZStageAlive</definition>
+        <argsstring></argsstring>
+        <name>_IsZStageAlive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="51" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a6b38b50192a5797847cd6455a166113e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._CMotionCoeff</definition>
+        <argsstring></argsstring>
+        <name>_CMotionCoeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="53" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a119f4fc4f27f871e4d210401e0fa3bec" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._SelectedFilter</definition>
+        <argsstring></argsstring>
+        <name>_SelectedFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="513" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="513" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a8faf26c6a3729bce22d0ac52b04ca87d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._HomeCmd</definition>
+        <argsstring></argsstring>
+        <name>_HomeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="529" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a5b9172168d44057602b9dd6f0da7d24a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._AbsoluteMoveCmd</definition>
+        <argsstring></argsstring>
+        <name>_AbsoluteMoveCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="585" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="585" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1abfb24489c6fb8b2301435482d221307c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel._RelativeMoveCmd</definition>
+        <argsstring></argsstring>
+        <name>_RelativeMoveCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="644" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="644" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1afd871d390919ada56fa67cf15564d8b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller" kindref="compound">MotionController</ref></type>
+        <definition>MotionController Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.MotionController</definition>
+        <argsstring></argsstring>
+        <name>MotionController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="90" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="90" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a177d9f26ecc42b4195e9b1e3ff61380a" compoundref="_fluidics_view_model_8cs" startline="603" endline="629">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveCartridgeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a9120f4ffb656599fd3421db94ea9f907" compoundref="_fluidics_view_model_8cs" startline="555" endline="581">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveFlowChipCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae927b2ea6420dfe9605c80c6fa0cdfb4" compoundref="_auto_focus_view_model_8cs" startline="269" endline="296">Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStartCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1afac341cf0b488c7a8abbbce8f6166a46" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.IsGalilAlive</definition>
+        <argsstring></argsstring>
+        <name>IsGalilAlive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="91" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0f1afff8d9a2072c2aaae68169305c6d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.IsZStageAlive</definition>
+        <argsstring></argsstring>
+        <name>IsZStageAlive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="103" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="104" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a3eba5e92998afc06fd73ba9ef8ddb38b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.FMotionSpeed</definition>
+        <argsstring></argsstring>
+        <name>FMotionSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="115" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a09e17bb7523981bf7184e393b88381b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.YMotionSpeed</definition>
+        <argsstring></argsstring>
+        <name>YMotionSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="134" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a171b35fe89f9ed9da60cab11a805f13a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ZMotionSpeed</definition>
+        <argsstring></argsstring>
+        <name>ZMotionSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="153" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1af7bd7e393cf4c005913c0688f28b5df3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.CMotionSpeed</definition>
+        <argsstring></argsstring>
+        <name>CMotionSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="172" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a46628c225122c0e64694686b7531e0d0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.FMotionAccel</definition>
+        <argsstring></argsstring>
+        <name>FMotionAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="184" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a5c1d60766efb863e2cf4aa66d40da350" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.YMotionAccel</definition>
+        <argsstring></argsstring>
+        <name>YMotionAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="203" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a1d9eac2609db0fe11a09399fa7bef415" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ZMotionAccel</definition>
+        <argsstring></argsstring>
+        <name>ZMotionAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="222" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ab5d2e84b5a61fd0be73984d9f971c02e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.CMotionAccel</definition>
+        <argsstring></argsstring>
+        <name>CMotionAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="241" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a01ee0bc07ebeb02b6f6a33843df3ecb1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.FMotionAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>FMotionAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="253" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a5c0b3d04b57ddb5579e5ba2da614c627" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.YMotionAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>YMotionAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="273" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a93b3c23e0ef1605ce4739667f7d4900f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ZMotionAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>ZMotionAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="293" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ace44fd03a4dea75ab372a214c3b292e4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.CMotionAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>CMotionAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="313" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1aef3417ee4ff1fbd50058ea39833b7c31" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.FMotionPosShift</definition>
+        <argsstring></argsstring>
+        <name>FMotionPosShift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="325" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a8b3213c48f00333ba936f8bce770a1e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.YMotionPosShift</definition>
+        <argsstring></argsstring>
+        <name>YMotionPosShift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="337" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="338" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ae297ee22bbb1b4448e74b3a117099e5e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ZMotionPosShift</definition>
+        <argsstring></argsstring>
+        <name>ZMotionPosShift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="349" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a50e300890b7bf34c534ae4d705bf7027" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.FMotionCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>FMotionCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="361" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a49fbc3ab06994e7a407746f3dcf4d5de" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.YMotionCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>YMotionCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="373" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1adf9ae2eef22309bf531a59771475ba75" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ZMotionCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>ZMotionCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="385" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="386" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1af5b24d5305854c421fbb5221549de914" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.CMotionCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>CMotionCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="397" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="398" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a9d38f3a56bb92987eb4f0a7cce6a2eb1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.FMotionLimitL</definition>
+        <argsstring></argsstring>
+        <name>FMotionLimitL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="418" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0e44473e89c8f02dfcc17311ab713e68" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.YMotionLimitL</definition>
+        <argsstring></argsstring>
+        <name>YMotionLimitL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="430" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a030d653e439b114ffbab35add1b5092d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ZMotionLimitL</definition>
+        <argsstring></argsstring>
+        <name>ZMotionLimitL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="442" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a7db25e91d157f4a178d240f5a6a565b7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.FMotionLimitH</definition>
+        <argsstring></argsstring>
+        <name>FMotionLimitH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="454" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a371a646fae6e3f39d39d53d96a7b6dc3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.YMotionLimitH</definition>
+        <argsstring></argsstring>
+        <name>YMotionLimitH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="466" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a36706593a8e1e8778cbd359db300cce8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ZMotionLimitH</definition>
+        <argsstring></argsstring>
+        <name>ZMotionLimitH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="478" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="479" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a35282536362c4cdce2f7785b77231935" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.CMotionCoeff</definition>
+        <argsstring></argsstring>
+        <name>CMotionCoeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="491" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="492" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a49e735ba10430157e73f403f223e15c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.YMotionCoeff</definition>
+        <argsstring></argsstring>
+        <name>YMotionCoeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="509" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a984488f547cd78a7d560f554687d79e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.FMotionCoeff</definition>
+        <argsstring></argsstring>
+        <name>FMotionCoeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="510" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ac2372faf80c67be188d5efff5389454c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int[]</type>
+        <definition>int [] Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.FilterOptions</definition>
+        <argsstring></argsstring>
+        <name>FilterOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="512" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a54a23ad931a1b00daed3593118abf5be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.SelectedFilter</definition>
+        <argsstring></argsstring>
+        <name>SelectedFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="514" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="515" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a986850fa57d70321d1e6a7fc58444c74" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.HomeCmd</definition>
+        <argsstring></argsstring>
+        <name>HomeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="530" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ab65875261c2bae03cc5f0f87f575509d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.AbsoluteMoveCmd</definition>
+        <argsstring></argsstring>
+        <name>AbsoluteMoveCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="586" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1acd6884d81dbfb23edff5fbd25885d8c6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.RelativeMoveCmd</definition>
+        <argsstring></argsstring>
+        <name>RelativeMoveCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="645" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="646" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ac5902117ec1c8f0855117590fcef73d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.MotionViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>MotionViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="57" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="57" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a025d3b089fc7afbe0166c4d5fa12aa41" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.MotionController_OnRecordsUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>MotionController_OnRecordsUpdated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="65" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="65" bodyend="86"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" compoundref="_settings_manager_8cs" startline="15">Sequlite.ALF.Configuration.SettingsManager.ConfigSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1aa2505d0b9f9e36e40c7110bbd7b9af57" compoundref="_config_settings_8cs" startline="36">Sequlite.ALF.Configuration.ConfigSettings.FilterPositions</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ac7c95d7d11940577afe5068e2e37df9c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteHomeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteHomeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="542" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="542" bodyend="576"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aa1e314c6ee17be10a986d17a37f0e124" compoundref="_motion_controller_8cs" startline="179" endline="243">Sequlite.ALF.MotionControl.MotionController.HomeMotion</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a1a855b4c005c62bacefb05b2ef958764" compoundref="_motion_controller_8cs" startline="251" endline="267">Sequlite.ALF.MotionControl.MotionController.HomeZstage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1aa085a84d46a4842927ede0a8825e4b26" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.CanExecuteHomeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteHomeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="578" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="578" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a3cdcf2ea8f5e48bc1c0c42024514d16a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteAbsoluteMoveCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteAbsoluteMoveCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="598" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="598" bodyend="635"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a9c0cdd585f4fe851e15aaff49e6545a5" compoundref="_motion_controller_8cs" startline="269" endline="341">Sequlite.ALF.MotionControl.MotionController.AbsoluteMove</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a08b54f5c7b4424306ffff39dbf88f026" compoundref="_motion_controller_8cs" startline="350" endline="375">Sequlite.ALF.MotionControl.MotionController.AbsoluteMoveZStage</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" compoundref="_settings_manager_8cs" startline="15">Sequlite.ALF.Configuration.SettingsManager.ConfigSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1aa2505d0b9f9e36e40c7110bbd7b9af57" compoundref="_config_settings_8cs" startline="36">Sequlite.ALF.Configuration.ConfigSettings.FilterPositions</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a91a9c64f27a1ce4b74cfeaa3990f436c" compoundref="_config_settings_8cs" startline="16">Sequlite.ALF.Configuration.ConfigSettings.MotionFactorSettings</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a81de26f9dbf9c8976fa0810799ec6b87" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.CanExecuteAbsoluteMoveCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteAbsoluteMoveCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="637" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="637" bodyend="640"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0d6d22e92e1ed7380422ae49d07ce300" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteRelativeMoveCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteRelativeMoveCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="657" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="657" bodyend="796"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" compoundref="_settings_manager_8cs" startline="15">Sequlite.ALF.Configuration.SettingsManager.ConfigSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a91a9c64f27a1ce4b74cfeaa3990f436c" compoundref="_config_settings_8cs" startline="16">Sequlite.ALF.Configuration.ConfigSettings.MotionFactorSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1acf717a1936e0a8c8113ed28d9c4bccbe" compoundref="_motion_controller_8cs" startline="84">Sequlite.ALF.MotionControl.MotionController.UsingHywireController</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a411081751c561c78982168fcb9afb1b1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.CanExecuteRelativeMoveCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteRelativeMoveCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="798" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="798" bodyend="801"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="809">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="807">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model"/>
+        <childnode refid="808" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="810">
+        <label>IDisposable</label>
+      </node>
+      <node id="808">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="809" relation="public-inheritance">
+        </childnode>
+        <childnode refid="810" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="816">
+        <label>ICommand</label>
+      </node>
+      <node id="813">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="811">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model"/>
+        <childnode refid="812" relation="public-inheritance">
+        </childnode>
+        <childnode refid="815" relation="usage">
+          <edgelabel>_AbsoluteMoveCmd</edgelabel>
+          <edgelabel>_RelativeMoveCmd</edgelabel>
+          <edgelabel>_HomeCmd</edgelabel>
+        </childnode>
+      </node>
+      <node id="814">
+        <label>IDisposable</label>
+      </node>
+      <node id="812">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="813" relation="public-inheritance">
+        </childnode>
+        <childnode refid="814" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="815">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="816" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" line="12" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/MotionViewModel.cs" bodystart="11" bodyend="803"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a5b9172168d44057602b9dd6f0da7d24a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_AbsoluteMoveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0f76de7a7adc6a9f1f6962f00d8a9f99" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_CMotionAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a331383e2259f69e88faea61d2f7cdb58" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_CMotionAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a6b38b50192a5797847cd6455a166113e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_CMotionCoeff</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ac99d2cf606a45039fe9e0e1cc5158d54" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_CMotionCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1af6306a5d2098246b87ddaaa485b5a171" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_CMotionSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a666cee3f3ea0a0fe2c80853c8926e516" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_FMotionAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ae8a9b394c25136782c4117b07f985a2e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_FMotionAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a5e922c3ef55e912ac92c44255379c41d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_FMotionCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a59a12146512b0e6f1975df2ef37eea6d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_FMotionLimitH</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ab428ba886af19938b3befeb01e66e2da" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_FMotionLimitL</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1abdbe3e1a7d96d5e770982a284e0e369a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_FMotionPosShift</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a130bf7862a8f0d204a1b449b3ef80087" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_FMotionSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a8faf26c6a3729bce22d0ac52b04ca87d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_HomeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a4413b1cad43d74820b84f840ab7ba076" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_IsGalilAlive</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a6765c94caf843c87625c245df62fa574" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_IsZStageAlive</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1abfb24489c6fb8b2301435482d221307c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_RelativeMoveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a119f4fc4f27f871e4d210401e0fa3bec" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_SelectedFilter</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a8d98b34c6783eb2eeeb25ccabee909b1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_YMotionAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a2efd68791f821b08ece96d234974a846" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_YMotionAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1adf6e6ea1de2d2161f6c237883aa5bdc5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_YMotionCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a9a934951079b0b4ff4fa0fcd62a49cb5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_YMotionLimitH</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a4ed2aec9ea1666373eb6a07237ed4270" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_YMotionLimitL</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1aa097e846d3e4b838975166f55c25aedb" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_YMotionPosShift</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a89ae50fdc619addc6195646daba006a3" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_YMotionSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a35317b762abcc94ce65dde1fcbcbc41a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_ZMotionAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ae81665a6b1af3f75ffb009f27e747764" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_ZMotionAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a19d40f45c43e97e4e8885955691c4c72" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_ZMotionCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1aa9a5ca699cae7143cd01590cf01024d9" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_ZMotionLimitH</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a37b0dca6f16e5f7bace8384bfbc5a599" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_ZMotionLimitL</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1aaaf40da95050f903e8eea36b801efa0b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_ZMotionPosShift</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ae97a02425aeb7d4a77fbb5f2f40e88ac" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>_ZMotionSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ab65875261c2bae03cc5f0f87f575509d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>AbsoluteMoveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a81de26f9dbf9c8976fa0810799ec6b87" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>CanExecuteAbsoluteMoveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1aa085a84d46a4842927ede0a8825e4b26" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>CanExecuteHomeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a411081751c561c78982168fcb9afb1b1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>CanExecuteRelativeMoveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ace44fd03a4dea75ab372a214c3b292e4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>CMotionAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ab5d2e84b5a61fd0be73984d9f971c02e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>CMotionAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a35282536362c4cdce2f7785b77231935" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>CMotionCoeff</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1af5b24d5305854c421fbb5221549de914" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>CMotionCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1af7bd7e393cf4c005913c0688f28b5df3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>CMotionSpeed</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a3cdcf2ea8f5e48bc1c0c42024514d16a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>ExecuteAbsoluteMoveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ac7c95d7d11940577afe5068e2e37df9c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>ExecuteHomeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0d6d22e92e1ed7380422ae49d07ce300" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>ExecuteRelativeMoveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ac2372faf80c67be188d5efff5389454c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>FilterOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a01ee0bc07ebeb02b6f6a33843df3ecb1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>FMotionAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a46628c225122c0e64694686b7531e0d0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>FMotionAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a984488f547cd78a7d560f554687d79e3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>FMotionCoeff</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a50e300890b7bf34c534ae4d705bf7027" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>FMotionCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a7db25e91d157f4a178d240f5a6a565b7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>FMotionLimitH</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a9d38f3a56bb92987eb4f0a7cce6a2eb1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>FMotionLimitL</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1aef3417ee4ff1fbd50058ea39833b7c31" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>FMotionPosShift</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a3eba5e92998afc06fd73ba9ef8ddb38b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>FMotionSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a986850fa57d70321d1e6a7fc58444c74" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>HomeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1afac341cf0b488c7a8abbbce8f6166a46" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>IsGalilAlive</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0f1afff8d9a2072c2aaae68169305c6d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>IsZStageAlive</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1afd871d390919ada56fa67cf15564d8b3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>MotionController</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a025d3b089fc7afbe0166c4d5fa12aa41" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>MotionController_OnRecordsUpdated</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ac5902117ec1c8f0855117590fcef73d3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>MotionViewModel</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1acd6884d81dbfb23edff5fbd25885d8c6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>RelativeMoveCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a54a23ad931a1b00daed3593118abf5be" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>SelectedFilter</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a5c0b3d04b57ddb5579e5ba2da614c627" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>YMotionAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a5c1d60766efb863e2cf4aa66d40da350" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>YMotionAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a49e735ba10430157e73f403f223e15c8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>YMotionCoeff</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a49fbc3ab06994e7a407746f3dcf4d5de" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>YMotionCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a371a646fae6e3f39d39d53d96a7b6dc3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>YMotionLimitH</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0e44473e89c8f02dfcc17311ab713e68" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>YMotionLimitL</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a8b3213c48f00333ba936f8bce770a1e2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>YMotionPosShift</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a09e17bb7523981bf7184e393b88381b2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>YMotionSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a93b3c23e0ef1605ce4739667f7d4900f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>ZMotionAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a1d9eac2609db0fe11a09399fa7bef415" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>ZMotionAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1adf9ae2eef22309bf531a59771475ba75" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>ZMotionCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a36706593a8e1e8778cbd359db300cce8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>ZMotionLimitH</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a030d653e439b114ffbab35add1b5092d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>ZMotionLimitL</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ae297ee22bbb1b4448e74b3a117099e5e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>ZMotionPosShift</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a171b35fe89f9ed9da60cab11a805f13a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</scope><name>ZMotionSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

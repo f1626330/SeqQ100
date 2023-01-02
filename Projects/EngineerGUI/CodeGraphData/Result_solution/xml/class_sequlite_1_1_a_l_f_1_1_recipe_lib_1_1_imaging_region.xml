@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::RecipeLib::ImagingRegion</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1ac51bfb886a755b17e44eb425b6a6a227" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.RecipeLib.ImagingRegion.Lane</definition>
+        <argsstring></argsstring>
+        <name>Lane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="208" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1a68f0df3fb6eb45b906ad1a8a3f677aee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.RecipeLib.ImagingRegion.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="209" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1a270feeeaa21a6fc6d1fdae58e5192355" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.RecipeLib.ImagingRegion.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="210" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1a91f66f2da63e6ea224ee2b4b00a772fd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.RecipeLib.ImagingRegion.RegionIndex</definition>
+        <argsstring></argsstring>
+        <name>RegionIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="211" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1a279fbbf882b2b5b26bd9ddf9b809fa6f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting" kindref="compound">ImagingSetting</ref> &gt;</type>
+        <definition>List&lt;ImagingSetting&gt; Sequlite.ALF.RecipeLib.ImagingRegion.Imagings</definition>
+        <argsstring></argsstring>
+        <name>Imagings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="212" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1a3ae30b4a67953576e7c094a8fd4d94ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_focus_setting" kindref="compound">FocusSetting</ref> &gt;</type>
+        <definition>List&lt;FocusSetting&gt; Sequlite.ALF.RecipeLib.ImagingRegion.ReferenceFocuses</definition>
+        <argsstring></argsstring>
+        <name>ReferenceFocuses</name>
+        <initializer>= new List&lt;<ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting" kindref="compound">ImagingSetting</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="213" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="207" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="206" bodyend="214"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1a279fbbf882b2b5b26bd9ddf9b809fa6f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingRegion</scope><name>Imagings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1ac51bfb886a755b17e44eb425b6a6a227" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingRegion</scope><name>Lane</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1a3ae30b4a67953576e7c094a8fd4d94ee" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingRegion</scope><name>ReferenceFocuses</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1a91f66f2da63e6ea224ee2b4b00a772fd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingRegion</scope><name>RegionIndex</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1a68f0df3fb6eb45b906ad1a8a3f677aee" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingRegion</scope><name>X</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region_1a270feeeaa21a6fc6d1fdae58e5192355" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingRegion</scope><name>Y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

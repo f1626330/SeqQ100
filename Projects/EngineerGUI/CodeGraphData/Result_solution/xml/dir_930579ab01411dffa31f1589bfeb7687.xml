@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_930579ab01411dffa31f1589bfeb7687" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics</compoundname>
+    <innerdir refid="dir_c4ab3ad77bcd2ad96529c84be528770a">D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/Properties</innerdir>
+    <innerfile refid="_fluidics_manager_8cs">FluidicsManager.cs</innerfile>
+    <innerfile refid="_sequlite_8_a_l_f_8_fluidics_2_global_suppressions_8cs">GlobalSuppressions.cs</innerfile>
+    <innerfile refid="_pump_controller_8cs">PumpController.cs</innerfile>
+    <innerfile refid="_pump_d_t_protocol_8cs">PumpDTProtocol.cs</innerfile>
+    <innerfile refid="_pump_o_e_m_protocol_8cs">PumpOEMProtocol.cs</innerfile>
+    <innerfile refid="_pump_protocol_8cs">PumpProtocol.cs</innerfile>
+    <innerfile refid="_run_pumping_thread_8cs">RunPumpingThread.cs</innerfile>
+    <innerfile refid="_valve_controller_8cs">ValveController.cs</innerfile>
+    <innerfile refid="_valve_solution_8cs">ValveSolution.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/"/>
+  </compounddef>
+</doxygen>

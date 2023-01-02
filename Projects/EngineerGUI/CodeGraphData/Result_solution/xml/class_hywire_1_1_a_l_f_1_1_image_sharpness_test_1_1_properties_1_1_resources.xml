@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources" kind="class" prot="package">
+    <compoundname>Hywire::ALF::ImageSharpnessTest::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources_1aa5756387adda458a3345304b35d1df4e" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Hywire.ALF.ImageSharpnessTest.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" line="28" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources_1a7aea03e040ac276e674eeca8f027c6cb" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Hywire.ALF.ImageSharpnessTest.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" line="30" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources_1aee18df3d1e4681a74d4f71918eb6ad79" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Hywire.ALF.ImageSharpnessTest.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>返回此类使用的缓存 ResourceManager 实例。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" line="41" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources_1aba0d4f6ab59505aa5da566c2fc1dbcdf" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Hywire.ALF.ImageSharpnessTest.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>覆盖当前线程的 CurrentUICulture 属性 使用此强类型的资源类的资源查找。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" line="59" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources_1a5e9eff2501bbbed592761bea8bc8a796" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.ImageSharpnessTest.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" line="33" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>强类型资源类，用于查找本地化字符串等。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1084">
+        <label>Hywire.ALF.ImageSharpnessTest.Properties.Resources</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources"/>
+        <childnode refid="1085" relation="usage">
+          <edgelabel>resourceCulture</edgelabel>
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+      <node id="1085">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" line="26" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/Properties/Resources.Designer.cs" bodystart="25" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources_1aba0d4f6ab59505aa5da566c2fc1dbcdf" prot="package" virt="non-virtual"><scope>Hywire::ALF::ImageSharpnessTest::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources_1a7aea03e040ac276e674eeca8f027c6cb" prot="private" virt="non-virtual"><scope>Hywire::ALF::ImageSharpnessTest::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources_1aa5756387adda458a3345304b35d1df4e" prot="private" virt="non-virtual"><scope>Hywire::ALF::ImageSharpnessTest::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources_1aee18df3d1e4681a74d4f71918eb6ad79" prot="package" virt="non-virtual"><scope>Hywire::ALF::ImageSharpnessTest::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_properties_1_1_resources_1a5e9eff2501bbbed592761bea8bc8a796" prot="package" virt="non-virtual"><scope>Hywire::ALF::ImageSharpnessTest::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,168 @@
+﻿<UserControl x:Class="Sequlite.UI.View.DataByCycleControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.UI.View"
+             xmlns:d3="clr-namespace:InteractiveDataDisplay.WPF;assembly=InteractiveDataDisplay.WPF"
+             xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             xmlns:app="clr-namespace:Sequlite.ALF.App;assembly=Sequlite.ALF.App"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Resources/StyleDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Style TargetType="{x:Type Label}">
+                <!--<Setter Property="Control.Foreground" Value="WhiteSmoke"/>-->
+                <Setter Property="FontSize" Value="17" />
+                <Setter Property="VerticalContentAlignment" Value="Center" />
+            </Style>
+            <Style TargetType="{x:Type TextBlock}" x:Key="textblockStyle">
+                <Setter Property="FontSize" Value="16"  />
+
+                <!--<Setter Property="Foreground" Value="Yellow" />-->
+                <Setter Property="VerticalAlignment" Value="Center" />
+            </Style>
+
+            <Style TargetType="{x:Type ComboBox}">
+
+                <Setter Property="Height" Value="25" />
+                <Setter Property="Margin" Value="5" />
+            </Style>
+        </ResourceDictionary>
+
+    </UserControl.Resources>
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition MaxWidth="100" Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <!-- combo boxes area -->
+        <Border Grid.Column="0"  Style="{StaticResource PageBorderStyle}" Visibility="{Binding EnableSelections, Converter={StaticResource boolToVisibilityVisibleConverter}}">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="38"/>
+                    <RowDefinition Height="38"/>
+                    <RowDefinition Height="38"/>
+                    <RowDefinition Height="38"/>
+                    <RowDefinition Height="38"/>
+                    <RowDefinition Height="38"/>
+                    <RowDefinition Height="38"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0"     Margin="5" Text="Data by cycle:" FontSize="14" 
+                                        Opacity="0.7" FontWeight="SemiBold" FontFamily="Calibri" 
+                                        HorizontalAlignment="Left"/>
+                <ComboBox   Grid.Row="1"  x:Name="metricCombo2" MaxWidth="90"
+                                            ItemsSource="{Binding Path=MetricsDataItemList2, Mode=OneTime}" 
+                                            SelectedValuePath="Value"
+                                            DisplayMemberPath="Description"
+                                            SelectedValue="{Binding Path=MetricsDataItem2}" />
+
+                <ComboBox   Grid.Row="2"  MaxWidth="90"
+                                            ItemsSource="{Binding Path=SurfaceDataItem2, Converter={wpfFramework:EnumToCollectionConverter}, Mode=OneTime}" 
+                                            SelectedValuePath="Value"
+                                            DisplayMemberPath="Description"
+                                            SelectedValue="{Binding Path=SurfaceDataItem2}" />
+                <ComboBox   Grid.Row="3" MaxWidth="90"
+                                            ItemsSource="{Binding Path=Lanes}" 
+                                            SelectedValuePath="Value"
+                                            DisplayMemberPath="Description"
+                                            SelectedItem="{Binding Path=SelectedLane }"/>
+
+
+                <ComboBox   Grid.Row="4"  MaxWidth="90"
+                                            Visibility="{Binding IsBaseRelatedMetric2, Converter={StaticResource boolToVisibilityVisibleConverter}, Mode=OneWay}"
+                                            ItemsSource="{Binding Path=ChannelItem2,Converter={wpfFramework:EnumToCollectionConverter}, Mode=OneTime}" 
+                                            SelectedValuePath="Value"
+                                            DisplayMemberPath="Description"
+                                            SelectedValue="{Binding Path=ChannelItem2 }"/>
+                <CheckBox  Grid.Row="5" 
+                           Content="Fit to Data" ToolTip="Display graphs using current data range" Background="White"
+                                           IsChecked="{Binding UsingDynamicRangeOnLineData}" 
+                                           VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="12" Margin="5" />
+                <CheckBox  x:Name="ShowLegend"  Grid.Row="6" Content="Show Legend" ToolTip="Display graph legends"
+                                           IsChecked="{Binding ShowLegend}" Background="White"
+                                           VerticalAlignment="Center" VerticalContentAlignment="Center" FontSize="11.8" Margin="5" />
+            </Grid>
+        </Border>
+
+        <!--Height="{Binding ActualHeight, RelativeSource={RelativeSource Self}}"-->
+        <Border x:Name="bdLine" Grid.Column="1" Style="{StaticResource PageBorderStyle}" BorderThickness="1" BorderBrush="Beige" >
+
+
+            <d3:Chart  Name="plotter" VerticalAlignment="Stretch"
+                                 PlotOriginX="{Binding XMin}" PlotWidth="{Binding XWidth}"
+                                    PlotOriginY="{Binding YMin}" PlotHeight="{Binding YHeight}" IsAutoFitEnabled="False" 
+                                       IsVerticalNavigationEnabled="False" IsHorizontalNavigationEnabled="False"
+                                       Margin="5" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"
+                                       Width="Auto" MaxHeight="{Binding MaxHeightLineCharts}"
+                       LegendVisibility="{Binding IsChecked, ElementName=ShowLegend, Converter={StaticResource boolToVisibilityHiddenConverter}}">
+                <d3:Chart.Title>
+                    <TextBlock HorizontalAlignment="Center" FontSize="14" FontWeight="SemiBold" Margin="0,1,0,5" Visibility="{Binding ShowTitle, Converter={StaticResource boolToVisibilityHiddenConverter}}" >
+                        <TextBlock.Text>
+                            <MultiBinding StringFormat="{}{0}: {1} for {2}, {3} and {4}">
+                                <Binding Path="DataTypeString" />
+                                <Binding Path="SelectedMetric" />
+                                <Binding Path="SurfaceDataItem2" Converter="{StaticResource enumToNameConverter}"/>
+                                <Binding Path="SelectedLane.Description" />
+                                <Binding Path="ChannelItem2" Converter="{StaticResource enumToNameConverter}"/>
+                            </MultiBinding>
+                        </TextBlock.Text>
+                     </TextBlock>
+                </d3:Chart.Title>
+                <d3:Chart.LeftTitle>
+                    <TextBlock HorizontalAlignment="Center" FontSize="12" Margin="4"
+                                               Text="{Binding SelectedMetric}" />
+                </d3:Chart.LeftTitle>
+                <d3:Chart.RightTitle>
+                    <TextBlock HorizontalAlignment="Center" FontSize="18" Margin="10,5,0,5" Text=" " />
+                </d3:Chart.RightTitle>
+                <d3:Chart.BottomTitle>
+                    <TextBlock HorizontalAlignment="Center" FontSize="12" Margin="4" Text="Cycle" />
+                </d3:Chart.BottomTitle>
+                <d3:Chart.LegendContent   >
+                    <d3:LegendItemsPanel >
+                        <d3:LegendItemsPanel.Resources>
+                            <DataTemplate x:Key="InteractiveDataDisplay.WPF.LineGraph">
+                                <!-- properties are from LineGraph-->
+                                <StackPanel Orientation="Horizontal" Opacity="0.5" Visibility="{Binding Path=Visibility}">
+                                    <!--<CheckBox IsChecked="{Binding Path=Visibility, Converter={StaticResource visibilityToCheckedConverter}, Mode=TwoWay}"/>-->
+                                    <Line Width="15" Height="15" X1="0" Y1="0" X2="15" Y2="15" Stroke="{Binding Path=Stroke}" StrokeThickness="2"/>
+                                    <TextBlock Margin="5,0,0,0" Text="{Binding Path=Description}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </d3:LegendItemsPanel.Resources>
+
+                    </d3:LegendItemsPanel>
+                </d3:Chart.LegendContent>
+                <Grid >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <ItemsControl ItemsSource="{Binding TheList}" >
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <Grid />
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+
+                        <ItemsControl.ItemContainerStyle>
+                            <Style TargetType="{x:Type FrameworkElement}">
+                                <Setter Property="Grid.Row" Value="0"/>
+                                <Setter Property="Grid.Column" Value="0"/>
+                            </Style>
+                        </ItemsControl.ItemContainerStyle>
+                    </ItemsControl>
+                </Grid>
+            </d3:Chart>
+
+        </Border>
+    </Grid>
+</UserControl>

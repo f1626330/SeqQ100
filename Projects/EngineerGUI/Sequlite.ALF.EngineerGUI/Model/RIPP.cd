@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="RIPP Class Design">
+    <Position X="0.5" Y="0.5" Height="0.75" Width="2.742" />
+  </Comment>
+  <Comment CommentText="RunStepProc calls ImageProcessingCMD::RunCycles for each tile">
+    <Position X="5.778" Y="4.139" Height="0.444" Width="3.964" />
+  </Comment>
+  <Comment CommentText="RunCycles runs per tile and determines when to run BuildTemplate, Extract Intensities, and Base calling">
+    <Position X="6.681" Y="5.444" Height="0.75" Width="4.006" />
+  </Comment>
+  <Class Name="Sequlite.ALF.EngineerGUI.View.RIPPTabControl">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\RIPPTabControl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.ImageProcessingCMD">
+    <Position X="10.75" Y="1.75" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.RecipeRunThread">
+    <Position X="3" Y="1.75" Width="2.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.RecipeLib.RecipeRunThread.StepRunStatusHandler">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.RecipeLib.RecipeRunThread.LoopStepUpdateHandler">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.RecipeLib.RecipeRunThread.RIPPHandler">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.CommandLib.ThreadBase" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

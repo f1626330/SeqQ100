@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_020ff34dfb8f898e04eef89b0033cb8b" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.WPF.Framework</compoundname>
+    <innerdir refid="dir_c482ee3891d31ad02d3065182be4fea8">D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters</innerdir>
+    <innerdir refid="dir_7c12aac02d4a1380345c841b4cbb9d4c">D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM</innerdir>
+    <innerdir refid="dir_fbe890eb7ee6d7ed38a17a00f64a2913">D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Properties</innerdir>
+    <innerfile refid="_app_info_8cs">AppInfo.cs</innerfile>
+    <innerfile refid="_common_application_data_8cs">CommonApplicationData.cs</innerfile>
+    <innerfile refid="_logger_8cs">Logger.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/"/>
+  </compounddef>
+</doxygen>

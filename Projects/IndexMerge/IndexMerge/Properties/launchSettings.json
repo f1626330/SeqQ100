@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "IndexMerge": {
+      "commandName": "Project",
+      "commandLineArgs": "--index True --baseWorkingDir D:\\Sequlite\\ALF\\Recipe\\Images\\Work_211001-131745 --runId 211001131745 --instrument SeqQ100 --instrumentId ALF1.0 --flowCellId 12345678900",
+      "workingDirectory": "D:\\Sequlite\\ALF\\Recipe\\Images\\Work_211001-131745"
+    }
+  }
+}

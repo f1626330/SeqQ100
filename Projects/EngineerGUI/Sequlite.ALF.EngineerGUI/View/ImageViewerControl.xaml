@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="Sequlite.ALF.EngineerGUI.View.ImageViewerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.ALF.EngineerGUI.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0">
+            <ScrollViewer x:Name="_ScrollViewer"
+                          HorizontalAlignment="Stretch"
+                          VerticalAlignment="Stretch"
+                          VerticalScrollBarVisibility="Disabled">
+                <Canvas x:Name="_DisplayCanvas" Background="#FF091B24"
+                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsManipulationEnabled="False">
+                    <Canvas.RenderTransform>
+                        <MatrixTransform/>
+                    </Canvas.RenderTransform>
+                    <Image x:Name="_DisplayImage"
+                            Source="{Binding Path=DisplayImage, NotifyOnTargetUpdated=True, UpdateSourceTrigger=PropertyChanged}"
+                            Width="{Binding ElementName=_DisplayCanvas, Path=ActualWidth}"
+                            Height="{Binding ElementName=_DisplayCanvas, Path=ActualHeight}"
+                            Canvas.Left="0"
+                            Canvas.Top="0"
+                            OpacityMask="{x:Null}"
+                            HorizontalAlignment="Stretch"
+                            VerticalAlignment="Stretch"
+                            MouseMove="_DisplayImage_MouseMove"
+                            MouseLeftButtonUp="_DisplayImage_MouseLeftButtonUp"
+                            MouseLeftButtonDown="_DisplayImage_MouseLeftButtonDown"
+                            MouseWheel="_DisplayImage_MouseWheel"
+                            SizeChanged="_DisplayImage_SizeChanged"
+                            Stretch="Uniform"
+                            RenderOptions.BitmapScalingMode="HighQuality">
+                        <Image.RenderTransform>
+                            <MatrixTransform></MatrixTransform>
+                        </Image.RenderTransform>
+                    </Image>
+                </Canvas>
+            </ScrollViewer>
+        </Border>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Left">
+            <TextBlock Text="X:" Margin="5,0"/>
+            <TextBlock Text="{Binding Path=PixelX}" MinWidth="48"/>
+            <TextBlock Text="Y:" Margin="5,0"/>
+            <TextBlock Text="{Binding Path=PixelY}" MinWidth="48"/>
+            <TextBlock Text="Intensity:" Margin="5,0"/>
+            <TextBlock Text="{Binding Path=PixelIntensity}" MinWidth="60"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

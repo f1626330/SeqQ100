@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Hardware / Software Interface">
+    <Position X="0.5" Y="0.5" Height="0.75" Width="15.584" />
+  </Comment>
+  <Class Name="Sequlite.ALF.Common.AutoFocusSettings">
+    <Position X="9.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Common.BinningFactorType">
+    <Position X="7.5" Y="17.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Common.GainType">
+    <Position X="5.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Common.ReadoutType">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Common.CameraSettings">
+    <Position X="5.75" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Common.FluidicsSettings">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Common.MotionSettings">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Common.MotionRanges">
+    <Position X="4" Y="20.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Common.SettingRange">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Configuration.ConfigSettings">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Configuration.ChemistrySettings">
+    <Position X="9.5" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Configuration.SettingsManager">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.FluidicsManager">
+    <Position X="4" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.PumpController">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.Fluidics.PumpController.UpdateStatusHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.PumpMode">
+    <Position X="2.25" Y="12" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.PumpDTProtocol">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.PumpOEMProtocol">
+    <Position X="7.5" Y="15" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.PumpProtocol">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Sequlite.ALF.Fluidics.PumpProtocol.BaudrateOptions" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Sequlite.ALF.Fluidics.PumpProtocol.Addresses" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Sequlite.ALF.Fluidics.PumpProtocol.CommandsEnum" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Sequlite.ALF.Fluidics.PumpProtocol.ErrorCodes" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.RunPumpingThread">
+    <Position X="7.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.PumpingSettings">
+    <Position X="2.25" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.ValveController">
+    <Position X="7.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.ValveSolution">
+    <Position X="4" Y="18.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.AutoFocusCommand">
+    <Position X="15" Y="9" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.Imaging.AutoFocusCommand.UpdateInfoHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.PvCamSensitivity">
+    <Position X="4" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.RgbLedIntensity">
+    <Position X="2.25" Y="23.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.CameraModeSetting">
+    <Position X="4" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.ChemiSetting">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.VisibleImagingSetting">
+    <Position X="15" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.LiveMode">
+    <Position X="15" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.SystemSettings">
+    <Position X="2.25" Y="16" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.CCDBadColumn">
+    <Position X="2.25" Y="14" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.DirectoryNumber">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.FileManipulator">
+    <Position X="2.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.FindQCFromImage">
+    <Position X="7.5" Y="20" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.ImageCaptureCommand">
+    <Position X="11.5" Y="9" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageCaptureCommand.CommandStatusHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageCaptureCommand.CommandCompletionEstHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageCaptureCommand.BadImageCapturedHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageCaptureCommand.OnLEDFailureHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageCaptureCommand.LEDStateChangedHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.ImageChannelSettings">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.ImageChannel" BaseTypeListCollapsed="true">
+    <Position X="15" Y="18" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.ImageInfo" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.ImageLiveCommand">
+    <Position X="9.5" Y="9" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageLiveCommand.ImageReceivedHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageLiveCommand.LEDStateChangedHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageLiveCommand.CaptureLiveHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageLiveCommand.BadImageCapturedHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.ImageProcessingCMD">
+    <Position X="13.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.SharpnessEvaluation">
+    <Position X="2.25" Y="22" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.MainBoard.Mainboard">
+    <Position X="4.25" Y="29" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.MainBoard.Mainboard.EventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.MainBoard.Mainboard.OnLEDStatusChangedHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.MainBoard.MBProtocol">
+    <Position X="2.25" Y="18.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Sequlite.ALF.MainBoard.MBProtocol.Addesses" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Sequlite.ALF.MainBoard.MBProtocol.Functions" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Sequlite.ALF.MainBoard.MBProtocol.Registers" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Sequlite.ALF.MainBoard.MBProtocol.FrameBorder" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Enum Name="Sequlite.ALF.MainBoard.MBProtocol.SettingResults" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+      <Class Name="Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.MainBoard.OnOffInputsType">
+    <Position X="5.75" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.MotionControl.GalilControl">
+    <Position X="4" Y="23" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.MotionControl.MagellanControl">
+    <Position X="11.5" Y="14" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.ALF.MotionControl.MotionController">
+    <Position X="6" Y="29" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.MotionControl.MotionController.RecordsUpdateHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.Recipe">
+    <Position X="7.5" Y="23" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.RecipeRunThread">
+    <Position X="13.25" Y="9" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.RecipeLib.RecipeRunThread.StepRunStatusHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.RecipeLib.RecipeRunThread.LoopStepUpdateHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.RecipeLib.RecipeRunThread.RIPPHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.RecipeStepBase">
+    <Position X="9.5" Y="23.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.SetTemperStep">
+    <Position X="2.25" Y="26.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.StopTemperStep">
+    <Position X="5.75" Y="26.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.PumpingStep">
+    <Position X="16.25" Y="26.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.ImagingStep">
+    <Position X="11" Y="26.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.ImagingRegion">
+    <Position X="5.75" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.ImagingSetting">
+    <Position X="9.75" Y="19.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.FocusSetting">
+    <Position X="4" Y="16.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.MoveStageStep">
+    <Position X="12.75" Y="26.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.LoopStep">
+    <Position X="4" Y="26.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.RunRecipeStep">
+    <Position X="7.5" Y="26.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.WaitingStep">
+    <Position X="9.25" Y="26.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.CommentStep">
+    <Position X="14.5" Y="26.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings">
+    <Position X="2.25" Y="29" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.CameraLib.CameraLibBase">
+    <Position X="7.75" Y="29" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.CameraLib.CameraLibBase.CameraNotifHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.CameraLib.CameraLibBase.ExposureChangedHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.CommandLib.BaseCommand" Collapsed="true">
+    <Position X="13.5" Y="31.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.CommandLib.CommandMediator">
+    <Position X="9.75" Y="29" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.CommandLib.ExecutionState">
+    <Position X="6" Y="36.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Sequlite.CommandLib.ExecutionState.ExecutionStatus" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.CommandLib.ParallelCommand">
+    <Position X="13.5" Y="33" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.CommandLib.SerialCommand">
+    <Position X="13.5" Y="29" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.CommandLib.ThreadBase">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.CommandLib.ThreadBase.CommandCompletedHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Enum Name="Sequlite.CommandLib.ThreadBase.ThreadExitStat" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Sequlite.CommandLib.ILogger">
+    <Position X="0.5" Y="40.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="Sequlite.ALF.Common.LEDTypes">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.Common.MotionTypes">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.Fluidics.ModeOptions">
+    <Position X="0.5" Y="9" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.Fluidics.PathOptions">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.Fluidics.ValveStatusTypes">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.Imaging.ChemiSampleType">
+    <Position X="0.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.Imaging.SensitivityType">
+    <Position X="0.5" Y="17" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.Imaging.ChemiModeType">
+    <Position X="0.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.Imaging.ExposureType">
+    <Position X="0.5" Y="19" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.Imaging.ChannelType">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.Imaging.ImageChannelType">
+    <Position X="0.5" Y="27" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.MotionControl.GalilCommandSet">
+    <Position X="0.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.RecipeLib.RecipeStepTypes">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.RecipeLib.ImagingChannels">
+    <Position X="0.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.RecipeLib.FilterTypes">
+    <Position X="0.5" Y="29" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.CameraLib.CaptureFrameType">
+    <Position X="0.5" Y="32.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.CameraLib.CameraMake">
+    <Position X="0.5" Y="31" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.CommandLib.CommandMediatorState">
+    <Position X="0.5" Y="39" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Delegate Name="Sequlite.CommandLib.CommandCompletedHandler">
+    <Position X="0.5" Y="33.75" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="Sequlite.CommandLib.ExceptionDelegate">
+    <Position X="0.5" Y="36.25" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="Sequlite.CommandLib.StateChangedDelegate">
+    <Position X="0.5" Y="37.5" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Delegate Name="Sequlite.CommandLib.StatusUpdateDelegate">
+    <Position X="0.5" Y="35" Width="1.5" />
+    <TypeIdentifier />
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

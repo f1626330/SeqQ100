@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a8c36fe1f85c422b9e92490c78707e457" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" line="14" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" bodystart="14" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a66df1ddee4bbb200757aae4083bc7e6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.MainWindow.Window_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Window_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" line="24" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a5260554ddc40c1dc9f8abfffa994142c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.MainWindow.Window_Closing</definition>
+        <argsstring>(object sender, System.ComponentModel.CancelEventArgs e)</argsstring>
+        <name>Window_Closing</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.ComponentModel.CancelEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" line="31" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" bodystart="31" bodyend="61"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a6f39ff53e2fa9e2c0ab4a924d59b71b6" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="98">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.CameraVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_image_gallery_view_model_1a42325f6139f9fae9012ee6316376f34f" compoundref="_image_gallery_view_model_8cs" startline="21">Sequlite.ALF.EngineerGUI.ViewModel.ImageGalleryViewModel.Files</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a6c9569fd9b680859e31b25518da02d4f" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="102">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.ImageGalleryVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a30380bed5aab20a48909da6828cc90d9" compoundref="_camera_view_model_8cs" startline="80">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.IsConnected</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab19fa62fd1881c7f2edb044097d7d23b" compoundref="_main_board_view_model_8cs" startline="155">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.MainBoard</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af637674b4bc00a0ba294a8a16710a510" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="101">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MainBoardVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1aeeab59321e371ca72ac912ed0ea92061" compoundref="_camera_view_model_8cs" startline="248">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.WorkingStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a3c51aa75947e86c1e1c2f739b946e707" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.MainWindow.Window_Closed</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Window_Closed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" line="63" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1afb4659d02f45298fb8d03f4c4380bbf9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.MainWindow.ImageQCTabControl_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ImageQCTabControl_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" line="68" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MainWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="703">
+        <label>Window</label>
+      </node>
+      <node id="702">
+        <label>Sequlite.ALF.EngineerGUI.MainWindow</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window"/>
+        <childnode refid="703" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="705">
+        <label>Window</label>
+      </node>
+      <node id="704">
+        <label>Sequlite.ALF.EngineerGUI.MainWindow</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window"/>
+        <childnode refid="705" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" line="13" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/MainWindow.xaml.cs" bodystart="12" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1afb4659d02f45298fb8d03f4c4380bbf9" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::MainWindow</scope><name>ImageQCTabControl_Loaded</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a8c36fe1f85c422b9e92490c78707e457" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a3c51aa75947e86c1e1c2f739b946e707" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::MainWindow</scope><name>Window_Closed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a5260554ddc40c1dc9f8abfffa994142c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::MainWindow</scope><name>Window_Closing</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a66df1ddee4bbb200757aae4083bc7e6f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::MainWindow</scope><name>Window_Loaded</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_despeckle_filter" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::DespeckleFilter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_despeckle_filter_1a303e972377640d000ae2078fc2ee29cf" prot="private" static="no" mutable="no">
+        <type>Size</type>
+        <definition>Size Sequlite.Image.Processing.DespeckleFilter._KernelSize</definition>
+        <argsstring></argsstring>
+        <name>_KernelSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/DespecklerFilter.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/DespecklerFilter.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_despeckle_filter_1a27ccac23d4de002d0e9410ea86debf20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.DespeckleFilter.DespeckleFilter</definition>
+        <argsstring>(Size kernelSize)</argsstring>
+        <name>DespeckleFilter</name>
+        <param>
+          <type>Size</type>
+          <declname>kernelSize</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/DespecklerFilter.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/DespecklerFilter.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_despeckle_filter_1a9037515a23bc0f9072298e580a05cdb4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>WriteableBitmap</type>
+        <definition>WriteableBitmap Sequlite.Image.Processing.DespeckleFilter.Execute</definition>
+        <argsstring>(WriteableBitmap sourceImage)</argsstring>
+        <name>Execute</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>sourceImage</declname>
+        </param>
+        <briefdescription>
+<para>Execute filter. The filter creates a copy of the source image and filters this copy. The source image is not changed by this method call. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceImage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The filtered image</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/DespecklerFilter.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/DespecklerFilter.cs" bodystart="34" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_despeckle_filter_1a7728a792be7be07fad5598bce37fe546" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>unsafe WriteableBitmap Sequlite.Image.Processing.DespeckleFilter.Process16BitChannel</definition>
+        <argsstring>(WriteableBitmap srcImage)</argsstring>
+        <name>Process16BitChannel</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <briefdescription>
+<para>Process an 16-bit image. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceImage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coeffs</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The filtered image.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/DespecklerFilter.cs" line="71" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/DespecklerFilter.cs" bodystart="71" bodyend="203"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Non-linear despeckle smoothing filter. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/DespecklerFilter.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/DespecklerFilter.cs" bodystart="11" bodyend="205"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_despeckle_filter_1a303e972377640d000ae2078fc2ee29cf" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::DespeckleFilter</scope><name>_KernelSize</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_despeckle_filter_1a27ccac23d4de002d0e9410ea86debf20" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::DespeckleFilter</scope><name>DespeckleFilter</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_despeckle_filter_1a9037515a23bc0f9072298e580a05cdb4" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::DespeckleFilter</scope><name>Execute</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_despeckle_filter_1a7728a792be7be07fad5598bce37fe546" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::DespeckleFilter</scope><name>Process16BitChannel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

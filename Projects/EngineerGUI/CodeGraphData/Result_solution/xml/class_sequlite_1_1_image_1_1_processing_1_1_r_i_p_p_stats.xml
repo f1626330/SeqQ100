@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::RIPPStats</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a1df59f5121433d6783917d7ecc847b16" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; string, <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter" kindref="compound">RunTimeParameter</ref> &gt;</type>
+        <definition>Dictionary&lt;string, RunTimeParameter&gt; Sequlite.Image.Processing.RIPPStats.RTparams</definition>
+        <argsstring></argsstring>
+        <name>RTparams</name>
+        <initializer>= new Dictionary&lt;string, <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter" kindref="compound">RunTimeParameter</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" line="95" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a6a59aedb5f9f93164ab103f47a160508" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.RIPPStats.RIPPStats</definition>
+        <argsstring>(string directory)</argsstring>
+        <name>RIPPStats</name>
+        <param>
+          <type>string</type>
+          <declname>directory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1ac71c445112d3b3c31253b1c6c1a1de26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Sequlite.Image.Processing.RIPPStats.AvailableTiles</definition>
+        <argsstring>()</argsstring>
+        <name>AvailableTiles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" line="52" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a7af4b9c2d2ed4f6350b91e9c0b8b739d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; int, float &gt;</type>
+        <definition>Dictionary&lt;int, float&gt; Sequlite.Image.Processing.RIPPStats.GetByCycle</definition>
+        <argsstring>(int tile, int clr, string v)</argsstring>
+        <name>GetByCycle</name>
+        <param>
+          <type>int</type>
+          <declname>tile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>clr</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" line="87" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" bodystart="87" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a3378584a06e1a12d37874e7b403e07fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; String &gt;</type>
+        <definition>List&lt;String&gt; Sequlite.Image.Processing.RIPPStats.AvailableParams</definition>
+        <argsstring>()</argsstring>
+        <name>AvailableParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" line="115" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" bodystart="115" bodyend="121"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a364c85d5e7baad26cce2837c89687a77" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.RIPPStats.ReadStatsFiles</definition>
+        <argsstring>(DirectoryInfo directoryInfo)</argsstring>
+        <name>ReadStatsFiles</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>directoryInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" bodystart="17" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a3e1275167de6d1d8910bc18e6b55ccf4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.RIPPStats.ReadQCFiles</definition>
+        <argsstring>(DirectoryInfo directory)</argsstring>
+        <name>ReadQCFiles</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>directory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" bodystart="57" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1ac0a29755283ef695b1be7e0157f83b51" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.RIPPStats.Add</definition>
+        <argsstring>(int tile, int cycle, int color, string header, string values)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>int</type>
+          <declname>tile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cycle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>header</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" line="96" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" bodystart="96" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RIPPStats.cs" bodystart="9" bodyend="122"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1ac0a29755283ef695b1be7e0157f83b51" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::RIPPStats</scope><name>Add</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a3378584a06e1a12d37874e7b403e07fe" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RIPPStats</scope><name>AvailableParams</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1ac71c445112d3b3c31253b1c6c1a1de26" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RIPPStats</scope><name>AvailableTiles</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a7af4b9c2d2ed4f6350b91e9c0b8b739d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RIPPStats</scope><name>GetByCycle</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a3e1275167de6d1d8910bc18e6b55ccf4" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::RIPPStats</scope><name>ReadQCFiles</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a364c85d5e7baad26cce2837c89687a77" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::RIPPStats</scope><name>ReadStatsFiles</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a6a59aedb5f9f93164ab103f47a160508" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RIPPStats</scope><name>RIPPStats</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats_1a1df59f5121433d6783917d7ecc847b16" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::RIPPStats</scope><name>RTparams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

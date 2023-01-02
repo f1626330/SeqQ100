@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_adorners_1_1_my_line_adorner" kind="class" prot="public">
+    <compoundname>Sequlite::Adorners::MyLineAdorner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Adorner</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a20e15a83e1078ca2ab815d96eb982c0a" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double Sequlite.Adorners.MyLineAdorner.THUMB_SIZE</definition>
+        <argsstring></argsstring>
+        <name>THUMB_SIZE</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1006" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1006" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a04d4aeb89843b2427e0e229dc272df46" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double Sequlite.Adorners.MyLineAdorner.MINIMAL_SIZE</definition>
+        <argsstring></argsstring>
+        <name>MINIMAL_SIZE</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1007" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1007" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a8becb13322a6e51155b32e6698685add" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double Sequlite.Adorners.MyLineAdorner.MOVE_OFFSET</definition>
+        <argsstring></argsstring>
+        <name>MOVE_OFFSET</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1008" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1008" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1ae6f6a5ab2eba3e7a7e9eb6a1ddc6563d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Adorners.MyLineAdorner.dWidth</definition>
+        <argsstring></argsstring>
+        <name>dWidth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1009" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1009" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a5ec749ad13b2c3e3a6d36ad540abbf4e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Adorners.MyLineAdorner.dHeight</definition>
+        <argsstring></argsstring>
+        <name>dHeight</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1010" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1aa4e6e3be0ed6996062d428e8c8e64be9" prot="private" static="no" mutable="no">
+        <type>Thumb</type>
+        <definition>Thumb Sequlite.Adorners.MyLineAdorner.l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1011" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1ae36471c91be99f2672aaa27ec00b5b7b" prot="private" static="no" mutable="no">
+        <type>Thumb</type>
+        <definition>Thumb Sequlite.Adorners.MyLineAdorner.r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1011" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a0020424c1cdba4c7b519c31e3508f979" prot="private" static="no" mutable="no">
+        <type>Thumb</type>
+        <definition>Thumb Sequlite.Adorners.MyLineAdorner.mov</definition>
+        <argsstring></argsstring>
+        <name>mov</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1012" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1012" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1ad5818f38056e1ee1665f8e1be9f63e71" prot="private" static="no" mutable="no">
+        <type>VisualCollection</type>
+        <definition>VisualCollection Sequlite.Adorners.MyLineAdorner.visCollec</definition>
+        <argsstring></argsstring>
+        <name>visCollec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1013" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1013" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a632de09d67a31bd3967418ceb4e01436" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int Sequlite.Adorners.MyLineAdorner.VisualChildrenCount</definition>
+        <argsstring></argsstring>
+        <name>VisualChildrenCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1164" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a6a1321e1021a0c34f5ced0466cb016ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Adorners.MyLineAdorner.MyLineAdorner</definition>
+        <argsstring>(UIElement adorned, double width, double height)</argsstring>
+        <name>MyLineAdorner</name>
+        <param>
+          <type>UIElement</type>
+          <declname>adorned</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1015" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1015" bodyend="1024"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a724a7d7b2c87dc42293b70c6cd305a38" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Size</type>
+        <definition>override Size Sequlite.Adorners.MyLineAdorner.ArrangeOverride</definition>
+        <argsstring>(Size finalSize)</argsstring>
+        <name>ArrangeOverride</name>
+        <param>
+          <type>Size</type>
+          <declname>finalSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1026" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1026" bodyend="1035"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1af74a08ccf5f80be22970c03d352a95f9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Visual</type>
+        <definition>override Visual Sequlite.Adorners.MyLineAdorner.GetVisualChild</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetVisualChild</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1159" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1159" bodyend="1162"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a06f252430f4eba2186c36f20322315f0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.MyLineAdorner.Resize</definition>
+        <argsstring>(FrameworkElement ff)</argsstring>
+        <name>Resize</name>
+        <param>
+          <type>FrameworkElement</type>
+          <declname>ff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1037" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1037" bodyend="1043"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a8401fc72fb76eabe955a32b8cae1e970" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Thumb</type>
+        <definition>Thumb Sequlite.Adorners.MyLineAdorner.GetMoveThumb</definition>
+        <argsstring>()</argsstring>
+        <name>GetMoveThumb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1045" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1045" bodyend="1067"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a11f5c36539db63c30f8c17ef91b3e385" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Thumb</type>
+        <definition>Thumb Sequlite.Adorners.MyLineAdorner.GetResizeThumb</definition>
+        <argsstring>(Cursor cur, HorizontalAlignment hor, VerticalAlignment ver)</argsstring>
+        <name>GetResizeThumb</name>
+        <param>
+          <type>Cursor</type>
+          <declname>cur</declname>
+        </param>
+        <param>
+          <type>HorizontalAlignment</type>
+          <declname>hor</declname>
+        </param>
+        <param>
+          <type>VerticalAlignment</type>
+          <declname>ver</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1069" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1069" bodyend="1128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a1d58c9c1fb1b6d4d7a179a625eeda22d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Brush</type>
+        <definition>Brush Sequlite.Adorners.MyLineAdorner.GetMoveEllipseBack</definition>
+        <argsstring>()</argsstring>
+        <name>GetMoveEllipseBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1130" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1130" bodyend="1138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a25a3c285d188b107f66e21a65919fa8f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FrameworkElementFactory</type>
+        <definition>FrameworkElementFactory Sequlite.Adorners.MyLineAdorner.GetFactory</definition>
+        <argsstring>(Brush back)</argsstring>
+        <name>GetFactory</name>
+        <param>
+          <type>Brush</type>
+          <declname>back</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1140" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1140" bodyend="1148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a5ee2f8aba30651526cc0c897d4ecf708" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FrameworkElementFactory</type>
+        <definition>FrameworkElementFactory Sequlite.Adorners.MyLineAdorner.GetFactoryMov</definition>
+        <argsstring>(Brush back)</argsstring>
+        <name>GetFactoryMov</name>
+        <param>
+          <type>Brush</type>
+          <declname>back</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1149" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1149" bodyend="1157"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="840">
+        <label>Sequlite.Adorners.MyLineAdorner</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_my_line_adorner"/>
+        <childnode refid="841" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="841">
+        <label>Adorner</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="842">
+        <label>Sequlite.Adorners.MyLineAdorner</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_my_line_adorner"/>
+        <childnode refid="843" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="843">
+        <label>Adorner</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="1005" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" bodystart="1004" bodyend="1172"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a724a7d7b2c87dc42293b70c6cd305a38" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>ArrangeOverride</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a5ec749ad13b2c3e3a6d36ad540abbf4e" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>dHeight</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1ae6f6a5ab2eba3e7a7e9eb6a1ddc6563d" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>dWidth</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a25a3c285d188b107f66e21a65919fa8f" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>GetFactory</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a5ee2f8aba30651526cc0c897d4ecf708" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>GetFactoryMov</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a1d58c9c1fb1b6d4d7a179a625eeda22d" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>GetMoveEllipseBack</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a8401fc72fb76eabe955a32b8cae1e970" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>GetMoveThumb</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a11f5c36539db63c30f8c17ef91b3e385" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>GetResizeThumb</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1af74a08ccf5f80be22970c03d352a95f9" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>GetVisualChild</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1aa4e6e3be0ed6996062d428e8c8e64be9" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>l</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a04d4aeb89843b2427e0e229dc272df46" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>MINIMAL_SIZE</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a0020424c1cdba4c7b519c31e3508f979" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>mov</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a8becb13322a6e51155b32e6698685add" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>MOVE_OFFSET</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a6a1321e1021a0c34f5ced0466cb016ce" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>MyLineAdorner</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1ae36471c91be99f2672aaa27ec00b5b7b" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>r</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a06f252430f4eba2186c36f20322315f0" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>Resize</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a20e15a83e1078ca2ab815d96eb982c0a" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>THUMB_SIZE</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1ad5818f38056e1ee1665f8e1be9f63e71" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>visCollec</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_my_line_adorner_1a632de09d67a31bd3967418ceb4e01436" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::MyLineAdorner</scope><name>VisualChildrenCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

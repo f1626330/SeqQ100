@@ -1,0 +1,789 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::MotionControl::MotionController</compoundname>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a0b4d61eb85f4bd40df6def9d85126b2d" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a5045874ec045b94551cad7c0822d6d38" kindref="member">RecordsUpdateHandler</ref></type>
+        <definition>RecordsUpdateHandler Sequlite.ALF.MotionControl.MotionController.OnRecordsUpdated</definition>
+        <argsstring></argsstring>
+        <name>OnRecordsUpdated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aa6cfaaa034bb0e004ddd3c27667f1f51" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_hywire_galil_control" kindref="compound">HywireGalilControl</ref></type>
+        <definition>HywireGalilControl Sequlite.ALF.MotionControl.MotionController._HywireController</definition>
+        <argsstring></argsstring>
+        <name>_HywireController</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_hywire_galil_control" kindref="compound">HywireGalilControl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a7d227d48178dce91a02f54a000e3f38e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control" kindref="compound">MagellanControl</ref></type>
+        <definition>MagellanControl Sequlite.ALF.MotionControl.MotionController._MagellanController</definition>
+        <argsstring></argsstring>
+        <name>_MagellanController</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control" kindref="compound">MagellanControl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a40784fe09e0e5e7084da0debd607a0a7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController._IsGalilConnected</definition>
+        <argsstring></argsstring>
+        <name>_IsGalilConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a92bd23acadc7635f49ae349716e4b39f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController._IsMagellanConnected</definition>
+        <argsstring></argsstring>
+        <name>_IsMagellanConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1ad1dc9d19a72d4cc60ac2c43c14fb0578" prot="private" static="no" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Sequlite.ALF.MotionControl.MotionController._RecordTimer</definition>
+        <argsstring></argsstring>
+        <name>_RecordTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aa311e0648cd6bd6204a96a6ef78b117b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_hywire_1_1_motion_control_1_1_hywire_controller" kindref="compound">HywireController</ref></type>
+        <definition>HywireController Sequlite.ALF.MotionControl.MotionController._HywireMotionController</definition>
+        <argsstring></argsstring>
+        <name>_HywireMotionController</name>
+        <initializer>= new <ref refid="class_hywire_1_1_motion_control_1_1_hywire_controller" kindref="compound">HywireController</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1acf717a1936e0a8c8113ed28d9c4bccbe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.UsingHywireController</definition>
+        <argsstring></argsstring>
+        <name>UsingHywireController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="84" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="84" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0d6d22e92e1ed7380422ae49d07ce300" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="657" endline="796">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteRelativeMoveCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1abac3ef3bebd9047e1718660b61568b41" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.IsGalilConnected</definition>
+        <argsstring></argsstring>
+        <name>IsGalilConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="85" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a70d1cef61e4b1110452c81c1a6fc8dd9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.IsZStageConnected</definition>
+        <argsstring></argsstring>
+        <name>IsZStageConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="89" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aabd800b73733a4586ba1b1a49c87db18" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.MotionController.FCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>FCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="100" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a4827b7fb9f66cdb0509df9b5fb04b096" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.MotionController.YCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>YCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="101" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a91e4994963989706e3c2a1e93af500f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MotionControl.MotionController.ZCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>ZCurrentPos</name>
+        <briefdescription>
+<para>Z current position, unit of um </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="105" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1acd2c2e10b0d7e8772beec72e980d877a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.MotionController.CCurrentPos</definition>
+        <argsstring></argsstring>
+        <name>CCurrentPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="106" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a5dad34e29e5b7b19f2a626a750a05d9e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.IsFAtHome</definition>
+        <argsstring></argsstring>
+        <name>IsFAtHome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="107" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a8e1f3b3321107b8c87cb540298181341" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.IsYAtHome</definition>
+        <argsstring></argsstring>
+        <name>IsYAtHome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="108" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a013beca6245cf9748c56c044a52320e8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.IsZAtHome</definition>
+        <argsstring></argsstring>
+        <name>IsZAtHome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="109" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a5e5df776b9bb376a80b235971ceefa76" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.IsFAtLimit</definition>
+        <argsstring></argsstring>
+        <name>IsFAtLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="110" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a90388c907a2a433e938da8305a5644d8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.IsYAtLimit</definition>
+        <argsstring></argsstring>
+        <name>IsYAtLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="111" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a449799044f3311d52bc3184035d83f50" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.IsZAtLimit</definition>
+        <argsstring></argsstring>
+        <name>IsZAtLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="112" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a5045874ec045b94551cad7c0822d6d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.MotionControl.MotionController.RecordsUpdateHandler</definition>
+        <argsstring>()</argsstring>
+        <name>RecordsUpdateHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a0253c48fab92b3194f1879188109d214" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.MotionControl.MotionController.MotionController</definition>
+        <argsstring>()</argsstring>
+        <name>MotionController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="30" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="30" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a22e4e73769e2ecf27cdce45c47c0ccaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MotionControl.MotionController.ZStageConnect</definition>
+        <argsstring>()</argsstring>
+        <name>ZStageConnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="133" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="133" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1acf702527aba78eb3ef15fbc75f5c348a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MotionControl.MotionController.OtherStagesConnect</definition>
+        <argsstring>()</argsstring>
+        <name>OtherStagesConnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="142" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="142" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a9d9dd204a950ae503dd1442deda053d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.SendCommand</definition>
+        <argsstring>(string cmd)</argsstring>
+        <name>SendCommand</name>
+        <param>
+          <type>string</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="174" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aa1e314c6ee17be10a986d17a37f0e124" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.HomeMotion</definition>
+        <argsstring>(MotionTypes type, int speed, int accel, bool wait)</argsstring>
+        <name>HomeMotion</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1b" kindref="member">MotionTypes</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>accel</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="179" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="179" bodyend="243"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_galil_control_1a1fdd5527f7299db391a6be520c93b61a" compoundref="_galil_control_8cs" startline="27">Sequlite.ALF.MotionControl.GalilControl.Commands</references>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ac7c95d7d11940577afe5068e2e37df9c" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="542" endline="576">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteHomeCmd</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a1a855b4c005c62bacefb05b2ef958764" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.HomeZstage</definition>
+        <argsstring>()</argsstring>
+        <name>HomeZstage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit: um/sec</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>accel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit: um/sec^2</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>wait</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="251" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="251" bodyend="267"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1ac7c95d7d11940577afe5068e2e37df9c" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="542" endline="576">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteHomeCmd</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a9c0cdd585f4fe851e15aaff49e6545a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.AbsoluteMove</definition>
+        <argsstring>(MotionTypes type, int pos, int speed, int accel, bool wait=false)</argsstring>
+        <name>AbsoluteMove</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1b" kindref="member">MotionTypes</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>accel</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="269" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="269" bodyend="341"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_galil_control_1a1fdd5527f7299db391a6be520c93b61a" compoundref="_galil_control_8cs" startline="27">Sequlite.ALF.MotionControl.GalilControl.Commands</references>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a3cdcf2ea8f5e48bc1c0c42024514d16a" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="598" endline="635">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteAbsoluteMoveCmd</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a08b54f5c7b4424306ffff39dbf88f026" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.AbsoluteMoveZStage</definition>
+        <argsstring>(double pos, double speed, double accel, bool wait=false)</argsstring>
+        <name>AbsoluteMoveZStage</name>
+        <param>
+          <type>double</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>accel</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit: um</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit: um/sec</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>accel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit: um/sec^2</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>wait</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="350" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="350" bodyend="375"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a3cdcf2ea8f5e48bc1c0c42024514d16a" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="598" endline="635">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteAbsoluteMoveCmd</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aeaeb4cfaa66935a4f0858dbc85d358eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.RelativeMove</definition>
+        <argsstring>(MotionTypes type, int pos, int speed, int accel, bool wait=false)</argsstring>
+        <name>RelativeMove</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1b" kindref="member">MotionTypes</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>accel</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="377" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="377" bodyend="416"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_galil_control_1a1fdd5527f7299db391a6be520c93b61a" compoundref="_galil_control_8cs" startline="27">Sequlite.ALF.MotionControl.GalilControl.Commands</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a101f024315ea07f5851e084f81ebf332" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.RelativeMoveZStage</definition>
+        <argsstring>(double pos, double speed, double accel, bool wait=false)</argsstring>
+        <name>RelativeMoveZStage</name>
+        <param>
+          <type>double</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>accel</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit: um</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit: um/sec</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>accel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit: um/sec^2</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>wait</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="425" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="425" bodyend="447"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aac6cedde1ee77fcd7568540599f9d257" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.HaltAllMotions</definition>
+        <argsstring>()</argsstring>
+        <name>HaltAllMotions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="449" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="449" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a33b77afb3565fe002e721b7d47ffb4fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.HaltZStage</definition>
+        <argsstring>()</argsstring>
+        <name>HaltZStage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="480" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="480" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1adbdcba1255600287cf740a07f4e6c4f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MotionController.SelectFilter</definition>
+        <argsstring>(int filter, bool wait=false)</argsstring>
+        <name>SelectFilter</name>
+        <param>
+          <type>int</type>
+          <declname>filter</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>wait</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="492" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="492" bodyend="508"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" compoundref="_settings_manager_8cs" startline="15">Sequlite.ALF.Configuration.SettingsManager.ConfigSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1aa2505d0b9f9e36e40c7110bbd7b9af57" compoundref="_config_settings_8cs" startline="36">Sequlite.ALF.Configuration.ConfigSettings.FilterPositions</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ab40ad2109df86fa7690893c6ccc062e8" compoundref="_config_settings_8cs" startline="15">Sequlite.ALF.Configuration.ConfigSettings.MotionStartupSettings</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aa73e8b44ed2ac81fedf3afe53a133ff2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MotionControl.MotionController._RecordTimer_Elapsed</definition>
+        <argsstring>(object sender, System.Timers.ElapsedEventArgs e)</argsstring>
+        <name>_RecordTimer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Timers.ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="37" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>There are two motion controller in <ref refid="namespace_sequlite_1_1_a_l_f" kindref="compound">ALF</ref>. One is Galil controller which controls Y stage motion and Filter slider motion. The other is Magellan controller which controls Z stage motion. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="788">
+        <label>Sequlite.ALF.MotionControl.HywireGalilControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_hywire_galil_control"/>
+        <childnode refid="787" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+      </node>
+      <node id="785">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="786" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="781">
+        <label>Sequlite.ALF.MotionControl.MagellanControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control"/>
+        <childnode refid="782" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="782">
+        <label>IDisposable</label>
+      </node>
+      <node id="780">
+        <label>Sequlite.ALF.MotionControl.MotionController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller"/>
+        <childnode refid="781" relation="usage">
+          <edgelabel>_MagellanController</edgelabel>
+        </childnode>
+        <childnode refid="783" relation="usage">
+          <edgelabel>_HywireMotionController</edgelabel>
+        </childnode>
+        <childnode refid="786" relation="usage">
+          <edgelabel>_RecordTimer</edgelabel>
+        </childnode>
+        <childnode refid="788" relation="usage">
+          <edgelabel>_HywireController</edgelabel>
+        </childnode>
+      </node>
+      <node id="786">
+        <label>System</label>
+      </node>
+      <node id="783">
+        <label>Hywire.MotionControl.HywireController</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_hywire_controller"/>
+        <childnode refid="784" relation="usage">
+          <edgelabel>_Port</edgelabel>
+        </childnode>
+        <childnode refid="786" relation="usage">
+          <edgelabel>_QueryTimer</edgelabel>
+        </childnode>
+        <childnode refid="787" relation="usage">
+          <edgelabel>_MotionLock</edgelabel>
+        </childnode>
+      </node>
+      <node id="784">
+        <label>Hywire.MotionControl.ControllerComm</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_controller_comm"/>
+        <childnode refid="785" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="787">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MotionController.cs" bodystart="14" bodyend="510"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aa6cfaaa034bb0e004ddd3c27667f1f51" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>_HywireController</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aa311e0648cd6bd6204a96a6ef78b117b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>_HywireMotionController</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a40784fe09e0e5e7084da0debd607a0a7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>_IsGalilConnected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a92bd23acadc7635f49ae349716e4b39f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>_IsMagellanConnected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a7d227d48178dce91a02f54a000e3f38e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>_MagellanController</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1ad1dc9d19a72d4cc60ac2c43c14fb0578" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>_RecordTimer</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aa73e8b44ed2ac81fedf3afe53a133ff2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>_RecordTimer_Elapsed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a9c0cdd585f4fe851e15aaff49e6545a5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>AbsoluteMove</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a08b54f5c7b4424306ffff39dbf88f026" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>AbsoluteMoveZStage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1acd2c2e10b0d7e8772beec72e980d877a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>CCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aabd800b73733a4586ba1b1a49c87db18" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>FCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aac6cedde1ee77fcd7568540599f9d257" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>HaltAllMotions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a33b77afb3565fe002e721b7d47ffb4fb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>HaltZStage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aa1e314c6ee17be10a986d17a37f0e124" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>HomeMotion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a1a855b4c005c62bacefb05b2ef958764" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>HomeZstage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a5dad34e29e5b7b19f2a626a750a05d9e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>IsFAtHome</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a5e5df776b9bb376a80b235971ceefa76" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>IsFAtLimit</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1abac3ef3bebd9047e1718660b61568b41" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>IsGalilConnected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a8e1f3b3321107b8c87cb540298181341" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>IsYAtHome</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a90388c907a2a433e938da8305a5644d8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>IsYAtLimit</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a013beca6245cf9748c56c044a52320e8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>IsZAtHome</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a449799044f3311d52bc3184035d83f50" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>IsZAtLimit</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a70d1cef61e4b1110452c81c1a6fc8dd9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>IsZStageConnected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a0253c48fab92b3194f1879188109d214" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>MotionController</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a0b4d61eb85f4bd40df6def9d85126b2d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>OnRecordsUpdated</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1acf702527aba78eb3ef15fbc75f5c348a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>OtherStagesConnect</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a5045874ec045b94551cad7c0822d6d38" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>RecordsUpdateHandler</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aeaeb4cfaa66935a4f0858dbc85d358eb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>RelativeMove</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a101f024315ea07f5851e084f81ebf332" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>RelativeMoveZStage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1adbdcba1255600287cf740a07f4e6c4f1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>SelectFilter</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a9d9dd204a950ae503dd1442deda053d7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>SendCommand</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1acf717a1936e0a8c8113ed28d9c4bccbe" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>UsingHywireController</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a4827b7fb9f66cdb0509df9b5fb04b096" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>YCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a91e4994963989706e3c2a1e93af500f6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>ZCurrentPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a22e4e73769e2ecf27cdce45c47c0ccaa" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MotionController</scope><name>ZStageConnect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

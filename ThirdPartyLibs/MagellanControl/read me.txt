@@ -1,0 +1,2 @@
+===== C# referencing =====
+references "PMDLibrary.dll", and always copy the "C-Motion.dll" to the executable directory;

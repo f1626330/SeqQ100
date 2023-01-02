@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# CS0168: Variable is declared but never used
+dotnet_diagnostic.CS0168.severity = silent
+
+# IDE0059: Unnecessary assignment of a value
+csharp_style_unused_value_assignment_preference = discard_variable:silent
+
+# IDE0051: Remove unused private members
+dotnet_diagnostic.IDE0051.severity = silent

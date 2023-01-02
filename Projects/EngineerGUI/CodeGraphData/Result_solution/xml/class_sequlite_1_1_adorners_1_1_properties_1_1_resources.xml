@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_adorners_1_1_properties_1_1_resources" kind="class" prot="package">
+    <compoundname>Sequlite::Adorners::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_properties_1_1_resources_1a5bcab6942fe3fb9ece789e172cb423e1" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Sequlite.Adorners.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_properties_1_1_resources_1aa4894ac22eb08953f73dd84120a6ab2e" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Sequlite.Adorners.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_properties_1_1_resources_1aaee54cf943442f54d2b86f5a0386be09" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Sequlite.Adorners.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>返回此类使用的缓存的 ResourceManager 实例。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_properties_1_1_resources_1a7cb58b7653f87816aca835373355af99" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Sequlite.Adorners.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>使用此强类型资源类，为所有资源查找 重写当前线程的 CurrentUICulture 属性。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" line="54" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_properties_1_1_resources_1a9a550a9f2699c04a3b6b00071f20814c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Adorners.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>一个强类型的资源类，用于查找本地化的字符串等。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1102">
+        <label>Sequlite.Adorners.Properties.Resources</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_properties_1_1_resources"/>
+        <childnode refid="1103" relation="usage">
+          <edgelabel>resourceCulture</edgelabel>
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+      <node id="1103">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/Properties/Resources.Designer.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_adorners_1_1_properties_1_1_resources_1a7cb58b7653f87816aca835373355af99" prot="package" virt="non-virtual"><scope>Sequlite::Adorners::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_properties_1_1_resources_1aa4894ac22eb08953f73dd84120a6ab2e" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_properties_1_1_resources_1a5bcab6942fe3fb9ece789e172cb423e1" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_properties_1_1_resources_1aaee54cf943442f54d2b86f5a0386be09" prot="package" virt="non-virtual"><scope>Sequlite::Adorners::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_properties_1_1_resources_1a9a550a9f2699c04a3b6b00071f20814c" prot="package" virt="non-virtual"><scope>Sequlite::Adorners::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

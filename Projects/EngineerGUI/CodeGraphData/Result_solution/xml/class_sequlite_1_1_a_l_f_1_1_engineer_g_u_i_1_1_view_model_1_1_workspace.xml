@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace" kind="class" prot="package">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace" kindref="compound">Workspace</ref></type>
+        <definition>Workspace Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</definition>
+        <argsstring></argsstring>
+        <name>This</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="12" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_imaging_tab_control_1a2aaf91fa1952b022f4b81deb63f6555d" compoundref="_imaging_tab_control_8xaml_8cs" startline="212" endline="229">Sequlite.ALF.EngineerGUI.View.ImagingTabControl._LiveImage_SizeChanged</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acbb39be0a6afe557c86153a6f4c567de" compoundref="_camera_view_model_8cs" startline="467" endline="520">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteCaptureCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77be8e0d1d4adfc5076f56dc8c22dcb4" compoundref="_camera_view_model_8cs" startline="683" endline="738">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteLiveModeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a177d9f26ecc42b4195e9b1e3ff61380a" compoundref="_fluidics_view_model_8cs" startline="603" endline="629">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveCartridgeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a9120f4ffb656599fd3421db94ea9f907" compoundref="_fluidics_view_model_8cs" startline="555" endline="581">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveFlowChipCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1cf0b05670cb98ea9f9f82a9fd723306" compoundref="_fluidics_view_model_8cs" startline="426" endline="521">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteRunPumpCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a192f5b1184316171dd65a6a6b8a569d2" compoundref="_chemistry_view_model_8cs" startline="501" endline="507">Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSetCoolerTemperCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a64b4349ec5330fa90fe1a963b691d540" compoundref="_fluidics_view_model_8cs" startline="393" endline="404">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteSetSolutionCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a26ea37947a39a0fce48d2e6b1b26d2bf" compoundref="_chemistry_view_model_8cs" startline="342" endline="365">Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSetTemperCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae927b2ea6420dfe9605c80c6fa0cdfb4" compoundref="_auto_focus_view_model_8cs" startline="269" endline="296">Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStartCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1afec579d77f456441741a9876064de097" compoundref="_main_board_view_model_8cs" startline="522" endline="574">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.QueryingProcess</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a5260554ddc40c1dc9f8abfffa994142c" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_main_window_8xaml_8cs" startline="31" endline="61">Sequlite.ALF.EngineerGUI.MainWindow.Window_Closing</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a70acfeda071bcbe9b8e9770af1e5eadb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window" kindref="compound">MainWindow</ref></type>
+        <definition>MainWindow Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Owner</definition>
+        <argsstring></argsstring>
+        <name>Owner</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace" kindref="compound">Workspace</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="13" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acbb39be0a6afe557c86153a6f4c567de" compoundref="_camera_view_model_8cs" startline="467" endline="520">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteCaptureCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77be8e0d1d4adfc5076f56dc8c22dcb4" compoundref="_camera_view_model_8cs" startline="683" endline="738">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteLiveModeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1cf0b05670cb98ea9f9f82a9fd723306" compoundref="_fluidics_view_model_8cs" startline="426" endline="521">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteRunPumpCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae927b2ea6420dfe9605c80c6fa0cdfb4" compoundref="_auto_focus_view_model_8cs" startline="269" endline="296">Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStartCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a6f39ff53e2fa9e2c0ab4a924d59b71b6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model" kindref="compound">CameraViewModel</ref></type>
+        <definition>CameraViewModel Sequlite.ALF.EngineerGUI.ViewModel.Workspace.CameraVM</definition>
+        <argsstring></argsstring>
+        <name>CameraVM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="98" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="98" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_imaging_tab_control_1a2aaf91fa1952b022f4b81deb63f6555d" compoundref="_imaging_tab_control_8xaml_8cs" startline="212" endline="229">Sequlite.ALF.EngineerGUI.View.ImagingTabControl._LiveImage_SizeChanged</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae927b2ea6420dfe9605c80c6fa0cdfb4" compoundref="_auto_focus_view_model_8cs" startline="269" endline="296">Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStartCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a5260554ddc40c1dc9f8abfffa994142c" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_main_window_8xaml_8cs" startline="31" endline="61">Sequlite.ALF.EngineerGUI.MainWindow.Window_Closing</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a0177d0b358bf7643dedcb1a21072e9d4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model" kindref="compound">MotionViewModel</ref></type>
+        <definition>MotionViewModel Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MotionVM</definition>
+        <argsstring></argsstring>
+        <name>MotionVM</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model" kindref="compound">CameraViewModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="99" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="99" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a177d9f26ecc42b4195e9b1e3ff61380a" compoundref="_fluidics_view_model_8cs" startline="603" endline="629">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveCartridgeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a9120f4ffb656599fd3421db94ea9f907" compoundref="_fluidics_view_model_8cs" startline="555" endline="581">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveFlowChipCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae927b2ea6420dfe9605c80c6fa0cdfb4" compoundref="_auto_focus_view_model_8cs" startline="269" endline="296">Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStartCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a982481e2d878153e537b7272790c0c8a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model" kindref="compound">DetectorParametersViewModel</ref></type>
+        <definition>DetectorParametersViewModel Sequlite.ALF.EngineerGUI.ViewModel.Workspace.DetectorParametersVM</definition>
+        <argsstring></argsstring>
+        <name>DetectorParametersVM</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model" kindref="compound">MotionViewModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="100" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af637674b4bc00a0ba294a8a16710a510" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model" kindref="compound">MainBoardViewModel</ref></type>
+        <definition>MainBoardViewModel Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MainBoardVM</definition>
+        <argsstring></argsstring>
+        <name>MainBoardVM</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model" kindref="compound">DetectorParametersViewModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="101" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="101" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1acbb39be0a6afe557c86153a6f4c567de" compoundref="_camera_view_model_8cs" startline="467" endline="520">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteCaptureCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a77be8e0d1d4adfc5076f56dc8c22dcb4" compoundref="_camera_view_model_8cs" startline="683" endline="738">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ExecuteLiveModeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a192f5b1184316171dd65a6a6b8a569d2" compoundref="_chemistry_view_model_8cs" startline="501" endline="507">Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSetCoolerTemperCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a26ea37947a39a0fce48d2e6b1b26d2bf" compoundref="_chemistry_view_model_8cs" startline="342" endline="365">Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSetTemperCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae927b2ea6420dfe9605c80c6fa0cdfb4" compoundref="_auto_focus_view_model_8cs" startline="269" endline="296">Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStartCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a5260554ddc40c1dc9f8abfffa994142c" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_main_window_8xaml_8cs" startline="31" endline="61">Sequlite.ALF.EngineerGUI.MainWindow.Window_Closing</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a6c9569fd9b680859e31b25518da02d4f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_image_gallery_view_model" kindref="compound">ImageGalleryViewModel</ref></type>
+        <definition>ImageGalleryViewModel Sequlite.ALF.EngineerGUI.ViewModel.Workspace.ImageGalleryVM</definition>
+        <argsstring></argsstring>
+        <name>ImageGalleryVM</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model" kindref="compound">MainBoardViewModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="102" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="102" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window_1a5260554ddc40c1dc9f8abfffa994142c" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_main_window_8xaml_8cs" startline="31" endline="61">Sequlite.ALF.EngineerGUI.MainWindow.Window_Closing</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af717d399b1a42949031d1c09ed3bb733" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model" kindref="compound">FluidicsViewModel</ref></type>
+        <definition>FluidicsViewModel Sequlite.ALF.EngineerGUI.ViewModel.Workspace.FluidicsVM</definition>
+        <argsstring></argsstring>
+        <name>FluidicsVM</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_image_gallery_view_model" kindref="compound">ImageGalleryViewModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="103" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="103" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" compoundref="_recipe_view_model_8cs" startline="297" endline="374">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a64b4349ec5330fa90fe1a963b691d540" compoundref="_fluidics_view_model_8cs" startline="393" endline="404">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteSetSolutionCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" compoundref="_launch_window_8xaml_8cs" startline="21" endline="147">Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a91f4e070088a08f53913a097208e5509" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model" kindref="compound">ChemistryViewModel</ref></type>
+        <definition>ChemistryViewModel Sequlite.ALF.EngineerGUI.ViewModel.Workspace.ChemistryVM</definition>
+        <argsstring></argsstring>
+        <name>ChemistryVM</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model" kindref="compound">FluidicsViewModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="104" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="104" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1afec579d77f456441741a9876064de097" compoundref="_main_board_view_model_8cs" startline="522" endline="574">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.QueryingProcess</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1ae2f962083c5d6e288d7114c0419fff4b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model" kindref="compound">RecipeViewModel</ref></type>
+        <definition>RecipeViewModel Sequlite.ALF.EngineerGUI.ViewModel.Workspace.RecipeVM</definition>
+        <argsstring></argsstring>
+        <name>RecipeVM</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model" kindref="compound">ChemistryViewModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="105" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1ad51f664a2710244812c18bb7e185fe36" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model" kindref="compound">AutoFocusViewModel</ref></type>
+        <definition>AutoFocusViewModel Sequlite.ALF.EngineerGUI.ViewModel.Workspace.AutoFocusVM</definition>
+        <argsstring></argsstring>
+        <name>AutoFocusVM</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model" kindref="compound">RecipeViewModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="106" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a8e1b9f35cfbf5fdd6f7a16ecf6e7e1ce" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Sequlite.ALF.EngineerGUI.ViewModel.Workspace.CaptureStartTime</definition>
+        <argsstring></argsstring>
+        <name>CaptureStartTime</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model" kindref="compound">AutoFocusViewModel</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="107" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1ab24cc1e3e9228674704a792bc08633cc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.Workspace.CapturingStatus</definition>
+        <argsstring></argsstring>
+        <name>CapturingStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="119" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a4698665c0c0e4f8e283651eba49c00e0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.Workspace.EstimatedRemainingTime</definition>
+        <argsstring></argsstring>
+        <name>EstimatedRemainingTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="131" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a2eb4e84c415d5b928f3b490b9b9cbb9c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.Workspace.EstimatedCaptureTime</definition>
+        <argsstring></argsstring>
+        <name>EstimatedCaptureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="143" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a58c815104f02e42d7ee32d1bcdcc4856" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.Workspace.PercentCompleted</definition>
+        <argsstring></argsstring>
+        <name>PercentCompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="155" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a0787bcceb5c5800f71a575bb5a6bfc27" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.Workspace.LaunchRecord</definition>
+        <argsstring></argsstring>
+        <name>LaunchRecord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="171" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1ac8f1b6b34d3d508627bce51136c8a83a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.Workspace.IsBusy</definition>
+        <argsstring></argsstring>
+        <name>IsBusy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="183" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af69760dfc56e10c940dcf1886cd55a6e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.Workspace.StatusInfo</definition>
+        <argsstring></argsstring>
+        <name>StatusInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="195" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a28209f1a13427118251937f8cc19df83" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.Workspace.ProductVersion</definition>
+        <argsstring></argsstring>
+        <name>ProductVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="207" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a8bc7d95b8bf7d2ab20c239a1dd250d4b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.Workspace.OtherSettingsCmd</definition>
+        <argsstring></argsstring>
+        <name>OtherSettingsCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="215" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a57d9ca965af0fa7720262a5aa05e93e5" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime Sequlite.ALF.EngineerGUI.ViewModel.Workspace._CaptureStartTime</definition>
+        <argsstring></argsstring>
+        <name>_CaptureStartTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="87" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1ac0a8dfd019a948ea4b658cb39f4e9b14" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.Workspace._CapturingStatus</definition>
+        <argsstring></argsstring>
+        <name>_CapturingStatus</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="88" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a3e30d8dbaeab4495beec1a79afc52ee2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.Workspace._EstimatedRemainingTime</definition>
+        <argsstring></argsstring>
+        <name>_EstimatedRemainingTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="89" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a1363a91def4475e0dfcd75ea50328176" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.Workspace._EstimatedCaptureTime</definition>
+        <argsstring></argsstring>
+        <name>_EstimatedCaptureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="90" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1abf5dee4740e67c6128247c380f2d051b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.Workspace._PercentCompleted</definition>
+        <argsstring></argsstring>
+        <name>_PercentCompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="91" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1acf59874833c16686260dfdb90f491a65" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.Workspace._LaunchRecord</definition>
+        <argsstring></argsstring>
+        <name>_LaunchRecord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="92" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a1f360bd73e7f6ab040b25f9d2b265636" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.Workspace._IsBusy</definition>
+        <argsstring></argsstring>
+        <name>_IsBusy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="93" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a1d9d42605f72871b4056b45a677735c9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.Workspace._StatusInfo</definition>
+        <argsstring></argsstring>
+        <name>_StatusInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="94" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1adafad70c561b2070ff0ad63b12ad882e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.Workspace._OtherSettingsCmd</definition>
+        <argsstring></argsstring>
+        <name>_OtherSettingsCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="214" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1aa8308baa848f5a5d9c2bff9b1b20804b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Workspace</definition>
+        <argsstring>()</argsstring>
+        <name>Workspace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="15" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a64bbab5dac0088a144ae5945e25eb645" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="19" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="19" bodyend="69"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" compoundref="_settings_manager_8cs" startline="15">Sequlite.ALF.Configuration.SettingsManager.ConfigSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ade09ead569824f334215eb42cd5a3ca6" compoundref="_config_settings_8cs" startline="27">Sequlite.ALF.Configuration.ConfigSettings.LEDMaxOnTimes</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a91a9c64f27a1ce4b74cfeaa3990f436c" compoundref="_config_settings_8cs" startline="16">Sequlite.ALF.Configuration.ConfigSettings.MotionFactorSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a8355bf63f543b6920ac3146f63e6335c" compoundref="_config_settings_8cs" startline="14">Sequlite.ALF.Configuration.ConfigSettings.MotionSettings</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ab40ad2109df86fa7690893c6ccc062e8" compoundref="_config_settings_8cs" startline="15">Sequlite.ALF.Configuration.ConfigSettings.MotionStartupSettings</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a7a9250ff0a0dd35c5a54ab6313d135fe" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.Workspace._DispatcherTimer_Tick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>_DispatcherTimer_Tick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="71" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="71" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af0156d24ed1bdb0aff1db6213165a43d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.Workspace.ExecuteOtherSettingsCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteOtherSettingsCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="227" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="227" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1abe6005c386c5f5b560040e047639e7cd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.Workspace.CanExecuteOtherSettingsCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteOtherSettingsCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="252" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="252" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1324">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1325">
+        <label>IDisposable</label>
+      </node>
+      <node id="1323">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1324" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1325" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1322">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.Workspace</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace"/>
+        <childnode refid="1323" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1331">
+        <label>ICommand</label>
+      </node>
+      <node id="1328">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1329">
+        <label>IDisposable</label>
+      </node>
+      <node id="1327">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1328" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1329" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1330">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="1331" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1326">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.Workspace</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace"/>
+        <childnode refid="1327" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1330" relation="usage">
+          <edgelabel>_OtherSettingsCmd</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" line="11" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/Workspace.cs" bodystart="10" bodyend="260"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a57d9ca965af0fa7720262a5aa05e93e5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>_CaptureStartTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1ac0a8dfd019a948ea4b658cb39f4e9b14" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>_CapturingStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a7a9250ff0a0dd35c5a54ab6313d135fe" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>_DispatcherTimer_Tick</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a1363a91def4475e0dfcd75ea50328176" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>_EstimatedCaptureTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a3e30d8dbaeab4495beec1a79afc52ee2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>_EstimatedRemainingTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a1f360bd73e7f6ab040b25f9d2b265636" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>_IsBusy</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1acf59874833c16686260dfdb90f491a65" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>_LaunchRecord</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1adafad70c561b2070ff0ad63b12ad882e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>_OtherSettingsCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1abf5dee4740e67c6128247c380f2d051b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>_PercentCompleted</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a1d9d42605f72871b4056b45a677735c9" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>_StatusInfo</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1ad51f664a2710244812c18bb7e185fe36" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>AutoFocusVM</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a6f39ff53e2fa9e2c0ab4a924d59b71b6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>CameraVM</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1abe6005c386c5f5b560040e047639e7cd" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>CanExecuteOtherSettingsCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a8e1b9f35cfbf5fdd6f7a16ecf6e7e1ce" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>CaptureStartTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1ab24cc1e3e9228674704a792bc08633cc" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>CapturingStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a91f4e070088a08f53913a097208e5509" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>ChemistryVM</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a982481e2d878153e537b7272790c0c8a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>DetectorParametersVM</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a2eb4e84c415d5b928f3b490b9b9cbb9c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>EstimatedCaptureTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a4698665c0c0e4f8e283651eba49c00e0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>EstimatedRemainingTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af0156d24ed1bdb0aff1db6213165a43d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>ExecuteOtherSettingsCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af717d399b1a42949031d1c09ed3bb733" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>FluidicsVM</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a6c9569fd9b680859e31b25518da02d4f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>ImageGalleryVM</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a64bbab5dac0088a144ae5945e25eb645" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>Initialize</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1ac8f1b6b34d3d508627bce51136c8a83a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>IsBusy</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a0787bcceb5c5800f71a575bb5a6bfc27" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>LaunchRecord</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af637674b4bc00a0ba294a8a16710a510" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>MainBoardVM</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a0177d0b358bf7643dedcb1a21072e9d4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>MotionVM</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a8bc7d95b8bf7d2ab20c239a1dd250d4b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>OtherSettingsCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a70acfeda071bcbe9b8e9770af1e5eadb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>Owner</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a58c815104f02e42d7ee32d1bcdcc4856" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>PercentCompleted</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a28209f1a13427118251937f8cc19df83" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>ProductVersion</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1ae2f962083c5d6e288d7114c0419fff4b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>RecipeVM</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af69760dfc56e10c940dcf1886cd55a6e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>StatusInfo</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>This</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1aa8308baa848f5a5d9c2bff9b1b20804b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::Workspace</scope><name>Workspace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager" kind="class" prot="public">
+    <compoundname>Sequlite::LucidCameraLib::CameraManager</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1af60d5a7fb149a05803473da07b650296" prot="private" static="yes" mutable="no">
+        <type>List&lt; <ref refid="class_sequlite_1_1_lucid_camera_lib_1_1_lucid_camera_base" kindref="compound">LucidCameraBase</ref> &gt;</type>
+        <definition>List&lt;LucidCameraBase&gt; Sequlite.LucidCameraLib.CameraManager._CameraList</definition>
+        <argsstring></argsstring>
+        <name>_CameraList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1aa320f9a9fd2f8f96fdfb7c1e644caa3f" prot="private" static="yes" mutable="no">
+        <type>ArenaNET.ISystem</type>
+        <definition>ArenaNET.ISystem Sequlite.LucidCameraLib.CameraManager._System</definition>
+        <argsstring></argsstring>
+        <name>_System</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1a267bf85b1d054062c4f6f9af8bd57ef7" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Sequlite.LucidCameraLib.CameraManager.CameraManager</definition>
+        <argsstring>()</argsstring>
+        <name>CameraManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1a0b5023b86cf5a4df8d25fe8ea25120f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.LucidCameraLib.CameraManager.OpenCamera</definition>
+        <argsstring>()</argsstring>
+        <name>OpenCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" bodystart="20" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1ad56e09faac34062a009333b6e0309988" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.LucidCameraLib.CameraManager.CloseCamera</definition>
+        <argsstring>()</argsstring>
+        <name>CloseCamera</name>
+        <briefdescription>
+<para>Close all Cameras and the System </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" line="70" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" bodystart="70" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1a7e9ae115d379b1868e36b28af073fe71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_sequlite_1_1_lucid_camera_lib_1_1_lucid_camera_base" kindref="compound">LucidCameraBase</ref>[]</type>
+        <definition>static LucidCameraBase [] Sequlite.LucidCameraLib.CameraManager.GetCameras</definition>
+        <argsstring>()</argsstring>
+        <name>GetCameras</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" line="83" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" bodystart="83" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="184">
+        <label>Sequlite.LucidCameraLib.CameraManager</label>
+        <link refid="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager"/>
+        <childnode refid="185" relation="usage">
+          <edgelabel>_System</edgelabel>
+          <edgelabel>_CameraList</edgelabel>
+        </childnode>
+      </node>
+      <node id="185">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.LucidCameraLib/CameraManager.cs" bodystart="5" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1af60d5a7fb149a05803473da07b650296" prot="private" virt="non-virtual"><scope>Sequlite::LucidCameraLib::CameraManager</scope><name>_CameraList</name></member>
+      <member refid="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1aa320f9a9fd2f8f96fdfb7c1e644caa3f" prot="private" virt="non-virtual"><scope>Sequlite::LucidCameraLib::CameraManager</scope><name>_System</name></member>
+      <member refid="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1a267bf85b1d054062c4f6f9af8bd57ef7" prot="private" virt="non-virtual"><scope>Sequlite::LucidCameraLib::CameraManager</scope><name>CameraManager</name></member>
+      <member refid="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1ad56e09faac34062a009333b6e0309988" prot="public" virt="non-virtual"><scope>Sequlite::LucidCameraLib::CameraManager</scope><name>CloseCamera</name></member>
+      <member refid="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1a7e9ae115d379b1868e36b28af073fe71" prot="public" virt="non-virtual"><scope>Sequlite::LucidCameraLib::CameraManager</scope><name>GetCameras</name></member>
+      <member refid="class_sequlite_1_1_lucid_camera_lib_1_1_camera_manager_1a0b5023b86cf5a4df8d25fe8ea25120f8" prot="public" virt="non-virtual"><scope>Sequlite::LucidCameraLib::CameraManager</scope><name>OpenCamera</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

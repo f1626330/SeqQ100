@@ -1,0 +1,42 @@
+﻿<Window x:Class="Sequlite.WPF.Framework.LaunchWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sequlite.WPF.Framework"
+        SnapsToDevicePixels="True"
+        
+        mc:Ignorable="d"
+        Title="{Binding TitleMessage}" Left="{Binding WinLeft}" Top="{Binding WinTop}" 
+        Width="{Binding WinWidth}" Height="{Binding WinHeight}" 
+        WindowStartupLocation="Manual" ResizeMode="CanResizeWithGrip"  
+        WindowStyle="ToolWindow"
+        local:WindowClosingBehavior.Closing="{Binding WindowClosing}" >
+
+    <Grid>
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition Width="88*"/>
+            <ColumnDefinition Width="707*"/>
+        </Grid.ColumnDefinitions>-->
+        <!--<Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            -->
+        <!--<RowDefinition Height="1*"/>-->
+        <!--
+        </Grid.RowDefinitions>-->
+        <!-- <TextBlock Text="Status:" Grid.Row="0" Margin="5"/>
+        <TextBox Grid.Row="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" IsReadOnly="True"
+                 Text="{Binding Path=LaunchRecord}"/>-->
+        <Border Margin="1">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1.0,0.5">
+                    <LinearGradientBrush.GradientStops>
+                        <GradientStop Offset="-0.5" Color="#ACCCFF" />
+                        <GradientStop Offset="1.0" Color="White" />
+                    </LinearGradientBrush.GradientStops>
+                </LinearGradientBrush>
+            </Border.Background>
+            <local:LogViewer DataContext="{Binding Path=LogViewerVM}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5" Background="Transparent" />
+        </Border>
+    </Grid>
+</Window>

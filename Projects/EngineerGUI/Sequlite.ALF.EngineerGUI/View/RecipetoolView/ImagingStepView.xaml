@@ -1,0 +1,272 @@
+﻿<UserControl x:Class="Sequlite.ALF.EngineerGUI.View.RecipetoolView.ImagingStepView"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+                xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+                xmlns:local="clr-namespace:Sequlite.ALF.EngineerGUI.View.RecipetoolView"
+                xmlns:vm="clr-namespace:Sequlite.ALF.EngineerGUI.ViewModel.RecipetoolVM"
+                xmlns:wpf="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+                mc:Ignorable="d" 
+                d:DesignHeight="600" d:DesignWidth="580">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <wpf:BooleanToVisibilityConverter x:Key="boolToVisibleConverter"/>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Grid x:Name="Main">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="210"/>
+            <ColumnDefinition Width="360"/>
+        </Grid.ColumnDefinitions>
+
+        <!--  Region Settings  -->
+        <GroupBox Header="Region Settings:" Grid.Row ="0" Grid.Column="0">
+            <Grid x:Name="RegionSettingsGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal"  HorizontalAlignment="Right"  Visibility="{Binding Path= DataContext.IsMachineRev2, Converter={StaticResource boolToVisibilityCollapsedConverter}, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Control}}}">
+                    <TextBlock Text="Region:" Margin="5" VerticalAlignment="Center"/>
+                    <ComboBox Width="60" Margin="5" ItemsSource="{Binding Path=RegionIndexOptions}" SelectedItem="{Binding Path=SelectedRegionIndex}"/>
+                </StackPanel>
+                <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Vertical" HorizontalAlignment="Right" Visibility="{Binding Path= DataContext.IsMachineRev2, Converter={StaticResource boolToVisibilityVisibleConverter}, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Control}}}">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
+                        <TextBlock Text="Lane:" Margin="5" VerticalAlignment="Center"/>
+                        <ComboBox Width="60" Margin="5" ItemsSource="{Binding Path=LaneOptions}" SelectedItem="{Binding Path=Lane}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
+                        <TextBlock Text="X:" Margin="5" VerticalAlignment="Center"/>
+                        <ComboBox Width="60" Margin="5" ItemsSource="{Binding Path=ColumnOptions}" SelectedItem="{Binding Path=Column}"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <TextBlock Text="Y:" Margin="5" VerticalAlignment="Center"/>
+                        <ComboBox Width="60" Margin="5" ItemsSource="{Binding Path=RowOptions}" SelectedItem="{Binding Path=Row}"/>
+                    </StackPanel>
+                </StackPanel>
+                <Button  Grid.Row="1" Grid.Column="1" Content="Add Region" Margin="5" Command="{Binding Path=AddRegionCmd}"/>
+                <Separator Grid.Row="2" Grid.ColumnSpan="2"/>
+                <StackPanel Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <CheckBox Content="Auto Focus" IsChecked="{Binding Path=IsAutoFocusOn}" Margin="5" VerticalAlignment="Center"/>
+                    <Button Content="Add Same Images" Margin="5" Command="{Binding Path=AddSameImagesCmd}"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Regions:" Grid.Column="1">
+            <Grid x:Name="RegionsGrid">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <ScrollViewer Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" MinHeight ="40" Margin="5" VerticalScrollBarVisibility="Auto">
+                    <ListView ItemsSource="{Binding Path=AddedRegions}" SelectedItem="{Binding Path=SelectedAddedRegion}">
+                        <ListView.Resources>
+                            <DataTemplate DataType="{x:Type vm:ImagingRegionViewModel}">
+                                <StackPanel Orientation="Horizontal">
+                                    <StackPanel Orientation="Horizontal" Visibility="{Binding Path= DataContext.IsMachineRev2, Converter={StaticResource boolToVisibilityCollapsedConverter}, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Control}}}">
+                                        <TextBlock Text="Region:" Margin="0,1,5,1"/>
+                                        <TextBlock Text="{Binding Path=Index}" Margin="0,1,0,1"/>
+                                        <TextBlock Text=";" Margin="0,1,5,1"/>
+                                    </StackPanel>
+                                    <StackPanel Orientation="Horizontal" Visibility="{Binding Path= DataContext.IsMachineRev2, Converter={StaticResource boolToVisibilityVisibleConverter}, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Control}}}">
+                                        <TextBlock Text="Lane:" Margin="0,1,5,1"/>
+                                        <TextBlock Text="{Binding Path=Lane}" Margin="0,1,0,1"/>
+                                        <TextBlock Text=";" Margin="0,1,5,1"/>
+                                        <TextBlock Text="X:" Margin="0,1,5,1"/>
+                                        <TextBlock Text="{Binding Path=Column}" Margin="0,1,0,1"/>
+                                        <TextBlock Text=";" Margin="0,1,5,1"/>
+                                        <TextBlock Text="Y:" Margin="0,1,5,1"/>
+                                        <TextBlock Text="{Binding Path=Row}" Margin="0,1,0,1"/>
+                                        <TextBlock Text=";" Margin="0,1,5,1"/>
+                                    </StackPanel>
+                                    <!--<TextBlock Text="Lane:" Margin="0,1,5,1"/>
+                                <TextBlock Text="{Binding Path=Lane}" Margin="0,1,0,1"/>
+                                <TextBlock Text=";" Margin="0,1,5,1"/>
+                                <TextBlock Text="X:" Margin="0,1,5,1"/>
+                                <TextBlock Text="{Binding Path=X}" Margin="0,1,0,1"/>
+                                <TextBlock Text=";" Margin="0,1,5,1"/>
+                                <TextBlock Text="Y:" Margin="0,1,5,1"/>
+                                <TextBlock Text="{Binding Path=Y}" Margin="0,1,0,1"/>
+                                <TextBlock Text=";" Margin="0,1,5,1"/>
+                                <TextBlock Text="Images:" Margin="0,1,5,1"/> -->
+                                    <TextBlock Text="Total Images:" Margin="0,1,5,1"/>
+                                    <TextBlock Text="{Binding Path=Imagings.Count}" Margin="0,1,0,1"/>
+                                    <TextBlock Text=";" Margin="0,1,5,1"/>
+                                    <TextBlock Text="Total Focuses:" Margin="0,1,5,1"/>
+                                    <!-- <TextBlock Text="Focuses:" Margin="0,1,5,1"/> -->
+                                    <TextBlock Text="{Binding Path=RefFocuses.Count}" Margin="0,1,0,1"/>
+                                    <TextBlock Text=";" Margin="0,1,5,1"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.Resources>
+                    </ListView>
+                </ScrollViewer>
+                <Button Grid.Row="1" Grid.Column="1" Width="200" HorizontalAlignment="Right" Content="Delete Region" Margin="5" Command="{Binding Path=RemoveRegionCmd}"/>
+            </Grid>
+        </GroupBox>
+
+        <!--  Image Settings  -->
+        <GroupBox Header="Image Settings:" Grid.Row ="1" Grid.Column="0">
+            <Grid x:Name="ImageSettingsGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <!-- Channel -->
+                <TextBlock Text="Channel:" MinWidth="120"  Grid.Column="0" Grid.Row="0" Margin="5" TextAlignment="Right"  HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                <ComboBox Width="70" Grid.Column="1" Grid.Row="0" Margin="5"
+                                    ItemsSource="{Binding Path=NewImagingSetting.ChannelOptions}" SelectedItem="{Binding Path=NewImagingSetting.SelectedChannel}"/>
+                <!-- Exposure -->
+                <StackPanel Grid.Column="0" Grid.Row="1">
+                    <TextBlock Text="Red Exposure [s]:" Margin="5" TextAlignment="Right" VerticalAlignment="Center"
+                                    Visibility="{Binding Path=NewImagingSetting.IsRedChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                    <TextBlock Text="Green Exposure [s]:"  Grid.Column="0" Grid.Row="1" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Center"
+                                    Visibility="{Binding Path=NewImagingSetting.IsGreenChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Grid.Row="1">
+                    <TextBox Width="70" Margin="5" Text="{Binding Path=NewImagingSetting.RedExposure}"
+                                        Visibility="{Binding Path=NewImagingSetting.IsRedChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                    <TextBox Width="70" Margin="5" Text="{Binding Path=NewImagingSetting.GreenExposure}"
+                                        Visibility="{Binding Path=NewImagingSetting.IsGreenChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                </StackPanel>
+                <!-- Intensity -->
+                <StackPanel Grid.Column="0" Grid.Row="2">
+                    <TextBlock Text="Red Intensity [%]:" Margin="5" TextAlignment="Right" VerticalAlignment="Center"
+                                        Visibility="{Binding Path=NewImagingSetting.IsRedChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                    <TextBlock Text="Green Intensity [%]:" Margin="5" TextAlignment="Right" VerticalAlignment="Center"
+                                        Visibility="{Binding Path=NewImagingSetting.IsGreenChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Grid.Row="2">
+                    <TextBox Width="70" Margin="5" Text="{Binding Path=NewImagingSetting.RedIntensity}"
+                                        Visibility="{Binding Path=NewImagingSetting.IsRedChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                    <TextBox Width="70" Margin="5" Text="{Binding Path=NewImagingSetting.GreenIntensity}"
+                                        Visibility="{Binding Path=NewImagingSetting.IsGreenChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                </StackPanel>
+                <!-- Filter -->
+                <TextBlock Text="Filter:" Grid.Column="0" Grid.Row="3" Margin="5" TextAlignment="Right" VerticalAlignment="Center"/>
+                <ComboBox Width="70" Grid.Column="1" Grid.Row="3" Margin="5"
+                                    ItemsSource="{Binding Path=NewImagingSetting.FilterOptions}"
+                                    SelectedItem="{Binding Path=NewImagingSetting.SelectedFilter}"/>
+
+                <Button Content="Add Image" Grid.Column="1" Grid.Row="4" Margin="5" Command="{Binding Path=AddImageCmd}"/>
+            </Grid>
+        </GroupBox>
+
+        <GroupBox Header="Images:" Grid.Row="1" Grid.Column="1">
+            <Grid x:Name="ImagesGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="auto" Name ="gridWidth"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <!-- to limit column width can bind ScrollView with to grid: MaxWidth="{Binding ActualWidth, ElementName=gridWidth}"-->
+                <ScrollViewer Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" MinHeight ="40" Margin="5" VerticalScrollBarVisibility="Auto" VerticalAlignment="Stretch">
+                        <ListView ItemsSource="{Binding Path=SelectedAddedRegion.Imagings}" SelectedItem="{Binding Path=SelectedAddedRegion.SelectedImage}">
+                            <ListView.Resources>
+                                <DataTemplate DataType="{x:Type vm:ImageSettingsViewModel}">
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Channel:" Margin="0,1,5,1"/>
+                                        <TextBlock Text="{Binding Path=SelectedChannel}" Margin="0,1,0,1"/>
+                                        <TextBlock Text=";" Margin="0,1,5,1"/>
+                                        <TextBlock Text="Filter:" Margin="0,1,5,1"/>
+                                        <TextBlock Text="{Binding Path=SelectedFilter}" Margin="0,1,0,1"/>
+                                        <TextBlock Text=";" Margin="0,1,5,1"/>
+                                        <TextBlock Text="Expo:" Margin="0,1,5,1"/>
+                                        <TextBlock Text="{Binding Path=RedExposure}" Margin="0,1,0,1" Visibility="{Binding Path=IsRedChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                                        <Border Visibility="{Binding Path=IsGreenChannel, Converter={StaticResource boolToVisibleConverter}}">
+                                            <TextBlock Text=", " Visibility="{Binding Path=IsRedChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                                        </Border>
+                                        <TextBlock Text="{Binding Path=GreenExposure}" Margin="0,1,0,1" Visibility="{Binding Path=IsGreenChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                                        <TextBlock Text=";" Margin="0,1,5,1"/>
+                                        <TextBlock Text="Intensity:" Margin="0,1,5,1"/>
+                                        <TextBlock Text="{Binding Path=RedIntensity}" Margin="0,1,0,1" Visibility="{Binding Path=IsRedChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                                        <Border Visibility="{Binding Path=IsGreenChannel, Converter={StaticResource boolToVisibleConverter}}">
+                                            <TextBlock Text=", " Visibility="{Binding Path=IsRedChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                                        </Border>
+                                        <TextBlock Text="{Binding Path=GreenIntensity}" Margin="0,1,0,1" Visibility="{Binding Path=IsGreenChannel, Converter={StaticResource boolToVisibleConverter}}"/>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListView.Resources>
+                        </ListView>
+                    </ScrollViewer>
+                <Button Content="Delete Image" Grid.Row="1" Grid.Column="1" Margin="5" Width="200" HorizontalAlignment="Right" Command="{Binding Path=RemoveImageCmd}"/>
+            </Grid>
+        </GroupBox>
+
+        <!--  Focus Settings  -->
+        <GroupBox Header="Reference Focus:" Grid.Row="2" Grid.Column="0">
+            <Grid x:Name="ReferenceFocusGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Text="Name:" Margin="5" Grid.Row="0" Grid.Column="0" TextAlignment="Right" HorizontalAlignment="Right"/>
+                <TextBox Margin="5" MinWidth ="70" Grid.Row="0" Grid.Column="1" Text="{Binding Path=NewFocusName}" HorizontalAlignment="Right"/>
+                <TextBlock Text="Position [µm]:" Grid.Row="1" Grid.Column="0" Margin="5" TextAlignment="Right" HorizontalAlignment="Right"/>
+                <TextBox Margin="5" MinWidth ="70" Grid.Row="1" Grid.Column="1" Text="{Binding Path=NewFocusPos}" HorizontalAlignment="Right"/>
+                <Button Content="Add Focus" Margin="5" Grid.Row="2" Grid.Column="1" Command="{Binding Path=FocusCmd}" CommandParameter="Add"/>
+            </Grid>
+        </GroupBox>
+
+        <GroupBox Header="Focus Positions:" Grid.Row="2" Grid.Column="1">
+            <Grid x:Name="FocusPositionsGrid">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                 <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <ScrollViewer  Grid.Row="0" Grid.ColumnSpan="2" MinHeight ="40" Margin="5" VerticalScrollBarVisibility="Auto" VerticalAlignment="Stretch">
+                    <ListView ItemsSource="{Binding Path=SelectedAddedRegion.RefFocuses}" SelectedItem="{Binding Path=SelectedAddedRegion.SelectedFocus}">
+                        <ListView.Resources>
+                            <DataTemplate DataType="{x:Type vm:FocusViewModel}">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="Name:" Margin="0,1,5,1"/>
+                                    <TextBlock Text="{Binding Path=FocusName}" Margin="0,1,0,1"/>
+                                    <TextBlock Text=";" Margin="0,1,5,1"/>
+                                    <TextBlock Text="Pos:" Margin="0,1,5,1"/>
+                                    <TextBlock Text="{Binding Path=FocusPos}" Margin="0,1,0,1"/>
+                                    <TextBlock Text=";" Margin="0,1,5,1"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.Resources>
+                    </ListView>
+                </ScrollViewer>
+                <Button Content="Delete Focus" Grid.Row="1" Grid.Column="1" Margin="5" Width="200" HorizontalAlignment="Right" Command="{Binding Path=FocusCmd}" CommandParameter="Delete"/>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</UserControl>

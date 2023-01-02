@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::FindQCFromImage</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a6f4f8b79a2b171ddaded92b7f754d56d" prot="private" static="no" mutable="no">
+        <type>String[]</type>
+        <definition>String [] Sequlite.ALF.Imaging.FindQCFromImage._qcmeasures</definition>
+        <argsstring></argsstring>
+        <name>_qcmeasures</name>
+        <initializer>= {&quot;Number of features&quot;, &quot;Fraction of good features&quot;,
+            &quot;SNR Mean&quot;, &quot;Intensity Mean&quot;, &quot;Background Mean&quot;,
+            &quot;Noise Mean&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a4b08e2e6eef88747053295edd1ac44c5" prot="private" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] Sequlite.ALF.Imaging.FindQCFromImage._qcValues</definition>
+        <argsstring></argsstring>
+        <name>_qcValues</name>
+        <initializer>= new float[6]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1ad3e6bc250d6c44eada7bc58e1b11a3ba" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.FindQCFromImage._args</definition>
+        <argsstring></argsstring>
+        <name>_args</name>
+        <initializer>= &quot;-r 0 -t 0.5 -f \&quot;0.01 1 1 0\&quot; -G \&quot;5 5 1\&quot; -S 1 -F 1 -j \&quot;30 30 30 30\&quot; -O 1 -n 0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a945720d0a16528a72db243d7c07dc0ff" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.FindQCFromImage._binDir</definition>
+        <argsstring></argsstring>
+        <name>_binDir</name>
+        <initializer>= @&quot;C:\&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a795e3080852137507f373936d16df4af" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.FindQCFromImage._fileName</definition>
+        <argsstring></argsstring>
+        <name>_fileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1aea886c7d7c91931802efc22a5f77b755" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.FindQCFromImage.FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a4740c380a1d0c69dcb8460a51b079c64" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.FindQCFromImage.Args</definition>
+        <argsstring></argsstring>
+        <name>Args</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1abb1a8eed025c2dba03d79f30b0e2007d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float[]</type>
+        <definition>float [] Sequlite.ALF.Imaging.FindQCFromImage.QcValues</definition>
+        <argsstring></argsstring>
+        <name>QcValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1ac4d7030d13b98e22dceabf014c46f605" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.FindQCFromImage.BinDir</definition>
+        <argsstring></argsstring>
+        <name>BinDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a435235d871e04b3f9f26f999c56a42e8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string[]</type>
+        <definition>string [] Sequlite.ALF.Imaging.FindQCFromImage.QCmeasures</definition>
+        <argsstring></argsstring>
+        <name>QCmeasures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a5d6feffeaaf205096e9979b99b39ee42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.FindQCFromImage.FindQCFromImage</definition>
+        <argsstring>(string imageFile=&quot;&quot;, string binDir=&quot;&quot;)</argsstring>
+        <name>FindQCFromImage</name>
+        <param>
+          <type>string</type>
+          <declname>imageFile</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>binDir</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="42" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="42" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a4c7e140b010806d6e8ee45389d6eebec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.FindQCFromImage.Process</definition>
+        <argsstring>(string imageFileName)</argsstring>
+        <name>Process</name>
+        <param>
+          <type>string</type>
+          <declname>imageFileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="53" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="53" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a1bfbf9fa950df390bd77807b02046546" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float[]</type>
+        <definition>float [] Sequlite.ALF.Imaging.FindQCFromImage.ProcessFile</definition>
+        <argsstring>(FileInfo fi)</argsstring>
+        <name>ProcessFile</name>
+        <param>
+          <type>FileInfo</type>
+          <declname>fi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="67" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="67" bodyend="116"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a056f9c6a9e0fec4d1c6f50807a47fa05" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.ALF.Imaging.FindQCFromImage.ExecuteCommandSync</definition>
+        <argsstring>(string command, DirectoryInfo workingDir)</argsstring>
+        <name>ExecuteCommandSync</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>workingDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="118" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="118" bodyend="149"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/FindQCFromImage.cs" bodystart="6" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1ad3e6bc250d6c44eada7bc58e1b11a3ba" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>_args</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a945720d0a16528a72db243d7c07dc0ff" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>_binDir</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a795e3080852137507f373936d16df4af" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>_fileName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a6f4f8b79a2b171ddaded92b7f754d56d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>_qcmeasures</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a4b08e2e6eef88747053295edd1ac44c5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>_qcValues</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a4740c380a1d0c69dcb8460a51b079c64" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>Args</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1ac4d7030d13b98e22dceabf014c46f605" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>BinDir</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a056f9c6a9e0fec4d1c6f50807a47fa05" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>ExecuteCommandSync</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1aea886c7d7c91931802efc22a5f77b755" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>FileName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a5d6feffeaaf205096e9979b99b39ee42" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>FindQCFromImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a4c7e140b010806d6e8ee45389d6eebec" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>Process</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a1bfbf9fa950df390bd77807b02046546" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>ProcessFile</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1a435235d871e04b3f9f26f999c56a42e8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>QCmeasures</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_find_q_c_from_image_1abb1a8eed025c2dba03d79f30b0e2007d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::FindQCFromImage</scope><name>QcValues</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

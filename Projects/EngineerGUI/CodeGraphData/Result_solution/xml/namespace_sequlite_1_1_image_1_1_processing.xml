@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_image_1_1_processing" kind="namespace">
+    <compoundname>Sequlite::Image::Processing</compoundname>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_bad_image_identifier" prot="public">Sequlite::Image::Processing::BadImageIdentifier</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter" prot="public">Sequlite::Image::Processing::CycleParameter</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_despeckle3x3_filter" prot="public">Sequlite::Image::Processing::Despeckle3x3Filter</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_despeckle_filter" prot="public">Sequlite::Image::Processing::DespeckleFilter</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_directory_number" prot="public">Sequlite::Image::Processing::DirectoryNumber</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_fast_gaussian_filter" prot="public">Sequlite::Image::Processing::FastGaussianFilter</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_flat_field_calibrate" prot="public">Sequlite::Image::Processing::FlatFieldCalibrate</innerclass>
+    <innerclass refid="interface_sequlite_1_1_image_1_1_processing_1_1_i_image_statistics" prot="public">Sequlite::Image::Processing::IImageStatistics</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic" prot="public">Sequlite::Image::Processing::ImageArithmetic</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" prot="public">Sequlite::Image::Processing::ImageChannel</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info" prot="public">Sequlite::Image::Processing::ImageInfo</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d" prot="public">Sequlite::Image::Processing::ImageProcessingCMD</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper" prot="public">Sequlite::Image::Processing::ImageProcessingHelper</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_image_statistics" prot="public">Sequlite::Image::Processing::ImageStatistics</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_rank_filter" prot="public">Sequlite::Image::Processing::RankFilter</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats" prot="public">Sequlite::Image::Processing::RIPPStats</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_run_time_parameter" prot="public">Sequlite::Image::Processing::RunTimeParameter</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter" prot="public">Sequlite::Image::Processing::TileParameter</innerclass>
+    <innerclass refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab" prot="public">Sequlite::Image::Processing::CIELab</innerclass>
+    <innerclass refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" prot="public">Sequlite::Image::Processing::CIEXYZ</innerclass>
+    <innerclass refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" prot="public">Sequlite::Image::Processing::CMYK</innerclass>
+    <innerclass refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper" prot="public">Sequlite::Image::Processing::ColorSpaceHelper</innerclass>
+    <innerclass refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_b" prot="public">Sequlite::Image::Processing::HSB</innerclass>
+    <innerclass refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" prot="public">Sequlite::Image::Processing::HSL</innerclass>
+    <innerclass refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b" prot="public">Sequlite::Image::Processing::RGB</innerclass>
+    <innerclass refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" prot="public">Sequlite::Image::Processing::YUV</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_image_1_1_processing_1ab9edef8e4a8caaf7bda4a0be1023a1cd" prot="public" static="no">
+        <name>ImageChannelFlag</name>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1ab9edef8e4a8caaf7bda4a0be1023a1cda6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1ab9edef8e4a8caaf7bda4a0be1023a1cdaee38e4d5dd68c4e440825018d549cb47" prot="public">
+          <name>Red</name>
+          <initializer>= 0x01</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1ab9edef8e4a8caaf7bda4a0be1023a1cdad382816a3cbeed082c9e216e7392eed1" prot="public">
+          <name>Green</name>
+          <initializer>= 0x02</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1ab9edef8e4a8caaf7bda4a0be1023a1cda9594eec95be70e7b1710f730fdda33d9" prot="public">
+          <name>Blue</name>
+          <initializer>= 0x04</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1ab9edef8e4a8caaf7bda4a0be1023a1cda994ae1d9731cebe455aff211bcb25b93" prot="public">
+          <name>Gray</name>
+          <initializer>= 0x08</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="6" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_image_1_1_processing_1a9580648dc6a7ed18378e21806ebfaabb" prot="public" static="no">
+        <name>ImageChannelType</name>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1a9580648dc6a7ed18378e21806ebfaabba6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1a9580648dc6a7ed18378e21806ebfaabbaee38e4d5dd68c4e440825018d549cb47" prot="public">
+          <name>Red</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1a9580648dc6a7ed18378e21806ebfaabbad382816a3cbeed082c9e216e7392eed1" prot="public">
+          <name>Green</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1a9580648dc6a7ed18378e21806ebfaabba9594eec95be70e7b1710f730fdda33d9" prot="public">
+          <name>Blue</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1a9580648dc6a7ed18378e21806ebfaabba994ae1d9731cebe455aff211bcb25b93" prot="public">
+          <name>Gray</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_image_1_1_processing_1a9580648dc6a7ed18378e21806ebfaabba3037bfcfe8ff40986452eec97ea71b84" prot="public">
+          <name>Mix</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/BadImageIdentifier.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

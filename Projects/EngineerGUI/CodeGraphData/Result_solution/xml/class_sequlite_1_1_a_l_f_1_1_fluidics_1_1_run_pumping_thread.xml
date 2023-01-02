@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Fluidics::RunPumpingThread</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_command_lib_1_1_thread_base" prot="public" virt="non-virtual">Sequlite.CommandLib.ThreadBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a51daac4b01affda302b8c9e901b85d8a" prot="private" static="no" mutable="no">
+        <type>Dispatcher</type>
+        <definition>Dispatcher Sequlite.ALF.Fluidics.RunPumpingThread._CallingDispatcher</definition>
+        <argsstring></argsstring>
+        <name>_CallingDispatcher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a347183064453e8ceaae922b211609c63" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller" kindref="compound">PumpController</ref></type>
+        <definition>PumpController Sequlite.ALF.Fluidics.RunPumpingThread._Pump</definition>
+        <argsstring></argsstring>
+        <name>_Pump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1afeb6f93dbbb3bff6cdba8294656ac930" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Fluidics.RunPumpingThread._PumpPosToVolFactor</definition>
+        <argsstring></argsstring>
+        <name>_PumpPosToVolFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1af2fbf805d251f4ee7324bf4b298f23b5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller" kindref="compound">ValveController</ref></type>
+        <definition>ValveController Sequlite.ALF.Fluidics.RunPumpingThread._Valve</definition>
+        <argsstring></argsstring>
+        <name>_Valve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1aa9a901f3ad7740d6cb13fba0a218b4f4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings" kindref="compound">PumpingSettings</ref></type>
+        <definition>PumpingSettings Sequlite.ALF.Fluidics.RunPumpingThread._PumpingSettings</definition>
+        <argsstring></argsstring>
+        <name>_PumpingSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a50b00599c9f9c254e5d275fc4b23c862" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.RunPumpingThread._IsProcessCanceled</definition>
+        <argsstring></argsstring>
+        <name>_IsProcessCanceled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1aa934660bed835042a28538dc101deec6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Fluidics.RunPumpingThread.RunPumpingThread</definition>
+        <argsstring>(Dispatcher callingDispather, PumpController pump, double posToVolFactor, ValveController valve, PumpingSettings settings)</argsstring>
+        <name>RunPumpingThread</name>
+        <param>
+          <type>Dispatcher</type>
+          <declname>callingDispather</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller" kindref="compound">PumpController</ref></type>
+          <declname>pump</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>posToVolFactor</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller" kindref="compound">ValveController</ref></type>
+          <declname>valve</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings" kindref="compound">PumpingSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="19" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1ac0eb61400193e34ec91772e1635cf56c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.Fluidics.RunPumpingThread.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <reimplements refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a075aff57c71280b9dca53582a7d32ffa">Initialize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a6f24d42ae04ee027a84fa16d6637e9d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.Fluidics.RunPumpingThread.ThreadFunction</definition>
+        <argsstring>()</argsstring>
+        <name>ThreadFunction</name>
+        <reimplements refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a403a9a5891d6cceed7fa795df8ed3c0b">ThreadFunction</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="38" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="38" bodyend="82"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller_1afc81299c8b18be69979b4f7699d7a164" compoundref="_valve_controller_8cs" startline="40">Sequlite.ALF.Fluidics.ValveController.CurrentPos</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a28400f28fad818e1a49cb5c8475653c3" compoundref="_fluidics_manager_8cs" startline="13">Sequlite.ALF.Fluidics.FluidicsManager.Valve</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a9daa55b2070c9988a7f9faded6a7fb7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.Fluidics.RunPumpingThread.Finish</definition>
+        <argsstring>()</argsstring>
+        <name>Finish</name>
+        <reimplements refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a7e1063ba33c201d23949898ee25b8871">Finish</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="83" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a7dc07bfcf9b941a59567d9a880399557" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.Fluidics.RunPumpingThread.AbortWork</definition>
+        <argsstring>()</argsstring>
+        <name>AbortWork</name>
+        <reimplements refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a88d18ca0cba84f497117a8eecc7bf586">AbortWork</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="86" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="86" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a1d1dcf72cbc197c9844956d16fed89fb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Fluidics.RunPumpingThread.RunPullPush</definition>
+        <argsstring>()</argsstring>
+        <name>RunPullPush</name>
+        <briefdescription>
+<para>Pull specified volume from pull path, dispense to push path if the syringer goes to the bottom. Automatically do loops if needed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="100" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="100" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a286ad9c8ca1bafaf011978a53498d854" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Fluidics.RunPumpingThread.RunPull</definition>
+        <argsstring>()</argsstring>
+        <name>RunPull</name>
+        <briefdescription>
+<para>Pull from the selected path. stops if the syringer goes to the bottom position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="175" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="175" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1aaab084555652ab9c70773636f058e79b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Fluidics.RunPumpingThread.RunPush</definition>
+        <argsstring>()</argsstring>
+        <name>RunPush</name>
+        <briefdescription>
+<para>Push to the selected path. stops if the syringer goes to the top position. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="203" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="203" bodyend="227"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1123">
+        <label>Sequlite.ALF.Fluidics.RunPumpingThread</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread"/>
+        <childnode refid="1124" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1124">
+        <label>ThreadBase</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_thread_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1125">
+        <label>Sequlite.ALF.Fluidics.RunPumpingThread</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread"/>
+        <childnode refid="1126" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1127" relation="usage">
+          <edgelabel>_PumpingSettings</edgelabel>
+        </childnode>
+        <childnode refid="1128" relation="usage">
+          <edgelabel>_Valve</edgelabel>
+        </childnode>
+        <childnode refid="1129" relation="usage">
+          <edgelabel>_Pump</edgelabel>
+        </childnode>
+      </node>
+      <node id="1127">
+        <label>Sequlite.ALF.Fluidics.PumpingSettings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings"/>
+      </node>
+      <node id="1126">
+        <label>ThreadBase</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_thread_base"/>
+      </node>
+      <node id="1129">
+        <label>Sequlite.ALF.Fluidics.PumpController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller"/>
+        <childnode refid="1130" relation="usage">
+          <edgelabel>_Answer</edgelabel>
+        </childnode>
+        <childnode refid="1131" relation="usage">
+          <edgelabel>_DTAnswer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1131">
+        <label>Sequlite.ALF.Fluidics.PumpDTProtocol</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol"/>
+      </node>
+      <node id="1130">
+        <label>Sequlite.ALF.Fluidics.PumpOEMProtocol</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol"/>
+      </node>
+      <node id="1128">
+        <label>Sequlite.ALF.Fluidics.ValveController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="7" bodyend="231"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a783784c779d9f40b28dd62f4203d3ccb" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_AutoResetEvent</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a51daac4b01affda302b8c9e901b85d8a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_CallingDispatcher</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1adbe83bfa26413c421095eaa24e9f20b7" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_CommandSyncObject</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a3cab4efa3a31cae3053675b85a6f69d4" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_Error</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ae08da82f1b87bf2fa4d49425a5f667b2" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_ExitStat</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a22b9863c9510108ba10b0799a6629595" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_IsOutOfMemory</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a50b00599c9f9c254e5d275fc4b23c862" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_IsProcessCanceled</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a347183064453e8ceaae922b211609c63" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_Pump</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1aa9a901f3ad7740d6cb13fba0a218b4f4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_PumpingSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1afeb6f93dbbb3bff6cdba8294656ac930" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_PumpPosToVolFactor</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a875909622ecece6935fb1912352cfcad" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_simulation</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a9ccc20d1a114871ba40efce6e7dd3eef" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_ThreadHandle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1af2fbf805d251f4ee7324bf4b298f23b5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>_Valve</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a47ff6f3598522a1e3fd17a5d3a912e0f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>Abort</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a7dc07bfcf9b941a59567d9a880399557" prot="public" virt="virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>AbortWork</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a70f7ee3d7cdea4f0dfd04ebd565f1066" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>CommandCompletedHandler</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a6a61f5ba3acc838bd56e5c37c81e198d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>Completed</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a9d630019081a6ee79e140289cad5378c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>Error</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0804deade854e88000875b7db2478150" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>ExitStat</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a9daa55b2070c9988a7f9faded6a7fb7c" prot="public" virt="virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>Finish</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1ac0eb61400193e34ec91772e1635cf56c" prot="public" virt="virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>Initialize</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0fc2ffe2776eb9cde844a22c3a84cf0b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>IsAlive</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ae52ad7ae28d438cb3cc56646aa1a0d8e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>IsOutOfMemory</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a31a64a977de5e15e6ff3754fa03d7f66" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>IsSimulationMode</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a05f62d4820e9be8059e4b53188055bda" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>Join</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ad37c0e588219e7b5ed88cdc3f1b5cbb0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>Name</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a286ad9c8ca1bafaf011978a53498d854" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>RunPull</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a1d1dcf72cbc197c9844956d16fed89fb" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>RunPullPush</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1aa934660bed835042a28538dc101deec6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>RunPumpingThread</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1aaab084555652ab9c70773636f058e79b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>RunPush</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a82654757ec970eb1baa2ffc62ca4e18d" prot="protected" virt="virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>SimulateThreadFunction</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1adbe9d79b75bb3de28d033f19b8e64ade" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>Start</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ac492d5cef5e12d445b1a42a05f3a3ac2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>Stop</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a2eba514dac15b3d238558a47c8410ab3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>ThreadBase</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0ae32b8605809e5183eaec8a37a1aef9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>ThreadExitStat</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a6f24d42ae04ee027a84fa16d6637e9d7" prot="public" virt="virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>ThreadFunction</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a2d010ff2f64d5f8edfa5c08174a14255" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::RunPumpingThread</scope><name>ThreadHandle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

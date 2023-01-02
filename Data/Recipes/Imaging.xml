@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recipe Name="b25_Inc" CreatedTime="7/24/2020 10:12:18 AM" UpdatedTime="9/2/2020 10:09:12 AM" ToolVersion=" 3.2.2.0">
+  <Steps>
+    <Step StepName="Capture Image" IsAutoFocusOn="True">
+      <Regions>
+        <Region Index="0" Lane="1" Column="1" Row="1">
+          <Imagings>
+            <Imaging Channel="[G]" Exposure="[0.1]" Intensity="[40]" Filter="Filter1" />
+            <Imaging Channel="[R]" Exposure="[0.1]" Intensity="[50]" Filter="Filter3" />
+          </Imagings>
+          <Focuses>
+            <Focus Name="" Pos="0" />
+            <Focus Name="" Pos="0" />
+          </Focuses>
+        </Region>
+      </Regions>
+    </Step>
+  </Steps>
+</Recipe>

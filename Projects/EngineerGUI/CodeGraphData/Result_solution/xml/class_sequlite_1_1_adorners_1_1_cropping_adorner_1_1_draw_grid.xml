@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid" kind="class" prot="private">
+    <compoundname>Sequlite::Adorners::CroppingAdorner::DrawGrid</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Thumb</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid_1a4fb3afb2a5e3bc5d713c51927915da8e" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect Sequlite.Adorners.CroppingAdorner.DrawGrid.rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <initializer>= new Rect()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="544" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="544" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid_1a15e99570c9f464ddb58475d2b03a6b4b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Adorners.CroppingAdorner.DrawGrid.DrawGrid</definition>
+        <argsstring>(Rect rect1)</argsstring>
+        <name>DrawGrid</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="547" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="547" bodyend="552"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid_1af819e993763c034868c8d83afaa21e1b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Visual</type>
+        <definition>override Visual Sequlite.Adorners.CroppingAdorner.DrawGrid.GetVisualChild</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetVisualChild</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="556" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="556" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid_1aee7b4d5d8787c295c71b4120cba8ff00" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.Adorners.CroppingAdorner.DrawGrid.OnRender</definition>
+        <argsstring>(DrawingContext drawingContext)</argsstring>
+        <name>OnRender</name>
+        <param>
+          <type>DrawingContext</type>
+          <declname>drawingContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="561" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="561" bodyend="587"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="358">
+        <label>Sequlite.Adorners.CroppingAdorner.DrawGrid</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid"/>
+        <childnode refid="359" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="359">
+        <label>Thumb</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="360">
+        <label>Sequlite.Adorners.CroppingAdorner.DrawGrid</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid"/>
+        <childnode refid="361" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="361">
+        <label>Thumb</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="542" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="541" bodyend="589"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid_1a15e99570c9f464ddb58475d2b03a6b4b" prot="package" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner::DrawGrid</scope><name>DrawGrid</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid_1af819e993763c034868c8d83afaa21e1b" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner::DrawGrid</scope><name>GetVisualChild</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid_1aee7b4d5d8787c295c71b4120cba8ff00" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner::DrawGrid</scope><name>OnRender</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid_1a4fb3afb2a5e3bc5d713c51927915da8e" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner::DrawGrid</scope><name>rect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

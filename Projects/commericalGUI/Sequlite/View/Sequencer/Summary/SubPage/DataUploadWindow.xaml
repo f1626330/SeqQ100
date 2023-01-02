@@ -1,0 +1,43 @@
+﻿<Window x:Class="Sequlite.UI.View.DataUploadWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.UI.View"
+              xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             mc:Ignorable="d" Title="Upload Data" WindowStartupLocation="CenterOwner"
+        WindowStyle="{Binding WinStyle}" Height="275" Width="704.8"
+        wpfFramework:WindowClosingBehavior.Closing="{Binding WindowClosing}" 
+        
+        >
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/PageViewDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <local:DataTransferDefaultPage Grid.Row="0" DataContext="{Binding DataTransferVM}" Margin="2"/>
+        <Border Grid.Row="1" Margin="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <!--<Button Grid.Column="0" Content="Close" HorizontalAlignment="Center" Margin="5" MinWidth="80" Padding="4" 
+                       Command="{Binding OKCommand}"
+                       />-->
+                <Button Grid.Column="0" Content="Cancel" HorizontalAlignment="Center" Margin="5"  MinWidth="80" 
+                     
+                        Command="{Binding OKCommand}" />
+                <TextBlock Text="{Binding DataUploadError}" Foreground="Red" Grid.Column="1" Style="{StaticResource bigTextBlockStyle}"
+                           VerticalAlignment="Center" HorizontalAlignment="Left"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

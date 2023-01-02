@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11A1623A-E83D-450D-A013-F54BF2887715}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sequlite.ALF.Imaging</RootNamespace>
+    <AssemblyName>Sequlite.ALF.Imaging</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>..\..\RuleSets\SequliteRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>..\..\RuleSets\SequliteRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoFocusChannelOffset.cs" />
+    <Compile Include="AutoFocusCommand.cs" />
+    <Compile Include="AutoFocusCommand2.cs" />
+    <Compile Include="AutoFocusCommandBase.cs" />
+    <Compile Include="AutofocusOnFluoV1.cs" />
+    <Compile Include="AutofocusOnFluoV2.cs" />
+    <Compile Include="AutoFocusTiltFid.cs" />
+    <Compile Include="CameraModeSettings.cs" />
+    <Compile Include="CoarseAutoFocusCommand.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="ImageCaptureCommand.cs" />
+    <Compile Include="ImageChannelSettings.cs" />
+    <Compile Include="ImageInfo.cs" />
+    <Compile Include="ImageLiveCommand.cs" />
+    <Compile Include="Interface\IImage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadMetadata.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Hywire.CommLibrary\Hywire.CommLibrary.csproj">
+      <Project>{4007B575-FEE9-4959-B81A-436E51258451}</Project>
+      <Name>Hywire.CommLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.Common\Sequlite.ALF.Common.csproj">
+      <Project>{62DBA0E8-7F0C-4575-A907-B0D153F51524}</Project>
+      <Name>Sequlite.ALF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.MainBoard\Sequlite.ALF.MainBoard.csproj">
+      <Project>{c7850d7d-a231-4ce4-bc75-9787f59bcc75}</Project>
+      <Name>Sequlite.ALF.MainBoard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.MotionControl\Sequlite.ALF.MotionControl.csproj">
+      <Project>{0d77fd7c-df0d-4c9e-91dd-0c19b118edaf}</Project>
+      <Name>Sequlite.ALF.MotionControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.ALF.SerialPeripherals\Sequlite.ALF.SerialPeripherals.csproj">
+      <Project>{012C1A13-7463-4845-AE77-E1F5C30FC228}</Project>
+      <Name>Sequlite.ALF.SerialPeripherals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.CameraLib\Sequlite.CameraLib.csproj">
+      <Project>{50e85e96-5a2f-46a9-87d3-9407981aeea1}</Project>
+      <Name>Sequlite.CameraLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sequlite.Image.Processing\Sequlite.Image.Processing.csproj">
+      <Project>{AEB73D39-8F98-4B1E-83F9-B50477299774}</Project>
+      <Name>Sequlite.Image.Processing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

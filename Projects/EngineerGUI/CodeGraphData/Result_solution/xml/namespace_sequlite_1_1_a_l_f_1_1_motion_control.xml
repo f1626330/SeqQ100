@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_motion_control" kind="namespace">
+    <compoundname>Sequlite::ALF::MotionControl</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_galil_control" prot="public">Sequlite::ALF::MotionControl::GalilControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_hywire_galil_control" prot="public">Sequlite::ALF::MotionControl::HywireGalilControl</innerclass>
+    <innerclass refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct" prot="package">Sequlite::ALF::MotionControl::DataRecordStruct</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_bytes_to_struct_converter" prot="package">Sequlite::ALF::MotionControl::BytesToStructConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control" prot="public">Sequlite::ALF::MotionControl::MagellanControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller" prot="public">Sequlite::ALF::MotionControl::MotionController</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46" prot="public" static="no">
+        <name>GalilCommandSet</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a96a5edf723bef9388a4c46da14eeacbb" prot="public">
+          <name>HaltThread</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a11a755d598c0c417f9a36758c3da7481" prot="public">
+          <name>Stop</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46ab157190628586f5d82135d2e2e439751" prot="public">
+          <name>ServoHere</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a44877c6aa8e93fa5a91c9361211464fb" prot="public">
+          <name>Speed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a8cf04a9734132302f96da8e113e80ce5" prot="public">
+          <name>Home</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a1a06729125544cab7cee73195fc044f0" prot="public">
+          <name>Begin</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a3b926d163371fd620b09b63219b12f52" prot="public">
+          <name>Acceleration</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a6ff29012dd217a6a7a5346f1950846bc" prot="public">
+          <name>Deceleration</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a0c8f37c8b8c12f6acb6291caa9161350" prot="public">
+          <name>PositionAbsolute</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a93fe207c7262d25cde978326e457a0ad" prot="public">
+          <name>PositionRelative</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a597c5d8ee6a40f9b9e7dcb74d3109676" prot="public">
+          <name>SwitchDeceleration</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/GalilControl.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/GalilControl.cs" bodystart="5" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/GalilControl.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

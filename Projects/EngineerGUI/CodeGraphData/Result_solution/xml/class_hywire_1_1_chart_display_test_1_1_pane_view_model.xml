@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_chart_display_test_1_1_pane_view_model" kind="class" prot="public">
+    <compoundname>Hywire::ChartDisplayTest::PaneViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_chart_display_test_1_1_file_view_model" prot="public" virt="non-virtual">Hywire.ChartDisplayTest.FileViewModel</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1ac0580e4e05d12b15d7618a2d78041e8c" prot="private" static="no" mutable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ChartDisplayTest.PaneViewModel._CloseCommand</definition>
+        <argsstring></argsstring>
+        <name>_CloseCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" line="11" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1a57c6ddcbb92b769572cdafd99d795f27" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Hywire.ChartDisplayTest.PaneViewModel._IsClosed</definition>
+        <argsstring></argsstring>
+        <name>_IsClosed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" line="24" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1aeb504d8ac6eeb32d9862a39ab7d39d5d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Hywire.ChartDisplayTest.PaneViewModel._CanClose</definition>
+        <argsstring></argsstring>
+        <name>_CanClose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" line="40" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1adc6c06d6ed5bdd00068d8154e2b4aff2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Hywire.ChartDisplayTest.PaneViewModel._Title</definition>
+        <argsstring></argsstring>
+        <name>_Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" line="56" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1a4fc94c608dc63b2a4020881e4a3145b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ChartDisplayTest.PaneViewModel.CloseCommand</definition>
+        <argsstring></argsstring>
+        <name>CloseCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" line="12" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1a9083e8cc697e3e6db9e4b775e8b17769" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.ChartDisplayTest.PaneViewModel.IsClosed</definition>
+        <argsstring></argsstring>
+        <name>IsClosed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" line="25" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1afc15ad134ae1766d63e25d1d84c67eeb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.ChartDisplayTest.PaneViewModel.CanClose</definition>
+        <argsstring></argsstring>
+        <name>CanClose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" line="41" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1ac8c80a674400a6e880e913430c7df1f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Hywire.ChartDisplayTest.PaneViewModel.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" line="57" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1ad78961912b8efd37417b44ac7369a2b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ChartDisplayTest.PaneViewModel.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" line="73" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="865">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="863">
+        <label>Hywire.ChartDisplayTest.PaneViewModel</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model"/>
+        <childnode refid="864" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="866">
+        <label>IDisposable</label>
+      </node>
+      <node id="864">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="865" relation="public-inheritance">
+        </childnode>
+        <childnode refid="866" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="867">
+        <label>Hywire.ChartDisplayTest.FileViewModel</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_file_view_model"/>
+        <childnode refid="863" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="870">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="868">
+        <label>Hywire.ChartDisplayTest.PaneViewModel</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model"/>
+        <childnode refid="869" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="871">
+        <label>IDisposable</label>
+      </node>
+      <node id="869">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="870" relation="public-inheritance">
+        </childnode>
+        <childnode refid="871" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" line="7" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/PaneViewModel.cs" bodystart="6" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1aeb504d8ac6eeb32d9862a39ab7d39d5d" prot="private" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>_CanClose</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1ac0580e4e05d12b15d7618a2d78041e8c" prot="private" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>_CloseCommand</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1a57c6ddcbb92b769572cdafd99d795f27" prot="private" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>_IsClosed</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1adc6c06d6ed5bdd00068d8154e2b4aff2" prot="private" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>_Title</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1afc15ad134ae1766d63e25d1d84c67eeb" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>CanClose</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1ad78961912b8efd37417b44ac7369a2b1" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>Close</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1a4fc94c608dc63b2a4020881e4a3145b1" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>CloseCommand</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>Dispose</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1a9083e8cc697e3e6db9e4b775e8b17769" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>IsClosed</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1ac8c80a674400a6e880e913430c7df1f5" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::PaneViewModel</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

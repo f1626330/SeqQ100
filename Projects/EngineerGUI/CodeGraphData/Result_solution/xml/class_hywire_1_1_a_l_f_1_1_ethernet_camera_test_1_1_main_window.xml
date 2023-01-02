@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_main_window" kind="class" prot="public">
+    <compoundname>Hywire::ALF::EthernetCameraTest::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_main_window_1a85429b9825271b35c5d84bbfcfb6a46b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.EthernetCameraTest.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/MainWindow.xaml.cs" line="10" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/MainWindow.xaml.cs" bodystart="10" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_main_window_1a6007d07217ee13668fca2aa15104c235" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.EthernetCameraTest.MainWindow.Window_Closing</definition>
+        <argsstring>(object sender, System.ComponentModel.CancelEventArgs e)</argsstring>
+        <name>Window_Closing</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.ComponentModel.CancelEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/MainWindow.xaml.cs" line="16" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/MainWindow.xaml.cs" bodystart="16" bodyend="22"/>
+        <references refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_workspace_1a4be31022557a99ef2130f1f6ebab14f5" compoundref="_test_bench_2_hywire_8_a_l_f_8_ethernet_camera_test_2_workspace_8cs" startline="81" endline="89">Hywire.ALF.EthernetCameraTest.Workspace.AppClosingProcess</references>
+        <references refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_workspace_1ad9ba0073489210baf690d10a8a62815e" compoundref="_test_bench_2_hywire_8_a_l_f_8_ethernet_camera_test_2_workspace_8cs" startline="18">Hywire.ALF.EthernetCameraTest.Workspace.This</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MainWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="739">
+        <label>Window</label>
+      </node>
+      <node id="738">
+        <label>Hywire.ALF.EthernetCameraTest.MainWindow</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_main_window"/>
+        <childnode refid="739" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="741">
+        <label>Window</label>
+      </node>
+      <node id="740">
+        <label>Hywire.ALF.EthernetCameraTest.MainWindow</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_main_window"/>
+        <childnode refid="741" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/MainWindow.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/MainWindow.xaml.cs" bodystart="8" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_main_window_1a85429b9825271b35c5d84bbfcfb6a46b" prot="public" virt="non-virtual"><scope>Hywire::ALF::EthernetCameraTest::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_main_window_1a6007d07217ee13668fca2aa15104c235" prot="private" virt="non-virtual"><scope>Hywire::ALF::EthernetCameraTest::MainWindow</scope><name>Window_Closing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

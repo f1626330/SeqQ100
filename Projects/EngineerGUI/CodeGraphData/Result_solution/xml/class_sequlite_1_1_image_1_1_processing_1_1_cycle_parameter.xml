@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::CycleParameter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter_1a15b57d87e1b8bdd4ff90b188675773b5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.CycleParameter.cycle</definition>
+        <argsstring></argsstring>
+        <name>cycle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter_1a887870fef9235bf4d9f1b4d84e95f1e0" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; int, float &gt;</type>
+        <definition>Dictionary&lt;int, float&gt; Sequlite.Image.Processing.CycleParameter._colorVals</definition>
+        <argsstring></argsstring>
+        <name>_colorVals</name>
+        <initializer>= new Dictionary&lt;int, float&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter_1ab9de3934cf9620678aabf110416e71dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.CycleParameter.CycleParameter</definition>
+        <argsstring>(int cycle)</argsstring>
+        <name>CycleParameter</name>
+        <param>
+          <type>int</type>
+          <declname>cycle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter_1a3fe7ef15bf6e70595572a3fae60b4835" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.CycleParameter.Add</definition>
+        <argsstring>(int color, float value)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>int</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter_1a0347e32c6d5cdf1b643e51b81ff2c06b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float Sequlite.Image.Processing.CycleParameter.GetColor</definition>
+        <argsstring>(int clr)</argsstring>
+        <name>GetColor</name>
+        <param>
+          <type>int</type>
+          <declname>clr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" bodystart="24" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/CycleParameter.cs" bodystart="8" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter_1a887870fef9235bf4d9f1b4d84e95f1e0" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CycleParameter</scope><name>_colorVals</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter_1a3fe7ef15bf6e70595572a3fae60b4835" prot="package" virt="non-virtual"><scope>Sequlite::Image::Processing::CycleParameter</scope><name>Add</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter_1a15b57d87e1b8bdd4ff90b188675773b5" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CycleParameter</scope><name>cycle</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter_1ab9de3934cf9620678aabf110416e71dc" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CycleParameter</scope><name>CycleParameter</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter_1a0347e32c6d5cdf1b643e51b81ff2c06b" prot="package" virt="non-virtual"><scope>Sequlite::Image::Processing::CycleParameter</scope><name>GetColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

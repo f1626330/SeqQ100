@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_motion_control_1_1_motion_state" kind="class" prot="public">
+    <compoundname>Hywire::MotionControl::MotionState</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_state_1a8540a2e3a272faf539cea4ee48343d27" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionState.IsEnabled</definition>
+        <argsstring></argsstring>
+        <name>IsEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="679" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="679" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_state_1a3c601e03a40a4e89f60eb3744a76159f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionState.IsAtFwdLimit</definition>
+        <argsstring></argsstring>
+        <name>IsAtFwdLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="680" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="680" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_state_1a630173ee6219d960a9a6ddebf86b06fd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionState.IsAtBwdLimit</definition>
+        <argsstring></argsstring>
+        <name>IsAtBwdLimit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="681" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="681" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_state_1af68e5f8fd4699ac9537ea1b6e3f29eac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionState.IsAtHome</definition>
+        <argsstring></argsstring>
+        <name>IsAtHome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="682" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="682" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_motion_state_1ae177985762e44126e3546d49627037b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControl.MotionState.IsBusy</definition>
+        <argsstring></argsstring>
+        <name>IsBusy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="683" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="683" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_motion_state_1ab43bcae703986f7ff6cb1adf5985bfe3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.MotionControl.MotionState.MapFromData</definition>
+        <argsstring>(byte state)</argsstring>
+        <name>MapFromData</name>
+        <param>
+          <type>byte</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="685" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="685" bodyend="692"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" line="678" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/HywireController.cs" bodystart="677" bodyend="693"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_state_1a630173ee6219d960a9a6ddebf86b06fd" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionState</scope><name>IsAtBwdLimit</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_state_1a3c601e03a40a4e89f60eb3744a76159f" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionState</scope><name>IsAtFwdLimit</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_state_1af68e5f8fd4699ac9537ea1b6e3f29eac" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionState</scope><name>IsAtHome</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_state_1ae177985762e44126e3546d49627037b1" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionState</scope><name>IsBusy</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_state_1a8540a2e3a272faf539cea4ee48343d27" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionState</scope><name>IsEnabled</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_motion_state_1ab43bcae703986f7ff6cb1adf5985bfe3" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::MotionState</scope><name>MapFromData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

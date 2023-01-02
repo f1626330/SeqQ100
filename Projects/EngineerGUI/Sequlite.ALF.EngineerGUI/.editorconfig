@@ -1,0 +1,10 @@
+﻿[*.cs]
+
+# IDE0017: Simplify object initialization
+dotnet_style_object_initializer = false:suggestion
+
+# IDE0059: Unnecessary assignment of a value
+csharp_style_unused_value_assignment_preference = discard_variable:silent
+
+# IDE0044: Add readonly modifier
+dotnet_style_readonly_field = false:suggestion

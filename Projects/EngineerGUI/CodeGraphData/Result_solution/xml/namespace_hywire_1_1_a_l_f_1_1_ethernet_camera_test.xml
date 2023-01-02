@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_hywire_1_1_a_l_f_1_1_ethernet_camera_test" kind="namespace">
+    <compoundname>Hywire::ALF::EthernetCameraTest</compoundname>
+    <innerclass refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_app" prot="public">Hywire::ALF::EthernetCameraTest::App</innerclass>
+    <innerclass refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_camera_control_view_model" prot="public">Hywire::ALF::EthernetCameraTest::CameraControlViewModel</innerclass>
+    <innerclass refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_control_panel" prot="public">Hywire::ALF::EthernetCameraTest::ControlPanel</innerclass>
+    <innerclass refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_main_window" prot="public">Hywire::ALF::EthernetCameraTest::MainWindow</innerclass>
+    <innerclass refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_workspace" prot="public">Hywire::ALF::EthernetCameraTest::Workspace</innerclass>
+    <innernamespace refid="namespace_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_properties">Hywire::ALF::EthernetCameraTest::Properties</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1a206a555bf90f190c3d0db2cf6b0216e4" prot="public" static="no">
+        <name>CaptureTypes</name>
+        <enumvalue id="namespace_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1a206a555bf90f190c3d0db2cf6b0216e4a66ba162102bbf6ae31b522aec561735e" prot="public">
+          <name>Single</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1a206a555bf90f190c3d0db2cf6b0216e4ac7b4a7b11db72be8e0755d14d63d0a58" prot="public">
+          <name>Continous</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1a206a555bf90f190c3d0db2cf6b0216e4a11a755d598c0c417f9a36758c3da7481" prot="public">
+          <name>Stop</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/Workspace.cs" line="10" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/Workspace.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/App.xaml.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

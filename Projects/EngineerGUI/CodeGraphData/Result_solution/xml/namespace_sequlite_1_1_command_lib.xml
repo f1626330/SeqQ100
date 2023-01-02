@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_command_lib" kind="namespace">
+    <compoundname>Sequlite::CommandLib</compoundname>
+    <innerclass refid="class_sequlite_1_1_command_lib_1_1_base_command" prot="public">Sequlite::CommandLib::BaseCommand</innerclass>
+    <innerclass refid="class_sequlite_1_1_command_lib_1_1_command_mediator" prot="public">Sequlite::CommandLib::CommandMediator</innerclass>
+    <innerclass refid="class_sequlite_1_1_command_lib_1_1_execution_state" prot="public">Sequlite::CommandLib::ExecutionState</innerclass>
+    <innerclass refid="interface_sequlite_1_1_command_lib_1_1_i_logger" prot="public">Sequlite::CommandLib::ILogger</innerclass>
+    <innerclass refid="class_sequlite_1_1_command_lib_1_1_parallel_command" prot="public">Sequlite::CommandLib::ParallelCommand</innerclass>
+    <innerclass refid="class_sequlite_1_1_command_lib_1_1_serial_command" prot="public">Sequlite::CommandLib::SerialCommand</innerclass>
+    <innerclass refid="class_sequlite_1_1_command_lib_1_1_thread_base" prot="public">Sequlite::CommandLib::ThreadBase</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_command_lib_1adc5a29b22e0b03d81283d0c6816dd40a" prot="public" static="no">
+        <name>CommandMediatorState</name>
+        <enumvalue id="namespace_sequlite_1_1_command_lib_1adc5a29b22e0b03d81283d0c6816dd40aae599161956d626eda4cb0a5ffb85271c" prot="public">
+          <name>Idle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>summary&gt; <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref> is idle and not processing commands. /summary&gt; summary&gt; <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref> is busy processing commands. /summary&gt; </para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_command_lib_1adc5a29b22e0b03d81283d0c6816dd40aad8a942ef2b04672adfafef0ad817a407" prot="public">
+          <name>Busy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" bodystart="14" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_sequlite_1_1_command_lib_1ada4643f622f4c8af2f011c37f9292a93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.CommandLib.CommandCompletedHandler</definition>
+        <argsstring>(BaseCommand sender, ExecutionState execState)</argsstring>
+        <name>CommandCompletedHandler</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_base_command" kindref="compound">BaseCommand</ref></type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref></type>
+          <declname>execState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="7" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_sequlite_1_1_command_lib_1a666eb32ea80497f12f00b9445a92bcf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.CommandLib.ExceptionDelegate</definition>
+        <argsstring>(CommandMediator sender, Exception handledException)</argsstring>
+        <name>ExceptionDelegate</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref></type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>handledException</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_sequlite_1_1_command_lib_1a15c6ef1fd710f46e46eaa72dec0f09df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.CommandLib.StateChangedDelegate</definition>
+        <argsstring>(CommandMediator sender, CommandMediatorState state)</argsstring>
+        <name>StateChangedDelegate</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref></type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_command_lib_1adc5a29b22e0b03d81283d0c6816dd40a" kindref="member">CommandMediatorState</ref></type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_sequlite_1_1_command_lib_1a67eaa71c136decb16e7826bac77dcb8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.CommandLib.StatusUpdateDelegate</definition>
+        <argsstring>(CommandMediator sender, string status)</argsstring>
+        <name>StatusUpdateDelegate</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref></type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/CommandMediator.cs" line="30" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

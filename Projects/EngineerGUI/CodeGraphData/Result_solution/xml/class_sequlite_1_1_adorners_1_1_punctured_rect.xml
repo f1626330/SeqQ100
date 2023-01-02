@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_adorners_1_1_punctured_rect" kind="class" prot="public">
+    <compoundname>Sequlite::Adorners::PuncturedRect</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Shape</basecompoundref>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_punctured_rect_1a0a46a51a2e9b101d20a7132b00247de5" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty Sequlite.Adorners.PuncturedRect.RectInteriorProperty</definition>
+        <argsstring></argsstring>
+        <name>RectInteriorProperty</name>
+        <initializer>=
+            DependencyProperty.Register(
+                &quot;RectInterior&quot;,
+                typeof(Rect),
+                typeof(FrameworkElement),
+                new FrameworkPropertyMetadata(
+                    new Rect(0, 0, 0, 0),
+                    FrameworkPropertyMetadataOptions.AffectsRender,
+                    null,
+                    new CoerceValueCallback(<ref refid="class_sequlite_1_1_adorners_1_1_punctured_rect_1a87af57fd8a0ed5f87c3ddf7027fbfd88" kindref="member">CoerceRectInterior</ref>),
+                    false
+                ),
+                null
+            )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_punctured_rect_1a5ffdbc87c3ea9a719a6a640d027ed8cf" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty Sequlite.Adorners.PuncturedRect.RectExteriorProperty</definition>
+        <argsstring></argsstring>
+        <name>RectExteriorProperty</name>
+        <initializer>=
+            DependencyProperty.Register(
+                &quot;RectExterior&quot;,
+                typeof(Rect),
+                typeof(FrameworkElement),
+                new FrameworkPropertyMetadata(
+                    new Rect(0, 0, double.MaxValue, double.MaxValue),
+                    FrameworkPropertyMetadataOptions.AffectsMeasure |
+                    FrameworkPropertyMetadataOptions.AffectsArrange |
+                    FrameworkPropertyMetadataOptions.AffectsParentMeasure |
+                    FrameworkPropertyMetadataOptions.AffectsParentArrange |
+                    FrameworkPropertyMetadataOptions.AffectsRender,
+                    null,
+                    null,
+                    false
+                ),
+                null
+            )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" line="47" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_punctured_rect_1a838ca9c3f9b58a7c9e6990dbc537131b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Rect</type>
+        <definition>Rect Sequlite.Adorners.PuncturedRect.RectInterior</definition>
+        <argsstring></argsstring>
+        <name>RectInterior</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_punctured_rect_1ae64a162698e55314f17e50fde2b28c6d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Rect</type>
+        <definition>Rect Sequlite.Adorners.PuncturedRect.RectExterior</definition>
+        <argsstring></argsstring>
+        <name>RectExterior</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" line="66" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_punctured_rect_1a88098b245f7138f2ec08bac838097197" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override Geometry</type>
+        <definition>override Geometry Sequlite.Adorners.PuncturedRect.DefiningGeometry</definition>
+        <argsstring></argsstring>
+        <name>DefiningGeometry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" line="84" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_punctured_rect_1a87af57fd8a0ed5f87c3ddf7027fbfd88" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Sequlite.Adorners.PuncturedRect.CoerceRectInterior</definition>
+        <argsstring>(DependencyObject d, object value)</argsstring>
+        <name>CoerceRectInterior</name>
+        <param>
+          <type>DependencyObject</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" bodystart="27" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_punctured_rect_1a37d5cb5d19a41a834aa59b900c827a62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Adorners.PuncturedRect.PuncturedRect</definition>
+        <argsstring>()</argsstring>
+        <name>PuncturedRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" line="74" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" bodystart="74" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_punctured_rect_1a10884c36ce2e68264e27a83a4c3c518c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Adorners.PuncturedRect.PuncturedRect</definition>
+        <argsstring>(Rect rectExterior, Rect rectInterior)</argsstring>
+        <name>PuncturedRect</name>
+        <param>
+          <type>Rect</type>
+          <declname>rectExterior</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>rectInterior</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" line="76" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" bodystart="76" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="931">
+        <label>Shape</label>
+      </node>
+      <node id="930">
+        <label>Sequlite.Adorners.PuncturedRect</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_punctured_rect"/>
+        <childnode refid="931" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="933">
+        <label>Shape</label>
+      </node>
+      <node id="932">
+        <label>Sequlite.Adorners.PuncturedRect</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_punctured_rect"/>
+        <childnode refid="933" relation="public-inheritance">
+        </childnode>
+        <childnode refid="934" relation="usage">
+          <edgelabel>RectExteriorProperty</edgelabel>
+          <edgelabel>RectInteriorProperty</edgelabel>
+        </childnode>
+      </node>
+      <node id="934">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/PuncturedRect.cs" bodystart="9" bodyend="112"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_adorners_1_1_punctured_rect_1a87af57fd8a0ed5f87c3ddf7027fbfd88" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::PuncturedRect</scope><name>CoerceRectInterior</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_punctured_rect_1a88098b245f7138f2ec08bac838097197" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::PuncturedRect</scope><name>DefiningGeometry</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_punctured_rect_1a37d5cb5d19a41a834aa59b900c827a62" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::PuncturedRect</scope><name>PuncturedRect</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_punctured_rect_1a10884c36ce2e68264e27a83a4c3c518c" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::PuncturedRect</scope><name>PuncturedRect</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_punctured_rect_1ae64a162698e55314f17e50fde2b28c6d" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::PuncturedRect</scope><name>RectExterior</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_punctured_rect_1a5ffdbc87c3ea9a719a6a640d027ed8cf" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::PuncturedRect</scope><name>RectExteriorProperty</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_punctured_rect_1a838ca9c3f9b58a7c9e6990dbc537131b" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::PuncturedRect</scope><name>RectInterior</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_punctured_rect_1a0a46a51a2e9b101d20a7132b00247de5" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::PuncturedRect</scope><name>RectInteriorProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

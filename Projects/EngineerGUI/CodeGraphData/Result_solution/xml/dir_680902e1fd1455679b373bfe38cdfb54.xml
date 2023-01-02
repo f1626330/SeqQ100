@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_680902e1fd1455679b373bfe38cdfb54" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.CommandLib</compoundname>
+    <innerdir refid="dir_d336b72c1d5c922a256e5836119b9052">D:/Source/Alf/Libraries/Sequlite.CommandLib/Properties</innerdir>
+    <innerfile refid="_base_command_8cs">BaseCommand.cs</innerfile>
+    <innerfile refid="_command_mediator_8cs">CommandMediator.cs</innerfile>
+    <innerfile refid="_execution_state_8cs">ExecutionState.cs</innerfile>
+    <innerfile refid="_i_logger_8cs">ILogger.cs</innerfile>
+    <innerfile refid="_parallel_command_8cs">ParallelCommand.cs</innerfile>
+    <innerfile refid="_serial_command_8cs">SerialCommand.cs</innerfile>
+    <innerfile refid="_thread_base_8cs">ThreadBase.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/"/>
+  </compounddef>
+</doxygen>

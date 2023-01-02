@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_run_recipe_step" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::RecipeLib::RunRecipeStep</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" prot="public" virt="non-virtual">Sequlite.ALF.RecipeLib.RecipeStepBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_run_recipe_step_1ae76a6005058a2b65087e44066ead3679" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.RecipeLib.RunRecipeStep.RecipePath</definition>
+        <argsstring></argsstring>
+        <name>RecipePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="271" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_run_recipe_step_1a270d90a5f587e77ad7d4e118314b8093" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.RecipeLib.RunRecipeStep.RunRecipeStep</definition>
+        <argsstring>()</argsstring>
+        <name>RunRecipeStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="272" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="272" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_run_recipe_step_1aa2c70b9cf070effa86b14b45d2aa6fbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Sequlite.ALF.RecipeLib.RunRecipeStep.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="277" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="277" bodyend="280"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1133">
+        <label>RecipeStepBase</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base"/>
+      </node>
+      <node id="1132">
+        <label>Sequlite.ALF.RecipeLib.RunRecipeStep</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_run_recipe_step"/>
+        <childnode refid="1133" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1135">
+        <label>RecipeStepBase</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base"/>
+      </node>
+      <node id="1134">
+        <label>Sequlite.ALF.RecipeLib.RunRecipeStep</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_run_recipe_step"/>
+        <childnode refid="1135" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="270" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="269" bodyend="281"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1a2e2a061fd9087bc80e054c8bb212a95e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RunRecipeStep</scope><name>DisplayName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1a391eb3d128b9fff99595131ba9ecea81" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RunRecipeStep</scope><name>GetStepType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1ac40bd6d4452824c7923713f0d1e27f48" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RunRecipeStep</scope><name>GetTypeName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_run_recipe_step_1ae76a6005058a2b65087e44066ead3679" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RunRecipeStep</scope><name>RecipePath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_run_recipe_step_1a270d90a5f587e77ad7d4e118314b8093" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RunRecipeStep</scope><name>RunRecipeStep</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1a9302231ff7563e8b60087f43d06a9acd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RunRecipeStep</scope><name>StepName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1ad41f9e63e7b0f8105a89448c74d3ddfd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RunRecipeStep</scope><name>StepType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_run_recipe_step_1aa2c70b9cf070effa86b14b45d2aa6fbe" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RunRecipeStep</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

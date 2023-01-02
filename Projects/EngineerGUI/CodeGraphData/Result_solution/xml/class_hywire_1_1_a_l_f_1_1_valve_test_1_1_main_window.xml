@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_main_window" kind="class" prot="public">
+    <compoundname>Hywire::ALF::ValveTest::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_main_window_1a9e6f2698689e86afac8ebf72ee247325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.ValveTest.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/MainWindow.xaml.cs" line="10" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/MainWindow.xaml.cs" bodystart="10" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MainWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="715">
+        <label>Window</label>
+      </node>
+      <node id="714">
+        <label>Hywire.ALF.ValveTest.MainWindow</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_main_window"/>
+        <childnode refid="715" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="717">
+        <label>Window</label>
+      </node>
+      <node id="716">
+        <label>Hywire.ALF.ValveTest.MainWindow</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_main_window"/>
+        <childnode refid="717" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/MainWindow.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/MainWindow.xaml.cs" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_main_window_1a9e6f2698689e86afac8ebf72ee247325" prot="public" virt="non-virtual"><scope>Hywire::ALF::ValveTest::MainWindow</scope><name>MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

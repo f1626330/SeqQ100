@@ -1,0 +1,596 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Fluidics::PumpProtocol</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a7b1cdf0f66808cf6cc751258cb2024c7" prot="public" static="no">
+        <name>BaudrateOptions</name>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a7b1cdf0f66808cf6cc751258cb2024c7a08c808eaf512fd195ea35cc247db22d1" prot="public">
+          <name>Rate_9600</name>
+          <initializer>= 9600</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a7b1cdf0f66808cf6cc751258cb2024c7a3f0180c78b933a5e1a2fac243a0ccf54" prot="public">
+          <name>Rate_38400</name>
+          <initializer>= 38400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" prot="public" static="no">
+        <name>Addresses</name>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9af03bde11d261f185cbacfa32c1c6538c" prot="public">
+          <name>Master</name>
+          <initializer>= 0x30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a498de8a9d5b04327a8a68fe984afefa3" prot="public">
+          <name>Device0</name>
+          <initializer>= 0x31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a88cac26e667fdada9d92529adbdd1c0e" prot="public">
+          <name>Device1</name>
+          <initializer>= 0x32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a94ee41d122fd6ab2d52d2d8e9b9ab33b" prot="public">
+          <name>Device2</name>
+          <initializer>= 0x33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a7d4f3ee8c1780190ce08294ca42fcbe0" prot="public">
+          <name>Device3</name>
+          <initializer>= 0x34</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9ad7d745f0171c03e690fddfdaef9c32f3" prot="public">
+          <name>Device4</name>
+          <initializer>= 0x35</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a1e89918954c74dd7462189310d88f162" prot="public">
+          <name>Device5</name>
+          <initializer>= 0x36</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9ab1eb33ce837149c14c7905fa3d732446" prot="public">
+          <name>Device6</name>
+          <initializer>= 0x37</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a36922049359cbd7a32a6d1378299537a" prot="public">
+          <name>Device7</name>
+          <initializer>= 0x38</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a3944d3ef49dc34bd917541f08862705b" prot="public">
+          <name>Device8</name>
+          <initializer>= 0x39</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a0489b954e84eadca20bec8dbb766ad6d" prot="public">
+          <name>Device9</name>
+          <initializer>= 0x3A</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a2b74499c4cb8b95d14f180c751f815d5" prot="public">
+          <name>Device10</name>
+          <initializer>= 0x3B</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a595eedf099360ea4a21bfe2d4e42a540" prot="public">
+          <name>Device11</name>
+          <initializer>= 0x3C</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9ac2623c9a04f34c5ab8c78c520e411ed2" prot="public">
+          <name>Device12</name>
+          <initializer>= 0x3D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a891659f1e1dfeb1429550e9df36924d9" prot="public">
+          <name>Device13</name>
+          <initializer>= 0x3E</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9a1402fcf96ab460400dfc692298707039" prot="public">
+          <name>Device14</name>
+          <initializer>= 0x3F</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" bodystart="14" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433d" prot="public" static="no">
+        <name>CommandsEnum</name>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433dad65aec89c9a9e0a12a040e43c3ae99b9" prot="public">
+          <name>MicroStepping</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da843a7e4556b45e1c33053aaa3c957bb0" prot="public">
+          <name>SaveConfig</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da842acf9270109b193cdca000220bb238" prot="public">
+          <name>SetBacklashInc</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da1a68a580edd0f262925a66551df9a027" prot="public">
+          <name>InitPlungerValveCW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da5c953095692a872ece279dc1dedf7c9d" prot="public">
+          <name>InitPlungerValveCCW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da5f845a62b747a90880a8de936cf85350" prot="public">
+          <name>InitPlungerOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da565d6ae622ccf19d6ca152c719c58c69" prot="public">
+          <name>InitValveOnly</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433dab8273e15cccadc5fd71dc44cc62b60a8" prot="public">
+          <name>InitSimulation</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da71e1009b38a73bd5ee0546247bb7322d" prot="public">
+          <name>SetZeroGap</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433dabf4ec7f541c05377a7e685189924f339" prot="public">
+          <name>ValveToInput</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da0d8457c6dd0ddb6bedb68f8e5c0da2e0" prot="public">
+          <name>ValveToOutput</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da7fceeb577ebb1986b960c6588e35372b" prot="public">
+          <name>ValveToByPass</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433dacccabf186b915a5dd168d4f6876b44be" prot="public">
+          <name>ValveToExtra</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da4bf98cc999ff45391d21b7f3362f736e" prot="public">
+          <name>AbsPosMove</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da9b781a54570c557410bf755daf8f2612" prot="public">
+          <name>AbsPosIdle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da38b20081649909739e6c7c87bdad979f" prot="public">
+          <name>RelPickupMove</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da6f6dd0e8219f73b7a275280cd193391c" prot="public">
+          <name>RelPickupIdle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da5d6338dc552f86205cd4b911b300eb26" prot="public">
+          <name>RelDispnsMove</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da47b9bcd6990e9e79853802856cd2aedc" prot="public">
+          <name>RelDispnsIdle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da95a11b34b4272974c3080293ceb2d706" prot="public">
+          <name>SetSlope</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433daa2d834d7e9393733726f9d3860222c9b" prot="public">
+          <name>SetStartSpeed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da7c5e03fc2d10ca9049a067d79918c73a" prot="public">
+          <name>SetTopSpeed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da7e889911b5b905fd6853d0be7c7914bf" prot="public">
+          <name>SetSpeed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da7f2ac3dd822be8d714bcce5713ab98a0" prot="public">
+          <name>SetCutoffSpeed</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433dadcebf34c55fd7f74ef5760ab2f344075" prot="public">
+          <name>SetCutoffInc</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da7aac861b6e05bc1c796de9bbe656ba87" prot="public">
+          <name>ExecuteCmd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da055637ebe7c469bf2ded13119a49796d" prot="public">
+          <name>ExecuteLastCmd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433dabc7399be22e2bcd2c7db1aee0638bc84" prot="public">
+          <name>RepeatCmdSq</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da456f2152cb9c176b0820571623cc6941" prot="public">
+          <name>MarkRepeatStart</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433dabd8f887bbdc422e2b7f048de75f80841" prot="public">
+          <name>DelayExecution</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433dadf0ff35cde5f2ba043489908a9017a6a" prot="public">
+          <name>HaltExecution</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433daa605c440e8b493ce94870ee5535cc027" prot="public">
+          <name>TerminateCmd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433daf5fc74aac7b2af3004be384e2d8fcff2" prot="public">
+          <name>AuxiliaryOutput</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da8bff33e9c0bae5802eafd545a1eef0d3" prot="public">
+          <name>ReportAbsPos</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da8eaa120af32860c250c893a13a8ae693" prot="public">
+          <name>ReportStartSpd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da4b4d09d4d8468d566298cf5843c63f25" prot="public">
+          <name>ReportTopSpd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da98bce2f0a09c23ee5c85c448c5ada2f8" prot="public">
+          <name>ReportCutoffSpd</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433da5326f9211d5e406cb15642ee7cf19c3f" prot="public">
+          <name>ReportActPos</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433dae4e2be9e7fa2c2e53ae0467765b0f60e" prot="public">
+          <name>ReportValvePos</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" bodystart="34" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80" prot="public" static="no">
+        <name>ErrorCodes</name>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80ab009fdf15ccb22ad26c60501d11009f0" prot="public">
+          <name>ErrorFree</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80a107b2213738588a537bb006f8bf3d4ce" prot="public">
+          <name>InvalidCmd</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80aeaf8eec70f9bfe8ff0bcee2b3b87adcd" prot="public">
+          <name>InvalidOperand</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80af962c082f22762dce3cf8004c6756ccd" prot="public">
+          <name>InvalidCmdSqc</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80a0347486ee31f5d354ad118bde74b4084" prot="public">
+          <name>PlgMoveNotAllowed</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80ab0d838df9acdc27ab57e2e16a96d155b" prot="public">
+          <name>ErrInitial</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80a9646ad3a1c3e708b4fa8b4b4270fbab6" prot="public">
+          <name>NotInitialized</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80a63da9b2f10eb7ec17240dfd840d5ca1f" prot="public">
+          <name>PlungerOvld</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80aab3f23055fec9034ae285f891e7779a7" prot="public">
+          <name>ValveOvld</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80a867126feab2a1f260f63cd2f91188e13" prot="public">
+          <name>CommandOvfl</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80a90dd0090781aa55260edf5fc4f7a8400" prot="public">
+          <name>E2promFailure</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" line="92" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" bodystart="91" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1abc71de3da4da368d0ba1d7657c15d85f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433d" kindref="member">CommandsEnum</ref>, string &gt;</type>
+        <definition>Dictionary&lt;CommandsEnum, string&gt; Sequlite.ALF.Fluidics.PumpProtocol.CommandsDic</definition>
+        <argsstring></argsstring>
+        <name>CommandsDic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" line="117" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1abb0d7f3ba259e6eec4628e330c1f7c55" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Sequlite.ALF.Fluidics.PumpProtocol.PumpProtocol</definition>
+        <argsstring>()</argsstring>
+        <name>PumpProtocol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" line="121" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" bodystart="121" bodyend="158"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpProtocol.cs" bodystart="5" bodyend="160"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpProtocol</scope><name>Addresses</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a7b1cdf0f66808cf6cc751258cb2024c7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpProtocol</scope><name>BaudrateOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1abc71de3da4da368d0ba1d7657c15d85f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpProtocol</scope><name>CommandsDic</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a82ae9428315bc07fbfbee7da8fce433d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpProtocol</scope><name>CommandsEnum</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpProtocol</scope><name>ErrorCodes</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1abb0d7f3ba259e6eec4628e330c1f7c55" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpProtocol</scope><name>PumpProtocol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

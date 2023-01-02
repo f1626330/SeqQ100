@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_comm_library_1_1_check_sum_calculator" kind="class" prot="public">
+    <compoundname>Hywire::CommLibrary::CheckSumCalculator</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_hywire_1_1_comm_library_1_1_check_sum_calculator_1a0f25a90b1f8ae034b250f5d56e9cb341" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte</type>
+        <definition>static byte Hywire.CommLibrary.CheckSumCalculator.Cal</definition>
+        <argsstring>(byte[] array, int offset, int length)</argsstring>
+        <name>Cal</name>
+        <param>
+          <type>byte[]</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.CommLibrary/CheckSumCalculator.cs" line="5" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.CommLibrary/CheckSumCalculator.cs" bodystart="5" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Hywire.CommLibrary/CheckSumCalculator.cs" line="4" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.CommLibrary/CheckSumCalculator.cs" bodystart="3" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_comm_library_1_1_check_sum_calculator_1a0f25a90b1f8ae034b250f5d56e9cb341" prot="public" virt="non-virtual"><scope>Hywire::CommLibrary::CheckSumCalculator</scope><name>Cal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

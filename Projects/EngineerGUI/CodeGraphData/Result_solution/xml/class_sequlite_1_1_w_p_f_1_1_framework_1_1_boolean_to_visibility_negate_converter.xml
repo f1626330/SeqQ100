@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visibility_negate_converter" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::BooleanToVisibilityNegateConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visibility_negate_converter_1a699e57f947d593538582c6ed40adfa3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.BooleanToVisibilityNegateConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/BooleanToVisibilityNegateConverter.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/BooleanToVisibilityNegateConverter.cs" bodystart="10" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visibility_negate_converter_1ad874fa6687d3354d5ee20c4e34f2116d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.BooleanToVisibilityNegateConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/BooleanToVisibilityNegateConverter.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/BooleanToVisibilityNegateConverter.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="143">
+        <label>IValueConverter</label>
+      </node>
+      <node id="142">
+        <label>Sequlite.WPF.Framework.BooleanToVisibilityNegateConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visibility_negate_converter"/>
+        <childnode refid="143" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="145">
+        <label>IValueConverter</label>
+      </node>
+      <node id="144">
+        <label>Sequlite.WPF.Framework.BooleanToVisibilityNegateConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visibility_negate_converter"/>
+        <childnode refid="145" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/BooleanToVisibilityNegateConverter.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/BooleanToVisibilityNegateConverter.cs" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visibility_negate_converter_1a699e57f947d593538582c6ed40adfa3a" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::BooleanToVisibilityNegateConverter</scope><name>Convert</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visibility_negate_converter_1ad874fa6687d3354d5ee20c4e34f2116d" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::BooleanToVisibilityNegateConverter</scope><name>ConvertBack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

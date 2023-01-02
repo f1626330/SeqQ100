@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recipe Name="A2.8_4L_CL_r1" CreatedTime="7/2/2020 10:54:19 AM" UpdatedTime="6/22/2022 3:05:49 PM" ToolVersion=" 0.0.0.0">
+  <Steps>
+    <Step StepName="Set PreHeating Temp" TargetTemper="52" Tolerance="5" Wait="True" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="250" Reagent="21" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="5000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="200" Reagent="23" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="20" PumpingType="PullPush" />
+    <Step StepName="Set Temperature" TargetTemper="70" Tolerance="1" Duration="0" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="Waiting" Time="10" />
+    <Step StepName="Looping" LoopName="Default Loop" Cycles="4">
+      <Step StepName="New Pumping" PushingRate="5000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="30" Reagent="20" PumpingType="PullPush" />
+      <Step StepName="Waiting" Time="10" />
+    </Step>
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="26" Reagent="21" PumpingType="PullPush" />
+    <Step StepName="Waiting" Time="10" />
+  </Steps>
+</Recipe>

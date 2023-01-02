@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Configuration::ConfigSettings</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ad7be55e46e04f0b56a4aabfa2fc63f7d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableCollection&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_binning_factor_type" kindref="compound">BinningFactorType</ref> &gt;</type>
+        <definition>ObservableCollection&lt;BinningFactorType&gt; Sequlite.ALF.Configuration.ConfigSettings.BinningFactorOptions</definition>
+        <argsstring></argsstring>
+        <name>BinningFactorOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ac669d44fc10398d0cd28da84962b774f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableCollection&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type" kindref="compound">GainType</ref> &gt;</type>
+        <definition>ObservableCollection&lt;GainType&gt; Sequlite.ALF.Configuration.ConfigSettings.GainOptions</definition>
+        <argsstring></argsstring>
+        <name>GainOptions</name>
+        <initializer>= new ObservableCollection&lt;<ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_binning_factor_type" kindref="compound">BinningFactorType</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a8355bf63f543b6920ac3146f63e6335c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; <ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1b" kindref="member">MotionTypes</ref>, <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_ranges" kindref="compound">MotionRanges</ref> &gt;</type>
+        <definition>Dictionary&lt;MotionTypes, MotionRanges&gt; Sequlite.ALF.Configuration.ConfigSettings.MotionSettings</definition>
+        <argsstring></argsstring>
+        <name>MotionSettings</name>
+        <initializer>= new ObservableCollection&lt;<ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type" kindref="compound">GainType</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a177d9f26ecc42b4195e9b1e3ff61380a" compoundref="_fluidics_view_model_8cs" startline="603" endline="629">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveCartridgeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a64bbab5dac0088a144ae5945e25eb645" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="19" endline="69">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Initialize</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1adfa7e9879450cc00864552299288d90d" compoundref="_recipe_run_thread_8cs" startline="175" endline="226">Sequlite.ALF.RecipeLib.RecipeRunThread.ThreadFunction</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ab40ad2109df86fa7690893c6ccc062e8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; <ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1b" kindref="member">MotionTypes</ref>, <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings" kindref="compound">MotionSettings</ref> &gt;</type>
+        <definition>Dictionary&lt;MotionTypes, MotionSettings&gt; Sequlite.ALF.Configuration.ConfigSettings.MotionStartupSettings</definition>
+        <argsstring></argsstring>
+        <name>MotionStartupSettings</name>
+        <initializer>= new Dictionary&lt;<ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1b" kindref="member">MotionTypes</ref>, <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_ranges" kindref="compound">MotionRanges</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a177d9f26ecc42b4195e9b1e3ff61380a" compoundref="_fluidics_view_model_8cs" startline="603" endline="629">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveCartridgeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a9120f4ffb656599fd3421db94ea9f907" compoundref="_fluidics_view_model_8cs" startline="555" endline="581">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveFlowChipCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a64bbab5dac0088a144ae5945e25eb645" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="19" endline="69">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Initialize</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a391c1aa35ab33193d0dc124ebf76a916" compoundref="_recipe_run_thread_8cs" startline="431" endline="825">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1adbdcba1255600287cf740a07f4e6c4f1" compoundref="_motion_controller_8cs" startline="492" endline="508">Sequlite.ALF.MotionControl.MotionController.SelectFilter</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1adfa7e9879450cc00864552299288d90d" compoundref="_recipe_run_thread_8cs" startline="175" endline="226">Sequlite.ALF.RecipeLib.RecipeRunThread.ThreadFunction</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a91a9c64f27a1ce4b74cfeaa3990f436c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; <ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1b" kindref="member">MotionTypes</ref>, double &gt;</type>
+        <definition>Dictionary&lt;MotionTypes, double&gt; Sequlite.ALF.Configuration.ConfigSettings.MotionFactorSettings</definition>
+        <argsstring></argsstring>
+        <name>MotionFactorSettings</name>
+        <initializer>= new Dictionary&lt;<ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1b" kindref="member">MotionTypes</ref>, <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings" kindref="compound">MotionSettings</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a3cdcf2ea8f5e48bc1c0c42024514d16a" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="598" endline="635">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteAbsoluteMoveCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a177d9f26ecc42b4195e9b1e3ff61380a" compoundref="_fluidics_view_model_8cs" startline="603" endline="629">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveCartridgeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a9120f4ffb656599fd3421db94ea9f907" compoundref="_fluidics_view_model_8cs" startline="555" endline="581">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveFlowChipCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0d6d22e92e1ed7380422ae49d07ce300" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="657" endline="796">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteRelativeMoveCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a64bbab5dac0088a144ae5945e25eb645" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="19" endline="69">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Initialize</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a391c1aa35ab33193d0dc124ebf76a916" compoundref="_recipe_run_thread_8cs" startline="431" endline="825">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1adfa7e9879450cc00864552299288d90d" compoundref="_recipe_run_thread_8cs" startline="175" endline="226">Sequlite.ALF.RecipeLib.RecipeRunThread.ThreadFunction</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a86d2c8437088c57498f7649d30e1fe52" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Configuration.ConfigSettings.PumpIncToVolFactor</definition>
+        <argsstring></argsstring>
+        <name>PumpIncToVolFactor</name>
+        <initializer>= new Dictionary&lt;<ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1b" kindref="member">MotionTypes</ref>, double&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1cf0b05670cb98ea9f9f82a9fd723306" compoundref="_fluidics_view_model_8cs" startline="426" endline="521">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteRunPumpCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a75ba54e093526ea239020a7682b9d2e2" compoundref="_fluidics_view_model_8cs" startline="69" endline="88">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Pump_OnStatusChanged</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a68b0789078890b4fd0d0f560f075107e" compoundref="_recipe_run_thread_8cs" startline="344" endline="418">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a15e42d80fc204e638951ca13235aa996" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.Configuration.ConfigSettings.PumpAspRateRange</definition>
+        <argsstring></argsstring>
+        <name>PumpAspRateRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1cf0b05670cb98ea9f9f82a9fd723306" compoundref="_fluidics_view_model_8cs" startline="426" endline="521">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteRunPumpCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1aec0673bcb091d50212f23b172ee8accd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.Configuration.ConfigSettings.PumpDispRateRange</definition>
+        <argsstring></argsstring>
+        <name>PumpDispRateRange</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1cf0b05670cb98ea9f9f82a9fd723306" compoundref="_fluidics_view_model_8cs" startline="426" endline="521">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteRunPumpCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a23cc7dc40b072c7496c751cc2e72808b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.Configuration.ConfigSettings.PumpVolRange</definition>
+        <argsstring></argsstring>
+        <name>PumpVolRange</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1cf0b05670cb98ea9f9f82a9fd723306" compoundref="_fluidics_view_model_8cs" startline="426" endline="521">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteRunPumpCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a56db043b487ddfda8c23a52caed2fa2d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Configuration.ConfigSettings.PumpDelayTime</definition>
+        <argsstring></argsstring>
+        <name>PumpDelayTime</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a7704fe7d17b7805bf0f71db58892e1db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.Configuration.ConfigSettings.ChemiTemperRange</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a537b41be734d444bf52695c39441e736" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.Configuration.ConfigSettings.ChemiTemperRampRange</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperRampRange</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a9032899cbdd42a0401c40b46fb011bba" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; <ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref>, <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref> &gt;</type>
+        <definition>Dictionary&lt;LEDTypes, SettingRange&gt; Sequlite.ALF.Configuration.ConfigSettings.LEDIntensitiesRange</definition>
+        <argsstring></argsstring>
+        <name>LEDIntensitiesRange</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ade09ead569824f334215eb42cd5a3ca6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; <ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref>, int &gt;</type>
+        <definition>Dictionary&lt;LEDTypes, int&gt; Sequlite.ALF.Configuration.ConfigSettings.LEDMaxOnTimes</definition>
+        <argsstring></argsstring>
+        <name>LEDMaxOnTimes</name>
+        <initializer>= new Dictionary&lt;<ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref>, <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a64bbab5dac0088a144ae5945e25eb645" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="19" endline="69">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Initialize</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a6f43be836dc4cdee17f3ef26debcf365" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; int, double &gt;</type>
+        <definition>Dictionary&lt;int, double&gt; Sequlite.ALF.Configuration.ConfigSettings.YStageRegions</definition>
+        <argsstring></argsstring>
+        <name>YStageRegions</name>
+        <initializer>= new Dictionary&lt;<ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref>, int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a391c1aa35ab33193d0dc124ebf76a916" compoundref="_recipe_run_thread_8cs" startline="431" endline="825">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a2c7c5ce19040a21004c1b23c4b6e5da8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; int, double &gt;</type>
+        <definition>Dictionary&lt;int, double&gt; Sequlite.ALF.Configuration.ConfigSettings.ZStageRegions</definition>
+        <argsstring></argsstring>
+        <name>ZStageRegions</name>
+        <initializer>= new Dictionary&lt;int, double&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ae63fa0fe0a374aacae089d35054feafa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings" kindref="compound">CameraSettings</ref></type>
+        <definition>CameraSettings Sequlite.ALF.Configuration.ConfigSettings.CameraStartupSettings</definition>
+        <argsstring></argsstring>
+        <name>CameraStartupSettings</name>
+        <initializer>= new Dictionary&lt;int, double&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a391c1aa35ab33193d0dc124ebf76a916" compoundref="_recipe_run_thread_8cs" startline="431" endline="825">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a15b1494c32c5cd720b8d3b42183d8830" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_fluidics_settings" kindref="compound">FluidicsSettings</ref></type>
+        <definition>FluidicsSettings Sequlite.ALF.Configuration.ConfigSettings.FluidicsStartupSettings</definition>
+        <argsstring></argsstring>
+        <name>FluidicsStartupSettings</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings" kindref="compound">CameraSettings</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ae012b5114d4ea61cd723a62898a91a50" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_chemistry_settings" kindref="compound">ChemistrySettings</ref></type>
+        <definition>ChemistrySettings Sequlite.ALF.Configuration.ConfigSettings.ChemistryStartupSettings</definition>
+        <argsstring></argsstring>
+        <name>ChemistryStartupSettings</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_fluidics_settings" kindref="compound">FluidicsSettings</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1aa2505d0b9f9e36e40c7110bbd7b9af57" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; int, double &gt;</type>
+        <definition>Dictionary&lt;int, double&gt; Sequlite.ALF.Configuration.ConfigSettings.FilterPositions</definition>
+        <argsstring></argsstring>
+        <name>FilterPositions</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_chemistry_settings" kindref="compound">ChemistrySettings</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a3cdcf2ea8f5e48bc1c0c42024514d16a" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="598" endline="635">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteAbsoluteMoveCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a025d3b089fc7afbe0166c4d5fa12aa41" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="65" endline="86">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.MotionController_OnRecordsUpdated</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1adbdcba1255600287cf740a07f4e6c4f1" compoundref="_motion_controller_8cs" startline="492" endline="508">Sequlite.ALF.MotionControl.MotionController.SelectFilter</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ad43c9aa2fc50eb48c59822ce5a33ee3d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings" kindref="compound">AutoFocusSettings</ref></type>
+        <definition>AutoFocusSettings Sequlite.ALF.Configuration.ConfigSettings.AutoFocusingSettings</definition>
+        <argsstring></argsstring>
+        <name>AutoFocusingSettings</name>
+        <initializer>= new Dictionary&lt;int, double&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="38" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a391c1aa35ab33193d0dc124ebf76a916" compoundref="_recipe_run_thread_8cs" startline="431" endline="825">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" bodystart="9" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ad43c9aa2fc50eb48c59822ce5a33ee3d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>AutoFocusingSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ad7be55e46e04f0b56a4aabfa2fc63f7d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>BinningFactorOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ae63fa0fe0a374aacae089d35054feafa" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>CameraStartupSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ae012b5114d4ea61cd723a62898a91a50" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>ChemistryStartupSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a537b41be734d444bf52695c39441e736" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>ChemiTemperRampRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a7704fe7d17b7805bf0f71db58892e1db" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>ChemiTemperRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1aa2505d0b9f9e36e40c7110bbd7b9af57" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>FilterPositions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a15b1494c32c5cd720b8d3b42183d8830" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>FluidicsStartupSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ac669d44fc10398d0cd28da84962b774f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>GainOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a9032899cbdd42a0401c40b46fb011bba" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>LEDIntensitiesRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ade09ead569824f334215eb42cd5a3ca6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>LEDMaxOnTimes</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a91a9c64f27a1ce4b74cfeaa3990f436c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>MotionFactorSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a8355bf63f543b6920ac3146f63e6335c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>MotionSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1ab40ad2109df86fa7690893c6ccc062e8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>MotionStartupSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a15e42d80fc204e638951ca13235aa996" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>PumpAspRateRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a56db043b487ddfda8c23a52caed2fa2d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>PumpDelayTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1aec0673bcb091d50212f23b172ee8accd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>PumpDispRateRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a86d2c8437088c57498f7649d30e1fe52" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>PumpIncToVolFactor</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a23cc7dc40b072c7496c751cc2e72808b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>PumpVolRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a6f43be836dc4cdee17f3ef26debcf365" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>YStageRegions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings_1a2c7c5ce19040a21004c1b23c4b6e5da8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::ConfigSettings</scope><name>ZStageRegions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Fluidics::ValveSolution</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution_1a7b8f2836ed4b13f6ac5231a0299b10cf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Fluidics.ValveSolution.DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/ValveSolution.cs" line="5" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/ValveSolution.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution_1adb29849484bce6f58161d37d6e62b1cd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Fluidics.ValveSolution.ValveNumber</definition>
+        <argsstring></argsstring>
+        <name>ValveNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/ValveSolution.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/ValveSolution.cs" bodystart="6" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a68b0789078890b4fd0d0f560f075107e" compoundref="_recipe_run_thread_8cs" startline="344" endline="418">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution_1a44d9acd62755c54425a549568edb895a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Fluidics.ValveSolution.SolutionVol</definition>
+        <argsstring></argsstring>
+        <name>SolutionVol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/ValveSolution.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/ValveSolution.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/ValveSolution.cs" line="4" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/ValveSolution.cs" bodystart="3" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution_1a7b8f2836ed4b13f6ac5231a0299b10cf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::ValveSolution</scope><name>DisplayName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution_1a44d9acd62755c54425a549568edb895a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::ValveSolution</scope><name>SolutionVol</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution_1adb29849484bce6f58161d37d6e62b1cd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::ValveSolution</scope><name>ValveNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

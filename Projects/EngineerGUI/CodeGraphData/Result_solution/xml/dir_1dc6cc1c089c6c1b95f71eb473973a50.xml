@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1dc6cc1c089c6c1b95f71eb473973a50" kind="dir">
+    <compoundname>D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest</compoundname>
+    <innerdir refid="dir_8da671e6ab733ee186fb7121bc9ec487">D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/Properties</innerdir>
+    <innerfile refid="_test_bench_2_hywire_8_a_l_f_8_ethernet_camera_test_2_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_camera_control_view_model_8cs">CameraControlViewModel.cs</innerfile>
+    <innerfile refid="_control_panel_8xaml_8cs">ControlPanel.xaml.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_a_l_f_8_ethernet_camera_test_2_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_a_l_f_8_ethernet_camera_test_2_workspace_8cs">Workspace.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.EthernetCameraTest/"/>
+  </compounddef>
+</doxygen>

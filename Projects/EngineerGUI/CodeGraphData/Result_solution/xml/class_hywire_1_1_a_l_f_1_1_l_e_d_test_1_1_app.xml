@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_app" kind="class" prot="public">
+    <compoundname>Hywire::ALF::LEDTest::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <briefdescription>
+<para>App.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="55">
+        <label>Hywire.ALF.LEDTest.App</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_app"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="57">
+        <label>Hywire.ALF.LEDTest.App</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_app"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>Application</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/App.xaml.cs" line="15" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/App.xaml.cs" bodystart="14" bodyend="16"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

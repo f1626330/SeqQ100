@@ -1,0 +1,2284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_ipp_1_1_imaging" kind="namespace">
+    <compoundname>Sequlite::Ipp::Imaging</compoundname>
+    <innerclass refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_point" prot="public">Sequlite::Ipp::Imaging::IppiPoint</innerclass>
+    <innerclass refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_rect" prot="public">Sequlite::Ipp::Imaging::IppiRect</innerclass>
+    <innerclass refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" prot="public">Sequlite::Ipp::Imaging::IppiSize</innerclass>
+    <innerclass refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging" prot="public">Sequlite::Ipp::Imaging::IppImaging</innerclass>
+    <innerclass refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_loader" prot="public">Sequlite::Ipp::Imaging::IppLoader</innerclass>
+    <innerclass refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging32" prot="package">Sequlite::Ipp::Imaging::IppImaging32</innerclass>
+    <innerclass refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging64" prot="package">Sequlite::Ipp::Imaging::IppImaging64</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" prot="public" static="no">
+        <name>IppStatus</name>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a6688deea0616531cee306c0a7b185c94" prot="public">
+          <name>ippStsNotSupportedModeErr</name>
+          <initializer>= -9999</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a723cdfcc515f59a567b8bd237b6c2081" prot="public">
+          <name>ippStsCpuNotSupportedErr</name>
+          <initializer>= -9998</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7afa366bd735908e3887a15190761db5ea" prot="public">
+          <name>ippStsRoundModeNotSupportedErr</name>
+          <initializer>= -213</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae36dda378fd10ac78a6c6e7f4b97a319" prot="public">
+          <name>ippStsDecimateFractionErr</name>
+          <initializer>= -212</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2acad9ab84a5b010f578ac8b3e05ef8a" prot="public">
+          <name>ippStsWeightErr</name>
+          <initializer>= -211</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a618d98f903eefe2e8638d00b637b7b4a" prot="public">
+          <name>ippStsQualityIndexErr</name>
+          <initializer>= -210</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a75671a8a58631ec23845c1de749fca65" prot="public">
+          <name>ippStsIIRPassbandRippleErr</name>
+          <initializer>= -209</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a86641245e4e73540347f7ba9e788b196" prot="public">
+          <name>ippStsFilterFrequencyErr</name>
+          <initializer>= -208</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a56f5c4609df53e8bbb52861d44ef96d4" prot="public">
+          <name>ippStsFIRGenOrderErr</name>
+          <initializer>= -207</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7af278f4c1666723863fe6925a7676fe1c" prot="public">
+          <name>ippStsIIRGenOrderErr</name>
+          <initializer>= -206</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7af87f7169dd9b9ece17c2866a2ebb51f6" prot="public">
+          <name>ippStsConvergeErr</name>
+          <initializer>= -205</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a0adde60955639baaa66b4f5d101d1be7" prot="public">
+          <name>ippStsSizeMatchMatrixErr</name>
+          <initializer>= -204</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad6acf950219df2085e5fde39dc416422" prot="public">
+          <name>ippStsCountMatrixErr</name>
+          <initializer>= -203</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a82a8c26d7c870e504cae9a5f0f76bd40" prot="public">
+          <name>ippStsRoiShiftMatrixErr</name>
+          <initializer>= -202</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ab9b391d6ef38bc96fa4088c9ff449d7a" prot="public">
+          <name>ippStsResizeNoOperationErr</name>
+          <initializer>= -201</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad6fee8cd20f33447458b4f94ff009535" prot="public">
+          <name>ippStsSrcDataErr</name>
+          <initializer>= -200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a27871b4f4928d894693ce26550ca3f8b" prot="public">
+          <name>ippStsMaxLenHuffCodeErr</name>
+          <initializer>= -199</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac078781420a5ba55477a55db9fa69888" prot="public">
+          <name>ippStsCodeLenTableErr</name>
+          <initializer>= -198</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7d8b8e207a4b785cffe5744b18b32afd" prot="public">
+          <name>ippStsFreqTableErr</name>
+          <initializer>= -197</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a4ebca3aaabe8c58a0c1efa699bf1d966" prot="public">
+          <name>ippStsIncompleteContextErr</name>
+          <initializer>= -196</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a0dc430f69ea36b785118de4bc667827c" prot="public">
+          <name>ippStsSingularErr</name>
+          <initializer>= -195</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ab32eb217d57c7ff78899ce3e57638306" prot="public">
+          <name>ippStsSparseErr</name>
+          <initializer>= -194</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a690bcda9621011d2b3e7f97a9045f025" prot="public">
+          <name>ippStsBitOffsetErr</name>
+          <initializer>= -193</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a08189d85e6cbcfcd9620d7d6b22a0bc4" prot="public">
+          <name>ippStsQPErr</name>
+          <initializer>= -192</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a1a795f34b5896304965fb6934b9bfe4f" prot="public">
+          <name>ippStsVLCErr</name>
+          <initializer>= -191</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a5d7484594f3cfdfa50f5fd3229da5b2d" prot="public">
+          <name>ippStsRegExpOptionsErr</name>
+          <initializer>= -190</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a878b69bacc6996558727f51c41975b1b" prot="public">
+          <name>ippStsRegExpErr</name>
+          <initializer>= -189</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a6724a85e9b73433b5dd9c87c33f5cbaf" prot="public">
+          <name>ippStsRegExpMatchLimitErr</name>
+          <initializer>= -188</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a57b82a403c49f89173c0da6f0a5e56f8" prot="public">
+          <name>ippStsRegExpQuantifierErr</name>
+          <initializer>= -187</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ada307b84dbad8b183b277020b0c2a693" prot="public">
+          <name>ippStsRegExpGroupingErr</name>
+          <initializer>= -186</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a03e2a753871db66ec539e7b7d950d977" prot="public">
+          <name>ippStsRegExpBackRefErr</name>
+          <initializer>= -185</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a00008ee34841e3ac01988462ff00d798" prot="public">
+          <name>ippStsRegExpChClassErr</name>
+          <initializer>= -184</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a52a763cfaf6ff6521a9e3915991b1240" prot="public">
+          <name>ippStsRegExpMetaChErr</name>
+          <initializer>= -183</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a9e8f00d74eb9350fbdbb368811efc43d" prot="public">
+          <name>ippStsStrideMatrixErr</name>
+          <initializer>= -182</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac1f88e0bee13ec0b6f559c5c1ad20daf" prot="public">
+          <name>ippStsCTRSizeErr</name>
+          <initializer>= -181</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a82ff5bbb6dec4efb542f0f3605f04721" prot="public">
+          <name>ippStsJPEG2KCodeBlockIsNotAttached</name>
+          <initializer>= -180</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a678f91094ae47408cc7b5de66570b481" prot="public">
+          <name>ippStsNotPosDefErr</name>
+          <initializer>= -179</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a0685962dda5cc32e4294adf64665e5a5" prot="public">
+          <name>ippStsEphemeralKeyErr</name>
+          <initializer>= -178</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7af14a0577b365a2f2a030ece96be22cb8" prot="public">
+          <name>ippStsMessageErr</name>
+          <initializer>= -177</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a09f94ad869e224fbddc764fd9a1f4b65" prot="public">
+          <name>ippStsShareKeyErr</name>
+          <initializer>= -176</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7adcb25ee1e5519d025bab3d00b8f69de7" prot="public">
+          <name>ippStsIvalidPublicKey</name>
+          <initializer>= -175</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a273e024c98b64caece6798761f5f4d05" prot="public">
+          <name>ippStsIvalidPrivateKey</name>
+          <initializer>= -174</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a74a1d7e6456c42ccc589ec11f2b6a44b" prot="public">
+          <name>ippStsOutOfECErr</name>
+          <initializer>= -173</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aa6986375fab26fc248849247d1b04fa5" prot="public">
+          <name>ippStsECCInvalidFlagErr</name>
+          <initializer>= -172</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a6fd433ca198fb77349400f0e8cc04f34" prot="public">
+          <name>ippStsMP3FrameHeaderErr</name>
+          <initializer>= -171</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2bd58062c9414ef27117c81cc13dc40f" prot="public">
+          <name>ippStsMP3SideInfoErr</name>
+          <initializer>= -170</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a16805cb00e8f3e2616d5ae03a7a3bea2" prot="public">
+          <name>ippStsBlockStepErr</name>
+          <initializer>= -169</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7abdd668c05747a82a453becb241929b02" prot="public">
+          <name>ippStsMBStepErr</name>
+          <initializer>= -168</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a15f462b8cfcb20ba67b11d6c9a3958d3" prot="public">
+          <name>ippStsAacPrgNumErr</name>
+          <initializer>= -167</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad6466a7bf105dd4e8f1ec77329e10401" prot="public">
+          <name>ippStsAacSectCbErr</name>
+          <initializer>= -166</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a42b69e449e42e34958466021abc0213f" prot="public">
+          <name>ippStsAacSfValErr</name>
+          <initializer>= -164</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a63986ee6dfd39344359a2dcaa732a7b2" prot="public">
+          <name>ippStsAacCoefValErr</name>
+          <initializer>= -163</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a82dd252c67621173e9939cd5982fbaeb" prot="public">
+          <name>ippStsAacMaxSfbErr</name>
+          <initializer>= -162</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a271842ac6fab585783e740c1c10682bf" prot="public">
+          <name>ippStsAacPredSfbErr</name>
+          <initializer>= -161</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a0f81b7c219a9b9d3d8938753f25a977c" prot="public">
+          <name>ippStsAacPlsDataErr</name>
+          <initializer>= -160</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a15e72aa7e29645f0a416b7169408c83a" prot="public">
+          <name>ippStsAacGainCtrErr</name>
+          <initializer>= -159</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a3d08febf1e46a9ceb1e9a7adbd8d73d0" prot="public">
+          <name>ippStsAacSectErr</name>
+          <initializer>= -158</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7acb57fe64051a433701a14f0444a1b087" prot="public">
+          <name>ippStsAacTnsNumFiltErr</name>
+          <initializer>= -157</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7afb218d4089ed9b5e53b61287f7b71f7b" prot="public">
+          <name>ippStsAacTnsLenErr</name>
+          <initializer>= -156</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a38869c5fd1241d272e9e9c15d57edd23" prot="public">
+          <name>ippStsAacTnsOrderErr</name>
+          <initializer>= -155</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a6d774d967364a7de9e4e0d334876e42f" prot="public">
+          <name>ippStsAacTnsCoefResErr</name>
+          <initializer>= -154</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad5cd2deaf1e40c4691408867ade1e652" prot="public">
+          <name>ippStsAacTnsCoefErr</name>
+          <initializer>= -153</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a99070eb0ed6f74c73da2411f76a58e54" prot="public">
+          <name>ippStsAacTnsDirectErr</name>
+          <initializer>= -152</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a6d1c54a9e80482a06b884137656c0586" prot="public">
+          <name>ippStsAacTnsProfileErr</name>
+          <initializer>= -151</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ab2de849b117dcee3a2a3a73cba7f2081" prot="public">
+          <name>ippStsAacErr</name>
+          <initializer>= -150</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aa7edcb69b7c13adc411d652060bd4e89" prot="public">
+          <name>ippStsAacBitOffsetErr</name>
+          <initializer>= -149</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a8d7ca725a6a08ef01f8f3697be36157c" prot="public">
+          <name>ippStsAacAdtsSyncWordErr</name>
+          <initializer>= -148</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7702dd78ce159b6bf3b0466c0e4f2159" prot="public">
+          <name>ippStsAacSmplRateIdxErr</name>
+          <initializer>= -147</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a73e22e8a9c7faa67277ee6a8c39683f0" prot="public">
+          <name>ippStsAacWinLenErr</name>
+          <initializer>= -146</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7af469d62f333c478ad4b5198508d79bfc" prot="public">
+          <name>ippStsAacWinGrpErr</name>
+          <initializer>= -145</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a885086534349d4f78bbcaae271a452b0" prot="public">
+          <name>ippStsAacWinSeqErr</name>
+          <initializer>= -144</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a1be60e3887f84f1d79fb576612e6cc47" prot="public">
+          <name>ippStsAacComWinErr</name>
+          <initializer>= -143</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a290fbdf4012591258af3e0b43a19383c" prot="public">
+          <name>ippStsAacStereoMaskErr</name>
+          <initializer>= -142</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a017fabebd6e394b3426776d737cdee06" prot="public">
+          <name>ippStsAacChanErr</name>
+          <initializer>= -141</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a272cde94def2b3d71a55b52f62599c92" prot="public">
+          <name>ippStsAacMonoStereoErr</name>
+          <initializer>= -140</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a9d2af5a6616e4f7dbb7531363c181d46" prot="public">
+          <name>ippStsAacStereoLayerErr</name>
+          <initializer>= -139</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a6a4804bf0c4f4a852d175dbf5190d8f2" prot="public">
+          <name>ippStsAacMonoLayerErr</name>
+          <initializer>= -138</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a8090bee2fd88f9276074d5f0967a1759" prot="public">
+          <name>ippStsAacScalableErr</name>
+          <initializer>= -137</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac0d3be7641759e7ce029396cf9c35d31" prot="public">
+          <name>ippStsAacObjTypeErr</name>
+          <initializer>= -136</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a203fc1f3df02bb2a09b1fb2d26681cf3" prot="public">
+          <name>ippStsAacWinShapeErr</name>
+          <initializer>= -135</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a850f1a32e3df5d81c926e155d8ac4198" prot="public">
+          <name>ippStsAacPcmModeErr</name>
+          <initializer>= -134</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a462cb7776b324e89f1f184be72283f89" prot="public">
+          <name>ippStsVLCUsrTblHeaderErr</name>
+          <initializer>= -133</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac532908f71e7e0082e47f36b238325bb" prot="public">
+          <name>ippStsVLCUsrTblUnsupportedFmtErr</name>
+          <initializer>= -132</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a85124069dd90698e754ac9bdf23b080e" prot="public">
+          <name>ippStsVLCUsrTblEscAlgTypeErr</name>
+          <initializer>= -131</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a80aa6c743e8c5c3c155fd2e0c9986b11" prot="public">
+          <name>ippStsVLCUsrTblEscCodeLengthErr</name>
+          <initializer>= -130</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a5e7f431f8014463ebca174d1565fed54" prot="public">
+          <name>ippStsVLCUsrTblCodeLengthErr</name>
+          <initializer>= -129</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a9761044daab73327929da4390010a5d9" prot="public">
+          <name>ippStsVLCInternalTblErr</name>
+          <initializer>= -128</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a733a67ab58fe80c616d7012ee97ba4ed" prot="public">
+          <name>ippStsVLCInputDataErr</name>
+          <initializer>= -127</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a3c73f21d5386fd134c9b928d67e7402f" prot="public">
+          <name>ippStsVLCAACEscCodeLengthErr</name>
+          <initializer>= -126</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7acc9f658e84889262b6f142a50bfd2420" prot="public">
+          <name>ippStsNoiseRangeErr</name>
+          <initializer>= -125</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aacab6bf01e897bd590d4e8051b417678" prot="public">
+          <name>ippStsUnderRunErr</name>
+          <initializer>= -124</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a497a40d76e9e948f96c828b0ba58550e" prot="public">
+          <name>ippStsPaddingErr</name>
+          <initializer>= -123</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a9a306044745c3d6ea880abd785ace8e5" prot="public">
+          <name>ippStsOFBSizeErr</name>
+          <initializer>= -122</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac3a27d646030eaf07ce42fc3854e7288" prot="public">
+          <name>ippStsCFBSizeErr</name>
+          <initializer>= -122</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aa078c078f1a4134583e25d8989efb96c" prot="public">
+          <name>ippStsPaddingSchemeErr</name>
+          <initializer>= -121</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7add6c59a9fd96c656233a8bbb7ac8d4ee" prot="public">
+          <name>ippStsInvalidCryptoKeyErr</name>
+          <initializer>= -120</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ab0172b87c804692573fa8b230825239f" prot="public">
+          <name>ippStsLengthErr</name>
+          <initializer>= -119</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ab8b1aaa4c252a44dacf5b56c2764b82c" prot="public">
+          <name>ippStsBadModulusErr</name>
+          <initializer>= -118</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7b8ea1ea23b14a6266530f4e55f81340" prot="public">
+          <name>ippStsLPCCalcErr</name>
+          <initializer>= -117</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a42d617760845c1198f770bd28026eb0f" prot="public">
+          <name>ippStsRCCalcErr</name>
+          <initializer>= -116</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7212b2869067b2c132819ca5ed12feff" prot="public">
+          <name>ippStsIncorrectLSPErr</name>
+          <initializer>= -115</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7abbf022b5b4e6a70891be73e80f8c6ed7" prot="public">
+          <name>ippStsNoRootFoundErr</name>
+          <initializer>= -114</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad2b63eb2620ac478ffcc653a65c976f5" prot="public">
+          <name>ippStsJPEG2KBadPassNumber</name>
+          <initializer>= -113</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aa4241b34e358b4a98f058acf77e768f0" prot="public">
+          <name>ippStsJPEG2KDamagedCodeBlock</name>
+          <initializer>= -112</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a15f1215aaffe85eee57c91293bf2143d" prot="public">
+          <name>ippStsH263CBPYCodeErr</name>
+          <initializer>= -111</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2b27541c470c29a117b540828c80e501" prot="public">
+          <name>ippStsH263MCBPCInterCodeErr</name>
+          <initializer>= -110</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7abe30b7fe83281a42959382674af49251" prot="public">
+          <name>ippStsH263MCBPCIntraCodeErr</name>
+          <initializer>= -109</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a6979e74a32ee1a8462329c481de0ebaa" prot="public">
+          <name>ippStsNotEvenStepErr</name>
+          <initializer>= -108</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac0169a98687a00e655543b88400db121" prot="public">
+          <name>ippStsHistoNofLevelsErr</name>
+          <initializer>= -107</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2374a681b693f8f45cc34270fc297e95" prot="public">
+          <name>ippStsLUTNofLevelsErr</name>
+          <initializer>= -106</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7af0b2716312a9b0be7466d73e922a01c4" prot="public">
+          <name>ippStsMP4BitOffsetErr</name>
+          <initializer>= -105</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7afdbdc4445010bf99b94db106f53e4dd5" prot="public">
+          <name>ippStsMP4QPErr</name>
+          <initializer>= -104</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a91d6a38188340cf9b85c937461acfe7b" prot="public">
+          <name>ippStsMP4BlockIdxErr</name>
+          <initializer>= -103</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a51d1c54c65c131d2d57d534035edaa70" prot="public">
+          <name>ippStsMP4BlockTypeErr</name>
+          <initializer>= -102</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ab7d1180b6694b2811dd3791d765aefc3" prot="public">
+          <name>ippStsMP4MVCodeErr</name>
+          <initializer>= -101</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a549f5146e49a60d848fcfe8a3b409e19" prot="public">
+          <name>ippStsMP4VLCCodeErr</name>
+          <initializer>= -100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a54d3d543d393d0ac09a3b04e900b11db" prot="public">
+          <name>ippStsMP4DCCodeErr</name>
+          <initializer>= -99</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a4f3da7b43112cf2debd2b3327d0d9662" prot="public">
+          <name>ippStsMP4FcodeErr</name>
+          <initializer>= -98</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a1d466dcd8141da9abad7c21c82732899" prot="public">
+          <name>ippStsMP4AlignErr</name>
+          <initializer>= -97</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7abfbcb4ca0fc5cacbbcdd7056400e31cd" prot="public">
+          <name>ippStsMP4TempDiffErr</name>
+          <initializer>= -96</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aa40b12716d8a882d9f88d38c44f5e19a" prot="public">
+          <name>ippStsMP4BlockSizeErr</name>
+          <initializer>= -95</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2a6db5ea53cad4abc5785f2902ebffc0" prot="public">
+          <name>ippStsMP4ZeroBABErr</name>
+          <initializer>= -94</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a95401d9ff0e9963e84045820f7e427db" prot="public">
+          <name>ippStsMP4PredDirErr</name>
+          <initializer>= -93</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2dd154813aa668f91d6749bdca9aa4a5" prot="public">
+          <name>ippStsMP4BitsPerPixelErr</name>
+          <initializer>= -92</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ab6c8434a9c6655c80fa822ee7ccd73fa" prot="public">
+          <name>ippStsMP4VideoCompModeErr</name>
+          <initializer>= -91</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a38aaca4641165bd27dc814d4b2ef8523" prot="public">
+          <name>ippStsMP4LinearModeErr</name>
+          <initializer>= -90</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a12fa581656b97d8c1175c219a9312377" prot="public">
+          <name>ippStsH263PredModeErr</name>
+          <initializer>= -83</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aba6e55476607e41b92741f73727b790e" prot="public">
+          <name>ippStsH263BlockStepErr</name>
+          <initializer>= -82</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aae76ffea020e5e4d292eedf0ffd7f0d2" prot="public">
+          <name>ippStsH263MBStepErr</name>
+          <initializer>= -81</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7af4d80f8356d03f9ecfe33fd5ebb9d498" prot="public">
+          <name>ippStsH263FrameWidthErr</name>
+          <initializer>= -80</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a0775fbf2af6e7d51180270ed7eb06643" prot="public">
+          <name>ippStsH263FrameHeightErr</name>
+          <initializer>= -79</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7676efcdbf995d224857051bfa9ff390" prot="public">
+          <name>ippStsH263ExpandPelsErr</name>
+          <initializer>= -78</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aba8eb747bcff530e236ff5083f09f57a" prot="public">
+          <name>ippStsH263PlaneStepErr</name>
+          <initializer>= -77</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a565263b9372451726d2d778632818170" prot="public">
+          <name>ippStsH263QuantErr</name>
+          <initializer>= -76</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7afc792d7b995e57ed6ecf9360eb7420aa" prot="public">
+          <name>ippStsH263MVCodeErr</name>
+          <initializer>= -75</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ab228cf3cf68255ceb176010be513b2af" prot="public">
+          <name>ippStsH263VLCCodeErr</name>
+          <initializer>= -74</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a0393c003f544cebc5fb002135f39c104" prot="public">
+          <name>ippStsH263DCCodeErr</name>
+          <initializer>= -73</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a3d17dfa5e0f6a6607cb7a758d08837d0" prot="public">
+          <name>ippStsH263ZigzagLenErr</name>
+          <initializer>= -72</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7affde8ce05961872a5f684a8a3f27362a" prot="public">
+          <name>ippStsFBankFreqErr</name>
+          <initializer>= -71</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad146f168441cb7e65228a7c219b153f5" prot="public">
+          <name>ippStsFBankFlagErr</name>
+          <initializer>= -70</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a0d7452dc17b2bc12f67fc72109c9f49a" prot="public">
+          <name>ippStsFBankErr</name>
+          <initializer>= -69</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae6dd72d341d0ce81e5bdd9d79649052c" prot="public">
+          <name>ippStsNegOccErr</name>
+          <initializer>= -67</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac8f2d8a50d8fbc767a276d1bed5dc4cb" prot="public">
+          <name>ippStsCdbkFlagErr</name>
+          <initializer>= -66</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aabda64a8b3c39ede3906583775b489dc" prot="public">
+          <name>ippStsSVDCnvgErr</name>
+          <initializer>= -65</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a3c62c3ca670b0112129ad8971f3d6550" prot="public">
+          <name>ippStsJPEGHuffTableErr</name>
+          <initializer>= -64</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac00a15ac9d42ac739152bcef74528f90" prot="public">
+          <name>ippStsJPEGDCTRangeErr</name>
+          <initializer>= -63</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a4ef5befc6c067de62826f79e391ec9f6" prot="public">
+          <name>ippStsJPEGOutOfBufErr</name>
+          <initializer>= -62</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7afd6c0e372c15ca240f7a4a688b184d8d" prot="public">
+          <name>ippStsDrawTextErr</name>
+          <initializer>= -61</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a70503fa76822eb4b5111da789d556be1" prot="public">
+          <name>ippStsChannelOrderErr</name>
+          <initializer>= -60</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a95f79266cb71703b7fe607a4aa21412d" prot="public">
+          <name>ippStsZeroMaskValuesErr</name>
+          <initializer>= -59</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a75e8650e8943cca0227165abd7fe90f1" prot="public">
+          <name>ippStsQuadErr</name>
+          <initializer>= -58</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7b167e0ba554eeb1489235ed9a54d6a1" prot="public">
+          <name>ippStsRectErr</name>
+          <initializer>= -57</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a4e7a881a482f8a589aa15cf7897589f7" prot="public">
+          <name>ippStsCoeffErr</name>
+          <initializer>= -56</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7b0325b17046c49514eb28e378e9aa95" prot="public">
+          <name>ippStsNoiseValErr</name>
+          <initializer>= -55</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aea14b792f97de71c81f2917f3df963be" prot="public">
+          <name>ippStsDitherLevelsErr</name>
+          <initializer>= -54</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a5c85747f6aca0eb5fdae7e4783825347" prot="public">
+          <name>ippStsNumChannelsErr</name>
+          <initializer>= -53</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7acc7383fe4881253b5395c40b35f0a2db" prot="public">
+          <name>ippStsCOIErr</name>
+          <initializer>= -52</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a6203d3e945e98300231caa8e31a454ff" prot="public">
+          <name>ippStsDivisorErr</name>
+          <initializer>= -51</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2f8dd2b8ea3126c3f0f07fad811aa896" prot="public">
+          <name>ippStsAlphaTypeErr</name>
+          <initializer>= -50</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad2049d302af6edcb0723c37333d9dc97" prot="public">
+          <name>ippStsGammaRangeErr</name>
+          <initializer>= -49</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a95e5d4a485b5835bdc09346c58d2b7ed" prot="public">
+          <name>ippStsGrayCoefSumErr</name>
+          <initializer>= -48</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7adc0cf0402e935424b31f48e3f0abe665" prot="public">
+          <name>ippStsChannelErr</name>
+          <initializer>= -47</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae56f8a034c3d0007585f50326a578bdb" prot="public">
+          <name>ippStsToneMagnErr</name>
+          <initializer>= -46</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a778f37bd9c1b698019cb9d8d7da06439" prot="public">
+          <name>ippStsToneFreqErr</name>
+          <initializer>= -45</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aa137326d724fcf68de7b0c08aa820024" prot="public">
+          <name>ippStsTonePhaseErr</name>
+          <initializer>= -44</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a86858196d8c7c80be50be05166b090b3" prot="public">
+          <name>ippStsTrnglMagnErr</name>
+          <initializer>= -43</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad3c4a14f65878d4cfc8a639706887527" prot="public">
+          <name>ippStsTrnglFreqErr</name>
+          <initializer>= -42</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a01837d708834b1507eebe6d3b4e9dc32" prot="public">
+          <name>ippStsTrnglPhaseErr</name>
+          <initializer>= -41</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7adf92556337c0d16f9d5dd828c943fc23" prot="public">
+          <name>ippStsTrnglAsymErr</name>
+          <initializer>= -40</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae5bfa23aa0319474e7cf6f4584a9c8a6" prot="public">
+          <name>ippStsHugeWinErr</name>
+          <initializer>= -39</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7adb46e516ca266752c575d8224c7fc9a2" prot="public">
+          <name>ippStsJaehneErr</name>
+          <initializer>= -38</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7acaa3258b265ce7ab84eb564876ac5ae1" prot="public">
+          <name>ippStsStrideErr</name>
+          <initializer>= -37</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a5f23f7e2da9b82bf404c20a179efbc53" prot="public">
+          <name>ippStsEpsValErr</name>
+          <initializer>= -36</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a8c1112cfe8cebf0cf44335425b60dca1" prot="public">
+          <name>ippStsWtOffsetErr</name>
+          <initializer>= -35</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a3a669300ec3727ad4b3fdaf7090a91c4" prot="public">
+          <name>ippStsAnchorErr</name>
+          <initializer>= -34</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a3321d3c81235cf2cc3fe2cc8c54ffc1b" prot="public">
+          <name>ippStsMaskSizeErr</name>
+          <initializer>= -33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7abf8a6f843083b85b52ef1e359cad574b" prot="public">
+          <name>ippStsShiftErr</name>
+          <initializer>= -32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a80f67edbae46a6689139f1ee05889b76" prot="public">
+          <name>ippStsSampleFactorErr</name>
+          <initializer>= -31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a41d2a235472d21fa46340ac8a422de1a" prot="public">
+          <name>ippStsSamplePhaseErr</name>
+          <initializer>= -30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a1bc5ef2f105892ec84aa4292679ed6b4" prot="public">
+          <name>ippStsFIRMRFactorErr</name>
+          <initializer>= -29</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad569226f6477a2ba4fa4f1a7c782a870" prot="public">
+          <name>ippStsFIRMRPhaseErr</name>
+          <initializer>= -28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aec9af265a15299f34bd878c405e5f66e" prot="public">
+          <name>ippStsRelFreqErr</name>
+          <initializer>= -27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a83fc595e7050c5e47b071f36615195df" prot="public">
+          <name>ippStsFIRLenErr</name>
+          <initializer>= -26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aa6e9212a48525fcef597cc11f8ecb276" prot="public">
+          <name>ippStsIIROrderErr</name>
+          <initializer>= -25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7af7cc6bd178d1340cf349e3c37ace2ffa" prot="public">
+          <name>ippStsDlyLineIndexErr</name>
+          <initializer>= -24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ab26f103f667128c46b9e70b1d638ee38" prot="public">
+          <name>ippStsResizeFactorErr</name>
+          <initializer>= -23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a9c1cd7797f295025a2a65896f2f2f1da" prot="public">
+          <name>ippStsInterpolationErr</name>
+          <initializer>= -22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a02815a2f2c472bcff95c490725798a9c" prot="public">
+          <name>ippStsMirrorFlipErr</name>
+          <initializer>= -21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ab7abd34a4b5268908d80e34ffca04854" prot="public">
+          <name>ippStsMoment00ZeroErr</name>
+          <initializer>= -20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a6931840b764ed43360ae8ebfceb00656" prot="public">
+          <name>ippStsThreshNegLevelErr</name>
+          <initializer>= -19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a1a8f63a1fdad63aa47d9275bbd61ccb7" prot="public">
+          <name>ippStsThresholdErr</name>
+          <initializer>= -18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2c3eb6c8a6322e2728221933a487acba" prot="public">
+          <name>ippStsContextMatchErr</name>
+          <initializer>= -17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aca1417ebbe9729d428f8f02f5d3a3ffc" prot="public">
+          <name>ippStsFftFlagErr</name>
+          <initializer>= -16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a3e504b6439468982cf4ea06d716c22fc" prot="public">
+          <name>ippStsFftOrderErr</name>
+          <initializer>= -15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a5c37a31e335e79598e81ce7575d87a69" prot="public">
+          <name>ippStsStepErr</name>
+          <initializer>= -14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac1fb8d5d4efaa70b1383b401b827ecf2" prot="public">
+          <name>ippStsScaleRangeErr</name>
+          <initializer>= -13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a0f1167bdfd5e3da8304ee714bb07b50d" prot="public">
+          <name>ippStsDataTypeErr</name>
+          <initializer>= -12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae4624ad381cd7a6ed8a2356c4ad68b6c" prot="public">
+          <name>ippStsOutOfRangeErr</name>
+          <initializer>= -11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7afe6ad8496de34f3ffb889c42a79457b3" prot="public">
+          <name>ippStsDivByZeroErr</name>
+          <initializer>= -10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad40fd4f146e2303536ab6a8dd35a81e0" prot="public">
+          <name>ippStsMemAllocErr</name>
+          <initializer>= -9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2bd46bb077788d67c500c0b487ea2567" prot="public">
+          <name>ippStsNullPtrErr</name>
+          <initializer>= -8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a09c706d76c67953b13894f288771f14f" prot="public">
+          <name>ippStsRangeErr</name>
+          <initializer>= -7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2ed7c1b3c98403fca97e0e41a62a8b1e" prot="public">
+          <name>ippStsSizeErr</name>
+          <initializer>= -6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae4002c80f0627e3368482eddd034b308" prot="public">
+          <name>ippStsBadArgErr</name>
+          <initializer>= -5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a8175db4fb53d61964d91e4472e17584e" prot="public">
+          <name>ippStsNoMemErr</name>
+          <initializer>= -4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7e712411f37ed63bfa498a548ae1497c" prot="public">
+          <name>ippStsSAReservedErr3</name>
+          <initializer>= -3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a9e559dc875da14ea5abebf0c731799ef" prot="public">
+          <name>ippStsErr</name>
+          <initializer>= -2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a3bd88602a2dde3a11e7ab7100497c613" prot="public">
+          <name>ippStsSAReservedErr1</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae648e8c7a8bab2357d60e3852b525e44" prot="public">
+          <name>ippStsNoErr</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7afc3a219ceef773ffc183e4cdcdf67e51" prot="public">
+          <name>ippStsNoOperation</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a72eab248f898093b39336b0e121b92bf" prot="public">
+          <name>ippStsMisalignedBuf</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a3c3ae23a9b61489320c0bbb381658e3e" prot="public">
+          <name>ippStsSqrtNegArg</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a0ccca48ba16fa650494091a86e682be8" prot="public">
+          <name>ippStsInvZero</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7bf794a5746ec0936fd741460a668a6c" prot="public">
+          <name>ippStsEvenMedianMaskSize</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a607094ae3a280380de456ed26f142463" prot="public">
+          <name>ippStsDivByZero</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7dc50b591a0193751894cd4d0e33d806" prot="public">
+          <name>ippStsLnZeroArg</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad80f1c5f8b2297a4a39d37bf9de6ddb6" prot="public">
+          <name>ippStsLnNegArg</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a36fdcc970f530721726cefe163add2d5" prot="public">
+          <name>ippStsNanArg</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae62fd56fa8df68b4ad9fe72c3af0dd12" prot="public">
+          <name>ippStsJPEGMarker</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7af591a1396b10eb40586acb903509e51c" prot="public">
+          <name>ippStsResFloor</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7af46337b3ee91b4ab3f8f1f083a77aeb2" prot="public">
+          <name>ippStsOverflow</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a8d9a794712c7c17986070c50a2fdaddf" prot="public">
+          <name>ippStsLSFLow</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aeb19c6e42d0e3bf9e0fddbc57187be48" prot="public">
+          <name>ippStsLSFHigh</name>
+          <initializer>= 14</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a997935fa599ae781d8da0a3f29975e4e" prot="public">
+          <name>ippStsLSFLowAndHigh</name>
+          <initializer>= 15</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac0b0b825caa7d0d1d6995c6a8c0f5db7" prot="public">
+          <name>ippStsZeroOcc</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a7bf6e5dc6ff2899fe4c628f75204b706" prot="public">
+          <name>ippStsUnderflow</name>
+          <initializer>= 17</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7aea0e6debd9a7aefd4b18ae3470d36af3" prot="public">
+          <name>ippStsSingularity</name>
+          <initializer>= 18</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae2a2abf56b0cf6313d0b5ed4ef419daa" prot="public">
+          <name>ippStsDomain</name>
+          <initializer>= 19</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a11ceebe26948b2e558cd515d949e73e4" prot="public">
+          <name>ippStsNonIntelCpu</name>
+          <initializer>= 20</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a06aa121a50c997df3d8cfffb5e6c6c01" prot="public">
+          <name>ippStsCpuMismatch</name>
+          <initializer>= 21</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a1c89663728c454f9bc9c94a9a8fe91a6" prot="public">
+          <name>ippStsNoIppFunctionFound</name>
+          <initializer>= 22</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad1ee4d11ea3b88f6f0c8606941ab572e" prot="public">
+          <name>ippStsDllNotFoundBestUsed</name>
+          <initializer>= 23</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a2be03bc2b90e87c3d92c530532cf1b30" prot="public">
+          <name>ippStsNoOperationInDll</name>
+          <initializer>= 24</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a40e2531c613cdf39e8911dfde55ada1c" prot="public">
+          <name>ippStsInsufficientEntropy</name>
+          <initializer>= 25</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a58b5dc692a0af4ddda0b028aba1de903" prot="public">
+          <name>ippStsOvermuchStrings</name>
+          <initializer>= 26</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a05b9c61f0879a391f99fc671e937fb59" prot="public">
+          <name>ippStsOverlongString</name>
+          <initializer>= 27</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a3b6ef545082ec81cc4226a0c5ca34470" prot="public">
+          <name>ippStsAffineQuadChanged</name>
+          <initializer>= 28</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a5c04ec32cc7aaa3908f2e716893de487" prot="public">
+          <name>ippStsWrongIntersectROI</name>
+          <initializer>= 29</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ac6816108e9395cb49c12afdc6d3fa51b" prot="public">
+          <name>ippStsWrongIntersectQuad</name>
+          <initializer>= 30</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a1457d96144537b117f63e92e814e233b" prot="public">
+          <name>ippStsSmallerCodebook</name>
+          <initializer>= 31</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a9681378eb3ebcaf6655e1f56b766cc7a" prot="public">
+          <name>ippStsSrcSizeLessExpected</name>
+          <initializer>= 32</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ad22241f0633590dc089048f8852a2ce3" prot="public">
+          <name>ippStsDstSizeLessExpected</name>
+          <initializer>= 33</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a0ca4e5b056359a553799c1ba91dd51a8" prot="public">
+          <name>ippStsStreamEnd</name>
+          <initializer>= 34</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae79117c56fcbfa762c58f859ebcf1694" prot="public">
+          <name>ippStsDoubleSize</name>
+          <initializer>= 35</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a1d2b5aa6fa7d19de734aafaebad86dba" prot="public">
+          <name>ippStsNotSupportedCpu</name>
+          <initializer>= 36</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a565ca0c5d5db407334873c059de3bd33" prot="public">
+          <name>ippStsUnknownCacheSize</name>
+          <initializer>= 37</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7ae1fb83d1fc6b29bbd47ac3ae8fa9aae0" prot="public">
+          <name>ippStsSymKernelExpected</name>
+          <initializer>= 38</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7a5fcf6b49485e65a69309cbead4968b68" prot="public">
+          <name>ippStsEvenMedianWeight</name>
+          <initializer>= 39</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>The following enumerator defines a status of IPP operations negative value means error </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="17" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_ipp_1_1_imaging_1a793e68a46fd5f256db26c4e69b56c006" prot="public" static="no">
+        <name>IppInter</name>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a793e68a46fd5f256db26c4e69b56c006a1352365be705b4c57f1e7409ed036c57" prot="public">
+          <name>IPPI_INTER_NN</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a793e68a46fd5f256db26c4e69b56c006ac295492e985cf00d0df1f16fe87a527b" prot="public">
+          <name>IPPI_INTER_LINEAR</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a793e68a46fd5f256db26c4e69b56c006a277497c22e18f8eabb01ac0c76229f82" prot="public">
+          <name>IPPI_INTER_CUBIC</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a793e68a46fd5f256db26c4e69b56c006a37ea9c44447d408623e53b548c7fb526" prot="public">
+          <name>IPPI_INTER_CUBIC2P_BSPLINE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a793e68a46fd5f256db26c4e69b56c006acef140e8d206b99feeb758eca52eb1dd" prot="public">
+          <name>IPPI_INTER_CUBIC2P_CATMULLROM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a793e68a46fd5f256db26c4e69b56c006af185c287fc3913cb2a062f439e8a3326" prot="public">
+          <name>IPPI_INTER_CUBIC2P_B05C03</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a793e68a46fd5f256db26c4e69b56c006a1eb2586d65785b24d3b9334190ffd48f" prot="public">
+          <name>IPPI_INTER_SUPER</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a793e68a46fd5f256db26c4e69b56c006a543b5d0138e49e73b528a749997d57d6" prot="public">
+          <name>IPPI_INTER_LANCZOS</name>
+          <initializer>= 16</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a793e68a46fd5f256db26c4e69b56c006aa90540f19f8d42f14c0547e00b81bdf4" prot="public">
+          <name>IPPI_SMOOTH_EDGE</name>
+          <initializer>= (1 &lt;&lt; 31)</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="327" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="326" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_ipp_1_1_imaging_1a8ae15beffdfeb752bc855bd634c1dcf9" prot="public" static="no">
+        <name>IppiAxis</name>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a8ae15beffdfeb752bc855bd634c1dcf9afe4eec6ddbdf1997eeb3a26d239c818e" prot="public">
+          <name>ippAxsHorizontal</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a8ae15beffdfeb752bc855bd634c1dcf9a58d13e4d814b7b791ef5926e293d2067" prot="public">
+          <name>ippAxsVertical</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a8ae15beffdfeb752bc855bd634c1dcf9a2c4f353d04dd62bf302def43638a9f21" prot="public">
+          <name>ippAxsBoth</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="340" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="339" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_ipp_1_1_imaging_1ac92a5c0a278d2c012b899c7d2b5462c4" prot="public" static="no">
+        <name>IppRoundMode</name>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1ac92a5c0a278d2c012b899c7d2b5462c4aa499be631b9835a65b1d29563be71919" prot="public">
+          <name>ippRndZero</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1ac92a5c0a278d2c012b899c7d2b5462c4a7b5c2fbeb0b318d322059a0abf80113a" prot="public">
+          <name>ippRndNear</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1ac92a5c0a278d2c012b899c7d2b5462c4a2f66484bf4dd3bc4c2737b6d63fea66b" prot="public">
+          <name>ippRndFinancial</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="347" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="346" bodyend="351"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" prot="public" static="no">
+        <name>PixelFormatType</name>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da9ed2d871602556951e39f3cebd08d6cb" prot="public">
+          <name>NotSupported</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da442064647770b198a8c4ba0112719e5e" prot="public">
+          <name>P8u_C1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da68d449e4cf51c2530bdfad9435cae067" prot="public">
+          <name>P8u_C3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da5557debe7629ed223b879acc68df3dd9" prot="public">
+          <name>P8u_AC4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482dab86612f6de27e5f88602b144f205b157" prot="public">
+          <name>P8u_C4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da7e6feb7eafe6eb45ce468f27f464ee9d" prot="public">
+          <name>P16s_C1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482dada3c29a5339d3d46e1971b8b5298b048" prot="public">
+          <name>P16s_C3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da05d911923bbecadf3c1023b08be5e7b3" prot="public">
+          <name>P16s_AC4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482daf0d7b38eb55e10afe63eabd0a3eda44d" prot="public">
+          <name>P16s_C4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482dae2a6dbcc71295cc676446ef6758ee449" prot="public">
+          <name>P16u_C1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da6aac20c068977045130e26f9720fcc2d" prot="public">
+          <name>P16u_C3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da8d438861aab475039b6e1b9c94477283" prot="public">
+          <name>P16u_AC4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da83b1591ab6db76ba0a7c0ed21474109b" prot="public">
+          <name>P16u_C4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da1aa8f8f91fbed5a7a9f599b2263aa7f8" prot="public">
+          <name>P32f_C1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da3779fd424c1f5fce52f1e056416994d8" prot="public">
+          <name>P32f_C3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482dabf054144fca9c95e9061bcc861b1c36c" prot="public">
+          <name>P32f_AC4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482da04c29c162611e4ce784140c3fac83fbf" prot="public">
+          <name>P32f_C4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="354" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="353" bodyend="372"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

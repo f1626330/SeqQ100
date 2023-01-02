@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_camera_lib_1_1_centroid" kind="struct" prot="public">
+    <compoundname>Sequlite::CameraLib::Centroid</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1a29ef8abbbb302183cb1cd7eca9bee8f1" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.m_count_min</definition>
+        <argsstring></argsstring>
+        <name>m_count_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="377" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1a3f71a3a6567466d259843f488958eaf4" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.m_count_max</definition>
+        <argsstring></argsstring>
+        <name>m_count_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="378" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1a75fc51aca0f31146d21e23b9ebcedd0a" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.m_count_current</definition>
+        <argsstring></argsstring>
+        <name>m_count_current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="379" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1a61a654e990e3cf2637d968ca42f0f319" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.m_radius_min</definition>
+        <argsstring></argsstring>
+        <name>m_radius_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="380" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1a45ba58509afbbd865e633ac6cae1b899" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.m_radius_max</definition>
+        <argsstring></argsstring>
+        <name>m_radius_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="381" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1a773b54d4e577ce3851df853492ecd85e" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.m_radius_current</definition>
+        <argsstring></argsstring>
+        <name>m_radius_current</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="382" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1a8943eacf1c8779b24e1a8f753421bd22" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.MaxCount</definition>
+        <argsstring></argsstring>
+        <name>MaxCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="384" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1ac42283e6034d721af60d767e679fabff" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.MinCount</definition>
+        <argsstring></argsstring>
+        <name>MinCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="390" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1aa4d0b4bb1380626092910c14a0faf7da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.CurrentCount</definition>
+        <argsstring></argsstring>
+        <name>CurrentCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="396" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1a9c71754aeb219fdd5d14883313147d43" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.MaxRadius</definition>
+        <argsstring></argsstring>
+        <name>MaxRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="402" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1ad154e59516d9d2238ced0f3eff402edb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.MinRadius</definition>
+        <argsstring></argsstring>
+        <name>MinRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="408" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_centroid_1ae415ab15ab9ead420169fcb3f4362156" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt16</type>
+        <definition>UInt16 Sequlite.CameraLib.Centroid.CurrentRadius</definition>
+        <argsstring></argsstring>
+        <name>CurrentRadius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="414" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="376" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="375" bodyend="419"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1aa4d0b4bb1380626092910c14a0faf7da" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>CurrentCount</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1ae415ab15ab9ead420169fcb3f4362156" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>CurrentRadius</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1a75fc51aca0f31146d21e23b9ebcedd0a" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>m_count_current</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1a3f71a3a6567466d259843f488958eaf4" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>m_count_max</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1a29ef8abbbb302183cb1cd7eca9bee8f1" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>m_count_min</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1a773b54d4e577ce3851df853492ecd85e" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>m_radius_current</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1a45ba58509afbbd865e633ac6cae1b899" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>m_radius_max</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1a61a654e990e3cf2637d968ca42f0f319" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>m_radius_min</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1a8943eacf1c8779b24e1a8f753421bd22" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>MaxCount</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1a9c71754aeb219fdd5d14883313147d43" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>MaxRadius</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1ac42283e6034d721af60d767e679fabff" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>MinCount</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_centroid_1ad154e59516d9d2238ced0f3eff402edb" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::Centroid</scope><name>MinRadius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

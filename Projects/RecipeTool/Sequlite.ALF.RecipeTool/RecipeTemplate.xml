@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Recipe Name="Protocol_Example" CreatedTime="20190114 14:36" UpdatedTime="20190114 15:00">
+  <Steps>
+    <!--  Temperature Steps  -->
+    <Step StepName="Set Temperature" TargetTemper="50.0" TemperRamp="2.5" Tolerance="0.5" Wait="True"/>
+    <Step StepName="Stop Temperature"/>
+    
+    <!--  Fluidics Steps  -->
+    <Step StepName="Pump" PumpingType="Normal" Volume="100" FlowRate="1" Reagent="1"/>
+    <Step StepName="Pump" PumpingType="Reverse" Volume="100" FlowRate="1" Reagent="2"/>
+    <Step StepName="Pump" PumpingType="Bypass" Volume="100" FlowRate="1" Reagent="0"/>
+    
+    <!--  Imaging Steps  -->
+    <Step StepName="Capture Image" IsAutoFocusOn="False">
+      <Regions>
+        <Region Index="1">
+          <Imagings>
+            <Imaging Channel="[R]" Exposure="0.5" Intensity="100" Filter="Filter1"/>
+            <Imaging Channel="[G]" Exposure="1.0" Intensity="80" Filter="Filter2"/>
+          </Imagings>
+          <Focuses>
+            <Focus Name="Ref0" Pos="201"/>
+            <Focus Name="Ref1" Pos="202"/>
+          </Focuses>
+        </Region>
+        <Region Index="3">
+          <Imagings>
+            <Imaging Channel="[R]" Exposure="0.5" Intensity="100" Filter="Filter1"/>
+          </Imagings>
+          <Focuses>
+            <Focus Name="Ref0" Pos="201"/>
+          </Focuses>
+        </Region>
+      </Regions>
+    </Step>
+    <Step StepName="Move Stage" Position="40"/>
+    <!--  Misc Steps  -->
+    <Step StepName="Loop Start" Cycles="5"/>
+    <Step StepName="Loop End"/>
+    <Step StepName="Run Recipe" FileName="C:\Sub Recipe.xml"/>
+    <Step StepName="Wait" Time="100"/>
+    <Step StepName="Comment" Content="This is a Comment Step"/>
+  </Steps> 
+</Recipe>

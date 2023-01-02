@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::AppInfo</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1a45b3a5885be514f601eef7a48f2319bc" prot="private" static="yes" mutable="no">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.AppInfo._SyncRoot</definition>
+        <argsstring></argsstring>
+        <name>_SyncRoot</name>
+        <initializer>= new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1ac057e3f25600e795b853ef96084d3a95" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info" kindref="compound">AppInfo</ref></type>
+        <definition>volatile AppInfo Sequlite.WPF.Framework.AppInfo._AppInfoInstance</definition>
+        <argsstring></argsstring>
+        <name>_AppInfoInstance</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1ac413ec95de734ea1b1ea1cfdc9ac6ec7" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_assembly_display_info" kindref="compound">AssemblyDisplayInfo</ref> &gt;</type>
+        <definition>List&lt;AssemblyDisplayInfo&gt; Sequlite.WPF.Framework.AppInfo._AssemblyInfo</definition>
+        <argsstring></argsstring>
+        <name>_AssemblyInfo</name>
+        <initializer>= new List&lt;<ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_assembly_display_info" kindref="compound">AssemblyDisplayInfo</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1a16a11d871d7fa994b7383a5c7fbb252e" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info" kindref="compound">AppInfo</ref></type>
+        <definition>AppInfo Sequlite.WPF.Framework.AppInfo.Instance</definition>
+        <argsstring></argsstring>
+        <name>Instance</name>
+        <briefdescription>
+<para>Get the single <ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info" kindref="compound">AppInfo</ref> instance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1a04f36494b686918920a25a927594407b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_assembly_display_info" kindref="compound">AssemblyDisplayInfo</ref> &gt;</type>
+        <definition>List&lt;AssemblyDisplayInfo&gt; Sequlite.WPF.Framework.AppInfo.AssemblyInfo</definition>
+        <argsstring></argsstring>
+        <name>AssemblyInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" line="44" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1a70913603be8f5fd38e0b089670a8bc58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.WPF.Framework.AppInfo.AppInfo</definition>
+        <argsstring>()</argsstring>
+        <name>AppInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" line="52" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" bodystart="52" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1ad94dc734831fd3fa5a009f378565d6c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.AppInfo.GetAssemblies</definition>
+        <argsstring>()</argsstring>
+        <name>GetAssemblies</name>
+        <briefdescription>
+<para>Get information of the applications loaded assemblies. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" line="61" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" bodystart="61" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="60">
+        <label>Sequlite.WPF.Framework.AppInfo</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info"/>
+        <childnode refid="61" relation="usage">
+          <edgelabel>_AppInfoInstance</edgelabel>
+          <edgelabel>_SyncRoot</edgelabel>
+        </childnode>
+      </node>
+      <node id="61">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" bodystart="9" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1ac057e3f25600e795b853ef96084d3a95" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::AppInfo</scope><name>_AppInfoInstance</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1ac413ec95de734ea1b1ea1cfdc9ac6ec7" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::AppInfo</scope><name>_AssemblyInfo</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1a45b3a5885be514f601eef7a48f2319bc" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::AppInfo</scope><name>_SyncRoot</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1a70913603be8f5fd38e0b089670a8bc58" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::AppInfo</scope><name>AppInfo</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1a04f36494b686918920a25a927594407b" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::AppInfo</scope><name>AssemblyInfo</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1ad94dc734831fd3fa5a009f378565d6c6" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::AppInfo</scope><name>GetAssemblies</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info_1a16a11d871d7fa994b7383a5c7fbb252e" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::AppInfo</scope><name>Instance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

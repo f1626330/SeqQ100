@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab" kind="struct" prot="public">
+    <compoundname>Sequlite::Image::Processing::CIELab</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1af298a452bd915256bf60d71b9354ef41" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab" kindref="compound">CIELab</ref></type>
+        <definition>readonly CIELab Sequlite.Image.Processing.CIELab.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <initializer>= new <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab" kindref="compound">CIELab</ref>()</initializer>
+        <briefdescription>
+<para>Gets an empty <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab" kindref="compound">CIELab</ref> structure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a93748981c5de87999e1d092e02f66410" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIELab.l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1aa3b6c5b90940ca0e8b0bdd85aa3289b8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIELab.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a888405c0d6b06142ad13105509d5c446" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIELab.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a3071f4ee000c18f5c508216d17ce28e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIELab.L</definition>
+        <argsstring></argsstring>
+        <name>L</name>
+        <briefdescription>
+<para>Gets or sets L component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="47" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a5a4ec596386440b39d81b00723f889a1" compoundref="_color_space_helper_8cs" startline="1054" endline="1057">Sequlite.Image.Processing.ColorSpaceHelper.LabtoXYZ</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a47b9e13497383851fd1fb3e82906d3df" compoundref="_c_i_e_lab_8cs" startline="32" endline="39">Sequlite.Image.Processing.CIELab.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1abd19f89cf927b13a91134a37dcba5bb2" compoundref="_c_i_e_lab_8cs" startline="23" endline="30">Sequlite.Image.Processing.CIELab.operator==</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1af32927d2f4d057d59d0baba722bc5c42" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIELab.A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <briefdescription>
+<para>Gets or sets a component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="62" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="63" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a5a4ec596386440b39d81b00723f889a1" compoundref="_color_space_helper_8cs" startline="1054" endline="1057">Sequlite.Image.Processing.ColorSpaceHelper.LabtoXYZ</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a47b9e13497383851fd1fb3e82906d3df" compoundref="_c_i_e_lab_8cs" startline="32" endline="39">Sequlite.Image.Processing.CIELab.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1abd19f89cf927b13a91134a37dcba5bb2" compoundref="_c_i_e_lab_8cs" startline="23" endline="30">Sequlite.Image.Processing.CIELab.operator==</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1ad90973e6dab167ec5d0c00d1ba645f60" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIELab.B</definition>
+        <argsstring></argsstring>
+        <name>B</name>
+        <briefdescription>
+<para>Gets or sets a component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="77" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="78" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a5a4ec596386440b39d81b00723f889a1" compoundref="_color_space_helper_8cs" startline="1054" endline="1057">Sequlite.Image.Processing.ColorSpaceHelper.LabtoXYZ</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a47b9e13497383851fd1fb3e82906d3df" compoundref="_c_i_e_lab_8cs" startline="32" endline="39">Sequlite.Image.Processing.CIELab.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1abd19f89cf927b13a91134a37dcba5bb2" compoundref="_c_i_e_lab_8cs" startline="23" endline="30">Sequlite.Image.Processing.CIELab.operator==</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1abd19f89cf927b13a91134a37dcba5bb2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.CIELab.operator==</definition>
+        <argsstring>(CIELab item1, CIELab item2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab" kindref="compound">CIELab</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab" kindref="compound">CIELab</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="23" bodyend="30"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1af32927d2f4d057d59d0baba722bc5c42" compoundref="_c_i_e_lab_8cs" startline="63">Sequlite.Image.Processing.CIELab.A</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1ad90973e6dab167ec5d0c00d1ba645f60" compoundref="_c_i_e_lab_8cs" startline="78">Sequlite.Image.Processing.CIELab.B</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a3071f4ee000c18f5c508216d17ce28e2" compoundref="_c_i_e_lab_8cs" startline="48">Sequlite.Image.Processing.CIELab.L</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a47b9e13497383851fd1fb3e82906d3df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.CIELab.operator!=</definition>
+        <argsstring>(CIELab item1, CIELab item2)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab" kindref="compound">CIELab</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab" kindref="compound">CIELab</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="32" bodyend="39"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1af32927d2f4d057d59d0baba722bc5c42" compoundref="_c_i_e_lab_8cs" startline="63">Sequlite.Image.Processing.CIELab.A</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1ad90973e6dab167ec5d0c00d1ba645f60" compoundref="_c_i_e_lab_8cs" startline="78">Sequlite.Image.Processing.CIELab.B</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a3071f4ee000c18f5c508216d17ce28e2" compoundref="_c_i_e_lab_8cs" startline="48">Sequlite.Image.Processing.CIELab.L</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a53316950faae74818b82d266e96bfcd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.CIELab.CIELab</definition>
+        <argsstring>(double l, double a, double b)</argsstring>
+        <name>CIELab</name>
+        <param>
+          <type>double</type>
+          <declname>l</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="91" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a980fb25eaab4035e5bb86ee32a7fc154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Sequlite.Image.Processing.CIELab.Equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="99" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a8d88003959d8149c17b7983e4f4e9d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Sequlite.Image.Processing.CIELab.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="106" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="106" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure to define CIE L*a*b*. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="266">
+        <label>Sequlite.Image.Processing.CIELab</label>
+        <link refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab"/>
+        <childnode refid="267" relation="usage">
+          <edgelabel>Empty</edgelabel>
+        </childnode>
+      </node>
+      <node id="267">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIELab.cs" bodystart="8" bodyend="112"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1aa3b6c5b90940ca0e8b0bdd85aa3289b8" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>a</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1af32927d2f4d057d59d0baba722bc5c42" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>A</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a888405c0d6b06142ad13105509d5c446" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>b</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1ad90973e6dab167ec5d0c00d1ba645f60" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>B</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a53316950faae74818b82d266e96bfcd0" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>CIELab</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1af298a452bd915256bf60d71b9354ef41" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>Empty</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a980fb25eaab4035e5bb86ee32a7fc154" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>Equals</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a8d88003959d8149c17b7983e4f4e9d4d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>GetHashCode</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a93748981c5de87999e1d092e02f66410" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>l</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a3071f4ee000c18f5c508216d17ce28e2" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>L</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1a47b9e13497383851fd1fb3e82906d3df" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>operator!=</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_lab_1abd19f89cf927b13a91134a37dcba5bb2" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIELab</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

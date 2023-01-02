@@ -1,0 +1,13 @@
+﻿<Application x:Class="Sequlite.ALF.MotionFwUpgrader.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:SequliteWpf="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             xmlns:local="clr-namespace:Sequlite.ALF.MotionFwUpgrader"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <SequliteWpf:BooleanToVisibilityConverter x:Key="boolToVisibleConverter"/>
+            <SequliteWpf:BooleanToVisibilityNegateConverter x:Key="boolToCollapsedConverter"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

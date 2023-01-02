@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_pump_status" kind="class" prot="package">
+    <compoundname>Sequlite::ALF::Fluidics::PumpDTProtocol::PumpStatus</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_pump_status_1af49b60668b496d5136e028da464560d3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpDTProtocol.PumpStatus.IsReady</definition>
+        <argsstring></argsstring>
+        <name>IsReady</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_pump_status_1a5a805b0216b7492ca90e6aed4570c329" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80" kindref="member">PumpProtocol.ErrorCodes</ref></type>
+        <definition>PumpProtocol.ErrorCodes Sequlite.ALF.Fluidics.PumpDTProtocol.PumpStatus.ErrorCode</definition>
+        <argsstring></argsstring>
+        <name>ErrorCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_pump_status_1aa5dddd108312313856ba1825d7f72d88" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.Fluidics.PumpDTProtocol.PumpStatus.DataByte</definition>
+        <argsstring></argsstring>
+        <name>DataByte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="38" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_pump_status_1a1d3c79b14c6be1f236be3af1e4951101" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Fluidics.PumpDTProtocol.PumpStatus.PumpStatus</definition>
+        <argsstring>(byte data)</argsstring>
+        <name>PumpStatus</name>
+        <param>
+          <type>byte</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="45" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="45" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="34" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_pump_status_1aa5dddd108312313856ba1825d7f72d88" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol::PumpStatus</scope><name>DataByte</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_pump_status_1a5a805b0216b7492ca90e6aed4570c329" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol::PumpStatus</scope><name>ErrorCode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_pump_status_1af49b60668b496d5136e028da464560d3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol::PumpStatus</scope><name>IsReady</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_pump_status_1a1d3c79b14c6be1f236be3af1e4951101" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol::PumpStatus</scope><name>PumpStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

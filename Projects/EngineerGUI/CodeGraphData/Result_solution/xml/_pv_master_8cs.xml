@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_pv_master_8cs" kind="file">
+    <compoundname>PvMaster.cs</compoundname>
+    <innerclass refid="class_photometrics_1_1_pvcam_1_1_pv_types" prot="public">Photometrics::Pvcam::PvTypes</innerclass>
+    <innernamespace refid="namespace_photometrics">Photometrics</innernamespace>
+    <innernamespace refid="namespace_photometrics_1_1_pvcam">Photometrics::Pvcam</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Runtime.InteropServices;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_sequlite_1_1_camera_lib_1adf877ec3e94b9627573c53341c664b6dafda526c4c53760c839b24296637327da" kindref="member">Photometrics</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Pvcam</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_photometrics_1_1_pvcam_1_1_pv_types" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">partial<sp/>class<sp/></highlight><highlight class="normal"><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types" kindref="compound">PvTypes</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[UnmanagedFunctionPointer(CallingConvention.Cdecl)]</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>delegate<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1ae0cf03c6e1ba3aedccf853435a137649" kindref="member">PMCallBack</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[UnmanagedFunctionPointer(CallingConvention.Cdecl)]</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>delegate<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a26590302a31cc0af4271ad4cf01bbcef" kindref="member">PMCallBack_Ex</ref>(IntPtr<sp/>context);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[UnmanagedFunctionPointer(CallingConvention.Cdecl)]</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>delegate<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a7ab45d0800063810e3788fc398fb8f83" kindref="member">PMCallBack_Ex2</ref>(ref<sp/><ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o" kindref="compound">FRAME_INFO</ref><sp/>frameInfo);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[UnmanagedFunctionPointer(CallingConvention.Cdecl)]</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>delegate<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1af9a99057685ae90bedd90c01a966ceec" kindref="member">PMCallBack_Ex3</ref>(ref<sp/><ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o" kindref="compound">FRAME_INFO</ref><sp/>frameInfo,<sp/>IntPtr<sp/>context);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a3d833caf6a51abe6073a81a93acc308a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a3d833caf6a51abe6073a81a93acc308a" kindref="member">ReturnValue</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a3d833caf6a51abe6073a81a93acc308aaeab4af0cd1d4663d9b51e3d048299bb2" kindref="member">PV_FAIL</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a3d833caf6a51abe6073a81a93acc308aac716f5e34ed490ef6123ed7ed9ccda66" kindref="member">PV_OK</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a45f635c53b48c3b4e6d085b0c3eb55ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Boolean<sp/><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a45f635c53b48c3b4e6d085b0c3eb55ba" kindref="member">BIG_ENDIAN</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;<sp/></highlight><highlight class="comment">/*<sp/>TRUE<sp/>for<sp/>Motorola<sp/>byte<sp/>order,<sp/>FALSE<sp/>for<sp/>Intel<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvMaster.cs"/>
+  </compounddef>
+</doxygen>

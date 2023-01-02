@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::ImageArithmetic</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a9437aa30b64c47606f39d0cb326e6d41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>unsafe WriteableBitmap Sequlite.Image.Processing.ImageArithmetic.AddImage</definition>
+        <argsstring>(ref WriteableBitmap srcimg, ref WriteableBitmap oprimg)</argsstring>
+        <name>AddImage</name>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>srcimg</declname>
+        </param>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>oprimg</declname>
+        </param>
+        <briefdescription>
+<para>Adds pixel values of two images </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcimg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source image</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oprimg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Operator image</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Result image</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="16" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a353ae538dd5bc6687e5888ff5c9c74b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>WriteableBitmap</type>
+        <definition>WriteableBitmap Sequlite.Image.Processing.ImageArithmetic.Add</definition>
+        <argsstring>(WriteableBitmap[] arrImages)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>WriteableBitmap[]</type>
+          <declname>arrImages</declname>
+        </param>
+        <briefdescription>
+<para>Returns the sum of all passed images </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>arrImages</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array of images</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="117" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="117" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1aa4dc80971d1fbdf1b4e928812815ea0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>unsafe WriteableBitmap Sequlite.Image.Processing.ImageArithmetic.SubtractImage</definition>
+        <argsstring>(WriteableBitmap srcimg, WriteableBitmap oprimg)</argsstring>
+        <name>SubtractImage</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcimg</declname>
+        </param>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>oprimg</declname>
+        </param>
+        <briefdescription>
+<para>Subtracts pixel values of two images </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcimg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source image</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oprimg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Operator image</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Result image</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="145" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="145" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a26288f894dffb6e16adec9488a08e370" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>unsafe WriteableBitmap Sequlite.Image.Processing.ImageArithmetic.Add</definition>
+        <argsstring>(WriteableBitmap srcImage, int oprValue)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>oprValue</declname>
+        </param>
+        <briefdescription>
+<para>Add each image pixel by the parameter value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcImage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oprValue</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="221" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="221" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a98e16316e018b05c34b4e0f05438cd16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>unsafe WriteableBitmap Sequlite.Image.Processing.ImageArithmetic.Subtract</definition>
+        <argsstring>(WriteableBitmap srcImage, int oprValue)</argsstring>
+        <name>Subtract</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>oprValue</declname>
+        </param>
+        <briefdescription>
+<para>Subtract each image pixel by the parameter value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcImage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oprValue</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="297" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="297" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a32d2babea11e9605ee6d278e2ee3750b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>unsafe WriteableBitmap Sequlite.Image.Processing.ImageArithmetic.Multiply</definition>
+        <argsstring>(WriteableBitmap srcImage, double oprValue)</argsstring>
+        <name>Multiply</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>oprValue</declname>
+        </param>
+        <briefdescription>
+<para>Multiply each image pixel by the parameter value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcImage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oprValue</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="373" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="373" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1af197dcad57c875575c8bf2f2a6810717" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>unsafe WriteableBitmap Sequlite.Image.Processing.ImageArithmetic.Divide</definition>
+        <argsstring>(WriteableBitmap srcImage, int oprValue)</argsstring>
+        <name>Divide</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>oprValue</declname>
+        </param>
+        <briefdescription>
+<para>Divide each image pixel by an integer parameter value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcImage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oprValue</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="482" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="482" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a633e9d0fa82bfa18456073fdd2446b41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>unsafe WriteableBitmap Sequlite.Image.Processing.ImageArithmetic.MultiplyImage</definition>
+        <argsstring>(ref WriteableBitmap srcimg, ref WriteableBitmap oprimg)</argsstring>
+        <name>MultiplyImage</name>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>srcimg</declname>
+        </param>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>oprimg</declname>
+        </param>
+        <briefdescription>
+<para>Adds pixel values of two images </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcimg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source image</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oprimg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Operator image</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Result image</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="591" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="591" bodyend="683"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a75510cc3a0388cbad2f5e0d220b2ab82" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>unsafe WriteableBitmap Sequlite.Image.Processing.ImageArithmetic.AvgImage</definition>
+        <argsstring>(WriteableBitmap[] arrImages)</argsstring>
+        <name>AvgImage</name>
+        <param>
+          <type>WriteableBitmap[]</type>
+          <declname>arrImages</declname>
+        </param>
+        <briefdescription>
+<para>Adds pixel values of two images </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcimg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Source image</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>oprimg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Operator image</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Result image</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="718" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="718" bodyend="809"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1abfd4dfc285a0cf85bd716f133825b959" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageArithmetic.ValidateImages</definition>
+        <argsstring>(WriteableBitmap[] arrImages)</argsstring>
+        <name>ValidateImages</name>
+        <param>
+          <type>WriteableBitmap[]</type>
+          <declname>arrImages</declname>
+        </param>
+        <briefdescription>
+<para>Compare images size, and bit depth validation </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>arrImages</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="691" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="691" bodyend="708"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageArithmetic.cs" bodystart="7" bodyend="812"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a353ae538dd5bc6687e5888ff5c9c74b7" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageArithmetic</scope><name>Add</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a26288f894dffb6e16adec9488a08e370" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageArithmetic</scope><name>Add</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a9437aa30b64c47606f39d0cb326e6d41" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageArithmetic</scope><name>AddImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a75510cc3a0388cbad2f5e0d220b2ab82" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageArithmetic</scope><name>AvgImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1af197dcad57c875575c8bf2f2a6810717" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageArithmetic</scope><name>Divide</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a32d2babea11e9605ee6d278e2ee3750b" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageArithmetic</scope><name>Multiply</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a633e9d0fa82bfa18456073fdd2446b41" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageArithmetic</scope><name>MultiplyImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1a98e16316e018b05c34b4e0f05438cd16" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageArithmetic</scope><name>Subtract</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1aa4dc80971d1fbdf1b4e928812815ea0a" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageArithmetic</scope><name>SubtractImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_arithmetic_1abfd4dfc285a0cf85bd716f133825b959" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageArithmetic</scope><name>ValidateImages</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

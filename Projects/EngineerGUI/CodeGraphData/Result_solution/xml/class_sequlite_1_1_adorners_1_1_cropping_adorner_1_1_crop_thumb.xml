@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kind="class" prot="private">
+    <compoundname>Sequlite::Adorners::CroppingAdorner::CropThumb</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Thumb</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb_1a6882ddd7eb85f44407d7df2464f88ccd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Adorners.CroppingAdorner.CropThumb._cpx</definition>
+        <argsstring></argsstring>
+        <name>_cpx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="504" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="504" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb_1af13c4b8eda2b106cc74e46c8c291f6a0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Adorners.CroppingAdorner.CropThumb.CropThumb</definition>
+        <argsstring>(int cpx)</argsstring>
+        <name>CropThumb</name>
+        <param>
+          <type>int</type>
+          <declname>cpx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="508" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="508" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb_1aa554be4cea6141d2d200a3e4313109c6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.CropThumb.SetPos</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>SetPos</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="530" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="530" bodyend="534"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb_1aafa7ac7c1abee25f37074fca02e8283f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Visual</type>
+        <definition>override Visual Sequlite.Adorners.CroppingAdorner.CropThumb.GetVisualChild</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetVisualChild</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="516" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="516" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb_1ac57e1992e0e9719ddb29973052afe26d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.Adorners.CroppingAdorner.CropThumb.OnRender</definition>
+        <argsstring>(DrawingContext drawingContext)</argsstring>
+        <name>OnRender</name>
+        <param>
+          <type>DrawingContext</type>
+          <declname>drawingContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="521" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="521" bodyend="524"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="329">
+        <label>Thumb</label>
+      </node>
+      <node id="328">
+        <label>Sequlite.Adorners.CroppingAdorner.CropThumb</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb"/>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="331">
+        <label>Thumb</label>
+      </node>
+      <node id="330">
+        <label>Sequlite.Adorners.CroppingAdorner.CropThumb</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="502" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="501" bodyend="536"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb_1a6882ddd7eb85f44407d7df2464f88ccd" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner::CropThumb</scope><name>_cpx</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb_1af13c4b8eda2b106cc74e46c8c291f6a0" prot="package" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner::CropThumb</scope><name>CropThumb</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb_1aafa7ac7c1abee25f37074fca02e8283f" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner::CropThumb</scope><name>GetVisualChild</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb_1ac57e1992e0e9719ddb29973052afe26d" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner::CropThumb</scope><name>OnRender</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb_1aa554be4cea6141d2d200a3e4313109c6" prot="package" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner::CropThumb</scope><name>SetPos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

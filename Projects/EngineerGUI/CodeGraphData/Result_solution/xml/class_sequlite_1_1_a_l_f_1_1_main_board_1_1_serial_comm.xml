@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::MainBoard::SerialComm</compoundname>
+    <basecompoundref refid="class_hywire_1_1_comm_library_1_1_serial_comm_base" prot="public" virt="non-virtual">Hywire.CommLibrary.SerialCommBase</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1acbd06f48a53b21b88868b3aa2182f834" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a8adce73fdb9722b3c8eaf2d61b858947" kindref="member">EventDelegate</ref></type>
+        <definition>EventDelegate Sequlite.ALF.MainBoard.SerialComm.OnResponseArrived</definition>
+        <argsstring></argsstring>
+        <name>OnResponseArrived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1ac6917af8ad2cd61b514b21c8ed5d342a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.SerialComm._LogIndex</definition>
+        <argsstring></argsstring>
+        <name>_LogIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1af0ff5365514a7a24c9c952ccd44c969d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.SerialComm._IsNewLog</definition>
+        <argsstring></argsstring>
+        <name>_IsNewLog</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a42bd9d410f06d7db3e9ccafb0d8af82b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.SerialComm.IsConnected</definition>
+        <argsstring></argsstring>
+        <name>IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="51" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1abcdc05eb44bc4ca4e0ab0c26dccdd9ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">MBProtocol.Registers</ref></type>
+        <definition>MBProtocol.Registers Sequlite.ALF.MainBoard.SerialComm.ResponseStartReg</definition>
+        <argsstring></argsstring>
+        <name>ResponseStartReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="52" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a55890ad53926894bc833100129eb05b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MainBoard.SerialComm.ResponseRegNumbers</definition>
+        <argsstring></argsstring>
+        <name>ResponseRegNumbers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="53" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a8adce73fdb9722b3c8eaf2d61b858947" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.MainBoard.SerialComm.EventDelegate</definition>
+        <argsstring>()</argsstring>
+        <name>EventDelegate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a902870999d85fe5af50424b4af833daa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.MainBoard.SerialComm.SerialComm</definition>
+        <argsstring>(uint readBufSize)</argsstring>
+        <name>SerialComm</name>
+        <param>
+          <type>uint</type>
+          <declname>readBufSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a365f09d58f725a6aeb188b796c581f84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Sequlite.ALF.MainBoard.SerialComm.SendBytes</definition>
+        <argsstring>(byte[] data)</argsstring>
+        <name>SendBytes</name>
+        <reimplements refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a846a0d177e040c3a0d8a7e0543b06c9b">SendBytes</reimplements>
+        <param>
+          <type>byte[]</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="96" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="96" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a88958edbae622ad92102541d53f77f5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MainBoard.SerialComm.Connect</definition>
+        <argsstring>(int baudRate)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>baudRate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="119" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="119" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a57b1e01ce5db2a9702de74795c2e01db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MainBoard.SerialComm.ALFProtocol_OnChangeStatus</definition>
+        <argsstring>(CommStatus newStatus)</argsstring>
+        <name>ALFProtocol_OnChangeStatus</name>
+        <param>
+          <type><ref refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1ac54f52f9863960a011aff00f017a17d6" kindref="member">CommStatus</ref></type>
+          <declname>newStatus</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1aa04fb57c89c27ee1202594ccd1c4ec09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MainBoard.SerialComm.LogToFile</definition>
+        <argsstring>(string newLog)</argsstring>
+        <name>LogToFile</name>
+        <param>
+          <type>string</type>
+          <declname>newLog</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="32" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a6471d457e401f9e18249c9660e2692e8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.MainBoard.SerialComm.ResponseDetect</definition>
+        <argsstring>(out int detectedFrameIndex)</argsstring>
+        <name>ResponseDetect</name>
+        <reimplements refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a75d160e2aa3c64b61d1295f44854cd4c">ResponseDetect</reimplements>
+        <param>
+          <type>out int</type>
+          <declname>detectedFrameIndex</declname>
+        </param>
+        <briefdescription>
+<para>Inheritance Class must override this function. In this function, Status would be set to &quot;GotResponse&quot; when response is arrived to avoid time out event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>detectedFrameIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Should be set to 0 or last index (start index + frame length) of the response bytes.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="57" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1141">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+      </node>
+      <node id="1140">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="1141" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1143">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="1144" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1144">
+        <label>System</label>
+      </node>
+      <node id="1142">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="1143" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/SerialComm.cs" bodystart="10" bodyend="140"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1af0ff5365514a7a24c9c952ccd44c969d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>_IsNewLog</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1ac6917af8ad2cd61b514b21c8ed5d342a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>_LogIndex</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a71d5421637b29094f573bdde3e427b59" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>_TimeOutInMilliSec</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a3be1273eac241f702c74a0bc9243230d" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>_Timer</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a57b1e01ce5db2a9702de74795c2e01db" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>ALFProtocol_OnChangeStatus</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a582275bf6b0a7c3c70d795892246246b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>Close</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1ac54f52f9863960a011aff00f017a17d6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>CommStatus</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a02a7186547647fb4d1d117df4e74cd18" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>CommTimeOutHandler</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a88958edbae622ad92102541d53f77f5f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>Connect</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a8adce73fdb9722b3c8eaf2d61b858947" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>EventDelegate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a42bd9d410f06d7db3e9ccafb0d8af82b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>IsConnected</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1af1a88b005fb380b8da60d362e361cbc7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>IsOpened</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1aa04fb57c89c27ee1202594ccd1c4ec09" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>LogToFile</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1aaf8d5b1116ee2b60174112fb9e4b8ff1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>OnCommTimeOut</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1acbd06f48a53b21b88868b3aa2182f834" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>OnResponseArrived</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a2f8a2fa03f1283664ebf778f7f408e00" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>Open</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1af860daf2c9ae673c6f4bb7925933fffa" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>ReadBuf</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1abb5ea5ee52e5eb99ed4d568c4176e82e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>ReadIndex</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a6471d457e401f9e18249c9660e2692e8" prot="protected" virt="virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>ResponseDetect</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a55890ad53926894bc833100129eb05b0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>ResponseRegNumbers</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1abcdc05eb44bc4ca4e0ab0c26dccdd9ea" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>ResponseStartReg</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a365f09d58f725a6aeb188b796c581f84" prot="public" virt="virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>SendBytes</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a4264b603beda69d3d9d5b48bdf6ba006" prot="public" virt="non-virtual" ambiguityscope="Hywire::CommLibrary::SerialCommBase."><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>SendBytes</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm_1a902870999d85fe5af50424b4af833daa" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>SerialComm</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a8d0a350c653a9465a9cbba8361015c5c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>SerialCommBase</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1ae3b86709ad5d0b433d57ce5c363fbd83" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>Status</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a8910f94cc02971b4dfa9cfeec8506df1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>TimeOutInMilliSec</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1aab07c2581e9bc12842502c77d18f4873" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>WaitForStatus</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a834f32a98733091bb2a37e1eb53acc3c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::SerialComm</scope><name>WaitForStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_exposure_time_converter" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::ExposureTimeConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IMultiValueConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_exposure_time_converter_1a875a10393d473b124598f36e6e66a4c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.ExposureTimeConverter.Convert</definition>
+        <argsstring>(object[] values, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object[]</type>
+          <declname>values</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ExposureTimeConverter.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ExposureTimeConverter.cs" bodystart="9" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_exposure_time_converter_1a5ea06ef33eb0e96fb0a1bc3631b32c66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object[]</type>
+        <definition>object [] Sequlite.WPF.Framework.ExposureTimeConverter.ConvertBack</definition>
+        <argsstring>(object value, Type[] targetTypes, object parameter, CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type[]</type>
+          <declname>targetTypes</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ExposureTimeConverter.cs" line="64" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ExposureTimeConverter.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_exposure_time_converter_1add34fe6e0dfb82bb0dcdde036239a5b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Sequlite.WPF.Framework.ExposureTimeConverter.FormatExposureTime</definition>
+        <argsstring>(double dExposureTime)</argsstring>
+        <name>FormatExposureTime</name>
+        <param>
+          <type>double</type>
+          <declname>dExposureTime</declname>
+        </param>
+        <briefdescription>
+<para>Convert exposure to minutes, seconds, and milliseconds </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dExposureTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Exposure time in seconds</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Formatted exposure time</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ExposureTimeConverter.cs" line="74" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ExposureTimeConverter.cs" bodystart="74" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="387">
+        <label>IMultiValueConverter</label>
+      </node>
+      <node id="386">
+        <label>Sequlite.WPF.Framework.ExposureTimeConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_exposure_time_converter"/>
+        <childnode refid="387" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="389">
+        <label>IMultiValueConverter</label>
+      </node>
+      <node id="388">
+        <label>Sequlite.WPF.Framework.ExposureTimeConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_exposure_time_converter"/>
+        <childnode refid="389" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ExposureTimeConverter.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ExposureTimeConverter.cs" bodystart="7" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_exposure_time_converter_1a875a10393d473b124598f36e6e66a4c7" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::ExposureTimeConverter</scope><name>Convert</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_exposure_time_converter_1a5ea06ef33eb0e96fb0a1bc3631b32c66" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::ExposureTimeConverter</scope><name>ConvertBack</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_exposure_time_converter_1add34fe6e0dfb82bb0dcdde036239a5b4" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::ExposureTimeConverter</scope><name>FormatExposureTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

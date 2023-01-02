@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::LaunchWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1a2ba21f74b5aa9475cc0d5aa16597d0e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.LaunchWindow.LaunchWindow</definition>
+        <argsstring>()</argsstring>
+        <name>LaunchWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/LaunchWindow.xaml.cs" line="16" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/LaunchWindow.xaml.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.LaunchWindow.Window_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Window_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/LaunchWindow.xaml.cs" line="21" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/LaunchWindow.xaml.cs" bodystart="21" bodyend="147"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a6f39ff53e2fa9e2c0ab4a924d59b71b6" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="98">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.CameraVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af717d399b1a42949031d1c09ed3bb733" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="103">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.FluidicsVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1af7550810269eab43beadbaaf69c27d5a" compoundref="_main_board_view_model_8cs" startline="170">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.HWVersion</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1adc0385f75fcbe3c0002d6d2799a8c72f" compoundref="_camera_view_model_8cs" startline="942" endline="986">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.InitializeCamera</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0f1afff8d9a2072c2aaae68169305c6d" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="104">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.IsZStageAlive</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab19fa62fd1881c7f2edb044097d7d23b" compoundref="_main_board_view_model_8cs" startline="155">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.MainBoard</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af637674b4bc00a0ba294a8a16710a510" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="101">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MainBoardVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a0177d0b358bf7643dedcb1a21072e9d4" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="99">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MotionVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a6c484ce0d1033b92b4e55d798f4707b5" compoundref="_fluidics_view_model_8cs" startline="152">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Pump</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a7a5b73e4fcddc41750b2e34e0e386f70" compoundref="_fluidics_view_model_8cs" startline="150">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Valve</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>LaunchWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="634">
+        <label>Window</label>
+      </node>
+      <node id="633">
+        <label>Sequlite.ALF.EngineerGUI.LaunchWindow</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window"/>
+        <childnode refid="634" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="636">
+        <label>Window</label>
+      </node>
+      <node id="635">
+        <label>Sequlite.ALF.EngineerGUI.LaunchWindow</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window"/>
+        <childnode refid="636" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/LaunchWindow.xaml.cs" line="15" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/LaunchWindow.xaml.cs" bodystart="14" bodyend="148"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1a2ba21f74b5aa9475cc0d5aa16597d0e2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::LaunchWindow</scope><name>LaunchWindow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window_1af8c6680707e4c607c2e50fabe17a17db" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::LaunchWindow</scope><name>Window_Loaded</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

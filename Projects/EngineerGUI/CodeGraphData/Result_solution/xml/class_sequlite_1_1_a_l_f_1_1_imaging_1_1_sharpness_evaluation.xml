@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_sharpness_evaluation" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::SharpnessEvaluation</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_sharpness_evaluation_1a54d1fd58b14b5ebc3706cf3d3b2871f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double Sequlite.ALF.Imaging.SharpnessEvaluation.Gradient</definition>
+        <argsstring>(ref WriteableBitmap img, Rect roi)</argsstring>
+        <name>Gradient</name>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>img</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>roi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>img</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>roi</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>rectangle of interested region, each dimension is scaled to 1.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/SharpnessEvaluation.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/SharpnessEvaluation.cs" bodystart="16" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_sharpness_evaluation_1a576b5f4c96c3821c203fbe774bfe7d32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double Sequlite.ALF.Imaging.SharpnessEvaluation.VerticalStdDev</definition>
+        <argsstring>(ref WriteableBitmap img, Rect roi)</argsstring>
+        <name>VerticalStdDev</name>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>img</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>roi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/SharpnessEvaluation.cs" line="50" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/SharpnessEvaluation.cs" bodystart="50" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_sharpness_evaluation_1a100cfa38ffb7ca65a30a26fbe9a4f3b8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double Sequlite.ALF.Imaging.SharpnessEvaluation.HorizontalStdDev</definition>
+        <argsstring>(ref WriteableBitmap img, Rect roi)</argsstring>
+        <name>HorizontalStdDev</name>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>img</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>roi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/SharpnessEvaluation.cs" line="94" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/SharpnessEvaluation.cs" bodystart="94" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/SharpnessEvaluation.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/SharpnessEvaluation.cs" bodystart="8" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_sharpness_evaluation_1a54d1fd58b14b5ebc3706cf3d3b2871f8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::SharpnessEvaluation</scope><name>Gradient</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_sharpness_evaluation_1a100cfa38ffb7ca65a30a26fbe9a4f3b8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::SharpnessEvaluation</scope><name>HorizontalStdDev</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_sharpness_evaluation_1a576b5f4c96c3821c203fbe774bfe7d32" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::SharpnessEvaluation</scope><name>VerticalStdDev</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

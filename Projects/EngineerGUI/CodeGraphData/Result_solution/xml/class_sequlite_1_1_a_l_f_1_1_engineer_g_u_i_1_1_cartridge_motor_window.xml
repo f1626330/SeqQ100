@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_cartridge_motor_window" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::CartridgeMotorWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_cartridge_motor_window_1a312043d3bdf5acc33de31b462ee0e959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.CartridgeMotorWindow.CartridgeMotorWindow</definition>
+        <argsstring>()</argsstring>
+        <name>CartridgeMotorWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/CartridgeMotorWindow.xaml.cs" line="10" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/CartridgeMotorWindow.xaml.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>CartridgeMotorWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="234">
+        <label>Window</label>
+      </node>
+      <node id="233">
+        <label>Sequlite.ALF.EngineerGUI.CartridgeMotorWindow</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_cartridge_motor_window"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="236">
+        <label>Window</label>
+      </node>
+      <node id="235">
+        <label>Sequlite.ALF.EngineerGUI.CartridgeMotorWindow</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_cartridge_motor_window"/>
+        <childnode refid="236" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/CartridgeMotorWindow.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/CartridgeMotorWindow.xaml.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_cartridge_motor_window_1a312043d3bdf5acc33de31b462ee0e959" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::CartridgeMotorWindow</scope><name>CartridgeMotorWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

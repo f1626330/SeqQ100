@@ -1,0 +1,1217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model" kind="class" prot="package">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a020be21ce13b1e908cf6e7a9fccfe473" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._ZLimitL</definition>
+        <argsstring></argsstring>
+        <name>_ZLimitL</name>
+        <initializer>= 250</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="25" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a58e1c34fb037def10b0229f6bedd82d0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._ZLimitH</definition>
+        <argsstring></argsstring>
+        <name>_ZLimitH</name>
+        <initializer>= 280</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="26" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a3c5caaaa491c61a03e0c4c1ab3930a40" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._ZSpeed</definition>
+        <argsstring></argsstring>
+        <name>_ZSpeed</name>
+        <initializer>= 800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="27" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a4113b50b16bbf37e60c5e2c96710c125" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._ZAccel</definition>
+        <argsstring></argsstring>
+        <name>_ZAccel</name>
+        <initializer>= 1500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="28" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a6b1a7dbe10da44ada8212b94b9f711de" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._RoiLeft</definition>
+        <argsstring></argsstring>
+        <name>_RoiLeft</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="30" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a3d7d6bda678a9c98468b862c4259dc82" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._RoiTop</definition>
+        <argsstring></argsstring>
+        <name>_RoiTop</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="31" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a9c276a1c561a56b93ba0cf25bb0eb424" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._RoiWidth</definition>
+        <argsstring></argsstring>
+        <name>_RoiWidth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="32" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a6e3e5800a478692fc0f40e83b3fce340" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._RoiHeight</definition>
+        <argsstring></argsstring>
+        <name>_RoiHeight</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="33" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1af4c2dfda46b9f26d9a92d0bd4fbfee62" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._Exposure</definition>
+        <argsstring></argsstring>
+        <name>_Exposure</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="34" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae3d46338c6c2ed3134a0fdc17ce7a7d0" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+        <definition>LEDTypes Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._SelectedLED</definition>
+        <argsstring></argsstring>
+        <name>_SelectedLED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="36" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a3671db1dde384e5dd473dc1ae7bff2b8" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._Intensity</definition>
+        <argsstring></argsstring>
+        <name>_Intensity</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="37" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a088d458c2797ad6c78e1d921e186ee23" prot="private" static="no" mutable="no">
+        <type>StringBuilder</type>
+        <definition>StringBuilder Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._Info</definition>
+        <argsstring></argsstring>
+        <name>_Info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="39" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a640938b72b08e93821a1f279b87d5e38" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._IsAutoFocusing</definition>
+        <argsstring></argsstring>
+        <name>_IsAutoFocusing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="40" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a5b41a8bd629a0e2855a4ddb5dc55309b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._IsScanning</definition>
+        <argsstring></argsstring>
+        <name>_IsScanning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="41" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a60152bda17be677f59f0508fb168f58b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._IsCancelScan</definition>
+        <argsstring></argsstring>
+        <name>_IsCancelScan</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="42" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1afbe41dd79c56fbc28ae9a6961d4729cc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._IsBadImage</definition>
+        <argsstring></argsstring>
+        <name>_IsBadImage</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="43" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a34c24f7c7546964fbe8815ef4452424e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command" kindref="compound">AutoFocusCommand</ref></type>
+        <definition>AutoFocusCommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._AutoFocusCmd</definition>
+        <argsstring></argsstring>
+        <name>_AutoFocusCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="44" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a4ee27d734af6fd0c70efd3bf91f0721f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._ledStateGet</definition>
+        <argsstring></argsstring>
+        <name>_ledStateGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="45" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1aafe89aaae03b4d20b018da581ab2c758" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._PDValue</definition>
+        <argsstring></argsstring>
+        <name>_PDValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="46" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a28450165e06214ec3aff05ecf3a06576" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._LEDFailure</definition>
+        <argsstring></argsstring>
+        <name>_LEDFailure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="47" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a14669187c456fe35e47a763eeee2c6af" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" kindref="compound">MainBoard.Mainboard</ref></type>
+        <definition>MainBoard.Mainboard Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._MainBoard</definition>
+        <argsstring></argsstring>
+        <name>_MainBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="48" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a80486af758d39556bf5391a15316f815" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._RunCount</definition>
+        <argsstring></argsstring>
+        <name>_RunCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="49" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a75d8d02c9bf563df615f77b7a4e52b1a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._StartCmd</definition>
+        <argsstring></argsstring>
+        <name>_StartCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="256" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ab8fedf5be0b07b470bec5338ac307934" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._StopCmd</definition>
+        <argsstring></argsstring>
+        <name>_StopCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="332" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a00393cbaf11c48a66143942cbf8ba15f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._StartScanCmd</definition>
+        <argsstring></argsstring>
+        <name>_StartScanCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="357" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a8f4e1a1583dc30a232872a77604404d1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._CancelScanCmd</definition>
+        <argsstring></argsstring>
+        <name>_CancelScanCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="647" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="647" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a9b2efd77c0994ccde8c67f86a6f5b01a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._SaveDataCmd</definition>
+        <argsstring></argsstring>
+        <name>_SaveDataCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="671" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="671" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a328de1467607ff57d510ee0e7bd8b94c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ZLimitL</definition>
+        <argsstring></argsstring>
+        <name>ZLimitL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="53" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a15843b9fb8baf10a6731b1524f211b86" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ZLimitH</definition>
+        <argsstring></argsstring>
+        <name>ZLimitH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="65" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a3409f4714df1a4924053a7b79b0d4390" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ZSpeed</definition>
+        <argsstring></argsstring>
+        <name>ZSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="77" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ace2aa149dd1e1da51744107316b57343" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ZAccel</definition>
+        <argsstring></argsstring>
+        <name>ZAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="89" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a22b70e6e01a61d0b2902f55f2457e9eb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.RoiLeft</definition>
+        <argsstring></argsstring>
+        <name>RoiLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="101" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a4da0999e7eb3add239133fc09aeec26c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.RoiTop</definition>
+        <argsstring></argsstring>
+        <name>RoiTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="113" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1aa6b06cc3e234d5d781799672861ec5ce" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.RoiWidth</definition>
+        <argsstring></argsstring>
+        <name>RoiWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="125" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1adc9d5545206fafac585fae36ddfd0d02" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.RoiHeight</definition>
+        <argsstring></argsstring>
+        <name>RoiHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="137" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a5c62a7d3433ec3397cb7dbe0ffc03fde" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.Exposure</definition>
+        <argsstring></argsstring>
+        <name>Exposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="149" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae4163a450ba4573c5aa063c0dc29e8b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+        <definition>LEDTypes Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.SelectedLED</definition>
+        <argsstring></argsstring>
+        <name>SelectedLED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="161" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a21f12d0d2915a9f60d05021fc2715e37" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.Intensity</definition>
+        <argsstring></argsstring>
+        <name>Intensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="173" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a214298ce9d9845a33c0b6639d5101c0f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref>[]</type>
+        <definition>LEDTypes [] Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.LEDOptions</definition>
+        <argsstring></argsstring>
+        <name>LEDOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="185" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1af0b2b001ce6d0536edc5fa546358a128" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.Information</definition>
+        <argsstring></argsstring>
+        <name>Information</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="186" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a1ef7c5c74857f611f3e8ea1f55936ba2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.IsAutoFocusing</definition>
+        <argsstring></argsstring>
+        <name>IsAutoFocusing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="190" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a7f50d3ba6eeab57866feaa1679fa911d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.IsScanning</definition>
+        <argsstring></argsstring>
+        <name>IsScanning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="202" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a7ee386e3f14d4fb861db431ce66a9874" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.IsCancelScan</definition>
+        <argsstring></argsstring>
+        <name>IsCancelScan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="215" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a2bd036d33ff440b48c4cdf7d4dffdfcd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableDataSource&lt; <ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref> &gt;</type>
+        <definition>ObservableDataSource&lt;Point&gt; Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.StdDevLine</definition>
+        <argsstring></argsstring>
+        <name>StdDevLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="227" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a5c35800140dc3816f9f394e031d28dbb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableDataSource&lt; <ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref> &gt;</type>
+        <definition>ObservableDataSource&lt;Point&gt; Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.GradientLine</definition>
+        <argsstring></argsstring>
+        <name>GradientLine</name>
+        <initializer>= new ObservableDataSource&lt;<ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="228" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a593387e86c4164d8a04fa9aef287fab0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableDataSource&lt; <ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref> &gt;</type>
+        <definition>ObservableDataSource&lt;Point&gt; Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.StdDevSave</definition>
+        <argsstring></argsstring>
+        <name>StdDevSave</name>
+        <initializer>= new ObservableDataSource&lt;<ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="229" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a87dda75f3222b9277077e7e163031a29" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.StartCmd</definition>
+        <argsstring></argsstring>
+        <name>StartCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="257" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae510f16b319edb4c33827acca0a7aeb9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.StopCmd</definition>
+        <argsstring></argsstring>
+        <name>StopCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="333" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a90e872e3844dcd2ae2f45841f1c2dba0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.StartScanCmd</definition>
+        <argsstring></argsstring>
+        <name>StartScanCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="358" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1af832437b7b8d10526b52f6f401335e89" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.CancelScanCmd</definition>
+        <argsstring></argsstring>
+        <name>CancelScanCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="649" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="650" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a346fb33291e6f17e47d3975906057e3e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.SaveDataCmd</definition>
+        <argsstring></argsstring>
+        <name>SaveDataCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="672" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="673" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a4568ad66b148e0a5a40791937db6ecb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.AutoFocusViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>AutoFocusViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="232" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="232" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a9e830bee154211b5ff377ba0ba0d1c7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="242" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="242" bodyend="253"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae927b2ea6420dfe9605c80c6fa0cdfb4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStartCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteStartCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="269" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="269" bodyend="296"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a86782a2d98b9f1a92343fde00e9b2b1c" compoundref="_camera_view_model_8cs" startline="76">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ActiveCamera</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a6f39ff53e2fa9e2c0ab4a924d59b71b6" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="98">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.CameraVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab19fa62fd1881c7f2edb044097d7d23b" compoundref="_main_board_view_model_8cs" startline="155">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.MainBoard</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af637674b4bc00a0ba294a8a16710a510" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="101">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MainBoardVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1afd871d390919ada56fa67cf15564d8b3" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="90">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.MotionController</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a0177d0b358bf7643dedcb1a21072e9d4" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="99">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MotionVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a70acfeda071bcbe9b8e9770af1e5eadb" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="13">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Owner</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a6b0ce025a678bc4c95b8682578f42419" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._AutoFocusCmd_OnImageSampled</definition>
+        <argsstring>(double zPos, double sharpness)</argsstring>
+        <name>_AutoFocusCmd_OnImageSampled</name>
+        <param>
+          <type>double</type>
+          <declname>zPos</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sharpness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="298" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="298" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a015f5cd8d468cf278fcc67d914375744" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._AutoFocusCmd_Completed</definition>
+        <argsstring>(ThreadBase sender, ThreadBase.ThreadExitStat exitState)</argsstring>
+        <name>_AutoFocusCmd_Completed</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base" kindref="compound">ThreadBase</ref></type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0ae32b8605809e5183eaec8a37a1aef9" kindref="member">ThreadBase.ThreadExitStat</ref></type>
+          <declname>exitState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="304" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="304" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a1fd21f2a531bc3b453d84ca57012f9ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.CanExecuteStartCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteStartCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="325" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="325" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a41791c54181a5eab8739ec66a180b8f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStopCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteStopCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="345" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="345" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1aa43f8fad2ff8591ad8e34b9820578877" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.CanExecuteStopCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteStopCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="350" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="350" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a49ab015c032369c619b16274e76ebb3b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteStartScanCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteStartScanCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="370" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="370" bodyend="559"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a0286c7ce626b1d52538a2d4d5f103fba" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel._Camera_OnExposureChanged</definition>
+        <argsstring>(bool starts)</argsstring>
+        <name>_Camera_OnExposureChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>starts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="560" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="560" bodyend="639"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a9388e6502df32eaf8d72ecbd9d7e8356" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.CanExecuteStartScanCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteStartScanCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="640" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="640" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1af3fd8396087e285b68fff0d7ddd0e591" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteCancelScanCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteCancelScanCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="660" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="660" bodyend="663"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1aef29f57fe453bbdf69450c1f91e8c9e3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.CanExecuteCancelScanCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteCancelScanCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="664" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="664" bodyend="667"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1aba4ba351be828b37e3a451e32083b1db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.ExecuteSaveDataCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSaveDataCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="684" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="684" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ad72971da2eef6cb3290d8f52f328b78b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel.CanExecuteSaveDataCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSaveDataCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="705" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="705" bodyend="708"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="90">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="91">
+        <label>IDisposable</label>
+      </node>
+      <node id="89">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="108">
+        <label>Sequlite.CameraLib.CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+      <node id="113">
+        <label>Sequlite.ALF.MotionControl.HywireGalilControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_hywire_galil_control"/>
+        <childnode refid="105" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+      </node>
+      <node id="103">
+        <label>Sequlite.ALF.MainBoard.Mainboard</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard"/>
+        <childnode refid="104" relation="usage">
+          <edgelabel>_LEDOnTimer</edgelabel>
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>_LEDLock</edgelabel>
+        </childnode>
+        <childnode refid="106" relation="usage">
+          <edgelabel>_Comm</edgelabel>
+        </childnode>
+      </node>
+      <node id="100">
+        <label>ThreadBase</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_thread_base"/>
+      </node>
+      <node id="107">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="104" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="98">
+        <label>ICommand</label>
+      </node>
+      <node id="110">
+        <label>Sequlite.ALF.MotionControl.MagellanControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control"/>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="101">
+        <label>Sequlite.ALF.Common.AutoFocusSettings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings"/>
+      </node>
+      <node id="99">
+        <label>Sequlite.ALF.Imaging.AutoFocusCommand</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+        <childnode refid="101" relation="usage">
+          <edgelabel>_Settings</edgelabel>
+        </childnode>
+        <childnode refid="102" relation="usage">
+          <edgelabel>Info</edgelabel>
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>_MainBoard</edgelabel>
+        </childnode>
+        <childnode refid="108" relation="usage">
+          <edgelabel>_Camera</edgelabel>
+        </childnode>
+        <childnode refid="109" relation="usage">
+          <edgelabel>_Motion</edgelabel>
+        </childnode>
+      </node>
+      <node id="95">
+        <label>IDisposable</label>
+      </node>
+      <node id="93">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+        <childnode refid="95" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>Sequlite.ALF.MotionControl.MotionController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller"/>
+        <childnode refid="110" relation="usage">
+          <edgelabel>_MagellanController</edgelabel>
+        </childnode>
+        <childnode refid="111" relation="usage">
+          <edgelabel>_HywireMotionController</edgelabel>
+        </childnode>
+        <childnode refid="104" relation="usage">
+          <edgelabel>_RecordTimer</edgelabel>
+        </childnode>
+        <childnode refid="113" relation="usage">
+          <edgelabel>_HywireController</edgelabel>
+        </childnode>
+      </node>
+      <node id="97">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="104">
+        <label>System</label>
+      </node>
+      <node id="106">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="102">
+        <label>Processing</label>
+      </node>
+      <node id="111">
+        <label>Hywire.MotionControl.HywireController</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_hywire_controller"/>
+        <childnode refid="112" relation="usage">
+          <edgelabel>_Port</edgelabel>
+        </childnode>
+        <childnode refid="104" relation="usage">
+          <edgelabel>_QueryTimer</edgelabel>
+        </childnode>
+        <childnode refid="105" relation="usage">
+          <edgelabel>_MotionLock</edgelabel>
+        </childnode>
+      </node>
+      <node id="96">
+        <label>MainBoard</label>
+      </node>
+      <node id="92">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>_MainBoard</edgelabel>
+        </childnode>
+        <childnode refid="97" relation="usage">
+          <edgelabel>_CancelScanCmd</edgelabel>
+          <edgelabel>_StartCmd</edgelabel>
+          <edgelabel>_SaveDataCmd</edgelabel>
+          <edgelabel>_StartScanCmd</edgelabel>
+          <edgelabel>_StopCmd</edgelabel>
+        </childnode>
+        <childnode refid="99" relation="usage">
+          <edgelabel>_AutoFocusCmd</edgelabel>
+        </childnode>
+      </node>
+      <node id="112">
+        <label>Hywire.MotionControl.ControllerComm</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_controller_comm"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="105">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="23" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" bodystart="22" bodyend="710"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a34c24f7c7546964fbe8815ef4452424e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_AutoFocusCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a015f5cd8d468cf278fcc67d914375744" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_AutoFocusCmd_Completed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a6b0ce025a678bc4c95b8682578f42419" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_AutoFocusCmd_OnImageSampled</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a0286c7ce626b1d52538a2d4d5f103fba" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_Camera_OnExposureChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a8f4e1a1583dc30a232872a77604404d1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_CancelScanCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1af4c2dfda46b9f26d9a92d0bd4fbfee62" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_Exposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a088d458c2797ad6c78e1d921e186ee23" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_Info</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a3671db1dde384e5dd473dc1ae7bff2b8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_Intensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a640938b72b08e93821a1f279b87d5e38" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_IsAutoFocusing</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1afbe41dd79c56fbc28ae9a6961d4729cc" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_IsBadImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a60152bda17be677f59f0508fb168f58b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_IsCancelScan</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a5b41a8bd629a0e2855a4ddb5dc55309b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_IsScanning</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a28450165e06214ec3aff05ecf3a06576" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_LEDFailure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a4ee27d734af6fd0c70efd3bf91f0721f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_ledStateGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a14669187c456fe35e47a763eeee2c6af" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_MainBoard</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1aafe89aaae03b4d20b018da581ab2c758" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_PDValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a6e3e5800a478692fc0f40e83b3fce340" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_RoiHeight</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a6b1a7dbe10da44ada8212b94b9f711de" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_RoiLeft</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a3d7d6bda678a9c98468b862c4259dc82" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_RoiTop</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a9c276a1c561a56b93ba0cf25bb0eb424" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_RoiWidth</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a80486af758d39556bf5391a15316f815" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_RunCount</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a9b2efd77c0994ccde8c67f86a6f5b01a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_SaveDataCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae3d46338c6c2ed3134a0fdc17ce7a7d0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_SelectedLED</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a75d8d02c9bf563df615f77b7a4e52b1a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_StartCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a00393cbaf11c48a66143942cbf8ba15f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_StartScanCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ab8fedf5be0b07b470bec5338ac307934" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_StopCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a4113b50b16bbf37e60c5e2c96710c125" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_ZAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a58e1c34fb037def10b0229f6bedd82d0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_ZLimitH</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a020be21ce13b1e908cf6e7a9fccfe473" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_ZLimitL</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a3c5caaaa491c61a03e0c4c1ab3930a40" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>_ZSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a4568ad66b148e0a5a40791937db6ecb0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>AutoFocusViewModel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1af832437b7b8d10526b52f6f401335e89" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>CancelScanCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1aef29f57fe453bbdf69450c1f91e8c9e3" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>CanExecuteCancelScanCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ad72971da2eef6cb3290d8f52f328b78b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>CanExecuteSaveDataCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a1fd21f2a531bc3b453d84ca57012f9ea" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>CanExecuteStartCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a9388e6502df32eaf8d72ecbd9d7e8356" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>CanExecuteStartScanCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1aa43f8fad2ff8591ad8e34b9820578877" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>CanExecuteStopCmd</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1af3fd8396087e285b68fff0d7ddd0e591" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>ExecuteCancelScanCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1aba4ba351be828b37e3a451e32083b1db" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>ExecuteSaveDataCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae927b2ea6420dfe9605c80c6fa0cdfb4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>ExecuteStartCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a49ab015c032369c619b16274e76ebb3b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>ExecuteStartScanCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a41791c54181a5eab8739ec66a180b8f7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>ExecuteStopCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a5c62a7d3433ec3397cb7dbe0ffc03fde" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>Exposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a5c35800140dc3816f9f394e031d28dbb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>GradientLine</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1af0b2b001ce6d0536edc5fa546358a128" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>Information</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a9e830bee154211b5ff377ba0ba0d1c7f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>Initialize</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a21f12d0d2915a9f60d05021fc2715e37" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>Intensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a1ef7c5c74857f611f3e8ea1f55936ba2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>IsAutoFocusing</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a7ee386e3f14d4fb861db431ce66a9874" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>IsCancelScan</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a7f50d3ba6eeab57866feaa1679fa911d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>IsScanning</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a214298ce9d9845a33c0b6639d5101c0f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>LEDOptions</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1adc9d5545206fafac585fae36ddfd0d02" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>RoiHeight</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a22b70e6e01a61d0b2902f55f2457e9eb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>RoiLeft</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a4da0999e7eb3add239133fc09aeec26c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>RoiTop</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1aa6b06cc3e234d5d781799672861ec5ce" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>RoiWidth</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a346fb33291e6f17e47d3975906057e3e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>SaveDataCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae4163a450ba4573c5aa063c0dc29e8b3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>SelectedLED</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a87dda75f3222b9277077e7e163031a29" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>StartCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a90e872e3844dcd2ae2f45841f1c2dba0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>StartScanCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a2bd036d33ff440b48c4cdf7d4dffdfcd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>StdDevLine</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a593387e86c4164d8a04fa9aef287fab0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>StdDevSave</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ae510f16b319edb4c33827acca0a7aeb9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>StopCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1ace2aa149dd1e1da51744107316b57343" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>ZAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a15843b9fb8baf10a6731b1524f211b86" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>ZLimitH</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a328de1467607ff57d510ee0e7bd8b94c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>ZLimitL</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model_1a3409f4714df1a4924053a7b79b0d4390" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</scope><name>ZSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

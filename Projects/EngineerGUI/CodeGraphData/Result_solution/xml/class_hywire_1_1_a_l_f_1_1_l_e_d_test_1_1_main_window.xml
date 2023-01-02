@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_main_window" kind="class" prot="public">
+    <compoundname>Hywire::ALF::LEDTest::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_main_window_1afb1d73c1025aa2f5454712a47208118d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace" kindref="compound">Workspace</ref></type>
+        <definition>Workspace Hywire.ALF.LEDTest.MainWindow._Vm</definition>
+        <argsstring></argsstring>
+        <name>_Vm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/MainWindow.xaml.cs" line="23" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/MainWindow.xaml.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_main_window_1a476392d950806e5a8859258311c0fb5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.LEDTest.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/MainWindow.xaml.cs" line="24" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/MainWindow.xaml.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_main_window_1a771db3415276b071f72f25d0bd9a5890" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.LEDTest.MainWindow.Window_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Window_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/MainWindow.xaml.cs" line="31" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/MainWindow.xaml.cs" bodystart="31" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MainWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="752">
+        <label>Window</label>
+      </node>
+      <node id="751">
+        <label>Hywire.ALF.LEDTest.MainWindow</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_main_window"/>
+        <childnode refid="752" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="755">
+        <label>Hywire.ALF.LEDTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace"/>
+        <childnode refid="756" relation="public-inheritance">
+        </childnode>
+        <childnode refid="759" relation="usage">
+          <edgelabel>_StartCmd</edgelabel>
+          <edgelabel>_StopCmd</edgelabel>
+        </childnode>
+        <childnode refid="761" relation="usage">
+          <edgelabel>_MB</edgelabel>
+        </childnode>
+      </node>
+      <node id="761">
+        <label>Sequlite.ALF.MainBoard.Mainboard</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard"/>
+        <childnode refid="762" relation="usage">
+          <edgelabel>_LEDOnTimer</edgelabel>
+        </childnode>
+        <childnode refid="763" relation="usage">
+          <edgelabel>_LEDLock</edgelabel>
+        </childnode>
+        <childnode refid="764" relation="usage">
+          <edgelabel>_Comm</edgelabel>
+        </childnode>
+      </node>
+      <node id="754">
+        <label>Window</label>
+      </node>
+      <node id="765">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="762" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="760">
+        <label>ICommand</label>
+      </node>
+      <node id="757">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="758">
+        <label>IDisposable</label>
+      </node>
+      <node id="756">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="757" relation="public-inheritance">
+        </childnode>
+        <childnode refid="758" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="759">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="760" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="753">
+        <label>Hywire.ALF.LEDTest.MainWindow</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_main_window"/>
+        <childnode refid="754" relation="public-inheritance">
+        </childnode>
+        <childnode refid="755" relation="usage">
+          <edgelabel>_Vm</edgelabel>
+        </childnode>
+      </node>
+      <node id="762">
+        <label>System</label>
+      </node>
+      <node id="764">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="765" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="763">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/MainWindow.xaml.cs" line="22" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.LEDTest/MainWindow.xaml.cs" bodystart="21" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_main_window_1afb1d73c1025aa2f5454712a47208118d" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::MainWindow</scope><name>_Vm</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_main_window_1a476392d950806e5a8859258311c0fb5b" prot="public" virt="non-virtual"><scope>Hywire::ALF::LEDTest::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_main_window_1a771db3415276b071f72f25d0bd9a5890" prot="private" virt="non-virtual"><scope>Hywire::ALF::LEDTest::MainWindow</scope><name>Window_Loaded</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

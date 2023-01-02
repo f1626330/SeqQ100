@@ -1,0 +1,512 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_command_lib_1_1_execution_state" kind="class" prot="public">
+    <compoundname>Sequlite::CommandLib::ExecutionState</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571" prot="public" static="no">
+        <name>ExecutionStatus</name>
+        <enumvalue id="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571a96bb99e1a128193cbe3b08b81a1a38e1" prot="public">
+          <name>WaitingToRun</name>
+          <briefdescription>
+<para>Command is waiting (queued) to be run. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571a63c4cc5944eb60b1969f2333ead70fc9" prot="public">
+          <name>Executing</name>
+          <briefdescription>
+<para>Command is currently executing. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571a07ca5050e697392c9ed47e6453f1453f" prot="public">
+          <name>Completed</name>
+          <briefdescription>
+<para>Command successfully completed its task. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571aa149e85a44aeec9140e92733d9ed694e" prot="public">
+          <name>Cancelled</name>
+          <briefdescription>
+<para>Command was cancelled by user or cancelled because parent command was cancelled by user. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571aeafde1b8d063711eca46168033168fb4" prot="public">
+          <name>CancelledOnTimeout</name>
+          <briefdescription>
+<para>Command was cancelled because either it or it&apos;s child commands exceed a timeout time. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571a2f9c521897ac989cc741d2e53871eedc" prot="public">
+          <name>StoppedOnException</name>
+          <briefdescription>
+<para>Command stopped on exception or if a parent command was stopped do to a child exception. </para>          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumerated command execution status. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="20" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_execution_state_1acd0cb6e42bc1322df2df6e5523257830" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.CommandLib.ExecutionState._Name</definition>
+        <argsstring></argsstring>
+        <name>_Name</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="48" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a9fff358e8c4e7134f2ecd05913752baf" prot="private" static="no" mutable="no">
+        <type>Guid</type>
+        <definition>Guid Sequlite.CommandLib.ExecutionState._Guid</definition>
+        <argsstring></argsstring>
+        <name>_Guid</name>
+        <initializer>= Guid.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="49" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a035d55a1a5fa18aca600e47a89f32d1d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref></type>
+        <definition>ExecutionState Sequlite.CommandLib.ExecutionState._ParentExecutionState</definition>
+        <argsstring></argsstring>
+        <name>_ParentExecutionState</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="50" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a969fba5d74db6870925aeeda5fd1573a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571" kindref="member">ExecutionStatus</ref></type>
+        <definition>ExecutionStatus Sequlite.CommandLib.ExecutionState._Status</definition>
+        <argsstring></argsstring>
+        <name>_Status</name>
+        <initializer>= ExecutionStatus.WaitingToRun</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="52" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a5077a09c1bb872f9c46fda222a3e636a" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref> &gt;</type>
+        <definition>List&lt;ExecutionState&gt; Sequlite.CommandLib.ExecutionState._Children</definition>
+        <argsstring></argsstring>
+        <name>_Children</name>
+        <initializer>= new List&lt;<ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="53" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a288847975b41edad41c3fb66f41baa49" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime Sequlite.CommandLib.ExecutionState._StartTime</definition>
+        <argsstring></argsstring>
+        <name>_StartTime</name>
+        <initializer>= DateTime.Now</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="54" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a85e6599734ad47ff2329dde28c6bc669" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime Sequlite.CommandLib.ExecutionState._EndTime</definition>
+        <argsstring></argsstring>
+        <name>_EndTime</name>
+        <initializer>= DateTime.Now</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="55" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a7c420b7407942efb37f47e6cfce9ab3c" prot="private" static="no" mutable="no">
+        <type>Exception</type>
+        <definition>Exception Sequlite.CommandLib.ExecutionState._Error</definition>
+        <argsstring></argsstring>
+        <name>_Error</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="56" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a2444a1d45c13aa0aafe34b88b5524eb0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CommandLib.ExecutionState._ThreadID</definition>
+        <argsstring></argsstring>
+        <name>_ThreadID</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a1f63404144049ebb32860f3e8cd6c0dd" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.CommandLib.ExecutionState._TIME_FORMAT</definition>
+        <argsstring></argsstring>
+        <name>_TIME_FORMAT</name>
+        <initializer>= &quot;{0,-13:hh:mm:ss.ffff tt}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="60" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_execution_state_1ac9d0ff9c8366cb11e43e68a39eef7874" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.CommandLib.ExecutionState.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Get the user friendly name of this command. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="65" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a1ab03f5fdd87299cb08e5c99c934ac62" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Guid</type>
+        <definition>Guid Sequlite.CommandLib.ExecutionState.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+<para>Get the command&apos;s globally unique identifier. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="74" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_execution_state_1ac20ffa5141f704f6c4d6aa6493929001" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref></type>
+        <definition>ExecutionState Sequlite.CommandLib.ExecutionState.ParentExecutionState</definition>
+        <argsstring></argsstring>
+        <name>ParentExecutionState</name>
+        <briefdescription>
+<para>Get the execution status object of this command&apos;s parent (if this command does not have a parent command owner then this property will return null). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="85" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_execution_state_1acaea888c0a7b9bbb1ecac6697fe97060" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref> &gt;</type>
+        <definition>List&lt;ExecutionState&gt; Sequlite.CommandLib.ExecutionState.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <briefdescription>
+<para>Get the execution state of the child commands for this command. Note: only <ref refid="class_sequlite_1_1_command_lib_1_1_serial_command" kindref="compound">SerialCommand</ref> and <ref refid="class_sequlite_1_1_command_lib_1_1_parallel_command" kindref="compound">ParallelCommand</ref> command objects can have child commands. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="95" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="96" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_command_lib_1_1_base_command_1a75549ea85b3f1609ba2a34d899ca127e" compoundref="_base_command_8cs" startline="327" endline="352">Sequlite.CommandLib.BaseCommand.CheckForStoppedOnChildException</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a3206f7be95939147faf73c3dff6c0a12" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571" kindref="member">ExecutionStatus</ref></type>
+        <definition>ExecutionStatus Sequlite.CommandLib.ExecutionState.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+<para>Get the associated command&apos;s current status. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="103" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="104" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_command_lib_1_1_base_command_1a75549ea85b3f1609ba2a34d899ca127e" compoundref="_base_command_8cs" startline="327" endline="352">Sequlite.CommandLib.BaseCommand.CheckForStoppedOnChildException</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a561fe22c65903288537622ff6cf97724" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Sequlite.CommandLib.ExecutionState.StartTime</definition>
+        <argsstring></argsstring>
+        <name>StartTime</name>
+        <briefdescription>
+<para>Get the time the command was started. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="121" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a3499901a302b8c1927f5f384a35879b4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Sequlite.CommandLib.ExecutionState.CompletedTime</definition>
+        <argsstring></argsstring>
+        <name>CompletedTime</name>
+        <briefdescription>
+<para>Get the time the command was completed. Check the <ref refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571" kindref="member">ExecutionStatus</ref> property to know if the command completed successfuly with error or cancellation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="138" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_execution_state_1ab40d60abc2c815383483379ed4f5950e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Exception</type>
+        <definition>Exception Sequlite.CommandLib.ExecutionState.Error</definition>
+        <argsstring></argsstring>
+        <name>Error</name>
+        <briefdescription>
+<para>Get the command&apos;s exception. This value will only be non-null if the command&apos;s <ref refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a3206f7be95939147faf73c3dff6c0a12" kindref="member">Status</ref> is StoppedOnException. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="155" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_execution_state_1acb8b3fd7fdd3a890fec30201ce810281" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.CommandLib.ExecutionState.ThreadID</definition>
+        <argsstring></argsstring>
+        <name>ThreadID</name>
+        <briefdescription>
+<para>Get the time the command was completed. Check the <ref refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571" kindref="member">ExecutionStatus</ref> property to know if the command completed successfuly with error or cancellation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="172" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_command_lib_1_1_execution_state_1ab8e305fb83b028b6da5abc0314a1c3ee" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler Sequlite.CommandLib.ExecutionState.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="268" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_execution_state_1acc05b2bb66c8a665134bad8c5c38ba45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.CommandLib.ExecutionState.ExecutionState</definition>
+        <argsstring>()</argsstring>
+        <name>ExecutionState</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="189" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="189" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_execution_state_1ad13e8e684a68fc88c8c794d6e9b7b158" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.CommandLib.ExecutionState.ExecutionState</definition>
+        <argsstring>(BaseCommand cmd, BaseCommand parent)</argsstring>
+        <name>ExecutionState</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_base_command" kindref="compound">BaseCommand</ref></type>
+          <declname>cmd</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_base_command" kindref="compound">BaseCommand</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cmd</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parent</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="198" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="198" bodyend="231"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a62302bf816bf2b1d14b4c00e24c147c7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.ExecutionState.LogState</definition>
+        <argsstring>(StringBuilder strBuilder, int nestLevel)</argsstring>
+        <name>LogState</name>
+        <param>
+          <type>StringBuilder</type>
+          <declname>strBuilder</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nestLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>strBuilder</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>nestLevel</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="241" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="241" bodyend="264"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_execution_state_1a74e4827748447006b87cd0e279dd4859" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.ExecutionState.FirePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>FirePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="274" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="274" bodyend="280"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class encapsulates command execution state. </para>    </briefdescription>
+    <detaileddescription>
+<para>Copyright: Created by Tony Jenniges, 2008-2009, All rights reserved.</para><para>Contact: <ulink url="mailto:tonyjenniges@yahoo.com">tonyjenniges@yahoo.com</ulink></para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="383">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="382">
+        <label>Sequlite.CommandLib.ExecutionState</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_execution_state"/>
+        <childnode refid="383" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="385">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="384">
+        <label>Sequlite.CommandLib.ExecutionState</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_execution_state"/>
+        <childnode refid="385" relation="public-inheritance">
+        </childnode>
+        <childnode refid="384" relation="usage">
+          <edgelabel>_ParentExecutionState</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ExecutionState.cs" bodystart="15" bodyend="283"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a5077a09c1bb872f9c46fda222a3e636a" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>_Children</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a85e6599734ad47ff2329dde28c6bc669" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>_EndTime</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a7c420b7407942efb37f47e6cfce9ab3c" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>_Error</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a9fff358e8c4e7134f2ecd05913752baf" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>_Guid</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1acd0cb6e42bc1322df2df6e5523257830" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>_Name</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a035d55a1a5fa18aca600e47a89f32d1d" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>_ParentExecutionState</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a288847975b41edad41c3fb66f41baa49" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>_StartTime</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a969fba5d74db6870925aeeda5fd1573a" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>_Status</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a2444a1d45c13aa0aafe34b88b5524eb0" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>_ThreadID</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a1f63404144049ebb32860f3e8cd6c0dd" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>_TIME_FORMAT</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1acaea888c0a7b9bbb1ecac6697fe97060" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>Children</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a3499901a302b8c1927f5f384a35879b4" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>CompletedTime</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1ab40d60abc2c815383483379ed4f5950e" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>Error</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1acc05b2bb66c8a665134bad8c5c38ba45" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>ExecutionState</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1ad13e8e684a68fc88c8c794d6e9b7b158" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>ExecutionState</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a2e9720419248d2f99054cbb18ccda571" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>ExecutionStatus</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a74e4827748447006b87cd0e279dd4859" prot="private" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>FirePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a1ab03f5fdd87299cb08e5c99c934ac62" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>ID</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a62302bf816bf2b1d14b4c00e24c147c7" prot="package" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>LogState</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1ac9d0ff9c8366cb11e43e68a39eef7874" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>Name</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1ac20ffa5141f704f6c4d6aa6493929001" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>ParentExecutionState</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1ab8e305fb83b028b6da5abc0314a1c3ee" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a561fe22c65903288537622ff6cf97724" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>StartTime</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a3206f7be95939147faf73c3dff6c0a12" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>Status</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_execution_state_1acb8b3fd7fdd3a890fec30201ce810281" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ExecutionState</scope><name>ThreadID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

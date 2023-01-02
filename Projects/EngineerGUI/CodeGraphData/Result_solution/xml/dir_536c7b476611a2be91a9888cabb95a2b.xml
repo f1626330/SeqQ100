@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_536c7b476611a2be91a9888cabb95a2b" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.ALF.Common</compoundname>
+    <innerdir refid="dir_03b0d9cfa7cae78fc91598cad6925712">D:/Source/Alf/Libraries/Sequlite.ALF.Common/Properties</innerdir>
+    <innerfile refid="_auto_focus_settings_8cs">AutoFocusSettings.cs</innerfile>
+    <innerfile refid="_binning_factor_type_8cs">BinningFactorType.cs</innerfile>
+    <innerfile refid="_camera_settings_8cs">CameraSettings.cs</innerfile>
+    <innerfile refid="_fluidics_settings_8cs">FluidicsSettings.cs</innerfile>
+    <innerfile refid="_motion_settings_8cs">MotionSettings.cs</innerfile>
+    <innerfile refid="_setting_range_8cs">SettingRange.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/"/>
+  </compounddef>
+</doxygen>

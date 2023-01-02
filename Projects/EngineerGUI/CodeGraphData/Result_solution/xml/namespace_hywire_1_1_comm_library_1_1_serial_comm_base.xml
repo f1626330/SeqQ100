@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_hywire_1_1_comm_library_1_1_serial_comm_base" kind="namespace">
+    <compoundname>Hywire::CommLibrary::SerialCommBase</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

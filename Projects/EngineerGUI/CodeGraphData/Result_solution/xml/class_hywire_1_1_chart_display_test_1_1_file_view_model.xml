@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_chart_display_test_1_1_file_view_model" kind="class" prot="public">
+    <compoundname>Hywire::ChartDisplayTest::FileViewModel</compoundname>
+    <basecompoundref refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model" prot="public" virt="non-virtual">Hywire.ChartDisplayTest.PaneViewModel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_chart_display_test_1_1_file_view_model_1a0f23d7eb80ad358ceb179c60c608ac8e" prot="private" static="no" mutable="no">
+        <type>WriteableBitmap</type>
+        <definition>WriteableBitmap Hywire.ChartDisplayTest.FileViewModel._DisplayImage</definition>
+        <argsstring></argsstring>
+        <name>_DisplayImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/FileViewModel.cs" line="27" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/FileViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_chart_display_test_1_1_file_view_model_1ad2d330766028e09861ea1c716fe44cd7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>WriteableBitmap</type>
+        <definition>WriteableBitmap Hywire.ChartDisplayTest.FileViewModel.DisplayImage</definition>
+        <argsstring></argsstring>
+        <name>DisplayImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/FileViewModel.cs" line="28" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/FileViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_chart_display_test_1_1_file_view_model_1a6733c676af7536bd4d9cf4b9c4fcd02f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ChartDisplayTest.FileViewModel.FileViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>FileViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/FileViewModel.cs" line="10" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/FileViewModel.cs" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_chart_display_test_1_1_file_view_model_1a52d68730d2bbcea2be33c232911e5704" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ChartDisplayTest.FileViewModel.FileViewModel</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>FileViewModel</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/FileViewModel.cs" line="13" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/FileViewModel.cs" bodystart="13" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="411">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="412">
+        <label>IDisposable</label>
+      </node>
+      <node id="410">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="411" relation="public-inheritance">
+        </childnode>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>PaneViewModel</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model"/>
+        <childnode refid="410" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="408">
+        <label>Hywire.ChartDisplayTest.FileViewModel</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_file_view_model"/>
+        <childnode refid="409" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="416">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="417">
+        <label>IDisposable</label>
+      </node>
+      <node id="415">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="416" relation="public-inheritance">
+        </childnode>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="414">
+        <label>PaneViewModel</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="413">
+        <label>Hywire.ChartDisplayTest.FileViewModel</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_file_view_model"/>
+        <childnode refid="414" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/FileViewModel.cs" line="8" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/FileViewModel.cs" bodystart="7" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_file_view_model_1a0f23d7eb80ad358ceb179c60c608ac8e" prot="private" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>_DisplayImage</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1afc15ad134ae1766d63e25d1d84c67eeb" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>CanClose</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1ad78961912b8efd37417b44ac7369a2b1" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>Close</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1a4fc94c608dc63b2a4020881e4a3145b1" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>CloseCommand</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_file_view_model_1ad2d330766028e09861ea1c716fe44cd7" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>DisplayImage</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>Dispose</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_file_view_model_1a6733c676af7536bd4d9cf4b9c4fcd02f" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>FileViewModel</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_file_view_model_1a52d68730d2bbcea2be33c232911e5704" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>FileViewModel</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1a9083e8cc697e3e6db9e4b775e8b17769" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>IsClosed</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model_1ac8c80a674400a6e880e913430c7df1f5" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::FileViewModel</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

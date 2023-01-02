@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_camera_lib_1_1_msg_types" kind="class" prot="public">
+    <compoundname>Sequlite::CameraLib::MsgTypes</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_msg_types_1af7602571957e2fd5221babf9e9e3db03" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.MsgTypes.MSG_STATUS</definition>
+        <argsstring></argsstring>
+        <name>MSG_STATUS</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="46" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="46" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a84edca53b584e9ca8a1dd8a00738aac2" compoundref="_p_v_cam_camera_8cs" startline="786" endline="889">Sequlite.CameraLib.PVCamCamera.AcqSetup</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a7bab1a9354ab2b9ff32e30dc4954922c" compoundref="_p_v_cam_camera_8cs" startline="4397" endline="4419">Sequlite.CameraLib.PVCamCamera.CloseCamera</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a763e6d0caada5ef4d39261724e9555ba" compoundref="_p_v_cam_camera_8cs" startline="2689" endline="3009">Sequlite.CameraLib.PVCamCamera.ConfigPostProcessingID</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a9cb44d7824912b2a3e30cf19dbba3ea0" compoundref="_p_v_cam_camera_8cs" startline="1821" endline="1867">Sequlite.CameraLib.PVCamCamera.ConfigureMetadata</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ac579cc45d5973b0edb315a3d13f2c3a3" compoundref="_p_v_cam_camera_8cs" startline="1219" endline="1395">Sequlite.CameraLib.PVCamCamera.GetNewFrame</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a63773085db16fb211c91e33eac9f7176" compoundref="_p_v_cam_camera_8cs" startline="1745" endline="1778">Sequlite.CameraLib.PVCamCamera.OpenCamera</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ae3959900c532ebf7f32a16585f4e4550" compoundref="_p_v_cam_camera_8cs" startline="3288" endline="3602">Sequlite.CameraLib.PVCamCamera.ReadCameraParams</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a23a12b1a21582556f09665551a509cbf" compoundref="_p_v_cam_camera_8cs" startline="1911" endline="1965">Sequlite.CameraLib.PVCamCamera.ReadCoolingParameters</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a7399e447656fc7dfa577949fd023b398" compoundref="_p_v_cam_camera_8cs" startline="2178" endline="2215">Sequlite.CameraLib.PVCamCamera.ReadExpTimeRange</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1afe1666f2c257280f8c0d55add4a48a53" compoundref="_p_v_cam_camera_8cs" startline="1782" endline="1819">Sequlite.CameraLib.PVCamCamera.ReadExtBinningParameters</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a912db4f6bf5f4085925d105e2e9f726d" compoundref="_p_v_cam_camera_8cs" startline="1870" endline="1908">Sequlite.CameraLib.PVCamCamera.ReadFanSpeedParameters</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a4a543bbefa93f63aea3b11ee6187fdf0" compoundref="_p_v_cam_camera_8cs" startline="4422" endline="4515">Sequlite.CameraLib.PVCamCamera.RefreshCameras</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ac16cd3e71c932328559d7a37ae02a5f2" compoundref="_p_v_cam_camera_8cs" startline="2088" endline="2173">Sequlite.CameraLib.PVCamCamera.SetCentroiding</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1aaa2432d02e851d1dc9d77c69bff73246" compoundref="_p_v_cam_camera_8cs" startline="983" endline="1168">Sequlite.CameraLib.PVCamCamera.SingleAcquisition</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a55fd1296dc18a2a1887afa7e8b108a57" compoundref="_p_v_cam_camera_8cs" startline="1171" endline="1216">Sequlite.CameraLib.PVCamCamera.StartContinuousAcquisition</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a2e3db9493c7bea889027de4fb611dd5a" compoundref="_p_v_cam_camera_8cs" startline="892" endline="934">Sequlite.CameraLib.PVCamCamera.StartSeqAcq</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a053e3f9c502629c3a2cf2f66b1d51f2b" compoundref="_p_v_cam_camera_8cs" startline="937" endline="980">Sequlite.CameraLib.PVCamCamera.StartSyncSeqAcq</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a02fe03cd05ec0cc084a7ae429d230887" compoundref="_p_v_cam_camera_8cs" startline="1651" endline="1718">Sequlite.CameraLib.PVCamCamera.StopAcquisition</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1af29018058e6b125ee332f9d35ff783c7" compoundref="_p_v_cam_camera_8cs" startline="2609" endline="2681">Sequlite.CameraLib.PVCamCamera.WritePostProcessingFeature</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_msg_types_1a8c84a5fa77f30511500ca96b90df3716" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.MsgTypes.MSG_ERROR</definition>
+        <argsstring></argsstring>
+        <name>MSG_ERROR</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="47" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a84edca53b584e9ca8a1dd8a00738aac2" compoundref="_p_v_cam_camera_8cs" startline="786" endline="889">Sequlite.CameraLib.PVCamCamera.AcqSetup</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a865b1d1f73886255863d9c4248782049" compoundref="_p_v_cam_camera_8cs" startline="4284" endline="4394">Sequlite.CameraLib.PVCamCamera.BuildSpeedTable</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a7bab1a9354ab2b9ff32e30dc4954922c" compoundref="_p_v_cam_camera_8cs" startline="4397" endline="4419">Sequlite.CameraLib.PVCamCamera.CloseCamera</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a763e6d0caada5ef4d39261724e9555ba" compoundref="_p_v_cam_camera_8cs" startline="2689" endline="3009">Sequlite.CameraLib.PVCamCamera.ConfigPostProcessingID</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a9cb44d7824912b2a3e30cf19dbba3ea0" compoundref="_p_v_cam_camera_8cs" startline="1821" endline="1867">Sequlite.CameraLib.PVCamCamera.ConfigureMetadata</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a65f955c9f56a4e54962a2e44d12589c2" compoundref="_p_v_cam_camera_8cs" startline="719" endline="753">Sequlite.CameraLib.PVCamCamera.CreateMetadataStructure</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a9d8d41cfd3ac55e9b63471052da7efe3" compoundref="_p_v_cam_camera_8cs" startline="3013" endline="3285">Sequlite.CameraLib.PVCamCamera.GetCameraInformation</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a705c9fbd7707679d9f513108049f42ef" compoundref="_p_v_cam_camera_8cs" startline="3836" endline="3860">Sequlite.CameraLib.PVCamCamera.GetCurrentTemprature</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a2f76357e4c37f0564097fc596572bce5" compoundref="_p_v_cam_camera_8cs" startline="2220" endline="2243">Sequlite.CameraLib.PVCamCamera.GetEstReadoutTime</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a180dfc1699da3a4c664136a74cda4e81" compoundref="_p_v_cam_camera_8cs" startline="4588" endline="4615">Sequlite.CameraLib.PVCamCamera.GetFirmwareVersion</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ac579cc45d5973b0edb315a3d13f2c3a3" compoundref="_p_v_cam_camera_8cs" startline="1219" endline="1395">Sequlite.CameraLib.PVCamCamera.GetNewFrame</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a57e9407cafaf6d5b5f177653e8e1b075" compoundref="_p_v_cam_camera_8cs" startline="1550" endline="1571">Sequlite.CameraLib.PVCamCamera.isParamAvailable</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a63773085db16fb211c91e33eac9f7176" compoundref="_p_v_cam_camera_8cs" startline="1745" endline="1778">Sequlite.CameraLib.PVCamCamera.OpenCamera</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ae3959900c532ebf7f32a16585f4e4550" compoundref="_p_v_cam_camera_8cs" startline="3288" endline="3602">Sequlite.CameraLib.PVCamCamera.ReadCameraParams</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a8fec5fc524ed14e73671ab756131f85a" compoundref="_p_v_cam_camera_8cs" startline="2016" endline="2085">Sequlite.CameraLib.PVCamCamera.ReadCentroidParameters</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a23a12b1a21582556f09665551a509cbf" compoundref="_p_v_cam_camera_8cs" startline="1911" endline="1965">Sequlite.CameraLib.PVCamCamera.ReadCoolingParameters</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a1115ef4455d7ec3cf81e6d474f432b38" compoundref="_p_v_cam_camera_8cs" startline="1574" endline="1648">Sequlite.CameraLib.PVCamCamera.ReadEnumeration</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a7399e447656fc7dfa577949fd023b398" compoundref="_p_v_cam_camera_8cs" startline="2178" endline="2215">Sequlite.CameraLib.PVCamCamera.ReadExpTimeRange</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1afe1666f2c257280f8c0d55add4a48a53" compoundref="_p_v_cam_camera_8cs" startline="1782" endline="1819">Sequlite.CameraLib.PVCamCamera.ReadExtBinningParameters</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a912db4f6bf5f4085925d105e2e9f726d" compoundref="_p_v_cam_camera_8cs" startline="1870" endline="1908">Sequlite.CameraLib.PVCamCamera.ReadFanSpeedParameters</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a49f17a714139fba02013769ee9b8fdb0" compoundref="_p_v_cam_camera_8cs" startline="2246" endline="2534">Sequlite.CameraLib.PVCamCamera.ReadPostProcessingFeatures</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a5a475e052dd58e3338d8f05dc3fa48fc" compoundref="_p_v_cam_camera_8cs" startline="1968" endline="2014">Sequlite.CameraLib.PVCamCamera.ReadRegionParameters</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a4a543bbefa93f63aea3b11ee6187fdf0" compoundref="_p_v_cam_camera_8cs" startline="4422" endline="4515">Sequlite.CameraLib.PVCamCamera.RefreshCameras</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ab5a1d6a55387a440a0d25613721351b2" compoundref="_p_v_cam_camera_8cs" startline="4119" endline="4161">Sequlite.CameraLib.PVCamCamera.SetBinning</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ac16cd3e71c932328559d7a37ae02a5f2" compoundref="_p_v_cam_camera_8cs" startline="2088" endline="2173">Sequlite.CameraLib.PVCamCamera.SetCentroiding</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a104334e5a7290165b6391c830e55cb23" compoundref="_p_v_cam_camera_8cs" startline="3982" endline="4006">Sequlite.CameraLib.PVCamCamera.SetClearCycles</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a9372e3026ac16f0f581c1f6125bf9431" compoundref="_p_v_cam_camera_8cs" startline="3710" endline="3777">Sequlite.CameraLib.PVCamCamera.SetClearMode</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a86eea75177ed9a0e70a649af9e70d476" compoundref="_p_v_cam_camera_8cs" startline="3911" endline="3978">Sequlite.CameraLib.PVCamCamera.SetClockingMode</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a093643e18ecfba0049b50d7e7cef20f4" compoundref="_p_v_cam_camera_8cs" startline="4080" endline="4101">Sequlite.CameraLib.PVCamCamera.SetEMGain</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ae9e6e29d497ae78929ca3cabcf0db32e" compoundref="_p_v_cam_camera_8cs" startline="3789" endline="3833">Sequlite.CameraLib.PVCamCamera.SetFanSpeedSetpoint</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1adb518d4916c14035f9aefd4bc817e00a" compoundref="_p_v_cam_camera_8cs" startline="4060" endline="4077">Sequlite.CameraLib.PVCamCamera.SetGainState</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a96ecc40b8cdb49def44b38a83a92e49f" compoundref="_p_v_cam_camera_8cs" startline="4009" endline="4057">Sequlite.CameraLib.PVCamCamera.SetReadoutSpeed</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a78241bb337efb9a12eb9cc7747dba50c" compoundref="_p_v_cam_camera_8cs" startline="4617" endline="4634">Sequlite.CameraLib.PVCamCamera.SetShutterMode</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1af380a7b6a576ad891b1e57dec3a34219" compoundref="_p_v_cam_camera_8cs" startline="4164" endline="4277">Sequlite.CameraLib.PVCamCamera.SetSmartStreaming</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a9c685798015f877e6551f4e7dd06b1cc" compoundref="_p_v_cam_camera_8cs" startline="3864" endline="3895">Sequlite.CameraLib.PVCamCamera.SetTemperatureSetpoint</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1aaa2432d02e851d1dc9d77c69bff73246" compoundref="_p_v_cam_camera_8cs" startline="983" endline="1168">Sequlite.CameraLib.PVCamCamera.SingleAcquisition</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a55fd1296dc18a2a1887afa7e8b108a57" compoundref="_p_v_cam_camera_8cs" startline="1171" endline="1216">Sequlite.CameraLib.PVCamCamera.StartContinuousAcquisition</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a2e3db9493c7bea889027de4fb611dd5a" compoundref="_p_v_cam_camera_8cs" startline="892" endline="934">Sequlite.CameraLib.PVCamCamera.StartSeqAcq</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a053e3f9c502629c3a2cf2f66b1d51f2b" compoundref="_p_v_cam_camera_8cs" startline="937" endline="980">Sequlite.CameraLib.PVCamCamera.StartSyncSeqAcq</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a02fe03cd05ec0cc084a7ae429d230887" compoundref="_p_v_cam_camera_8cs" startline="1651" endline="1718">Sequlite.CameraLib.PVCamCamera.StopAcquisition</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a6b1f2ad1292330341428faade1733669" compoundref="_p_v_cam_camera_8cs" startline="2539" endline="2606">Sequlite.CameraLib.PVCamCamera.UpdatePostProceesingFeature</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1af29018058e6b125ee332f9d35ff783c7" compoundref="_p_v_cam_camera_8cs" startline="2609" endline="2681">Sequlite.CameraLib.PVCamCamera.WritePostProcessingFeature</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="45" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="44" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_msg_types_1a8c84a5fa77f30511500ca96b90df3716" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::MsgTypes</scope><name>MSG_ERROR</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_msg_types_1af7602571957e2fd5221babf9e9e3db03" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::MsgTypes</scope><name>MSG_STATUS</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

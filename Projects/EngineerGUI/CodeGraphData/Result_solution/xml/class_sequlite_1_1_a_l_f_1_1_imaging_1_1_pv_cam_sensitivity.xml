@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::PvCamSensitivity</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1a999b11f77e2c14a26132f9aeab7e2335" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.PvCamSensitivity.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1ada6b43bf2b9bdfe2c046d247eae53e6a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.PvCamSensitivity.HorizontalBin</definition>
+        <argsstring></argsstring>
+        <name>HorizontalBin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="45" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1ae62c25cdd485a7b2055f0a57b418b856" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.PvCamSensitivity.VerticalBin</definition>
+        <argsstring></argsstring>
+        <name>VerticalBin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="47" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1af3f5c4b6949447209bf4e2b362fdba02" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.PvCamSensitivity.DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="49" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1a1056618d21b5e842c684d4eda0b031ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.PvCamSensitivity.PvCamSensitivity</definition>
+        <argsstring>()</argsstring>
+        <name>PvCamSensitivity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="55" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1a29607630bae90f79536015c5397bc362" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.PvCamSensitivity.PvCamSensitivity</definition>
+        <argsstring>(int position, int horizontalBin, int verticalBin, string displayName)</argsstring>
+        <name>PvCamSensitivity</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>horizontalBin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>verticalBin</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="59" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="59" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="39" bodyend="68"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1af3f5c4b6949447209bf4e2b362fdba02" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::PvCamSensitivity</scope><name>DisplayName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1ada6b43bf2b9bdfe2c046d247eae53e6a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::PvCamSensitivity</scope><name>HorizontalBin</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1a999b11f77e2c14a26132f9aeab7e2335" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::PvCamSensitivity</scope><name>Position</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1a1056618d21b5e842c684d4eda0b031ec" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::PvCamSensitivity</scope><name>PvCamSensitivity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1a29607630bae90f79536015c5397bc362" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::PvCamSensitivity</scope><name>PvCamSensitivity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_pv_cam_sensitivity_1ae62c25cdd485a7b2055f0a57b418b856" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::PvCamSensitivity</scope><name>VerticalBin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_galil_control" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::MotionControl::GalilControl</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_galil_control_1a1fdd5527f7299db391a6be520c93b61a" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Dictionary&lt; <ref refid="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46" kindref="member">GalilCommandSet</ref>, string &gt;</type>
+        <definition>Dictionary&lt;GalilCommandSet, string&gt; Sequlite.ALF.MotionControl.GalilControl.Commands</definition>
+        <argsstring></argsstring>
+        <name>Commands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/GalilControl.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/GalilControl.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1a9c0cdd585f4fe851e15aaff49e6545a5" compoundref="_motion_controller_8cs" startline="269" endline="341">Sequlite.ALF.MotionControl.MotionController.AbsoluteMove</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aa1e314c6ee17be10a986d17a37f0e124" compoundref="_motion_controller_8cs" startline="179" endline="243">Sequlite.ALF.MotionControl.MotionController.HomeMotion</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1aeaeb4cfaa66935a4f0858dbc85d358eb" compoundref="_motion_controller_8cs" startline="377" endline="416">Sequlite.ALF.MotionControl.MotionController.RelativeMove</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_galil_control_1ae397d54813f851f52e1f08eb57d7b07d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Sequlite.ALF.MotionControl.GalilControl.GalilControl</definition>
+        <argsstring>()</argsstring>
+        <name>GalilControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/GalilControl.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/GalilControl.cs" bodystart="28" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/GalilControl.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/GalilControl.cs" bodystart="19" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_galil_control_1a1fdd5527f7299db391a6be520c93b61a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::GalilControl</scope><name>Commands</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_galil_control_1ae397d54813f851f52e1f08eb57d7b07d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::GalilControl</scope><name>GalilControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

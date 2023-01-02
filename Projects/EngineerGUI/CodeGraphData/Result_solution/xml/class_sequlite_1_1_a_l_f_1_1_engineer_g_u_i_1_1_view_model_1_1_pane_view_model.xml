@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1a2fe71557159f41b89209f97f16d0511b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel._Title</definition>
+        <argsstring></argsstring>
+        <name>_Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" line="11" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1ab383e915f9ffb45b2943b74cb35a4e4a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel._IsActive</definition>
+        <argsstring></argsstring>
+        <name>_IsActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" line="27" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1a65b34fcb85452357bbc7171db7a11d5e" prot="private" static="no" mutable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel._CloseCommand</definition>
+        <argsstring></argsstring>
+        <name>_CloseCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" line="43" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1ab705ff4f41388257680a7e4290a04a02" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel.Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" line="12" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1a3d380e2a0893a615198f64e383c4dd9c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel.IsActive</definition>
+        <argsstring></argsstring>
+        <name>IsActive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" line="28" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1a685435498bca389cafdb18a2f0e1f093" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel.CloseCommand</definition>
+        <argsstring></argsstring>
+        <name>CloseCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" line="44" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1aa6577da69ceebf0323208b39c788d49f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <reimplementedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aebe2016e075a49f34ba4ff1d6a7b48e4">Close</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" line="54" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" bodystart="54" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="858">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model"/>
+        <childnode refid="854" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="856">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="857">
+        <label>IDisposable</label>
+      </node>
+      <node id="855">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="856" relation="public-inheritance">
+        </childnode>
+        <childnode refid="857" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="854">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model"/>
+        <childnode refid="855" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="861">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="862">
+        <label>IDisposable</label>
+      </node>
+      <node id="860">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="861" relation="public-inheritance">
+        </childnode>
+        <childnode refid="862" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="859">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model"/>
+        <childnode refid="860" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" line="7" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/PaneViewModel.cs" bodystart="6" bodyend="61"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1a65b34fcb85452357bbc7171db7a11d5e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>_CloseCommand</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1ab383e915f9ffb45b2943b74cb35a4e4a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>_IsActive</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1a2fe71557159f41b89209f97f16d0511b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>_Title</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1aa6577da69ceebf0323208b39c788d49f" prot="public" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>Close</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1a685435498bca389cafdb18a2f0e1f093" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>CloseCommand</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1a3d380e2a0893a615198f64e383c4dd9c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>IsActive</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1ab705ff4f41388257680a7e4290a04a02" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" kind="struct" prot="public">
+    <compoundname>Sequlite::Image::Processing::CMYK</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a1f25cc6bf9d7461a1b529962c1523a42" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" kindref="compound">CMYK</ref></type>
+        <definition>readonly CMYK Sequlite.Image.Processing.CMYK.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <initializer>= new <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" kindref="compound">CMYK</ref>()</initializer>
+        <briefdescription>
+<para>Gets an empty <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" kindref="compound">CMYK</ref> structure; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a2aa5343818d4a12924c4c6470ac4c844" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CMYK.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a5574ebba2b00d9c51689bf9cf39daa1d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CMYK.m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a5164833e59e2cf89642c828f4e582360" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CMYK.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a993954b31f5df51ce8d6e6c69f0c3901" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CMYK.k</definition>
+        <argsstring></argsstring>
+        <name>k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a5c1926ae2d1be68435d4997618ccc566" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CMYK.Cyan</definition>
+        <argsstring></argsstring>
+        <name>Cyan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="47" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="48" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad717180648018610aa6f71a6f86fa766" compoundref="_color_space_helper_8cs" startline="1152" endline="1179">Sequlite.Image.Processing.ColorSpaceHelper.CMYK2RGB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a9337e3fd5718267b54144ef407d33579" compoundref="_color_space_helper_8cs" startline="835" endline="838">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoRGB</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1afcb075657d1d2ff4fe63692bc07948a9" compoundref="_c_m_y_k_8cs" startline="33" endline="41">Sequlite.Image.Processing.CMYK.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a65e2825dbe02e0227154a560db2caae8" compoundref="_c_m_y_k_8cs" startline="23" endline="31">Sequlite.Image.Processing.CMYK.operator==</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a2ce54f9ac61afc918521a3759e464482" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CMYK.Magenta</definition>
+        <argsstring></argsstring>
+        <name>Magenta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="60" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad717180648018610aa6f71a6f86fa766" compoundref="_color_space_helper_8cs" startline="1152" endline="1179">Sequlite.Image.Processing.ColorSpaceHelper.CMYK2RGB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a9337e3fd5718267b54144ef407d33579" compoundref="_color_space_helper_8cs" startline="835" endline="838">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoRGB</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1afcb075657d1d2ff4fe63692bc07948a9" compoundref="_c_m_y_k_8cs" startline="33" endline="41">Sequlite.Image.Processing.CMYK.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a65e2825dbe02e0227154a560db2caae8" compoundref="_c_m_y_k_8cs" startline="23" endline="31">Sequlite.Image.Processing.CMYK.operator==</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1ae89cb696027ac1dce1d89ba4dbb6655d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CMYK.Yellow</definition>
+        <argsstring></argsstring>
+        <name>Yellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="73" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="74" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a9337e3fd5718267b54144ef407d33579" compoundref="_color_space_helper_8cs" startline="835" endline="838">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoRGB</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1afcb075657d1d2ff4fe63692bc07948a9" compoundref="_c_m_y_k_8cs" startline="33" endline="41">Sequlite.Image.Processing.CMYK.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a65e2825dbe02e0227154a560db2caae8" compoundref="_c_m_y_k_8cs" startline="23" endline="31">Sequlite.Image.Processing.CMYK.operator==</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a8c8bcd245c05f71afe281a1c43923ff5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CMYK.Black</definition>
+        <argsstring></argsstring>
+        <name>Black</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="86" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="87" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad717180648018610aa6f71a6f86fa766" compoundref="_color_space_helper_8cs" startline="1152" endline="1179">Sequlite.Image.Processing.ColorSpaceHelper.CMYK2RGB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1afc62311075b4d1fd1f4cc7d42e641cca" compoundref="_color_space_helper_8cs" startline="805" endline="812">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoColor</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a9337e3fd5718267b54144ef407d33579" compoundref="_color_space_helper_8cs" startline="835" endline="838">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoRGB</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1afcb075657d1d2ff4fe63692bc07948a9" compoundref="_c_m_y_k_8cs" startline="33" endline="41">Sequlite.Image.Processing.CMYK.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a65e2825dbe02e0227154a560db2caae8" compoundref="_c_m_y_k_8cs" startline="23" endline="31">Sequlite.Image.Processing.CMYK.operator==</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a65e2825dbe02e0227154a560db2caae8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.CMYK.operator==</definition>
+        <argsstring>(CMYK item1, CMYK item2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" kindref="compound">CMYK</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" kindref="compound">CMYK</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="23" bodyend="31"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a8c8bcd245c05f71afe281a1c43923ff5" compoundref="_c_m_y_k_8cs" startline="87">Sequlite.Image.Processing.CMYK.Black</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a5c1926ae2d1be68435d4997618ccc566" compoundref="_c_m_y_k_8cs" startline="48">Sequlite.Image.Processing.CMYK.Cyan</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a2ce54f9ac61afc918521a3759e464482" compoundref="_c_m_y_k_8cs" startline="61">Sequlite.Image.Processing.CMYK.Magenta</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1ae89cb696027ac1dce1d89ba4dbb6655d" compoundref="_c_m_y_k_8cs" startline="74">Sequlite.Image.Processing.CMYK.Yellow</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1afcb075657d1d2ff4fe63692bc07948a9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.CMYK.operator!=</definition>
+        <argsstring>(CMYK item1, CMYK item2)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" kindref="compound">CMYK</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" kindref="compound">CMYK</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="33" bodyend="41"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a8c8bcd245c05f71afe281a1c43923ff5" compoundref="_c_m_y_k_8cs" startline="87">Sequlite.Image.Processing.CMYK.Black</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a5c1926ae2d1be68435d4997618ccc566" compoundref="_c_m_y_k_8cs" startline="48">Sequlite.Image.Processing.CMYK.Cyan</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a2ce54f9ac61afc918521a3759e464482" compoundref="_c_m_y_k_8cs" startline="61">Sequlite.Image.Processing.CMYK.Magenta</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1ae89cb696027ac1dce1d89ba4dbb6655d" compoundref="_c_m_y_k_8cs" startline="74">Sequlite.Image.Processing.CMYK.Yellow</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a36244545fe6448861e347b0c0548e1b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.CMYK.CMYK</definition>
+        <argsstring>(double c, double m, double y, double k)</argsstring>
+        <name>CMYK</name>
+        <param>
+          <type>double</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+<para>Creates an instance of a <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" kindref="compound">CMYK</ref> structure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="103" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="103" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a26ec46a90b8cebad61197b34d25f208c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Sequlite.Image.Processing.CMYK.Equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="112" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="112" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1ad088d0cb34de57b63ea296988b34e1cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Sequlite.Image.Processing.CMYK.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="119" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="119" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure to define <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k" kindref="compound">CMYK</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="272">
+        <label>Sequlite.Image.Processing.CMYK</label>
+        <link refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k"/>
+        <childnode refid="273" relation="usage">
+          <edgelabel>Empty</edgelabel>
+        </childnode>
+      </node>
+      <node id="273">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CMYK.cs" bodystart="8" bodyend="125"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a8c8bcd245c05f71afe281a1c43923ff5" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>Black</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a2aa5343818d4a12924c4c6470ac4c844" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>c</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a36244545fe6448861e347b0c0548e1b3" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>CMYK</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a5c1926ae2d1be68435d4997618ccc566" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>Cyan</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a1f25cc6bf9d7461a1b529962c1523a42" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>Empty</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a26ec46a90b8cebad61197b34d25f208c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>Equals</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1ad088d0cb34de57b63ea296988b34e1cc" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>GetHashCode</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a993954b31f5df51ce8d6e6c69f0c3901" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>k</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a5574ebba2b00d9c51689bf9cf39daa1d" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>m</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a2ce54f9ac61afc918521a3759e464482" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>Magenta</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1afcb075657d1d2ff4fe63692bc07948a9" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>operator!=</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a65e2825dbe02e0227154a560db2caae8" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>operator==</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1a5164833e59e2cf89642c828f4e582360" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>y</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_m_y_k_1ae89cb696027ac1dce1d89ba4dbb6655d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CMYK</scope><name>Yellow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

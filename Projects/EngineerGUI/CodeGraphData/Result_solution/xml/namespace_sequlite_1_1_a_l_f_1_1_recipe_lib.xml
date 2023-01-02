@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib" kind="namespace">
+    <compoundname>Sequlite::ALF::RecipeLib</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe" prot="public">Sequlite::ALF::RecipeLib::Recipe</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread" prot="public">Sequlite::ALF::RecipeLib::RecipeRunThread</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" prot="public">Sequlite::ALF::RecipeLib::RecipeStepBase</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_set_temper_step" prot="public">Sequlite::ALF::RecipeLib::SetTemperStep</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_stop_temper_step" prot="public">Sequlite::ALF::RecipeLib::StopTemperStep</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_pumping_step" prot="public">Sequlite::ALF::RecipeLib::PumpingStep</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_step" prot="public">Sequlite::ALF::RecipeLib::ImagingStep</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_region" prot="public">Sequlite::ALF::RecipeLib::ImagingRegion</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting" prot="public">Sequlite::ALF::RecipeLib::ImagingSetting</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_focus_setting" prot="public">Sequlite::ALF::RecipeLib::FocusSetting</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_move_stage_step" prot="public">Sequlite::ALF::RecipeLib::MoveStageStep</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_loop_step" prot="public">Sequlite::ALF::RecipeLib::LoopStep</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_run_recipe_step" prot="public">Sequlite::ALF::RecipeLib::RunRecipeStep</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_waiting_step" prot="public">Sequlite::ALF::RecipeLib::WaitingStep</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_comment_step" prot="public">Sequlite::ALF::RecipeLib::CommentStep</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings" prot="public">Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree" prot="public">Sequlite::ALF::RecipeLib::StepsTree</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191f" prot="public" static="no">
+        <name>RecipeStepTypes</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa101e231120ef372aeb6fe575c308a60e" prot="public">
+          <name>SetTemper</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa3c41a890ae69b2145b66912b9191b396" prot="public">
+          <name>StopTemper</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa92c65a9ff1a868ca5521dbf08c59f70f" prot="public">
+          <name>Imaging</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa85f49f9f8baf0b31abbd4fe9ffc0112f" prot="public">
+          <name>MoveStage</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa6c491cd552c0b0e2da7fcdfad2713704" prot="public">
+          <name>Pumping</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa89d7b10cb4238977d2b523dfd9ea7745" prot="public">
+          <name>Loop</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa68db7ddc7c39b20eb7a3cd409f5d447f" prot="public">
+          <name>RunRecipe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa5706de961fb376d701be6e7762d8b09c" prot="public">
+          <name>Waiting</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa0be8406951cdfda82f00f79328cf4efc" prot="public">
+          <name>Comment</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="7" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a13996f83788b6646899d6da885790574" prot="public" static="no">
+        <name>ImagingChannels</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a13996f83788b6646899d6da885790574aee38e4d5dd68c4e440825018d549cb47" prot="public">
+          <name>Red</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a13996f83788b6646899d6da885790574ad382816a3cbeed082c9e216e7392eed1" prot="public">
+          <name>Green</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a13996f83788b6646899d6da885790574a9a0bc5250850763c443dd5265d28ee72" prot="public">
+          <name>RedGreen</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a13996f83788b6646899d6da885790574a25a81701fbfa4a1efdf660a950c1d006" prot="public">
+          <name>White</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1ad55dbd5b1650843764ab08b9c2bc709a" prot="public" static="no">
+        <name>FilterTypes</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1ad55dbd5b1650843764ab08b9c2bc709aa6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1ad55dbd5b1650843764ab08b9c2bc709aad7af1ce5fe44d3af88f98b9d0aee25ab" prot="public">
+          <name>Filter1</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1ad55dbd5b1650843764ab08b9c2bc709aabf8e3cbdbc431a9825fc0e8a1fbb29fa" prot="public">
+          <name>Filter2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1ad55dbd5b1650843764ab08b9c2bc709aacb8db0daee5e65a403c4537bee925915" prot="public">
+          <name>Filter3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1ad55dbd5b1650843764ab08b9c2bc709aaa86a285a86472055b85c7b208a77ba45" prot="public">
+          <name>Filter4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="27" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/Recipe.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

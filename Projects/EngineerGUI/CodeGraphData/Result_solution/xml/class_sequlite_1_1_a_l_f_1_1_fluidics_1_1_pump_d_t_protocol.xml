@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Fluidics::PumpDTProtocol</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_answer_block" prot="package">Sequlite::ALF::Fluidics::PumpDTProtocol::AnswerBlock</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_command_block" prot="package">Sequlite::ALF::Fluidics::PumpDTProtocol::CommandBlock</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_pump_status" prot="package">Sequlite::ALF::Fluidics::PumpDTProtocol::PumpStatus</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1aa9eb43188841364ffb304c34459987ba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.Fluidics.PumpDTProtocol.SendCommand</definition>
+        <argsstring>(PumpProtocol.Addresses pump, string cmd)</argsstring>
+        <name>SendCommand</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+          <declname>pump</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+<para>This is a generic function for master command creation. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pump</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>pump address.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cmd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>It is the caller&apos;s responsibility to fill the Data Block with this parameter.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="60" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="60" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1a661ab98176f897d0f0d42f6e528efca4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.Fluidics.PumpDTProtocol.InitializePump</definition>
+        <argsstring>(PumpProtocol.Addresses pump, bool isCCW, int speed, int inputPort, int outputPort)</argsstring>
+        <name>InitializePump</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+          <declname>pump</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isCCW</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inputPort</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>outputPort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="68" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="68" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1a204b205c5ce2199c95e61aed73920ad0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.Fluidics.PumpDTProtocol.MicroSteppingCtrl</definition>
+        <argsstring>(PumpProtocol.Addresses pump, bool finePositioningOn)</argsstring>
+        <name>MicroSteppingCtrl</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+          <declname>pump</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>finePositioningOn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="85" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1add7bb9188c9a05d77524e07627c06d78" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.Fluidics.PumpDTProtocol.SetPumpAbsPos</definition>
+        <argsstring>(PumpProtocol.Addresses pump, int position)</argsstring>
+        <name>SetPumpAbsPos</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+          <declname>pump</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="93" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="93" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1aef36282bc5a41e1af401e3fdf15973dd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.Fluidics.PumpDTProtocol.SetPumpRelPos</definition>
+        <argsstring>(PumpProtocol.Addresses pump, int position)</argsstring>
+        <name>SetPumpRelPos</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+          <declname>pump</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="103" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="103" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1aed9e267c5242652d9b0ab6baa0df81b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.Fluidics.PumpDTProtocol.SetValvePos</definition>
+        <argsstring>(PumpProtocol.Addresses pump, int position, bool isCCW)</argsstring>
+        <name>SetValvePos</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+          <declname>pump</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isCCW</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="120" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="120" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1ae73a64d1c694ba70bcae519f0570619c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.Fluidics.PumpDTProtocol.SetTopSpeed</definition>
+        <argsstring>(PumpProtocol.Addresses pump, int topSpeed)</argsstring>
+        <name>SetTopSpeed</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+          <declname>pump</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>topSpeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="137" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="137" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1af364c6413e86e2596a0e1f4f30ec31c4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.Fluidics.PumpDTProtocol.TerminateAction</definition>
+        <argsstring>(PumpProtocol.Addresses pump)</argsstring>
+        <name>TerminateAction</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+          <declname>pump</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="147" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="147" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1af74ae70c2d09f3c87fbaf556bac6e0e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.Fluidics.PumpDTProtocol.RunCommand</definition>
+        <argsstring>(PumpProtocol.Addresses pump, string cmd)</argsstring>
+        <name>RunCommand</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+          <declname>pump</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cmd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="155" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="155" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1a815d55237c1c934c49a0dbd6ebddbc5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Sequlite.ALF.Fluidics.PumpDTProtocol.RunCmdLoop</definition>
+        <argsstring>(PumpProtocol.Addresses pump, string previousCmd, string loopCmd, int cycles)</argsstring>
+        <name>RunCmdLoop</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+          <declname>pump</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>previousCmd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>loopCmd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cycles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="163" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="163" bodyend="180"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpDTProtocol.cs" bodystart="7" bodyend="182"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1a661ab98176f897d0f0d42f6e528efca4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol</scope><name>InitializePump</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1a204b205c5ce2199c95e61aed73920ad0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol</scope><name>MicroSteppingCtrl</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1a815d55237c1c934c49a0dbd6ebddbc5a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol</scope><name>RunCmdLoop</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1af74ae70c2d09f3c87fbaf556bac6e0e4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol</scope><name>RunCommand</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1aa9eb43188841364ffb304c34459987ba" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol</scope><name>SendCommand</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1add7bb9188c9a05d77524e07627c06d78" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol</scope><name>SetPumpAbsPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1aef36282bc5a41e1af401e3fdf15973dd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol</scope><name>SetPumpRelPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1ae73a64d1c694ba70bcae519f0570619c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol</scope><name>SetTopSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1aed9e267c5242652d9b0ab6baa0df81b7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol</scope><name>SetValvePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1af364c6413e86e2596a0e1f4f30ec31c4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpDTProtocol</scope><name>TerminateAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

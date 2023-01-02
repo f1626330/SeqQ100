@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Common::MotionSettings</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings_1a7c92f2097017077a54021ce2325dc661" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.MotionSettings.Speed</definition>
+        <argsstring></argsstring>
+        <name>Speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" line="5" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings_1ac74b087050e0a4b950039d0553d5118d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.MotionSettings.Accel</definition>
+        <argsstring></argsstring>
+        <name>Accel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings_1a9d1b1a7a49a73c52d43162e00b57c982" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.MotionSettings.Absolute</definition>
+        <argsstring></argsstring>
+        <name>Absolute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings_1a577e0bddfe8b65534460f5d1ef97bbcc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.MotionSettings.Relative</definition>
+        <argsstring></argsstring>
+        <name>Relative</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" line="4" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" bodystart="3" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings_1a9d1b1a7a49a73c52d43162e00b57c982" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::MotionSettings</scope><name>Absolute</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings_1ac74b087050e0a4b950039d0553d5118d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::MotionSettings</scope><name>Accel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings_1a577e0bddfe8b65534460f5d1ef97bbcc" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::MotionSettings</scope><name>Relative</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings_1a7c92f2097017077a54021ce2325dc661" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::MotionSettings</scope><name>Speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

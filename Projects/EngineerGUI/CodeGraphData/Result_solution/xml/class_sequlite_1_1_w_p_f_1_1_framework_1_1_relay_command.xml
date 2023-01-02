@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::RelayCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ICommand</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1abd728bb04bc6f60d945f0cbc7b3196e6" prot="private" static="no" mutable="no">
+        <type>readonly Action&lt; object &gt;</type>
+        <definition>readonly Action&lt;object&gt; Sequlite.WPF.Framework.RelayCommand._execute</definition>
+        <argsstring></argsstring>
+        <name>_execute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1ab4aced095118744661735ea297804e3c" prot="private" static="no" mutable="no">
+        <type>readonly Predicate&lt; object &gt;</type>
+        <definition>readonly Predicate&lt;object&gt; Sequlite.WPF.Framework.RelayCommand._canExecute</definition>
+        <argsstring></argsstring>
+        <name>_canExecute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1adf6ecd114471b782435c0a475e125660" prot="public" static="no" readable="no" writable="no" gettable="no" settable="no">
+        <type>EventHandler</type>
+        <definition>EventHandler Sequlite.WPF.Framework.RelayCommand.CanExecuteChanged</definition>
+        <argsstring></argsstring>
+        <name>CanExecuteChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1a4574c1170754eb25c39c214c68559213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.WPF.Framework.RelayCommand.RelayCommand</definition>
+        <argsstring>(Action&lt; object &gt; execute)</argsstring>
+        <name>RelayCommand</name>
+        <param>
+          <type>Action&lt; object &gt;</type>
+          <declname>execute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1ab4996af341ac590f03175c3403256c11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.WPF.Framework.RelayCommand.RelayCommand</definition>
+        <argsstring>(Action&lt; object &gt; execute, Predicate&lt; object &gt; canExecute)</argsstring>
+        <name>RelayCommand</name>
+        <param>
+          <type>Action&lt; object &gt;</type>
+          <declname>execute</declname>
+        </param>
+        <param>
+          <type>Predicate&lt; object &gt;</type>
+          <declname>canExecute</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" bodystart="22" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1ad391356f8a4d3ffc4ce85cfd0bb125ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.WPF.Framework.RelayCommand.CanExecute</definition>
+        <argsstring>(object parameter)</argsstring>
+        <name>CanExecute</name>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1ad5d9c24887dd7ef44f06abd9472c594f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.RelayCommand.Execute</definition>
+        <argsstring>(object parameter)</argsstring>
+        <name>Execute</name>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" line="45" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" bodystart="45" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1060">
+        <label>ICommand</label>
+      </node>
+      <node id="1059">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="1060" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1062">
+        <label>ICommand</label>
+      </node>
+      <node id="1061">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="1062" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/RelayCommand.cs" bodystart="6" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1ab4aced095118744661735ea297804e3c" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::RelayCommand</scope><name>_canExecute</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1abd728bb04bc6f60d945f0cbc7b3196e6" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::RelayCommand</scope><name>_execute</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1ad391356f8a4d3ffc4ce85cfd0bb125ca" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::RelayCommand</scope><name>CanExecute</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1adf6ecd114471b782435c0a475e125660" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::RelayCommand</scope><name>CanExecuteChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1ad5d9c24887dd7ef44f06abd9472c594f" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::RelayCommand</scope><name>Execute</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1a4574c1170754eb25c39c214c68559213" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::RelayCommand</scope><name>RelayCommand</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command_1ab4996af341ac590f03175c3403256c11" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::RelayCommand</scope><name>RelayCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app_1ac172383fc7a6a82f9d7ad00060f67dc1" prot="private" static="yes" mutable="no">
+        <type>System.Threading.Mutex</type>
+        <definition>System.Threading.Mutex Sequlite.ALF.EngineerGUI.App.mutex</definition>
+        <argsstring></argsstring>
+        <name>mutex</name>
+        <initializer>= new System.Threading.Mutex(true, &quot;Hywire ALF EUI&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="16" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app_1a56b5ff3a35fb393418c719a9572cf0e0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window" kindref="compound">MainWindow</ref></type>
+        <definition>MainWindow Sequlite.ALF.EngineerGUI.App._MainWindow</definition>
+        <argsstring></argsstring>
+        <name>_MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="17" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app_1a8ffb1368336810e850728a333a1d56ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.App.Application_Startup</definition>
+        <argsstring>(object sender, StartupEventArgs e)</argsstring>
+        <name>Application_Startup</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>StartupEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="18" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="18" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app_1a398f827e66c167910cca990271ad94d4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.App.Current_DispatcherUnhandledException</definition>
+        <argsstring>(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)</argsstring>
+        <name>Current_DispatcherUnhandledException</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Windows.Threading.DispatcherUnhandledExceptionEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="162" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="162" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app_1a36918e9192ae35ab9d205fa304b43c06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.App.CurrentDomain_UnhandledException</definition>
+        <argsstring>(object sender, UnhandledExceptionEventArgs e)</argsstring>
+        <name>CurrentDomain_UnhandledException</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>UnhandledExceptionEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="170" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="170" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>App.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>Application</label>
+      </node>
+      <node id="8">
+        <label>Sequlite.ALF.EngineerGUI.App</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="13">
+        <label>Window</label>
+      </node>
+      <node id="11">
+        <label>Application</label>
+      </node>
+      <node id="12">
+        <label>Sequlite.ALF.EngineerGUI.MainWindow</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>Sequlite.ALF.EngineerGUI.App</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>_MainWindow</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>mutex</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="15" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="14" bodyend="177"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app_1a56b5ff3a35fb393418c719a9572cf0e0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::App</scope><name>_MainWindow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app_1a8ffb1368336810e850728a333a1d56ed" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::App</scope><name>Application_Startup</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app_1a398f827e66c167910cca990271ad94d4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::App</scope><name>Current_DispatcherUnhandledException</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app_1a36918e9192ae35ab9d205fa304b43c06" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::App</scope><name>CurrentDomain_UnhandledException</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app_1ac172383fc7a6a82f9d7ad00060f67dc1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::App</scope><name>mutex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

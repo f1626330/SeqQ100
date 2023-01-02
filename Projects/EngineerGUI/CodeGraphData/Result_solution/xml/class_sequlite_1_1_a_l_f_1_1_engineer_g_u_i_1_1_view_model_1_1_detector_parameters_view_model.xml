@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a0e2648b002f1e76ec6c5ad35d1bef742" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters" kindref="compound">MotionParameters</ref></type>
+        <definition>MotionParameters Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.FilterMotionSetup</definition>
+        <argsstring></argsstring>
+        <name>FilterMotionSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="37" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a5666c5ece736144768b41f110bd39523" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters" kindref="compound">MotionParameters</ref></type>
+        <definition>MotionParameters Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.YStageMotionSetup</definition>
+        <argsstring></argsstring>
+        <name>YStageMotionSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="38" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a1e70f332dfe320b3a5e98d182d8b0d07" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters" kindref="compound">MotionParameters</ref></type>
+        <definition>MotionParameters Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.ZStageMotionSetup</definition>
+        <argsstring></argsstring>
+        <name>ZStageMotionSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="39" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a59d066f69e89547a6932e99a0bdc3455" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.IsCartridgeEnabled</definition>
+        <argsstring></argsstring>
+        <name>IsCartridgeEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="42" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1ac19f3e15fd1799d86392214ff51f2187" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.CartridgePowerOptions</definition>
+        <argsstring></argsstring>
+        <name>CartridgePowerOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="56" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a81d4a99524bebe428189cf7aae0c42fa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.SelectedCartridgePower</definition>
+        <argsstring></argsstring>
+        <name>SelectedCartridgePower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="59" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a990958951f3767efd3ca8dc22c1bb34a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.GLEDMaxPower</definition>
+        <argsstring></argsstring>
+        <name>GLEDMaxPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="78" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a1e5e8f0b9942bbccce23ed840d6ee7bd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.RLEDMaxPower</definition>
+        <argsstring></argsstring>
+        <name>RLEDMaxPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="92" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a227aa2af6b9510b54c8ab69e774b61a4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.SetLEDMaxPowerCmd</definition>
+        <argsstring></argsstring>
+        <name>SetLEDMaxPowerCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="108" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a07bdc1553b16644631519fc117675fc4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel._IsCartridgeEnabled</definition>
+        <argsstring></argsstring>
+        <name>_IsCartridgeEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="41" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1aa1ebe3872bcc3131aa53fd416faeed83" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel._SelectedCartridgePower</definition>
+        <argsstring></argsstring>
+        <name>_SelectedCartridgePower</name>
+        <initializer>= new List&lt;int&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="58" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1ab5ea70bbd9e5fd6c029828048ea011cc" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel._GLEDMaxPower</definition>
+        <argsstring></argsstring>
+        <name>_GLEDMaxPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="77" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a393239655c8ec7dc0d40cb1cf1e18c9f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel._RLEDMaxPower</definition>
+        <argsstring></argsstring>
+        <name>_RLEDMaxPower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="91" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a4ff2f1cf1aedd9853ecefb0d022752da" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel._SetLEDMaxPowerCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetLEDMaxPowerCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="107" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a25666fc9a4518e8bde6cdde88b13d0be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.DetectorParametersViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>DetectorParametersViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="15" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="15" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a6f5a57c4e3d58ac5e0a858aa607603f4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.ExecuteSetLEDMaxPowerCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetLEDMaxPowerCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="120" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="120" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a5543707696c4aa1696cb0337745f3a85" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel.CanExecuteSetLEDMaxPowerCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetLEDMaxPowerCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="133" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="133" bodyend="136"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="346">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="347">
+        <label>IDisposable</label>
+      </node>
+      <node id="345">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="346" relation="public-inheritance">
+        </childnode>
+        <childnode refid="347" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="344">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model"/>
+        <childnode refid="345" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="353">
+        <label>ICommand</label>
+      </node>
+      <node id="350">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="351">
+        <label>IDisposable</label>
+      </node>
+      <node id="349">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="350" relation="public-inheritance">
+        </childnode>
+        <childnode refid="351" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="352">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="353" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="348">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model"/>
+        <childnode refid="349" relation="public-inheritance">
+        </childnode>
+        <childnode refid="352" relation="usage">
+          <edgelabel>_SetLEDMaxPowerCmd</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" line="13" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/DetectorParametersViewModel.cs" bodystart="12" bodyend="138"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1ab5ea70bbd9e5fd6c029828048ea011cc" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>_GLEDMaxPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a07bdc1553b16644631519fc117675fc4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>_IsCartridgeEnabled</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a393239655c8ec7dc0d40cb1cf1e18c9f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>_RLEDMaxPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1aa1ebe3872bcc3131aa53fd416faeed83" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>_SelectedCartridgePower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a4ff2f1cf1aedd9853ecefb0d022752da" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>_SetLEDMaxPowerCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a5543707696c4aa1696cb0337745f3a85" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>CanExecuteSetLEDMaxPowerCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1ac19f3e15fd1799d86392214ff51f2187" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>CartridgePowerOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a25666fc9a4518e8bde6cdde88b13d0be" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>DetectorParametersViewModel</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a6f5a57c4e3d58ac5e0a858aa607603f4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>ExecuteSetLEDMaxPowerCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a0e2648b002f1e76ec6c5ad35d1bef742" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>FilterMotionSetup</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a990958951f3767efd3ca8dc22c1bb34a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>GLEDMaxPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a59d066f69e89547a6932e99a0bdc3455" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>IsCartridgeEnabled</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a1e5e8f0b9942bbccce23ed840d6ee7bd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>RLEDMaxPower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a81d4a99524bebe428189cf7aae0c42fa" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>SelectedCartridgePower</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a227aa2af6b9510b54c8ab69e774b61a4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>SetLEDMaxPowerCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a5666c5ece736144768b41f110bd39523" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>YStageMotionSetup</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model_1a1e70f332dfe320b3a5e98d182d8b0d07" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</scope><name>ZStageMotionSetup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+﻿<Application x:Class="Sequlite.UI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Sequlite.UI"
+              xmlns:view="clr-namespace:Sequlite.UI.View"
+              xmlns:viewModel="clr-namespace:Sequlite.UI.ViewModel"
+             xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             >
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Sequlite.WPF.Framework;component/Resources/ConverterDictionary.xaml"/>
+                <ResourceDictionary Source="/Sequlite.WPF.Framework;component/Resources/StyleDictionary.xaml"/>
+                
+            </ResourceDictionary.MergedDictionaries>
+            <wpfFramework:LogWindow x:Key="{x:Type wpfFramework:LogWindowViewModel}" x:Shared="False"/>
+            <view:PdfReportWindow x:Key="{x:Type viewModel:PdfReportViewModel}" x:Shared="False"/>
+            <wpfFramework:MessageBoxView x:Key="{x:Type wpfFramework:MessageBoxViewModel}"/>
+            <wpfFramework:OpenFileDialogView x:Key="{x:Type wpfFramework:OpenFileDialogViewModel}"/>
+            <view:SearchAccountView x:Key="{x:Type viewModel:SearchAccountViewModel}" x:Shared="False"/>
+            <view:UserLoginWindow x:Key="{x:Type viewModel:UserLoginViewModel}" x:Shared="False"/>
+            <view:DataUploadWindow x:Key="{x:Type viewModel:DataUploadViewModel}" x:Shared="False"/>
+            <view:TileSelectionView x:Key="{x:Type viewModel:TileSelectionViewModel}" x:Shared="False"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

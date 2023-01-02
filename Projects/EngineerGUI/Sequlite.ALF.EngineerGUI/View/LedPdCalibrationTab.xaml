@@ -1,0 +1,186 @@
+﻿<UserControl x:Class="Sequlite.ALF.EngineerGUI.View.LedPdCalibrationTab"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.ALF.EngineerGUI.View"
+             xmlns:d3="http://research.microsoft.com/DynamicDataDisplay/1.0"
+           mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="LED type:" Grid.Column="0" Grid.Row="10" Margin="5"/>
+                <ComboBox Width="80" Grid.Column="1" Grid.Row="10" Margin="5" ItemsSource="{Binding Path=LEDTypeOptions}" SelectedItem="{Binding Path=SelectedLEDType}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="LED Current(%):" Grid.Column="0" Grid.Row="11" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="11" Margin="5" Text="{Binding Path=LEDCurrentSet}"/>
+                <Button Content="On" Grid.Column="2" Grid.Row="11" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="LEDOn"/>
+                <Button Content="Off" Grid.Column="2" Grid.Row="12" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="LEDOff"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Visibility="{Binding Path=IsProtocolRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}">
+                <TextBlock Text="LED Voltage(%):" Margin="5"/>
+                <TextBox Width="80" Margin="5" Text="{Binding Path=LEDVoltageSet}"/>
+                <Button Content="On" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="LEDVoltageOn"/>
+                <Button Content="Off" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="LEDVoltageOff"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="40"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <!--  LED Calibration  -->
+            <Grid Grid.Column="0" Grid.Row="1" Visibility="{Binding Path=IsProtocolRev2, Converter={StaticResource boolToVisibilityCollapsedConverter}}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Current @ 1%:" Grid.Column="0" Grid.Row="0" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="0" Margin="5" Text="{Binding Path=LEDCurrentAt1}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="0">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set1"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get1"/>
+                </StackPanel>
+
+                <TextBlock Text="Current @ 10%:" Grid.Column="0" Grid.Row="1" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="1" Margin="5" Text="{Binding Path=LEDCurrentAt10}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="1">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set10"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get10"/>
+                </StackPanel>
+
+                <TextBlock Text="Current @ 20%:" Grid.Column="0" Grid.Row="2" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="2" Margin="5" Text="{Binding Path=LEDCurrentAt20}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="2">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set20"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get20"/>
+                </StackPanel>
+
+                <TextBlock Text="Current @ 30%:" Grid.Column="0" Grid.Row="3" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="3" Margin="5" Text="{Binding Path=LEDCurrentAt30}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="3">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set30"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get30"/>
+                </StackPanel>
+
+                <TextBlock Text="Current @ 40%:" Grid.Column="0" Grid.Row="4" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="4" Margin="5" Text="{Binding Path=LEDCurrentAt40}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="4">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set40"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get40"/>
+                </StackPanel>
+
+                <TextBlock Text="Current @ 50%:" Grid.Column="0" Grid.Row="5" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="5" Margin="5" Text="{Binding Path=LEDCurrentAt50}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="5">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set50"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get50"/>
+                </StackPanel>
+
+                <TextBlock Text="Current @ 60%:" Grid.Column="0" Grid.Row="6" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="6" Margin="5" Text="{Binding Path=LEDCurrentAt60}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="6">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set60"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get60"/>
+                </StackPanel>
+
+                <TextBlock Text="Current @ 70%:" Grid.Column="0" Grid.Row="7" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="7" Margin="5" Text="{Binding Path=LEDCurrentAt70}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="7">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set70"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get70"/>
+                </StackPanel>
+
+                <TextBlock Text="Current @ 80%:" Grid.Column="0" Grid.Row="8" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="8" Margin="5" Text="{Binding Path=LEDCurrentAt80}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="8">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set80"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get80"/>
+                </StackPanel>
+
+                <TextBlock Text="Current @ 90%:" Grid.Column="0" Grid.Row="9" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="9" Margin="5" Text="{Binding Path=LEDCurrentAt90}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="9">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set90"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get90"/>
+                </StackPanel>
+
+                <TextBlock Text="Current @ 100%:" Grid.Column="0" Grid.Row="10" Margin="5"/>
+                <TextBox Width="80" Grid.Column="1" Grid.Row="10" Margin="5" Text="{Binding Path=LEDCurrentAt100}"/>
+                <StackPanel Orientation="Horizontal" Grid.Column="2" Grid.Row="10">
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Set100"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Get100"/>
+                </StackPanel>
+            </Grid>
+            <StackPanel Grid.Column="0" Grid.Row="1" Visibility="{Binding Path=IsProtocolRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}"
+                        HorizontalAlignment="Center">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Calibrate Power:" Margin="5"/>
+                    <ComboBox Width="60" Margin="5"
+                              ItemsSource="{Binding Path=CalibratePowerOptions}"
+                              SelectedItem="{Binding Path=SelectedCalibratePower}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Current:" Margin="5"/>
+                    <TextBox Width="60" Margin="5" Text="{Binding Path=CalibrateCurrent}"/>
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="SetRev2"/>
+                    <Button Content="Get" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="GetRev2"/>
+                </StackPanel>
+            </StackPanel>
+
+
+            <!--  PD sample curve  -->
+            <Grid Grid.Column="2" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Sample points:" Margin="5"/>
+                    <TextBox Width="80" Margin="5" Text="{Binding Path=SamplePoints}"/>
+                    <Button Content="Set" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="SetPoints"/>
+                    <Button Content="Refresh curve" Margin="5" Command="{Binding Path=SetCmd}" CommandParameter="Curve"/>
+                </StackPanel>
+                <Grid Grid.Row="1">
+                    <d3:ChartPlotter Margin="5">
+                        <d3:Header Content="PD value Log"/>
+                        <d3:HorizontalAxisTitle Content="Time(msec)"/>
+                        <d3:VerticalAxisTitle Content="PD Value"/>
+                        <d3:LineGraph DataSource="{Binding Path=PDValueLine}">
+                            <d3:LineGraph.LinePen>
+                                <Pen Brush="Red" Thickness="1"/>
+                            </d3:LineGraph.LinePen>
+                        </d3:LineGraph>
+                    </d3:ChartPlotter>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

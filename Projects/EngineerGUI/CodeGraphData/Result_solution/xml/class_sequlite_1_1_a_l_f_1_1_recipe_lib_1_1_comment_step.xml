@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_comment_step" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::RecipeLib::CommentStep</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" prot="public" virt="non-virtual">Sequlite.ALF.RecipeLib.RecipeStepBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_comment_step_1a0f2f84cc98a76367bbafbedfca3a129f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.RecipeLib.CommentStep.Comment</definition>
+        <argsstring></argsstring>
+        <name>Comment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="299" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_comment_step_1a04d805ab60ed9df14a48e0c3be86069a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.RecipeLib.CommentStep.CommentStep</definition>
+        <argsstring>()</argsstring>
+        <name>CommentStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="300" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_comment_step_1aeeb0d35edbcca945f50538b25b73dca9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Sequlite.ALF.RecipeLib.CommentStep.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="304" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="304" bodyend="307"/>
+        <references refid="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa0be8406951cdfda82f00f79328cf4efc">Sequlite.ALF.RecipeLib.Comment</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="286">
+        <label>Sequlite.ALF.RecipeLib.CommentStep</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_comment_step"/>
+        <childnode refid="287" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="287">
+        <label>RecipeStepBase</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="288">
+        <label>Sequlite.ALF.RecipeLib.CommentStep</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_comment_step"/>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="289">
+        <label>RecipeStepBase</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="298" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="297" bodyend="308"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_comment_step_1a0f2f84cc98a76367bbafbedfca3a129f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::CommentStep</scope><name>Comment</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_comment_step_1a04d805ab60ed9df14a48e0c3be86069a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::CommentStep</scope><name>CommentStep</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1a2e2a061fd9087bc80e054c8bb212a95e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::CommentStep</scope><name>DisplayName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1a391eb3d128b9fff99595131ba9ecea81" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::CommentStep</scope><name>GetStepType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1ac40bd6d4452824c7923713f0d1e27f48" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::CommentStep</scope><name>GetTypeName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1a9302231ff7563e8b60087f43d06a9acd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::CommentStep</scope><name>StepName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1ad41f9e63e7b0f8105a89448c74d3ddfd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::CommentStep</scope><name>StepType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_comment_step_1aeeb0d35edbcca945f50538b25b73dca9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::CommentStep</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite" kind="namespace">
+    <compoundname>Sequlite</compoundname>
+    <innernamespace refid="namespace_sequlite_1_1_adorners">Sequlite::Adorners</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f">Sequlite::ALF</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_bad_image_check">Sequlite::BadImageCheck</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_camera_lib">Sequlite::CameraLib</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_command_lib">Sequlite::CommandLib</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_image">Sequlite::Image</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_ipp">Sequlite::Ipp</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_lucid_camera_lib">Sequlite::LucidCameraLib</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_w_p_f">Sequlite::WPF</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

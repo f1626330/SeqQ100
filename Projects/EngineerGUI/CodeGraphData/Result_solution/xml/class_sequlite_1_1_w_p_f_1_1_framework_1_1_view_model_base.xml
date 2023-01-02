@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::ViewModelBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_camera_control_view_model" prot="public" virt="non-virtual">Hywire.ALF.EthernetCameraTest.CameraControlViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_workspace" prot="public" virt="non-virtual">Hywire.ALF.EthernetCameraTest.Workspace</derivedcompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace" prot="public" virt="non-virtual">Hywire.ALF.LEDTest.Workspace</derivedcompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace" prot="public" virt="non-virtual">Hywire.ALF.PumpTest.Workspace</derivedcompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace" prot="public" virt="non-virtual">Hywire.ALF.ValveTest.Workspace</derivedcompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace" prot="public" virt="non-virtual">Hywire.ALF.ZStageTest.Workspace</derivedcompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model" prot="public" virt="non-virtual">Hywire.ChartDisplayTest.PaneViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_chart_display_test_1_1_workspace" prot="public" virt="non-virtual">Hywire.ChartDisplayTest.Workspace</derivedcompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_motion_controller_test_1_1_motion_view_model" prot="public" virt="non-virtual">Hywire.MotionControllerTest.MotionViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_hywire_1_1_motion_controller_test_1_1_workspace" prot="public" virt="non-virtual">Hywire.MotionControllerTest.Workspace</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_image_gallery_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.ImageGalleryViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.Workspace</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_e_camera_v_m" prot="public" virt="non-virtual">Sequlite.ALF.EthernetCamera.ECameraVM</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1abba0b82ec9144eee91e0c66abc8f9b68" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.WPF.Framework.ViewModelBase.disposed</definition>
+        <argsstring></argsstring>
+        <name>disposed</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ad390d6d1d01aaf00dedf56d5a2887810" prot="private" static="no" mutable="no">
+        <type>SafeHandle</type>
+        <definition>SafeHandle Sequlite.WPF.Framework.ViewModelBase.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <initializer>= new SafeFileHandle(IntPtr.Zero, true)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler Sequlite.WPF.Framework.ViewModelBase.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" line="48" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.ViewModelBase.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" bodystart="16" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Sequlite.WPF.Framework.ViewModelBase.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <reimplementedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a753496def19e17306cc186bb90f5aa0d">Dispose</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" bodystart="23" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Sequlite.WPF.Framework.ViewModelBase.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1293">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.ImageGalleryViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_image_gallery_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1298">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model"/>
+        <childnode refid="1297" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1279">
+        <label>Hywire.ALF.LEDTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_l_e_d_test_1_1_workspace"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1290">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1285">
+        <label>Hywire.ChartDisplayTest.Workspace</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_workspace"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1302">
+        <label>Sequlite.ALF.EthernetCamera.ECameraVM</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_e_camera_v_m"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1275">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1295">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.MotionParameters</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1274">
+        <label>Sequlite.WPF.Framework.ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1275" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1276" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1283">
+        <label>Hywire.ChartDisplayTest.PaneViewModel</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_pane_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1296">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1276">
+        <label>IDisposable</label>
+      </node>
+      <node id="1299">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1297">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1287">
+        <label>Hywire.MotionControllerTest.Workspace</label>
+        <link refid="class_hywire_1_1_motion_controller_test_1_1_workspace"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1278">
+        <label>Hywire.ALF.EthernetCameraTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_workspace"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1301">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.Workspace</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1286">
+        <label>Hywire.MotionControllerTest.MotionViewModel</label>
+        <link refid="class_hywire_1_1_motion_controller_test_1_1_motion_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1282">
+        <label>Hywire.ALF.ZStageTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1277">
+        <label>Hywire.ALF.EthernetCameraTest.CameraControlViewModel</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_ethernet_camera_test_1_1_camera_control_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1300">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1294">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1288">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.AutoFocusViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1284">
+        <label>Hywire.ChartDisplayTest.FileViewModel</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_file_view_model"/>
+        <childnode refid="1283" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1292">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1289">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1281">
+        <label>Hywire.ALF.ValveTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1291">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.DetectorParametersViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1280">
+        <label>Hywire.ALF.PumpTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace"/>
+        <childnode refid="1274" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1304">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1303">
+        <label>Sequlite.WPF.Framework.ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1304" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1305" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1305">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/MVVM/ViewModelBase.cs" bodystart="8" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::ViewModelBase</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::WPF::Framework::ViewModelBase</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1abba0b82ec9144eee91e0c66abc8f9b68" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::ViewModelBase</scope><name>disposed</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ad390d6d1d01aaf00dedf56d5a2887810" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::ViewModelBase</scope><name>handle</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::ViewModelBase</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::WPF::Framework::ViewModelBase</scope><name>RaisePropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

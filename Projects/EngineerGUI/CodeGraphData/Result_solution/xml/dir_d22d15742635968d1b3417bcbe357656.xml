@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d22d15742635968d1b3417bcbe357656" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/PVCam.NET/PVCAM</compoundname>
+    <innerdir refid="dir_5fc5c00ac85155b211992c74ddbc1ee4">D:/Source/Alf/Libraries/PVCam.NET/PVCAM/Properties</innerdir>
+    <innerfile refid="_p_v_c_a_m_8cs">PVCAM.cs</innerfile>
+    <innerfile refid="_p_v_c_a_m32_8cs">PVCAM32.cs</innerfile>
+    <innerfile refid="_p_v_c_a_m64_8cs">PVCAM64.cs</innerfile>
+    <innerfile refid="_pv_master_8cs">PvMaster.cs</innerfile>
+    <innerfile refid="_pv_types_8cs">PvTypes.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/"/>
+  </compounddef>
+</doxygen>

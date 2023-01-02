@@ -1,0 +1,76 @@
+﻿<Window x:Class="Sequlite.UI.View.PdfReportWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sequlite.UI.View"
+         xmlns:viewModel="clr-namespace:Sequlite.UI.ViewModel"
+         xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             
+                    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+        mc:Ignorable="d"
+        Title="{Binding Title}" Height="{Binding WinHeight,Mode=TwoWay}" Width="{Binding WinWidth,Mode=TwoWay}" WindowStartupLocation="CenterOwner" ResizeMode="NoResize" WindowStyle="None"
+        BorderThickness="5" BorderBrush="Green">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="ContentRendered">
+            <i:InvokeCommandAction Command="{Binding ContentRenderedCommand}" CommandParameter="{x:Reference currentPageView}"
+                                   />
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/StyleDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <DataTemplate DataType="{x:Type viewModel:DataInTableViewModel}">
+                <local:DataInTableControl />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:DataByCycleViewModel}">
+                <local:DataByCycleControl />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:RunSummaryViewModel}">
+                <local:RunSummaryControl />
+            </DataTemplate>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="48"/>
+        </Grid.RowDefinitions>
+        
+        <Border Grid.Row="0" Style="{StaticResource PageBorderStyle}" Margin="5">
+            <ContentControl Content="{Binding CurrentPage}" x:Name="currentPageView" VerticalAlignment="Top"/>
+        </Border>
+        <Border Grid.Row="1" Style="{StaticResource PageBorderStyle}">
+            <StatusBar>
+                <StatusBar.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ItemsPanelTemplate>
+                </StatusBar.ItemsPanel>
+                <StatusBarItem Grid.Column="0">
+                    <TextBlock Text="{Binding Status}" TextWrapping="Wrap" Margin="5,1,1,1"/>
+                </StatusBarItem>
+
+                <StatusBarItem  Grid.Column="1">
+                    <Button Content="View"  Padding="5,1,5,1"  Margin="5" ToolTip="View the Pdf file"
+                            IsEnabled="{Binding IsExportDone}" Visibility="Collapsed"/>
+                </StatusBarItem>
+                
+                <StatusBarItem  Grid.Column="2">
+                    <Button  Content="Close" Padding="5,1,5,1"  Margin="5" IsCancel="True" ToolTip="Close this window"
+                             IsEnabled="{Binding IsExportDone}" Visibility="{Binding IsAutoClose, Converter={StaticResource booleanToHiddenNegateConverter}}"/>
+                </StatusBarItem>
+              
+            </StatusBar>
+        </Border>
+    </Grid>
+</Window>

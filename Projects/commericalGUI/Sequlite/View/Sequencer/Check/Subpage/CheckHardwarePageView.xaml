@@ -1,0 +1,153 @@
+﻿<UserControl x:Class="Sequlite.UI.View.CheckHardwarePageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.UI.View"
+              xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/PageViewDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Style x:Key="statusCheck" TargetType="CheckBox" BasedOn="{StaticResource StatusCheckboxStyle}" >
+                <Setter Property="Margin" Value="8" />
+                <Setter Property="Focusable" Value="False" />
+                <Setter Property="MinHeight" Value="26" />
+                <Setter Property="HorizontalContentAlignment" Value="Left" />
+                <Setter Property="HorizontalAlignment" Value="Left" />
+                <Setter Property="IsChecked" Value="{Binding IsSuccess, Mode=OneWay}" />
+                <Setter Property="IsEnabled" Value="False" />
+                <Setter Property="Content" Value="{Binding DisaplyName}" />
+                <Setter Property="IsThreeState" Value="True" />
+            </Style>
+
+            <x:Array Type="{x:Type sys:String}" x:Key="myTestStrings">
+                <sys:String>Foo</sys:String>
+                <sys:String>Bar</sys:String>
+                <sys:String>Baz</sys:String>
+            </x:Array>
+        </ResourceDictionary>
+       
+    </UserControl.Resources>
+    <Grid VerticalAlignment="Top" Margin="5" Grid.IsSharedSizeScope="True">
+        <Grid.RowDefinitions>
+            <RowDefinition  SharedSizeGroup="A"/>
+            <RowDefinition  SharedSizeGroup="A"/>
+            <RowDefinition  SharedSizeGroup="A"/>
+            <RowDefinition  SharedSizeGroup="A"/>
+            <RowDefinition  SharedSizeGroup="A"/>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row="0" Style="{StaticResource PageBorderStyle}"  Grid.Column="0" >
+            <CheckBox  DataContext="{Binding StatusList[0]}"  Style="{StaticResource statusCheck}" />
+        </Border>
+        <Border Grid.Row="0" Style="{StaticResource PageBorderStyle}"  Grid.Column="1" Grid.ColumnSpan="2">
+            <Grid Margin="10" MaxWidth="300">
+                <ProgressBar Minimum="0" Maximum="100" Name="pbStatus" Value="{Binding CurrentProgress, Mode=OneWay}"/>
+                <TextBlock Text="{Binding ElementName=pbStatus, Path=Value, StringFormat={}{0:0}%}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+        </Border>
+        
+        <Border Grid.Row="1" Style="{StaticResource PageBorderStyle}"  Grid.Column="0" Grid.ColumnSpan="2">
+            <CheckBox  DataContext="{Binding StatusList[1]}"  Style="{StaticResource statusCheck}"/>
+        </Border>
+
+        <Border Grid.Row="2" Style="{StaticResource PageBorderStyle}"  Grid.Column="0" Grid.ColumnSpan="2">
+            <CheckBox IsThreeState="True" DataContext="{Binding StatusList[2]}" Style="{StaticResource statusCheck}"/>
+        </Border>
+
+        <Border Grid.Row="3" Style="{StaticResource PageBorderStyle}"  Grid.Column="0" >
+            <CheckBox  DataContext="{Binding StatusList[3]}"  Style="{StaticResource statusCheck}"/>
+        </Border>
+        <Border Grid.Row="3" Style="{StaticResource PageBorderStyle}"  Grid.Column="1" >
+            <CheckBox  Grid.Row="3"  DataContext="{Binding StatusList[5]}"  Style="{StaticResource statusCheck}" />
+        </Border>
+
+        <Border Grid.Row="4" Style="{StaticResource PageBorderStyle}"  Grid.Column="0" >
+            <CheckBox  Grid.Row="4"   DataContext="{Binding StatusList[4]}" Style="{StaticResource statusCheck}"/>
+        </Border>
+        <Border Grid.Row="4" Style="{StaticResource PageBorderStyle}"  Grid.Column="1" >
+            <CheckBox Grid.Row="4"  DataContext="{Binding StatusList[6]}"  Style="{StaticResource statusCheck}" />
+        </Border>
+        <Border Grid.Row="5" Margin="0, 10,0,0"  Grid.ColumnSpan="2"  
+                Visibility="{Binding HasError, Converter={StaticResource boolToVisibilityVisibleConverter}, Mode=OneWay}"
+                >
+            <TextBox Text="Please fix the following error(s), then click &quot;Check Again&quot; button." 
+                     TextWrapping="Wrap"  IsReadOnly="True"
+                 Background="LightPink"/>
+        </Border>
+
+        <Border Grid.Row="6" Margin="0, 5,0,0" Grid.ColumnSpan="2"  Background="WhiteSmoke">
+            <ItemsControl ItemsSource="{Binding ErrorMessages}">
+            <!--<ItemsControl ItemsSource="{Binding Source={StaticResource myTestStrings}}" >-->
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <BulletDecorator>
+                            <BulletDecorator.Bullet>
+                                <Ellipse Height="7" Width="7" Fill="Red" Opacity="0.4" Margin="0,1,0,0"/>
+                            </BulletDecorator.Bullet>
+                            <TextBlock Text="{Binding }" Foreground="Red"  TextWrapping="Wrap" Margin="5,0,0,0"/>
+                        </BulletDecorator>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Border>
+        <Border Grid.Row="8" Grid.ColumnSpan="2" Margin="0,10, 0,10" Background="WhiteSmoke">
+            <ItemsControl ItemsSource="{Binding WarningMessage}" >
+            <!--<ItemsControl ItemsSource="{Binding Source={StaticResource myTestStrings}}" >-->
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <BulletDecorator>
+                            <BulletDecorator.Bullet>
+                                <Ellipse Height="7" Width="7" Fill="DarkGoldenrod" Opacity="0.4"/>
+                            </BulletDecorator.Bullet>
+                            <TextBlock Text="{Binding }" Foreground="DarkGoldenrod"  TextWrapping="Wrap" Margin="5,0,0,0"/>
+                        </BulletDecorator>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Border>
+        <Grid Grid.Row="7" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  Width="*"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label  Grid.Column="0" Content="Flow Cell:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,5,0,5" Margin="5"/>
+            <TextBox  Grid.Column="1" TextWrapping="Wrap" Text="{Binding LoadModel.FCBarcodeId, Mode=OneWay}"
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="10,5,5,5"
+                            IsReadOnly="True"/>
+            <Label  Grid.Row="1" Content="Reagents:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" VerticalAlignment="Top"  Margin="5,0,5,5"/>
+            <TextBox  Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="{Binding LoadModel.ReagentRFID, Mode=OneWay}"
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="10,1,5,9"
+                            IsReadOnly="True"/>
+            <Label  Grid.Row="2" Content="Disk Space:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" VerticalAlignment="Top"  Margin="5,0,5,5"/>
+            <TextBox  Grid.Row="2" Grid.Column="1" TextWrapping="Wrap" Text="{Binding Path = DiskSpace, Mode=OneWay}"
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="10,1,5,9"
+                            IsReadOnly="True"/>
+            <Label  Grid.Row="3" Content="Waste Level:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" VerticalAlignment="Top"  Margin="5,0,5,5"/>
+            <TextBox  Grid.Row="3" Grid.Column="1" TextWrapping="Wrap" Text="{Binding Path = WasteLevel, Mode=OneWay}"
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="10,1,5,9"
+                            IsReadOnly="True"/>
+        </Grid>
+    </Grid>
+
+    
+</UserControl>

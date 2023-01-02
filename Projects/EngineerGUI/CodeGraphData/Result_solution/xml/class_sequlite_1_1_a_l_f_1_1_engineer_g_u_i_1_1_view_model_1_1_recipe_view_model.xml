@@ -1,0 +1,1490 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model" kind="class" prot="package">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a7d61eb53c834761d49c8688c08f65f6c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._LoadedRecipeInfo</definition>
+        <argsstring></argsstring>
+        <name>_LoadedRecipeInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="26" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a8518c7ccb73a89c09dbf95f27f17590a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe" kindref="compound">Recipe</ref></type>
+        <definition>Recipe Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._LoadedRecipe</definition>
+        <argsstring></argsstring>
+        <name>_LoadedRecipe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="27" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ae3ed4dd3552e2240feed81e9c138aab1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread" kindref="compound">RecipeRunThread</ref></type>
+        <definition>RecipeRunThread Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RecipeRunThread</definition>
+        <argsstring></argsstring>
+        <name>_RecipeRunThread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="28" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1aee34051c764af78a09cb4509cb107391" prot="private" static="no" mutable="no">
+        <type>LineGraph</type>
+        <definition>LineGraph Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._linegraph</definition>
+        <argsstring></argsstring>
+        <name>_linegraph</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="29" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9f8f6d7d104986cc0c9716cae4e0a6bb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref></type>
+        <definition>StepsTreeViewModel Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._SelectedStep</definition>
+        <argsstring></argsstring>
+        <name>_SelectedStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="34" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a0e3931b02bcb63386e8654dd86a195d8" prot="private" static="no" mutable="no">
+        <type>StringBuilder</type>
+        <definition>StringBuilder Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RunningLog</definition>
+        <argsstring></argsstring>
+        <name>_RunningLog</name>
+        <initializer>= new StringBuilder()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="35" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a1bf38090e9e416ceba1e2279b583aeec" prot="private" static="no" mutable="no">
+        <type>StringBuilder</type>
+        <definition>StringBuilder Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._WriteLog</definition>
+        <argsstring></argsstring>
+        <name>_WriteLog</name>
+        <initializer>= new StringBuilder()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="36" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a2673f82de13398bf9d92983ec014246e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._FolderStr</definition>
+        <argsstring></argsstring>
+        <name>_FolderStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="37" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a8974a95e4cfcd54e3476870b43247afa" prot="private" static="no" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._Timer</definition>
+        <argsstring></argsstring>
+        <name>_Timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="38" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a16640776f6dcc4d21b84614c9b979d27" prot="private" static="no" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._UsageTimer</definition>
+        <argsstring></argsstring>
+        <name>_UsageTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="39" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a56524e79bd3112a73514e9756cf1f638" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._ImageQC</definition>
+        <argsstring></argsstring>
+        <name>_ImageQC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="44" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a1372b59aa30763783fb62e2c0de72e2e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._isEnableRIPP</definition>
+        <argsstring></argsstring>
+        <name>_isEnableRIPP</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="45" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1aa67694cd20a44e494d2d3c46baecd550" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._ExposureFactor</definition>
+        <argsstring></argsstring>
+        <name>_ExposureFactor</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="46" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a75c994bbe8b9dc1f6d3245dfc489774a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RedLEDFactor</definition>
+        <argsstring></argsstring>
+        <name>_RedLEDFactor</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="47" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a30079df7dd62e3500a3a53c73ea94265" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._GreenLEDFactor</definition>
+        <argsstring></argsstring>
+        <name>_GreenLEDFactor</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="48" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a6f0c890782d8d0f69adc94b419103122" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RIPPParameterOptions</definition>
+        <argsstring></argsstring>
+        <name>_RIPPParameterOptions</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="49" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1aa85329ac61b9aeb9e7e941afb6fde4f0" prot="private" static="no" mutable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RIPPTileOptions</definition>
+        <argsstring></argsstring>
+        <name>_RIPPTileOptions</name>
+        <initializer>= new List&lt;string&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="50" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ae1c8ad2b89bedd9c6b888f9686b6f2de" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._SelectedParameter</definition>
+        <argsstring></argsstring>
+        <name>_SelectedParameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="51" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a10a001a445e892f070e012c9b4049161" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._SelectedTile</definition>
+        <argsstring></argsstring>
+        <name>_SelectedTile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="52" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a066df60939ed324d4343c16dff5d42be" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._LoadRecipeCmd</definition>
+        <argsstring></argsstring>
+        <name>_LoadRecipeCmd</name>
+        <initializer>= new List&lt;double&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="231" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a6ec5ac37cf6a7ddea670a075d9783c72" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RunRecipeCmd</definition>
+        <argsstring></argsstring>
+        <name>_RunRecipeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="284" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a4489c1ffb550de49a1822dc15503519e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._PauseRecipeCmd</definition>
+        <argsstring></argsstring>
+        <name>_PauseRecipeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="560" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="560" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a319ea6f1d8bdf2ea3237701b4ed0032c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._SetFactorCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetFactorCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="595" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="595" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a570cb64d1173b7ad17e8b6499a4dc65e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._PlotCmd</definition>
+        <argsstring></argsstring>
+        <name>_PlotCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="632" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="632" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a738af52cf3284931548fb650d723fb93" prot="private" static="yes" mutable="no">
+        <type>object</type>
+        <definition>object Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RunninglogLock</definition>
+        <argsstring></argsstring>
+        <name>_RunninglogLock</name>
+        <initializer>= new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="40" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ac12208ef359df93af36bab9c06c3cde6" prot="private" static="yes" mutable="no">
+        <type>object</type>
+        <definition>object Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._StepsLock</definition>
+        <argsstring></argsstring>
+        <name>_StepsLock</name>
+        <initializer>= new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="41" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1af5e87e99d382b901c2dddbeaca9b6a2b" prot="private" static="yes" mutable="no">
+        <type>PerformanceCounter</type>
+        <definition>PerformanceCounter Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RAMCounter</definition>
+        <argsstring></argsstring>
+        <name>_RAMCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="42" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a86964270c3c8b0cf7b52c0c2047506f8" prot="private" static="yes" mutable="no">
+        <type>PerformanceCounter</type>
+        <definition>PerformanceCounter Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._CPUCounter</definition>
+        <argsstring></argsstring>
+        <name>_CPUCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="43" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1aff74e6f6c75e17553bd0e7e2310eb922" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_r_i_p_p_stats" kindref="compound">RIPPStats</ref></type>
+        <definition>RIPPStats Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.RIPPStats</definition>
+        <argsstring></argsstring>
+        <name>RIPPStats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="56" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a2de26be878573a6ce66ec0380f8db26c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.SelectedParameter</definition>
+        <argsstring></argsstring>
+        <name>SelectedParameter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="57" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ae5fa723606c16f84bd3576d224051c6d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.SelectedTile</definition>
+        <argsstring></argsstring>
+        <name>SelectedTile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="69" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a76202441f56fb36a08be0cf32ff59326" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.isEnableRIPP</definition>
+        <argsstring></argsstring>
+        <name>isEnableRIPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="81" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a169c2afe100e6cff16d60c44c9451693" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.RIPPTileOptions</definition>
+        <argsstring></argsstring>
+        <name>RIPPTileOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="94" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a07ff3cb9b29822b0e4cf6e7c5243afbf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.RIPPParameterOptions</definition>
+        <argsstring></argsstring>
+        <name>RIPPParameterOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="106" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a0ef1ca09643b8dd4e623765e0ffd7507" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExposureFactor</definition>
+        <argsstring></argsstring>
+        <name>ExposureFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="118" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a068c6c055193818a6579ee0a688f0989" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.RedLEDFactor</definition>
+        <argsstring></argsstring>
+        <name>RedLEDFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="130" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ac6f3cd886fd9efd46df38b056e9db734" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.GreenLEDFactor</definition>
+        <argsstring></argsstring>
+        <name>GreenLEDFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="143" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a72f7aacf4c2c41fe832537f8e02144b4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.FolderStr</definition>
+        <argsstring></argsstring>
+        <name>FolderStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="155" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a83f5cc96a7db34bb9ef69e56526e6845" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ImageQC</definition>
+        <argsstring></argsstring>
+        <name>ImageQC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="156" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a91d1006d5e060e140c3f3edcd3d5d83a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.LoadedRecipeInfo</definition>
+        <argsstring></argsstring>
+        <name>LoadedRecipeInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="168" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a6c104cbb76168630d2676507f571bdee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableCollection&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref> &gt;</type>
+        <definition>ObservableCollection&lt;StepsTreeViewModel&gt; Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.Steps</definition>
+        <argsstring></argsstring>
+        <name>Steps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="180" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1adf2fa12ede3d969225d0fdcaae356be9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref></type>
+        <definition>StepsTreeViewModel Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.SelectedStep</definition>
+        <argsstring></argsstring>
+        <name>SelectedStep</name>
+        <initializer>= new ObservableCollection&lt;<ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="181" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9da8358c0665c227170fd51067ebad25" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.WriteLog</definition>
+        <argsstring></argsstring>
+        <name>WriteLog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="201" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a90a1a931122d7685ccf473016b6f8ad9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.RunningLog</definition>
+        <argsstring></argsstring>
+        <name>RunningLog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="205" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1afb3cd781d864f9a5c0a188acb91d1e3a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; double &gt;</type>
+        <definition>List&lt;double&gt; Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.G1Data</definition>
+        <argsstring></argsstring>
+        <name>G1Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="227" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1af89a43fe076b600d8c55cd1e564e2849" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.LoadRecipeCmd</definition>
+        <argsstring></argsstring>
+        <name>LoadRecipeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="232" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a584cfb0a76dfbb160fbe28ef1a6ad916" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.RunRecipeCmd</definition>
+        <argsstring></argsstring>
+        <name>RunRecipeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="285" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a3d1cf8ba45df9e800778a1bb59bf415b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.PauseRecipeCmd</definition>
+        <argsstring></argsstring>
+        <name>PauseRecipeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="561" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a281338601389e6eada43d39a31dd97e0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.SetFactorCmd</definition>
+        <argsstring></argsstring>
+        <name>SetFactorCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="596" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="597" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a59805af2865a1c5a58ccd080315c6160" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.PlotCmd</definition>
+        <argsstring></argsstring>
+        <name>PlotCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="633" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="634" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a52ed6b6205084dc8cd5b6b020ff18d2b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.SetGraph</definition>
+        <argsstring>(LineGraph linegraph)</argsstring>
+        <name>SetGraph</name>
+        <param>
+          <type>LineGraph</type>
+          <declname>linegraph</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="30" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ac1b22e013b03f074ae879a9e3d244fb1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteLoadRecipeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteLoadRecipeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="244" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="244" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1aef822decd079a5fe2e9b50646fb61096" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.CanExecuteLoadRecipeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteLoadRecipeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="277" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteRunRecipeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteRunRecipeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="297" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="297" bodyend="374"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model_1a86782a2d98b9f1a92343fde00e9b2b1c" compoundref="_camera_view_model_8cs" startline="76">Sequlite.ALF.EngineerGUI.ViewModel.CameraViewModel.ActiveCamera</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a6f39ff53e2fa9e2c0ab4a924d59b71b6" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="98">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.CameraVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1af5b24d5305854c421fbb5221549de914" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="398">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.CMotionCurrentPos</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af717d399b1a42949031d1c09ed3bb733" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="103">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.FluidicsVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a54eb12fdbc39a5f3719194a49cf55ba3" compoundref="_fluidics_view_model_8cs" startline="293">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.IsCartridgeLoaded</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab19fa62fd1881c7f2edb044097d7d23b" compoundref="_main_board_view_model_8cs" startline="155">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.MainBoard</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af637674b4bc00a0ba294a8a16710a510" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="101">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MainBoardVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1afd871d390919ada56fa67cf15564d8b3" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="90">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.MotionController</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a0177d0b358bf7643dedcb1a21072e9d4" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="99">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MotionVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a70acfeda071bcbe9b8e9770af1e5eadb" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="13">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Owner</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a6c484ce0d1033b92b4e55d798f4707b5" compoundref="_fluidics_view_model_8cs" startline="152">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Pump</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a7a5b73e4fcddc41750b2e34e0e386f70" compoundref="_fluidics_view_model_8cs" startline="150">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Valve</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a716d876b948fa0e63118206e60aee5e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._Timer_Elapsed</definition>
+        <argsstring>(object sender, System.Timers.ElapsedEventArgs e)</argsstring>
+        <name>_Timer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Timers.ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="375" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="375" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a52b4b8ce8d1f9270254b15ed06bc9809" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._UsageTimer_Elapsed</definition>
+        <argsstring>(object sender, System.Timers.ElapsedEventArgs e)</argsstring>
+        <name>_UsageTimer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Timers.ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="384" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="384" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ab88f50854f934d2cf0a87949970f9f9b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RecipeRunThread_RIPPUpdated</definition>
+        <argsstring>(DirectoryInfo directory)</argsstring>
+        <name>_RecipeRunThread_RIPPUpdated</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>directory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="390" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="390" bodyend="398"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a27d23ac4a4ab787a56e3b942114bbbe2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RecipeRunThread_OnLoopStepUpdated</definition>
+        <argsstring>(RecipeStepBase step)</argsstring>
+        <name>_RecipeRunThread_OnLoopStepUpdated</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" kindref="compound">RecipeStepBase</ref></type>
+          <declname>step</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="400" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="400" bodyend="417"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9defc9edb989603acef3caeba3cc3964" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.UpdateLoopCounts</definition>
+        <argsstring>(StepsTreeViewModel tree, RecipeStepBase step)</argsstring>
+        <name>UpdateLoopCounts</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" kindref="compound">RecipeStepBase</ref></type>
+          <declname>step</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="419" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="419" bodyend="446"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a122e73e0028b08e0ec9647713ec220e6" compoundref="_steps_tree_view_model_8cs" startline="33">Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.Content</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a5c7c1ecb29d21562202a1b63ea2a9987" compoundref="_steps_tree_8cs" startline="27">Sequlite.ALF.RecipeLib.StepsTree.Step</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ab3bba3617e06742a85317f46bb4423a2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RecipeRunThread_Completed</definition>
+        <argsstring>(ThreadBase sender, ThreadBase.ThreadExitStat exitState)</argsstring>
+        <name>_RecipeRunThread_Completed</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base" kindref="compound">ThreadBase</ref></type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0ae32b8605809e5183eaec8a37a1aef9" kindref="member">ThreadBase.ThreadExitStat</ref></type>
+          <declname>exitState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="448" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="448" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1acd1f03a00e2071e299ada1e9018ae7aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.Writelog</definition>
+        <argsstring>(String log)</argsstring>
+        <name>Writelog</name>
+        <param>
+          <type>String</type>
+          <declname>log</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="478" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="478" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a7481fd37a5ca198a70d11b12b9be7186" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel._RecipeRunThread_OnStepRunUpdated</definition>
+        <argsstring>(RecipeStepBase step, string msg, bool isCritical)</argsstring>
+        <name>_RecipeRunThread_OnStepRunUpdated</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" kindref="compound">RecipeStepBase</ref></type>
+          <declname>step</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isCritical</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="493" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="493" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a2a9138c5d92b76aeec85999c175cc0a5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.UpdateRunningLog</definition>
+        <argsstring>(string newLine)</argsstring>
+        <name>UpdateRunningLog</name>
+        <param>
+          <type>string</type>
+          <declname>newLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="525" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="525" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a50194397878cb6c840b25d036282a342" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.CanExecuteRunRecipeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteRunRecipeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="536" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="536" bodyend="539"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a85fc49315473b8a60486872bfdbde127" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.MarkStep</definition>
+        <argsstring>(StepsTreeViewModel tree, RecipeStepBase step)</argsstring>
+        <name>MarkStep</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" kindref="compound">RecipeStepBase</ref></type>
+          <declname>step</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="541" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="541" bodyend="556"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a122e73e0028b08e0ec9647713ec220e6" compoundref="_steps_tree_view_model_8cs" startline="33">Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.Content</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a5c7c1ecb29d21562202a1b63ea2a9987" compoundref="_steps_tree_8cs" startline="27">Sequlite.ALF.RecipeLib.StepsTree.Step</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1abcfb8cda889619409e7c98e3f94a3e65" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecutePauseRecipeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecutePauseRecipeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="573" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="573" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1adf9e82a3c54258a3da9c501f79d6e81f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.CanExecutePauseRecipeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecutePauseRecipeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="588" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="588" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ab0c2a33e740cfebab189f6cedf223cd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecuteSetFactorCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetFactorCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="608" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="608" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ad7ef03048fc5b8a1554f4dd0f61f0a97" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.CanExecuteSetFactorCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetFactorCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="625" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="625" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9019ad1f2c2eeabaa5d76bbc708a1515" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.ExecutePlotCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecutePlotCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="645" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="645" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a43a0abcb2c48292b69ec52dfc5ae107f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.CanExecutePlotCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecutePlotCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="723" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="723" bodyend="726"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1020">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1021">
+        <label>IDisposable</label>
+      </node>
+      <node id="1019">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1020" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1021" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1018">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model"/>
+        <childnode refid="1019" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1035">
+        <label>Sequlite.CameraLib.CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+      <node id="1039">
+        <label>Sequlite.ALF.Fluidics.RunPumpingThread</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread"/>
+        <childnode refid="1029" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1040" relation="usage">
+          <edgelabel>_PumpingSettings</edgelabel>
+        </childnode>
+        <childnode refid="1041" relation="usage">
+          <edgelabel>_Valve</edgelabel>
+        </childnode>
+        <childnode refid="1042" relation="usage">
+          <edgelabel>_Pump</edgelabel>
+        </childnode>
+      </node>
+      <node id="1040">
+        <label>Sequlite.ALF.Fluidics.PumpingSettings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings"/>
+      </node>
+      <node id="1028">
+        <label>Sequlite.ALF.RecipeLib.RecipeRunThread</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread"/>
+        <childnode refid="1029" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1028" relation="usage">
+          <edgelabel>_InnerRecipeRunThread</edgelabel>
+        </childnode>
+        <childnode refid="1030" relation="usage">
+          <edgelabel>_MainBoard</edgelabel>
+        </childnode>
+        <childnode refid="1035" relation="usage">
+          <edgelabel>_Camera</edgelabel>
+        </childnode>
+        <childnode refid="1036" relation="usage">
+          <edgelabel>_CrntTree</edgelabel>
+        </childnode>
+        <childnode refid="1037" relation="usage">
+          <edgelabel>_ImageSetting</edgelabel>
+        </childnode>
+        <childnode refid="1038" relation="usage">
+          <edgelabel>_Recipe</edgelabel>
+        </childnode>
+        <childnode refid="1039" relation="usage">
+          <edgelabel>_InnerPumpingRunThread</edgelabel>
+        </childnode>
+        <childnode refid="1045" relation="usage">
+          <edgelabel>_MotionController</edgelabel>
+        </childnode>
+        <childnode refid="1041" relation="usage">
+          <edgelabel>_Valve</edgelabel>
+        </childnode>
+        <childnode refid="1032" relation="usage">
+          <edgelabel>logFileName</edgelabel>
+          <edgelabel>LogFile</edgelabel>
+          <edgelabel>processor</edgelabel>
+        </childnode>
+        <childnode refid="1050" relation="usage">
+          <edgelabel>_ImageInfo</edgelabel>
+        </childnode>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>_AutoFocusProcess</edgelabel>
+        </childnode>
+        <childnode refid="1042" relation="usage">
+          <edgelabel>_Pump</edgelabel>
+        </childnode>
+      </node>
+      <node id="1049">
+        <label>Sequlite.ALF.MotionControl.HywireGalilControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_hywire_galil_control"/>
+        <childnode refid="1032" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+      </node>
+      <node id="1030">
+        <label>Sequlite.ALF.MainBoard.Mainboard</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard"/>
+        <childnode refid="1031" relation="usage">
+          <edgelabel>_LEDOnTimer</edgelabel>
+        </childnode>
+        <childnode refid="1032" relation="usage">
+          <edgelabel>_LEDLock</edgelabel>
+        </childnode>
+        <childnode refid="1033" relation="usage">
+          <edgelabel>_Comm</edgelabel>
+        </childnode>
+      </node>
+      <node id="1029">
+        <label>ThreadBase</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_thread_base"/>
+      </node>
+      <node id="1034">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="1031" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1027">
+        <label>ICommand</label>
+      </node>
+      <node id="1046">
+        <label>Sequlite.ALF.MotionControl.MagellanControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control"/>
+        <childnode refid="1025" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1024">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1054">
+        <label>Sequlite.ALF.Common.AutoFocusSettings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings"/>
+      </node>
+      <node id="1053">
+        <label>Sequlite.ALF.Imaging.AutoFocusCommand</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command"/>
+        <childnode refid="1029" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1054" relation="usage">
+          <edgelabel>_Settings</edgelabel>
+        </childnode>
+        <childnode refid="1055" relation="usage">
+          <edgelabel>Info</edgelabel>
+        </childnode>
+        <childnode refid="1030" relation="usage">
+          <edgelabel>_MainBoard</edgelabel>
+        </childnode>
+        <childnode refid="1035" relation="usage">
+          <edgelabel>_Camera</edgelabel>
+        </childnode>
+        <childnode refid="1045" relation="usage">
+          <edgelabel>_Motion</edgelabel>
+        </childnode>
+      </node>
+      <node id="1025">
+        <label>IDisposable</label>
+      </node>
+      <node id="1023">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1024" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1025" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1050">
+        <label>Sequlite.ALF.Imaging.ImageInfo</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info"/>
+        <childnode refid="1051" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1052" relation="usage">
+          <edgelabel>_MixChannel</edgelabel>
+          <edgelabel>_GreenChannel</edgelabel>
+          <edgelabel>_RedChannel</edgelabel>
+        </childnode>
+      </node>
+      <node id="1045">
+        <label>Sequlite.ALF.MotionControl.MotionController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller"/>
+        <childnode refid="1046" relation="usage">
+          <edgelabel>_MagellanController</edgelabel>
+        </childnode>
+        <childnode refid="1047" relation="usage">
+          <edgelabel>_HywireMotionController</edgelabel>
+        </childnode>
+        <childnode refid="1031" relation="usage">
+          <edgelabel>_RecordTimer</edgelabel>
+        </childnode>
+        <childnode refid="1049" relation="usage">
+          <edgelabel>_HywireController</edgelabel>
+        </childnode>
+      </node>
+      <node id="1022">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model"/>
+        <childnode refid="1023" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1026" relation="usage">
+          <edgelabel>_LoadRecipeCmd</edgelabel>
+          <edgelabel>_PauseRecipeCmd</edgelabel>
+          <edgelabel>_SetFactorCmd</edgelabel>
+          <edgelabel>_RunRecipeCmd</edgelabel>
+          <edgelabel>_PlotCmd</edgelabel>
+        </childnode>
+        <childnode refid="1028" relation="usage">
+          <edgelabel>_RecipeRunThread</edgelabel>
+        </childnode>
+        <childnode refid="1038" relation="usage">
+          <edgelabel>_LoadedRecipe</edgelabel>
+        </childnode>
+        <childnode refid="1031" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+          <edgelabel>_UsageTimer</edgelabel>
+        </childnode>
+        <childnode refid="1032" relation="usage">
+          <edgelabel>_CPUCounter</edgelabel>
+          <edgelabel>_StepsLock</edgelabel>
+          <edgelabel>_RAMCounter</edgelabel>
+          <edgelabel>_RunninglogLock</edgelabel>
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>_SelectedStep</edgelabel>
+        </childnode>
+      </node>
+      <node id="1042">
+        <label>Sequlite.ALF.Fluidics.PumpController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller"/>
+        <childnode refid="1043" relation="usage">
+          <edgelabel>_Answer</edgelabel>
+        </childnode>
+        <childnode refid="1044" relation="usage">
+          <edgelabel>_DTAnswer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1026">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="1027" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1044">
+        <label>Sequlite.ALF.Fluidics.PumpDTProtocol</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol"/>
+      </node>
+      <node id="1038">
+        <label>Sequlite.ALF.RecipeLib.Recipe</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe"/>
+      </node>
+      <node id="1031">
+        <label>System</label>
+      </node>
+      <node id="1036">
+        <label>Sequlite.ALF.RecipeLib.StepsTree</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree"/>
+      </node>
+      <node id="1033">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="1034" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1055">
+        <label>Processing</label>
+      </node>
+      <node id="1047">
+        <label>Hywire.MotionControl.HywireController</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_hywire_controller"/>
+        <childnode refid="1048" relation="usage">
+          <edgelabel>_Port</edgelabel>
+        </childnode>
+        <childnode refid="1031" relation="usage">
+          <edgelabel>_QueryTimer</edgelabel>
+        </childnode>
+        <childnode refid="1032" relation="usage">
+          <edgelabel>_MotionLock</edgelabel>
+        </childnode>
+      </node>
+      <node id="1056">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model"/>
+        <childnode refid="1023" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1036" relation="usage">
+          <edgelabel>_Content</edgelabel>
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>_Parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="1037">
+        <label>Sequlite.ALF.Imaging.ImageChannelSettings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel_settings"/>
+      </node>
+      <node id="1052">
+        <label>Sequlite.ALF.Imaging.ImageChannel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel"/>
+        <childnode refid="1051" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1051">
+        <label>ICloneable</label>
+      </node>
+      <node id="1048">
+        <label>Hywire.MotionControl.ControllerComm</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_controller_comm"/>
+        <childnode refid="1034" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1032">
+        <label>static</label>
+      </node>
+      <node id="1043">
+        <label>Sequlite.ALF.Fluidics.PumpOEMProtocol</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol"/>
+      </node>
+      <node id="1041">
+        <label>Sequlite.ALF.Fluidics.ValveController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" line="24" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/RecipeViewModel.cs" bodystart="23" bodyend="728"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a86964270c3c8b0cf7b52c0c2047506f8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_CPUCounter</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1aa67694cd20a44e494d2d3c46baecd550" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_ExposureFactor</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a2673f82de13398bf9d92983ec014246e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_FolderStr</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a30079df7dd62e3500a3a53c73ea94265" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_GreenLEDFactor</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a56524e79bd3112a73514e9756cf1f638" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_ImageQC</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a1372b59aa30763783fb62e2c0de72e2e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_isEnableRIPP</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1aee34051c764af78a09cb4509cb107391" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_linegraph</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a8518c7ccb73a89c09dbf95f27f17590a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_LoadedRecipe</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a7d61eb53c834761d49c8688c08f65f6c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_LoadedRecipeInfo</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a066df60939ed324d4343c16dff5d42be" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_LoadRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a4489c1ffb550de49a1822dc15503519e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_PauseRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a570cb64d1173b7ad17e8b6499a4dc65e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_PlotCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1af5e87e99d382b901c2dddbeaca9b6a2b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RAMCounter</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ae3ed4dd3552e2240feed81e9c138aab1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RecipeRunThread</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ab3bba3617e06742a85317f46bb4423a2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RecipeRunThread_Completed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a27d23ac4a4ab787a56e3b942114bbbe2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RecipeRunThread_OnLoopStepUpdated</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a7481fd37a5ca198a70d11b12b9be7186" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RecipeRunThread_OnStepRunUpdated</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ab88f50854f934d2cf0a87949970f9f9b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RecipeRunThread_RIPPUpdated</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a75c994bbe8b9dc1f6d3245dfc489774a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RedLEDFactor</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a6f0c890782d8d0f69adc94b419103122" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RIPPParameterOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1aa85329ac61b9aeb9e7e941afb6fde4f0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RIPPTileOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a0e3931b02bcb63386e8654dd86a195d8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RunningLog</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a738af52cf3284931548fb650d723fb93" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RunninglogLock</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a6ec5ac37cf6a7ddea670a075d9783c72" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_RunRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ae1c8ad2b89bedd9c6b888f9686b6f2de" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_SelectedParameter</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9f8f6d7d104986cc0c9716cae4e0a6bb" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_SelectedStep</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a10a001a445e892f070e012c9b4049161" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_SelectedTile</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a319ea6f1d8bdf2ea3237701b4ed0032c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_SetFactorCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ac12208ef359df93af36bab9c06c3cde6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_StepsLock</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a8974a95e4cfcd54e3476870b43247afa" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_Timer</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a716d876b948fa0e63118206e60aee5e5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_Timer_Elapsed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a16640776f6dcc4d21b84614c9b979d27" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_UsageTimer</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a52b4b8ce8d1f9270254b15ed06bc9809" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_UsageTimer_Elapsed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a1bf38090e9e416ceba1e2279b583aeec" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>_WriteLog</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1aef822decd079a5fe2e9b50646fb61096" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>CanExecuteLoadRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1adf9e82a3c54258a3da9c501f79d6e81f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>CanExecutePauseRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a43a0abcb2c48292b69ec52dfc5ae107f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>CanExecutePlotCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a50194397878cb6c840b25d036282a342" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>CanExecuteRunRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ad7ef03048fc5b8a1554f4dd0f61f0a97" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>CanExecuteSetFactorCmd</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ac1b22e013b03f074ae879a9e3d244fb1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>ExecuteLoadRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1abcfb8cda889619409e7c98e3f94a3e65" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>ExecutePauseRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9019ad1f2c2eeabaa5d76bbc708a1515" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>ExecutePlotCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9337a587ee7632f8ad6183ed53a2c1eb" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>ExecuteRunRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ab0c2a33e740cfebab189f6cedf223cd7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>ExecuteSetFactorCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a0ef1ca09643b8dd4e623765e0ffd7507" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>ExposureFactor</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a72f7aacf4c2c41fe832537f8e02144b4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>FolderStr</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1afb3cd781d864f9a5c0a188acb91d1e3a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>G1Data</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ac6f3cd886fd9efd46df38b056e9db734" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>GreenLEDFactor</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a83f5cc96a7db34bb9ef69e56526e6845" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>ImageQC</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a76202441f56fb36a08be0cf32ff59326" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>isEnableRIPP</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a91d1006d5e060e140c3f3edcd3d5d83a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>LoadedRecipeInfo</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1af89a43fe076b600d8c55cd1e564e2849" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>LoadRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a85fc49315473b8a60486872bfdbde127" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>MarkStep</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a3d1cf8ba45df9e800778a1bb59bf415b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>PauseRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a59805af2865a1c5a58ccd080315c6160" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>PlotCmd</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a068c6c055193818a6579ee0a688f0989" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>RedLEDFactor</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a07ff3cb9b29822b0e4cf6e7c5243afbf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>RIPPParameterOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1aff74e6f6c75e17553bd0e7e2310eb922" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>RIPPStats</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a169c2afe100e6cff16d60c44c9451693" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>RIPPTileOptions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a90a1a931122d7685ccf473016b6f8ad9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>RunningLog</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a584cfb0a76dfbb160fbe28ef1a6ad916" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>RunRecipeCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a2de26be878573a6ce66ec0380f8db26c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>SelectedParameter</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1adf2fa12ede3d969225d0fdcaae356be9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>SelectedStep</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1ae5fa723606c16f84bd3576d224051c6d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>SelectedTile</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a281338601389e6eada43d39a31dd97e0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>SetFactorCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a52ed6b6205084dc8cd5b6b020ff18d2b" prot="package" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>SetGraph</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a6c104cbb76168630d2676507f571bdee" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>Steps</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9defc9edb989603acef3caeba3cc3964" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>UpdateLoopCounts</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a2a9138c5d92b76aeec85999c175cc0a5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>UpdateRunningLog</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1acd1f03a00e2071e299ada1e9018ae7aa" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>Writelog</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9da8358c0665c227170fd51067ebad25" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</scope><name>WriteLog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

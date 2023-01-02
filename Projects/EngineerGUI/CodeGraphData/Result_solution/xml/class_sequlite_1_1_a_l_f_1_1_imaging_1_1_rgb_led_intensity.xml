@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::RgbLedIntensity</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity_1a89996d8495fcfc705b869dc36c6d374b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.RgbLedIntensity.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="74" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity_1a9f63338220056028f7922eaff01a78a3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.RgbLedIntensity.Intensity</definition>
+        <argsstring></argsstring>
+        <name>Intensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="76" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity_1a043dfc4fe95c3a99019ed4f50deef635" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.RgbLedIntensity.DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="78" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity_1addfc3da7d9276247a59476f68cbb1ae5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.RgbLedIntensity.RgbLedIntensity</definition>
+        <argsstring>()</argsstring>
+        <name>RgbLedIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="84" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity_1a2945b27927fd112709c5100fe73fdd25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.RgbLedIntensity.RgbLedIntensity</definition>
+        <argsstring>(int position, int intensity, string displayName)</argsstring>
+        <name>RgbLedIntensity</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>intensity</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="88" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="88" bodyend="93"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="71" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="70" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity_1a043dfc4fe95c3a99019ed4f50deef635" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::RgbLedIntensity</scope><name>DisplayName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity_1a9f63338220056028f7922eaff01a78a3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::RgbLedIntensity</scope><name>Intensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity_1a89996d8495fcfc705b869dc36c6d374b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::RgbLedIntensity</scope><name>Position</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity_1addfc3da7d9276247a59476f68cbb1ae5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::RgbLedIntensity</scope><name>RgbLedIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_rgb_led_intensity_1a2945b27927fd112709c5100fe73fdd25" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::RgbLedIntensity</scope><name>RgbLedIntensity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

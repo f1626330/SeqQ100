@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Sequlite.ALF.EngineerGUI.View.ImageContainerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.ALF.EngineerGUI"
+             xmlns:views="clr-namespace:Sequlite.ALF.EngineerGUI.View"
+             xmlns:vm="clr-namespace:Sequlite.ALF.EngineerGUI.ViewModel"
+             xmlns:avalonDock="http://schemas.xceed.com/wpf/xaml/avalondock"
+             xmlns:avalonDockControl="clr-namespace:Xceed.Wpf.AvalonDock.Controls;assembly=Xceed.Wpf.AvalonDock"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+             
+             
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type vm:FileViewModel}">
+            <views:ImageViewerControl/>
+            <!--<avalonDock:DocumentContent Title="{Binding FileName}">
+                <views:ImageViewerControl/>
+            </avalonDock:DocumentContent>-->
+        </DataTemplate>
+    </UserControl.Resources>
+    <Grid>
+        <Border>
+            <avalonDock:DockingManager
+                DocumentsSource="{Binding Path=Files}"
+                ActiveContent="{Binding Path=ActiveFile, Mode=TwoWay}">
+                <avalonDock:DockingManager.Resources>
+                </avalonDock:DockingManager.Resources>
+                <avalonDock:DockingManager.LayoutItemContainerStyle>
+                    <Style TargetType="{x:Type avalonDockControl:LayoutItem}">
+                        <Setter Property="Title" Value="{Binding Model.FileName}"/>
+                        <Setter Property="CloseCommand" Value="{Binding Model.CloseCommand}" />
+                        <Setter Property="IsActive" Value="{Binding Model.IsActive, Mode=TwoWay}" />
+                    </Style>
+                </avalonDock:DockingManager.LayoutItemContainerStyle>
+            </avalonDock:DockingManager>
+            <!--<AdornerDecorator>
+                <avalonDockMVVM:AvalonDockHost
+                    x:Name="_DockHost"
+                    ActiveDocument="{Binding ActiveFile}"
+                    ActivePane="{Binding ActivePane}"
+                    AvalonDockLoaded="_DockHost_AvalonDockLoaded"
+                    DocumentClosing="_DockHost_DocumentClosing"
+                    ForceCursor="True"
+                    Documents="{Binding Files}"
+                    Panes="{Binding Panes}"/>
+            </AdornerDecorator>-->
+        </Border>
+    </Grid>
+</UserControl>

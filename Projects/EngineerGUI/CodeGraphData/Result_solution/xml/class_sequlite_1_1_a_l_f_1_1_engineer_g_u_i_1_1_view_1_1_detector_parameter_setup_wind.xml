@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_detector_parameter_setup_wind" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::View::DetectorParameterSetupWind</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_detector_parameter_setup_wind_1a828ca06208130c7b54dd56c641ba4087" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.View.DetectorParameterSetupWind.DetectorParameterSetupWind</definition>
+        <argsstring>()</argsstring>
+        <name>DetectorParameterSetupWind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/DetectorParameterSetupWind.xaml.cs" line="10" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/DetectorParameterSetupWind.xaml.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>DetectorParameterSetupWind.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="341">
+        <label>Window</label>
+      </node>
+      <node id="340">
+        <label>Sequlite.ALF.EngineerGUI.View.DetectorParameterSetupWind</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_detector_parameter_setup_wind"/>
+        <childnode refid="341" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="343">
+        <label>Window</label>
+      </node>
+      <node id="342">
+        <label>Sequlite.ALF.EngineerGUI.View.DetectorParameterSetupWind</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_detector_parameter_setup_wind"/>
+        <childnode refid="343" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/DetectorParameterSetupWind.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/DetectorParameterSetupWind.xaml.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_detector_parameter_setup_wind_1a828ca06208130c7b54dd56c641ba4087" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::DetectorParameterSetupWind</scope><name>DetectorParameterSetupWind</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

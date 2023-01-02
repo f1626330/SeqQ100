@@ -1,0 +1,53 @@
+﻿<Window x:Class="Sequlite.UI.View.SampleSheetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sequlite.UI.View"
+        xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+        mc:Ignorable="d"
+        Title="{Binding Title}"  WindowStyle="SingleBorderWindow" WindowState="Maximized">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/PageViewDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <wpfFramework:CSVFileView Grid.Row="0" DataContext="{Binding SampleSheetVM}">
+        </wpfFramework:CSVFileView>
+       
+            <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="300" />
+            </Grid.ColumnDefinitions>
+            <StackPanel  Grid.Column="0" Orientation="Horizontal">
+                    <CheckBox x:Name="chk"  Height="32" Margin="5" Content="Enable Edit" IsChecked="{Binding EnableEdit, Mode=TwoWay}" Style="{StaticResource BigCheckboxMarkStyle}" VerticalAlignment="Center"/>
+                    <Button Content="Save" Margin="25,3,5,3" Width="70" Height="32" VerticalAlignment="Center" HorizontalContentAlignment="Center"
+                                Command="{Binding SaveSampleSheetCmd}"/>
+
+                    <Button Content="Save As" Margin="25,3,5,3" Width="90" Height="32" VerticalAlignment="Center" HorizontalContentAlignment="Center"
+                                IsEnabled="{Binding IsChecked, ElementName=chk}"  Command="{Binding SaveAsSampleSheetCmd}"/>
+                </StackPanel>
+            <Grid  Grid.Column="1" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                <Button  Grid.Column="0" Content="Load" Margin="5,3,5,3" Width="70" Height="32" VerticalAlignment="Center" HorizontalContentAlignment="Center" 
+                          Command="{Binding OKCommand}" CommandParameter="1" ToolTip="Load Sample Sheet"/>
+                <Button  Grid.Column="1" Content="Cancel" Margin="5,3,5,3" Width="70" Height="32" VerticalAlignment="Center" HorizontalContentAlignment="Center" 
+                          Command="{Binding OKCommand}" CommandParameter="0"/>
+                </Grid>
+            </Grid>
+        </Grid>
+       
+    </Grid>
+</Window>

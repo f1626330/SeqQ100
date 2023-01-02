@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block" kind="class" prot="package">
+    <compoundname>Sequlite::ALF::Fluidics::PumpOEMProtocol::CommandBlock</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1a97444dad1811794090233241bff87c07" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.Fluidics.PumpOEMProtocol.CommandBlock.STX</definition>
+        <argsstring></argsstring>
+        <name>STX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1a702f6f465fc7f8ec500114c4189b9320" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+        <definition>PumpProtocol.Addresses Sequlite.ALF.Fluidics.PumpOEMProtocol.CommandBlock.PumpAddress</definition>
+        <argsstring></argsstring>
+        <name>PumpAddress</name>
+        <initializer>= 0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1af5e648e09982c64a5712341ee9418729" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_sequence_field" kindref="compound">SequenceField</ref></type>
+        <definition>SequenceField Sequlite.ALF.Fluidics.PumpOEMProtocol.CommandBlock.Sequence</definition>
+        <argsstring></argsstring>
+        <name>Sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1a23af8eb23927f0f1af519579155f77ce" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Fluidics.PumpOEMProtocol.CommandBlock.DataBlock</definition>
+        <argsstring></argsstring>
+        <name>DataBlock</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_sequence_field" kindref="compound">SequenceField</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1acd74877ace6ab356b524077ab5a5a294" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.Fluidics.PumpOEMProtocol.CommandBlock.ETX</definition>
+        <argsstring></argsstring>
+        <name>ETX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1a5b50c74f81a5d54f29185131e091ab00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] Sequlite.ALF.Fluidics.PumpOEMProtocol.CommandBlock.GetBytes</definition>
+        <argsstring>()</argsstring>
+        <name>GetBytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="17" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1a23af8eb23927f0f1af519579155f77ce" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::CommandBlock</scope><name>DataBlock</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1acd74877ace6ab356b524077ab5a5a294" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::CommandBlock</scope><name>ETX</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1a5b50c74f81a5d54f29185131e091ab00" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::CommandBlock</scope><name>GetBytes</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1a702f6f465fc7f8ec500114c4189b9320" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::CommandBlock</scope><name>PumpAddress</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1af5e648e09982c64a5712341ee9418729" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::CommandBlock</scope><name>Sequence</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_command_block_1a97444dad1811794090233241bff87c07" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::CommandBlock</scope><name>STX</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

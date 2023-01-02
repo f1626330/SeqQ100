@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_photometrics_1_1_pvcam" kind="namespace">
+    <compoundname>Photometrics::Pvcam</compoundname>
+    <innerclass refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m" prot="public">Photometrics::Pvcam::PVCAM</innerclass>
+    <innerclass refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m32" prot="package">Photometrics::Pvcam::PVCAM32</innerclass>
+    <innerclass refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64" prot="package">Photometrics::Pvcam::PVCAM64</innerclass>
+    <innerclass refid="class_photometrics_1_1_pvcam_1_1_pv_types" prot="public">Photometrics::Pvcam::PvTypes</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

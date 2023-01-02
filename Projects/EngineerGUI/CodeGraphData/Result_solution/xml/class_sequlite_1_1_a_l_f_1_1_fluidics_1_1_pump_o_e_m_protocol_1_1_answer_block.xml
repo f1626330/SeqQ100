@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block" kind="class" prot="package">
+    <compoundname>Sequlite::ALF::Fluidics::PumpOEMProtocol::AnswerBlock</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1a662f0366878ca0c030de62004930d3c9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.Fluidics.PumpOEMProtocol.AnswerBlock.STX</definition>
+        <argsstring></argsstring>
+        <name>STX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="51" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1a6b1a86903acd6f6c41dae17b4d879666" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+        <definition>PumpProtocol.Addresses Sequlite.ALF.Fluidics.PumpOEMProtocol.AnswerBlock.MasterAddress</definition>
+        <argsstring></argsstring>
+        <name>MasterAddress</name>
+        <initializer>= 0x02</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="52" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1ad9dd9cbcc5fb6f9a91e6ea163e48a85d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_pump_status" kindref="compound">PumpStatus</ref></type>
+        <definition>PumpStatus Sequlite.ALF.Fluidics.PumpOEMProtocol.AnswerBlock.StatusAndErrCode</definition>
+        <argsstring></argsstring>
+        <name>StatusAndErrCode</name>
+        <initializer>= PumpProtocol.Addresses.Master</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="53" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1ab39492bcae6784312a045892f89cfa37" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Fluidics.PumpOEMProtocol.AnswerBlock.DataBlock</definition>
+        <argsstring></argsstring>
+        <name>DataBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="54" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1a9cb4a0bcf658422a4019628bb0275853" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.Fluidics.PumpOEMProtocol.AnswerBlock.ETX</definition>
+        <argsstring></argsstring>
+        <name>ETX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="55" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1ae06398c8c11d2ebad69a1fdce4b56619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.Fluidics.PumpOEMProtocol.AnswerBlock.GetCheckSum</definition>
+        <argsstring>()</argsstring>
+        <name>GetCheckSum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="56" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="56" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" line="50" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpOEMProtocol.cs" bodystart="49" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1ab39492bcae6784312a045892f89cfa37" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::AnswerBlock</scope><name>DataBlock</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1a9cb4a0bcf658422a4019628bb0275853" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::AnswerBlock</scope><name>ETX</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1ae06398c8c11d2ebad69a1fdce4b56619" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::AnswerBlock</scope><name>GetCheckSum</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1a6b1a86903acd6f6c41dae17b4d879666" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::AnswerBlock</scope><name>MasterAddress</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1ad9dd9cbcc5fb6f9a91e6ea163e48a85d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::AnswerBlock</scope><name>StatusAndErrCode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block_1a662f0366878ca0c030de62004930d3c9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpOEMProtocol::AnswerBlock</scope><name>STX</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

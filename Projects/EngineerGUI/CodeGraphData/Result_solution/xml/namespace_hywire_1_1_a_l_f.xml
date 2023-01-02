@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_hywire_1_1_a_l_f" kind="namespace">
+    <compoundname>Hywire::ALF</compoundname>
+    <innernamespace refid="namespace_hywire_1_1_a_l_f_1_1_ethernet_camera_test">Hywire::ALF::EthernetCameraTest</innernamespace>
+    <innernamespace refid="namespace_hywire_1_1_a_l_f_1_1_image_sharpness_test">Hywire::ALF::ImageSharpnessTest</innernamespace>
+    <innernamespace refid="namespace_hywire_1_1_a_l_f_1_1_l_e_d_test">Hywire::ALF::LEDTest</innernamespace>
+    <innernamespace refid="namespace_hywire_1_1_a_l_f_1_1_main_board">Hywire::ALF::MainBoard</innernamespace>
+    <innernamespace refid="namespace_hywire_1_1_a_l_f_1_1_p_d_curve_test">Hywire::ALF::PDCurveTest</innernamespace>
+    <innernamespace refid="namespace_hywire_1_1_a_l_f_1_1_pump_test">Hywire::ALF::PumpTest</innernamespace>
+    <innernamespace refid="namespace_hywire_1_1_a_l_f_1_1_valve_test">Hywire::ALF::ValveTest</innernamespace>
+    <innernamespace refid="namespace_hywire_1_1_a_l_f_1_1_z_stage_test">Hywire::ALF::ZStageTest</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,971 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera" kind="class" prot="public">
+    <compoundname>Sequlite::CameraLib::PhotometricsCamera</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base" prot="public" virt="non-virtual">Sequlite.CameraLib.CameraLibBase</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a68635d52005a80562303e30016ac7e2a" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>override <ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a250af2fdafa64f0f25f423245d89089e" kindref="member">CameraNotifHandler</ref></type>
+        <definition>override CameraNotifHandler Sequlite.CameraLib.PhotometricsCamera.CameraNotif</definition>
+        <argsstring></argsstring>
+        <name>CameraNotif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a4d9b0736d165b0e3d9cb15e8ee202684" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>override <ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aa5e8d217693c20daee3a0673a7dff0c1" kindref="member">ExposureChangedHandle</ref></type>
+        <definition>override ExposureChangedHandle Sequlite.CameraLib.PhotometricsCamera.OnExposureChanged</definition>
+        <argsstring></argsstring>
+        <name>OnExposureChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a7cd58a2370d40ffecb73c6d88ba71de7" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_sequlite_1_1_camera_lib_1adf877ec3e94b9627573c53341c664b6d" kindref="member">CameraMake</ref></type>
+        <definition>CameraMake Sequlite.CameraLib.PhotometricsCamera._CameraType</definition>
+        <argsstring></argsstring>
+        <name>_CameraType</name>
+        <initializer>= CameraMake.Photometrics</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1af953bdeaaaf9263839e4335fe7022589" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera" kindref="compound">PVCamCamera</ref></type>
+        <definition>PVCamCamera Sequlite.CameraLib.PhotometricsCamera._PVCamCamera</definition>
+        <argsstring></argsstring>
+        <name>_PVCamCamera</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a624d5e91f1f4b41db6371ef5b579381b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.PhotometricsCamera._RoiStartX</definition>
+        <argsstring></argsstring>
+        <name>_RoiStartX</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a524dbe5f2ef7157de74e5e80166861b6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.PhotometricsCamera._RoiStartY</definition>
+        <argsstring></argsstring>
+        <name>_RoiStartY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a689548c8a12c7dd21814af55ef4297f0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.PhotometricsCamera._RoiWidth</definition>
+        <argsstring></argsstring>
+        <name>_RoiWidth</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a57b5230544ee4dcb8dfa999dfbfcb330" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.PhotometricsCamera._RoiHeight</definition>
+        <argsstring></argsstring>
+        <name>_RoiHeight</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ae390075992de007df3c39db75ec09a78" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.CameraLib.PhotometricsCamera._IsDynamicDarkCorrection</definition>
+        <argsstring></argsstring>
+        <name>_IsDynamicDarkCorrection</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ab18ba2976e075a23ff2bd2209de02ff3" prot="private" static="no" mutable="no">
+        <type>StringBuilder</type>
+        <definition>StringBuilder Sequlite.CameraLib.PhotometricsCamera._Cameralog</definition>
+        <argsstring></argsstring>
+        <name>_Cameralog</name>
+        <initializer>= new StringBuilder()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a51e847b78d8f8155f48c0ff51debbe58" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.CameraLib.PhotometricsCamera._FolderStr</definition>
+        <argsstring></argsstring>
+        <name>_FolderStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a21b6ba2f37352de75adfb76b6f1574c9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.CameraLib.PhotometricsCamera._IsDefectivePixelCorrection</definition>
+        <argsstring></argsstring>
+        <name>_IsDefectivePixelCorrection</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="838" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="838" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a265da2880c262c8089aadb9d17e88899" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.CameraLib.PhotometricsCamera._IsEnhancedDynamicRange</definition>
+        <argsstring></argsstring>
+        <name>_IsEnhancedDynamicRange</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="863" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="863" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ad1436cd19ce8a4caa75c4cc1446eeb69" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.CameraLib.PhotometricsCamera.Cameralog</definition>
+        <argsstring></argsstring>
+        <name>Cameralog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a2d2666601982929ea9df4c333147dc38" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override <ref refid="namespace_sequlite_1_1_camera_lib_1adf877ec3e94b9627573c53341c664b6d" kindref="member">CameraMake</ref></type>
+        <definition>override CameraMake Sequlite.CameraLib.PhotometricsCamera.CameraType</definition>
+        <argsstring></argsstring>
+        <name>CameraType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="68" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a543ea3e29f596339573198b64cebd7b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="struct_sequlite_1_1_camera_lib_1_1_readout_option" kindref="compound">ReadoutOption</ref> &gt;</type>
+        <definition>List&lt;ReadoutOption&gt; Sequlite.CameraLib.PhotometricsCamera.ReadoutOption</definition>
+        <argsstring></argsstring>
+        <name>ReadoutOption</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="73" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1aae9d969d38a320a7a51396972f633de0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="struct_sequlite_1_1_camera_lib_1_1_p_p___feature" kindref="compound">PP_Feature</ref> &gt;</type>
+        <definition>List&lt;PP_Feature&gt; Sequlite.CameraLib.PhotometricsCamera.PP_FeatureList</definition>
+        <argsstring></argsstring>
+        <name>PP_FeatureList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="78" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ad636d545ce3bcf07d28b09900cc0db3e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.PhotometricsCamera.RoiStartX</definition>
+        <argsstring></argsstring>
+        <name>RoiStartX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="83" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a84699a072fd0415959e5db563020fae3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.PhotometricsCamera.RoiStartY</definition>
+        <argsstring></argsstring>
+        <name>RoiStartY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="100" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a8b3c47173804e70f26976d63259f8c60" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.PhotometricsCamera.RoiWidth</definition>
+        <argsstring></argsstring>
+        <name>RoiWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="117" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a66c706a8e27329dd25242495b35cb958" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.PhotometricsCamera.RoiHeight</definition>
+        <argsstring></argsstring>
+        <name>RoiHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="139" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a85d18e2aad0c42d3d026071a42dce1ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.PhotometricsCamera.ImagingColumns</definition>
+        <argsstring></argsstring>
+        <name>ImagingColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="162" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a2230384e139ff29df7b3b58ef363d492" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.PhotometricsCamera.ImagingRows</definition>
+        <argsstring></argsstring>
+        <name>ImagingRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="167" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a1100e43c4ffa1e42ae2fdb90aedaabc6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.PhotometricsCamera.HBin</definition>
+        <argsstring></argsstring>
+        <name>HBin</name>
+        <briefdescription>
+<para>Horizontal binning </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="175" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a23e3a21ef5d39318a967bf0fe6e77f9d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.PhotometricsCamera.VBin</definition>
+        <argsstring></argsstring>
+        <name>VBin</name>
+        <briefdescription>
+<para>Vertical binning </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="191" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ac5571e516e53cd33b7dadf709fe49534" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override double</type>
+        <definition>override double Sequlite.CameraLib.PhotometricsCamera.MinExposure</definition>
+        <argsstring></argsstring>
+        <name>MinExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="204" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a38cc2fb6da321da7987b342b92b88221" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.CameraLib.PhotometricsCamera.MaxExposure</definition>
+        <argsstring></argsstring>
+        <name>MaxExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="213" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a8e5d5fb7fb74f8014dced0c435114f37" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override double</type>
+        <definition>override double Sequlite.CameraLib.PhotometricsCamera.CCDCoolerSetPoint</definition>
+        <argsstring></argsstring>
+        <name>CCDCoolerSetPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="222" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a32a67011e82c3c38cde1417e7240e51d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override double</type>
+        <definition>override double Sequlite.CameraLib.PhotometricsCamera.CCDTemperature</definition>
+        <argsstring></argsstring>
+        <name>CCDTemperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="244" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a909801a0376dac6e2433a86101507ec4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override string</type>
+        <definition>override string Sequlite.CameraLib.PhotometricsCamera.FirmwareVersion</definition>
+        <argsstring></argsstring>
+        <name>FirmwareVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="263" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a07a8f5aca5ad875f55fa7379a8a3b1cc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override bool</type>
+        <definition>override bool Sequlite.CameraLib.PhotometricsCamera.ForceShutterOpen</definition>
+        <argsstring></argsstring>
+        <name>ForceShutterOpen</name>
+        <briefdescription>
+<para>Opens/close the camera shutter TRUE forces shutter to open; FALSE allows normal shutter operation </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="301" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a9b7e37395ac84ca99eba38cca7bee525" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.PhotometricsCamera.Gain</definition>
+        <argsstring></argsstring>
+        <name>Gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="322" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a6bf4487dac117f46377c0d724bf1ac39" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.PhotometricsCamera.ReadoutSpeed</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSpeed</name>
+        <briefdescription>
+<para>Returns/sets the camera’s acquisition speed (<ref refid="namespace_photometrics" kindref="compound">Photometrics</ref> 1 : Normal, 0 : Fast) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="335" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1acc256816fbcaaf256e409fc64f0401bc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override bool</type>
+        <definition>override bool Sequlite.CameraLib.PhotometricsCamera.IsAbortCapture</definition>
+        <argsstring></argsstring>
+        <name>IsAbortCapture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="348" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1aeb7942a72f7180e54d7014552767671c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool Sequlite.CameraLib.PhotometricsCamera.IsAcqRunning</definition>
+        <argsstring></argsstring>
+        <name>IsAcqRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="354" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1aadb599691d93c9dd9fc14f39b1e0c2be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.CameraLib.PhotometricsCamera.IsDefectivePixelCorrection</definition>
+        <argsstring></argsstring>
+        <name>IsDefectivePixelCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="839" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="840" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ab46c3ae219a020a7f1827674e61bebd8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override bool</type>
+        <definition>override bool Sequlite.CameraLib.PhotometricsCamera.IsDynamicDarkCorrection</definition>
+        <argsstring></argsstring>
+        <name>IsDynamicDarkCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="851" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="852" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1af6ee00e69e3b1f8874927adf8afe05b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.CameraLib.PhotometricsCamera.IsEnhancedDynamicRange</definition>
+        <argsstring></argsstring>
+        <name>IsEnhancedDynamicRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="864" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="865" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a4e5bd3a606e1eec3e881331fcee4d1da" prot="public" static="no" mutable="no">
+        <type>StringBuilder</type>
+        <definition>StringBuilder Sequlite.CameraLib.PhotometricsCamera.CameraMessage</definition>
+        <argsstring></argsstring>
+        <name>CameraMessage</name>
+        <initializer>= new StringBuilder()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="359" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a91f02102d9681c68aa0832f665a67550" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.CameraLib.PhotometricsCamera.PhotometricsCamera</definition>
+        <argsstring>()</argsstring>
+        <name>PhotometricsCamera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="37" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a54db3be1329713f1251a7d9b119c652a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.CameraLib.PhotometricsCamera.PhotometricsCamera</definition>
+        <argsstring>(double ccdCoolerSetPoint)</argsstring>
+        <name>PhotometricsCamera</name>
+        <param>
+          <type>double</type>
+          <declname>ccdCoolerSetPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="58" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="58" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a3c36835ef588403970ffb9532a747180" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Sequlite.CameraLib.PhotometricsCamera.Open</definition>
+        <argsstring>()</argsstring>
+        <name>Open</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a90f7f0da3124a718355a74910abf1798">Open</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="389" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="389" bodyend="413"/>
+        <references refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a64d5a3fadf71664ac70ddbdc8bf587e2" compoundref="_p_v_cam_camera_8cs" startline="568">Sequlite.CameraLib.PVCamCamera.CameraList</references>
+        <references refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a63773085db16fb211c91e33eac9f7176" compoundref="_p_v_cam_camera_8cs" startline="1745" endline="1778">Sequlite.CameraLib.PVCamCamera.OpenCamera</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a90af0b454aa9074f997fe97645db01b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.PhotometricsCamera.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6172f571d3ad9494abc8642ba97363d0">Close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="415" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="415" bodyend="423"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a096443b45e0c07abcfed4b7745b1b7c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.PhotometricsCamera.GrabImage</definition>
+        <argsstring>(double exposureTime, CaptureFrameType frameType, ref WriteableBitmap capturedImage)</argsstring>
+        <name>GrabImage</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ad390ace241c6208f9758667158586910">GrabImage</reimplements>
+        <param>
+          <type>double</type>
+          <declname>exposureTime</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_camera_lib_1ab7a879b5b698a15f6c0f1b7b301fddac" kindref="member">CaptureFrameType</ref></type>
+          <declname>frameType</declname>
+        </param>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>capturedImage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="425" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="425" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a04cb86011ed3cb39c89e78287ee19369" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.PhotometricsCamera.GrabImage</definition>
+        <argsstring>(double exposureTime, CaptureFrameType frameType, ref WriteableBitmap capturedImage, int lightType)</argsstring>
+        <name>GrabImage</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ae370cad5c028a1cb02556babf6d77f20">GrabImage</reimplements>
+        <param>
+          <type>double</type>
+          <declname>exposureTime</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_camera_lib_1ab7a879b5b698a15f6c0f1b7b301fddac" kindref="member">CaptureFrameType</ref></type>
+          <declname>frameType</declname>
+        </param>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>capturedImage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lightType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="507" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="507" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a54bcac64be7322ba3e60f813e1ca9901" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.PhotometricsCamera.StopCapture</definition>
+        <argsstring>()</argsstring>
+        <name>StopCapture</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1abcde862069ea931361b2cd1480334af1">StopCapture</reimplements>
+        <briefdescription>
+<para>Focus calibration image grab. [See the other GrabImage method for normal image grab] </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>capturedImage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dExposureTime</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>iLightDelay</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mvController</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="674" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="674" bodyend="688"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ab1e0a2fa8c8bb7ac9ea2bbeafda9d83e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.PhotometricsCamera.StartContinuousMode</definition>
+        <argsstring>(double exposureTime)</argsstring>
+        <name>StartContinuousMode</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6bce98a34705c2b73a82de0d90442e2d">StartContinuousMode</reimplements>
+        <param>
+          <type>double</type>
+          <declname>exposureTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="690" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="690" bodyend="741"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a5edcef8578676f774e562c24f475c58a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.PhotometricsCamera.StopAcquisition</definition>
+        <argsstring>()</argsstring>
+        <name>StopAcquisition</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a7e206ece199d59c09949485261ff5f57">StopAcquisition</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="816" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="816" bodyend="822"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a3d0d8dd1830b7de233d381e86d225b9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CameraLib.PhotometricsCamera.PVCamCamera_RportMsg</definition>
+        <argsstring>(PVCamCamera pvcc, ReportMessage rm)</argsstring>
+        <name>PVCamCamera_RportMsg</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera" kindref="compound">PVCamCamera</ref></type>
+          <declname>pvcc</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_camera_lib_1_1_report_message" kindref="compound">ReportMessage</ref></type>
+          <declname>rm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="743" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="743" bodyend="759"/>
+        <references refid="class_sequlite_1_1_camera_lib_1_1_report_message_1a35c668720dc7be469df0646be76905f1" compoundref="_p_v_cam_camera_8cs" startline="4977">Sequlite.CameraLib.ReportMessage.Message</references>
+        <references refid="class_sequlite_1_1_camera_lib_1_1_report_message_1a76f1d20c1424a23a027d92151081ac79" compoundref="_p_v_cam_camera_8cs" startline="4990">Sequlite.CameraLib.ReportMessage.Type</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ae585f4df0a1962fd55b657f37f51677e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CameraLib.PhotometricsCamera.PVCamCamera_StartExposure</definition>
+        <argsstring>()</argsstring>
+        <name>PVCamCamera_StartExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="761" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="761" bodyend="764"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ae049f9ff5897e6c02e6ff9be243ac429" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CameraLib.PhotometricsCamera._PVCamCamera_CamNotif</definition>
+        <argsstring>(PVCamCamera pvcc, ReportEvent e)</argsstring>
+        <name>_PVCamCamera_CamNotif</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera" kindref="compound">PVCamCamera</ref></type>
+          <declname>pvcc</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_camera_lib_1_1_report_event" kindref="compound">ReportEvent</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="765" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="765" bodyend="814"/>
+        <references refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1ae778ab6b0c3f15b1740da2975c5655ac" compoundref="_p_v_cam_camera_8cs" startline="28">Sequlite.CameraLib.CameraNotifications.ACQ_CONT_FINISHED</references>
+        <references refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a73115b6aef9f23a0f6ee1ee356a6080a" compoundref="_p_v_cam_camera_8cs" startline="32">Sequlite.CameraLib.CameraNotifications.ACQ_NEW_FRAME_RECEIVED</references>
+        <references refid="class_sequlite_1_1_camera_lib_1_1_report_event_1ae48e65780e28a91396556c14445cd5d9" compoundref="_p_v_cam_camera_8cs" startline="5011">Sequlite.CameraLib.ReportEvent.NotifEvent</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1adc4f4c0055dbcbb4c73f2037156efe16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.PhotometricsCamera.make_even</definition>
+        <argsstring>(int n)</argsstring>
+        <name>make_even</name>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="878" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="878" bodyend="881"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="885">
+        <label>Sequlite.CameraLib.PhotometricsCamera</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera"/>
+        <childnode refid="886" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="886">
+        <label>CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="889">
+        <label>Sequlite.CameraLib.PVCamCamera</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera"/>
+        <childnode refid="890" relation="usage">
+          <edgelabel>m_imgStats</edgelabel>
+        </childnode>
+        <childnode refid="891" relation="usage">
+          <edgelabel>m_roiMetadata</edgelabel>
+        </childnode>
+        <childnode refid="892" relation="usage">
+          <edgelabel>m_acqParamsContext</edgelabel>
+        </childnode>
+        <childnode refid="893" relation="usage">
+          <edgelabel>m_centroid</edgelabel>
+        </childnode>
+        <childnode refid="894" relation="usage">
+          <edgelabel>m_frameInfoLatest</edgelabel>
+          <edgelabel>m_md_frameHeader</edgelabel>
+          <edgelabel>m_region</edgelabel>
+          <edgelabel>m_mdFrame</edgelabel>
+          <edgelabel>m_EOFHandlerDelegate</edgelabel>
+        </childnode>
+        <childnode refid="895" relation="usage">
+          <edgelabel>m_frameMetadata</edgelabel>
+        </childnode>
+        <childnode refid="896" relation="usage">
+          <edgelabel>m_spdTable</edgelabel>
+        </childnode>
+        <childnode refid="897" relation="usage">
+          <edgelabel>PVCamVersion</edgelabel>
+          <edgelabel>m_EofEvent</edgelabel>
+          <edgelabel>CameraList</edgelabel>
+          <edgelabel>NrOfCameras</edgelabel>
+        </childnode>
+      </node>
+      <node id="893">
+        <label>Sequlite.CameraLib.Centroid</label>
+        <link refid="struct_sequlite_1_1_camera_lib_1_1_centroid"/>
+      </node>
+      <node id="896">
+        <label>Sequlite.CameraLib.SpeedTable</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_speed_table"/>
+      </node>
+      <node id="891">
+        <label>Sequlite.CameraLib.ROIMetadata</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata"/>
+      </node>
+      <node id="892">
+        <label>Sequlite.CameraLib.AcqParamsContext</label>
+        <link refid="struct_sequlite_1_1_camera_lib_1_1_acq_params_context"/>
+      </node>
+      <node id="894">
+        <label>Photometrics.Pvcam.PvTypes</label>
+        <link refid="class_photometrics_1_1_pvcam_1_1_pv_types"/>
+      </node>
+      <node id="895">
+        <label>Sequlite.CameraLib.FrameMetadata</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_frame_metadata"/>
+      </node>
+      <node id="890">
+        <label>Sequlite.CameraLib.ImageStats</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_image_stats"/>
+      </node>
+      <node id="887">
+        <label>Sequlite.CameraLib.PhotometricsCamera</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera"/>
+        <childnode refid="888" relation="public-inheritance">
+        </childnode>
+        <childnode refid="889" relation="usage">
+          <edgelabel>_PVCamCamera</edgelabel>
+        </childnode>
+      </node>
+      <node id="897">
+        <label>static</label>
+      </node>
+      <node id="888">
+        <label>CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PhotometricsCamera.cs" bodystart="10" bodyend="882"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ab18ba2976e075a23ff2bd2209de02ff3" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_Cameralog</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a7cd58a2370d40ffecb73c6d88ba71de7" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_CameraType</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a333f7fb070b288bffd8da0d1855a26c8" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_CCDCoolerSetPoint</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a9df5989399c413953c24d5e056dae8c1" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_CurrCcdTemperature</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a51e847b78d8f8155f48c0ff51debbe58" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_FolderStr</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6f9a505239c3fc541ea66f9bbac4d984" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_Gain</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a074a64be81c47f3d449c3e2f021fc56e" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_HBin</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ac7910dffb726d07800388cb662a5a9b0" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_ImagingColumns</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ad379fa3842de84da903dbac16fb52467" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_ImagingRows</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1afdac013cd490932dd3c1da9cae34728b" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_IsAbortCapture</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a06e5e9c8c990b833dad9bbdeb4540d58" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_IsAcqRunning</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a21b6ba2f37352de75adfb76b6f1574c9" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_IsDefectivePixelCorrection</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ae390075992de007df3c39db75ec09a78" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_IsDynamicDarkCorrection</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a265da2880c262c8089aadb9d17e88899" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_IsEnhancedDynamicRange</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a3d50f2f8e70f29930ae99d7abb8b1e87" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_IsForceShutterOpen</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aca328df08abb75f8cb9a1ba6b56c825e" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_MinExposure</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1af953bdeaaaf9263839e4335fe7022589" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_PVCamCamera</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ae049f9ff5897e6c02e6ff9be243ac429" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_PVCamCamera_CamNotif</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a7ee80d9ed3d88a967089711c620339a1" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_ReadoutSpeed</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a57b5230544ee4dcb8dfa999dfbfcb330" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_RoiHeight</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a624d5e91f1f4b41db6371ef5b579381b" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_RoiStartX</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a524dbe5f2ef7157de74e5e80166861b6" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_RoiStartY</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a689548c8a12c7dd21814af55ef4297f0" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_RoiWidth</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a0fe06930af7097fce4f0d5093c2e37cf" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>_VBin</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ad1436cd19ce8a4caa75c4cc1446eeb69" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>Cameralog</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a4e5bd3a606e1eec3e881331fcee4d1da" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>CameraMessage</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a68635d52005a80562303e30016ac7e2a" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>CameraNotif</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a250af2fdafa64f0f25f423245d89089e" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>CameraNotifHandler</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a2d2666601982929ea9df4c333147dc38" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>CameraType</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a8e5d5fb7fb74f8014dced0c435114f37" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>CCDCoolerSetPoint</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a32a67011e82c3c38cde1417e7240e51d" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>CCDTemperature</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a90af0b454aa9074f997fe97645db01b6" prot="public" virt="virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>Close</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aa5e8d217693c20daee3a0673a7dff0c1" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>ExposureChangedHandle</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a909801a0376dac6e2433a86101507ec4" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>FirmwareVersion</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a07a8f5aca5ad875f55fa7379a8a3b1cc" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>ForceShutterOpen</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a9b7e37395ac84ca99eba38cca7bee525" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>Gain</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a096443b45e0c07abcfed4b7745b1b7c5" prot="public" virt="virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>GrabImage</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a04cb86011ed3cb39c89e78287ee19369" prot="public" virt="virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>GrabImage</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a1100e43c4ffa1e42ae2fdb90aedaabc6" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>HBin</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a85d18e2aad0c42d3d026071a42dce1ee" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>ImagingColumns</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a2230384e139ff29df7b3b58ef363d492" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>ImagingRows</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1acc256816fbcaaf256e409fc64f0401bc" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>IsAbortCapture</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1aeb7942a72f7180e54d7014552767671c" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>IsAcqRunning</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1aadb599691d93c9dd9fc14f39b1e0c2be" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>IsDefectivePixelCorrection</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ab46c3ae219a020a7f1827674e61bebd8" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>IsDynamicDarkCorrection</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1af6ee00e69e3b1f8874927adf8afe05b3" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>IsEnhancedDynamicRange</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1adc4f4c0055dbcbb4c73f2037156efe16" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>make_even</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a38cc2fb6da321da7987b342b92b88221" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>MaxExposure</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ac5571e516e53cd33b7dadf709fe49534" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>MinExposure</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a4d9b0736d165b0e3d9cb15e8ee202684" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>OnExposureChanged</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a3c36835ef588403970ffb9532a747180" prot="public" virt="virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>Open</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a91f02102d9681c68aa0832f665a67550" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>PhotometricsCamera</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a54db3be1329713f1251a7d9b119c652a" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>PhotometricsCamera</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1aae9d969d38a320a7a51396972f633de0" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>PP_FeatureList</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a3d0d8dd1830b7de233d381e86d225b9a" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>PVCamCamera_RportMsg</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ae585f4df0a1962fd55b657f37f51677e" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>PVCamCamera_StartExposure</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a543ea3e29f596339573198b64cebd7b3" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>ReadoutOption</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a6bf4487dac117f46377c0d724bf1ac39" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>ReadoutSpeed</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a66c706a8e27329dd25242495b35cb958" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>RoiHeight</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ad636d545ce3bcf07d28b09900cc0db3e" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>RoiStartX</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a84699a072fd0415959e5db563020fae3" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>RoiStartY</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a8b3c47173804e70f26976d63259f8c60" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>RoiWidth</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ab1e0a2fa8c8bb7ac9ea2bbeafda9d83e" prot="public" virt="virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>StartContinuousMode</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a5edcef8578676f774e562c24f475c58a" prot="public" virt="virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>StopAcquisition</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a54bcac64be7322ba3e60f813e1ca9901" prot="public" virt="virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>StopCapture</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a23e3a21ef5d39318a967bf0fe6e77f9d" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PhotometricsCamera</scope><name>VBin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

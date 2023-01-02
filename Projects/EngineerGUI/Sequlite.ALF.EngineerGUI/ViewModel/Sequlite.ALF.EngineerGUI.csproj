@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{409C2BC7-FA54-4715-A8D8-92A1359A9C02}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sequlite.ALF.EngineerGUI</RootNamespace>
+    <AssemblyName>Sequlite.ALF.EngineerGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Build\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Build\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DynamicDataDisplay, Version=0.4.0.0, Culture=neutral, PublicKeyToken=5b7d744a7263923f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicDataDisplayWpf.0.4.0\lib\DynamicDataDisplay.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DynamicDataDisplay.Maps, Version=0.1.0.0, Culture=neutral, PublicKeyToken=5b7d744a7263923f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicDataDisplayWpf.0.4.0\lib\DynamicDataDisplay.Maps.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DynamicDataDisplay.Markers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b7d744a7263923f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicDataDisplayWpf.0.4.0\lib\DynamicDataDisplay.Markers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DynamicDataDisplay.Markers2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b7d744a7263923f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicDataDisplayWpf.0.4.0\lib\DynamicDataDisplay.Markers2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="InteractiveDataDisplay.WPF, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\InteractiveDataDisplay.WPF.1.0.0\lib\net452\InteractiveDataDisplay.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Maps.MapControl.WPF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Maps.MapControl.WPF.1.0.0.3\lib\net40-Client\Microsoft.Maps.MapControl.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Parser, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5b7d744a7263923f, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicDataDisplayWpf.0.4.0\lib\Parser.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Console, Version=4.0.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Console.4.3.1\lib\net46\System.Console.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.7.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive, Version=4.2.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.4.2.0\lib\net46\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Core, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.Core.3.1.0\lib\net46\System.Reactive.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces, Version=3.0.1000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.Interfaces.3.1.0\lib\net45\System.Reactive.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive.Linq, Version=3.0.3000.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reactive.Linq.4.0.0\lib\net46\System.Reactive.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.7.0\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.3.1\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.4.3.0\lib\net463\System.Runtime.InteropServices.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.2\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.RegularExpressions.4.3.1\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.3\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.1\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ToggleSwitch, Version=1.1.2.0, Culture=neutral, PublicKeyToken=8637099990568f75, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ThirdPartyLibs\ToggleSwitch.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Xceed.Wpf.AvalonDock, Version=3.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.7.0\lib\net40\Xceed.Wpf.AvalonDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Aero, Version=3.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.7.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Aero.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.Metro, Version=3.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.7.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.AvalonDock.Themes.VS2010, Version=3.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.7.0\lib\net40\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit, Version=3.7.0.0, Culture=neutral, PublicKeyToken=3e4669d2f30244f4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Extended.Wpf.Toolkit.3.7.0\lib\net40\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="CartridgeMotorWindow.xaml.cs">
+      <DependentUpon>CartridgeMotorWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\AutoFocusViewModel.cs" />
+    <Compile Include="ViewModel\BarCodeReaderViewModel.cs" />
+    <Compile Include="ViewModel\CameraViewModel.cs" />
+    <Compile Include="ViewModel\ChemistryViewModel.cs" />
+    <Compile Include="ViewModel\CustomerViewModel.cs" />
+    <Compile Include="ViewModel\DetectorParametersViewModel.cs" />
+    <Compile Include="ViewModel\FileViewModel.cs" />
+    <Compile Include="ViewModel\FluidicsViewModel.cs" />
+    <Compile Include="ViewModel\FluidicsViewModelV1.cs" />
+    <Compile Include="ViewModel\FluidicsViewModelV2.cs" />
+    <Compile Include="ViewModel\HardwareVerifyViewModel.cs" />
+    <Compile Include="ViewModel\ImageGalleryViewModel.cs" />
+    <Compile Include="ViewModel\Interfaces\ICameraStatus.cs" />
+    <Compile Include="ViewModel\Interfaces\IStepParameters.cs" />
+    <Compile Include="ViewModel\Interfaces\IViewModelStatus.cs" />
+    <Compile Include="ViewModel\LedPdCalibrationViewModel.cs" />
+    <Compile Include="ViewModel\MainBoardViewModel.cs" />
+    <Compile Include="ViewModel\MotionViewModel.cs" />
+    <Compile Include="ViewModel\PaneViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\CommentStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\ImagingStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\LoopStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\MoveStageStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\MoveStageStepVMRev2.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\PumpingStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\PumpingStepVMRev2.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\RecipeStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\RecipeToolRecipeViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\RunRecipeStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\SetTemperStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\StepEditViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\StepManipulationViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\StepsTreeViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\StopTemperStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipetoolVM\WaitingStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipeViewModel.cs" />
+    <Compile Include="ViewModel\StepsTreeViewModel.cs" />
+    <Compile Include="ViewModel\Workspace.cs" />
+    <Compile Include="View\AutoFocusTabControl.xaml.cs">
+      <DependentUpon>AutoFocusTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\BarCodeControl.xaml.cs">
+      <DependentUpon>BarCodeControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CcdViewControl.xaml.cs">
+      <DependentUpon>CcdViewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ChemiTemperControl.xaml.cs">
+      <DependentUpon>ChemiTemperControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\CustomerTabControl.xaml.cs">
+      <DependentUpon>CustomerTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\DetectorParameterSetupWind.xaml.cs">
+      <DependentUpon>DetectorParameterSetupWind.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\EUIControl.xaml.cs">
+      <DependentUpon>EUIControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FlowControlControl.xaml.cs">
+      <DependentUpon>FlowControlControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FlowControlRev2.xaml.cs">
+      <DependentUpon>FlowControlRev2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\FluidicsTabControl.xaml.cs">
+      <DependentUpon>FluidicsTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\GalleryTabControl.xaml.cs">
+      <DependentUpon>GalleryTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HardwareVerificationView.xaml.cs">
+      <DependentUpon>HardwareVerificationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImageContainerControl.xaml.cs">
+      <DependentUpon>ImageContainerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImageInfoControl.xaml.cs">
+      <DependentUpon>ImageInfoControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImageViewerControl.xaml.cs">
+      <DependentUpon>ImageViewerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImagingTabControl.xaml.cs">
+      <DependentUpon>ImagingTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LedPdCalibrationTab.xaml.cs">
+      <DependentUpon>LedPdCalibrationTab.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LedsViewControl.xaml.cs">
+      <DependentUpon>LedsViewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainBoardControl.xaml.cs">
+      <DependentUpon>MainBoardControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MotorsViewControl.xaml.cs">
+      <DependentUpon>MotorsViewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PDViewControl.xaml.cs">
+      <DependentUpon>PDViewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipeTabControl.xaml.cs">
+      <DependentUpon>RecipeTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\OLATabControl.xaml.cs">
+      <DependentUpon>OLATabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipeToolTabControl.xaml.cs">
+      <DependentUpon>RecipeToolTabControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\CommentStepView.xaml.cs">
+      <DependentUpon>CommentStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\ImagingStepView.xaml.cs">
+      <DependentUpon>ImagingStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\LoopStepView.xaml.cs">
+      <DependentUpon>LoopStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\MoveStageStepView.xaml.cs">
+      <DependentUpon>MoveStageStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\MoveStageViewRev2.xaml.cs">
+      <DependentUpon>MoveStageViewRev2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\NewStepView.xaml.cs">
+      <DependentUpon>NewStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\PumpingStepView.xaml.cs">
+      <DependentUpon>PumpingStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\PumpingStepViewRev2.xaml.cs">
+      <DependentUpon>PumpingStepViewRev2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\RecipetoolViewControl.xaml.cs">
+      <DependentUpon>RecipetoolViewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\RunRecipeStepView.xaml.cs">
+      <DependentUpon>RunRecipeStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\SetTemperStepView.xaml.cs">
+      <DependentUpon>SetTemperStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\StepEditWindow.xaml.cs">
+      <DependentUpon>StepEditWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\StepManipulationView.xaml.cs">
+      <DependentUpon>StepManipulationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\StopTemperStepView.xaml.cs">
+      <DependentUpon>StopTemperStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipetoolView\WaitingStepView.xaml.cs">
+      <DependentUpon>WaitingStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SolutionVolTrackingControl.xaml.cs">
+      <DependentUpon>SolutionVolTrackingControl.xaml</DependentUpon>
+    </Compile>
+    <Page Include="CartridgeMotorWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\AutoFocusTabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\BarCodeControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CcdViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ChemiTemperControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\CustomerTabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\DetectorParameterSetupWind.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\EUIControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\FlowControlControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\FlowControlRev2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\FluidicsTabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\GalleryTabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\HardwareVerificationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ImageContainerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ImageInfoControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ImageViewerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ImagingTabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LedPdCalibrationTab.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LedsViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MainBoardControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MotorsViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PDViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipeTabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\OLATabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipeToolTabControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\CommentStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\ImagingStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\LoopStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\MoveStageStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\MoveStageViewRev2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\NewStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\PumpingStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\PumpingStepViewRev2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\RecipetoolViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\RunRecipeStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\SetTemperStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\StepEditWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\StepManipulationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\StopTemperStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipetoolView\WaitingStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SolutionVolTrackingControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include=".editorconfig" />
+    <None Include="app.config" />
+    <None Include="Config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Model\eui_solution_dependencies-new.dgml" />
+    <None Include="Model\eui_solution_dependencies.dgml" />
+    <None Include="Model\Initialization.cd" />
+    <None Include="Model\RIPP.cd" />
+    <None Include="Model\Engineering Model.cd" />
+    <None Include="Model\EngineeringViewViewModel.cd" />
+    <None Include="Model\Hardware Interface.cd" />
+    <None Include="Model\Recipe.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AvalonDockDefaultLayout.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Libraries\Hywire.CommLibrary\Hywire.CommLibrary.csproj">
+      <Project>{4007B575-FEE9-4959-B81A-436E51258451}</Project>
+      <Name>Hywire.CommLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Hywire.MotionControl\Hywire.MotionControl.csproj">
+      <Project>{AC2D1C88-799C-4A61-9899-1656E3AA8FD3}</Project>
+      <Name>Hywire.MotionControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.Application\Sequlite.ALF.Application.csproj">
+      <Project>{7427063d-7da3-49f4-80ea-747c01779481}</Project>
+      <Name>Sequlite.ALF.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.Common\Sequlite.ALF.Common.csproj">
+      <Project>{62DBA0E8-7F0C-4575-A907-B0D153F51524}</Project>
+      <Name>Sequlite.ALF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.Fluidics\Sequlite.ALF.Fluidics.csproj">
+      <Project>{07a59f91-59d0-41ef-96a5-3ce699bfb68d}</Project>
+      <Name>Sequlite.ALF.Fluidics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.Imaging\Sequlite.ALF.Imaging.csproj">
+      <Project>{11a1623a-e83d-450d-a013-f54bf2887715}</Project>
+      <Name>Sequlite.ALF.Imaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.MainBoard\Sequlite.ALF.MainBoard.csproj">
+      <Project>{c7850d7d-a231-4ce4-bc75-9787f59bcc75}</Project>
+      <Name>Sequlite.ALF.MainBoard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.MotionControl\Sequlite.ALF.MotionControl.csproj">
+      <Project>{0d77fd7c-df0d-4c9e-91dd-0c19b118edaf}</Project>
+      <Name>Sequlite.ALF.MotionControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.RecipeLib\Sequlite.ALF.RecipeLib.csproj">
+      <Project>{b1cfa372-fe3f-4cb6-94d4-d7fff1a55f1d}</Project>
+      <Name>Sequlite.ALF.RecipeLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.SerialPeripherals\Sequlite.ALF.SerialPeripherals.csproj">
+      <Project>{012C1A13-7463-4845-AE77-E1F5C30FC228}</Project>
+      <Name>Sequlite.ALF.SerialPeripherals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.CameraLib\Sequlite.CameraLib.csproj">
+      <Project>{50E85E96-5A2F-46A9-87D3-9407981AEEA1}</Project>
+      <Name>Sequlite.CameraLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.Image.Processing\Sequlite.Image.Processing.csproj">
+      <Project>{aeb73d39-8f98-4b1e-83f9-b50477299774}</Project>
+      <Name>Sequlite.Image.Processing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.WPF.Framework\Sequlite.WPF.Framework.csproj">
+      <Project>{3a6581b3-94d2-47d0-b4af-e182d15ebbbe}</Project>
+      <Name>Sequlite.WPF.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="RecipeTemplate.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>XCOPY /S /E /I /Y "$(SolutionDir)..\..\ThirdPartyLibs\Ipp" "$(TargetDir)Ipp"
+xcopy   /S /E /I /Y   "$(SolutionDir)\..\..\ThirdPartyLibs\LucidVisionLabs\Arena_v140.dll" $(TargetDir)</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_76ab2d0129b83f9f8cdfc8d0fb7842b3" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.ALF.Imaging</compoundname>
+    <innerdir refid="dir_fd654131b34363c14a7de95aaf4e43cf">D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/Properties</innerdir>
+    <innerfile refid="_affine_file_8cs">AffineFile.cs</innerfile>
+    <innerfile refid="_auto_focus_command_8cs">AutoFocusCommand.cs</innerfile>
+    <innerfile refid="_camera_mode_settings_8cs">CameraModeSettings.cs</innerfile>
+    <innerfile refid="_sequlite_8_a_l_f_8_imaging_2_directory_number_8cs">DirectoryNumber.cs</innerfile>
+    <innerfile refid="_file_manipulator_8cs">FileManipulator.cs</innerfile>
+    <innerfile refid="_find_q_c_from_image_8cs">FindQCFromImage.cs</innerfile>
+    <innerfile refid="_sequlite_8_a_l_f_8_imaging_2_global_suppressions_8cs">GlobalSuppressions.cs</innerfile>
+    <innerfile refid="_image_capture_command_8cs">ImageCaptureCommand.cs</innerfile>
+    <innerfile refid="_image_channel_settings_8cs">ImageChannelSettings.cs</innerfile>
+    <innerfile refid="_sequlite_8_a_l_f_8_imaging_2_image_info_8cs">ImageInfo.cs</innerfile>
+    <innerfile refid="_image_live_command_8cs">ImageLiveCommand.cs</innerfile>
+    <innerfile refid="_sequlite_8_a_l_f_8_imaging_2_image_processing_c_m_d_8cs">ImageProcessingCMD.cs</innerfile>
+    <innerfile refid="_intensity_b_l_i_8cs">IntensityBLI.cs</innerfile>
+    <innerfile refid="_sharpness_evaluation_8cs">SharpnessEvaluation.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/"/>
+  </compounddef>
+</doxygen>

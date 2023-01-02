@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_waiting_step" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::RecipeLib::WaitingStep</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" prot="public" virt="non-virtual">Sequlite.ALF.RecipeLib.RecipeStepBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_waiting_step_1a1d813a97dfff512045eb088f0d48cfef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.RecipeLib.WaitingStep.Time</definition>
+        <argsstring></argsstring>
+        <name>Time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="285" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="285" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1afcdd84aacb4d5e4f15f81298583e073f" compoundref="_recipe_run_thread_8cs" startline="1184" endline="1203">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_waiting_step_1adc0782d31022abdfe33b92c099519469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.RecipeLib.WaitingStep.WaitingStep</definition>
+        <argsstring>()</argsstring>
+        <name>WaitingStep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="286" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="286" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_waiting_step_1a3609d16912c5752281abe88b39d8cf73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Sequlite.ALF.RecipeLib.WaitingStep.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="291" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="291" bodyend="294"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1308">
+        <label>Sequlite.ALF.RecipeLib.WaitingStep</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_waiting_step"/>
+        <childnode refid="1309" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1309">
+        <label>RecipeStepBase</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1310">
+        <label>Sequlite.ALF.RecipeLib.WaitingStep</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_waiting_step"/>
+        <childnode refid="1311" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1311">
+        <label>RecipeStepBase</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="284" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="283" bodyend="295"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1a2e2a061fd9087bc80e054c8bb212a95e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::WaitingStep</scope><name>DisplayName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1a391eb3d128b9fff99595131ba9ecea81" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::WaitingStep</scope><name>GetStepType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1ac40bd6d4452824c7923713f0d1e27f48" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::WaitingStep</scope><name>GetTypeName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1a9302231ff7563e8b60087f43d06a9acd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::WaitingStep</scope><name>StepName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base_1ad41f9e63e7b0f8105a89448c74d3ddfd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::WaitingStep</scope><name>StepType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_waiting_step_1a1d813a97dfff512045eb088f0d48cfef" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::WaitingStep</scope><name>Time</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_waiting_step_1a3609d16912c5752281abe88b39d8cf73" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::WaitingStep</scope><name>ToString</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_waiting_step_1adc0782d31022abdfe33b92c099519469" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::WaitingStep</scope><name>WaitingStep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

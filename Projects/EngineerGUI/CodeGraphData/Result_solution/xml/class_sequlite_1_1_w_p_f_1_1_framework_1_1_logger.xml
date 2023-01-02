@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::Logger</compoundname>
+    <basecompoundref refid="interface_sequlite_1_1_command_lib_1_1_i_logger" prot="public" virt="non-virtual">Sequlite.CommandLib.ILogger</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a7434a8057bd8d9489531acc01166f6ac" prot="protected" static="no" mutable="no">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.Logger._TextWriterSyncObject</definition>
+        <argsstring></argsstring>
+        <name>_TextWriterSyncObject</name>
+        <initializer>= new object()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1aa3bbf62f85cde89d4b1a0ffeabb0cca3" prot="protected" static="no" mutable="no">
+        <type>TextWriter</type>
+        <definition>TextWriter Sequlite.WPF.Framework.Logger._TextWriter</definition>
+        <argsstring></argsstring>
+        <name>_TextWriter</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a50b505635fcc884ec83f2afbc7bb4565" prot="protected" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.WPF.Framework.Logger._MSG_FORMAT</definition>
+        <argsstring></argsstring>
+        <name>_MSG_FORMAT</name>
+        <initializer>= &quot;[MS] {0,-10:MM/dd/yyyy} {0,-13:hh:mm:ss.fff tt}  {1}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a98448964b1c65459d6776675efc4dbe4" prot="protected" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.WPF.Framework.Logger._EXC_FORMAT</definition>
+        <argsstring></argsstring>
+        <name>_EXC_FORMAT</name>
+        <initializer>= &quot;[EX] {0,-10:MM/dd/yyyy} {0,-13:hh:mm:ss.fff tt}  {1}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a2ebe12ee75b97b2e4e000c6169f26ec4" prot="protected" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.WPF.Framework.Logger._WRN_FORMAT</definition>
+        <argsstring></argsstring>
+        <name>_WRN_FORMAT</name>
+        <initializer>= &quot;[WN] {0,-10:MM/dd/yyyy} {0,-13:hh:mm:ss.fff tt}  {1}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="41" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1aa8940e6c5b3c2551e1cb5e6be0830df6" prot="protected" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.WPF.Framework.Logger._PARAM_FORMAT</definition>
+        <argsstring></argsstring>
+        <name>_PARAM_FORMAT</name>
+        <initializer>= &quot;[PV]                               {0,-20} = {1}&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="42" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1ad7d6091463a84eea4238000af93bc0e9" prot="protected" static="no" mutable="no">
+        <type>char[]</type>
+        <definition>char [] Sequlite.WPF.Framework.Logger._HEADER_SPLIT_CHAR</definition>
+        <argsstring></argsstring>
+        <name>_HEADER_SPLIT_CHAR</name>
+        <initializer>= new char[] { &apos;\n&apos; }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a7799c70c8d10b8a3476a094d8eb26c94" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="namespace_sequlite_1_1_w_p_f_1_1_framework_1abdcf524d2e49d747db1304378d5e9d0a" kindref="member">LogUpdatedDelegate</ref></type>
+        <definition>LogUpdatedDelegate Sequlite.WPF.Framework.Logger.LogUpdated</definition>
+        <argsstring></argsstring>
+        <name>LogUpdated</name>
+        <briefdescription>
+<para>Notify any subscribers that the log file has been updated. Usually a UI component will subscribe to this event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="49" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1ac9366d699d10b24111e9e90982077caa" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="namespace_sequlite_1_1_w_p_f_1_1_framework_1a2842868e5d59b913ed088d61051f3a08" kindref="member">LoggingExceptionDelegate</ref></type>
+        <definition>LoggingExceptionDelegate Sequlite.WPF.Framework.Logger.LoggingException</definition>
+        <argsstring></argsstring>
+        <name>LoggingException</name>
+        <briefdescription>
+<para>Notify any subscribers that logging has occured an exception. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="54" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a13ed08abda9593273214d400f6d877f1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.WPF.Framework.Logger.SuppressLoggingExceptionEvents</definition>
+        <argsstring></argsstring>
+        <name>SuppressLoggingExceptionEvents</name>
+        <briefdescription>
+<para>Set this property to true to suppress any <ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1ac9366d699d10b24111e9e90982077caa" kindref="member">LoggingException</ref> events. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="61" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1ad99e435fe6c5ce2072f372b837add555" prot="package" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>TextWriter</type>
+        <definition>TextWriter Sequlite.WPF.Framework.Logger.LogTextWriter</definition>
+        <argsstring></argsstring>
+        <name>LogTextWriter</name>
+        <briefdescription>
+<para>Used by CommandMediator to log LINQ SQL queries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="72" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a15b28545c64fa2e5084cb8f7ca2043fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.WPF.Framework.Logger.Logger</definition>
+        <argsstring>()</argsstring>
+        <name>Logger</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="83" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1adae048926be90deada9818dff5370111" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.Logger.Open</definition>
+        <argsstring>(string logFilePath)</argsstring>
+        <name>Open</name>
+        <param>
+          <type>string</type>
+          <declname>logFilePath</declname>
+        </param>
+        <briefdescription>
+<para>Open a flat file for writing log output. This method will close the current log file if there is one open before opening another. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logFilePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The full path to the log file to be created.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="100" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="100" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a47bb946e8fc2590213dcc7041d143f71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.Logger.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <briefdescription>
+<para>Close the logger. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="176" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="176" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a5b18b7a1980ae9aaa6b8e1d2ce2893b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.Logger.LogAppConfigSettings</definition>
+        <argsstring>()</argsstring>
+        <name>LogAppConfigSettings</name>
+        <briefdescription>
+<para>This method logs the App.config file&apos;s &quot;appSettings&quot; section to the open flat file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="201" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="201" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a5bf9ff23725bf229bdd28a85d662aa69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.Logger.LogEmptyLine</definition>
+        <argsstring>()</argsstring>
+        <name>LogEmptyLine</name>
+        <reimplements refid="interface_sequlite_1_1_command_lib_1_1_i_logger_1a33d551498d15febefd95b09e9971033d">LogEmptyLine</reimplements>
+        <briefdescription>
+<para>Log an empty line with no date/time stamp. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="233" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="233" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a8809134f542b59d0baff851d33e3716f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.Logger.LogMessage</definition>
+        <argsstring>(string message)</argsstring>
+        <name>LogMessage</name>
+        <reimplements refid="interface_sequlite_1_1_command_lib_1_1_i_logger_1ab25f6c0ac6a8a31cb9b6ab8549f8d4c4">LogMessage</reimplements>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Log a 1-line message of the following format: [MS] MM/dd/YYYY hh:mm:ss.fff PM msg </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message to log</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="254" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="254" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a45628da6be9d91e519a1075f5a920793" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.Logger.LogParamValuePair</definition>
+        <argsstring>(string paramName, string value)</argsstring>
+        <name>LogParamValuePair</name>
+        <reimplements refid="interface_sequlite_1_1_command_lib_1_1_i_logger_1a486c2f01fe23d30b7281b5bb92e261c5">LogParamValuePair</reimplements>
+        <param>
+          <type>string</type>
+          <declname>paramName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Log an indented parameter value pair of the following format: [PV] paramName = value </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>paramName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="285" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="285" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1acff0a6bbee708ddf1c0e80750e68b0d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.Logger.LogException</definition>
+        <argsstring>(string header, Exception ex)</argsstring>
+        <name>LogException</name>
+        <reimplements refid="interface_sequlite_1_1_command_lib_1_1_i_logger_1a69e68539bc542cbb6cb98332767108df">LogException</reimplements>
+        <param>
+          <type>string</type>
+          <declname>header</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+<para>Log an exception. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A message describing the current context. Can be null or empty</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The exception that was caught</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="316" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="316" bodyend="391"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a01d964b041f8c3b611ae6297d1399275" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.WPF.Framework.Logger.~Logger</definition>
+        <argsstring>()</argsstring>
+        <name>~Logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="87" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="87" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a80770d963bbcf4d2ede3747e67a72a8a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.Logger.FireLoggingExceptionEvent</definition>
+        <argsstring>(Exception ex)</argsstring>
+        <name>FireLoggingExceptionEvent</name>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+<para>If logging is failing send notification to any event handlers. The event UI event handler can then choose to disable exception logging or just turn off the any subsequent event calls. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ex</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="402" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="402" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a0a2461e6e0d6c828e737ae3ebb11a4a3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.Logger.FireLogUpdatedEvent</definition>
+        <argsstring>(string logEntry)</argsstring>
+        <name>FireLogUpdatedEvent</name>
+        <param>
+          <type>string</type>
+          <declname>logEntry</declname>
+        </param>
+        <briefdescription>
+<para>Notify any subscribers that the log file has been updated. Usually a UI component will subscribe to this event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logEntry</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="423" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="423" bodyend="429"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class provides a thread safe application logging to a flat file, log event listeners, and/or database. </para>    </briefdescription>
+    <detaileddescription>
+<para>If no flat-file has been specified for logging (OpenFlatFile) this class can still provide centralized &quot;in-memory&quot; logging via the <ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a7799c70c8d10b8a3476a094d8eb26c94" kindref="member">LogUpdated</ref> event. </para><para>Created by Tony Jenniges</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="643">
+        <label>Sequlite.WPF.Framework.Logger</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger"/>
+        <childnode refid="644" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="644">
+        <label>ILogger</label>
+        <link refid="interface_sequlite_1_1_command_lib_1_1_i_logger"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="645">
+        <label>Sequlite.WPF.Framework.Logger</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger"/>
+        <childnode refid="646" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="646">
+        <label>ILogger</label>
+        <link refid="interface_sequlite_1_1_command_lib_1_1_i_logger"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" bodystart="34" bodyend="432"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a98448964b1c65459d6776675efc4dbe4" prot="protected" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>_EXC_FORMAT</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1ad7d6091463a84eea4238000af93bc0e9" prot="protected" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>_HEADER_SPLIT_CHAR</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a50b505635fcc884ec83f2afbc7bb4565" prot="protected" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>_MSG_FORMAT</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1aa8940e6c5b3c2551e1cb5e6be0830df6" prot="protected" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>_PARAM_FORMAT</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1aa3bbf62f85cde89d4b1a0ffeabb0cca3" prot="protected" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>_TextWriter</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a7434a8057bd8d9489531acc01166f6ac" prot="protected" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>_TextWriterSyncObject</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a2ebe12ee75b97b2e4e000c6169f26ec4" prot="protected" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>_WRN_FORMAT</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a47bb946e8fc2590213dcc7041d143f71" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>Close</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a80770d963bbcf4d2ede3747e67a72a8a" prot="protected" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>FireLoggingExceptionEvent</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a0a2461e6e0d6c828e737ae3ebb11a4a3" prot="protected" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>FireLogUpdatedEvent</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a5b18b7a1980ae9aaa6b8e1d2ce2893b9" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>LogAppConfigSettings</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a5bf9ff23725bf229bdd28a85d662aa69" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>LogEmptyLine</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1acff0a6bbee708ddf1c0e80750e68b0d5" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>LogException</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a15b28545c64fa2e5084cb8f7ca2043fe" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>Logger</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1ac9366d699d10b24111e9e90982077caa" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>LoggingException</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a8809134f542b59d0baff851d33e3716f" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>LogMessage</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a45628da6be9d91e519a1075f5a920793" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>LogParamValuePair</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1ad99e435fe6c5ce2072f372b837add555" prot="package" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>LogTextWriter</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a7799c70c8d10b8a3476a094d8eb26c94" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>LogUpdated</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1adae048926be90deada9818dff5370111" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>Open</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a13ed08abda9593273214d400f6d877f1" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>SuppressLoggingExceptionEvents</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a01d964b041f8c3b611ae6297d1399275" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::Logger</scope><name>~Logger</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

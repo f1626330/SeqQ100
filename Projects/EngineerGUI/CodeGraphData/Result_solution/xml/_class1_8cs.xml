@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_class1_8cs" kind="file">
+    <compoundname>Class1.cs</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_e_camera_v_m" prot="public">Sequlite::ALF::EthernetCamera::ECameraVM</innerclass>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_ethernet_camera">Sequlite::ALF::EthernetCamera</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Sequlite.WPF.Framework;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Sequlite.ALF.EthernetCamera</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5" refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_e_camera_v_m" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_e_camera_v_m" kindref="compound">ECameraVM</ref><sp/>:<sp/><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" kindref="compound">ViewModelBase</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/Class1.cs"/>
+  </compounddef>
+</doxygen>

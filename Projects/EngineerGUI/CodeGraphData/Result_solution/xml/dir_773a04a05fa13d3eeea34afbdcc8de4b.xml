@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_773a04a05fa13d3eeea34afbdcc8de4b" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard</compoundname>
+    <innerdir refid="dir_bf965037d0aa9e64ccef0d07961139ca">D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Properties</innerdir>
+    <innerfile refid="_mainboard_8cs">Mainboard.cs</innerfile>
+    <innerfile refid="_m_b_protocol_8cs">MBProtocol.cs</innerfile>
+    <innerfile refid="_sequlite_8_a_l_f_8_main_board_2_protocol_8cs">Protocol.cs</innerfile>
+    <innerfile refid="_serial_comm_8cs">SerialComm.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/"/>
+  </compounddef>
+</doxygen>

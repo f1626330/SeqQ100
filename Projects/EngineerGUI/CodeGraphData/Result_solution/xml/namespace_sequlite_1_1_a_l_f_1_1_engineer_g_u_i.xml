@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i" kind="namespace">
+    <compoundname>Sequlite::ALF::EngineerGUI</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_app" prot="public">Sequlite::ALF::EngineerGUI::App</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_native_methods" prot="public">Sequlite::ALF::EngineerGUI::NativeMethods</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_cartridge_motor_window" prot="public">Sequlite::ALF::EngineerGUI::CartridgeMotorWindow</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_launch_window" prot="public">Sequlite::ALF::EngineerGUI::LaunchWindow</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_main_window" prot="public">Sequlite::ALF::EngineerGUI::MainWindow</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_bool_reverse_converter" prot="package">Sequlite::ALF::EngineerGUI::BoolReverseConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_enum_to_visibility_hidden_converter" prot="package">Sequlite::ALF::EngineerGUI::EnumToVisibilityHiddenConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_enum_to_visibility_visible_converter" prot="package">Sequlite::ALF::EngineerGUI::EnumToVisibilityVisibleConverter</innerclass>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_properties">Sequlite::ALF::EngineerGUI::Properties</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view">Sequlite::ALF::EngineerGUI::View</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model">Sequlite::ALF::EngineerGUI::ViewModel</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8" prot="package" static="no">
+        <name>WindowShowStyle</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8a62a5e490880a92eef74f167d9dc6dca0" prot="public">
+          <name>Hide</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+<para>Hides the window and activates another window.</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_HIDE</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8a64d164fc3308f7cdb41ff9cfb29e9271" prot="public">
+          <name>ShowNormal</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+<para>Activates and displays a window. If the window .. or maximized, the system restores it to its original size and position. An application should specify this flag when displaying the window for the first time.</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_SHOWNORMAL</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8a34fc41539143b36bfb6197c7b18fc6c0" prot="public">
+          <name>ShowMinimized</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+<para>Activates the window and displays it ..</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_SHOWMINIMIZED</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8a4ff987727b3b233ae5b2447f53194f82" prot="public">
+          <name>ShowMaximized</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Activates the window and displays it ..</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_SHOWMAXIMIZED</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8a9369ba148ee259473fc1fb4939b6c2e8" prot="public">
+          <name>Maximize</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+<para>Maximizes the specified window.</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_MAXIMIZE</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8a8d59d5dcadc4ed982e24c0df1044e1f3" prot="public">
+          <name>ShowNormalNoActivate</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+<para>Displays a window in its most recent size and position. This value is similar to &quot;ShowNormal&quot;, except the window is not actived.</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_SHOWNOACTIVATE</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8a498f79c4c5bbde77f1bceb6c86fd0f6d" prot="public">
+          <name>Show</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+<para>Activates the window and displays it in its current size and position.</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_SHOW</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8ad27532d90ecd513e97ab811c0f34dbfd" prot="public">
+          <name>Minimize</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+<para>Minimizes the specified window and activates the next top-level window in the Z order.</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_MINIMIZE</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8a299b81c95b0bf43766d86f1a3009f675" prot="public">
+          <name>ShowMinNoActivate</name>
+          <initializer>= 7</initializer>
+          <briefdescription>
+<para>Displays the window as a minimized window. This value is similar to &quot;ShowMinimized&quot;, except the window ..</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_SHOWMINNOACTIVE</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8a6c7160cf3e40c3792a99cbffce7d8729" prot="public">
+          <name>ShowNoActivate</name>
+          <initializer>= 8</initializer>
+          <briefdescription>
+<para>Displays the window in its current size and position. This value is similar to &quot;Show&quot;, except the window ..</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_SHOWNA</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8a2bd339d85ee3b33e513359ce781b60cc" prot="public">
+          <name>Restore</name>
+          <initializer>= 9</initializer>
+          <briefdescription>
+<para>Activates and displays the window. If the window is minimized or maximized, the system restores it to its original size and position. An application should specify this flag .. a minimized window.</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_RESTORE</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8ae335ef739a01e6bbb5e2961b337ce178" prot="public">
+          <name>ShowDefault</name>
+          <initializer>= 10</initializer>
+          <briefdescription>
+<para>Sets the show state based on the SW_ value specified .. STARTUPINFO structure passed to the CreateProcess function by the program that started the application.</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_SHOWDEFAULT</para>          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1ae8344615985d65af13d75fd1d72e2dd8aaa1bdc53aff5ddfa10a49b1f7cea252b" prot="public">
+          <name>ForceMinimized</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+<para>Windows 2000/XP: Minimizes a window, even if the thread that owns the window is hung. This flag should only be used when minimizing windows from a different thread.</para>          </briefdescription>
+          <detaileddescription>
+<para>See SW_FORCEMINIMIZE</para>          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Enumeration of the different ways of showing a window.</para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="253" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" bodystart="252" bodyend="309"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/App.xaml.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

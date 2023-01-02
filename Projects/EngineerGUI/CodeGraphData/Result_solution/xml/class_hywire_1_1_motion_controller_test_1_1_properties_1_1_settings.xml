@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings" kind="class" prot="package">
+    <compoundname>Hywire::MotionControllerTest::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings_1a2bf496d71b5087d064ae3f4c08cacc64" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Hywire.MotionControllerTest.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings_1a24ca52fded65bed889c7638907c3e495" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Hywire.MotionControllerTest.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Properties/Settings.Designer.cs" line="22" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Properties/Settings.Designer.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1205">
+        <label>Hywire.MotionControllerTest.Properties.Settings</label>
+        <link refid="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings"/>
+        <childnode refid="1206" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1206">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1207">
+        <label>Hywire.MotionControllerTest.Properties.Settings</label>
+        <link refid="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings"/>
+        <childnode refid="1208" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1209" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="1208">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1209">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Properties/Settings.Designer.cs" bodystart="17" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings_1a24ca52fded65bed889c7638907c3e495" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_properties_1_1_settings_1a2bf496d71b5087d064ae3f4c08cacc64" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

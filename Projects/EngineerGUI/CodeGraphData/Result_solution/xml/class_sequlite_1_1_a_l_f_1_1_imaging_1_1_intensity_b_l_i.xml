@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::IntensityBLI</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1af1f51645e087a95daebbfee0e6ecd498" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.IntensityBLI._filename</definition>
+        <argsstring></argsstring>
+        <name>_filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a64c6922d8b50a79141b4585c556975f5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.IntensityBLI._ver</definition>
+        <argsstring></argsstring>
+        <name>_ver</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a41764856ac62ad84576f4aac8f23a544" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Sequlite.ALF.Imaging.IntensityBLI._err</definition>
+        <argsstring></argsstring>
+        <name>_err</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a0c4bfed5bb4b8142de1c6abc93ec5952" prot="private" static="no" mutable="no">
+        <type>UInt64</type>
+        <definition>UInt64 Sequlite.ALF.Imaging.IntensityBLI._numClusters</definition>
+        <argsstring></argsstring>
+        <name>_numClusters</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a87cd73d8ee68c04c9107d5596ce764a4" prot="private" static="no" mutable="no">
+        <type>UInt64</type>
+        <definition>UInt64 Sequlite.ALF.Imaging.IntensityBLI._fov</definition>
+        <argsstring></argsstring>
+        <name>_fov</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a2ca7640e3338c194a998746a9a6342c1" prot="private" static="no" mutable="no">
+        <type>float[]</type>
+        <definition>float [] Sequlite.ALF.Imaging.IntensityBLI._flt</definition>
+        <argsstring></argsstring>
+        <name>_flt</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1adb9e9daa1c724b2d532d3a4e0b792802" compoundref="_intensity_b_l_i_8cs" startline="148" endline="159">Sequlite.ALF.Imaging.IntensityBLI.Compare</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a5649e3df819259088d6e3a54adf251b5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i" kindref="compound">IntensityBLI</ref></type>
+        <definition>IntensityBLI Sequlite.ALF.Imaging.IntensityBLI.added</definition>
+        <argsstring></argsstring>
+        <name>added</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1aee8123e02950026d7f4e39fd76d0a890" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.IntensityBLI.Ver</definition>
+        <argsstring></argsstring>
+        <name>Ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="41" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a34d22d547e7180eb508642aad3b7d97b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Sequlite.ALF.Imaging.IntensityBLI.Err</definition>
+        <argsstring></argsstring>
+        <name>Err</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="42" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a1c1b7f2f2cb5d35e5958e5ea46db8751" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float[]</type>
+        <definition>float [] Sequlite.ALF.Imaging.IntensityBLI.Flt</definition>
+        <argsstring></argsstring>
+        <name>Flt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a80778fcebb85786e601dc1b9134a5c30" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ulong</type>
+        <definition>ulong Sequlite.ALF.Imaging.IntensityBLI.NumClusters</definition>
+        <argsstring></argsstring>
+        <name>NumClusters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="44" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_processing_c_m_d_1ae024c760483561365ed9ac7001c61bea" compoundref="_sequlite_8_a_l_f_8_imaging_2_image_processing_c_m_d_8cs" startline="312" endline="379">Sequlite.ALF.Imaging.ImageProcessingCMD.JoinCyclesByCell</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a9ff9a782fb4298dacd98c7238eae8cde" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ulong</type>
+        <definition>ulong Sequlite.ALF.Imaging.IntensityBLI.Fov</definition>
+        <argsstring></argsstring>
+        <name>Fov</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="45" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="45" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_processing_c_m_d_1ae024c760483561365ed9ac7001c61bea" compoundref="_sequlite_8_a_l_f_8_imaging_2_image_processing_c_m_d_8cs" startline="312" endline="379">Sequlite.ALF.Imaging.ImageProcessingCMD.JoinCyclesByCell</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a57b0adc6f443c389554b3b9bfb77e53a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.IntensityBLI.IntensityBLI</definition>
+        <argsstring>(string name)</argsstring>
+        <name>IntensityBLI</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="19" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1ab7133078c97459266f39b0e23ab58d28" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.IntensityBLI.AddFOV</definition>
+        <argsstring>(IntensityBLI newFov)</argsstring>
+        <name>AddFOV</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i" kindref="compound">IntensityBLI</ref></type>
+          <declname>newFov</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="78" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a68002981d8c4a0b5145babb80c78ea1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.IntensityBLI.WriteFile</definition>
+        <argsstring>(string name)</argsstring>
+        <name>WriteFile</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="133" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="133" bodyend="146"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1aa30e9aa1eae7b6a31d9c83e6038a6bc6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.IntensityBLI.ReadFile</definition>
+        <argsstring>()</argsstring>
+        <name>ReadFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="47" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="47" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1ae25dba1da4db19f1600f0d45557e6f3e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.IntensityBLI.UpdateFile</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="88" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="88" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1adb9e9daa1c724b2d532d3a4e0b792802" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.IntensityBLI.Compare</definition>
+        <argsstring>(IntensityBLI fl0, ulong offset=0)</argsstring>
+        <name>Compare</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i" kindref="compound">IntensityBLI</ref></type>
+          <declname>fl0</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>offset</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="148" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="148" bodyend="159"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a2ca7640e3338c194a998746a9a6342c1" compoundref="_intensity_b_l_i_8cs" startline="17">Sequlite.ALF.Imaging.IntensityBLI._flt</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="617">
+        <label>Sequlite.ALF.Imaging.IntensityBLI</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i"/>
+        <childnode refid="617" relation="usage">
+          <edgelabel>added</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/IntensityBLI.cs" bodystart="10" bodyend="160"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a41764856ac62ad84576f4aac8f23a544" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>_err</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1af1f51645e087a95daebbfee0e6ecd498" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>_filename</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a2ca7640e3338c194a998746a9a6342c1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>_flt</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a87cd73d8ee68c04c9107d5596ce764a4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>_fov</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a0c4bfed5bb4b8142de1c6abc93ec5952" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>_numClusters</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a64c6922d8b50a79141b4585c556975f5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>_ver</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a5649e3df819259088d6e3a54adf251b5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>added</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1ab7133078c97459266f39b0e23ab58d28" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>AddFOV</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1adb9e9daa1c724b2d532d3a4e0b792802" prot="package" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>Compare</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a34d22d547e7180eb508642aad3b7d97b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>Err</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a1c1b7f2f2cb5d35e5958e5ea46db8751" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>Flt</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a9ff9a782fb4298dacd98c7238eae8cde" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>Fov</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a57b0adc6f443c389554b3b9bfb77e53a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>IntensityBLI</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a80778fcebb85786e601dc1b9134a5c30" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>NumClusters</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1aa30e9aa1eae7b6a31d9c83e6038a6bc6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>ReadFile</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1ae25dba1da4db19f1600f0d45557e6f3e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>UpdateFile</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1aee8123e02950026d7f4e39fd76d0a890" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>Ver</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_intensity_b_l_i_1a68002981d8c4a0b5145babb80c78ea1a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::IntensityBLI</scope><name>WriteFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

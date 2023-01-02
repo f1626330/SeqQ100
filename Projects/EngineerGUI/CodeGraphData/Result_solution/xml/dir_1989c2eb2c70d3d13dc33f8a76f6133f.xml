@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1989c2eb2c70d3d13dc33f8a76f6133f" kind="dir">
+    <compoundname>D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/WpfConverters</compoundname>
+    <innerfile refid="_bool_reverse_converter_8cs">BoolReverseConverter.cs</innerfile>
+    <innerfile refid="_enum_to_visibility_hidden_converter_8cs">EnumToVisibilityHiddenConverter.cs</innerfile>
+    <innerfile refid="_enum_to_visibility_visible_converter_8cs">EnumToVisibilityVisibleConverter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/WpfConverters/"/>
+  </compounddef>
+</doxygen>

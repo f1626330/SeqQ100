@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c482ee3891d31ad02d3065182be4fea8" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters</compoundname>
+    <innerfile refid="_bin_level_converter_8cs">BinLevelConverter.cs</innerfile>
+    <innerfile refid="_boolean_to_hidden_negate_converter_8cs">BooleanToHiddenNegateConverter.cs</innerfile>
+    <innerfile refid="_boolean_to_visibility_converter_8cs">BooleanToVisibilityConverter.cs</innerfile>
+    <innerfile refid="_boolean_to_visibility_negate_converter_8cs">BooleanToVisibilityNegateConverter.cs</innerfile>
+    <innerfile refid="_boolean_to_visible_hidden_converter_8cs">BooleanToVisibleHiddenConverter.cs</innerfile>
+    <innerfile refid="_boolean_to_visible_multi_converter_8cs">BooleanToVisibleMultiConverter.cs</innerfile>
+    <innerfile refid="_boolean_to_visible_paste_multi_converter_8cs">BooleanToVisiblePasteMultiConverter.cs</innerfile>
+    <innerfile refid="_bool_to_vis_close_all_multi_converter_8cs">BoolToVisCloseAllMultiConverter.cs</innerfile>
+    <innerfile refid="_bool_to_vis_gain_multi_converter_8cs">BoolToVisGainMultiConverter.cs</innerfile>
+    <innerfile refid="_content_to_margin_converter_8cs">ContentToMarginConverter.cs</innerfile>
+    <innerfile refid="_content_to_path_converter_8cs">ContentToPathConverter.cs</innerfile>
+    <innerfile refid="_enum_to_boolean_converter_8cs">EnumToBooleanConverter.cs</innerfile>
+    <innerfile refid="_exposure_time_converter_8cs">ExposureTimeConverter.cs</innerfile>
+    <innerfile refid="_filter_light_focus_converter_8cs">FilterLightFocusConverter.cs</innerfile>
+    <innerfile refid="_gain_value_converter_8cs">GainValueConverter.cs</innerfile>
+    <innerfile refid="_gamma_value_converter_8cs">GammaValueConverter.cs</innerfile>
+    <innerfile refid="_logical_negate_converter_8cs">LogicalNegateConverter.cs</innerfile>
+    <innerfile refid="_logical_or_converter_8cs">LogicalOrConverter.cs</innerfile>
+    <innerfile refid="_logical_or_negate_converter_8cs">LogicalOrNegateConverter.cs</innerfile>
+    <innerfile refid="_logical_or_to_visibility_multi_converter_8cs">LogicalOrToVisibilityMultiConverter.cs</innerfile>
+    <innerfile refid="_real_gamma_converter_8cs">RealGammaConverter.cs</innerfile>
+    <innerfile refid="_string_nullable_to_int_converter_8cs">StringNullableToIntConverter.cs</innerfile>
+    <innerfile refid="_zero_to_empty_string_converter_8cs">ZeroToEmptyStringConverter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/"/>
+  </compounddef>
+</doxygen>

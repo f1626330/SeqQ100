@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_common_1_1_fluidics_settings" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Common::FluidicsSettings</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_fluidics_settings_1aa46693f688c2d39875be5e750c798b18" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.FluidicsSettings.AspRate</definition>
+        <argsstring></argsstring>
+        <name>AspRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/FluidicsSettings.cs" line="5" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/FluidicsSettings.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_fluidics_settings_1a6e05c2e2120e29e8df99cc80a0afc3e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.FluidicsSettings.DisRate</definition>
+        <argsstring></argsstring>
+        <name>DisRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/FluidicsSettings.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/FluidicsSettings.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_fluidics_settings_1a0d226d8086fb359781c8a0f455ef26b7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.FluidicsSettings.Volume</definition>
+        <argsstring></argsstring>
+        <name>Volume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/FluidicsSettings.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/FluidicsSettings.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/FluidicsSettings.cs" line="4" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/FluidicsSettings.cs" bodystart="3" bodyend="8"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_fluidics_settings_1aa46693f688c2d39875be5e750c798b18" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::FluidicsSettings</scope><name>AspRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_fluidics_settings_1a6e05c2e2120e29e8df99cc80a0afc3e6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::FluidicsSettings</scope><name>DisRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_fluidics_settings_1a0d226d8086fb359781c8a0f455ef26b7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::FluidicsSettings</scope><name>Volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

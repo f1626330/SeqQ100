@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_fast_gaussian_filter" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::FastGaussianFilter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_fast_gaussian_filter_1a58d382f02ab1c7f0a5ad4e80d3aa654a" prot="private" static="no" mutable="no">
+        <type>Size</type>
+        <definition>Size Sequlite.Image.Processing.FastGaussianFilter.kernel</definition>
+        <argsstring></argsstring>
+        <name>kernel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/FastGaussianFilter.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/FastGaussianFilter.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_fast_gaussian_filter_1a3d64ae533c2b2c48d00ca86a8dedac29" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Size</type>
+        <definition>Size Sequlite.Image.Processing.FastGaussianFilter.Kernel</definition>
+        <argsstring></argsstring>
+        <name>Kernel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/FastGaussianFilter.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/FastGaussianFilter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_fast_gaussian_filter_1a659ad786432f5aef42764415d284c40f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.FastGaussianFilter.FastGaussianFilter</definition>
+        <argsstring>(Size kernel)</argsstring>
+        <name>FastGaussianFilter</name>
+        <param>
+          <type>Size</type>
+          <declname>kernel</declname>
+        </param>
+        <briefdescription>
+<para>Constructor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>kernel</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/FastGaussianFilter.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/FastGaussianFilter.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_fast_gaussian_filter_1a223ace9bc80e89c7273a9344800f9e64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool Sequlite.Image.Processing.FastGaussianFilter.Apply</definition>
+        <argsstring>(ref WriteableBitmap srcImage)</argsstring>
+        <name>Apply</name>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/FastGaussianFilter.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/FastGaussianFilter.cs" bodystart="37" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This filter performs an average filter on an image. An average filter replaces pixel (i, j) with the average of pixels in rectangle of kernel size with (i, j) as the center. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/FastGaussianFilter.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/FastGaussianFilter.cs" bodystart="12" bodyend="179"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_fast_gaussian_filter_1a223ace9bc80e89c7273a9344800f9e64" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::FastGaussianFilter</scope><name>Apply</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_fast_gaussian_filter_1a659ad786432f5aef42764415d284c40f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::FastGaussianFilter</scope><name>FastGaussianFilter</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_fast_gaussian_filter_1a58d382f02ab1c7f0a5ad4e80d3aa654a" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::FastGaussianFilter</scope><name>kernel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_fast_gaussian_filter_1a3d64ae533c2b2c48d00ca86a8dedac29" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::FastGaussianFilter</scope><name>Kernel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f" kind="namespace">
+    <compoundname>Sequlite::ALF</compoundname>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_common">Sequlite::ALF::Common</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_configuration">Sequlite::ALF::Configuration</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i">Sequlite::ALF::EngineerGUI</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_ethernet_camera">Sequlite::ALF::EthernetCamera</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics">Sequlite::ALF::Fluidics</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_imaging">Sequlite::ALF::Imaging</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_main_board">Sequlite::ALF::MainBoard</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_motion_control">Sequlite::ALF::MotionControl</innernamespace>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib">Sequlite::ALF::RecipeLib</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="[generated]" line="1" column="1"/>
+  </compounddef>
+</doxygen>

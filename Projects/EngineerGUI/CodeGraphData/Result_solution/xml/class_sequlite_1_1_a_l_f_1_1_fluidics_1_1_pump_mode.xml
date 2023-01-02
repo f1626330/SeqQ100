@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Fluidics::PumpMode</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode_1a551dfd343842515b6ea2dd6ea9427b39" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Fluidics.PumpMode.DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="604" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode_1a55c41d088883c81a2a4c43231aba32bf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5c" kindref="member">ModeOptions</ref></type>
+        <definition>ModeOptions Sequlite.ALF.Fluidics.PumpMode.Mode</definition>
+        <argsstring></argsstring>
+        <name>Mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="605" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="605" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode_1a190ce125440b6929c6f789e80c4fdb44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Fluidics.PumpMode.PumpMode</definition>
+        <argsstring>(string name, ModeOptions mode)</argsstring>
+        <name>PumpMode</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5c" kindref="member">ModeOptions</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="607" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="607" bodyend="611"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="603" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="602" bodyend="612"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode_1a551dfd343842515b6ea2dd6ea9427b39" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpMode</scope><name>DisplayName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode_1a55c41d088883c81a2a4c43231aba32bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpMode</scope><name>Mode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode_1a190ce125440b6929c6f789e80c4fdb44" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpMode</scope><name>PumpMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

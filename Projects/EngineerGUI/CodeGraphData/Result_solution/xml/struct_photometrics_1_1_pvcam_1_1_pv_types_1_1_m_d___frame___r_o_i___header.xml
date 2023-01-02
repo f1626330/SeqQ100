@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header" kind="struct" prot="public">
+    <compoundname>Photometrics::Pvcam::PvTypes::MD_Frame_ROI_Header</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1aa2412e8787c40db16ed7e5376fa5954b" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Photometrics.Pvcam.PvTypes.MD_Frame_ROI_Header.roiNr</definition>
+        <argsstring></argsstring>
+        <name>roiNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="882" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="882" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1af65a46a1d26220f4b442a04b191f0ad1" prot="public" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Photometrics.Pvcam.PvTypes.MD_Frame_ROI_Header.timestampBOR</definition>
+        <argsstring></argsstring>
+        <name>timestampBOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="886" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1aeef2695ddb419457eeb649541bd5de20" prot="public" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Photometrics.Pvcam.PvTypes.MD_Frame_ROI_Header.timestampEOR</definition>
+        <argsstring></argsstring>
+        <name>timestampEOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="888" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1ac429da99cbe430e3015808b92b7d586e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type" kindref="compound">RegionType</ref></type>
+        <definition>RegionType Photometrics.Pvcam.PvTypes.MD_Frame_ROI_Header.roi</definition>
+        <argsstring></argsstring>
+        <name>roi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="890" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1a2006a4a5d09012ca9c8de4886361d383" prot="public" static="no" mutable="no">
+        <type>Byte</type>
+        <definition>Byte Photometrics.Pvcam.PvTypes.MD_Frame_ROI_Header.flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="893" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="893" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1a66902342f2061c6889ea6c8dc199404b" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Photometrics.Pvcam.PvTypes.MD_Frame_ROI_Header.extendedMdSize</definition>
+        <argsstring></argsstring>
+        <name>extendedMdSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="895" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="895" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1aa0f974739c47796a5a3c95cc6a4672f7" prot="public" static="no" mutable="no">
+        <type>Byte[]</type>
+        <definition>Byte [] Photometrics.Pvcam.PvTypes.MD_Frame_ROI_Header.reserved</definition>
+        <argsstring></argsstring>
+        <name>reserved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="897" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="897" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="778">
+        <label>Photometrics.Pvcam.PvTypes.RegionType</label>
+        <link refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type"/>
+      </node>
+      <node id="777">
+        <label>Photometrics.Pvcam.PvTypes.MD_Frame_ROI_Header</label>
+        <link refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header"/>
+        <childnode refid="778" relation="usage">
+          <edgelabel>roi</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="880" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="879" bodyend="898"/>
+    <listofallmembers>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1a66902342f2061c6889ea6c8dc199404b" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::MD_Frame_ROI_Header</scope><name>extendedMdSize</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1a2006a4a5d09012ca9c8de4886361d383" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::MD_Frame_ROI_Header</scope><name>flags</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1aa0f974739c47796a5a3c95cc6a4672f7" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::MD_Frame_ROI_Header</scope><name>reserved</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1ac429da99cbe430e3015808b92b7d586e" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::MD_Frame_ROI_Header</scope><name>roi</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1aa2412e8787c40db16ed7e5376fa5954b" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::MD_Frame_ROI_Header</scope><name>roiNr</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1af65a46a1d26220f4b442a04b191f0ad1" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::MD_Frame_ROI_Header</scope><name>timestampBOR</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame___r_o_i___header_1aeef2695ddb419457eeb649541bd5de20" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::MD_Frame_ROI_Header</scope><name>timestampEOR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

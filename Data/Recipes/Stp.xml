@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recipe Name="strip" CreatedTime="7/2/2020 10:54:19 AM" UpdatedTime="5/6/2021 4:44:19 PM" ToolVersion=" 3.3.0.0">
+  <Steps>
+    <Step StepName="Set Temperature" TargetTemper="25" Tolerance="1" Duration="0" Wait="True" />
+    <Step StepName="Set Temperature" TargetTemper="72" Tolerance="1" Duration="0" Wait="True" />
+    <Step StepName="Waiting" Time="15" />
+    <Step StepName="Looping" LoopName="Cleav (L21)" Cycles="4">
+      <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="2000" PullValve3="1" PullValve2="6" PumpPullingPaths="1000" PullingPath="FCLane1" Volume="20" Reagent="21" PumpingType="PullPush" />
+      <Step StepName="Waiting" Time="15" />
+    </Step>
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="2000" PullValve3="1" PullValve2="6" PumpPullingPaths="1000" PullingPath="FCLane1" Volume="500" Reagent="23" PumpingType="PullPush" />
+    <Step StepName="Set Temperature" TargetTemper="25" Tolerance="1" Duration="0" Wait="True" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="2000" PullValve3="1" PullValve2="6" PumpPullingPaths="1000" PullingPath="FCLane1" Volume="80" Reagent="1" PumpingType="PullPush" />
+    <Step StepName="Looping" LoopName="Strip (L1)" Cycles="3">
+      <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="2000" PullValve3="1" PullValve2="6" PumpPullingPaths="1000" PullingPath="FCLane1" Volume="45" Reagent="1" PumpingType="PullPush" />
+    </Step>
+  </Steps>
+</Recipe>

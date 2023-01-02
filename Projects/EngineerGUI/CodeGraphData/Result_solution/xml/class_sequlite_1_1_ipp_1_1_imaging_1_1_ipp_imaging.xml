@@ -1,0 +1,1365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging" kind="class" prot="public">
+    <compoundname>Sequlite::Ipp::Imaging::IppImaging</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a167b72255652bd994f1181edcb5eec6f" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.Ipp.Imaging.IppImaging._Is64bit</definition>
+        <argsstring></argsstring>
+        <name>_Is64bit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="377" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a9d5bac47d67b71c26205908a54f91a38" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Sequlite.Ipp.Imaging.IppImaging.IppImaging</definition>
+        <argsstring>()</argsstring>
+        <name>IppImaging</name>
+        <briefdescription>
+<para>A static constructor is called automatically to initialize the class before the first instance is created or any static members are referenced. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="383" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="383" bodyend="399"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a8a449bdac3d15554768726d5f70f415a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+        <definition>static PixelFormatType Sequlite.Ipp.Imaging.IppImaging.GetPixelFormatType</definition>
+        <argsstring>(PixelFormat pixelFormat)</argsstring>
+        <name>GetPixelFormatType</name>
+        <param>
+          <type>PixelFormat</type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="401" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="401" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a1ad0c8a80dbc46a32383401c5b8df5ce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Min</definition>
+        <argsstring>(byte *pSrc, int srcStep, PixelFormatType pixelFormat, Rect roiRect, ref uint minValue)</argsstring>
+        <name>Min</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>roiRect</declname>
+        </param>
+        <param>
+          <type>ref uint</type>
+          <declname>minValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="435" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="435" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ac2b0acd9a665806b327b64ce05c629e6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Max</definition>
+        <argsstring>(byte *pSrc, int srcStep, PixelFormatType pixelFormat, Rect roiRect, ref uint minValue)</argsstring>
+        <name>Max</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>roiRect</declname>
+        </param>
+        <param>
+          <type>ref uint</type>
+          <declname>minValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="540" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="540" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a67940f548af769ded8ab25235c2c5250" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Max</definition>
+        <argsstring>(float *pSrc, int srcStep, IppiSize roiSize, ref float max)</argsstring>
+        <name>Max</name>
+        <param>
+          <type>float *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type>ref float</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="645" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="645" bodyend="661"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a859bb15b2f4252b1b2189b89ce31fdd7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.MinMax</definition>
+        <argsstring>(byte *pSrc, int srcStep, PixelFormatType pixelFormat, Rect roiRect, ref uint minValue, ref uint maxValue)</argsstring>
+        <name>MinMax</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>roiRect</declname>
+        </param>
+        <param>
+          <type>ref uint</type>
+          <declname>minValue</declname>
+        </param>
+        <param>
+          <type>ref uint</type>
+          <declname>maxValue</declname>
+        </param>
+        <briefdescription>
+<para>Computes the minimum and maximum of image pixel values </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="666" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="666" bodyend="792"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a35818ac831011a1a147928f205b65c26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.GetChannel</definition>
+        <argsstring>(byte *pSrc, int srcStep, IppiSize roiSize, byte *[] pDst, int dstStep, PixelFormatType pixelFormat)</argsstring>
+        <name>GetChannel</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type>byte *[]</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+<para>Retrieves the red, green, blue channel of a 24- or 48-bit image. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>srcBitmap</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="884" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="884" bodyend="941"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ab170a74b66ebc6364fcb92cfa5372ac4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.SetChannel</definition>
+        <argsstring>(byte *pSrcR, byte *pSrcG, byte *pSrcB, int srcStep, IppiSize roiSize, PixelFormatType pixelFormat, byte *pDst, int dstStep)</argsstring>
+        <name>SetChannel</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrcR</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pSrcG</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pSrcB</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <briefdescription>
+<para>Insert 8-bit or 16-bit images into into a 24- or 48-bit image. All the images must have to same width and height. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rChBitmap</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gChBitmap</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bChBitmap</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1113" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1113" bodyend="1150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a530d7947e03261da4f93cefac1bebe26" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.SetChannel4C</definition>
+        <argsstring>(byte *pSrcR, byte *pSrcG, byte *pSrcB, byte *pSrcGr, int srcStep, IppiSize roiSize, PixelFormatType pixelFormat, byte *pDst, int dstStep)</argsstring>
+        <name>SetChannel4C</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrcR</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pSrcG</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pSrcB</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pSrcGr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1152" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1152" bodyend="1189"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a65841d76fd540f143431e7dad62e7b81" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.SetChannel</definition>
+        <argsstring>(byte *[] pSrc, int srcStep, IppiSize roiSize, PixelFormatType pixelFormat, byte *pDst, int dstStep)</argsstring>
+        <name>SetChannel</name>
+        <param>
+          <type>byte *[]</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1191" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1191" bodyend="1256"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1aad5a0477c49592ada9890c864e7227ce" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Crop</definition>
+        <argsstring>(byte *pSrc, int srcStep, byte *pDst, int dstStep, Rect roiRect, PixelFormatType pixelType)</argsstring>
+        <name>Crop</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>roiRect</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1258" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1258" bodyend="1327"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a127a39c318fb12c4e6c75ad249c848c0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Resize</definition>
+        <argsstring>(byte *pSrc, IppiSize srcSize, int srcStep, PixelFormatType pixelFormat, byte *pDst, int dstStep, IppiSize dstSize)</argsstring>
+        <name>Resize</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>srcSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>dstSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1329" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1329" bodyend="1392"/>
+        <references refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size_1a1b15c2cfd2b15bc78f20c03e992d74f6" compoundref="_ipp_imaging_8cs" startline="318">Sequlite.Ipp.Imaging.IppiSize.height</references>
+        <references refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size_1a742a6c49d2a9640678184930353b5aaf" compoundref="_ipp_imaging_8cs" startline="317">Sequlite.Ipp.Imaging.IppiSize.width</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1adcb19f426c550b82a9c85289e3ef0b92" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Invert</definition>
+        <argsstring>(byte *pSrc, int srcStep, IppiSize roiSize, PixelFormatType pixelFormat, byte *pDst, int dstStep)</argsstring>
+        <name>Invert</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1394" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1394" bodyend="1468"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a416c46549474e25470f8e1165ff3a55c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Rotate</definition>
+        <argsstring>(byte *pSrc, IppiSize srcSize, int srcStep, byte *pDst, int dstStep, double angle, double xShift, double yShift, int interpolation, PixelFormatType pixelFormat)</argsstring>
+        <name>Rotate</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>srcSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>xShift</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yShift</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>interpolation</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1469" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1469" bodyend="1517"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a59a9caf3cd32041f6275b2513ad3b56e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Flip</definition>
+        <argsstring>(byte *pSrc, int srcStep, PixelFormatType pixelFormat, byte *pDst, int dstStep, IppiSize roiSize, IppiAxis flip)</argsstring>
+        <name>Flip</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a8ae15beffdfeb752bc855bd634c1dcf9" kindref="member">IppiAxis</ref></type>
+          <declname>flip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1518" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1518" bodyend="1572"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1af2d1633272713a0d48017c8406ee21f3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Add</definition>
+        <argsstring>(byte *pSrc1, int src1Step, byte *pSrc2, int src2Step, byte *pDst, int dstStep, IppiSize roiSize, PixelFormatType pixelFormat)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src1Step</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src2Step</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1579" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1579" bodyend="1634"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a4aaa89df1e0fb068bfdf7fcc8ee4ff5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Sub</definition>
+        <argsstring>(byte *pSrc1, int src1Step, byte *pSrc2, int src2Step, byte *pDst, int dstStep, IppiSize roiSize, PixelFormatType pixelFormat)</argsstring>
+        <name>Sub</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src1Step</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src2Step</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1636" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1636" bodyend="1691"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a70d857769092fbc33d76d62ba482fcde" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Mul</definition>
+        <argsstring>(byte *pSrc1, int src1Step, byte *pSrc2, int src2Step, byte *pDst, int dstStep, IppiSize roiSize, PixelFormatType pixelFormat)</argsstring>
+        <name>Mul</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src1Step</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src2Step</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1693" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1693" bodyend="1748"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1af7e69fd05c99c7d71fbde2983bbf76fa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.MulC</definition>
+        <argsstring>(float *pSrc, int srcStep, float value, float *pDst, int dstStep, IppiSize roiSize)</argsstring>
+        <name>MulC</name>
+        <param>
+          <type>float *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1750" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1750" bodyend="1764"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a2427858ecc6b6573ca4f8e0884f0a27d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Div</definition>
+        <argsstring>(byte *pSrc1, int src1Step, byte *pSrc2, int src2Step, byte *pDst, int dstStep, IppiSize roiSize, PixelFormatType pixelFormat)</argsstring>
+        <name>Div</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src1Step</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src2Step</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1766" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1766" bodyend="1821"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1aaaa4c22542859cf203c8bf64d151d3f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Div_32f_C1R</definition>
+        <argsstring>(float *pSrc1, int src1Step, float *pSrc2, int src2Step, float *pDst, int dstStep, IppiSize roiSize)</argsstring>
+        <name>Div_32f_C1R</name>
+        <param>
+          <type>float *</type>
+          <declname>pSrc1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src1Step</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pSrc2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src2Step</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1825" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1825" bodyend="1839"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1aae6743d6ec4063c7cda61c5f5674b09b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.DivC_32f_C1R</definition>
+        <argsstring>(float *pSrcData, int srcStep, float value, float *pDstData, int dstStep, IppiSize roiSize)</argsstring>
+        <name>DivC_32f_C1R</name>
+        <param>
+          <type>float *</type>
+          <declname>pSrcData</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pDstData</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1841" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1841" bodyend="1855"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ab07216f3385112139b834a79b361915d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Add_32f_C1R</definition>
+        <argsstring>(float *pSrc1, int src1Step, float *pSrc2, int src2Step, float *pDst, int dstStep, IppiSize roiSize)</argsstring>
+        <name>Add_32f_C1R</name>
+        <param>
+          <type>float *</type>
+          <declname>pSrc1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src1Step</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pSrc2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src2Step</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1857" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1857" bodyend="1871"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a5847cd5f348281f46d7c9d4eb426c88a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.MedianFilter</definition>
+        <argsstring>(byte *pSrc, int srcStep, IppiSize roiSize, PixelFormatType pixelFormat, byte *pDst, int dstStep)</argsstring>
+        <name>MedianFilter</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1874" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1874" bodyend="1958"/>
+        <references refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size_1a1b15c2cfd2b15bc78f20c03e992d74f6" compoundref="_ipp_imaging_8cs" startline="318">Sequlite.Ipp.Imaging.IppiSize.height</references>
+        <references refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size_1a742a6c49d2a9640678184930353b5aaf" compoundref="_ipp_imaging_8cs" startline="317">Sequlite.Ipp.Imaging.IppiSize.width</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ac81a974f41056e2071a07402bc3f6c9d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.CopyReplicateBorder</definition>
+        <argsstring>(byte *pSrc, int srcStep, IppiSize srcRoiSize, PixelFormatType pixelFormat, byte *pDst, int dstStep, IppiSize dstRoiSize, int topBorderHeight, int leftBorderWidth)</argsstring>
+        <name>CopyReplicateBorder</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>srcRoiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>dstRoiSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>topBorderHeight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>leftBorderWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="1960" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="1960" bodyend="2015"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1aa69d32144ed48966d8ceeae119078d28" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.CopyConstBorder</definition>
+        <argsstring>(byte *pSrc, int srcStep, IppiSize srcRoiSize, PixelFormatType pixelFormat, byte *pDst, int dstStep, IppiSize dstRoiSize, int topBorderHeight, int leftBorderWidth, ushort value)</argsstring>
+        <name>CopyConstBorder</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>srcRoiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>dstRoiSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>topBorderHeight</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>leftBorderWidth</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="2017" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="2017" bodyend="2082"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1aef7e1aeebef9254214b36e2a3536830d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.MeanStdDev</definition>
+        <argsstring>(byte *pSrc, int srcStep, IppiSize roiSize, PixelFormatType pixelFormat, int coi, double *pMean, double *pStdDev)</argsstring>
+        <name>MeanStdDev</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>coi</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pMean</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>pStdDev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="2086" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="2086" bodyend="2140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a6fbeb9b8427e7ce66d181c3f4738b00a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.HistogramRange</definition>
+        <argsstring>(byte *pSrc, int srcStep, PixelFormatType pixelFormat, IppiSize roiSize, int *[] pHist, int *[] pLevels, int[] nLevels)</argsstring>
+        <name>HistogramRange</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type>int *[]</type>
+          <declname>pHist</declname>
+        </param>
+        <param>
+          <type>int *[]</type>
+          <declname>pLevels</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>nLevels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="2142" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="2142" bodyend="2196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ac5dedf8dd628721b6cc04418113a7e63" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.HistogramEven</definition>
+        <argsstring>(byte *pSrc, int srcStep, PixelFormatType pixelFormat, IppiSize roiSize, int *[] pHist, int *[] pLevels, int[] nLevels, int[] lowerLevel, int[] upperLevel)</argsstring>
+        <name>HistogramEven</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <param>
+          <type>int *[]</type>
+          <declname>pHist</declname>
+        </param>
+        <param>
+          <type>int *[]</type>
+          <declname>pLevels</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>nLevels</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>lowerLevel</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>upperLevel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="2204" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="2204" bodyend="2258"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1abe4035a58a9daf27421a685b31baa483" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Convert8bppTo16bpp</definition>
+        <argsstring>(byte *pSrc, int srcStep, PixelFormatType pixelFormat, byte *pDst, int dstStep, IppiSize roiSize)</argsstring>
+        <name>Convert8bppTo16bpp</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a0100ff8790e5bcc2d33c6ebc634b482d" kindref="member">PixelFormatType</ref></type>
+          <declname>pixelFormat</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="2260" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="2260" bodyend="2296"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ad81f61eb6f3a2bf2033e73711c049e4d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Convert_16u32f_C1R</definition>
+        <argsstring>(byte *pSrc, int srcStep, float *pDst, int dstStep, IppiSize roiSize)</argsstring>
+        <name>Convert_16u32f_C1R</name>
+        <param>
+          <type>byte *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_size" kindref="compound">IppiSize</ref></type>
+          <declname>roiSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="2298" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="2298" bodyend="2312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a507092064e62bbb5f7c6c9b6385b5e9a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="namespace_sequlite_1_1_ipp_1_1_imaging_1a6f556a6f4343285e224525e729c460c7" kindref="member">IppStatus</ref></type>
+        <definition>static unsafe IppStatus Sequlite.Ipp.Imaging.IppImaging.Convert_32f16u_C1R</definition>
+        <argsstring>(float *pSrc, int srcStep, byte *pDst, int dstStep, int width, int height)</argsstring>
+        <name>Convert_32f16u_C1R</name>
+        <param>
+          <type>float *</type>
+          <declname>pSrc</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>srcStep</declname>
+        </param>
+        <param>
+          <type>byte *</type>
+          <declname>pDst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dstStep</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="2314" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="2314" bodyend="2330"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="619">
+        <label>Sequlite.Ipp.Imaging.IppImaging</label>
+        <link refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging"/>
+        <childnode refid="620" relation="usage">
+          <edgelabel>_Is64bit</edgelabel>
+        </childnode>
+      </node>
+      <node id="620">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="376" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="375" bodyend="2331"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a167b72255652bd994f1181edcb5eec6f" prot="private" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>_Is64bit</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1af2d1633272713a0d48017c8406ee21f3" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Add</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ab07216f3385112139b834a79b361915d" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Add_32f_C1R</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1abe4035a58a9daf27421a685b31baa483" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Convert8bppTo16bpp</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ad81f61eb6f3a2bf2033e73711c049e4d" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Convert_16u32f_C1R</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a507092064e62bbb5f7c6c9b6385b5e9a" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Convert_32f16u_C1R</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1aa69d32144ed48966d8ceeae119078d28" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>CopyConstBorder</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ac81a974f41056e2071a07402bc3f6c9d" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>CopyReplicateBorder</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1aad5a0477c49592ada9890c864e7227ce" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Crop</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a2427858ecc6b6573ca4f8e0884f0a27d" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Div</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1aaaa4c22542859cf203c8bf64d151d3f6" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Div_32f_C1R</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1aae6743d6ec4063c7cda61c5f5674b09b" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>DivC_32f_C1R</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a59a9caf3cd32041f6275b2513ad3b56e" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Flip</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a35818ac831011a1a147928f205b65c26" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>GetChannel</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a8a449bdac3d15554768726d5f70f415a" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>GetPixelFormatType</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ac5dedf8dd628721b6cc04418113a7e63" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>HistogramEven</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a6fbeb9b8427e7ce66d181c3f4738b00a" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>HistogramRange</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1adcb19f426c550b82a9c85289e3ef0b92" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Invert</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a9d5bac47d67b71c26205908a54f91a38" prot="private" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>IppImaging</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ac2b0acd9a665806b327b64ce05c629e6" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Max</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a67940f548af769ded8ab25235c2c5250" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Max</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1aef7e1aeebef9254214b36e2a3536830d" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>MeanStdDev</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a5847cd5f348281f46d7c9d4eb426c88a" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>MedianFilter</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a1ad0c8a80dbc46a32383401c5b8df5ce" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Min</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a859bb15b2f4252b1b2189b89ce31fdd7" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>MinMax</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a70d857769092fbc33d76d62ba482fcde" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Mul</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1af7e69fd05c99c7d71fbde2983bbf76fa" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>MulC</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a127a39c318fb12c4e6c75ad249c848c0" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Resize</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a416c46549474e25470f8e1165ff3a55c" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Rotate</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1ab170a74b66ebc6364fcb92cfa5372ac4" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>SetChannel</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a65841d76fd540f143431e7dad62e7b81" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>SetChannel</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a530d7947e03261da4f93cefac1bebe26" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>SetChannel4C</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_imaging_1a4aaa89df1e0fb068bfdf7fcc8ee4ff5d" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppImaging</scope><name>Sub</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

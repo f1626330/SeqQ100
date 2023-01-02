@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o" kind="struct" prot="public">
+    <compoundname>Photometrics::Pvcam::PvTypes::FRAME_INFO</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1ad3d254ba8258064137aa93a1af9f0b0b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_p_v_c_a_m___f_r_a_m_e___i_n_f_o___g_u_i_d" kindref="compound">PVCAM_FRAME_INFO_GUID</ref></type>
+        <definition>PVCAM_FRAME_INFO_GUID Photometrics.Pvcam.PvTypes.FRAME_INFO.FrameInfoGUID</definition>
+        <argsstring></argsstring>
+        <name>FrameInfoGUID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="797" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="797" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1aa35992ff6e96d87ba222a198c97b74f7" prot="public" static="no" mutable="no">
+        <type>Int16</type>
+        <definition>Int16 Photometrics.Pvcam.PvTypes.FRAME_INFO.hCam</definition>
+        <argsstring></argsstring>
+        <name>hCam</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="799" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="799" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1af2b6e45a022339cab5c9a688e7eb1a79" prot="public" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 Photometrics.Pvcam.PvTypes.FRAME_INFO.FrameNr</definition>
+        <argsstring></argsstring>
+        <name>FrameNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="801" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="801" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1a34322ce13ad18357db4e75ae8c184363" prot="public" static="no" mutable="no">
+        <type>Int64</type>
+        <definition>Int64 Photometrics.Pvcam.PvTypes.FRAME_INFO.TimeStamp</definition>
+        <argsstring></argsstring>
+        <name>TimeStamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="803" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="803" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1aa761adad44da5d8a1a4ab3b85accca04" prot="public" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 Photometrics.Pvcam.PvTypes.FRAME_INFO.ReadoutTime</definition>
+        <argsstring></argsstring>
+        <name>ReadoutTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="805" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="805" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1aa373e97bdeed197b961cb2826f193734" prot="public" static="no" mutable="no">
+        <type>Int64</type>
+        <definition>Int64 Photometrics.Pvcam.PvTypes.FRAME_INFO.TimeStampBOF</definition>
+        <argsstring></argsstring>
+        <name>TimeStampBOF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="807" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="807" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="463">
+        <label>Photometrics.Pvcam.PvTypes.PVCAM_FRAME_INFO_GUID</label>
+        <link refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_p_v_c_a_m___f_r_a_m_e___i_n_f_o___g_u_i_d"/>
+      </node>
+      <node id="462">
+        <label>Photometrics.Pvcam.PvTypes.FRAME_INFO</label>
+        <link refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o"/>
+        <childnode refid="463" relation="usage">
+          <edgelabel>FrameInfoGUID</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="796" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="795" bodyend="808"/>
+    <listofallmembers>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1ad3d254ba8258064137aa93a1af9f0b0b" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::FRAME_INFO</scope><name>FrameInfoGUID</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1af2b6e45a022339cab5c9a688e7eb1a79" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::FRAME_INFO</scope><name>FrameNr</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1aa35992ff6e96d87ba222a198c97b74f7" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::FRAME_INFO</scope><name>hCam</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1aa761adad44da5d8a1a4ab3b85accca04" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::FRAME_INFO</scope><name>ReadoutTime</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1a34322ce13ad18357db4e75ae8c184363" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::FRAME_INFO</scope><name>TimeStamp</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o_1aa373e97bdeed197b961cb2826f193734" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::FRAME_INFO</scope><name>TimeStampBOF</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::ContentToPathConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter_1a0b9dc92849d80ebf1ab6963a313a9c30" prot="private" static="yes" mutable="no">
+        <type>readonly <ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter" kindref="compound">ContentToPathConverter</ref></type>
+        <definition>readonly ContentToPathConverter Sequlite.WPF.Framework.ContentToPathConverter.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter" kindref="compound">ContentToPathConverter</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ContentToPathConverter.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ContentToPathConverter.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter_1a8025c52ebbfe08f59d85ea9de9513820" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter" kindref="compound">ContentToPathConverter</ref></type>
+        <definition>ContentToPathConverter Sequlite.WPF.Framework.ContentToPathConverter.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ContentToPathConverter.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ContentToPathConverter.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter_1ac1bf912990c9ae458d1c37877cbef900" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.ContentToPathConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>System.Globalization.CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ContentToPathConverter.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ContentToPathConverter.cs" bodystart="20" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter_1a0f73b62bfce93485dad220574b76b292" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.ContentToPathConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>System.Globalization.CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ContentToPathConverter.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ContentToPathConverter.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="301">
+        <label>IValueConverter</label>
+      </node>
+      <node id="300">
+        <label>Sequlite.WPF.Framework.ContentToPathConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="303">
+        <label>IValueConverter</label>
+      </node>
+      <node id="302">
+        <label>Sequlite.WPF.Framework.ContentToPathConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter"/>
+        <childnode refid="303" relation="public-inheritance">
+        </childnode>
+        <childnode refid="304" relation="usage">
+          <edgelabel>value</edgelabel>
+        </childnode>
+      </node>
+      <node id="304">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ContentToPathConverter.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ContentToPathConverter.cs" bodystart="10" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter_1ac1bf912990c9ae458d1c37877cbef900" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::ContentToPathConverter</scope><name>Convert</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter_1a0f73b62bfce93485dad220574b76b292" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::ContentToPathConverter</scope><name>ConvertBack</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter_1a0b9dc92849d80ebf1ab6963a313a9c30" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::ContentToPathConverter</scope><name>value</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter_1a8025c52ebbfe08f59d85ea9de9513820" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::ContentToPathConverter</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

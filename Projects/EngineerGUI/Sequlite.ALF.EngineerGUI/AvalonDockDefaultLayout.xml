@@ -1,0 +1,7 @@
+﻿<DockingManager version="1.3.0">
+  <ResizingPanel ResizeWidth="*" ResizeHeight="*" EffectiveSize="0,0" Orientation="Horizontal">
+    <DocumentPane IsMain="true" ResizeWidth="*" ResizeHeight="*"  />
+  </ResizingPanel>
+  <Hidden></Hidden>
+  <Windows />
+</DockingManager>

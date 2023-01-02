@@ -1,0 +1,814 @@
+{ //DEFAULT CONFIG FILE. Modify this file for each instrument
+  "Version": 3, //configuration file internal version
+
+  "LoggerConfig": {
+	//Optional:NONE,NORMAL,DEBUG,TEST,STARTUP,OLAERROR,OLAWARNING,BENCHMARK
+    "FilterOutFlags": "NONE", //set to NONE to log everything
+    "OLAFilterOutFlags": "DEBUG" //set to NONE to log everything
+  },
+
+  "SimulationConfig": {
+    "IsSimulation": false,//true:switch to simulation mode
+    "IsMachineV2": true
+  },
+
+  "ProcessorAffinity": "0x3FF", //GUI application affinity, set to 0 if don't want to change affinity
+  "MaxMemoryUsage_GB": 20, // How much memory (GB) is needed for anything besides OLA?
+  "OLAMinimumTotalThreadCount": 118, // Special setting to increase the number of threads allocated to OLA on Windows 10 systems with >64 logical cores
+  "EnableSaveAFImage": false,//Special setting to save autofocus images
+
+  "RecipeRunConfig": {
+    //MYDOC or PROGRAMDATA, or otherwise  must be a full use specified path such as "C:\\temp" 
+    //MYDOC =  windows my document location
+    //PROGRAMDATA = windows programData location
+    "ImagingBaseDirSelection": "D:\\",
+
+    //From ImagingBaseDirSelection, recipe run logging files go to the following subdir 
+    "RecipeRunLogSubDir": "\\Sequlite\\ALF\\Recipe\\Recipelogs",
+
+    //From ImagingBaseDirSelection, acquired images are saved to subdir "ExperimentName\\SequenceReadName\\Data"
+    "AcquiredImageSubDir": "\\Sequlite\\ALF\\Recipe\\Images",
+
+    // back up acquired images to its subdir "ExperimentName\\SequenceReadName\\Data"
+    "AcquiredImageBackupLocation": "\\\\SequLiteNAS2\\Experiments",
+    "DataBackupOptions": "ImageBackup", // available settings: "NoBackup", "ImageBackup", "OLABackup", or "ImageBackup,OLABackup"
+    "UseSubFolderForDataBackup": true, // an Instrument sub-folder will be appended
+    "AnalysisTaskLocation": "\\\\SequLiteNAS2\\Tasks", // location for creating a task for downstream analysis of OLA results
+
+    "MaximumReadlength": 75,//obsolete
+    "OLADataSizeMBPerTile": 1024,//OLA data size pre tile in MB for disk space requirement    
+    "SaveSimulationImages": false,//save image in simulation mode
+
+    //location for OLA executables and configuration files such as run.json (original named run.sh) 
+    "OLADir": "C:\\bin",
+
+    //OLASimulationImageBaseDir must be a full path such as "C:\\OLA\\Images" or an empty string.
+    //If a full path is given, all images must be under its subdir "SequenceReadName\\Data";
+    //If an empty string is set, the default imaging location will be determined 
+    //by the above settings ImagingBaseDirSelection and AcquiredImageSubDir
+    //i.e. ImagingBaseDirSelection + AcquiredImageSubDir + "\\ExperimentName\\SequenceReadName\\Data"
+    "OLASimulationImageBaseDir": "E:\\Sequlite\\ALF\\Recipe\\Images\\b281x_210928-115910",
+    "OLAProcessSimulationImages": false,//OLA in simulation mode
+    "UsingTPL": true, // using Task parallel library to run OLA
+    "UsingTPLForExtractIntensitiesByCell": true,//using task parallel to ExtractIntensities
+    "OLASingleExtractMultipleImagesByCell": true,//obsolete
+    "OLASingleExtractMultipleImagesByCellWithJC": false, // If true, ExtractInt will join cycles by itself
+    "OLAUseJoinCycles": false, // cycles will be joined before each BaseCall execution
+    "OLAJoinCyclesAtRunEnd": true, // Cycles will be joined after all cycles are processed. Not needed for BaseCall, but is useful for downstream analysis. Cannot be done if OLABaseCallOnlyPFClusters is true, because all bli-s must have the same number of clusters.
+    "OLAMinimumCyclesToCreateTemplates": 4, // Use this # of cycles making sure OLAMinimumCyclesToCallBases is at least this big. 0: the software will select everything automatically.
+    "OLAMinimumCyclesToCallBases": 5,//The starting point to call bases
+    "OLABaseCallEveryNthCycle": 5, // Call bases, starting with OLAMinimumCyclesToCallBases cycle, every OLABaseCallEveryNthCycle cycles or on the last current cycle - whichever is larger
+    "OLASlidingWindowMain": true, // Use sliding window for Read1 and Read2
+    "OLASlidingWindowIndex": true, // Use sliding window for Index1 and Index2
+    "OLASlidingWindowOverlapCycles": 2, // Start the calling window from the cycle equal to the last cycle minus the overlap
+    "OLAMinimumOutput": true,//Minimum basecall output files
+    "OLAUseDLL": false,//Unimplemented functionality
+    "OLAIndexCLR": false, // If true, the proc-int-clr.fastq file of Read1 will be indexed. If false, only proc-int-cpf.fastq file of Read1 will be indexed.
+    "OLAUpdateCUIOnEveryTileBaseCall": true, // If false, CUI will be updated only when all tiles are processed for the current range of cycles
+    "OLACatchHardwareExceptionsInCpp": false,//config algorithm parameter -y for catching hardware exceptions
+    "OLABackupOffline": true,//obsolete
+    "OLABaseCallOnlyPFClusters": true,//call pass filter clusters
+
+    // Sparse mapping options to be used with the Sliding Window, for all base calling ranges:
+    // 0: do not use sparse mapping, i.e. always load all cycles up to the current. Ignore OLASparseMappingCycles.
+    // 1: load the minimum number of cycles required by the -x BaseCall parameter. Ignore OLASparseMappingCycles.
+    // 2: load a constant number of cycles equal to the OLASparseMappingCycles.
+    // 3: load all cycles for as long as PF clusters are not settled, then keep loading a constant number of cycles 
+    // equal to the maximum number of cycles loaded during PF cluster search. Ignore OLASparseMappingCycles.
+    // 4: same as 3, but, after PF clusters are settled, load a constant number of cycles equal to the OLASparseMappingCycles.
+    // NOTE: 
+    // (1) The sparse mapping configuration is used for setting the 11th phasing parameter (-g) for BaseCall
+    // (2) If OLABaseCallOnlyPFClusters is true, OLASparseMappingOption must be 1.
+    "OLASparseMappingOption": 1,
+    "OLASparseMappingCycles": 0,
+
+    // Y-ngrams can be used only if the parameter file contains a YG entry.
+    // If y-ngrams are used, they will always be used on the last range of cycles
+    // If OLAFirstCycleToUseYngrams is <= 0, y-ngrams will be used only on the last range of cycles
+    // If OLAFirstCycleToUseYngrams is > 0, y-ngrams will be first used on the first range of cycles, which includes the specified cycle
+    // It is better to set OLAFirstCycleToUseYngrams to at least 30 
+    "OLAFirstCycleToUseYngrams": -1,
+
+    // OLAUseYngramsWithStepCycles=N means y-ngrams will be used on all ranges starting with the first range where y-ngrams are used, then going with step N cycles, and ending with the last range of cycles
+    // If OLAUseYngramsWithStepCycles is <=0, y-ngrams will be used only on 2 ranges: OLAFirstCycleToUseYngrams and the last range
+    // If OLAUseYngramsWithStepCycles > 0, make this a multiple of the sliding window step, i.e. OLABaseCallEveryNthCycle
+    "OLAUseYngramsWithStepCycles": -1,
+
+	//config algorithm parameter -x setting
+    "OLAOutOfRangeBaseCallAllowed": true,
+    "OLAUseScoresFromPreviousRangeWhenDefiningPFClusters": true,
+    "OLASmoothBCQC": true,
+    "OLASmoothBCQCIncludeOutOfRange": true,
+
+    "OLAParams_Main_nonHG":  "p_b165x2_no_r2_D12g8_noQM",//obsolete
+    "OLAParams_Main_HG":  "p_b165x2_YG_r2_D8g0_noQM",//Specifies the algorithm parameter file for Read
+    "OLAParams_Index": "p_b165x2_idx_r2_D16"//Specifies the algorithm parameter file for Index
+  },
+  //"OLABaseCallRanges": [
+  //  {
+  //    "Type": "AllCycle",
+  //    "Width": 25,
+  //    "Overlap": 0,
+  //    "Repeat": 1
+  //  },
+  //  {
+  //    "Type": "SlidingWindow",
+  //    "Width": 1,
+  //    "Overlap": 0,
+  //    "Repeat": 50
+  //  }
+  //],
+  "BinFactors": [
+    {
+      "Position": 1,
+      "DisplayName": "1x1",
+      "VerticalBins": 1,
+      "HorizontalBins": 1
+    },
+    {
+      "Position": 2,
+      "DisplayName": "2x2",
+      "VerticalBins": 2,
+      "HorizontalBins": 2
+    },
+    {
+      "Position": 3,
+      "DisplayName": "3x3",
+      "VerticalBins": 3,
+      "HorizontalBins": 3
+    },
+    {
+      "Position": 4,
+      "DisplayName": "4x4",
+      "VerticalBins": 4,
+      "HorizontalBins": 4
+    },
+    {
+      "Position": 5,
+      "DisplayName": "6x6",
+      "VerticalBins": 6,
+      "HorizontalBins": 6
+    },
+    {
+      "Position": 6,
+      "DisplayName": "8x8",
+      "VerticalBins": 8,
+      "HorizontalBins": 8
+    }
+  ],
+  "Gains": [
+    {
+      "Position": 1,
+      "Value": 1,
+      "DisplayName": "1x"
+    },
+    {
+      "Position": 2,
+      "Value": 2,
+      "DisplayName": "2x"
+    },
+    {
+      "Position": 3,
+      "Value": 3,
+      "DisplayName": "3x"
+
+    },
+    {
+      "Position": 5,
+      "Value": 5,
+      "DisplayName": "5x"
+    },
+    {
+      "Position": 10,
+      "Value": 10,
+      "DisplayName": "10x"
+    },
+    {
+      "Position": 15,
+      "Value": 15,
+      "DisplayName": "15x"
+    },
+    {
+      "Position": 20,
+      "Value": 20,
+      "DisplayName": "20x"
+    },
+    {
+      "Position": 25,
+      "Value": 25,
+      "DisplayName": "25x"
+    }
+  ],
+  "CameraDefaultSettings": {
+    "BinFactor": 1,
+    "Gain": 1,
+    "RoiLeft": 0,
+    "RoiTop": 0,
+    "RoiWidth": 0,
+    "RoiHeight": 0,
+    "ReadoutSpeed": "Fast",
+    "ExtraExposure": 0.1
+  },
+  "MotionSettings": {
+    "Filter": {
+      "SpeedRange": {
+        "LimitLow": 0,
+        "LimitHigh": 10
+      },
+      "AccelRange": {
+        "LimitLow": 0,
+        "LimitHigh": 500
+      },
+      "MotionRange": {
+        "LimitLow": 0,
+        "LimitHigh": 4
+      }
+    },
+    "YStage": {
+      "SpeedRange": {
+        "LimitLow": 0,
+        "LimitHigh": 10
+      },
+      "AccelRange": {
+        "LimitLow": 0,
+        "LimitHigh": 150
+      },
+      "MotionRange": {
+        "LimitLow": 0,
+        "LimitHigh": 150
+      }
+    },
+    "ZStage": {
+      "SpeedRange": {
+        "LimitLow": 0,
+        "LimitHigh": 3000
+      },
+      "AccelRange": {
+        "LimitLow": 0,
+        "LimitHigh": 3000
+      },
+      "MotionRange": {
+        "LimitLow": -2000,
+        "LimitHigh": 1100
+      }
+    },
+    "Cartridge": {
+      "SpeedRange": {
+        "LimitLow": 0,
+        "LimitHigh": 3
+      },
+      "AccelRange": {
+        "LimitLow": 0,
+        "LimitHigh": 500
+      },
+      "MotionRange": {
+        "LimitLow": 0,
+        "LimitHigh": 145
+      }
+    },
+    "XStage": {
+      "SpeedRange": {
+        "LimitLow": 0,
+        "LimitHigh": 100
+      },
+      "AccelRange": {
+        "LimitLow": 0,
+        "LimitHigh": 20000
+      },
+      "MotionRange": {
+        "LimitLow": -2,
+        "LimitHigh": 38
+      }
+    },
+    "FCDoor": {
+      "SpeedRange": {
+        "LimitLow": 0,
+        "LimitHigh": 30
+      },
+      "AccelRange": {
+        "LimitLow": 0,
+        "LimitHigh": 150
+      },
+      "MotionRange": {
+        "LimitLow": -5,
+        "LimitHigh": 85
+      }
+    }
+  },
+  "MotionStartupSettings": {
+    "Filter": {
+      "Speed": 4.5,
+      "Accel": 300,
+      "Absolute": 1,
+      "Relative": 1
+    },
+    "YStage": {
+      "Speed": 7,
+      "Accel": 120,
+      "Absolute": 135,
+      "Relative": 1
+    },
+    "ZStage": {
+      "Speed": 1500,
+      "Accel": 1500,
+      "Absolute": 0,
+      "Relative": 0.5
+    },
+    "Cartridge": {
+      "Speed": 5,
+      "Accel": 500,
+      "Absolute": 0,
+      "Relative": 1
+    },
+    "XStage": {
+      "Speed": 100,
+      "Accel": 2500,
+      "Absolute": 0,
+      "Relative": 1
+    },
+    "FCDoor": {
+      "Speed": 20,
+      "Accel": 120,
+      "Absolute": 0,
+      "Relative": 1
+    }
+  },
+  "MotionHomeSettings": {
+    "Filter": {
+      "Speed": 4.5,
+      "Accel": 300,
+      "Absolute": 1,
+      "Relative": 1
+    },
+    "YStage": {
+      "Speed": 7,
+      "Accel": 120,
+      "Absolute": 0,
+      "Relative": 0
+    },
+    "ZStage": {
+      "Speed": 1500,
+      "Accel": 1500,
+      "Absolute": 0,
+      "Relative": 0
+    },
+    "Cartridge": {
+      "Speed": 5,
+      "Accel": 500,
+      "Absolute": 0,
+      "Relative": 0
+    },
+    "XStage": {
+      "Speed": 20,
+      "Accel": 20000,
+      "Absolute": 0,
+      "Relative": 0
+    },
+    "FCDoor": {
+      "Speed": 20,
+      "Accel": 120,
+      "Absolute": 0,
+      "Relative": 0
+    }
+  },
+  "MotionFactors": {
+    "Filter": 1000,
+    "YStage": 1600,
+    "ZStage": 1,
+    "Cartridge": 800,
+    "XStage": 10000.0,
+    "FCDoor": 240
+  },
+  "MotionEncoderFactors": {
+    "XStage": 10000.0,
+    "YStage": 2000
+  },
+  "YStageRegions": [
+    {
+      "Position": 0,
+      "Ypos": 0,
+      "Zpos": 10000
+    },
+    {
+      "Position": 1,
+      "Ypos": 0.73,
+      "Zpos": 10000
+    },
+    {
+      "Position": 2,
+      "Ypos": 1.46,
+      "Zpos": 10000
+    },
+    {
+      "Position": 3,
+      "Ypos": 2.19,
+      "Zpos": 10000
+    },
+    {
+      "Position": 4,
+      "Ypos": 2.92,
+      "Zpos": 10000
+    },
+    {
+      "Position": 5,
+      "Ypos": 3.65,
+      "Zpos": 10000
+    },
+    {
+      "Position": 6,
+      "Ypos": 4.38,
+      "Zpos": 10000
+    },
+    {
+      "Position": 7,
+      "Ypos": 5.11,
+      "Zpos": 10000
+    },
+    {
+      "Position": 8,
+      "Ypos": 5.84,
+      "Zpos": 10000
+    },
+    {
+      "Position": 9,
+      "Ypos": 6.57,
+      "Zpos": 10000
+    },
+    {
+      "Position": 10,
+      "Ypos": 7.3,
+      "Zpos": 10000
+    },
+    {
+      "Position": 11,
+      "Ypos": 8.03,
+      "Zpos": 10000
+    },
+    {
+      "Position": 12,
+      "Ypos": 8.76,
+      "Zpos": 10000
+    },
+    {
+      "Position": 13,
+      "Ypos": 9.49,
+      "Zpos": 10000
+    },
+    {
+      "Position": 14,
+      "Ypos": 10.22,
+      "Zpos": 10000
+    },
+    {
+      "Position": 15,
+      "Ypos": 10.95,
+      "Zpos": 10000
+    },
+    {
+      "Position": 16,
+      "Ypos": 11.68,
+      "Zpos": 10000
+    },
+    {
+      "Position": 17,
+      "Ypos": 12.41,
+      "Zpos": 10000
+    },
+    {
+      "Position": 18,
+      "Ypos": 13.14,
+      "Zpos": 10000
+    },
+    {
+      "Position": 19,
+      "Ypos": 13.87,
+      "Zpos": 10000
+    },
+    {
+      "Position": 20,
+      "Ypos": 14.6,
+      "Zpos": 10000
+    },
+    {
+      "Position": 21,
+      "Ypos": 15.33,
+      "Zpos": 10000
+    },
+    {
+      "Position": 22,
+      "Ypos": 16.06,
+      "Zpos": 10000
+    },
+    {
+      "Position": 23,
+      "Ypos": 16.79,
+      "Zpos": 10000
+    },
+    {
+      "Position": 24,
+      "Ypos": 17.52,
+      "Zpos": 10000
+    },
+    {
+      "Position": 25,
+      "Ypos": 18.25,
+      "Zpos": 10000
+    },
+    {
+      "Position": 26,
+      "Ypos": 18.98,
+      "Zpos": 10000
+    },
+    {
+      "Position": 27,
+      "Ypos": 19.71,
+      "Zpos": 10000
+    },
+    {
+      "Position": 28,
+      "Ypos": 20.44,
+      "Zpos": 10000
+    },
+    {
+      "Position": 29,
+      "Ypos": 21.17,
+      "Zpos": 10000
+    },
+    {
+      "Position": 30,
+      "Ypos": 21.9,
+      "Zpos": 10000
+    },
+    {
+      "Position": 31,
+      "Ypos": 22.63,
+      "Zpos": 10000
+    },
+    {
+      "Position": 32,
+      "Ypos": 23.36,
+      "Zpos": 10000
+    },
+    {
+      "Position": 33,
+      "Ypos": 24.09,
+      "Zpos": 10000
+    },
+    {
+      "Position": 34,
+      "Ypos": 24.82,
+      "Zpos": 10000
+    },
+    {
+      "Position": 35,
+      "Ypos": 25.55,
+      "Zpos": 10000
+    },
+    {
+      "Position": 36,
+      "Ypos": 26.28,
+      "Zpos": 10000
+    },
+    {
+      "Position": 37,
+      "Ypos": 27.01,
+      "Zpos": 10000
+    },
+    {
+      "Position": 38,
+      "Ypos": 27.74,
+      "Zpos": 10000
+    },
+    {
+      "Position": 39,
+      "Ypos": 28.47,
+      "Zpos": 10000
+    },
+    {
+      "Position": 40,
+      "Ypos": 29.2,
+      "Zpos": 10000
+    },
+    {
+      "Position": 41,
+      "Ypos": 29.93,
+      "Zpos": 10000
+    }
+  ],
+
+  "FilterPositionSettings": {
+    "1": 0.32,
+    "2": 1.92,
+    "3": 3.52,
+    "4": 5.12
+  },
+  "LEDSettings": [
+    {
+      "Type": "Green",
+      "Range": {
+        "LimitLow": 1,
+        "LimitHigh": 100
+      },
+      "MaxOnTime": 100
+    },
+    {
+      "Type": "Red",
+      "Range": {
+        "LimitLow": 1,
+        "LimitHigh": 100
+      },
+      "MaxOnTime": 100
+    },
+    {
+      "Type": "White",
+      "Range": {
+        "LimitLow": 1,
+        "LimitHigh": 100
+      },
+      "MaxOnTime": 10000
+    }
+  ],
+  "FluidicsSettings": {
+    "PumpSetting": {
+      "PosToVolFactor": 6,
+      "AspRateLimitLow": 25,
+      "AspRateLimitHigh": 10000,
+      "DispRateLimitLow": 25,
+      "DispRateLimitHigh": 20000,
+      "PumpVolLimitLow": 10,
+      "PumpVolLimitHigh": 20000,
+      "DelayTime": 3
+    },
+    "ChemiSetting": {
+      "TemperLimitLow": 0,
+      "TemperLimitHigh": 120,
+      "TemperRampLimitLow": 0.001,
+      "TemperRampLimitHigh": 2
+    },
+    "DefaultPumping": {
+      "AspRate": 2000,
+      "DisRate": 15000,
+      "Volume": 500,
+      "Buffer1Pos": 21,
+      "Buffer2Pos": 22,
+      "Buffer3Pos": 23
+    },
+    "DefaultPumpPath": {
+      "Test1": {
+        "valve2": 1,
+        "valve3": 2,
+        "pumpvalve": "0111"
+      },
+      "Test2": {
+        "valve2": 2,
+        "valve3": 2,
+        "pumpvalve": "1011"
+      },
+      "Test3": {
+        "valve2": 3,
+        "valve3": 2,
+        "pumpvalve": "1101"
+      },
+      "Test4": {
+        "valve2": 4,
+        "valve3": 2,
+        "pumpvalve": "1110"
+      },
+      "BypassPrime": {
+        "valve2": 5,
+        "valve3": 2,
+        "pumpvalve": "0000"
+      },
+      "Bypass": {
+        "valve2": 6,
+        "valve3": 3,
+        "pumpvalve": "0000"
+      },
+      "TestBypass1": {
+        "valve2": 5,
+        "valve3": 2,
+        "pumpvalve": "0111"
+      },
+      "TestBypass2": {
+        "valve2": 5,
+        "valve3": 2,
+        "pumpvalve": "1011"
+      },
+      "FCLane1": {
+        "valve2": 6,
+        "valve3": 1,
+        "pumpvalve": "1000"
+      },
+      "FCLane2": {
+        "valve2": 6,
+        "valve3": 1,
+        "pumpvalve": "0100"
+      },
+      "FCLane3": {
+        "valve2": 6,
+        "valve3": 1,
+        "pumpvalve": "0010"
+      },
+      "FCLane4": {
+        "valve2": 6,
+        "valve3": 1,
+        "pumpvalve": "0001"
+      },
+      "FCL1L2": {
+        "valve2": 6,
+        "valve3": 1,
+        "pumpvalve": "1100"
+      },
+      "FCL2L3": {
+        "valve2": 6,
+        "valve3": 1,
+        "pumpvalve": "0110"
+      }
+    },
+    "DefaultChemistry": {
+      "Temper": 20,
+      "Ramp": 2
+    }
+  },
+
+  "SerialCommDeviceSettings": {
+    "ZStage": {
+      "PortName": "COM1",
+      "BaudRate": 57600
+    },
+    "MotionController": {
+      "PortName": "COM11",
+      "BaudRate": 115200
+    },
+    "FCTemperController": {
+      "PortName": "COM2",
+      "BaudRate": 9600
+    },
+    "MainboardController": {
+      "PortName": "COM12",
+      "BaudRate": 115200
+    },
+    "Chiller": {
+      "PortName": "COM13",
+      "BaudRate": 115200
+    },
+    "LEDController": {
+      "PortName": "COM14",
+      "BaudRate": 115200
+    },
+    "FluidController": {
+      "PortName": "COM4",
+      "BaudRate": 115200
+    },
+    "BarCodeReader": {
+      "PortName": "COM3",
+      "BaudRate": 9600
+    },
+    "RFIDReader": {
+      "PortName": "COM5",
+      "BaudRate": 115200
+    },
+    "ValveSelector": {
+      "PortName": "COM7",
+      "BaudRate": 19200
+    },
+    "SmartValve2": {
+      "PortName": "COM8",
+      "BaudRate": 9600
+    },
+    "SmartValve3": {
+      "PortName": "COM9",
+      "BaudRate": 9600
+    },
+    "Pump": {
+      "PortName": "COM10",
+      "BaudRate": 9600
+    }
+  },
+  "FCTemperCtrlSettings": {
+    "CtrlP": 14,
+    "CtrlI": 3.24,
+    "CtrlD": 0,
+    "HeatGain": 1,
+    "CoolGain": 1
+  },
+
+  "RecipeBuildConfig": {
+    //recipes will be saved in windows ProgramData\Sequlite Instruments\\
+    "ClusterGenRecipe": "CG.xml",
+    "HybRecipe": "Hyb.xml",
+    "IncRecipe": "Inc.xml",
+    "CLRecipe": "CL.xml",
+    "PairedTRecipe": "",
+    "SeqWashRecipe": "SeqWash.xml",
+    "PostWashRecipe": "PostWash.xml",
+    "OriginalImageRecipe": "Imaging.xml",
+    //for check hardware - SeprePriming
+    "PrimingRecipeRecipe": "Sepre_Priming.xml",
+    "ManualPostWashRecipe": "ManualPostWash.xml",
+    "MaintenanceWashRecipe": "MaintenanceWash.xml",
+    "IndHybRecipe": "IndHyb.xml",
+    "StpRecipe": "Stp.xml",
+    "UsingOneRef": true
+  }
+}

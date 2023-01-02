@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" kind="struct" prot="public">
+    <compoundname>Sequlite::Image::Processing::CIEXYZ</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1aa8a9fc1ba2842bd56c679f3878717cae" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" kindref="compound">CIEXYZ</ref></type>
+        <definition>readonly CIEXYZ Sequlite.Image.Processing.CIEXYZ.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <initializer>= new <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" kindref="compound">CIEXYZ</ref>()</initializer>
+        <briefdescription>
+<para>Gets an empty <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" kindref="compound">CIEXYZ</ref> structure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a4f146840c3c4bcabe665bc944e86bb4c" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" kindref="compound">CIEXYZ</ref></type>
+        <definition>readonly CIEXYZ Sequlite.Image.Processing.CIEXYZ.D65</definition>
+        <argsstring></argsstring>
+        <name>D65</name>
+        <initializer>= new <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" kindref="compound">CIEXYZ</ref>(0.9505, 1.0, 1.0890)</initializer>
+        <briefdescription>
+<para>Gets the CIE D65 (white) structure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a0827adb8148da644834de7b065220e99" compoundref="_color_space_helper_8cs" startline="1010" endline="1019">Sequlite.Image.Processing.ColorSpaceHelper.XYZtoLab</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1aaf5cfa523ca8caafe2e0b90d17d6f129" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIEXYZ.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a08ca2f07770e7967ce3bb7f6bc1472c6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIEXYZ.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1ae91c99ceb40bb7a82f8bf91216dc1cec" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIEXYZ.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a5cbcee878eb41301c3219a47a0d4723d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIEXYZ.X</definition>
+        <argsstring></argsstring>
+        <name>X</name>
+        <briefdescription>
+<para>Gets or sets X component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="51" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="52" bodyend="-1"/>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a9e6564e46f139ee28958d6fc4b6d6501" compoundref="_c_i_e_x_y_z_8cs" startline="36" endline="43">Sequlite.Image.Processing.CIEXYZ.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1ac3c82ba71cdfee34ff5f32bb5754428f" compoundref="_c_i_e_x_y_z_8cs" startline="27" endline="34">Sequlite.Image.Processing.CIEXYZ.operator==</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a0827adb8148da644834de7b065220e99" compoundref="_color_space_helper_8cs" startline="1010" endline="1019">Sequlite.Image.Processing.ColorSpaceHelper.XYZtoLab</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a424027f8fdf969cbd36ce72dde380435" compoundref="_color_space_helper_8cs" startline="991" endline="994">Sequlite.Image.Processing.ColorSpaceHelper.XYZtoRGB</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a53065a116d88b2f1a6b50ba8046d803c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIEXYZ.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+<para>Gets or sets Y component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="66" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="67" bodyend="-1"/>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a9e6564e46f139ee28958d6fc4b6d6501" compoundref="_c_i_e_x_y_z_8cs" startline="36" endline="43">Sequlite.Image.Processing.CIEXYZ.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1ac3c82ba71cdfee34ff5f32bb5754428f" compoundref="_c_i_e_x_y_z_8cs" startline="27" endline="34">Sequlite.Image.Processing.CIEXYZ.operator==</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a0827adb8148da644834de7b065220e99" compoundref="_color_space_helper_8cs" startline="1010" endline="1019">Sequlite.Image.Processing.ColorSpaceHelper.XYZtoLab</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a424027f8fdf969cbd36ce72dde380435" compoundref="_color_space_helper_8cs" startline="991" endline="994">Sequlite.Image.Processing.ColorSpaceHelper.XYZtoRGB</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a87b82391cad601206eacf9e3d1b587dc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.CIEXYZ.Z</definition>
+        <argsstring></argsstring>
+        <name>Z</name>
+        <briefdescription>
+<para>Gets or sets Z component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="81" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="82" bodyend="-1"/>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a9e6564e46f139ee28958d6fc4b6d6501" compoundref="_c_i_e_x_y_z_8cs" startline="36" endline="43">Sequlite.Image.Processing.CIEXYZ.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1ac3c82ba71cdfee34ff5f32bb5754428f" compoundref="_c_i_e_x_y_z_8cs" startline="27" endline="34">Sequlite.Image.Processing.CIEXYZ.operator==</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a0827adb8148da644834de7b065220e99" compoundref="_color_space_helper_8cs" startline="1010" endline="1019">Sequlite.Image.Processing.ColorSpaceHelper.XYZtoLab</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a424027f8fdf969cbd36ce72dde380435" compoundref="_color_space_helper_8cs" startline="991" endline="994">Sequlite.Image.Processing.ColorSpaceHelper.XYZtoRGB</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1ac3c82ba71cdfee34ff5f32bb5754428f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.CIEXYZ.operator==</definition>
+        <argsstring>(CIEXYZ item1, CIEXYZ item2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" kindref="compound">CIEXYZ</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" kindref="compound">CIEXYZ</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="27" bodyend="34"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a5cbcee878eb41301c3219a47a0d4723d" compoundref="_c_i_e_x_y_z_8cs" startline="52">Sequlite.Image.Processing.CIEXYZ.X</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a53065a116d88b2f1a6b50ba8046d803c" compoundref="_c_i_e_x_y_z_8cs" startline="67">Sequlite.Image.Processing.CIEXYZ.Y</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a87b82391cad601206eacf9e3d1b587dc" compoundref="_c_i_e_x_y_z_8cs" startline="82">Sequlite.Image.Processing.CIEXYZ.Z</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a9e6564e46f139ee28958d6fc4b6d6501" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.CIEXYZ.operator!=</definition>
+        <argsstring>(CIEXYZ item1, CIEXYZ item2)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" kindref="compound">CIEXYZ</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z" kindref="compound">CIEXYZ</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="36" bodyend="43"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a5cbcee878eb41301c3219a47a0d4723d" compoundref="_c_i_e_x_y_z_8cs" startline="52">Sequlite.Image.Processing.CIEXYZ.X</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a53065a116d88b2f1a6b50ba8046d803c" compoundref="_c_i_e_x_y_z_8cs" startline="67">Sequlite.Image.Processing.CIEXYZ.Y</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a87b82391cad601206eacf9e3d1b587dc" compoundref="_c_i_e_x_y_z_8cs" startline="82">Sequlite.Image.Processing.CIEXYZ.Z</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1aeea304f7c870ceef01c9029acff9cc3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.CIEXYZ.CIEXYZ</definition>
+        <argsstring>(double x, double y, double z)</argsstring>
+        <name>CIEXYZ</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="95" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1aff8e6d3fc43d848f862d9576136216ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Sequlite.Image.Processing.CIEXYZ.Equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="103" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="103" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1aef4c5bae02a696aa9ec8511dd73560fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Sequlite.Image.Processing.CIEXYZ.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="110" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="110" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure to define CIE XYZ. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="269">
+        <label>Sequlite.Image.Processing.CIEXYZ</label>
+        <link refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z"/>
+        <childnode refid="270" relation="usage">
+          <edgelabel>Empty</edgelabel>
+          <edgelabel>D65</edgelabel>
+        </childnode>
+      </node>
+      <node id="270">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/CIEXYZ.cs" bodystart="8" bodyend="116"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1aeea304f7c870ceef01c9029acff9cc3a" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>CIEXYZ</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a4f146840c3c4bcabe665bc944e86bb4c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>D65</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1aa8a9fc1ba2842bd56c679f3878717cae" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>Empty</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1aff8e6d3fc43d848f862d9576136216ab" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>Equals</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1aef4c5bae02a696aa9ec8511dd73560fa" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>GetHashCode</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a9e6564e46f139ee28958d6fc4b6d6501" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>operator!=</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1ac3c82ba71cdfee34ff5f32bb5754428f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>operator==</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a5cbcee878eb41301c3219a47a0d4723d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>X</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1aaf5cfa523ca8caafe2e0b90d17d6f129" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>x</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a53065a116d88b2f1a6b50ba8046d803c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>Y</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a08ca2f07770e7967ce3bb7f6bc1472c6" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>y</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1ae91c99ceb40bb7a82f8bf91216dc1cec" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>z</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_c_i_e_x_y_z_1a87b82391cad601206eacf9e3d1b587dc" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::CIEXYZ</scope><name>Z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_camera_lib_1_1_image_stats" kind="class" prot="public">
+    <compoundname>Sequlite::CameraLib::ImageStats</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_image_stats_1a1e022b112f0dd45a51c2cebd7ddebaa3" prot="private" static="no" mutable="no">
+        <type>Int64</type>
+        <definition>Int64 Sequlite.CameraLib.ImageStats.m_mean</definition>
+        <argsstring></argsstring>
+        <name>m_mean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="252" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_image_stats_1a0fed521883b074e4b93bc2b48cee9507" prot="private" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 Sequlite.CameraLib.ImageStats.m_min</definition>
+        <argsstring></argsstring>
+        <name>m_min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="253" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_image_stats_1a7705014450aa309757b1b05b3b1ddc49" prot="private" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 Sequlite.CameraLib.ImageStats.m_max</definition>
+        <argsstring></argsstring>
+        <name>m_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="254" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_image_stats_1aaa8bc42cd1bbe17e701cdf2091d7c43a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Int64</type>
+        <definition>Int64 Sequlite.CameraLib.ImageStats.Mean</definition>
+        <argsstring></argsstring>
+        <name>Mean</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="256" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_image_stats_1af886db5987395a32058f00c15e826f43" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Int32</type>
+        <definition>Int32 Sequlite.CameraLib.ImageStats.Min</definition>
+        <argsstring></argsstring>
+        <name>Min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="262" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_image_stats_1ab20f58c7fc3ab54cd0af44c94a0eee95" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Int32</type>
+        <definition>Int32 Sequlite.CameraLib.ImageStats.Max</definition>
+        <argsstring></argsstring>
+        <name>Max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="268" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="251" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="250" bodyend="273"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_image_stats_1a7705014450aa309757b1b05b3b1ddc49" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ImageStats</scope><name>m_max</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_image_stats_1a1e022b112f0dd45a51c2cebd7ddebaa3" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ImageStats</scope><name>m_mean</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_image_stats_1a0fed521883b074e4b93bc2b48cee9507" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ImageStats</scope><name>m_min</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_image_stats_1ab20f58c7fc3ab54cd0af44c94a0eee95" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ImageStats</scope><name>Max</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_image_stats_1aaa8bc42cd1bbe17e701cdf2091d7c43a" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ImageStats</scope><name>Mean</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_image_stats_1af886db5987395a32058f00c15e826f43" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ImageStats</scope><name>Min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

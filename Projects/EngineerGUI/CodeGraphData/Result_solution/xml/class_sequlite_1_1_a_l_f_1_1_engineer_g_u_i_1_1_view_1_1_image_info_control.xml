@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_info_control" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::View::ImageInfoControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_info_control_1a0f5d8176c3d444f3115b8b736949e65c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.View.ImageInfoControl.ImageInfoControl</definition>
+        <argsstring>()</argsstring>
+        <name>ImageInfoControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageInfoControl.xaml.cs" line="10" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageInfoControl.xaml.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ImageInfoControl.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="556">
+        <label>UserControl</label>
+      </node>
+      <node id="555">
+        <label>Sequlite.ALF.EngineerGUI.View.ImageInfoControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_info_control"/>
+        <childnode refid="556" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="558">
+        <label>UserControl</label>
+      </node>
+      <node id="557">
+        <label>Sequlite.ALF.EngineerGUI.View.ImageInfoControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_info_control"/>
+        <childnode refid="558" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageInfoControl.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageInfoControl.xaml.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_info_control_1a0f5d8176c3d444f3115b8b736949e65c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageInfoControl</scope><name>ImageInfoControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

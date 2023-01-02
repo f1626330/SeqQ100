@@ -1,0 +1,713 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::AutoFocusCommand</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_command_lib_1_1_thread_base" prot="public" virt="non-virtual">Sequlite.CommandLib.ThreadBase</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ac2feaec1a5c2c67689df085d93a9b539" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a149ab7278314a00c11338d01c2f2d7bc" kindref="member">UpdateInfoHandler</ref></type>
+        <definition>UpdateInfoHandler Sequlite.ALF.Imaging.AutoFocusCommand.OnImageSampled</definition>
+        <argsstring></argsstring>
+        <name>OnImageSampled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ac7109b27b4d25eff16e02e89b293f730" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.AutoFocusCommand.IsFailedToSetLED</definition>
+        <argsstring></argsstring>
+        <name>IsFailedToSetLED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a7bcc4b68fa520078108a2d335970f63c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.AutoFocusCommand.Filterfail</definition>
+        <argsstring></argsstring>
+        <name>Filterfail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="44" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a0fea7970f39ad618ad853b53116f2cc0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.AutoFocusCommand.IsFailedCaptureImage</definition>
+        <argsstring></argsstring>
+        <name>IsFailedCaptureImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="45" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ae129ad041789f946129f1f3448833346" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.AutoFocusCommand.FoucsedSharpness</definition>
+        <argsstring></argsstring>
+        <name>FoucsedSharpness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="50" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a5130051b750ef4f08c03e10502cebb9e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.AutoFocusCommand.ExceptionMessage</definition>
+        <argsstring></argsstring>
+        <name>ExceptionMessage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="55" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a3bc677f214f7b8501154d472fa4659af" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.AutoFocusCommand.TryCounts</definition>
+        <argsstring></argsstring>
+        <name>TryCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="56" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1aad5a08e01115934268e2e0232f5b1ab9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller" kindref="compound">MotionController</ref></type>
+        <definition>MotionController Sequlite.ALF.Imaging.AutoFocusCommand._Motion</definition>
+        <argsstring></argsstring>
+        <name>_Motion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1adb68cd67b679e30937bc212efda9af62" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base" kindref="compound">CameraLibBase</ref></type>
+        <definition>CameraLibBase Sequlite.ALF.Imaging.AutoFocusCommand._Camera</definition>
+        <argsstring></argsstring>
+        <name>_Camera</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1aaf585ee4e9c871161283ba14e2c8bfb9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" kindref="compound">Mainboard</ref></type>
+        <definition>Mainboard Sequlite.ALF.Imaging.AutoFocusCommand._MainBoard</definition>
+        <argsstring></argsstring>
+        <name>_MainBoard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ad5c3b7a4bbfdd23f72bad91161380812" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings" kindref="compound">AutoFocusSettings</ref></type>
+        <definition>AutoFocusSettings Sequlite.ALF.Imaging.AutoFocusCommand._Settings</definition>
+        <argsstring></argsstring>
+        <name>_Settings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a111b43153f737b1c1db9937c56190b81" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.AutoFocusCommand._LeftSharpness</definition>
+        <argsstring></argsstring>
+        <name>_LeftSharpness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a400035b7e8ffe1ceebefece673956a02" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.AutoFocusCommand._CurrentSharpness</definition>
+        <argsstring></argsstring>
+        <name>_CurrentSharpness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a5cd45d0fa18f077814de39201607cb77" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.AutoFocusCommand._RightSharpness</definition>
+        <argsstring></argsstring>
+        <name>_RightSharpness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a19e81b079a26024c05e3d433c699b3d7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.AutoFocusCommand._IsLeftClimbing</definition>
+        <argsstring></argsstring>
+        <name>_IsLeftClimbing</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="30" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a5b6491a0568cad2fd1f9c5d17a7b9000" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.AutoFocusCommand._IsAutoFocusCompleted</definition>
+        <argsstring></argsstring>
+        <name>_IsAutoFocusCompleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ae6bf7f1633ab895a843d966bf2f56489" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.AutoFocusCommand._IsFirstSample</definition>
+        <argsstring></argsstring>
+        <name>_IsFirstSample</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1aa8bd623f1015c63168df17ce81fff2ba" prot="private" static="no" mutable="no">
+        <type>WriteableBitmap</type>
+        <definition>WriteableBitmap Sequlite.ALF.Imaging.AutoFocusCommand._Image</definition>
+        <argsstring></argsstring>
+        <name>_Image</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a0c2a83b72a9b29f42af2aa242cce4079" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.AutoFocusCommand._FocusedSharpness</definition>
+        <argsstring></argsstring>
+        <name>_FocusedSharpness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ab4c48b39a59e36ab7528b151580acd4e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.AutoFocusCommand._TryCounts</definition>
+        <argsstring></argsstring>
+        <name>_TryCounts</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1adddd80c8ae3a03294fdd48a9cc8bf26a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.AutoFocusCommand._IsFailedCaptureImage</definition>
+        <argsstring></argsstring>
+        <name>_IsFailedCaptureImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ac0c2a7a1534321458452bca04e435b17" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.AutoFocusCommand._IsBadImage</definition>
+        <argsstring></argsstring>
+        <name>_IsBadImage</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1afd644b172014235c74352fc722bbccd0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.AutoFocusCommand._ledStateGet</definition>
+        <argsstring></argsstring>
+        <name>_ledStateGet</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="38" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a1881855b7b05f17a2eff9dfd38dbdfe0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.AutoFocusCommand._PDValue</definition>
+        <argsstring></argsstring>
+        <name>_PDValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a55fa5025085c74c22766101f3de55f88" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.AutoFocusCommand._LEDFailure</definition>
+        <argsstring></argsstring>
+        <name>_LEDFailure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a14c22b3dbad792a1411ec2f7b9203ef6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.AutoFocusCommand.sharpness</definition>
+        <argsstring></argsstring>
+        <name>sharpness</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="41" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a014596b0b4a121754d6bbf4fe5ca32e8" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Imaging.AutoFocusCommand._FolderStr</definition>
+        <argsstring></argsstring>
+        <name>_FolderStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="42" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a6786a4df1cb80792335340964fd4c077" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info" kindref="compound">Sequlite.Image.Processing.ImageInfo</ref></type>
+        <definition>Sequlite.Image.Processing.ImageInfo Sequlite.ALF.Imaging.AutoFocusCommand.Info</definition>
+        <argsstring></argsstring>
+        <name>Info</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info" kindref="compound">Image.Processing.ImageInfo</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a149ab7278314a00c11338d01c2f2d7bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.Imaging.AutoFocusCommand.UpdateInfoHandler</definition>
+        <argsstring>(double zPos, double sharpness)</argsstring>
+        <name>UpdateInfoHandler</name>
+        <param>
+          <type>double</type>
+          <declname>zPos</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sharpness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a0733ed8b48677ce63e3d0cb3199df134" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.AutoFocusCommand.AutoFocusCommand</definition>
+        <argsstring>(Dispatcher callingDisptcher, MotionController motion, CameraLibBase camera, Mainboard mainboard, AutoFocusSettings settings)</argsstring>
+        <name>AutoFocusCommand</name>
+        <param>
+          <type>Dispatcher</type>
+          <declname>callingDisptcher</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller" kindref="compound">MotionController</ref></type>
+          <declname>motion</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base" kindref="compound">CameraLibBase</ref></type>
+          <declname>camera</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" kindref="compound">Mainboard</ref></type>
+          <declname>mainboard</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings" kindref="compound">AutoFocusSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="60" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="60" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a88e38311832461fe60732156457e8d1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.Imaging.AutoFocusCommand.ThreadFunction</definition>
+        <argsstring>()</argsstring>
+        <name>ThreadFunction</name>
+        <reimplements refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a403a9a5891d6cceed7fa795df8ed3c0b">ThreadFunction</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="94" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="94" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ad51016605812d9f207ff7ddbfe1cf4fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.AutoFocusCommand.SharpnessCalculation</definition>
+        <argsstring>()</argsstring>
+        <name>SharpnessCalculation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="68" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="68" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a77de1a0ca5b142620c71ed09cec4d459" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.AutoFocusCommand.ScanRange</definition>
+        <argsstring>()</argsstring>
+        <name>ScanRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="240" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="240" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a607528487a1571f4e74689e0023d3d38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.AutoFocusCommand._Camera_OnExposureChanged</definition>
+        <argsstring>(bool starts)</argsstring>
+        <name>_Camera_OnExposureChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>starts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="336" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="336" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a9e69ec2df3ef125c684764f245e5aa75" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.AutoFocusCommand.HillClimbingMethod</definition>
+        <argsstring>()</argsstring>
+        <name>HillClimbingMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="417" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="417" bodyend="513"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="65">
+        <label>ThreadBase</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_thread_base"/>
+      </node>
+      <node id="64">
+        <label>Sequlite.ALF.Imaging.AutoFocusCommand</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command"/>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="75">
+        <label>Sequlite.CameraLib.CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+      <node id="81">
+        <label>Sequlite.ALF.MotionControl.HywireGalilControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_hywire_galil_control"/>
+        <childnode refid="72" relation="usage">
+          <edgelabel>_Lock</edgelabel>
+        </childnode>
+      </node>
+      <node id="70">
+        <label>Sequlite.ALF.MainBoard.Mainboard</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard"/>
+        <childnode refid="71" relation="usage">
+          <edgelabel>_LEDOnTimer</edgelabel>
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>_LEDLock</edgelabel>
+        </childnode>
+        <childnode refid="73" relation="usage">
+          <edgelabel>_Comm</edgelabel>
+        </childnode>
+      </node>
+      <node id="67">
+        <label>ThreadBase</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_thread_base"/>
+      </node>
+      <node id="74">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="71" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="77">
+        <label>Sequlite.ALF.MotionControl.MagellanControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>Sequlite.ALF.Common.AutoFocusSettings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings"/>
+      </node>
+      <node id="66">
+        <label>Sequlite.ALF.Imaging.AutoFocusCommand</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+        <childnode refid="68" relation="usage">
+          <edgelabel>_Settings</edgelabel>
+        </childnode>
+        <childnode refid="69" relation="usage">
+          <edgelabel>Info</edgelabel>
+        </childnode>
+        <childnode refid="70" relation="usage">
+          <edgelabel>_MainBoard</edgelabel>
+        </childnode>
+        <childnode refid="75" relation="usage">
+          <edgelabel>_Camera</edgelabel>
+        </childnode>
+        <childnode refid="76" relation="usage">
+          <edgelabel>_Motion</edgelabel>
+        </childnode>
+      </node>
+      <node id="78">
+        <label>IDisposable</label>
+      </node>
+      <node id="76">
+        <label>Sequlite.ALF.MotionControl.MotionController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller"/>
+        <childnode refid="77" relation="usage">
+          <edgelabel>_MagellanController</edgelabel>
+        </childnode>
+        <childnode refid="79" relation="usage">
+          <edgelabel>_HywireMotionController</edgelabel>
+        </childnode>
+        <childnode refid="71" relation="usage">
+          <edgelabel>_RecordTimer</edgelabel>
+        </childnode>
+        <childnode refid="81" relation="usage">
+          <edgelabel>_HywireController</edgelabel>
+        </childnode>
+      </node>
+      <node id="71">
+        <label>System</label>
+      </node>
+      <node id="73">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>Processing</label>
+      </node>
+      <node id="79">
+        <label>Hywire.MotionControl.HywireController</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_hywire_controller"/>
+        <childnode refid="80" relation="usage">
+          <edgelabel>_Port</edgelabel>
+        </childnode>
+        <childnode refid="71" relation="usage">
+          <edgelabel>_QueryTimer</edgelabel>
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>_MotionLock</edgelabel>
+        </childnode>
+      </node>
+      <node id="80">
+        <label>Hywire.MotionControl.ControllerComm</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_controller_comm"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/AutoFocusCommand.cs" bodystart="18" bodyend="514"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a783784c779d9f40b28dd62f4203d3ccb" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_AutoResetEvent</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1adb68cd67b679e30937bc212efda9af62" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_Camera</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a607528487a1571f4e74689e0023d3d38" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_Camera_OnExposureChanged</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1adbe83bfa26413c421095eaa24e9f20b7" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_CommandSyncObject</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a400035b7e8ffe1ceebefece673956a02" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_CurrentSharpness</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a3cab4efa3a31cae3053675b85a6f69d4" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_Error</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ae08da82f1b87bf2fa4d49425a5f667b2" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_ExitStat</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a0c2a83b72a9b29f42af2aa242cce4079" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_FocusedSharpness</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a014596b0b4a121754d6bbf4fe5ca32e8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_FolderStr</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1aa8bd623f1015c63168df17ce81fff2ba" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_Image</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a5b6491a0568cad2fd1f9c5d17a7b9000" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_IsAutoFocusCompleted</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ac0c2a7a1534321458452bca04e435b17" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_IsBadImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1adddd80c8ae3a03294fdd48a9cc8bf26a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_IsFailedCaptureImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ae6bf7f1633ab895a843d966bf2f56489" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_IsFirstSample</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a19e81b079a26024c05e3d433c699b3d7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_IsLeftClimbing</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a22b9863c9510108ba10b0799a6629595" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_IsOutOfMemory</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a55fa5025085c74c22766101f3de55f88" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_LEDFailure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1afd644b172014235c74352fc722bbccd0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_ledStateGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a111b43153f737b1c1db9937c56190b81" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_LeftSharpness</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1aaf585ee4e9c871161283ba14e2c8bfb9" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_MainBoard</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1aad5a08e01115934268e2e0232f5b1ab9" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_Motion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a1881855b7b05f17a2eff9dfd38dbdfe0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_PDValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a5cd45d0fa18f077814de39201607cb77" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_RightSharpness</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ad5c3b7a4bbfdd23f72bad91161380812" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_Settings</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a875909622ecece6935fb1912352cfcad" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_simulation</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a9ccc20d1a114871ba40efce6e7dd3eef" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_ThreadHandle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ab4c48b39a59e36ab7528b151580acd4e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>_TryCounts</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a47ff6f3598522a1e3fd17a5d3a912e0f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Abort</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a88d18ca0cba84f497117a8eecc7bf586" prot="public" virt="virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>AbortWork</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a0733ed8b48677ce63e3d0cb3199df134" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>AutoFocusCommand</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a70f7ee3d7cdea4f0dfd04ebd565f1066" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>CommandCompletedHandler</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a6a61f5ba3acc838bd56e5c37c81e198d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Completed</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a9d630019081a6ee79e140289cad5378c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Error</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a5130051b750ef4f08c03e10502cebb9e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>ExceptionMessage</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0804deade854e88000875b7db2478150" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>ExitStat</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a7bcc4b68fa520078108a2d335970f63c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Filterfail</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a7e1063ba33c201d23949898ee25b8871" prot="public" virt="virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Finish</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ae129ad041789f946129f1f3448833346" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>FoucsedSharpness</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a9e69ec2df3ef125c684764f245e5aa75" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>HillClimbingMethod</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a6786a4df1cb80792335340964fd4c077" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Info</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a075aff57c71280b9dca53582a7d32ffa" prot="public" virt="virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Initialize</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0fc2ffe2776eb9cde844a22c3a84cf0b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>IsAlive</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a0fea7970f39ad618ad853b53116f2cc0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>IsFailedCaptureImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ac7109b27b4d25eff16e02e89b293f730" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>IsFailedToSetLED</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ae52ad7ae28d438cb3cc56646aa1a0d8e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>IsOutOfMemory</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a31a64a977de5e15e6ff3754fa03d7f66" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>IsSimulationMode</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a05f62d4820e9be8059e4b53188055bda" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Join</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ad37c0e588219e7b5ed88cdc3f1b5cbb0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Name</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ac2feaec1a5c2c67689df085d93a9b539" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>OnImageSampled</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a77de1a0ca5b142620c71ed09cec4d459" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>ScanRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a14c22b3dbad792a1411ec2f7b9203ef6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>sharpness</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1ad51016605812d9f207ff7ddbfe1cf4fc" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>SharpnessCalculation</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a82654757ec970eb1baa2ffc62ca4e18d" prot="protected" virt="virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>SimulateThreadFunction</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1adbe9d79b75bb3de28d033f19b8e64ade" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Start</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ac492d5cef5e12d445b1a42a05f3a3ac2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>Stop</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a2eba514dac15b3d238558a47c8410ab3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>ThreadBase</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0ae32b8605809e5183eaec8a37a1aef9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>ThreadExitStat</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a88e38311832461fe60732156457e8d1a" prot="public" virt="virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>ThreadFunction</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a2d010ff2f64d5f8edfa5c08174a14255" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>ThreadHandle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a3bc677f214f7b8501154d472fa4659af" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>TryCounts</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_auto_focus_command_1a149ab7278314a00c11338d01c2f2d7bc" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::AutoFocusCommand</scope><name>UpdateInfoHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

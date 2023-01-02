@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_f90eb4c69362e0327686c7afd36af521" kind="dir">
+    <compoundname>D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View</compoundname>
+    <innerfile refid="_auto_focus_tab_control_8xaml_8cs">AutoFocusTabControl.xaml.cs</innerfile>
+    <innerfile refid="_ccd_view_control_8xaml_8cs">CcdViewControl.xaml.cs</innerfile>
+    <innerfile refid="_chemi_temper_control_8xaml_8cs">ChemiTemperControl.xaml.cs</innerfile>
+    <innerfile refid="_detector_parameter_setup_wind_8xaml_8cs">DetectorParameterSetupWind.xaml.cs</innerfile>
+    <innerfile refid="_flow_control_control_8xaml_8cs">FlowControlControl.xaml.cs</innerfile>
+    <innerfile refid="_fluidics_tab_control_8xaml_8cs">FluidicsTabControl.xaml.cs</innerfile>
+    <innerfile refid="_gallery_tab_control_8xaml_8cs">GalleryTabControl.xaml.cs</innerfile>
+    <innerfile refid="_image_container_control_8xaml_8cs">ImageContainerControl.xaml.cs</innerfile>
+    <innerfile refid="_image_info_control_8xaml_8cs">ImageInfoControl.xaml.cs</innerfile>
+    <innerfile refid="_image_viewer_control_8xaml_8cs">ImageViewerControl.xaml.cs</innerfile>
+    <innerfile refid="_imaging_tab_control_8xaml_8cs">ImagingTabControl.xaml.cs</innerfile>
+    <innerfile refid="_leds_view_control_8xaml_8cs">LedsViewControl.xaml.cs</innerfile>
+    <innerfile refid="_main_board_control_8xaml_8cs">MainBoardControl.xaml.cs</innerfile>
+    <innerfile refid="_motors_view_control_8xaml_8cs">MotorsViewControl.xaml.cs</innerfile>
+    <innerfile refid="_p_d_view_control_8xaml_8cs">PDViewControl.xaml.cs</innerfile>
+    <innerfile refid="_recipe_tab_control_8xaml_8cs">RecipeTabControl.xaml.cs</innerfile>
+    <innerfile refid="_r_i_p_p_tab_control_8xaml_8cs">RIPPTabControl.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/"/>
+  </compounddef>
+</doxygen>

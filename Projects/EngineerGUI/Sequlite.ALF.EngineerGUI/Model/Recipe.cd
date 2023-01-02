@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Recipe Class Design">
+    <Position X="0.5" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Execute Function on a thread - ThreadFunction()">
+    <Position X="2.75" Y="11.25" Height="0.75" Width="3.103" />
+  </Comment>
+  <Comment CommentText="Execute Recipe Steps: ThreadFunction()">
+    <Position X="0.75" Y="18" Height="0.333" Width="2.603" />
+  </Comment>
+  <Comment CommentText="Run Pumping on ThreadFunction()">
+    <Position X="9.25" Y="21" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="Sequlite.ALF.RecipeLib.Recipe">
+    <Position X="7.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.RecipeRunThread">
+    <Position X="2" Y="18.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.RecipeLib.RecipeRunThread.StepRunStatusHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.RecipeLib.RecipeRunThread.LoopStepUpdateHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.RecipeLib.RecipeRunThread.RIPPHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.RecipeStepBase">
+    <Position X="2.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.SetTemperStep">
+    <Position X="3" Y="3.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.StopTemperStep">
+    <Position X="7.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.PumpingStep">
+    <Position X="11.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.ImagingStep">
+    <Position X="16.5" Y="3.75" Width="2.5" />
+    <InheritanceLine Type="Sequlite.ALF.RecipeLib.RecipeStepBase" FixedToPoint="true">
+      <Path>
+        <Point X="4.125" Y="2.824" />
+        <Point X="4.125" Y="3.375" />
+        <Point X="17.333" Y="3.375" />
+        <Point X="17.333" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.ImagingRegion">
+    <Position X="17" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.ImagingSetting">
+    <Position X="15.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.FocusSetting">
+    <Position X="15.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.MoveStageStep">
+    <Position X="13.75" Y="3.75" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.LoopStep">
+    <Position X="19.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.RunRecipeStep">
+    <Position X="0.5" Y="3.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.WaitingStep">
+    <Position X="5.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.CommentStep">
+    <Position X="9.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings">
+    <Position X="7" Y="6" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.RecipeLib.StepsTree">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.RunPumpingThread">
+    <Position X="8.5" Y="18.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Fluidics.PumpingSettings">
+    <Position X="11.5" Y="9.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.CommandLib.ThreadBase">
+    <Position X="6.5" Y="11" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.CommandLib.ThreadBase.CommandCompletedHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Enum Name="Sequlite.CommandLib.ThreadBase.ThreadExitStat" Collapsed="true">
+        <TypeIdentifier />
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.ImageCaptureCommand">
+    <Position X="11.5" Y="18.5" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageCaptureCommand.CommandStatusHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageCaptureCommand.CommandCompletionEstHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageCaptureCommand.BadImageCapturedHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageCaptureCommand.OnLEDFailureHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Delegate Name="Sequlite.ALF.Imaging.ImageCaptureCommand.LEDStateChangedHandle" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.ALF.Imaging.AutoFocusCommand">
+    <Position X="5.75" Y="18.5" Width="2.25" />
+    <NestedTypes>
+      <Delegate Name="Sequlite.ALF.Imaging.AutoFocusCommand.UpdateInfoHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="Sequlite.ALF.RecipeLib.RecipeStepTypes">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.RecipeLib.ImagingChannels">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.ALF.RecipeLib.FilterTypes">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

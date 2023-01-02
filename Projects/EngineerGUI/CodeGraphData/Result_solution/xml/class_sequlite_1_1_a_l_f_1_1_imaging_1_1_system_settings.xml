@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::SystemSettings</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1acf6ba2573a57570279f4bdcdac1a46dd" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.SystemSettings._IsEnableCcdBcRemoval</definition>
+        <argsstring></argsstring>
+        <name>_IsEnableCcdBcRemoval</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="219" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1a6a59796159c751cb4b97e113ba16a187" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column" kindref="compound">CCDBadColumn</ref> &gt;</type>
+        <definition>List&lt;CCDBadColumn&gt; Sequlite.ALF.Imaging.SystemSettings._ccdBadColumns</definition>
+        <argsstring></argsstring>
+        <name>_ccdBadColumns</name>
+        <initializer>= new List&lt;<ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column" kindref="compound">CCDBadColumn</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="220" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1aee25b05765b0678b1d385ee76f6de84e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.SystemSettings.IsEnableCcdBcRemoval</definition>
+        <argsstring></argsstring>
+        <name>IsEnableCcdBcRemoval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="240" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1a81d031664416555480d0633a31bdc165" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.SystemSettings.CcdBcCount</definition>
+        <argsstring></argsstring>
+        <name>CcdBcCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="252" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1aa1a3540b8bb829aa46da18a208872406" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column" kindref="compound">CCDBadColumn</ref> &gt;</type>
+        <definition>List&lt;CCDBadColumn&gt; Sequlite.ALF.Imaging.SystemSettings.CcdBadColumns</definition>
+        <argsstring></argsstring>
+        <name>CcdBadColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="265" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1aaa4b009ae401e91461c8017185096354" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.SystemSettings.SystemSettings</definition>
+        <argsstring>()</argsstring>
+        <name>SystemSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="226" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="226" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1a223ba70def9c931f6cd6378fa5580e89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.SystemSettings.SystemSettings</definition>
+        <argsstring>(bool bIsCcdBcRemoval, List&lt; CCDBadColumn &gt; badColumns)</argsstring>
+        <name>SystemSettings</name>
+        <param>
+          <type>bool</type>
+          <declname>bIsCcdBcRemoval</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column" kindref="compound">CCDBadColumn</ref> &gt;</type>
+          <declname>badColumns</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="230" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="230" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>System specific settings - software update does not affect these settings. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="216" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="215" bodyend="271"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1a6a59796159c751cb4b97e113ba16a187" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::SystemSettings</scope><name>_ccdBadColumns</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1acf6ba2573a57570279f4bdcdac1a46dd" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::SystemSettings</scope><name>_IsEnableCcdBcRemoval</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1aa1a3540b8bb829aa46da18a208872406" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::SystemSettings</scope><name>CcdBadColumns</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1a81d031664416555480d0633a31bdc165" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::SystemSettings</scope><name>CcdBcCount</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1aee25b05765b0678b1d385ee76f6de84e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::SystemSettings</scope><name>IsEnableCcdBcRemoval</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1aaa4b009ae401e91461c8017185096354" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::SystemSettings</scope><name>SystemSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings_1a223ba70def9c931f6cd6378fa5580e89" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::SystemSettings</scope><name>SystemSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

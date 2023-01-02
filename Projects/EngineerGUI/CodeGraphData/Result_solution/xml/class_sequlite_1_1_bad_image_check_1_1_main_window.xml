@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_bad_image_check_1_1_main_window" kind="class" prot="public">
+    <compoundname>Sequlite::BadImageCheck::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_bad_image_check_1_1_main_window_1abfaf44188d1154fe33d01abef3e5fdec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.BadImageCheck.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/MainWindow.xaml.cs" line="12" column="1" bodyfile="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/MainWindow.xaml.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_bad_image_check_1_1_main_window_1a13cfa54013a98fecaebff786df32ba2b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.BadImageCheck.MainWindow.Button_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/MainWindow.xaml.cs" line="17" column="1" bodyfile="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/MainWindow.xaml.cs" bodystart="17" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MainWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="727">
+        <label>Window</label>
+      </node>
+      <node id="726">
+        <label>Sequlite.BadImageCheck.MainWindow</label>
+        <link refid="class_sequlite_1_1_bad_image_check_1_1_main_window"/>
+        <childnode refid="727" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="729">
+        <label>Window</label>
+      </node>
+      <node id="728">
+        <label>Sequlite.BadImageCheck.MainWindow</label>
+        <link refid="class_sequlite_1_1_bad_image_check_1_1_main_window"/>
+        <childnode refid="729" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/MainWindow.xaml.cs" line="11" column="1" bodyfile="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/MainWindow.xaml.cs" bodystart="10" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_bad_image_check_1_1_main_window_1a13cfa54013a98fecaebff786df32ba2b" prot="private" virt="non-virtual"><scope>Sequlite::BadImageCheck::MainWindow</scope><name>Button_Click</name></member>
+      <member refid="class_sequlite_1_1_bad_image_check_1_1_main_window_1abfaf44188d1154fe33d01abef3e5fdec" prot="public" virt="non-virtual"><scope>Sequlite::BadImageCheck::MainWindow</scope><name>MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

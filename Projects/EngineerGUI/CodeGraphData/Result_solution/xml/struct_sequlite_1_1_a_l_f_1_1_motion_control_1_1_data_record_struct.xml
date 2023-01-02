@@ -1,0 +1,645 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct" kind="struct" prot="package">
+    <compoundname>Sequlite::ALF::MotionControl::DataRecordStruct</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a4849d57a82ec04e6b0931576c3da5f8d" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MotionControl.DataRecordStruct.Head</definition>
+        <argsstring></argsstring>
+        <name>Head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="217" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1aca412b3f438629e318c7234263ea5469" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Sequlite.ALF.MotionControl.DataRecordStruct.SampleCounts</definition>
+        <argsstring></argsstring>
+        <name>SampleCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="218" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a2fe339fa1225269280428fd7590c3b14" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.Input</definition>
+        <argsstring></argsstring>
+        <name>Input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="219" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a32c3ab299280782754d0e1d03645065f" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.Output</definition>
+        <argsstring></argsstring>
+        <name>Output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="220" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a57519ea59e4d0d075deac48f7c335ee0" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.ErrorCode</definition>
+        <argsstring></argsstring>
+        <name>ErrorCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="221" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a2e05b6b0ba044c98c066454c3c918ea6" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.ThreadState</definition>
+        <argsstring></argsstring>
+        <name>ThreadState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="222" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a02978c9068cb2c8a2fdefdf847ef5f22" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MotionControl.DataRecordStruct.ProfileCounts</definition>
+        <argsstring></argsstring>
+        <name>ProfileCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="223" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ac1ceb2f088b33f81714c97ad0e6feea7" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Sequlite.ALF.MotionControl.DataRecordStruct.ProfileState</definition>
+        <argsstring></argsstring>
+        <name>ProfileState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="224" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ad055dcf86653378814b62b23f1a6cc63" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Sequlite.ALF.MotionControl.DataRecordStruct.InterpCounts</definition>
+        <argsstring></argsstring>
+        <name>InterpCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="225" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a48b84761c413e9a325150b62df7f11e3" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Sequlite.ALF.MotionControl.DataRecordStruct.InterpState</definition>
+        <argsstring></argsstring>
+        <name>InterpState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="226" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1acc2ffe5fe09f46b0ea692d2ebcce21d8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.InterpTrip</definition>
+        <argsstring></argsstring>
+        <name>InterpTrip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="227" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1adda3d9054884853c456935cea8819f51" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Sequlite.ALF.MotionControl.DataRecordStruct.InterpBufState</definition>
+        <argsstring></argsstring>
+        <name>InterpBufState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="228" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a06d423a09a23ebc8c1c9413c10de9898" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Sequlite.ALF.MotionControl.DataRecordStruct.StateAxisA</definition>
+        <argsstring></argsstring>
+        <name>StateAxisA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="229" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a5d1e2e9e1edae5e22d347a79faa2b234" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.SwitchesAxisA</definition>
+        <argsstring></argsstring>
+        <name>SwitchesAxisA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="230" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a44e5f25f195ad7acbc0e6596071c158b" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.StopCodeAxisA</definition>
+        <argsstring></argsstring>
+        <name>StopCodeAxisA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="231" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a8cd789a9f485e0735d72b0528642a224" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.CommandPosAxisA</definition>
+        <argsstring></argsstring>
+        <name>CommandPosAxisA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="232" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a4c01e20d56e83c9b3ef57b81ae745749" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.EncoderPosAxisA</definition>
+        <argsstring></argsstring>
+        <name>EncoderPosAxisA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="233" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ab2a3af827e94ca455371963948629bd1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.OutputPosAxisA</definition>
+        <argsstring></argsstring>
+        <name>OutputPosAxisA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="234" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a7218e108909e916f179ad5cd26f7ec5f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.SpeedAxisA</definition>
+        <argsstring></argsstring>
+        <name>SpeedAxisA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="235" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a13ac5f994733fdb29166768d3031efdb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.UserDefinedAxisA</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedAxisA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="236" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a85cf66a4c771dc4624720390f806d038" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Sequlite.ALF.MotionControl.DataRecordStruct.StateAxisB</definition>
+        <argsstring></argsstring>
+        <name>StateAxisB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="237" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a7e853bedb6616468ee0f66ec6f3ee440" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.SwitchesAxisB</definition>
+        <argsstring></argsstring>
+        <name>SwitchesAxisB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="238" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1aefd3563192a2abd022e5e8158c8721b1" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.StopCodeAxisB</definition>
+        <argsstring></argsstring>
+        <name>StopCodeAxisB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="239" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a679c5ff12594fe2cc3377de729e8ac6d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.CommandPosAxisB</definition>
+        <argsstring></argsstring>
+        <name>CommandPosAxisB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="240" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ae4f82c5f77e758f117e869c837dc5c85" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.EncoderPosAxisB</definition>
+        <argsstring></argsstring>
+        <name>EncoderPosAxisB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="241" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ae9c5422984683b8f94374d7c9a335ad6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.OutputPosAxisB</definition>
+        <argsstring></argsstring>
+        <name>OutputPosAxisB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="242" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a6a5296073c386d088c193b662e34d5f0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.SpeedAxisB</definition>
+        <argsstring></argsstring>
+        <name>SpeedAxisB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="243" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ac0c1bbaefbbcc80ecc8f8ce1c9fd8d36" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.UserDefinedAxisB</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedAxisB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="244" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a8fb2595b9e9f82017b898bf3442a98f8" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Sequlite.ALF.MotionControl.DataRecordStruct.StateAxisC</definition>
+        <argsstring></argsstring>
+        <name>StateAxisC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="245" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a54c9a8b5960003706c71ae68f3783f44" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.SwitchesAxisC</definition>
+        <argsstring></argsstring>
+        <name>SwitchesAxisC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="246" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a8aed97e9b04406aa8452cccede7edac2" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.StopCodeAxisC</definition>
+        <argsstring></argsstring>
+        <name>StopCodeAxisC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="247" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a4efb3328ab45ffdd5e334e950914ac0a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.CommandPosAxisC</definition>
+        <argsstring></argsstring>
+        <name>CommandPosAxisC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="248" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ac1bf68404450d47461c1e69671930c80" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.EncoderPosAxisC</definition>
+        <argsstring></argsstring>
+        <name>EncoderPosAxisC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="249" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ae571a5f5d83122b15f6d70646cb667dd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.OutputPosAxisC</definition>
+        <argsstring></argsstring>
+        <name>OutputPosAxisC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="250" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a33910d3ff5755d47c503a0614b8b0613" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.SpeedAxisC</definition>
+        <argsstring></argsstring>
+        <name>SpeedAxisC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="251" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1aa500ef8f8d451a5143cb2b34ffb03315" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.UserDefinedAxisC</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedAxisC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="252" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a25bd916bd52723481a7da48942f6d36c" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort Sequlite.ALF.MotionControl.DataRecordStruct.StateAxisD</definition>
+        <argsstring></argsstring>
+        <name>StateAxisD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="253" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a4d04176812699af1613a4a6d1fa0b526" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.SwitchesAxisD</definition>
+        <argsstring></argsstring>
+        <name>SwitchesAxisD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="254" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1adfda0114153ff4ec646a0ac8a3c68c9d" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.StopCodeAxisD</definition>
+        <argsstring></argsstring>
+        <name>StopCodeAxisD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="255" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1af4d5475e6ff9bff42d5ade6aa1fac71d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.CommandPosAxisD</definition>
+        <argsstring></argsstring>
+        <name>CommandPosAxisD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="256" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ae531d4ac4c3006edb2aaa2794393dedc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.EncoderPosAxisD</definition>
+        <argsstring></argsstring>
+        <name>EncoderPosAxisD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="257" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a2983f30628ac155db655f680661454a5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.OutputPosAxisD</definition>
+        <argsstring></argsstring>
+        <name>OutputPosAxisD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="258" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a935c2f6ff94fba0132f81401273bf056" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.SpeedAxisD</definition>
+        <argsstring></argsstring>
+        <name>SpeedAxisD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="259" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a9ccd276f5f2135e13ed0c851c4a87af5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.MotionControl.DataRecordStruct.UserDefinedAxisD</definition>
+        <argsstring></argsstring>
+        <name>UserDefinedAxisD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="260" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a8d8c56ee199e6d0ee37fab90d860858f" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MotionControl.DataRecordStruct.End</definition>
+        <argsstring></argsstring>
+        <name>End</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="261" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" line="216" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/HywireGalilControl.cs" bodystart="215" bodyend="262"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a8cd789a9f485e0735d72b0528642a224" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>CommandPosAxisA</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a679c5ff12594fe2cc3377de729e8ac6d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>CommandPosAxisB</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a4efb3328ab45ffdd5e334e950914ac0a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>CommandPosAxisC</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1af4d5475e6ff9bff42d5ade6aa1fac71d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>CommandPosAxisD</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a4c01e20d56e83c9b3ef57b81ae745749" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>EncoderPosAxisA</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ae4f82c5f77e758f117e869c837dc5c85" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>EncoderPosAxisB</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ac1bf68404450d47461c1e69671930c80" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>EncoderPosAxisC</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ae531d4ac4c3006edb2aaa2794393dedc" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>EncoderPosAxisD</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a8d8c56ee199e6d0ee37fab90d860858f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>End</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a57519ea59e4d0d075deac48f7c335ee0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>ErrorCode</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a4849d57a82ec04e6b0931576c3da5f8d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>Head</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a2fe339fa1225269280428fd7590c3b14" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>Input</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1adda3d9054884853c456935cea8819f51" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>InterpBufState</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ad055dcf86653378814b62b23f1a6cc63" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>InterpCounts</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a48b84761c413e9a325150b62df7f11e3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>InterpState</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1acc2ffe5fe09f46b0ea692d2ebcce21d8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>InterpTrip</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a32c3ab299280782754d0e1d03645065f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>Output</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ab2a3af827e94ca455371963948629bd1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>OutputPosAxisA</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ae9c5422984683b8f94374d7c9a335ad6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>OutputPosAxisB</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ae571a5f5d83122b15f6d70646cb667dd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>OutputPosAxisC</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a2983f30628ac155db655f680661454a5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>OutputPosAxisD</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a02978c9068cb2c8a2fdefdf847ef5f22" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>ProfileCounts</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ac1ceb2f088b33f81714c97ad0e6feea7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>ProfileState</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1aca412b3f438629e318c7234263ea5469" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>SampleCounts</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a7218e108909e916f179ad5cd26f7ec5f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>SpeedAxisA</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a6a5296073c386d088c193b662e34d5f0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>SpeedAxisB</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a33910d3ff5755d47c503a0614b8b0613" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>SpeedAxisC</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a935c2f6ff94fba0132f81401273bf056" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>SpeedAxisD</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a06d423a09a23ebc8c1c9413c10de9898" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>StateAxisA</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a85cf66a4c771dc4624720390f806d038" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>StateAxisB</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a8fb2595b9e9f82017b898bf3442a98f8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>StateAxisC</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a25bd916bd52723481a7da48942f6d36c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>StateAxisD</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a44e5f25f195ad7acbc0e6596071c158b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>StopCodeAxisA</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1aefd3563192a2abd022e5e8158c8721b1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>StopCodeAxisB</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a8aed97e9b04406aa8452cccede7edac2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>StopCodeAxisC</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1adfda0114153ff4ec646a0ac8a3c68c9d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>StopCodeAxisD</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a5d1e2e9e1edae5e22d347a79faa2b234" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>SwitchesAxisA</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a7e853bedb6616468ee0f66ec6f3ee440" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>SwitchesAxisB</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a54c9a8b5960003706c71ae68f3783f44" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>SwitchesAxisC</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a4d04176812699af1613a4a6d1fa0b526" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>SwitchesAxisD</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a2e05b6b0ba044c98c066454c3c918ea6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>ThreadState</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a13ac5f994733fdb29166768d3031efdb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>UserDefinedAxisA</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1ac0c1bbaefbbcc80ecc8f8ce1c9fd8d36" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>UserDefinedAxisB</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1aa500ef8f8d451a5143cb2b34ffb03315" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>UserDefinedAxisC</name></member>
+      <member refid="struct_sequlite_1_1_a_l_f_1_1_motion_control_1_1_data_record_struct_1a9ccd276f5f2135e13ed0c851c4a87af5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::DataRecordStruct</scope><name>UserDefinedAxisD</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

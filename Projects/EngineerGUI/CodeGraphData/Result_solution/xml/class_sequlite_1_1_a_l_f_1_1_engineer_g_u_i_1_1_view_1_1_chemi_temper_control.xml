@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_chemi_temper_control" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::View::ChemiTemperControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_chemi_temper_control_1a4247271a10e611969e0deffadc177ed3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.View.ChemiTemperControl.ChemiTemperControl</definition>
+        <argsstring>()</argsstring>
+        <name>ChemiTemperControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ChemiTemperControl.xaml.cs" line="12" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ChemiTemperControl.xaml.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_chemi_temper_control_1ad9d70a01e735503067e6effb186c64f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.View.ChemiTemperControl._IntervalBox_PreviewKeyDown</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>_IntervalBox_PreviewKeyDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ChemiTemperControl.xaml.cs" line="17" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ChemiTemperControl.xaml.cs" bodystart="17" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ChemiTemperControl.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="261">
+        <label>Sequlite.ALF.EngineerGUI.View.ChemiTemperControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_chemi_temper_control"/>
+        <childnode refid="262" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="263">
+        <label>Sequlite.ALF.EngineerGUI.View.ChemiTemperControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_chemi_temper_control"/>
+        <childnode refid="264" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="264">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ChemiTemperControl.xaml.cs" line="11" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ChemiTemperControl.xaml.cs" bodystart="10" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_chemi_temper_control_1ad9d70a01e735503067e6effb186c64f2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ChemiTemperControl</scope><name>_IntervalBox_PreviewKeyDown</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_chemi_temper_control_1a4247271a10e611969e0deffadc177ed3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ChemiTemperControl</scope><name>ChemiTemperControl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" kind="struct" prot="public">
+    <compoundname>Sequlite::Image::Processing::HSL</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ae56a0099d2ac984f90696932358e56e5" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" kindref="compound">HSL</ref></type>
+        <definition>readonly HSL Sequlite.Image.Processing.HSL.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <initializer>= new <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" kindref="compound">HSL</ref>()</initializer>
+        <briefdescription>
+<para>Gets an empty <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" kindref="compound">HSL</ref> structure; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a6cf1744a63c27b58b06a57c6d40eb35b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.HSL.hue</definition>
+        <argsstring></argsstring>
+        <name>hue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ab09753be046fd575a89ba930ebb3eba0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.HSL.saturation</definition>
+        <argsstring></argsstring>
+        <name>saturation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ac347d518d53e892d2828eb66db212e72" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.HSL.luminance</definition>
+        <argsstring></argsstring>
+        <name>luminance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ab6b771df3996758e91e5b0f497c43ad8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.HSL.Hue</definition>
+        <argsstring></argsstring>
+        <name>Hue</name>
+        <briefdescription>
+<para>Gets or sets the hue component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="48" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="49" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad86352f945b3f8391e73d7a8a3c6210f" compoundref="_color_space_helper_8cs" startline="456" endline="459">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoColor</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a8b59039e764af003f3a097240cca5e0b" compoundref="_color_space_helper_8cs" startline="435" endline="438">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoRGB</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ae06e2bdb755fa4cd4448f49bc9807d94" compoundref="_h_s_l_8cs" startline="32" endline="39">Sequlite.Image.Processing.HSL.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a233a14b0078a695577a3ec4f7f2613a6" compoundref="_h_s_l_8cs" startline="23" endline="30">Sequlite.Image.Processing.HSL.operator==</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a3f8f9b8f67f343bc8bd6ca656baab357" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.HSL.Saturation</definition>
+        <argsstring></argsstring>
+        <name>Saturation</name>
+        <briefdescription>
+<para>Gets or sets saturation component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="64" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="65" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad86352f945b3f8391e73d7a8a3c6210f" compoundref="_color_space_helper_8cs" startline="456" endline="459">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoColor</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a8b59039e764af003f3a097240cca5e0b" compoundref="_color_space_helper_8cs" startline="435" endline="438">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoRGB</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ae06e2bdb755fa4cd4448f49bc9807d94" compoundref="_h_s_l_8cs" startline="32" endline="39">Sequlite.Image.Processing.HSL.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a233a14b0078a695577a3ec4f7f2613a6" compoundref="_h_s_l_8cs" startline="23" endline="30">Sequlite.Image.Processing.HSL.operator==</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ad4aded9b951f794eed7c63a1efc2f2bd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.HSL.Luminance</definition>
+        <argsstring></argsstring>
+        <name>Luminance</name>
+        <briefdescription>
+<para>Gets or sets the luminance component. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="80" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="81" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad86352f945b3f8391e73d7a8a3c6210f" compoundref="_color_space_helper_8cs" startline="456" endline="459">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoColor</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a8b59039e764af003f3a097240cca5e0b" compoundref="_color_space_helper_8cs" startline="435" endline="438">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoRGB</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ae06e2bdb755fa4cd4448f49bc9807d94" compoundref="_h_s_l_8cs" startline="32" endline="39">Sequlite.Image.Processing.HSL.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a233a14b0078a695577a3ec4f7f2613a6" compoundref="_h_s_l_8cs" startline="23" endline="30">Sequlite.Image.Processing.HSL.operator==</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a233a14b0078a695577a3ec4f7f2613a6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.HSL.operator==</definition>
+        <argsstring>(HSL item1, HSL item2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" kindref="compound">HSL</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" kindref="compound">HSL</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="23" bodyend="30"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ab6b771df3996758e91e5b0f497c43ad8" compoundref="_h_s_l_8cs" startline="49">Sequlite.Image.Processing.HSL.Hue</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ad4aded9b951f794eed7c63a1efc2f2bd" compoundref="_h_s_l_8cs" startline="81">Sequlite.Image.Processing.HSL.Luminance</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a3f8f9b8f67f343bc8bd6ca656baab357" compoundref="_h_s_l_8cs" startline="65">Sequlite.Image.Processing.HSL.Saturation</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ae06e2bdb755fa4cd4448f49bc9807d94" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.HSL.operator!=</definition>
+        <argsstring>(HSL item1, HSL item2)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" kindref="compound">HSL</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" kindref="compound">HSL</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="32" bodyend="39"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ab6b771df3996758e91e5b0f497c43ad8" compoundref="_h_s_l_8cs" startline="49">Sequlite.Image.Processing.HSL.Hue</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ad4aded9b951f794eed7c63a1efc2f2bd" compoundref="_h_s_l_8cs" startline="81">Sequlite.Image.Processing.HSL.Luminance</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a3f8f9b8f67f343bc8bd6ca656baab357" compoundref="_h_s_l_8cs" startline="65">Sequlite.Image.Processing.HSL.Saturation</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a6708c79cbebda1f7afba20c931848cca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.HSL.HSL</definition>
+        <argsstring>(double h, double s, double l)</argsstring>
+        <name>HSL</name>
+        <param>
+          <type>double</type>
+          <declname>h</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+<para>Creates an instance of a <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" kindref="compound">HSL</ref> structure. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hue value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Saturation value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lightness value.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="100" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="100" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a2a4025270d784aaf7afbacac049a376f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Sequlite.Image.Processing.HSL.Equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="108" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="108" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a2aa73c3977079efe09dd5826f4bf7417" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Sequlite.Image.Processing.HSL.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="115" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="115" bodyend="118"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure to define <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l" kindref="compound">HSL</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="486">
+        <label>Sequlite.Image.Processing.HSL</label>
+        <link refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l"/>
+        <childnode refid="487" relation="usage">
+          <edgelabel>Empty</edgelabel>
+        </childnode>
+      </node>
+      <node id="487">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/HSL.cs" bodystart="9" bodyend="121"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ae56a0099d2ac984f90696932358e56e5" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>Empty</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a2a4025270d784aaf7afbacac049a376f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>Equals</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a2aa73c3977079efe09dd5826f4bf7417" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>GetHashCode</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a6708c79cbebda1f7afba20c931848cca" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>HSL</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ab6b771df3996758e91e5b0f497c43ad8" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>Hue</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a6cf1744a63c27b58b06a57c6d40eb35b" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>hue</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ac347d518d53e892d2828eb66db212e72" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>luminance</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ad4aded9b951f794eed7c63a1efc2f2bd" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>Luminance</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ae06e2bdb755fa4cd4448f49bc9807d94" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>operator!=</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a233a14b0078a695577a3ec4f7f2613a6" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>operator==</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1ab09753be046fd575a89ba930ebb3eba0" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>saturation</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_h_s_l_1a3f8f9b8f67f343bc8bd6ca656baab357" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::HSL</scope><name>Saturation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

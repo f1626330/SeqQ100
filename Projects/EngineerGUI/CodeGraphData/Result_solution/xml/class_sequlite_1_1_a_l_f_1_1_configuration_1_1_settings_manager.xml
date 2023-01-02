@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Configuration::SettingsManager</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1aa2983e995b0d537555519a616d52e749" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.ALF.Configuration.SettingsManager._ConfigFileName</definition>
+        <argsstring></argsstring>
+        <name>_ConfigFileName</name>
+        <initializer>= &quot;Config.xml&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a14f71b594db6305658229d4cbccbf371" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Configuration.SettingsManager.ApplicationDataPath</definition>
+        <argsstring></argsstring>
+        <name>ApplicationDataPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings" kindref="compound">ConfigSettings</ref></type>
+        <definition>ConfigSettings Sequlite.ALF.Configuration.SettingsManager.ConfigSettings</definition>
+        <argsstring></argsstring>
+        <name>ConfigSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a3cdcf2ea8f5e48bc1c0c42024514d16a" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="598" endline="635">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteAbsoluteMoveCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a177d9f26ecc42b4195e9b1e3ff61380a" compoundref="_fluidics_view_model_8cs" startline="603" endline="629">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveCartridgeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a9120f4ffb656599fd3421db94ea9f907" compoundref="_fluidics_view_model_8cs" startline="555" endline="581">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteMoveFlowChipCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a0d6d22e92e1ed7380422ae49d07ce300" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="657" endline="796">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.ExecuteRelativeMoveCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a1cf0b05670cb98ea9f9f82a9fd723306" compoundref="_fluidics_view_model_8cs" startline="426" endline="521">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.ExecuteRunPumpCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1a64bbab5dac0088a144ae5945e25eb645" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="19" endline="69">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.Initialize</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model_1a025d3b089fc7afbe0166c4d5fa12aa41" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_motion_view_model_8cs" startline="65" endline="86">Sequlite.ALF.EngineerGUI.ViewModel.MotionViewModel.MotionController_OnRecordsUpdated</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a75ba54e093526ea239020a7682b9d2e2" compoundref="_fluidics_view_model_8cs" startline="69" endline="88">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Pump_OnStatusChanged</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a68b0789078890b4fd0d0f560f075107e" compoundref="_recipe_run_thread_8cs" startline="344" endline="418">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_motion_controller_1adbdcba1255600287cf740a07f4e6c4f1" compoundref="_motion_controller_8cs" startline="492" endline="508">Sequlite.ALF.MotionControl.MotionController.SelectFilter</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1adfa7e9879450cc00864552299288d90d" compoundref="_recipe_run_thread_8cs" startline="175" endline="226">Sequlite.ALF.RecipeLib.RecipeRunThread.ThreadFunction</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a66f7aace75fdb99f2cbf3d1883afd688" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.ALF.Configuration.SettingsManager.OnStartup</definition>
+        <argsstring>()</argsstring>
+        <name>OnStartup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a8e9acf9390efb8ef330a70baaeee2be0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.ALF.Configuration.SettingsManager.OnExit</definition>
+        <argsstring>()</argsstring>
+        <name>OnExit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1acd99f041eb523191ada4b05a2c750956" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.ALF.Configuration.SettingsManager.EnsureConfigFilesExists</definition>
+        <argsstring>()</argsstring>
+        <name>EnsureConfigFilesExists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" bodystart="32" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1ae8ce8082ef70d01089efdb34bb2f2c7c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.ALF.Configuration.SettingsManager.LoadConfigFile</definition>
+        <argsstring>()</argsstring>
+        <name>LoadConfigFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" line="58" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" bodystart="58" bodyend="404"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/SettingsManager.cs" bodystart="8" bodyend="406"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1aa2983e995b0d537555519a616d52e749" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Configuration::SettingsManager</scope><name>_ConfigFileName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a14f71b594db6305658229d4cbccbf371" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::SettingsManager</scope><name>ApplicationDataPath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a0cf36495de0bf65d5b8a6826dfd01cf4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::SettingsManager</scope><name>ConfigSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1acd99f041eb523191ada4b05a2c750956" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Configuration::SettingsManager</scope><name>EnsureConfigFilesExists</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1ae8ce8082ef70d01089efdb34bb2f2c7c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Configuration::SettingsManager</scope><name>LoadConfigFile</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a8e9acf9390efb8ef330a70baaeee2be0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::SettingsManager</scope><name>OnExit</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager_1a66f7aace75fdb99f2cbf3d1883afd688" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Configuration::SettingsManager</scope><name>OnStartup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

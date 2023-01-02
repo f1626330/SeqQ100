@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_ethernet_camera" kind="namespace">
+    <compoundname>Sequlite::ALF::EthernetCamera</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_app" prot="public">Sequlite::ALF::EthernetCamera::App</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_e_camera_v_m" prot="public">Sequlite::ALF::EthernetCamera::ECameraVM</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_main_window" prot="public">Sequlite::ALF::EthernetCamera::MainWindow</innerclass>
+    <innernamespace refid="namespace_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties">Sequlite::ALF::EthernetCamera::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/App.xaml.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

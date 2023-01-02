@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::MainBoard::MBProtocol::ProtocolStruct</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a669c5fce285677673b999079a93ed9ba" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a00778cb3050fca8c6d6e2bc89937d1cc" kindref="member">FrameBorder</ref></type>
+        <definition>FrameBorder Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.ProtocolHead</definition>
+        <argsstring></argsstring>
+        <name>ProtocolHead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="116" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="116" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa1a9d1888dfc98bcb852ca56939a6c4e" compoundref="_m_b_protocol_8cs" startline="128" endline="140">Sequlite.ALF.MainBoard.MBProtocol.MasterRequest</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1aa9f171e7966f5457c5fe13b01b9e1c39" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a12d061a9925c3bdff5da3e634d756b73" kindref="member">Addesses</ref></type>
+        <definition>Addesses Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <initializer>= FrameBorder.Head</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="117" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="117" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa1a9d1888dfc98bcb852ca56939a6c4e" compoundref="_m_b_protocol_8cs" startline="128" endline="140">Sequlite.ALF.MainBoard.MBProtocol.MasterRequest</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a00d14cea9bc84afd43d3c550cef8975d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a757cecb894c1c9ac100e1f9fd1892ee3" kindref="member">Functions</ref></type>
+        <definition>Functions Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.Function</definition>
+        <argsstring></argsstring>
+        <name>Function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="118" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="118" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa1a9d1888dfc98bcb852ca56939a6c4e" compoundref="_m_b_protocol_8cs" startline="128" endline="140">Sequlite.ALF.MainBoard.MBProtocol.MasterRequest</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a205d4382d6deb829cba240e0fd2d6198" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a75bb15c79f827549c61d067d955f2e20" kindref="member">Registers</ref></type>
+        <definition>Registers Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.StartedModule</definition>
+        <argsstring></argsstring>
+        <name>StartedModule</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="119" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="119" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa1a9d1888dfc98bcb852ca56939a6c4e" compoundref="_m_b_protocol_8cs" startline="128" endline="140">Sequlite.ALF.MainBoard.MBProtocol.MasterRequest</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1ad8ff1ec5f55be170862b1401189346bc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.ModuleNums</definition>
+        <argsstring></argsstring>
+        <name>ModuleNums</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="120" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a388a9936db6f21db3c96fd03c37ed6e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte[]</type>
+        <definition>byte [] Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.DataField</definition>
+        <argsstring></argsstring>
+        <name>DataField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="121" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1aa9b4c68a7d08eed9ebc11879fbfe13a4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ushort</type>
+        <definition>ushort Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.CRC16Code</definition>
+        <argsstring></argsstring>
+        <name>CRC16Code</name>
+        <initializer>= new byte[0]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="122" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1aeb1568769048e6495739e4a16a54c99c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1a00778cb3050fca8c6d6e2bc89937d1cc" kindref="member">FrameBorder</ref></type>
+        <definition>FrameBorder Sequlite.ALF.MainBoard.MBProtocol.ProtocolStruct.ProtocolEnd</definition>
+        <argsstring></argsstring>
+        <name>ProtocolEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="123" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="123" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1aa1a9d1888dfc98bcb852ca56939a6c4e" compoundref="_m_b_protocol_8cs" startline="128" endline="140">Sequlite.ALF.MainBoard.MBProtocol.MasterRequest</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="115" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="114" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1aa9f171e7966f5457c5fe13b01b9e1c39" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol::ProtocolStruct</scope><name>Address</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1aa9b4c68a7d08eed9ebc11879fbfe13a4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol::ProtocolStruct</scope><name>CRC16Code</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a388a9936db6f21db3c96fd03c37ed6e6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol::ProtocolStruct</scope><name>DataField</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a00d14cea9bc84afd43d3c550cef8975d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol::ProtocolStruct</scope><name>Function</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1ad8ff1ec5f55be170862b1401189346bc" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol::ProtocolStruct</scope><name>ModuleNums</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1aeb1568769048e6495739e4a16a54c99c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol::ProtocolStruct</scope><name>ProtocolEnd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a669c5fce285677673b999079a93ed9ba" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol::ProtocolStruct</scope><name>ProtocolHead</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol_1_1_protocol_struct_1a205d4382d6deb829cba240e0fd2d6198" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::MBProtocol::ProtocolStruct</scope><name>StartedModule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

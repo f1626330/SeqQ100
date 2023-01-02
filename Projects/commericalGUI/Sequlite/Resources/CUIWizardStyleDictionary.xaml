@@ -1,0 +1,311 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Sequlite.UI.Resources"
+                    xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+                    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+                    xmlns:app="clr-namespace:Sequlite.ALF.App;assembly=Sequlite.ALF.App">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Sequlite.WPF.Framework;component/Styles/ExpanderStyle.xaml"/>
+        <ResourceDictionary Source="/Sequlite.WPF.Framework;component/Styles/WizardStyle.xaml"/>
+        <ResourceDictionary Source="/Resources/StyleDictionary.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style TargetType="{x:Type Label}" x:Key="statusLabelStyle" >
+        <Setter Property="FontFamily" Value="Consolas"  />
+    </Style>
+    <Style TargetType="{x:Type TextBlock}" x:Key="statusTextBlockStyle">
+        <Setter Property="FontFamily" Value="Consolas"  />
+        <Setter Property="FontSize" Value="11"  />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+        <Setter Property="VerticalAlignment" Value="Center" />
+    </Style>
+    
+    <LinearGradientBrush x:Key="horizotalPanelBk" StartPoint="0 0" EndPoint="1 0">
+        <LinearGradientBrush.GradientStops>
+            <GradientStop Offset="0.0" Color="WhiteSmoke"/>
+            <GradientStop Offset="0.1" Color="LightGray"/>
+            <GradientStop Offset="0.9" Color="WhiteSmoke"/>
+            <GradientStop Offset="1.0" Color="LightGray"/>
+        </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush x:Key="horizotalBottomPanelBk" StartPoint="0 0" EndPoint="1 1">
+        <LinearGradientBrush.GradientStops>
+            <GradientStop Offset="0.0" Color="LightGray"/>
+            <GradientStop Offset="0.4" Color="WhiteSmoke"/>
+            <GradientStop Offset="0.6" Color="WhiteSmoke"/>
+            <GradientStop Offset="1.0" Color="LightGray"/>
+        </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <LinearGradientBrush  x:Key="leftSidePanelBk"  StartPoint="0,0" EndPoint="0.0,1.0">
+        <LinearGradientBrush.GradientStops>
+            <GradientStop Offset="0.0" Color="WhiteSmoke" />
+            <GradientStop Offset="1.0" Color="LightGray" />
+        </LinearGradientBrush.GradientStops>
+    </LinearGradientBrush>
+
+    <Style TargetType="{x:Type TextBlock}" x:Key="CompareStatusStyle">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding ApplicationStatus.MessageType}" Value="{x:Static app:AppMessageTypeEnum.Normal}">
+                <Setter Property="Foreground" Value="Black"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ApplicationStatus.MessageType}" Value="{x:Static app:AppMessageTypeEnum.Completed}">
+                <Setter Property="Foreground" Value="Green"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ApplicationStatus.MessageType}" Value="{x:Static app:AppMessageTypeEnum.Warning}">
+                <Setter Property="Foreground" Value="OrangeRed"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ApplicationStatus.MessageType}" Value="{x:Static app:AppMessageTypeEnum.Error}">
+                <Setter Property="Foreground" Value="Red"/>
+            </DataTrigger>
+            <DataTrigger Binding="{Binding ApplicationStatus.MessageType}" Value="{x:Static app:AppMessageTypeEnum.ErrorNotification}">
+                <Setter Property="Foreground" Value="Orange"/>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key='WizardHelpHeaderArea' TargetType='ContentControl'>
+        <Setter Property='Template'>
+            <Setter.Value>
+                <ControlTemplate TargetType="ContentControl">
+                    <Expander  x:Name="expander" 
+                                        Template="{StaticResource SimpleExpanderTemp}"
+                                        OverridesDefaultStyle="True"
+                                         HorizontalAlignment="Left" Margin="3"
+                                        VerticalAlignment="Center"
+                                       ToolTip="Click Here for Detailed Instruction">
+                        <Popup PlacementTarget="{Binding ElementName=expander}" 
+                                Placement="Bottom"
+                                IsOpen="{Binding IsExpanded, ElementName=expander}"
+                                       VerticalOffset="5" HorizontalOffset="1">
+                            <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto" Width="{Binding ActualWidth, ElementName=Wizard_current_page}" 
+                                              Height="{Binding ActualHeight, ElementName=Wizard_current_page}" HorizontalAlignment="Stretch"
+                                   >
+                                <RichTextBox BorderThickness="0" AcceptsTab="True"   FontSize="18" Foreground="Black" Background="WhiteSmoke" Padding="3" 
+                               
+                                 wpfFramework:RichTextboxAssistant.BoundDocument="{Binding CurrentPage.Instruction, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                 VerticalScrollBarVisibility="Auto"  HorizontalScrollBarVisibility="Hidden"/>
+                            </ScrollViewer>
+                            <i:Interaction.Behaviors>
+                                <wpfFramework:AutoRepositionPopupBehavior />
+                            </i:Interaction.Behaviors>
+                        </Popup>
+                    </Expander>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <Style x:Key='WizardPageHeaderArea' TargetType='ContentControl'>
+        <Setter Property='Template'>
+            <Setter.Value>
+                <ControlTemplate TargetType="ContentControl">
+                    <wpfFramework:IndexedListBox x:Name="lst"   Height="50"  VerticalAlignment="Top"  Background="Transparent" BorderThickness="0"
+                                           ItemsSource="{Binding CurrentPage.SubpageNames,Converter={StaticResource arrayWrapperConverter}}"
+                                                         
+                                     SelectedIndex="{Binding CurrentPage.CurrentSubpageIndex}"
+                                         >
+                        <ListBox.ItemContainerStyle>
+                            <Style TargetType="{x:Type ListBoxItem}">
+                                <Setter Property="SnapsToDevicePixels" Value="true" />
+                                <Setter Property="OverridesDefaultStyle" Value="true" />
+                                <Setter Property="Focusable" Value="false"/>
+
+                                <Setter Property="Template">
+
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="ListBoxItem">
+                                            <Border Name="Border"   BorderThickness="0"  SnapsToDevicePixels="true">
+                                                <ContentPresenter />
+                                            </Border>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsSelected" Value="true">
+                                                    <Setter TargetName="Border"  Property="Background" Value="{x:Static Brushes.Transparent}" />
+                                                    <Setter Property="Foreground" Value="sienna"/>
+                                                    <Setter Property="Background" Value="LightBlue"/>
+                                                    <!-- only for item is selectable -->
+
+                                                    <Setter TargetName="Border" Property="BorderBrush"  Value="{x:Static Brushes.WhiteSmoke}" />
+                                                    <Setter TargetName="Border"  Property="Effect" >
+                                                        <Setter.Value>
+                                                            <DropShadowEffect BlurRadius="10" Color="LightBlue" ShadowDepth="0"/>
+                                                        </Setter.Value>
+                                                    </Setter>
+                                                </Trigger>
+
+                                                <Trigger Property="IsEnabled" Value="false">
+                                                    <Setter Property="Foreground"  Value="{x:Static Brushes.Transparent}" />
+
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </ListBox.ItemContainerStyle>
+
+                        <ListBox.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <VirtualizingStackPanel IsItemsHost="True"  Orientation="Horizontal" >
+                                </VirtualizingStackPanel>
+                            </ItemsPanelTemplate>
+
+                        </ListBox.ItemsPanel>
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch">
+                                    <Button x:Name="btn"  Content="{Binding Value}" VerticalAlignment="Center" Padding="5" FontSize="22" 
+                                                    Foreground="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=TemplatedParent.Foreground}"
+                                                    Background="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=TemplatedParent.Background}"
+                                                  
+                                                    Command="{Binding Path=DataContext.CurrentPage.SelectSubpage, ElementName=WizardControl_this}" 
+                                                    CommandParameter="{Binding Index}">
+                                        <Button.Resources>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="CornerRadius" Value="2"/>
+                                            </Style>
+                                        </Button.Resources>
+                                        <!--<Button.Triggers>
+                                                    <Trigger Property="{Binding ControlTemplate.IsSelected}" Value="true">
+                                                        
+                                                    </Trigger>
+                                                </Button.Triggers>-->
+                                    </Button>
+
+                                    <wpfFramework:CappedLine BeginCap="M0,0 L3,-3 L3,3 z" Stroke="SlateGray" 
+                                                          StrokeThickness="1.3"   HorizontalAlignment="Right"  Width="25" Height="12" >
+                                        <wpfFramework:CappedLine.LinePath>
+                                            <PathGeometry Figures="M25,8 L0,8" />
+                                        </wpfFramework:CappedLine.LinePath>
+                                        <wpfFramework:CappedLine.RenderTransform>
+                                            <RotateTransform Angle="0" />
+                                        </wpfFramework:CappedLine.RenderTransform>
+                                        <wpfFramework:CappedLine.Visibility>
+                                            <MultiBinding Converter="{StaticResource reverseBooleanToVisibilityMultiConverter}">
+
+                                                <Binding Path="DataContext.CurrentPage.IsSubpageHeaderActive" RelativeSource="{RelativeSource AncestorType={x:Type ListBox}}"/>
+                                                <Binding Path="(wpfFramework:IndexedListBox.IsLast)" RelativeSource="{RelativeSource AncestorType={x:Type ListBoxItem}}" />
+                                            </MultiBinding>
+
+                                        </wpfFramework:CappedLine.Visibility>
+                                    </wpfFramework:CappedLine>
+
+                                </StackPanel>
+                            </DataTemplate>
+
+                        </ListBox.ItemTemplate>
+                    </wpfFramework:IndexedListBox>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key='WizardPageDescriptionHeaderArea' TargetType='ContentControl'>
+        <Setter Property='Template'>
+            <Setter.Value>
+                <ControlTemplate TargetType="ContentControl">
+                    <TextBlock  TextWrapping="Wrap" Text="{Binding Path=CurrentPage.Description}" FontSize="12"
+                                       HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="DarkSlateBlue" >
+                        <TextBlock.Style>
+                            <Style TargetType="{x:Type TextBlock}">
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding CurrentPage.HasSubpages}" Value="true">
+                                        <Setter Property="Margin" >
+                                            <Setter.Value>
+                                                <Thickness Left="4"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </DataTrigger>
+
+                                </Style.Triggers>
+                            </Style>
+                        </TextBlock.Style>
+                    </TextBlock>
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key='WizardBottomArea' TargetType='ContentControl'>
+        <Setter Property='Template'>
+            <Setter.Value>
+                <ControlTemplate TargetType="ContentControl">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50" />
+
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+
+                        <Button Height="{Binding Path=ActualWidth, RelativeSource={RelativeSource Self}}"
+                        Command="{Binding ShowLogWindowCmd}"
+                    Background="Transparent"
+                    BorderBrush="Transparent"
+                    BorderThickness="0" 
+                     Margin="5">
+                            <Image Source="pack://application:,,,/Resources/Images/log.png"/>
+                        </Button>
+
+                        <Border   Grid.Column="1">
+                            <!-- Application Statu Message -->
+                            <!--<TextBlock Grid.Column="1" FontWeight="Bold"  Text="{x:Static res:Strings.SequnceWizardView_Label_Status}"  Margin="4,0,7,0" VerticalAlignment="Center"  />-->
+                            <!--<TextBlock   Text="{Binding Path=Status, StringFormat=c}"  VerticalAlignment="Center" />-->
+                            <TextBlock TextWrapping="Wrap" Text="{Binding Path=ApplicationStatus.Message, Mode=OneWay}"  
+                            Style="{StaticResource CompareStatusStyle}"
+                               
+                            VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                        </Border>
+
+                        <!-- NAVIGATION BUTTONS -->
+                        <Grid Grid.Column="2" Grid.IsSharedSizeScope="True" HorizontalAlignment="Right">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition SharedSizeGroup="Buttons" />
+                                <ColumnDefinition SharedSizeGroup="Buttons" />
+                                <ColumnDefinition Width="15" />
+                                <ColumnDefinition SharedSizeGroup="Buttons" />
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Column="0" Grid.Row="0" Command="{Binding Path=MovePreviousCommand}"
+                         Content="{Binding CurrentPage.WizardView_Button_MovePrevious}" 
+                            Style="{StaticResource wizradButtonStyle}"
+                             Visibility="{Binding  CurrentPage.Show_WizardView_Button_MoverPrevious, Converter={StaticResource boolToVisibilityHiddenConverter}}" />
+                            <Button Grid.Column="1" Grid.Row="0" Command="{Binding Path=MoveNextCommand}" 
+                            Visibility="{Binding  CurrentPage.Show_WizardView_Button_MoverNext, Converter={StaticResource boolToVisibilityHiddenConverter}}">
+                                <Button.Style>
+                                    <Style  BasedOn="{StaticResource wizradButtonStyle}" TargetType="{x:Type Button}" >
+                                        <Setter Property="Content" Value="{Binding  Path=CurrentPage.WizardView_Button_MoveNext}" />
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Path=IsOnLastPage}" Value="True">
+                                                <Setter Property="Content" Value="{Binding Path=CurrentPage.WizardView_Button_Finish}" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Button.Style>
+                            </Button>
+                            <Button Grid.Column="3" Grid.Row="0" Command="{Binding Path=CancelCommand}"
+                        Content="{Binding CurrentPage.WizardView_Button_Cancel}"
+                        Style="{StaticResource wizradButtonStyle}"
+                        Visibility="{Binding  CurrentPage.Show_WizardView_Button_Cancel, Converter={StaticResource boolToVisibilityHiddenConverter}}"    />
+                        </Grid>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key='WizardPageArea' TargetType='ContentControl'>
+        <Setter Property='Template'>
+            <Setter.Value>
+                <ControlTemplate TargetType="ContentControl">
+                    <ScrollViewer  Content="{Binding Path=CurrentPage}" Margin="5"
+                                      ScrollViewer.VerticalScrollBarVisibility="Auto"  
+                                       Height="{Binding ActualHeight, ElementName=Wizard_current_page, Converter={StaticResource mathConverter},ConverterParameter=@VALUE - 60}" 
+                                       HorizontalAlignment="Stretch" />
+
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

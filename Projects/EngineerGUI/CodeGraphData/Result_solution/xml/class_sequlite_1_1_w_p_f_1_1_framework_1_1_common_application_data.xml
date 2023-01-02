@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::CommonApplicationData</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1ad1ac8a6cc8a42b9035ce833126cb958d" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.WPF.Framework.CommonApplicationData._ApplicationFolder</definition>
+        <argsstring></argsstring>
+        <name>_ApplicationFolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1a6053ad978f0743d37cd515497cb7be44" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.WPF.Framework.CommonApplicationData._CompanyFolder</definition>
+        <argsstring></argsstring>
+        <name>_CompanyFolder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1aad6b158299887300a47cc7237e196626" prot="private" static="yes" mutable="no">
+        <type>readonly string</type>
+        <definition>readonly string Sequlite.WPF.Framework.CommonApplicationData._BaseDirectory</definition>
+        <argsstring></argsstring>
+        <name>_BaseDirectory</name>
+        <initializer>= Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1afc5bf97c011fe355cf0d2e13a6932c23" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.WPF.Framework.CommonApplicationData.ApplicationFolderPath</definition>
+        <argsstring></argsstring>
+        <name>ApplicationFolderPath</name>
+        <briefdescription>
+<para>Gets the path of the application&apos;s data folder. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1a9cd8a0bf4ae68bb04ee9e773a0af6d55" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.WPF.Framework.CommonApplicationData.CompanyFolderPath</definition>
+        <argsstring></argsstring>
+        <name>CompanyFolderPath</name>
+        <briefdescription>
+<para>Gets the path of the company&apos;s data folder. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1acadb8dbc492847a64695b7ce94ee231e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.WPF.Framework.CommonApplicationData.CommonApplicationData</definition>
+        <argsstring>(string companyFolder, string applicationFolder)</argsstring>
+        <name>CommonApplicationData</name>
+        <param>
+          <type>string</type>
+          <declname>companyFolder</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>applicationFolder</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new instance of this class creating the specified company and application folders if they don&apos;t already exist and optionally allows write/modify to all users. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>companyFolder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the company&apos;s folder (normally the company name).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>applicationFolder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the application&apos;s folder (normally the application name).</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>If the application folder already exists then permissions if requested are NOT altered.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1af7e69ab48045c57b0c32709e539596cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.WPF.Framework.CommonApplicationData.CommonApplicationData</definition>
+        <argsstring>(string companyFolder, string applicationFolder, bool allUsers)</argsstring>
+        <name>CommonApplicationData</name>
+        <param>
+          <type>string</type>
+          <declname>companyFolder</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>applicationFolder</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allUsers</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new instance of this class creating the specified company and application folders if they don&apos;t already exist and optionally allows write/modify to all users. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>companyFolder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the company&apos;s folder (normally the company name).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>applicationFolder</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the application&apos;s folder (normally the application name).</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allUsers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true to allow write/modify to all users; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para><para>If the application folder already exists then permissions if requested are NOT altered.</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" line="56" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" bodystart="56" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1ac36b406a35c69f5a96cb457239595ea3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Sequlite.WPF.Framework.CommonApplicationData.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+<para>Returns the path of the application&apos;s data folder. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The path of the application&apos;s data folder.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" line="141" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" bodystart="141" bodyend="144"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1aa226ce03fe06bf2f05facac93e72c224" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.WPF.Framework.CommonApplicationData.CreateFolders</definition>
+        <argsstring>(bool allUsers)</argsstring>
+        <name>CreateFolders</name>
+        <param>
+          <type>bool</type>
+          <declname>allUsers</declname>
+        </param>
+        <briefdescription>
+<para>Worker method. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>allUsers</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" line="67" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" bodystart="67" bodyend="135"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Simplifies the creation of folders in the <ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data" kindref="compound">CommonApplicationData</ref> folder and setting of permissions for all users. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="291">
+        <label>Sequlite.WPF.Framework.CommonApplicationData</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data"/>
+        <childnode refid="292" relation="usage">
+          <edgelabel>_BaseDirectory</edgelabel>
+        </childnode>
+      </node>
+      <node id="292">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/CommonApplicationData.cs" bodystart="12" bodyend="146"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1ad1ac8a6cc8a42b9035ce833126cb958d" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::CommonApplicationData</scope><name>_ApplicationFolder</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1aad6b158299887300a47cc7237e196626" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::CommonApplicationData</scope><name>_BaseDirectory</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1a6053ad978f0743d37cd515497cb7be44" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::CommonApplicationData</scope><name>_CompanyFolder</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1afc5bf97c011fe355cf0d2e13a6932c23" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::CommonApplicationData</scope><name>ApplicationFolderPath</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1acadb8dbc492847a64695b7ce94ee231e" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::CommonApplicationData</scope><name>CommonApplicationData</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1af7e69ab48045c57b0c32709e539596cd" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::CommonApplicationData</scope><name>CommonApplicationData</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1a9cd8a0bf4ae68bb04ee9e773a0af6d55" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::CommonApplicationData</scope><name>CompanyFolderPath</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1aa226ce03fe06bf2f05facac93e72c224" prot="private" virt="non-virtual"><scope>Sequlite::WPF::Framework::CommonApplicationData</scope><name>CreateFolders</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data_1ac36b406a35c69f5a96cb457239595ea3" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::CommonApplicationData</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

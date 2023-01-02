@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_app" kind="class" prot="public">
+    <compoundname>Hywire::ALF::PumpTest::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <briefdescription>
+<para>App.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="27">
+        <label>Hywire.ALF.PumpTest.App</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_app"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="29">
+        <label>Hywire.ALF.PumpTest.App</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_app"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Application</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/App.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/App.xaml.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

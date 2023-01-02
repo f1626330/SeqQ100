@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_motion_control_1_1_frame" kind="class" prot="package">
+    <compoundname>Hywire::MotionControl::Frame</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1a79e0c4bcc5eee8fcc2e755b0262e0678" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte Hywire.MotionControl.Frame.Head</definition>
+        <argsstring></argsstring>
+        <name>Head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="152" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1ae5bebc425cf3c1f1566b825198e8d52f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte Hywire.MotionControl.Frame.Addr</definition>
+        <argsstring></argsstring>
+        <name>Addr</name>
+        <initializer>= 0x55</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="153" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1afc15be20dd278568295d8a4281018173" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_hywire_1_1_motion_control_1a56d2f03b7b95279e384084b473581098" kindref="member">CmdTypes</ref></type>
+        <definition>CmdTypes Hywire.MotionControl.Frame.CommandType</definition>
+        <argsstring></argsstring>
+        <name>CommandType</name>
+        <initializer>= 0x31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="154" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1a58ed255562f1168a0b6b13b9ef3ba85e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+        <definition>MotorTypes Hywire.MotionControl.Frame.MotionType</definition>
+        <argsstring></argsstring>
+        <name>MotionType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="155" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1a7070e3913a2883daf8fb638d9d61ff20" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_hywire_1_1_motion_control_1a7339ea2fd2079340917de2ce9f13436e" kindref="member">MotionRegisters</ref></type>
+        <definition>MotionRegisters Hywire.MotionControl.Frame.Register</definition>
+        <argsstring></argsstring>
+        <name>Register</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="156" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1a4a66c0fc5435005d12987ba67cf5acaf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Hywire.MotionControl.Frame.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="157" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1af34ce087f3e44bfd1d31fd9d024d0d61" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>byte</type>
+        <definition>byte Hywire.MotionControl.Frame.End</definition>
+        <argsstring></argsstring>
+        <name>End</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="158" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1a915095011b9013b60e88df2d80dd5a0e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Hywire.MotionControl.Frame.DataField0</definition>
+        <argsstring></argsstring>
+        <name>DataField0</name>
+        <initializer>= 0xaa</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="159" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1a74deeee7f7869d809540a7bac0414393" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Hywire.MotionControl.Frame.DataField1</definition>
+        <argsstring></argsstring>
+        <name>DataField1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="168" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1ac237f0e5d8d5fcbecfafe5fd031aef41" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Hywire.MotionControl.Frame.DataField2</definition>
+        <argsstring></argsstring>
+        <name>DataField2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="177" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_frame_1a8ed18af4dd400fd1aeaf2047bbd25318" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Hywire.MotionControl.Frame.DataField3</definition>
+        <argsstring></argsstring>
+        <name>DataField3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="186" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_frame_1aab320a7bec86204dda2bc7b415857a15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] Hywire.MotionControl.Frame.MapToBytes</definition>
+        <argsstring>()</argsstring>
+        <name>MapToBytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="196" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="196" bodyend="217"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_frame_1a5313124966334dc7d93feafbb4f5abcc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_hywire_1_1_motion_control_1_1_frame" kindref="compound">Frame</ref></type>
+        <definition>static Frame Hywire.MotionControl.Frame.MapFromBytes</definition>
+        <argsstring>(byte[] bytes, int offset)</argsstring>
+        <name>MapFromBytes</name>
+        <param>
+          <type>byte[]</type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>offset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="219" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="219" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="151" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="150" bodyend="251"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1ae5bebc425cf3c1f1566b825198e8d52f" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>Addr</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1afc15be20dd278568295d8a4281018173" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>CommandType</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1a4a66c0fc5435005d12987ba67cf5acaf" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>Data</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1a915095011b9013b60e88df2d80dd5a0e" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>DataField0</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1a74deeee7f7869d809540a7bac0414393" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>DataField1</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1ac237f0e5d8d5fcbecfafe5fd031aef41" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>DataField2</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1a8ed18af4dd400fd1aeaf2047bbd25318" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>DataField3</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1af34ce087f3e44bfd1d31fd9d024d0d61" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>End</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1a79e0c4bcc5eee8fcc2e755b0262e0678" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>Head</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1a5313124966334dc7d93feafbb4f5abcc" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>MapFromBytes</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1aab320a7bec86204dda2bc7b415857a15" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>MapToBytes</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1a58ed255562f1168a0b6b13b9ef3ba85e" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>MotionType</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_frame_1a7070e3913a2883daf8fb638d9d61ff20" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Frame</scope><name>Register</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

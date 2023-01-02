@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_main_board" kind="namespace">
+    <compoundname>Sequlite::ALF::MainBoard</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" prot="public">Sequlite::ALF::MainBoard::Mainboard</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_m_b_protocol" prot="public">Sequlite::ALF::MainBoard::MBProtocol</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type" prot="public">Sequlite::ALF::MainBoard::OnOffInputsType</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm" prot="public">Sequlite::ALF::MainBoard::SerialComm</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/Mainboard.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

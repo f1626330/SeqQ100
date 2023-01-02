@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A6581B3-94D2-47D0-B4AF-E182D15EBBBE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sequlite.WPF.Framework</RootNamespace>
+    <AssemblyName>Sequlite.WPF.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>Sequlite.WPF.Framework.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>Sequlite.WPF.Framework.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>..\..\RuleSets\SequliteRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>..\..\RuleSets\SequliteRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adorners\Adorner.cs" />
+    <Compile Include="Adorners\CroppingAdorner.cs" />
+    <Compile Include="Adorners\PuncturedRect.cs" />
+    <Compile Include="AppInfo.cs" />
+    <Compile Include="CommomUI\Controls\CappedLine.cs" />
+    <Compile Include="CommomUI\Controls\GridCanvas.cs" />
+    <Compile Include="CommomUI\Controls\IDialogBoxView.cs" />
+    <Compile Include="CommomUI\Controls\IndexedListBox.cs" />
+    <Compile Include="CommomUI\Controls\MessageBoxView.cs" />
+    <Compile Include="CommomUI\Controls\OpenFileDialogView.cs" />
+    <Compile Include="CommomUI\Controls\ShowCapLock .cs" />
+    <Compile Include="CommomUI\Controls\TabControlEx.cs" />
+    <Compile Include="CommomUI\CSVFile\CSVFileView.xaml.cs">
+      <DependentUpon>CSVFileView.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CommomUI\CSVFile\CSVFileViewModel.cs" />
+    <Compile Include="Converters\BindingWithBindableConverterParameter.cs" />
+    <Compile Include="Converters\BooleanToVisibilityMultiConverter.cs" />
+    <Compile Include="Converters\ArrayWrapperConverter.cs" />
+    <Compile Include="Converters\CountConverter.cs" />
+    <Compile Include="Converters\ValueConverterGroup.cs" />
+    <Compile Include="Converters\EnumToBooleanMultiConverter.cs" />
+    <Compile Include="Converters\EnumToBooleanReverseMultiConverter.cs" />
+    <Compile Include="Converters\EnumToCollectionConverter .cs" />
+    <Compile Include="Converters\EnumToVisibilityMultiConverter.cs" />
+    <Compile Include="Converters\MathConverter.cs" />
+    <Compile Include="Converters\MultiplyConverter.cs" />
+    <Compile Include="Converters\NullToBooleanConverter.cs" />
+    <Compile Include="Converters\NullVisibilityConverter.cs" />
+    <Compile Include="Converters\SimpleMathConverter.cs" />
+    <Compile Include="Converters\ReverseBooleanToVisibilityMultiConverter.cs" />
+    <Compile Include="Converters\ValueDescription.cs" />
+    <Compile Include="Converters\VisibilityToCheckedConverter.cs" />
+    <Compile Include="Helper\WinHelper.cs" />
+    <Compile Include="MVVM\Behaviors\AutoRepositionPopupBehavior.cs" />
+    <Compile Include="CommomUI\Controls\LaunchWindow.xaml.cs">
+      <DependentUpon>LaunchWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommomUI\ImageButton\ImageButton.cs" />
+    <Compile Include="CommomUI\Log\ViewModel\LogDisplayFilter.cs" />
+    <Compile Include="CommonApplicationData.cs" />
+    <Compile Include="CommomUI\Log\Controls\LogViewer.xaml.cs">
+      <DependentUpon>LogViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommomUI\Log\Controls\LogMessageListBox.cs" />
+    <Compile Include="CommomUI\Log\ViewModel\LogMessageItemViewModel.cs" />
+    <Compile Include="CommomUI\Log\ViewModel\LogViewerViewModel.cs" />
+    <Compile Include="CommomUI\Log\ViewModel\LogWindowViewModel.cs" />
+    <Compile Include="CommomUI\Log\View\LogWindow.xaml.cs">
+      <DependentUpon>LogWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\BinLevelConverter.cs" />
+    <Compile Include="Converters\BooleanToHiddenNegateConverter.cs" />
+    <Compile Include="Converters\BooleanToVisibilityConverter.cs" />
+    <Compile Include="Converters\BooleanToVisibleMultiConverter.cs" />
+    <Compile Include="Converters\BooleanToVisiblePasteMultiConverter.cs" />
+    <Compile Include="Converters\BoolReverseConverter.cs" />
+    <Compile Include="Converters\BoolToVisCloseAllMultiConverter.cs" />
+    <Compile Include="Converters\BoolToVisGainMultiConverter.cs" />
+    <Compile Include="Converters\BooleanToVisibilityNegateConverter.cs" />
+    <Compile Include="Converters\BooleanToVisibleHiddenConverter.cs" />
+    <Compile Include="Converters\ContentToMarginConverter.cs" />
+    <Compile Include="Converters\ContentToPathConverter.cs" />
+    <Compile Include="Converters\EnumToBooleanConverter.cs" />
+    <Compile Include="Converters\EnumToVisibilityHiddenConverter.cs" />
+    <Compile Include="Converters\EnumToVisibilityVisibleConverter.cs" />
+    <Compile Include="Converters\ExposureTimeConverter.cs" />
+    <Compile Include="Converters\FilterLightFocusConverter.cs" />
+    <Compile Include="Converters\GainValueConverter.cs" />
+    <Compile Include="Converters\LogicalNegateConverter.cs" />
+    <Compile Include="Converters\LogicalOrConverter.cs" />
+    <Compile Include="Converters\LogicalOrNegateConverter.cs" />
+    <Compile Include="Converters\LogicalOrToVisibilityMultiConverter.cs" />
+    <Compile Include="Converters\GammaValueConverter.cs" />
+    <Compile Include="Converters\RealGammaConverter.cs" />
+    <Compile Include="Converters\StringNullableToIntConverter.cs" />
+    <Compile Include="Converters\XamlToHtmlParser\HtmlCssParser.cs" />
+    <Compile Include="Converters\XamlToHtmlParser\HtmlFromXamlConverter.cs" />
+    <Compile Include="Converters\XamlToHtmlParser\HtmlLexicalAnalyzer.cs" />
+    <Compile Include="Converters\XamlToHtmlParser\HtmlParser.cs" />
+    <Compile Include="Converters\XamlToHtmlParser\HtmlSchema.cs" />
+    <Compile Include="Converters\XamlToHtmlParser\HtmlTokenType.cs" />
+    <Compile Include="Converters\XamlToHtmlParser\HtmlToXamlConverter.cs" />
+    <Compile Include="Converters\ZeroToEmptyStringConverter.cs" />
+    <Compile Include="MVVM\Behaviors\ColumnHeaderBehavior.cs" />
+    <Compile Include="MVVM\Behaviors\EventToCommand.cs" />
+    <Compile Include="MVVM\Behaviors\FolderDialogBehavior.cs" />
+    <Compile Include="MVVM\Behaviors\MediaElementBehavior.cs" />
+    <Compile Include="MVVM\Behaviors\SaveFileDialogBehavior.cs" />
+    <Compile Include="MVVM\Behaviors\TextChangedBehavior.cs" />
+    <Compile Include="MVVM\Behaviors\CornerRadiusSetter.cs" />
+    <Compile Include="MVVM\Behaviors\MessageBoxViewModel.cs" />
+    <Compile Include="MVVM\Behaviors\OpenFileDialogViewModel.cs" />
+    <Compile Include="MVVM\Behaviors\WindowClosingBehavior.cs" />
+    <Compile Include="MVVM\Behaviors\DialogBoxBehavior.cs" />
+    <Compile Include="MVVM\Behaviors\IDialogBoxViewModel.cs" />
+    <Compile Include="MVVM\DialogViewModelBase.cs" />
+    <Compile Include="MVVM\Extensions\DataGridExtensions.cs" />
+    <Compile Include="MVVM\Extensions\GridHelpers.cs" />
+    <Compile Include="MVVM\Extensions\GridViewColumns.cs" />
+    <Compile Include="MVVM\Extensions\NonNegativeIntegerTextBox.cs" />
+    <Compile Include="MVVM\Extensions\PasswordBoxAssistant.cs" />
+    <Compile Include="MVVM\Extensions\RelativeFontSize.cs" />
+    <Compile Include="MVVM\Extensions\HtmlDecorator.cs" />
+    <Compile Include="MVVM\Extensions\RichTextboxAssistant.cs" />
+    <Compile Include="MVVM\RelayCommand.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MVVM\ViewModelBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sequlite.ALF.Common\Sequlite.ALF.Common.csproj">
+      <Project>{62dba0e8-7f0c-4575-a907-b0d153f51524}</Project>
+      <Name>Sequlite.ALF.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="CommomUI\Controls\LaunchWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommomUI\Log\Controls\LogViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommomUI\Log\View\LogWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CommomUI\CSVFile\CSVFileView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>XamlIntelliSenseFileGenerator</Generator>
+    </Page>
+    <Page Include="Resources\ConverterDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\StyleDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\ColorDictionary.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\ExpanderStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\WizardStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit">
+      <Version>4.1.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.Text.Json">
+      <Version>5.0.2</Version>
+    </PackageReference>
+    <PackageReference Include="System.Windows.Interactivity.WPF">
+      <Version>2.0.20525</Version>
+    </PackageReference>
+    <PackageReference Include="WindowsAPICodePack-Shell">
+      <Version>1.1.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

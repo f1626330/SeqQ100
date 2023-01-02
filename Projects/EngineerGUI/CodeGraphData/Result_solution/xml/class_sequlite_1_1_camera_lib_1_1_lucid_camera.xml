@@ -1,0 +1,489 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_camera_lib_1_1_lucid_camera" kind="class" prot="public">
+    <compoundname>Sequlite::CameraLib::LucidCamera</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base" prot="public" virt="non-virtual">Sequlite.CameraLib.CameraLibBase</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a47aef6dee3785803a15e6a1d505b1fac" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>override <ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a250af2fdafa64f0f25f423245d89089e" kindref="member">CameraNotifHandler</ref></type>
+        <definition>override CameraNotifHandler Sequlite.CameraLib.LucidCamera.CameraNotif</definition>
+        <argsstring></argsstring>
+        <name>CameraNotif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a34b9ca055a7bf23bd01b0b01494b1a53" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>override <ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aa5e8d217693c20daee3a0673a7dff0c1" kindref="member">ExposureChangedHandle</ref></type>
+        <definition>override ExposureChangedHandle Sequlite.CameraLib.LucidCamera.OnExposureChanged</definition>
+        <argsstring></argsstring>
+        <name>OnExposureChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a06f6183f4067e9e657aa4513a0116884" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override <ref refid="namespace_sequlite_1_1_camera_lib_1adf877ec3e94b9627573c53341c664b6d" kindref="member">CameraMake</ref></type>
+        <definition>override CameraMake Sequlite.CameraLib.LucidCamera.CameraType</definition>
+        <argsstring></argsstring>
+        <name>CameraType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1abcc374faea249246135242b3a7fbf268" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.LucidCamera.RoiStartX</definition>
+        <argsstring></argsstring>
+        <name>RoiStartX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a52206856f52c4373160c69924bd10049" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.LucidCamera.RoiStartY</definition>
+        <argsstring></argsstring>
+        <name>RoiStartY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1ae7c10538df14ec555355c7f54a51cca9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.LucidCamera.RoiWidth</definition>
+        <argsstring></argsstring>
+        <name>RoiWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a5cc774894ae3c355f727ed16fb9f5924" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.LucidCamera.RoiHeight</definition>
+        <argsstring></argsstring>
+        <name>RoiHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a5ff65d3ba7d1d5fe06e3f7db9b321bf6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.LucidCamera.ImagingColumns</definition>
+        <argsstring></argsstring>
+        <name>ImagingColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1aee5144c2cc8b4aa8faec662b0f83d2a4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.LucidCamera.ImagingRows</definition>
+        <argsstring></argsstring>
+        <name>ImagingRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a75e50a1722c01a5c3c05d708287bac76" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.LucidCamera.HBin</definition>
+        <argsstring></argsstring>
+        <name>HBin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a7697573181b1aac1833da34931934c2f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.LucidCamera.VBin</definition>
+        <argsstring></argsstring>
+        <name>VBin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1af8a41277b0b432a48b8e8344ada05573" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override double</type>
+        <definition>override double Sequlite.CameraLib.LucidCamera.MinExposure</definition>
+        <argsstring></argsstring>
+        <name>MinExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1ad27bb66a40de523237c637a1c640da9c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.LucidCamera.ReadoutSpeed</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1abd8473a93bb29fc12be720bfbb4b0dd5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override double</type>
+        <definition>override double Sequlite.CameraLib.LucidCamera.CCDTemperature</definition>
+        <argsstring></argsstring>
+        <name>CCDTemperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a8c22e286f144b27bbded06070d8f4854" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override double</type>
+        <definition>override double Sequlite.CameraLib.LucidCamera.CCDCoolerSetPoint</definition>
+        <argsstring></argsstring>
+        <name>CCDCoolerSetPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a8372e02d13de483d690f2e6a4dd7598f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override string</type>
+        <definition>override string Sequlite.CameraLib.LucidCamera.FirmwareVersion</definition>
+        <argsstring></argsstring>
+        <name>FirmwareVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1af56ef386978f7829d1b9d079d4887013" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override bool</type>
+        <definition>override bool Sequlite.CameraLib.LucidCamera.IsAbortCapture</definition>
+        <argsstring></argsstring>
+        <name>IsAbortCapture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a25db1bcf6a58d079e71d08e17698720f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override bool</type>
+        <definition>override bool Sequlite.CameraLib.LucidCamera.ForceShutterOpen</definition>
+        <argsstring></argsstring>
+        <name>ForceShutterOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a8b67b58f090515db3eebc7a52929f5fa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override int</type>
+        <definition>override int Sequlite.CameraLib.LucidCamera.Gain</definition>
+        <argsstring></argsstring>
+        <name>Gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="38" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a7fc81943ef56821fa1d24c17c5217c88" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override bool</type>
+        <definition>override bool Sequlite.CameraLib.LucidCamera.IsAcqRunning</definition>
+        <argsstring></argsstring>
+        <name>IsAcqRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1aa83bdfc2946c42b97c229c82aac73b89" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override bool</type>
+        <definition>override bool Sequlite.CameraLib.LucidCamera.IsDynamicDarkCorrection</definition>
+        <argsstring></argsstring>
+        <name>IsDynamicDarkCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a83113c4121662707e2632b39b0504178" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override bool</type>
+        <definition>override bool Sequlite.CameraLib.LucidCamera.Open</definition>
+        <argsstring>()</argsstring>
+        <name>Open</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a90f7f0da3124a718355a74910abf1798">Open</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1af2a84c560ff123f5ca0ed1d23ecd9f03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.LucidCamera.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6172f571d3ad9494abc8642ba97363d0">Close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a3c0926487634659777c59aaca87289f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.LucidCamera.GrabImage</definition>
+        <argsstring>(double exposureTime, CaptureFrameType frameType, ref WriteableBitmap capturedImage)</argsstring>
+        <name>GrabImage</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ad390ace241c6208f9758667158586910">GrabImage</reimplements>
+        <param>
+          <type>double</type>
+          <declname>exposureTime</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_camera_lib_1ab7a879b5b698a15f6c0f1b7b301fddac" kindref="member">CaptureFrameType</ref></type>
+          <declname>frameType</declname>
+        </param>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>capturedImage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="42" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="42" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1ab93829ceec8bc8f53c21568593b35fd9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.LucidCamera.GrabImage</definition>
+        <argsstring>(double exposureTime, CaptureFrameType frameType, ref WriteableBitmap capturedImage, int lightType)</argsstring>
+        <name>GrabImage</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ae370cad5c028a1cb02556babf6d77f20">GrabImage</reimplements>
+        <param>
+          <type>double</type>
+          <declname>exposureTime</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_camera_lib_1ab7a879b5b698a15f6c0f1b7b301fddac" kindref="member">CaptureFrameType</ref></type>
+          <declname>frameType</declname>
+        </param>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>capturedImage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lightType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="49" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1abd5c6c74d74a7ac5bdcd2e4a40264073" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.LucidCamera.StopCapture</definition>
+        <argsstring>()</argsstring>
+        <name>StopCapture</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1abcde862069ea931361b2cd1480334af1">StopCapture</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a1d80eaf090edcc25bef78604237bdd93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.LucidCamera.StartContinuousMode</definition>
+        <argsstring>(double exposureTime)</argsstring>
+        <name>StartContinuousMode</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6bce98a34705c2b73a82de0d90442e2d">StartContinuousMode</reimplements>
+        <param>
+          <type>double</type>
+          <declname>exposureTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="62" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a222461bb1b7e12b5fe53511d970990e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.CameraLib.LucidCamera.StopAcquisition</definition>
+        <argsstring>()</argsstring>
+        <name>StopAcquisition</name>
+        <reimplements refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a7e206ece199d59c09949485261ff5f57">StopAcquisition</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="67" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="667">
+        <label>Sequlite.CameraLib.LucidCamera</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera"/>
+        <childnode refid="668" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="668">
+        <label>CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="669">
+        <label>Sequlite.CameraLib.LucidCamera</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera"/>
+        <childnode refid="670" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="670">
+        <label>CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/LucidVisionLabs/LucidCamera.cs" bodystart="5" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a333f7fb070b288bffd8da0d1855a26c8" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_CCDCoolerSetPoint</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a9df5989399c413953c24d5e056dae8c1" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_CurrCcdTemperature</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6f9a505239c3fc541ea66f9bbac4d984" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_Gain</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a074a64be81c47f3d449c3e2f021fc56e" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_HBin</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ac7910dffb726d07800388cb662a5a9b0" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_ImagingColumns</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ad379fa3842de84da903dbac16fb52467" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_ImagingRows</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1afdac013cd490932dd3c1da9cae34728b" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_IsAbortCapture</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a06e5e9c8c990b833dad9bbdeb4540d58" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_IsAcqRunning</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a3d50f2f8e70f29930ae99d7abb8b1e87" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_IsForceShutterOpen</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aca328df08abb75f8cb9a1ba6b56c825e" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_MinExposure</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a7ee80d9ed3d88a967089711c620339a1" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_ReadoutSpeed</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a0fe06930af7097fce4f0d5093c2e37cf" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>_VBin</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a47aef6dee3785803a15e6a1d505b1fac" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>CameraNotif</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a250af2fdafa64f0f25f423245d89089e" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>CameraNotifHandler</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a06f6183f4067e9e657aa4513a0116884" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>CameraType</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a8c22e286f144b27bbded06070d8f4854" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>CCDCoolerSetPoint</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1abd8473a93bb29fc12be720bfbb4b0dd5" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>CCDTemperature</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1af2a84c560ff123f5ca0ed1d23ecd9f03" prot="public" virt="virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>Close</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aa5e8d217693c20daee3a0673a7dff0c1" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>ExposureChangedHandle</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a8372e02d13de483d690f2e6a4dd7598f" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>FirmwareVersion</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a25db1bcf6a58d079e71d08e17698720f" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>ForceShutterOpen</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a8b67b58f090515db3eebc7a52929f5fa" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>Gain</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a3c0926487634659777c59aaca87289f8" prot="public" virt="virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>GrabImage</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1ab93829ceec8bc8f53c21568593b35fd9" prot="public" virt="virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>GrabImage</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a75e50a1722c01a5c3c05d708287bac76" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>HBin</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a5ff65d3ba7d1d5fe06e3f7db9b321bf6" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>ImagingColumns</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1aee5144c2cc8b4aa8faec662b0f83d2a4" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>ImagingRows</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1af56ef386978f7829d1b9d079d4887013" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>IsAbortCapture</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a7fc81943ef56821fa1d24c17c5217c88" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>IsAcqRunning</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1aa83bdfc2946c42b97c229c82aac73b89" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>IsDynamicDarkCorrection</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1af8a41277b0b432a48b8e8344ada05573" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>MinExposure</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a34b9ca055a7bf23bd01b0b01494b1a53" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>OnExposureChanged</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a83113c4121662707e2632b39b0504178" prot="public" virt="virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>Open</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1ad27bb66a40de523237c637a1c640da9c" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>ReadoutSpeed</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a5cc774894ae3c355f727ed16fb9f5924" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>RoiHeight</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1abcc374faea249246135242b3a7fbf268" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>RoiStartX</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a52206856f52c4373160c69924bd10049" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>RoiStartY</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1ae7c10538df14ec555355c7f54a51cca9" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>RoiWidth</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a1d80eaf090edcc25bef78604237bdd93" prot="public" virt="virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>StartContinuousMode</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a222461bb1b7e12b5fe53511d970990e2" prot="public" virt="virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>StopAcquisition</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1abd5c6c74d74a7ac5bdcd2e4a40264073" prot="public" virt="virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>StopCapture</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a7697573181b1aac1833da34931934c2f" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::LucidCamera</scope><name>VBin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

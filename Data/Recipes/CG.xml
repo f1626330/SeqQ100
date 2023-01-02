@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Recipe Name="A2.8_4L_CG_r1" CreatedTime="2/18/2019 9:25:39 AM" UpdatedTime="6/28/2022 1:56:12 PM" ToolVersion=" 0.0.0.0">
+  <Steps>
+    <Step StepName="Set Temperature" TargetTemper="25" Tolerance="1" Duration="0" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="Set PreHeating Temp" TargetTemper="40" Tolerance="5" Wait="True" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="17" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="14" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="110" Reagent="13" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="110" Reagent="11" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="5" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="2" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="3" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="110" Reagent="4" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="240" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="14" PumpingType="PullPush" />
+    <Step StepName="Set Temperature" TargetTemper="88" Tolerance="1" Duration="0" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="2" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="300" Reagent="3" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="22" Reagent="2" PumpingType="PullPush" />
+    <Step StepName="Waiting" Time="30" />
+    <Step StepName="Set Temperature" TargetTemper="40" Tolerance="1" Duration="120" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="240" Reagent="2" PumpingType="PullPush" />
+    <Step StepName="Set Temperature" TargetTemper="54" Tolerance="1" Duration="0" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="180" Reagent="17" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="13" PumpingType="PullPush" />
+    <Step StepName="Waiting" Time="90" />
+    <Step StepName="Looping" LoopName="Extn (L13)" Cycles="5">
+      <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="45" Reagent="13" PumpingType="PullPush" />
+      <Step StepName="Waiting" Time="30" />
+    </Step>
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="14" PumpingType="PullPush" />
+    <Step StepName="Set Temperature" TargetTemper="88" Tolerance="1" Duration="0" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="Looping" LoopName="Default Loop" Cycles="5">
+      <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="60" Reagent="14" PumpingType="PullPush" />
+      <Step StepName="Waiting" Time="30" />
+    </Step>
+    <Step StepName="Set Temperature" TargetTemper="54" Tolerance="1" Duration="0" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="17" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="11" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="22" Reagent="17" PumpingType="PullPush" />
+    <Step StepName="Waiting" Time="25" />
+    <Step StepName="Looping" LoopName="IsoAmp" Cycles="21">
+      <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="14" PumpingType="PullPush" />
+      <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="17" PumpingType="PullPush" />
+      <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="2000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="120" Reagent="11" PumpingType="PullPush" />
+      <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="22" Reagent="17" PumpingType="PullPush" />
+      <Step StepName="Waiting" Time="25" />
+    </Step>
+    <Step StepName="Stop PreHeating" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="14" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="17" PumpingType="PullPush" />
+    <Step StepName="Set Temperature" TargetTemper="37" Tolerance="1" Duration="0" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="1" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="90" Reagent="4" PumpingType="PullPush" />
+    <Step StepName="Waiting" Time="240" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="40" Reagent="4" PumpingType="PullPush" />
+    <Step StepName="Waiting" Time="240" />
+    <Step StepName="Set Temperature" TargetTemper="41" Tolerance="1" Duration="0" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="Looping" LoopName="Default Loop" Cycles="2">
+      <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="40" Reagent="4" PumpingType="PullPush" />
+      <Step StepName="Waiting" Time="240" />
+    </Step>
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="5" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="22" PumpingType="PullPush" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="14" PumpingType="PullPush" />
+    <Step StepName="Set Temperature" TargetTemper="88" Tolerance="1" Duration="0" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="Looping" LoopName="Default Loop" Cycles="6">
+      <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="60" Reagent="14" PumpingType="PullPush" />
+      <Step StepName="Waiting" Time="30" />
+    </Step>
+    <Step StepName="Set Temperature" TargetTemper="25" Tolerance="1" Duration="0" Wait="True" CtrlP="14" CtrlI="3.24" CtrlD="0" CtrlHeatGain="1" CtrlCoolGain="1" />
+    <Step StepName="New Pumping" PushingRate="15000" PushValve3="1" PushValve2="6" PumpPushingPaths="0000" PushingPath="Waste" PullingRate="1000" PullValve3="1" PullValve2="6" PumpPullingPaths="1111" PullingPath="FC" Volume="150" Reagent="22" PumpingType="PullPush" />
+  </Steps>
+</Recipe>

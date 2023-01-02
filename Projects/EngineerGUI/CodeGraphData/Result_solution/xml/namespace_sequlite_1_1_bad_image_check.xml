@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_bad_image_check" kind="namespace">
+    <compoundname>Sequlite::BadImageCheck</compoundname>
+    <innerclass refid="class_sequlite_1_1_bad_image_check_1_1_app" prot="public">Sequlite::BadImageCheck::App</innerclass>
+    <innerclass refid="class_sequlite_1_1_bad_image_check_1_1_main_window" prot="public">Sequlite::BadImageCheck::MainWindow</innerclass>
+    <innernamespace refid="namespace_sequlite_1_1_bad_image_check_1_1_properties">Sequlite::BadImageCheck::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/App.xaml.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_caaa45d3370916b66e700b873b0e8047" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.ALF.Configuration</compoundname>
+    <innerdir refid="dir_dc0f4eb5f20865b5be3e50c03b12bf35">D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/Properties</innerdir>
+    <innerfile refid="_config_settings_8cs">ConfigSettings.cs</innerfile>
+    <innerfile refid="_settings_manager_8cs">SettingsManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="Sequlite.LogAnalyzer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sequlite.LogAnalyzer"
+        xmlns:d3="clr-namespace:InteractiveDataDisplay.WPF;assembly=InteractiveDataDisplay.WPF"
+        mc:Ignorable="d"
+        MinWidth="600" MinHeight="400">
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="6"/>
+            <Setter Property="Padding" Value="3"/>
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="6"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="ComboBox">
+            <Setter Property="Margin" Value="6"/>
+        </Style>
+        <Style TargetType="GroupBox">
+            <Setter Property="Margin" Value="6"/>
+        </Style>
+        <local:EnumDescriptionConverter x:Key="EnumDescriptionConverter" />
+        <ObjectDataProvider x:Key="GraphTypeData"
+                        ObjectType="{x:Type local:GraphType}"
+                        MethodName="GetValues">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:GraphType" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <ObjectDataProvider x:Key="AxisTypeData"
+                        ObjectType="{x:Type local:AxisType}"
+                        MethodName="GetValues">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:AxisType" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+    <Grid Margin="6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <!-- Row 1: file input -->
+        <GroupBox Header="File Input" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                <Button x:Name="ButtonLoadLog"  Click="ButtonLoadLog_Click" Content="Load SysLog..." ToolTip="Select a SysLog to process"/>
+                <Button x:Name="ButtonLoadFolder"  Click="ButtonLoadFolder_Click" Content="Load Folder..."  ToolTip="Select a folder of SysLogs to batch process"/>
+                <TextBlock x:Name="LogFileName" MinWidth="200" HorizontalAlignment="Stretch"/>
+            </StackPanel>
+        </GroupBox>
+        
+        <!-- Row 2: data selection -->
+        <StackPanel Orientation="Vertical" Grid.Row="1" Grid.Column="0">
+            <GroupBox Header="Selected Data Info">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="TextBlockDataInfo">No Data Selected</TextBlock>
+                    <Button x:Name="ButtonExport"  Click="ButtonExport_Click">Export Selected...</Button>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Chart Style" >
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock HorizontalAlignment="Right" Text="Chart type:"/>
+                    <ComboBox x:Name="ComboBoxChartTypeSelect" SelectionChanged="Chart_TypeChanged"
+                              ItemsSource="{Binding Source={StaticResource GraphTypeData}}">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Converter={StaticResource EnumDescriptionConverter}}"/>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+
+                    </ComboBox>
+                    <TextBlock HorizontalAlignment="Right" Text="X-axis type"/>
+                    <ComboBox x:Name="ComboBoxXAxisSelect"  SelectionChanged="Chart_AxisChanged"
+                        ItemsSource="{Binding Source={StaticResource AxisTypeData}}">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Converter={StaticResource EnumDescriptionConverter}}"/>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        <GroupBox Header="Data sets:" Grid.Row="1" Grid.Column="1">
+            <ListBox x:Name="ListLogKeys" Grid.Row="1" Grid.Column="2" SelectionChanged="Chart_SelectionChanged" Margin="6"></ListBox>
+        </GroupBox>
+        
+        <!-- Row 3: graph -->
+        <GroupBox x:Name="GroupBoxGraph" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+            <d3:Chart Name="plotter"
+                      ToolTip="Scroll to Zoom. Scroll over an axis to scale only that axis. Double-click to fit data to window.">
+                <Grid Name="plotGrid"
+                      />
+            </d3:Chart>
+        </GroupBox>
+    </Grid>
+</UserControl>

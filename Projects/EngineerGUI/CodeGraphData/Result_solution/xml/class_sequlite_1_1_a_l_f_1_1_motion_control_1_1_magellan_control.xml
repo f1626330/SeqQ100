@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::MotionControl::MagellanControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a6164d6fe9a20b9e81174954383280972" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl._IsConnected</definition>
+        <argsstring></argsstring>
+        <name>_IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1adc4bc032fe77ab2a4005aafd1da7141b" prot="private" static="no" mutable="no">
+        <type>PMD.PMDPeripheralCOM</type>
+        <definition>PMD.PMDPeripheralCOM Sequlite.ALF.MotionControl.MagellanControl._Peripheral</definition>
+        <argsstring></argsstring>
+        <name>_Peripheral</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1adefad3c2bede99c0a71948bfaaa66cd6" prot="private" static="no" mutable="no">
+        <type>PMD.PMDDevice</type>
+        <definition>PMD.PMDDevice Sequlite.ALF.MotionControl.MagellanControl._Device</definition>
+        <argsstring></argsstring>
+        <name>_Device</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1ae74dc5934589a4381985ec800d79ade9" prot="private" static="no" mutable="no">
+        <type>PMD.PMDAxis</type>
+        <definition>PMD.PMDAxis Sequlite.ALF.MotionControl.MagellanControl._Axis</definition>
+        <argsstring></argsstring>
+        <name>_Axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1ab4c7c8594461c075fa0c7c758ea51634" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MotionControl.MagellanControl._TargetPos</definition>
+        <argsstring></argsstring>
+        <name>_TargetPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1af2e0f5b8544459ff8bad960b6bbbb9b3" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double Sequlite.ALF.MotionControl.MagellanControl._CycleTime</definition>
+        <argsstring></argsstring>
+        <name>_CycleTime</name>
+        <initializer>= 51.2e-6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a151bf533223e1722fb238fd8866f27c0" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double Sequlite.ALF.MotionControl.MagellanControl._CntsToDistanceFactor</definition>
+        <argsstring></argsstring>
+        <name>_CntsToDistanceFactor</name>
+        <initializer>= 200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a306d8f06be5d9a988b0d2f45165918c5" prot="private" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MotionControl.MagellanControl._SerialPortNum</definition>
+        <argsstring></argsstring>
+        <name>_SerialPortNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a6d08681ab251f0b0956da511350d53ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.IsConnected</definition>
+        <argsstring></argsstring>
+        <name>IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a228f46753df3fbea8577750e29b2e137" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MotionControl.MagellanControl.VelocityLimitHigh</definition>
+        <argsstring></argsstring>
+        <name>VelocityLimitHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a9a07eccd4475fbd4c3b2c4cf3ec97217" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MotionControl.MagellanControl.VelocityLimitLow</definition>
+        <argsstring></argsstring>
+        <name>VelocityLimitLow</name>
+        <initializer>= (int.MaxValue - 1) / 65536.0 / <ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a151bf533223e1722fb238fd8866f27c0" kindref="member">_CntsToDistanceFactor</ref> / <ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1af2e0f5b8544459ff8bad960b6bbbb9b3" kindref="member">_CycleTime</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a697abcda082bc87919522df50b688933" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MotionControl.MagellanControl.AccelLimitHigh</definition>
+        <argsstring></argsstring>
+        <name>AccelLimitHigh</name>
+        <initializer>= int.MinValue / 65536.0 / <ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a151bf533223e1722fb238fd8866f27c0" kindref="member">_CntsToDistanceFactor</ref> / <ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1af2e0f5b8544459ff8bad960b6bbbb9b3" kindref="member">_CycleTime</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1adab2c616b27d77b7e4e91d465af98bbe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.MotionControl.MagellanControl.AccelLimitLow</definition>
+        <argsstring></argsstring>
+        <name>AccelLimitLow</name>
+        <initializer>= (int.MaxValue - 1) / 65536.0 / <ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a151bf533223e1722fb238fd8866f27c0" kindref="member">_CntsToDistanceFactor</ref> / <ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1af2e0f5b8544459ff8bad960b6bbbb9b3" kindref="member">_CycleTime</ref> / <ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1af2e0f5b8544459ff8bad960b6bbbb9b3" kindref="member">_CycleTime</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a19bf3ff496f65e2fe47d724012780a8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.Connect</definition>
+        <argsstring>(uint baudrate=57600, bool homeAfterConnected=false)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>uint</type>
+          <declname>baudrate</declname>
+          <defval>57600</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>homeAfterConnected</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="33" bodyend="88"/>
+        <references refid="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a8cf04a9734132302f96da8e113e80ce5">Sequlite.ALF.MotionControl.Home</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a3253d9f55bcdefb8e25ba12c6880fdb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MotionControl.MagellanControl.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="90" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="90" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a31ccc70db6247b0ca3301feac60e13b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.Home</definition>
+        <argsstring>()</argsstring>
+        <name>Home</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="109" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="109" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a1d65b1421a48e23ae277ab0f313ce09e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.ReadActualPos</definition>
+        <argsstring>(ref double encoderPos)</argsstring>
+        <name>ReadActualPos</name>
+        <param>
+          <type>ref double</type>
+          <declname>encoderPos</declname>
+        </param>
+        <briefdescription>
+<para>Read the encoder position, unit of um, returns false if failed to read </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>encoderPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit of um.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="182" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="182" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a925b970cfc0bf115c4611728a94d6e56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.SetNewPosition</definition>
+        <argsstring>(double newPos, bool waitForComplete=false)</argsstring>
+        <name>SetNewPosition</name>
+        <param>
+          <type>double</type>
+          <declname>newPos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitForComplete</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Set to new position. returns false if failed to do so. Make sure that the controller is in trapeziodal/S-curve profile mode with acceleration and velocity set beforehand. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newPos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit of um.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="204" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="204" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a13bdf7d087e1aed760e7b8408f7b3c4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.SetNewRelativePos</definition>
+        <argsstring>(double newRelativePos, bool waitForComplete=false)</argsstring>
+        <name>SetNewRelativePos</name>
+        <param>
+          <type>double</type>
+          <declname>newRelativePos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitForComplete</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="225" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="225" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1aa3f88f236dc3a3fd1c6c6383e80cac1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.SetNewVelocity</definition>
+        <argsstring>(double newVelocity, bool updateImmediately=false)</argsstring>
+        <name>SetNewVelocity</name>
+        <param>
+          <type>double</type>
+          <declname>newVelocity</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>updateImmediately</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Set new velocity. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newVelocity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit of um/s</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>updateImmediately</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new value would be updated if set to true.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="251" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="251" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1aeacd21b7822e31eda5914316a6561780" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.SetNewAcceleration</definition>
+        <argsstring>(double newAccel, bool updateImmediately=false)</argsstring>
+        <name>SetNewAcceleration</name>
+        <param>
+          <type>double</type>
+          <declname>newAccel</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>updateImmediately</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Set new acceleration. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>newAccel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit of um/s^2</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>updateImmediately</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the new value would be updated if set to true.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="277" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="277" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a5c6816e5d781d3d8e1f06912b246ac3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.SetNewDeceleration</definition>
+        <argsstring>(double newDecel, bool updateImmediately=false)</argsstring>
+        <name>SetNewDeceleration</name>
+        <param>
+          <type>double</type>
+          <declname>newDecel</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>updateImmediately</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="297" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="297" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1aa321e3026f9e57cf8db8fab997395001" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.TerminateMotion</definition>
+        <argsstring>()</argsstring>
+        <name>TerminateMotion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="317" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="317" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1abb116d11731d237aabc3025042219339" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.WaitForEvent</definition>
+        <argsstring>(PMD.PMDEventStatus waitingEvent, int timeout)</argsstring>
+        <name>WaitForEvent</name>
+        <param>
+          <type>PMD.PMDEventStatus</type>
+          <declname>waitingEvent</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="331" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="331" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1adaad177cf26d7d755ed973d27acc9217" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MotionControl.MagellanControl.SetNewBaudrate</definition>
+        <argsstring>(uint baudrate, bool updateImmediately=false)</argsstring>
+        <name>SetNewBaudrate</name>
+        <param>
+          <type>uint</type>
+          <declname>baudrate</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>updateImmediately</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="359" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="359" bodyend="416"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="673">
+        <label>Sequlite.ALF.MotionControl.MagellanControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control"/>
+        <childnode refid="674" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="674">
+        <label>IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="675">
+        <label>Sequlite.ALF.MotionControl.MagellanControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control"/>
+        <childnode refid="676" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="676">
+        <label>IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/MagellanControl.cs" bodystart="8" bodyend="419"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1ae74dc5934589a4381985ec800d79ade9" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>_Axis</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a151bf533223e1722fb238fd8866f27c0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>_CntsToDistanceFactor</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1af2e0f5b8544459ff8bad960b6bbbb9b3" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>_CycleTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1adefad3c2bede99c0a71948bfaaa66cd6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>_Device</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a6164d6fe9a20b9e81174954383280972" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>_IsConnected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1adc4bc032fe77ab2a4005aafd1da7141b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>_Peripheral</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a306d8f06be5d9a988b0d2f45165918c5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>_SerialPortNum</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1ab4c7c8594461c075fa0c7c758ea51634" prot="private" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>_TargetPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a697abcda082bc87919522df50b688933" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>AccelLimitHigh</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1adab2c616b27d77b7e4e91d465af98bbe" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>AccelLimitLow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a19bf3ff496f65e2fe47d724012780a8a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>Connect</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a3253d9f55bcdefb8e25ba12c6880fdb7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a31ccc70db6247b0ca3301feac60e13b1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>Home</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a6d08681ab251f0b0956da511350d53ac" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>IsConnected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a1d65b1421a48e23ae277ab0f313ce09e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>ReadActualPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1aeacd21b7822e31eda5914316a6561780" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>SetNewAcceleration</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1adaad177cf26d7d755ed973d27acc9217" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>SetNewBaudrate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a5c6816e5d781d3d8e1f06912b246ac3c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>SetNewDeceleration</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a925b970cfc0bf115c4611728a94d6e56" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>SetNewPosition</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a13bdf7d087e1aed760e7b8408f7b3c4e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>SetNewRelativePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1aa3f88f236dc3a3fd1c6c6383e80cac1f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>SetNewVelocity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1aa321e3026f9e57cf8db8fab997395001" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>TerminateMotion</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a228f46753df3fbea8577750e29b2e137" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>VelocityLimitHigh</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1a9a07eccd4475fbd4c3b2c4cf3ec97217" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>VelocityLimitLow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control_1abb116d11731d237aabc3025042219339" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MotionControl::MagellanControl</scope><name>WaitForEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

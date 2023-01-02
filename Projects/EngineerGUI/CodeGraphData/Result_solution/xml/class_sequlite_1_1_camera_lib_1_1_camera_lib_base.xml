@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base" kind="class" prot="public" abstract="yes">
+    <compoundname>Sequlite::CameraLib::CameraLibBase</compoundname>
+    <derivedcompoundref refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera" prot="public" virt="non-virtual">Sequlite.CameraLib.LucidCamera</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera" prot="public" virt="non-virtual">Sequlite.CameraLib.PhotometricsCamera</derivedcompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a61d85371ddd826311707050625afe871" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>abstract <ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a250af2fdafa64f0f25f423245d89089e" kindref="member">CameraNotifHandler</ref></type>
+        <definition>abstract CameraNotifHandler Sequlite.CameraLib.CameraLibBase.CameraNotif</definition>
+        <argsstring></argsstring>
+        <name>CameraNotif</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ab6d81a8a7d71d889578fb73f9b70c035" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>abstract <ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aa5e8d217693c20daee3a0673a7dff0c1" kindref="member">ExposureChangedHandle</ref></type>
+        <definition>abstract ExposureChangedHandle Sequlite.CameraLib.CameraLibBase.OnExposureChanged</definition>
+        <argsstring></argsstring>
+        <name>OnExposureChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ac7910dffb726d07800388cb662a5a9b0" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.CameraLibBase._ImagingColumns</definition>
+        <argsstring></argsstring>
+        <name>_ImagingColumns</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ad379fa3842de84da903dbac16fb52467" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.CameraLibBase._ImagingRows</definition>
+        <argsstring></argsstring>
+        <name>_ImagingRows</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a0fe06930af7097fce4f0d5093c2e37cf" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.CameraLibBase._VBin</definition>
+        <argsstring></argsstring>
+        <name>_VBin</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a074a64be81c47f3d449c3e2f021fc56e" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.CameraLibBase._HBin</definition>
+        <argsstring></argsstring>
+        <name>_HBin</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aca328df08abb75f8cb9a1ba6b56c825e" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.CameraLib.CameraLibBase._MinExposure</definition>
+        <argsstring></argsstring>
+        <name>_MinExposure</name>
+        <initializer>= 0.001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a333f7fb070b288bffd8da0d1855a26c8" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.CameraLib.CameraLibBase._CCDCoolerSetPoint</definition>
+        <argsstring></argsstring>
+        <name>_CCDCoolerSetPoint</name>
+        <initializer>= -20.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="30" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a9df5989399c413953c24d5e056dae8c1" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.CameraLib.CameraLibBase._CurrCcdTemperature</definition>
+        <argsstring></argsstring>
+        <name>_CurrCcdTemperature</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6f9a505239c3fc541ea66f9bbac4d984" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.CameraLibBase._Gain</definition>
+        <argsstring></argsstring>
+        <name>_Gain</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a7ee80d9ed3d88a967089711c620339a1" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.CameraLibBase._ReadoutSpeed</definition>
+        <argsstring></argsstring>
+        <name>_ReadoutSpeed</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a06e5e9c8c990b833dad9bbdeb4540d58" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.CameraLib.CameraLibBase._IsAcqRunning</definition>
+        <argsstring></argsstring>
+        <name>_IsAcqRunning</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1afdac013cd490932dd3c1da9cae34728b" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.CameraLib.CameraLibBase._IsAbortCapture</definition>
+        <argsstring></argsstring>
+        <name>_IsAbortCapture</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a3d50f2f8e70f29930ae99d7abb8b1e87" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.CameraLib.CameraLibBase._IsForceShutterOpen</definition>
+        <argsstring></argsstring>
+        <name>_IsForceShutterOpen</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a26e5546a358f63954c01485d31e2a1c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract <ref refid="namespace_sequlite_1_1_camera_lib_1adf877ec3e94b9627573c53341c664b6d" kindref="member">CameraMake</ref></type>
+        <definition>abstract CameraMake Sequlite.CameraLib.CameraLibBase.CameraType</definition>
+        <argsstring></argsstring>
+        <name>CameraType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="38" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a1d60b3a4dd7db660afa556bb0bb3190d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract int</type>
+        <definition>abstract int Sequlite.CameraLib.CameraLibBase.RoiStartX</definition>
+        <argsstring></argsstring>
+        <name>RoiStartX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a9886570559f3b03ac4228762340c99b4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract int</type>
+        <definition>abstract int Sequlite.CameraLib.CameraLibBase.RoiStartY</definition>
+        <argsstring></argsstring>
+        <name>RoiStartY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a99cfc663f5b46bad0bfbbe726c9cadeb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract int</type>
+        <definition>abstract int Sequlite.CameraLib.CameraLibBase.RoiWidth</definition>
+        <argsstring></argsstring>
+        <name>RoiWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="41" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a655165dd18884286c5cfc89e8a2a3969" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract int</type>
+        <definition>abstract int Sequlite.CameraLib.CameraLibBase.RoiHeight</definition>
+        <argsstring></argsstring>
+        <name>RoiHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="42" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a3d75a390f4d4c5d1443f0d9dab90ef9f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract int</type>
+        <definition>abstract int Sequlite.CameraLib.CameraLibBase.ImagingColumns</definition>
+        <argsstring></argsstring>
+        <name>ImagingColumns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a97463c9b902d73cb305e3d1f09e8760a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract int</type>
+        <definition>abstract int Sequlite.CameraLib.CameraLibBase.ImagingRows</definition>
+        <argsstring></argsstring>
+        <name>ImagingRows</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="44" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1acffee8fd27cbf952faf967bd4d7588f0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract int</type>
+        <definition>abstract int Sequlite.CameraLib.CameraLibBase.HBin</definition>
+        <argsstring></argsstring>
+        <name>HBin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="45" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a80943ec836a65929806dded11f31d1d9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract int</type>
+        <definition>abstract int Sequlite.CameraLib.CameraLibBase.VBin</definition>
+        <argsstring></argsstring>
+        <name>VBin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="46" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aa8d5204ae4c6fe8453f8417b1444ae9e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract double</type>
+        <definition>abstract double Sequlite.CameraLib.CameraLibBase.MinExposure</definition>
+        <argsstring></argsstring>
+        <name>MinExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="47" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a90186e1a38205142a76ffbea108b3104" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract int</type>
+        <definition>abstract int Sequlite.CameraLib.CameraLibBase.ReadoutSpeed</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="48" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a00dd8afca6bfe0dc87158dd4d883e5f9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract double</type>
+        <definition>abstract double Sequlite.CameraLib.CameraLibBase.CCDTemperature</definition>
+        <argsstring></argsstring>
+        <name>CCDTemperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="51" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ae9d6aeb913388325c6ecbea69127634c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract double</type>
+        <definition>abstract double Sequlite.CameraLib.CameraLibBase.CCDCoolerSetPoint</definition>
+        <argsstring></argsstring>
+        <name>CCDCoolerSetPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="52" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a7dbb799a5e6f2a3cb0bb270b60dbfeca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract string</type>
+        <definition>abstract string Sequlite.CameraLib.CameraLibBase.FirmwareVersion</definition>
+        <argsstring></argsstring>
+        <name>FirmwareVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="53" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a29b964f44388cbca4888386469f08e86" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract bool</type>
+        <definition>abstract bool Sequlite.CameraLib.CameraLibBase.IsAbortCapture</definition>
+        <argsstring></argsstring>
+        <name>IsAbortCapture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="54" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a80e67729ab8706e68acd8ae53fb64783" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract bool</type>
+        <definition>abstract bool Sequlite.CameraLib.CameraLibBase.ForceShutterOpen</definition>
+        <argsstring></argsstring>
+        <name>ForceShutterOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="55" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a395659c38a95e6dd674beef94f5b25f4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract int</type>
+        <definition>abstract int Sequlite.CameraLib.CameraLibBase.Gain</definition>
+        <argsstring></argsstring>
+        <name>Gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ae3b637fe92744f6845baf8e146ea60e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>abstract bool</type>
+        <definition>abstract bool Sequlite.CameraLib.CameraLibBase.IsAcqRunning</definition>
+        <argsstring></argsstring>
+        <name>IsAcqRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="58" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6b36fa1aeb3917caa4235a8c3ceffb45" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>abstract bool</type>
+        <definition>abstract bool Sequlite.CameraLib.CameraLibBase.IsDynamicDarkCorrection</definition>
+        <argsstring></argsstring>
+        <name>IsDynamicDarkCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="59" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a250af2fdafa64f0f25f423245d89089e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.CameraLib.CameraLibBase.CameraNotifHandler</definition>
+        <argsstring>(Object sender)</argsstring>
+        <name>CameraNotifHandler</name>
+        <param>
+          <type>Object</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aa5e8d217693c20daee3a0673a7dff0c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.CameraLib.CameraLibBase.ExposureChangedHandle</definition>
+        <argsstring>(bool starts)</argsstring>
+        <name>ExposureChangedHandle</name>
+        <param>
+          <type>bool</type>
+          <declname>starts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a90f7f0da3124a718355a74910abf1798" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract bool</type>
+        <definition>abstract bool Sequlite.CameraLib.CameraLibBase.Open</definition>
+        <argsstring>()</argsstring>
+        <name>Open</name>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a83113c4121662707e2632b39b0504178">Open</reimplementedby>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a3c36835ef588403970ffb9532a747180">Open</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6172f571d3ad9494abc8642ba97363d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Sequlite.CameraLib.CameraLibBase.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1af2a84c560ff123f5ca0ed1d23ecd9f03">Close</reimplementedby>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a90af0b454aa9074f997fe97645db01b6">Close</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ad390ace241c6208f9758667158586910" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Sequlite.CameraLib.CameraLibBase.GrabImage</definition>
+        <argsstring>(double exposureTime, CaptureFrameType frameType, ref WriteableBitmap capturedImage)</argsstring>
+        <name>GrabImage</name>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a3c0926487634659777c59aaca87289f8">GrabImage</reimplementedby>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a096443b45e0c07abcfed4b7745b1b7c5">GrabImage</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>exposureTime</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_camera_lib_1ab7a879b5b698a15f6c0f1b7b301fddac" kindref="member">CaptureFrameType</ref></type>
+          <declname>frameType</declname>
+        </param>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>capturedImage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ae370cad5c028a1cb02556babf6d77f20" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Sequlite.CameraLib.CameraLibBase.GrabImage</definition>
+        <argsstring>(double exposureTime, CaptureFrameType frameType, ref WriteableBitmap capturedImage, int lightType)</argsstring>
+        <name>GrabImage</name>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1ab93829ceec8bc8f53c21568593b35fd9">GrabImage</reimplementedby>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a04cb86011ed3cb39c89e78287ee19369">GrabImage</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>exposureTime</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_camera_lib_1ab7a879b5b698a15f6c0f1b7b301fddac" kindref="member">CaptureFrameType</ref></type>
+          <declname>frameType</declname>
+        </param>
+        <param>
+          <type>ref WriteableBitmap</type>
+          <declname>capturedImage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lightType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1abcde862069ea931361b2cd1480334af1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Sequlite.CameraLib.CameraLibBase.StopCapture</definition>
+        <argsstring>()</argsstring>
+        <name>StopCapture</name>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1abd5c6c74d74a7ac5bdcd2e4a40264073">StopCapture</reimplementedby>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a54bcac64be7322ba3e60f813e1ca9901">StopCapture</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6bce98a34705c2b73a82de0d90442e2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Sequlite.CameraLib.CameraLibBase.StartContinuousMode</definition>
+        <argsstring>(double exposureTime)</argsstring>
+        <name>StartContinuousMode</name>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a1d80eaf090edcc25bef78604237bdd93">StartContinuousMode</reimplementedby>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ab1e0a2fa8c8bb7ac9ea2bbeafda9d83e">StartContinuousMode</reimplementedby>
+        <param>
+          <type>double</type>
+          <declname>exposureTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a7e206ece199d59c09949485261ff5f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Sequlite.CameraLib.CameraLibBase.StopAcquisition</definition>
+        <argsstring>()</argsstring>
+        <name>StopAcquisition</name>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera_1a222461bb1b7e12b5fe53511d970990e2">StopAcquisition</reimplementedby>
+        <reimplementedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a5edcef8578676f774e562c24f475c58a">StopAcquisition</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="80" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="179">
+        <label>Sequlite.CameraLib.CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+      <node id="181">
+        <label>Sequlite.CameraLib.PhotometricsCamera</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="180">
+        <label>Sequlite.CameraLib.LucidCamera</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="18" bodyend="81"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a333f7fb070b288bffd8da0d1855a26c8" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_CCDCoolerSetPoint</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a9df5989399c413953c24d5e056dae8c1" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_CurrCcdTemperature</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6f9a505239c3fc541ea66f9bbac4d984" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_Gain</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a074a64be81c47f3d449c3e2f021fc56e" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_HBin</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ac7910dffb726d07800388cb662a5a9b0" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_ImagingColumns</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ad379fa3842de84da903dbac16fb52467" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_ImagingRows</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1afdac013cd490932dd3c1da9cae34728b" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_IsAbortCapture</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a06e5e9c8c990b833dad9bbdeb4540d58" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_IsAcqRunning</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a3d50f2f8e70f29930ae99d7abb8b1e87" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_IsForceShutterOpen</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aca328df08abb75f8cb9a1ba6b56c825e" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_MinExposure</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a7ee80d9ed3d88a967089711c620339a1" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_ReadoutSpeed</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a0fe06930af7097fce4f0d5093c2e37cf" prot="protected" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>_VBin</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a61d85371ddd826311707050625afe871" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>CameraNotif</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a250af2fdafa64f0f25f423245d89089e" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>CameraNotifHandler</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a26e5546a358f63954c01485d31e2a1c4" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>CameraType</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ae9d6aeb913388325c6ecbea69127634c" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>CCDCoolerSetPoint</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a00dd8afca6bfe0dc87158dd4d883e5f9" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>CCDTemperature</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6172f571d3ad9494abc8642ba97363d0" prot="public" virt="pure-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>Close</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aa5e8d217693c20daee3a0673a7dff0c1" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>ExposureChangedHandle</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a7dbb799a5e6f2a3cb0bb270b60dbfeca" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>FirmwareVersion</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a80e67729ab8706e68acd8ae53fb64783" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>ForceShutterOpen</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a395659c38a95e6dd674beef94f5b25f4" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>Gain</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ad390ace241c6208f9758667158586910" prot="public" virt="pure-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>GrabImage</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ae370cad5c028a1cb02556babf6d77f20" prot="public" virt="pure-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>GrabImage</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1acffee8fd27cbf952faf967bd4d7588f0" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>HBin</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a3d75a390f4d4c5d1443f0d9dab90ef9f" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>ImagingColumns</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a97463c9b902d73cb305e3d1f09e8760a" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>ImagingRows</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a29b964f44388cbca4888386469f08e86" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>IsAbortCapture</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ae3b637fe92744f6845baf8e146ea60e9" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>IsAcqRunning</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6b36fa1aeb3917caa4235a8c3ceffb45" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>IsDynamicDarkCorrection</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1aa8d5204ae4c6fe8453f8417b1444ae9e" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>MinExposure</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1ab6d81a8a7d71d889578fb73f9b70c035" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>OnExposureChanged</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a90f7f0da3124a718355a74910abf1798" prot="public" virt="pure-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>Open</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a90186e1a38205142a76ffbea108b3104" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>ReadoutSpeed</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a655165dd18884286c5cfc89e8a2a3969" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>RoiHeight</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a1d60b3a4dd7db660afa556bb0bb3190d" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>RoiStartX</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a9886570559f3b03ac4228762340c99b4" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>RoiStartY</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a99cfc663f5b46bad0bfbbe726c9cadeb" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>RoiWidth</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a6bce98a34705c2b73a82de0d90442e2d" prot="public" virt="pure-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>StartContinuousMode</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a7e206ece199d59c09949485261ff5f57" prot="public" virt="pure-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>StopAcquisition</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1abcde862069ea931361b2cd1480334af1" prot="public" virt="pure-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>StopCapture</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base_1a80943ec836a65929806dded11f31d1d9" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraLibBase</scope><name>VBin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

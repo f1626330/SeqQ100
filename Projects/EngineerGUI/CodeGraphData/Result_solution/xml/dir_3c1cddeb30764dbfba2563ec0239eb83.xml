@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3c1cddeb30764dbfba2563ec0239eb83" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Hywire.CommLibrary</compoundname>
+    <innerdir refid="dir_3331836eec145e6b199801fed7b3604c">D:/Source/Alf/Libraries/Hywire.CommLibrary/Properties</innerdir>
+    <innerfile refid="_check_sum_calculator_8cs">CheckSumCalculator.cs</innerfile>
+    <innerfile refid="_c_r_c16_calculator_8cs">CRC16Calculator.cs</innerfile>
+    <innerfile refid="_c_r_c32_calculator_8cs">CRC32Calculator.cs</innerfile>
+    <innerfile refid="_serial_comm_base_8cs">SerialCommBase.cs</innerfile>
+    <innerfile refid="_struct_bytes_converter_8cs">StructBytesConverter.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Hywire.CommLibrary/"/>
+  </compounddef>
+</doxygen>

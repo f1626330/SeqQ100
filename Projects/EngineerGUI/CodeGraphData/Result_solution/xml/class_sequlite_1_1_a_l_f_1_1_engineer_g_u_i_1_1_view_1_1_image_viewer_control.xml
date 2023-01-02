@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a86fa4a3531d481739c49a4c3162d9d69" prot="private" static="no" mutable="no">
+        <type><ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref></type>
+        <definition>Point Sequlite.ALF.EngineerGUI.View.ImageViewerControl.origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="16" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a1877dcbe37780f73c0a225619359490f" prot="private" static="no" mutable="no">
+        <type><ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref></type>
+        <definition>Point Sequlite.ALF.EngineerGUI.View.ImageViewerControl.start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="17" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a29403cb16d46ae2b7c2064afc69ba2b6" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.View.ImageViewerControl._ZoomRate</definition>
+        <argsstring></argsstring>
+        <name>_ZoomRate</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="18" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1ad5cdd7ca7881427feb49d169e5567659" prot="private" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double Sequlite.ALF.EngineerGUI.View.ImageViewerControl._ZoomRateStep</definition>
+        <argsstring></argsstring>
+        <name>_ZoomRateStep</name>
+        <initializer>= 1.1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="19" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a5aa7081349ebceee71f4f8130b50aeac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.View.ImageViewerControl._ImageZoomRate</definition>
+        <argsstring></argsstring>
+        <name>_ImageZoomRate</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="20" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a0eb6d9606c5e33b12d1119a431b1d0b4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.View.ImageViewerControl._ShiftX</definition>
+        <argsstring></argsstring>
+        <name>_ShiftX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="21" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a18455ca54854291eae1d8196a5573f82" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.View.ImageViewerControl._ShiftY</definition>
+        <argsstring></argsstring>
+        <name>_ShiftY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="22" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a9036b2294efeb197c2872a9b60ccd779" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model" kindref="compound">FileViewModel</ref></type>
+        <definition>FileViewModel Sequlite.ALF.EngineerGUI.View.ImageViewerControl._Vm</definition>
+        <argsstring></argsstring>
+        <name>_Vm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="23" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a255888dc036200d33ab20c039ed39ae5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.View.ImageViewerControl.ImageViewerControl</definition>
+        <argsstring>()</argsstring>
+        <name>ImageViewerControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="26" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a92f43b00ded8aad25f0bf915dc2acdb6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.View.ImageViewerControl.RecoverTransform</definition>
+        <argsstring>()</argsstring>
+        <name>RecoverTransform</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="173" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="173" bodyend="185"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a812c86c7f82bd7013851d2272d70c7b1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.View.ImageViewerControl.ImageViewerControl_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>ImageViewerControl_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="32" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="32" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a6419a31d66f65ebba261ca36b792d2ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.View.ImageViewerControl._DisplayImage_MouseMove</definition>
+        <argsstring>(object sender, MouseEventArgs e)</argsstring>
+        <name>_DisplayImage_MouseMove</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="46" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="46" bodyend="95"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aca1eff679e652d76d47b372860674db2" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_file_view_model_8cs" startline="143">Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.SourceImage</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a48e5534527509a41f4a0bfee2227e452" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.View.ImageViewerControl._DisplayImage_SizeChanged</definition>
+        <argsstring>(object sender, SizeChangedEventArgs e)</argsstring>
+        <name>_DisplayImage_SizeChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SizeChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="97" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="97" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a9ecd441c01e933632188f6606ae5117e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.View.ImageViewerControl._DisplayImage_MouseLeftButtonUp</definition>
+        <argsstring>(object sender, MouseButtonEventArgs e)</argsstring>
+        <name>_DisplayImage_MouseLeftButtonUp</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseButtonEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="119" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="119" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a3c0238535a52633b9b9bc3ea3996c36c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.View.ImageViewerControl._DisplayImage_MouseLeftButtonDown</definition>
+        <argsstring>(object sender, MouseButtonEventArgs e)</argsstring>
+        <name>_DisplayImage_MouseLeftButtonDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseButtonEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="124" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="124" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a3a64da1be0b18b3fa2b73c82e66f55fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.View.ImageViewerControl._DisplayImage_MouseWheel</definition>
+        <argsstring>(object sender, MouseWheelEventArgs e)</argsstring>
+        <name>_DisplayImage_MouseWheel</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseWheelEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="133" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="133" bodyend="172"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ImageViewerControl.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="589">
+        <label>Sequlite.ALF.EngineerGUI.View.ImageViewerControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control"/>
+        <childnode refid="590" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="590">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="593">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model"/>
+        <childnode refid="594" relation="public-inheritance">
+        </childnode>
+        <childnode refid="598" relation="usage">
+          <edgelabel>_SequliteImageInfo</edgelabel>
+        </childnode>
+        <childnode refid="599" relation="usage">
+          <edgelabel>_ImageInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="596">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="597">
+        <label>IDisposable</label>
+      </node>
+      <node id="595">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="596" relation="public-inheritance">
+        </childnode>
+        <childnode refid="597" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="599">
+        <label>Sequlite.ALF.Imaging.ImageInfo</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info"/>
+        <childnode refid="600" relation="public-inheritance">
+        </childnode>
+        <childnode refid="601" relation="usage">
+          <edgelabel>_MixChannel</edgelabel>
+          <edgelabel>_GreenChannel</edgelabel>
+          <edgelabel>_RedChannel</edgelabel>
+        </childnode>
+      </node>
+      <node id="602">
+        <label>System</label>
+      </node>
+      <node id="594">
+        <label>PaneViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model"/>
+        <childnode refid="595" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="598">
+        <label>Processing</label>
+      </node>
+      <node id="591">
+        <label>Sequlite.ALF.EngineerGUI.View.ImageViewerControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control"/>
+        <childnode refid="592" relation="public-inheritance">
+        </childnode>
+        <childnode refid="593" relation="usage">
+          <edgelabel>_Vm</edgelabel>
+        </childnode>
+        <childnode refid="602" relation="usage">
+          <edgelabel>origin</edgelabel>
+          <edgelabel>start</edgelabel>
+        </childnode>
+      </node>
+      <node id="601">
+        <label>Sequlite.ALF.Imaging.ImageChannel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel"/>
+        <childnode refid="600" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="592">
+        <label>UserControl</label>
+      </node>
+      <node id="600">
+        <label>ICloneable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" line="14" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/ImageViewerControl.xaml.cs" bodystart="13" bodyend="187"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a3c0238535a52633b9b9bc3ea3996c36c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_DisplayImage_MouseLeftButtonDown</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a9ecd441c01e933632188f6606ae5117e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_DisplayImage_MouseLeftButtonUp</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a6419a31d66f65ebba261ca36b792d2ab" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_DisplayImage_MouseMove</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a3a64da1be0b18b3fa2b73c82e66f55fc" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_DisplayImage_MouseWheel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a48e5534527509a41f4a0bfee2227e452" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_DisplayImage_SizeChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a5aa7081349ebceee71f4f8130b50aeac" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_ImageZoomRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a0eb6d9606c5e33b12d1119a431b1d0b4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_ShiftX</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a18455ca54854291eae1d8196a5573f82" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_ShiftY</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a9036b2294efeb197c2872a9b60ccd779" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_Vm</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a29403cb16d46ae2b7c2064afc69ba2b6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_ZoomRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1ad5cdd7ca7881427feb49d169e5567659" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>_ZoomRateStep</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a255888dc036200d33ab20c039ed39ae5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>ImageViewerControl</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a812c86c7f82bd7013851d2272d70c7b1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>ImageViewerControl_Loaded</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a86fa4a3531d481739c49a4c3162d9d69" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>origin</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a92f43b00ded8aad25f0bf915dc2acdb6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>RecoverTransform</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a1877dcbe37780f73c0a225619359490f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::View::ImageViewerControl</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

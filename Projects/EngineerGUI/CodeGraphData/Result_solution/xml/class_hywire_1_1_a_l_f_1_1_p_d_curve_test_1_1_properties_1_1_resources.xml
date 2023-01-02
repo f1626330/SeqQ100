@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources" kind="class" prot="package">
+    <compoundname>Hywire::ALF::PDCurveTest::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources_1ac35301d7fabac1465ffd4c1bc4f00105" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Hywire.ALF.PDCurveTest.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" line="28" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources_1a10ad4453b1e97bde4720ff360cf94b84" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Hywire.ALF.PDCurveTest.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" line="30" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources_1a49c57c4b01ef3fa8467796f177fc6adc" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Hywire.ALF.PDCurveTest.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>返回此类使用的缓存 ResourceManager 实例。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" line="41" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources_1a2978ebc4a46c5847a7aabb51d1730d2e" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Hywire.ALF.PDCurveTest.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>覆盖当前线程的 CurrentUICulture 属性 使用此强类型的资源类的资源查找。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" line="59" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources_1ad3f7b626f8842288bcbaa9bfb2a76da2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.PDCurveTest.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" line="33" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>强类型资源类，用于查找本地化字符串等。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1078">
+        <label>Hywire.ALF.PDCurveTest.Properties.Resources</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources"/>
+        <childnode refid="1079" relation="usage">
+          <edgelabel>resourceCulture</edgelabel>
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+      <node id="1079">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" line="26" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/Properties/Resources.Designer.cs" bodystart="25" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources_1a2978ebc4a46c5847a7aabb51d1730d2e" prot="package" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources_1a10ad4453b1e97bde4720ff360cf94b84" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources_1ac35301d7fabac1465ffd4c1bc4f00105" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources_1a49c57c4b01ef3fa8467796f177fc6adc" prot="package" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_properties_1_1_resources_1ad3f7b626f8842288bcbaa9bfb2a76da2" prot="package" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

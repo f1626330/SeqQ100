@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="Sequlite.UI.View.MultipleDataGraphView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+              xmlns:local="clr-namespace:Sequlite.UI.View"
+             xmlns:app="clr-namespace:Sequlite.ALF.App;assembly=Sequlite.ALF.App"
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Resources/PageViewDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate x:Key="CustomHeaderTemplate">
+                <TextBlock  Text="{Binding SequenceDataTypeName}"  FontSize="18"/>
+            </DataTemplate>
+
+            <DataTemplate x:Key="CustomItemTemplate">
+                <local:DataGraphView />
+            </DataTemplate>
+
+            
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <!--   ItemContainerStyle="{StaticResource tabItemStyle}"-->
+        <wpfFramework:TabControlEx BorderBrush="Gray" BorderThickness="0.8" 
+                   Style="{StaticResource tabcontrolStyleEx}"     
+                  ItemTemplate="{StaticResource CustomHeaderTemplate}"
+                  ItemContainerStyle="{StaticResource tabItemStyle}"
+                     ContentTemplate="{StaticResource CustomItemTemplate}"  
+                ItemsSource="{Binding OLADataGraphs,Mode=OneWay}" 
+                    SelectedIndex="{Binding SelectedOLADataGraph}">
+            
+        </wpfFramework:TabControlEx>
+    </Grid>
+</UserControl>

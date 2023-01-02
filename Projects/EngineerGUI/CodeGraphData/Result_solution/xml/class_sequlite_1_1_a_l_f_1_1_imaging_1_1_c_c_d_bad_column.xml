@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::CCDBadColumn</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1ac79d5046cf98cd8f7e6f6f06f1f1f1e5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.CCDBadColumn._Binning</definition>
+        <argsstring></argsstring>
+        <name>_Binning</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="278" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1a7d04a31543042e1361a60a1534844d6b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.CCDBadColumn._Column</definition>
+        <argsstring></argsstring>
+        <name>_Column</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="279" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1a31acdb233d22dbd88c1cce3eac421b66" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.CCDBadColumn.Binning</definition>
+        <argsstring></argsstring>
+        <name>Binning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="299" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1a9a41c816913048d589b48e2fcffde709" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.CCDBadColumn.Column</definition>
+        <argsstring></argsstring>
+        <name>Column</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="311" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1aab50c1d19a01c1766ae4ddf926f36fa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.CCDBadColumn.CCDBadColumn</definition>
+        <argsstring>()</argsstring>
+        <name>CCDBadColumn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="285" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="285" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1ac62e09fd456672af4ae03436bd1cc290" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.CCDBadColumn.CCDBadColumn</definition>
+        <argsstring>(int binningMode, int nBadColumn)</argsstring>
+        <name>CCDBadColumn</name>
+        <param>
+          <type>int</type>
+          <declname>binningMode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nBadColumn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="289" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="289" bodyend="293"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="275" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="274" bodyend="325"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1ac79d5046cf98cd8f7e6f6f06f1f1f1e5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CCDBadColumn</scope><name>_Binning</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1a7d04a31543042e1361a60a1534844d6b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CCDBadColumn</scope><name>_Column</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1a31acdb233d22dbd88c1cce3eac421b66" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CCDBadColumn</scope><name>Binning</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1aab50c1d19a01c1766ae4ddf926f36fa6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CCDBadColumn</scope><name>CCDBadColumn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1ac62e09fd456672af4ae03436bd1cc290" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CCDBadColumn</scope><name>CCDBadColumn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_c_c_d_bad_column_1a9a41c816913048d589b48e2fcffde709" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CCDBadColumn</scope><name>Column</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

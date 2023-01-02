@@ -1,0 +1,102 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.ALF.EngineerGUI.View"
+    x:Class="Sequlite.ALF.EngineerGUI.View.ImagingTabControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Sequlite.WPF.Framework;component/Resources/ConverterDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <!--  Imaging display region  -->
+        <Border>
+            <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch" VerticalScrollBarVisibility="Disabled">
+                <Canvas x:Name="_LivingCanvas" Grid.Column="0" Background="Gray"
+                HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsManipulationEnabled="False">
+                    <Canvas.RenderTransform>
+                        <MatrixTransform/>
+                    </Canvas.RenderTransform>
+                    <Image x:Name="_LiveImage" Source="{Binding CameraVM.LiveImage, NotifyOnTargetUpdated=True}" Stretch="Uniform"
+                   Width="{Binding ActualWidth, ElementName=_LivingCanvas}"
+                   Height="{Binding ActualHeight, ElementName=_LivingCanvas}"
+                   Canvas.Left="0" Canvas.Top="0" OpacityMask="{x:Null}"
+                   HorizontalAlignment="Stretch" VerticalAlignment="Stretch" IsManipulationEnabled="True"
+                   SizeChanged="_LiveImage_SizeChanged"
+                   MouseMove="_LiveImage_MouseMove"
+                   MouseLeftButtonUp="_LiveImage_MouseLeftButtonUp"
+                   MouseLeftButtonDown="_LiveImage_MouseLeftButtonDown"
+                   MouseWheel="_LiveImage_MouseWheel">
+                        <Image.RenderTransform>
+                            <MatrixTransform/>
+                        </Image.RenderTransform>
+                    </Image>
+
+                    <Thumb x:Name="_Thumb" Canvas.Left="0" Canvas.Top="0" Background="White"
+                           DragCompleted="_Thumb_DragCompleted" DragDelta="_Thumb_DragDelta" SizeChanged="_Thumb_SizeChanged"
+                           Foreground="{x:Null}" Opacity="0.05" OpacityMask="{x:Null}"
+                           UseLayoutRounding="False" MouseWheel="_LiveImage_MouseWheel"/>
+                </Canvas>
+            </ScrollViewer>
+        </Border>
+        <Polyline HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="White" StrokeThickness="1" Points="-0.5,0,-0.5,50"/>
+        <Polyline HorizontalAlignment="Center" VerticalAlignment="Center" Stroke="White" StrokeThickness="1" Points="1,0,50,0"/>
+
+        <!--  Control Panel  -->
+        <StackPanel Grid.Column="1">
+            <local:CcdViewControl DataContext="{Binding CameraVM}"/>
+            <local:LedsViewControl DataContext="{Binding MainBoardVM}"/>
+            <local:PDViewControl DataContext="{Binding MainBoardVM}"/>
+            <GroupBox Margin="6">
+                <Expander Header="Instrument Information">
+                    <local:MainBoardControl DataContext="{Binding MainBoardVM}"/>
+                </Expander>
+            </GroupBox>
+            <GroupBox Margin="6">
+                <Expander Header="ID Tag Readers" IsExpanded="True">
+                    <StackPanel>
+                        <local:BarCodeControl DataContext="{Binding BarCodeReaderVm}" Visibility="{Binding Path=DataContext.IsMachineRev2, Converter={StaticResource boolToVisibilityVisibleConverter}, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Control}}}"/>
+                        <StackPanel Orientation="Horizontal" Visibility="{Binding Path=DataContext.IsMachineRev2, Converter={StaticResource boolToVisibilityVisibleConverter}, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Control}}}">
+                            <TextBlock Text="Reagent RFID:" Width="80" Margin="5" VerticalAlignment="Center" TextAlignment="Right"/>
+                            <TextBox Width="150" DataContext="{Binding FluidicsVM}" Text="{Binding ReagentId, TargetNullValue= N/A}" Margin="5" IsReadOnly="True"/>
+                            <Button Content="Read" Width="50" DataContext="{Binding FluidicsVM}" Command="{Binding Path=ReadReagentIdCmd}" Margin="5"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Expander>
+            </GroupBox>
+        </StackPanel>
+
+        <!--  Motion Control  -->
+        <Grid Grid.Row="1" Grid.ColumnSpan="2" Margin="0,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <!--  Motors control panel  -->
+            <Grid Grid.Column="0" Grid.ColumnSpan="2">
+                <local:MotorsViewControl DataContext="{Binding MotionVM}"/>
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Grid>
+                    <Button Content="Other Settings" Width="100" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="5"
+                            Command="{Binding OtherSettingsCmd}"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</UserControl>

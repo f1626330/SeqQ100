@@ -1,0 +1,108 @@
+{
+  "Version": {
+    "Date": "2022.04.13",
+    "ID": 3,
+    "Product": "V2"
+  },
+
+  "InstrumentInfo": {
+    "InstrumentName": "DEFAULT",
+    "FOV": 0.85
+  },
+
+  "AutoFocusingSettings": {
+    "ROI": {
+      "RoiLeft": 2712,
+      "RoiTop": 2076,
+      "RoiWidth": 100,
+      "RoiHeight": 60
+    },
+    "ROI2": {
+      "RoiLeft": 1300,
+      "RoiTop": 2777,
+      "RoiWidth": 100,
+      "RoiHeight": 60
+    },
+    "LEDType": "White",
+    "LEDIntensity": 100,
+    "ExposureTime": 0.05,
+    "ZstageSpeed": 800,
+    "ZstageAccel": 1500,
+    "ZRange": 18,
+    "FilterIndex": 3,
+    "BottomOffset": -2,
+    "TopOffset": 0,
+    "ChannelOffset": 0.25,
+    "OffsetLEDType": "Green",
+    "OffsetLEDIntensity": 10,
+    "OffsetExposureTime": 0.5,
+    "OffsetFilterIndex": 1,
+    "RotationAngle": 0,
+    "Reference0": -405,
+    "TopStdLmtH": 1000,
+    "TopStdLmtL": 100,
+    "BottomStdLmtL": 50,
+    "FCChannelHeight": 120, //Homemade FC
+    "TopGlassThickness": 105, //Homemade FC
+    "FiducialVersion": 2.0
+  },
+  
+  "CameraCalibSettings": {
+	  "GreenPDMinCount": 1000,
+	  "RedPDMinCount": 1000
+  },
+
+
+  "FluidicsCalibSettings": {
+    "FCTestPressureCalib": -175,
+    "ByPassPressureCalib": -35,
+    "PressureTole": 50,
+    "FlowRateTole": 0.5,
+    "FlowRateStdTole": 2,
+    "WashCartPos": 72,
+    "ReagentCartPos": 76
+  },
+
+  "StageRegions": {
+    "Lane": 1,
+    "Row": 3,
+    "Column": 4,
+    "HInterval": 10,
+    "VInterval": 1.3,
+    "StartPointX1": 0,
+    "StartPointY1": 4.8,
+    "StartPointX2": 0,
+    "StartPointY2": 6.5,
+    "StartPointX3": -0.65,
+    "StartPointY3": 17.85,
+    "StartPointX4": -0.65,
+    "StartPointY4": 24.35
+  },
+  
+  "ImageTransforms": {
+    "G1": {
+      "WidthAdjust": 0,
+      "HeightAdjust": 0,
+      "XOffset": 0,
+      "YOffset": 0
+    },
+    "G2": {
+      "WidthAdjust": 0,
+      "HeightAdjust": 0,
+      "XOffset": 0,
+      "YOffset": 0
+    },
+    "R3": {
+      "WidthAdjust": 0,
+      "HeightAdjust": 0,
+      "XOffset": 0,
+      "YOffset": 0
+    },
+    "R4": {
+      "WidthAdjust": 0,
+      "HeightAdjust": 0,
+      "XOffset": 0,
+      "YOffset": 0
+    }
+  }
+}

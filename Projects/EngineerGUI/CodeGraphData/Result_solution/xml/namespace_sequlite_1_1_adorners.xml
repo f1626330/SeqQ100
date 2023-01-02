@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_adorners" kind="namespace">
+    <compoundname>Sequlite::Adorners</compoundname>
+    <innerclass refid="class_sequlite_1_1_adorners_1_1_my_canvas_adorner" prot="public">Sequlite::Adorners::MyCanvasAdorner</innerclass>
+    <innerclass refid="class_sequlite_1_1_adorners_1_1_my_shape_adorner" prot="public">Sequlite::Adorners::MyShapeAdorner</innerclass>
+    <innerclass refid="class_sequlite_1_1_adorners_1_1_my_line_adorner" prot="public">Sequlite::Adorners::MyLineAdorner</innerclass>
+    <innerclass refid="class_sequlite_1_1_adorners_1_1_cropping_adorner" prot="public">Sequlite::Adorners::CroppingAdorner</innerclass>
+    <innerclass refid="class_sequlite_1_1_adorners_1_1_punctured_rect" prot="public">Sequlite::Adorners::PuncturedRect</innerclass>
+    <innernamespace refid="namespace_sequlite_1_1_adorners_1_1_properties">Sequlite::Adorners::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/Adorner.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

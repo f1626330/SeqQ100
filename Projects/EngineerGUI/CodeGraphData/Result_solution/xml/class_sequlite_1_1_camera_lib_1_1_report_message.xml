@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_camera_lib_1_1_report_message" kind="class" prot="public">
+    <compoundname>Sequlite::CameraLib::ReportMessage</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EventArgs</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_report_message_1a2efe9540d6b59150d8cab877091b581c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.CameraLib.ReportMessage.MessageToReport</definition>
+        <argsstring></argsstring>
+        <name>MessageToReport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="4975" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="4975" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_report_message_1abee5a560fcfbf5c19aa926bf8212715c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.ReportMessage.TypeToReport</definition>
+        <argsstring></argsstring>
+        <name>TypeToReport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="4988" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="4988" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_report_message_1a35c668720dc7be469df0646be76905f1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.CameraLib.ReportMessage.Message</definition>
+        <argsstring></argsstring>
+        <name>Message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="4976" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="4977" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a3d0d8dd1830b7de233d381e86d225b9a" compoundref="_photometrics_camera_8cs" startline="743" endline="759">Sequlite.CameraLib.PhotometricsCamera.PVCamCamera_RportMsg</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_report_message_1a76f1d20c1424a23a027d92151081ac79" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.ReportMessage.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="4989" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="4990" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1a3d0d8dd1830b7de233d381e86d225b9a" compoundref="_photometrics_camera_8cs" startline="743" endline="759">Sequlite.CameraLib.PhotometricsCamera.PVCamCamera_RportMsg</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_report_message_1ae94ccf1791956e8f307cf15e69583d6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.CameraLib.ReportMessage.ReportMessage</definition>
+        <argsstring>(string msg, int tp)</argsstring>
+        <name>ReportMessage</name>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="4970" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="4970" bodyend="4974"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1067">
+        <label>Sequlite.CameraLib.ReportMessage</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_report_message"/>
+        <childnode refid="1068" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1068">
+        <label>EventArgs</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1069">
+        <label>Sequlite.CameraLib.ReportMessage</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_report_message"/>
+        <childnode refid="1070" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1070">
+        <label>EventArgs</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="4969" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="4968" bodyend="5000"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_report_message_1a35c668720dc7be469df0646be76905f1" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReportMessage</scope><name>Message</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_report_message_1a2efe9540d6b59150d8cab877091b581c" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ReportMessage</scope><name>MessageToReport</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_report_message_1ae94ccf1791956e8f307cf15e69583d6d" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReportMessage</scope><name>ReportMessage</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_report_message_1a76f1d20c1424a23a027d92151081ac79" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReportMessage</scope><name>Type</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_report_message_1abee5a560fcfbf5c19aa926bf8212715c" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ReportMessage</scope><name>TypeToReport</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

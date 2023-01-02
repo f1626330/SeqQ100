@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" kind="struct" prot="public">
+    <compoundname>Sequlite::Image::Processing::YUV</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a61620192e4b05dc4d836e7ea8d50e5f5" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" kindref="compound">YUV</ref></type>
+        <definition>readonly YUV Sequlite.Image.Processing.YUV.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <initializer>= new <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" kindref="compound">YUV</ref>()</initializer>
+        <briefdescription>
+<para>Gets an empty <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" kindref="compound">YUV</ref> structure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a6b47828c5a6c9de339af25273a4b2306" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.YUV.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a492becd219d3d45b7ab36c6eaf1ca1b4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.YUV.u</definition>
+        <argsstring></argsstring>
+        <name>u</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a643014ae15afea71e27e1cd36ab2e57b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.YUV.v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1aa0e2e55fec2219a26d7ac7fd832ba8bb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.YUV.Y</definition>
+        <argsstring></argsstring>
+        <name>Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a05baeb83ce9a301f19328500d23c9b35" compoundref="_y_u_v_8cs" startline="31" endline="38">Sequlite.Image.Processing.YUV.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1acb091e217a59bd9af1b9f5a05289174d" compoundref="_y_u_v_8cs" startline="22" endline="29">Sequlite.Image.Processing.YUV.operator==</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1af1f63a2346753182205a635734ce3a05" compoundref="_color_space_helper_8cs" startline="894" endline="897">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoRGB</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1aaf38bc5a770e89681fc523303feb754d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.YUV.U</definition>
+        <argsstring></argsstring>
+        <name>U</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="56" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="57" bodyend="-1"/>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a05baeb83ce9a301f19328500d23c9b35" compoundref="_y_u_v_8cs" startline="31" endline="38">Sequlite.Image.Processing.YUV.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1acb091e217a59bd9af1b9f5a05289174d" compoundref="_y_u_v_8cs" startline="22" endline="29">Sequlite.Image.Processing.YUV.operator==</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1af1f63a2346753182205a635734ce3a05" compoundref="_color_space_helper_8cs" startline="894" endline="897">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoRGB</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a129617ad8d769e93f6151510ec4d393b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.YUV.V</definition>
+        <argsstring></argsstring>
+        <name>V</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="69" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="70" bodyend="-1"/>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a05baeb83ce9a301f19328500d23c9b35" compoundref="_y_u_v_8cs" startline="31" endline="38">Sequlite.Image.Processing.YUV.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1acb091e217a59bd9af1b9f5a05289174d" compoundref="_y_u_v_8cs" startline="22" endline="29">Sequlite.Image.Processing.YUV.operator==</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1af1f63a2346753182205a635734ce3a05" compoundref="_color_space_helper_8cs" startline="894" endline="897">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoRGB</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1acb091e217a59bd9af1b9f5a05289174d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.YUV.operator==</definition>
+        <argsstring>(YUV item1, YUV item2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" kindref="compound">YUV</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" kindref="compound">YUV</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="22" bodyend="29"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1aaf38bc5a770e89681fc523303feb754d" compoundref="_y_u_v_8cs" startline="57">Sequlite.Image.Processing.YUV.U</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a129617ad8d769e93f6151510ec4d393b" compoundref="_y_u_v_8cs" startline="70">Sequlite.Image.Processing.YUV.V</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1aa0e2e55fec2219a26d7ac7fd832ba8bb" compoundref="_y_u_v_8cs" startline="44">Sequlite.Image.Processing.YUV.Y</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a05baeb83ce9a301f19328500d23c9b35" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.YUV.operator!=</definition>
+        <argsstring>(YUV item1, YUV item2)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" kindref="compound">YUV</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" kindref="compound">YUV</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="31" bodyend="38"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1aaf38bc5a770e89681fc523303feb754d" compoundref="_y_u_v_8cs" startline="57">Sequlite.Image.Processing.YUV.U</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a129617ad8d769e93f6151510ec4d393b" compoundref="_y_u_v_8cs" startline="70">Sequlite.Image.Processing.YUV.V</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1aa0e2e55fec2219a26d7ac7fd832ba8bb" compoundref="_y_u_v_8cs" startline="44">Sequlite.Image.Processing.YUV.Y</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a6c656cb6152742e066932aaeef04c5d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.YUV.YUV</definition>
+        <argsstring>(double y, double u, double v)</argsstring>
+        <name>YUV</name>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>Creates an instance of a <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" kindref="compound">YUV</ref> structure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="87" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1aab8d17b9c07e6c0f104c494a63cf46f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Sequlite.Image.Processing.YUV.Equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="95" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="95" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a392712b2438bab9cd66481349011cea0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Sequlite.Image.Processing.YUV.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="102" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="102" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure to define <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v" kindref="compound">YUV</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1405">
+        <label>Sequlite.Image.Processing.YUV</label>
+        <link refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v"/>
+        <childnode refid="1406" relation="usage">
+          <edgelabel>Empty</edgelabel>
+        </childnode>
+      </node>
+      <node id="1406">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/YUV.cs" bodystart="8" bodyend="108"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a61620192e4b05dc4d836e7ea8d50e5f5" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>Empty</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1aab8d17b9c07e6c0f104c494a63cf46f9" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>Equals</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a392712b2438bab9cd66481349011cea0" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>GetHashCode</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a05baeb83ce9a301f19328500d23c9b35" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>operator!=</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1acb091e217a59bd9af1b9f5a05289174d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>operator==</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1aaf38bc5a770e89681fc523303feb754d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>U</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a492becd219d3d45b7ab36c6eaf1ca1b4" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>u</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a643014ae15afea71e27e1cd36ab2e57b" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>v</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a129617ad8d769e93f6151510ec4d393b" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>V</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a6b47828c5a6c9de339af25273a4b2306" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>y</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1aa0e2e55fec2219a26d7ac7fd832ba8bb" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>Y</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_y_u_v_1a6c656cb6152742e066932aaeef04c5d3" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::YUV</scope><name>YUV</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

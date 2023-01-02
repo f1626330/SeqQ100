@@ -1,0 +1,239 @@
+﻿<UserControl x:Class="Sequlite.UI.View.CheckRunParamsPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             xmlns:local="clr-namespace:Sequlite.UI.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/PageViewDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="50"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" MinHeight="50"/>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Style="{StaticResource PageBorderStyle}">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="3*" />
+                </Grid.ColumnDefinitions>
+                <Label  Grid.Column="0" Content="Run Name:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,5,0,5" Margin="5"/>
+                <TextBox  Grid.Column="1" TextWrapping="Wrap" Text="{Binding RunSetupModel.RunName, Mode=OneWay}"
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="10,8,5,8"
+                            IsReadOnly="True"/>
+
+                <Label  Grid.Column="2" Content="Description:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="10,5,0,5" Margin="0,5,0,5"/>
+                <TextBox  Grid.Column="3"  TextWrapping="Wrap" Text="{Binding RunSetupModel.Description, Mode=OneWay}"
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,8,5,8"
+                          IsReadOnly="True"/>
+            </Grid>
+        </Border>
+        <Border Grid.Row="1" Style="{StaticResource PageBorderStyle}">
+            <Grid  >
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Content="Read Length:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5" Margin="5"/>
+
+                <Border Grid.Row="0" Grid.Column="1" Grid.RowSpan="2"  Style="{StaticResource PageBorderStyle}" Margin="10,0,0,-5">
+                    <Grid >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                            <ColumnDefinition />
+                           
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0"   Content="Read 1" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" VerticalAlignment="Bottom"  Margin="1" />
+                        <Label Grid.Row="0" Grid.Column="3"  Content="Read 2" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" VerticalAlignment="Bottom"   Margin="1"/>
+                        <Label Grid.Row="0" Grid.Column="1"  Content="Index 1" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" VerticalAlignment="Bottom"  Margin="1"/>
+                        <Label Grid.Row="0" Grid.Column="2"  Content="Index 2" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" VerticalAlignment="Bottom"  Margin="1"/>
+
+                        <!-- Read1-->
+                        <TextBox  Grid.Row="1"  Grid.Column="0" Width="70" 
+                                 Text="{Binding RunSetupModel.Read1Value}"  
+                                 IsReadOnly="True"
+                                 HorizontalAlignment="Center" HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,10,5,11"
+                                 />
+
+
+                        <!-- Index1-->
+                        <TextBox Grid.Row="1"  Grid.Column="1" Width="70" 
+                                 Text="{Binding RunSetupModel.Index1Value}"  
+                                 IsReadOnly="True"
+                                HorizontalAlignment="Center"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,10,5,11"
+                                 />
+                        <TextBox Grid.Row="1"  Grid.Column="1" Width="70" 
+                                 Text="N/A"  
+                                 Background="LightGray"
+                                 Visibility="{Binding RunSetupModel.EnableIndex1, Converter={StaticResource booleanToHiddenNegateConverter}}"
+                                 IsReadOnly="True"
+                                HorizontalAlignment="Center"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,10,5,11"
+                                 />
+
+                        <!-- Read2-->
+                        <TextBox Grid.Row="1"  Grid.Column="2" Width="70" 
+                             Text="{Binding RunSetupModel.Index2Value}" 
+                             IsReadOnly="True"
+                            HorizontalAlignment="Center"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,10,5,11"
+                             />
+                        <TextBox Grid.Row="1"  Grid.Column="2" Width="70" 
+                             Text="N/A" 
+                             IsReadOnly="True"
+                                 Background="LightGray"
+                                 Visibility="{Binding RunSetupModel.EnableIndex2, Converter={StaticResource booleanToHiddenNegateConverter}}"
+                                
+                            HorizontalAlignment="Center"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,10,5,11"
+                             />
+
+                        <!-- Read2-->
+                        <TextBox Grid.Row="1"  Grid.Column="3" Width="70" 
+                                 Text="{Binding RunSetupModel.Read1Value}"  
+                                 IsReadOnly="True"
+                                HorizontalAlignment="Center"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,10,5,11"
+                                />
+                        <TextBox Grid.Row="1"  Grid.Column="3" Width="70" 
+                                 Text="N/A"  
+                                 IsReadOnly="True"
+                                 Background="LightGray"
+                                 Visibility="{Binding RunSetupModel.EnableRead2, Converter={StaticResource booleanToHiddenNegateConverter}}"
+                                
+                                HorizontalAlignment="Center"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,10,5,11"
+                                />
+                    </Grid>
+                </Border>
+                <Border Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Grid.RowSpan="2"  Style="{StaticResource PageBorderStyle}" Margin="1,0,0,-5" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition  Width="110"/>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label  Grid.Column="0" Content="Flow Cell:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,5,0,5" Margin="5"/>
+                        <TextBox  Grid.Column="1" TextWrapping="Wrap" Text="{Binding LoadModel.FCBarcodeId, Mode=OneWay}"
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="10,5,5,5"
+                            IsReadOnly="True"/>
+
+                        <Label  Grid.Row="1" Content="Reagents:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" VerticalAlignment="Top"  Margin="5,0,5,5"/>
+                        <TextBox  Grid.Row="1" Grid.Column="1" TextWrapping="Wrap" Text="{Binding LoadModel.ReagentRFID, Mode=OneWay}"
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="10,1,5,9"
+                            IsReadOnly="True"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+        <Border Grid.Row="2" Style="{StaticResource PageBorderStyle}">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="*" />
+
+                </Grid.ColumnDefinitions>
+                <Label  Grid.Column="0" Content="User Account:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="0,5,0,5" Margin="5"/>
+                <TextBox  Grid.Column="1" TextWrapping="Wrap" 
+                          HorizontalContentAlignment="Stretch" Padding="5" VerticalContentAlignment="Center"  Margin="12,8,5,8"
+                         IsReadOnly="True">
+                    <TextBox.Text>
+                        <MultiBinding StringFormat="{}{0} - {1}">
+                            <Binding Path="UserModel.UserName" />
+                            <Binding Path="UserModel.Email" />
+                        </MultiBinding>
+                    </TextBox.Text>
+                </TextBox>
+
+            </Grid>
+        </Border>
+        <Border Grid.Row="3" Style="{StaticResource PageBorderStyle}">
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="*" />
+
+                </Grid.ColumnDefinitions>
+                <Label  Grid.Column="0" Content="Sample Sheet:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="0,5,0,5" Margin="5"/>
+                <TextBox  Grid.Column="1" TextWrapping="Wrap" Text="{Binding RunSetupModel.SampleSheet}" 
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="12,5,5,5"
+                         IsReadOnly="True" />
+
+            </Grid>
+
+        </Border>
+        <Border Grid.Row="4" Style="{StaticResource PageBorderStyle}" Visibility="{Binding RunSetupModel.UseSampleSheet, Converter={StaticResource boolToVisibilityHiddenConverter}}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <DataGrid Margin="5"  Grid.Column="0"
+                      
+                      ItemsSource="{Binding Path=SampleSheetData}"
+                                AlternatingRowBackground="LightSteelBlue"  
+                                VerticalGridLinesBrush="LightGray" MinRowHeight="30" 
+                                RowHeaderWidth="0"  
+                                
+                                HorizontalGridLinesBrush="LightGray"
+                                HorizontalAlignment="Stretch"
+                                ColumnWidth="*"
+                                MinColumnWidth="40"
+                                AutoGenerateColumns="False"
+                                IsReadOnly="True"
+                                ColumnHeaderStyle="{StaticResource DGCHeaderStyle}"
+                                >
+               
+                <DataGrid.CellStyle>
+                    <Style TargetType="DataGridCell">
+                        <Setter Property="TextBlock.TextAlignment" Value="Center"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type DataGridCell}">
+                                    <Grid Background="{TemplateBinding Background}">
+                                        <ContentPresenter VerticalAlignment="Center"/>
+                                    </Grid>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </DataGrid.CellStyle>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path=LaneNumber}" Header="Lane" MaxWidth="60"/>
+                    <DataGridTextColumn Binding="{Binding Path=SampleId}" Header="Sample ID" Width="Auto" MinWidth="80"/>
+                        <DataGridTextColumn Binding="{Binding Path=SampleName}" Header="Sample Name" Width="Auto" MinWidth="80"/>
+                        <DataGridTextColumn Binding="{Binding Path=IndexId}" Header="Index ID"  Width="Auto" MinWidth="80"/>
+                        <DataGridTextColumn Binding="{Binding Path=IndexSequnce}" Header="Index Sequence" Width="Auto" MinWidth="100" />
+                </DataGrid.Columns>
+            </DataGrid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

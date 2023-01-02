@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::CameraModeSetting</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a2d3cfc9a0a6ad5e6da600d6f8c7c940e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting" kindref="compound">ChemiSetting</ref></type>
+        <definition>ChemiSetting Sequlite.ALF.Imaging.CameraModeSetting._ChemiSettings</definition>
+        <argsstring></argsstring>
+        <name>_ChemiSettings</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting" kindref="compound">ChemiSetting</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="102" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a531e4275cde4da3e24594b6c7b66e9f0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting" kindref="compound">VisibleImagingSetting</ref></type>
+        <definition>VisibleImagingSetting Sequlite.ALF.Imaging.CameraModeSetting._VisibleImagingSettings</definition>
+        <argsstring></argsstring>
+        <name>_VisibleImagingSettings</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting" kindref="compound">VisibleImagingSetting</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="103" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a36627d64df322b0214afee74c61f6cf7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode" kindref="compound">LiveMode</ref></type>
+        <definition>LiveMode Sequlite.ALF.Imaging.CameraModeSetting._LiveModeSettings</definition>
+        <argsstring></argsstring>
+        <name>_LiveModeSettings</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode" kindref="compound">LiveMode</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="104" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a663f50674e7d1f79b4d4e4e18a7494bc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings" kindref="compound">SystemSettings</ref></type>
+        <definition>SystemSettings Sequlite.ALF.Imaging.CameraModeSetting._SysSettings</definition>
+        <argsstring></argsstring>
+        <name>_SysSettings</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings" kindref="compound">SystemSettings</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="105" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a5a89f5e5811aaaac4d6777eefdbc6ecd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting" kindref="compound">ChemiSetting</ref></type>
+        <definition>ChemiSetting Sequlite.ALF.Imaging.CameraModeSetting.ChemiSettings</definition>
+        <argsstring></argsstring>
+        <name>ChemiSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="111" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1ad5bb3d904d85a19a1318e8f9c329e0de" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting" kindref="compound">VisibleImagingSetting</ref></type>
+        <definition>VisibleImagingSetting Sequlite.ALF.Imaging.CameraModeSetting.VisibleImagingSettings</definition>
+        <argsstring></argsstring>
+        <name>VisibleImagingSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="117" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1aa51af2605ede83367e4cf641b36358f1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings" kindref="compound">SystemSettings</ref></type>
+        <definition>SystemSettings Sequlite.ALF.Imaging.CameraModeSetting.SysSettings</definition>
+        <argsstring></argsstring>
+        <name>SysSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="123" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a430a3ecbf9cd18bfae1e84c61c67591f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode" kindref="compound">LiveMode</ref></type>
+        <definition>LiveMode Sequlite.ALF.Imaging.CameraModeSetting.LiveModeSettings</definition>
+        <argsstring></argsstring>
+        <name>LiveModeSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="129" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1aa2d4ed582918f13b75263c7506875de1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.CameraModeSetting.CCDCoolerSetPoint</definition>
+        <argsstring></argsstring>
+        <name>CCDCoolerSetPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="135" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1aa514c8e497b00bce1fc91a47f0eaa1c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.CameraModeSetting.IsDarkCorrection</definition>
+        <argsstring></argsstring>
+        <name>IsDarkCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="136" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1ab8fbd2004917cb5e37122d943600bac0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.CameraModeSetting.IsFlatCorrection</definition>
+        <argsstring></argsstring>
+        <name>IsFlatCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="137" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a7114e351118e6a4b8eb0c4831cc2dce4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.CameraModeSetting.BarrelParamA</definition>
+        <argsstring></argsstring>
+        <name>BarrelParamA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="138" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a489ce4d95273b5ab1c24ce891e2c7f48" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.CameraModeSetting.BarrelParamB</definition>
+        <argsstring></argsstring>
+        <name>BarrelParamB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="139" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a6d0ec81f4978b695df73a8237352cba7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.CameraModeSetting.BarrelParamC</definition>
+        <argsstring></argsstring>
+        <name>BarrelParamC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="140" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a5de0dad4a2c4aa41d170c2c1e444cbd0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.CameraModeSetting.IsDynamicDarkCorrection</definition>
+        <argsstring></argsstring>
+        <name>IsDynamicDarkCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="143" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a4e7a44b15551ef1e65d442c60634088c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.CameraModeSetting.IsEnhanceDynamicRange</definition>
+        <argsstring></argsstring>
+        <name>IsEnhanceDynamicRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="144" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1aa227152bd051208e481d4b1a051bbea5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.CameraModeSetting.IsDefectivePixelCorrection</definition>
+        <argsstring></argsstring>
+        <name>IsDefectivePixelCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="145" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a77575a689519b955fd63f05225d29f3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.CameraModeSetting.CameraModeSetting</definition>
+        <argsstring>()</argsstring>
+        <name>CameraModeSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="151" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="151" bodyend="156"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="190">
+        <label>Sequlite.ALF.Imaging.VisibleImagingSetting</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_visible_imaging_setting"/>
+      </node>
+      <node id="191">
+        <label>Sequlite.ALF.Imaging.SystemSettings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_system_settings"/>
+      </node>
+      <node id="189">
+        <label>Sequlite.ALF.Imaging.LiveMode</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode"/>
+      </node>
+      <node id="187">
+        <label>Sequlite.ALF.Imaging.CameraModeSetting</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting"/>
+        <childnode refid="188" relation="usage">
+          <edgelabel>_ChemiSettings</edgelabel>
+        </childnode>
+        <childnode refid="189" relation="usage">
+          <edgelabel>_LiveModeSettings</edgelabel>
+        </childnode>
+        <childnode refid="190" relation="usage">
+          <edgelabel>_VisibleImagingSettings</edgelabel>
+        </childnode>
+        <childnode refid="191" relation="usage">
+          <edgelabel>_SysSettings</edgelabel>
+        </childnode>
+      </node>
+      <node id="188">
+        <label>Sequlite.ALF.Imaging.ChemiSetting</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="99" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="98" bodyend="159"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a2d3cfc9a0a6ad5e6da600d6f8c7c940e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>_ChemiSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a36627d64df322b0214afee74c61f6cf7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>_LiveModeSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a663f50674e7d1f79b4d4e4e18a7494bc" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>_SysSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a531e4275cde4da3e24594b6c7b66e9f0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>_VisibleImagingSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a7114e351118e6a4b8eb0c4831cc2dce4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>BarrelParamA</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a489ce4d95273b5ab1c24ce891e2c7f48" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>BarrelParamB</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a6d0ec81f4978b695df73a8237352cba7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>BarrelParamC</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a77575a689519b955fd63f05225d29f3c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>CameraModeSetting</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1aa2d4ed582918f13b75263c7506875de1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>CCDCoolerSetPoint</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a5a89f5e5811aaaac4d6777eefdbc6ecd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>ChemiSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1aa514c8e497b00bce1fc91a47f0eaa1c4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>IsDarkCorrection</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1aa227152bd051208e481d4b1a051bbea5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>IsDefectivePixelCorrection</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a5de0dad4a2c4aa41d170c2c1e444cbd0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>IsDynamicDarkCorrection</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a4e7a44b15551ef1e65d442c60634088c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>IsEnhanceDynamicRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1ab8fbd2004917cb5e37122d943600bac0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>IsFlatCorrection</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1a430a3ecbf9cd18bfae1e84c61c67591f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>LiveModeSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1aa51af2605ede83367e4cf641b36358f1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>SysSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_camera_mode_setting_1ad5bb3d904d85a19a1318e8f9c329e0de" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::CameraModeSetting</scope><name>VisibleImagingSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

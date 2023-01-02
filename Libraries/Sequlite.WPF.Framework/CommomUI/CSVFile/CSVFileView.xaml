@@ -1,0 +1,115 @@
+﻿<UserControl x:Class="Sequlite.WPF.Framework.CSVFileView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.WPF.Framework"
+             mc:Ignorable="d" 
+             x:Name="this"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        
+        <Style TargetType="TextBox" x:Key="itemBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                            <ScrollViewer x:Name="PART_ContentHost" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Opacity" TargetName="border" Value="0.56"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="#FF7EB4EA"/>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="true">
+                                <Setter Property="BorderBrush" TargetName="border" Value="Yellow"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <DataTemplate x:Key="lineItems">
+            <TextBox Text="{Binding Item}"  Padding="2,0,0,0" TextWrapping="Wrap" HorizontalAlignment="Stretch"   HorizontalContentAlignment="Left"
+                         VerticalAlignment="Stretch" VerticalContentAlignment="Center" Style="{StaticResource itemBox}"
+                     local:TextChangedBehavior.TextChangedCommand="{Binding DataContext.TextChangedCommand, ElementName=this}"
+                     IsReadOnly="{Binding DataContext.IsReadonly, ElementName=this}"
+                     >
+
+                <TextBox.Width>
+                    <MultiBinding Converter="{StaticResource advanceMathConverter}" ConverterParameter="(x-20)/y" >
+                        <Binding Path="ActualWidth" ElementName="lb" />
+                        <Binding Path="DataContext.LineItemCounts" ElementName="this" />
+                    </MultiBinding>
+                </TextBox.Width>
+            </TextBox>
+
+        </DataTemplate>
+    </UserControl.Resources>
+    
+    <Grid Margin="0">
+        <ListView ItemsSource="{Binding Lines}" x:Name="lb" ScrollViewer.HorizontalScrollBarVisibility="Hidden">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch" >
+                       
+                        <ListBox ItemsSource="{Binding}" 
+                               ItemTemplate="{StaticResource lineItems}" >
+                                <ListBox.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <VirtualizingStackPanel IsItemsHost="True"  Orientation="Horizontal" >
+                                        </VirtualizingStackPanel>
+                                           
+                                    </ItemsPanelTemplate>
+                                </ListBox.ItemsPanel>
+
+                            <ListBox.ItemContainerStyle>
+                                <Style TargetType="{x:Type ListBoxItem}">
+                                    <Setter Property="SnapsToDevicePixels" Value="true" />
+                                    <Setter Property="OverridesDefaultStyle" Value="true" />
+                                    <!--<Setter Property="Focusable" Value="false"/>-->
+                                    <Setter Property="Margin" Value="0" />
+                                    <Setter Property="Template">
+                                      
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="ListBoxItem">
+                                               
+                                                    <ContentPresenter />
+                                               
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </ListBox.ItemContainerStyle>
+                        </ListBox>
+                        
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+
+            <ListView.ItemContainerStyle>
+                <Style TargetType="{x:Type ListBoxItem}">
+                    <Setter Property="SnapsToDevicePixels" Value="true" />
+                    <Setter Property="OverridesDefaultStyle" Value="true" />
+                    <Setter Property="Focusable" Value="false"/>
+                    <Setter Property="Margin" Value="0" />
+                    <Setter Property="Template">
+
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListBoxItem">
+
+                                <ContentPresenter />
+
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ListView.ItemContainerStyle>
+        </ListView>
+        
+    </Grid>
+</UserControl>

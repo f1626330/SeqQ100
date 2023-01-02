@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_hywire_1_1_comm_library" kind="namespace">
+    <compoundname>Hywire::CommLibrary</compoundname>
+    <innerclass refid="class_hywire_1_1_comm_library_1_1_check_sum_calculator" prot="public">Hywire::CommLibrary::CheckSumCalculator</innerclass>
+    <innerclass refid="class_hywire_1_1_comm_library_1_1_c_r_c16_calculator" prot="public">Hywire::CommLibrary::CRC16Calculator</innerclass>
+    <innerclass refid="class_hywire_1_1_comm_library_1_1_c_r_c32_calculator" prot="public">Hywire::CommLibrary::CRC32Calculator</innerclass>
+    <innerclass refid="class_hywire_1_1_comm_library_1_1_serial_comm_base" prot="public">Hywire::CommLibrary::SerialCommBase</innerclass>
+    <innerclass refid="class_hywire_1_1_comm_library_1_1_struct_bytes_converter" prot="public">Hywire::CommLibrary::StructBytesConverter</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Hywire.CommLibrary/CheckSumCalculator.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

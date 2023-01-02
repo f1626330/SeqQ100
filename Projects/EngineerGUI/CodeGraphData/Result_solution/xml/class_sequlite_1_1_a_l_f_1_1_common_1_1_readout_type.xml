@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Common::ReadoutType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type_1af1906b1cce2a3a8aef1be1ddd367471b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.ReadoutType.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="83" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type_1a3ade2762c7ff9e8116efdd628e40db67" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.ReadoutType.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="85" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type_1a4f9508769bacd3e54b25956ec967943e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Common.ReadoutType.DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="87" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type_1a705a15c55294b83ccf2ef156504bc032" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Common.ReadoutType.ReadoutType</definition>
+        <argsstring>()</argsstring>
+        <name>ReadoutType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="93" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="93" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type_1aa9cbd3eb197af921b0ebbc4008f41b41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Common.ReadoutType.ReadoutType</definition>
+        <argsstring>(int position, int value, string displayName)</argsstring>
+        <name>ReadoutType</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="97" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="97" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="80" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="79" bodyend="105"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type_1a4f9508769bacd3e54b25956ec967943e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::ReadoutType</scope><name>DisplayName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type_1af1906b1cce2a3a8aef1be1ddd367471b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::ReadoutType</scope><name>Position</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type_1a705a15c55294b83ccf2ef156504bc032" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::ReadoutType</scope><name>ReadoutType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type_1aa9cbd3eb197af921b0ebbc4008f41b41" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::ReadoutType</scope><name>ReadoutType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type_1a3ade2762c7ff9e8116efdd628e40db67" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::ReadoutType</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_chart_display_test_1_1_main_window" kind="class" prot="public">
+    <compoundname>Hywire::ChartDisplayTest::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_chart_display_test_1_1_main_window_1a02078ea06e689db49ed2dbc493456990" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ChartDisplayTest.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/MainWindow.xaml.cs" line="10" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/MainWindow.xaml.cs" bodystart="10" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MainWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="707">
+        <label>Window</label>
+      </node>
+      <node id="706">
+        <label>Hywire.ChartDisplayTest.MainWindow</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_main_window"/>
+        <childnode refid="707" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="709">
+        <label>Window</label>
+      </node>
+      <node id="708">
+        <label>Hywire.ChartDisplayTest.MainWindow</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_main_window"/>
+        <childnode refid="709" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/MainWindow.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/MainWindow.xaml.cs" bodystart="8" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_main_window_1a02078ea06e689db49ed2dbc493456990" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::MainWindow</scope><name>MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

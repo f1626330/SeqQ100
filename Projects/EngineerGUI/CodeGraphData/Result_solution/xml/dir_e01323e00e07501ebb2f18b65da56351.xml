@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e01323e00e07501ebb2f18b65da56351" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl</compoundname>
+    <innerdir refid="dir_3df521f444e4ec772429ba4c1cf34da1">D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/Properties</innerdir>
+    <innerfile refid="_galil_control_8cs">GalilControl.cs</innerfile>
+    <innerfile refid="_sequlite_8_a_l_f_8_motion_control_2_global_suppressions_8cs">GlobalSuppressions.cs</innerfile>
+    <innerfile refid="_hywire_galil_control_8cs">HywireGalilControl.cs</innerfile>
+    <innerfile refid="_magellan_control_8cs">MagellanControl.cs</innerfile>
+    <innerfile refid="_motion_controller_8cs">MotionController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl/"/>
+  </compounddef>
+</doxygen>

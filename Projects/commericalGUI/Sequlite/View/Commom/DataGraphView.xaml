@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="Sequlite.UI.View.DataGraphView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.UI.View"
+            
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/Resources/StyleDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            
+        </ResourceDictionary>
+
+    </UserControl.Resources>
+    <Grid>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition  />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <!-- heat map and combo boxes-->
+            <Border Grid.Row="0" Grid.Column="0" Style="{StaticResource PageBorderStyle}" Background="WhiteSmoke" >
+                <local:DataByTileControl DataContext="{Binding DataByTileVM}" />
+            </Border>
+            <!-- line graph and combo boxes -->
+            <Border Grid.Row="0" Grid.Column="1" Style="{StaticResource PageBorderStyle}" Background="WhiteSmoke" >
+                <local:DataByCycleControl DataContext="{Binding DataByCycleVM}" />
+            </Border>
+            <!-- table -->
+            <Border Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource PageBorderStyle}">
+                <local:DataInTableControl DataContext="{Binding DataInTableVM}"  Margin="1"/>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

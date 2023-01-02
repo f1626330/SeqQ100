@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_zero_to_empty_string_converter" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::ZeroToEmptyStringConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_zero_to_empty_string_converter_1ad8e04bc0f2105ceb9b9f2373c2523221" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.ZeroToEmptyStringConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>System.Globalization.CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ZeroToEmptyStringConverter.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ZeroToEmptyStringConverter.cs" bodystart="11" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_zero_to_empty_string_converter_1a11d74c096182a28d7e93cdea52c61f4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.ZeroToEmptyStringConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>System.Globalization.CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ZeroToEmptyStringConverter.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ZeroToEmptyStringConverter.cs" bodystart="20" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Returns an empty string if the input value is zero. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1408">
+        <label>IValueConverter</label>
+      </node>
+      <node id="1407">
+        <label>Sequlite.WPF.Framework.ZeroToEmptyStringConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_zero_to_empty_string_converter"/>
+        <childnode refid="1408" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1410">
+        <label>IValueConverter</label>
+      </node>
+      <node id="1409">
+        <label>Sequlite.WPF.Framework.ZeroToEmptyStringConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_zero_to_empty_string_converter"/>
+        <childnode refid="1410" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ZeroToEmptyStringConverter.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/ZeroToEmptyStringConverter.cs" bodystart="9" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_zero_to_empty_string_converter_1ad8e04bc0f2105ceb9b9f2373c2523221" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::ZeroToEmptyStringConverter</scope><name>Convert</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_zero_to_empty_string_converter_1a11d74c096182a28d7e93cdea52c61f4b" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::ZeroToEmptyStringConverter</scope><name>ConvertBack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

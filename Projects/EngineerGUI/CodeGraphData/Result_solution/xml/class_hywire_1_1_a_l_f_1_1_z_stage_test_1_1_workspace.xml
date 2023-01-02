@@ -1,0 +1,928 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace" kind="class" prot="public">
+    <compoundname>Hywire::ALF::ZStageTest::Workspace</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a3be7e577baff5b97f0eb6c200e7ceb58" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace" kindref="compound">Workspace</ref></type>
+        <definition>Workspace Hywire.ALF.ZStageTest.Workspace.This</definition>
+        <argsstring></argsstring>
+        <name>This</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="11" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1aa34450c90e6ac74f33b4973c1e54fd15" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Hywire.ALF.ZStageTest.Workspace.SelectedBaud</definition>
+        <argsstring></argsstring>
+        <name>SelectedBaud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="49" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1afa24cd9f91c3f6d3ad33ad9a3a3adbf6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ZStageTest.Workspace.IsConnected</definition>
+        <argsstring></argsstring>
+        <name>IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="63" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a1f708273d6c954d124cd1f5427fbf22f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace.ActualPos</definition>
+        <argsstring></argsstring>
+        <name>ActualPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="77" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ab2f505b9c9e381503af452cc714ea991" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace.CrntPos</definition>
+        <argsstring></argsstring>
+        <name>CrntPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="91" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a7f54a2087e207083f82cfa4097218dc2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace.Acceleration</definition>
+        <argsstring></argsstring>
+        <name>Acceleration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="107" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a6d616e267c006a8095bcd887c5dbaabe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace.Deceleration</definition>
+        <argsstring></argsstring>
+        <name>Deceleration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="121" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a56f62ea83d8008772bf5896a5d18adb5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace.Velocity</definition>
+        <argsstring></argsstring>
+        <name>Velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="135" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a2536e3c877bf44532a436cb77847e81e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Hywire.ALF.ZStageTest.Workspace.VelocityLimitHigh</definition>
+        <argsstring></argsstring>
+        <name>VelocityLimitHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="148" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a9c1ca3b0fc7fc85d214b5c86f7966a40" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Hywire.ALF.ZStageTest.Workspace.VelocityLimitLow</definition>
+        <argsstring></argsstring>
+        <name>VelocityLimitLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="152" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a3b49b7cc888d8437fcaa473416ee15f7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Hywire.ALF.ZStageTest.Workspace.AccelLimitHigh</definition>
+        <argsstring></argsstring>
+        <name>AccelLimitHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="156" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a40358268a3d1fcea169aca20541bdebe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Hywire.ALF.ZStageTest.Workspace.AccelLimitLow</definition>
+        <argsstring></argsstring>
+        <name>AccelLimitLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="160" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a16d356b7d7812a32f2c757fc3c2854ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace.PosLimitHigh</definition>
+        <argsstring></argsstring>
+        <name>PosLimitHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="164" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ad4cb2907a070a8810530c21dfec5d761" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace.PosLimitLow</definition>
+        <argsstring></argsstring>
+        <name>PosLimitLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="168" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a4bb37b6c1fd406f14f5877e1dab69453" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; int &gt;</type>
+        <definition>List&lt;int&gt; Hywire.ALF.ZStageTest.Workspace.BaudrateOptions</definition>
+        <argsstring></argsstring>
+        <name>BaudrateOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="173" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a96aa950c3af12f63602acc332e0f6f6d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.ZStageTest.Workspace.ConnectCmd</definition>
+        <argsstring></argsstring>
+        <name>ConnectCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="179" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a37f2424668bfe1af0cdf7840dbcc29f4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.ZStageTest.Workspace.HomeCmd</definition>
+        <argsstring></argsstring>
+        <name>HomeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="212" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a49a717be848073e58d0d2ea5de8b4809" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.ZStageTest.Workspace.ReadPosCmd</definition>
+        <argsstring></argsstring>
+        <name>ReadPosCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="240" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a3c2f26ba12696ff418472a493424effd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.ZStageTest.Workspace.SetPosCmd</definition>
+        <argsstring></argsstring>
+        <name>SetPosCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="271" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ac6e660e5911458e0f261a90c54329db3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.ZStageTest.Workspace.SetVelocityCmd</definition>
+        <argsstring></argsstring>
+        <name>SetVelocityCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="300" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ad083da98948250d8e561aa4bc4de7d6b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.ZStageTest.Workspace.SetAccelerationCmd</definition>
+        <argsstring></argsstring>
+        <name>SetAccelerationCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="325" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a70a209bd85117dd5581f8f2c9d5de0b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.ZStageTest.Workspace.SetDecelerationCmd</definition>
+        <argsstring></argsstring>
+        <name>SetDecelerationCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="350" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ae22928b1d4ac35c49036a40b3c58a089" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control" kindref="compound">MagellanControl</ref></type>
+        <definition>MagellanControl Hywire.ALF.ZStageTest.Workspace._Controller</definition>
+        <argsstring></argsstring>
+        <name>_Controller</name>
+        <initializer>= new <ref refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace" kindref="compound">Workspace</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="13" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a6e8b146742276834dc8f83b4e4aa2842" prot="private" static="no" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Hywire.ALF.ZStageTest.Workspace._Timer</definition>
+        <argsstring></argsstring>
+        <name>_Timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="14" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a26a4fe2a905e32d609a221568d9beee0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hywire.ALF.ZStageTest.Workspace._SelectedBaud</definition>
+        <argsstring></argsstring>
+        <name>_SelectedBaud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="48" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a3bb4edda5d647bab121610a37591bfd3" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ZStageTest.Workspace._IsConnected</definition>
+        <argsstring></argsstring>
+        <name>_IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="62" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ade8f1a369b01b93370b4ac6fb9bf2b6a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace._ActualPos</definition>
+        <argsstring></argsstring>
+        <name>_ActualPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="76" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a451c6a46652875bd412ddeafb483b6ec" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace._CrntPos</definition>
+        <argsstring></argsstring>
+        <name>_CrntPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="90" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ab76912a23da7b2a676b05d829918d1bc" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace._Acceleration</definition>
+        <argsstring></argsstring>
+        <name>_Acceleration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="106" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a4101de3bf8a5221cf2765990449bd2bd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace._Deceleration</definition>
+        <argsstring></argsstring>
+        <name>_Deceleration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="120" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a8207101d7ad2f2b347bf6a77099f160b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Hywire.ALF.ZStageTest.Workspace._Velocity</definition>
+        <argsstring></argsstring>
+        <name>_Velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="134" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a6e1b96d1d99c6576e334809319867bcf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.ZStageTest.Workspace._ConnectCmd</definition>
+        <argsstring></argsstring>
+        <name>_ConnectCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="178" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a95c04aef37141c62e22c624fb2d3b2e0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.ZStageTest.Workspace._HomeCmd</definition>
+        <argsstring></argsstring>
+        <name>_HomeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="211" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a155a5de35c18b81398a2d5ea49eb7ab5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.ZStageTest.Workspace._ReadPosCmd</definition>
+        <argsstring></argsstring>
+        <name>_ReadPosCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="239" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ac6d4930cf6488f2bd7b33abe04932a8d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.ZStageTest.Workspace._SetPosCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetPosCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="270" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a906fd3e3d90fe131fb6e9d1cbb38e2dc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.ZStageTest.Workspace._SetVelocityCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetVelocityCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="299" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1af487fd0338405e1d3b59f2924c203afc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.ZStageTest.Workspace._SetAccelerationCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetAccelerationCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="324" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1aa0029eeb21a0275be16baed1f7d46c57" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.ZStageTest.Workspace._SetDecelerationCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetDecelerationCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="349" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a0ce92fb4b3d863c30e162e2cdaa91f0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.ZStageTest.Workspace.Workspace</definition>
+        <argsstring>()</argsstring>
+        <name>Workspace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="17" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="17" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a7a742d7dc904a1c2b2499221d6909db0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ZStageTest.Workspace._Timer_Elapsed</definition>
+        <argsstring>(object sender, System.Timers.ElapsedEventArgs e)</argsstring>
+        <name>_Timer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Timers.ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="38" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="38" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a3827b7a1590b6dd0002e35b9a061ff70" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ZStageTest.Workspace.ExecuteConnectCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteConnectCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="191" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="191" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a0541df58fc18215a20e4276927313b73" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ZStageTest.Workspace.CanExecuteConnectCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteConnectCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="204" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="204" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1aea3387c0225d4db9fef2d0e758d9036f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ZStageTest.Workspace.ExecuteHomeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteHomeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="224" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="224" bodyend="230"/>
+        <references refid="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a3b926d163371fd620b09b63219b12f52">Sequlite.ALF.MotionControl.Acceleration</references>
+        <references refid="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a6ff29012dd217a6a7a5346f1950846bc">Sequlite.ALF.MotionControl.Deceleration</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ae7d79369f0193f4b7d2124ae03f7b7aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ZStageTest.Workspace.CanExecuteHomeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteHomeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="232" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="232" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a06956ddb34f4867000890f4c773cf01a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ZStageTest.Workspace.ExecuteReadPosCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteReadPosCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="252" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="252" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a1141b0d71dae4837d3a8087cbebc28dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ZStageTest.Workspace.CanExecuteReadPosCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteReadPosCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="263" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a568defb3f0b7e4feb8fa3040a622b5e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ZStageTest.Workspace.ExecuteSetPosCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetPosCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="283" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="283" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ab658251b9d5cacec1ea89d74d1a58143" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ZStageTest.Workspace.CanExecuteSetPosCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetPosCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="292" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="292" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ad0f722d0c385da5d912cbf078e8c9dad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ZStageTest.Workspace.ExecuteSetVelocityCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetVelocityCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="312" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="312" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ab5d56f2f3a4c218505a1ac95b4e2e740" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ZStageTest.Workspace.CanExecuteSetVelocityCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetVelocityCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="317" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="317" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a48c6362b3124095ac5a717b48c3ede00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ZStageTest.Workspace.ExecuteSetAccelerationCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetAccelerationCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="337" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="337" bodyend="340"/>
+        <references refid="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a3b926d163371fd620b09b63219b12f52">Sequlite.ALF.MotionControl.Acceleration</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a5887877a419f5d76c8266cfc4ea366c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ZStageTest.Workspace.CanExecuteSetAccelerationCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetAccelerationCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="342" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="342" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a9f16cf246e0a4c34c5a46eba74376397" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ZStageTest.Workspace.ExecuteSetDecelerationCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetDecelerationCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="362" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="362" bodyend="365"/>
+        <references refid="namespace_sequlite_1_1_a_l_f_1_1_motion_control_1af8b9d71d5e14b02328c3946ad7726b46a6ff29012dd217a6a7a5346f1950846bc">Sequlite.ALF.MotionControl.Deceleration</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a37ff956589f44c317590f06775eff250" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.ZStageTest.Workspace.CanExecuteSetDecelerationCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetDecelerationCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="367" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="367" bodyend="370"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1352">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1353">
+        <label>IDisposable</label>
+      </node>
+      <node id="1351">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1352" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1353" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1350">
+        <label>Hywire.ALF.ZStageTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace"/>
+        <childnode refid="1351" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1359">
+        <label>ICommand</label>
+      </node>
+      <node id="1360">
+        <label>Sequlite.ALF.MotionControl.MagellanControl</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_motion_control_1_1_magellan_control"/>
+        <childnode refid="1357" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1356">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1357">
+        <label>IDisposable</label>
+      </node>
+      <node id="1355">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1356" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1357" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1358">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="1359" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1361">
+        <label>System</label>
+      </node>
+      <node id="1354">
+        <label>Hywire.ALF.ZStageTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace"/>
+        <childnode refid="1355" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1358" relation="usage">
+          <edgelabel>_SetVelocityCmd</edgelabel>
+          <edgelabel>_SetPosCmd</edgelabel>
+          <edgelabel>_HomeCmd</edgelabel>
+          <edgelabel>_SetAccelerationCmd</edgelabel>
+          <edgelabel>_SetDecelerationCmd</edgelabel>
+          <edgelabel>_ConnectCmd</edgelabel>
+          <edgelabel>_ReadPosCmd</edgelabel>
+        </childnode>
+        <childnode refid="1360" relation="usage">
+          <edgelabel>_Controller</edgelabel>
+        </childnode>
+        <childnode refid="1361" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" line="10" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ZStageTest/Workspace.cs" bodystart="9" bodyend="373"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ab76912a23da7b2a676b05d829918d1bc" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_Acceleration</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ade8f1a369b01b93370b4ac6fb9bf2b6a" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_ActualPos</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a6e1b96d1d99c6576e334809319867bcf" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_ConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ae22928b1d4ac35c49036a40b3c58a089" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_Controller</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a451c6a46652875bd412ddeafb483b6ec" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_CrntPos</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a4101de3bf8a5221cf2765990449bd2bd" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_Deceleration</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a95c04aef37141c62e22c624fb2d3b2e0" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_HomeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a3bb4edda5d647bab121610a37591bfd3" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_IsConnected</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a155a5de35c18b81398a2d5ea49eb7ab5" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_ReadPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a26a4fe2a905e32d609a221568d9beee0" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_SelectedBaud</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1af487fd0338405e1d3b59f2924c203afc" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_SetAccelerationCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1aa0029eeb21a0275be16baed1f7d46c57" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_SetDecelerationCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ac6d4930cf6488f2bd7b33abe04932a8d" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_SetPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a906fd3e3d90fe131fb6e9d1cbb38e2dc" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_SetVelocityCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a6e8b146742276834dc8f83b4e4aa2842" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_Timer</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a7a742d7dc904a1c2b2499221d6909db0" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_Timer_Elapsed</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a8207101d7ad2f2b347bf6a77099f160b" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>_Velocity</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a7f54a2087e207083f82cfa4097218dc2" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>Acceleration</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a3b49b7cc888d8437fcaa473416ee15f7" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>AccelLimitHigh</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a40358268a3d1fcea169aca20541bdebe" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>AccelLimitLow</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a1f708273d6c954d124cd1f5427fbf22f" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>ActualPos</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a4bb37b6c1fd406f14f5877e1dab69453" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>BaudrateOptions</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a0541df58fc18215a20e4276927313b73" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>CanExecuteConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ae7d79369f0193f4b7d2124ae03f7b7aa" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>CanExecuteHomeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a1141b0d71dae4837d3a8087cbebc28dc" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>CanExecuteReadPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a5887877a419f5d76c8266cfc4ea366c5" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>CanExecuteSetAccelerationCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a37ff956589f44c317590f06775eff250" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>CanExecuteSetDecelerationCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ab658251b9d5cacec1ea89d74d1a58143" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>CanExecuteSetPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ab5d56f2f3a4c218505a1ac95b4e2e740" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>CanExecuteSetVelocityCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a96aa950c3af12f63602acc332e0f6f6d" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>ConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ab2f505b9c9e381503af452cc714ea991" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>CrntPos</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a6d616e267c006a8095bcd887c5dbaabe" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>Deceleration</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a3827b7a1590b6dd0002e35b9a061ff70" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>ExecuteConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1aea3387c0225d4db9fef2d0e758d9036f" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>ExecuteHomeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a06956ddb34f4867000890f4c773cf01a" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>ExecuteReadPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a48c6362b3124095ac5a717b48c3ede00" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>ExecuteSetAccelerationCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a9f16cf246e0a4c34c5a46eba74376397" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>ExecuteSetDecelerationCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a568defb3f0b7e4feb8fa3040a622b5e0" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>ExecuteSetPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ad0f722d0c385da5d912cbf078e8c9dad" prot="private" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>ExecuteSetVelocityCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a37f2424668bfe1af0cdf7840dbcc29f4" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>HomeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1afa24cd9f91c3f6d3ad33ad9a3a3adbf6" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>IsConnected</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a16d356b7d7812a32f2c757fc3c2854ca" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>PosLimitHigh</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ad4cb2907a070a8810530c21dfec5d761" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>PosLimitLow</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a49a717be848073e58d0d2ea5de8b4809" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>ReadPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1aa34450c90e6ac74f33b4973c1e54fd15" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>SelectedBaud</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ad083da98948250d8e561aa4bc4de7d6b" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>SetAccelerationCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a70a209bd85117dd5581f8f2c9d5de0b3" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>SetDecelerationCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a3c2f26ba12696ff418472a493424effd" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>SetPosCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1ac6e660e5911458e0f261a90c54329db3" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>SetVelocityCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a3be7e577baff5b97f0eb6c200e7ceb58" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>This</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a56f62ea83d8008772bf5896a5d18adb5" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>Velocity</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a2536e3c877bf44532a436cb77847e81e" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>VelocityLimitHigh</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a9c1ca3b0fc7fc85d214b5c86f7966a40" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>VelocityLimitLow</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_z_stage_test_1_1_workspace_1a0ce92fb4b3d863c30e162e2cdaa91f0a" prot="public" virt="non-virtual"><scope>Hywire::ALF::ZStageTest::Workspace</scope><name>Workspace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

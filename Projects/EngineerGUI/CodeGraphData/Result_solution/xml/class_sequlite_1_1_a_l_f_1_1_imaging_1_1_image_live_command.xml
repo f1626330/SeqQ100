@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::ImageLiveCommand</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_command_lib_1_1_thread_base" prot="public" virt="non-virtual">Sequlite.CommandLib.ThreadBase</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1af5707199c1e433e2b5206d727b4ee315" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a810b87c202f58bfbb53de2fa4ccfb110" kindref="member">ImageReceivedHandler</ref></type>
+        <definition>ImageReceivedHandler Sequlite.ALF.Imaging.ImageLiveCommand.LiveImageReceived</definition>
+        <argsstring></argsstring>
+        <name>LiveImageReceived</name>
+        <briefdescription>
+<para>Live image received event handler. Triggered everytime the live image is received. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1acdc58c78be21c47ba3d81b7d5c0ef1e8" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ace82fbbd3f1f0d84e31bb42d047fcec4" kindref="member">LEDStateChangedHandle</ref></type>
+        <definition>LEDStateChangedHandle Sequlite.ALF.Imaging.ImageLiveCommand.OnLEDStateChanged</definition>
+        <argsstring></argsstring>
+        <name>OnLEDStateChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a95bb4f287bad58967dbcc3c92c2a8502" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1aa6287b04ceadb8878c862046cb9ddb17" kindref="member">CaptureLiveHandle</ref></type>
+        <definition>CaptureLiveHandle Sequlite.ALF.Imaging.ImageLiveCommand.OnCaptureLiveImage</definition>
+        <argsstring></argsstring>
+        <name>OnCaptureLiveImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a9627189ec0949eff29e832b9526cd34f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a68b2cc1be976aef6befc38880e16f6a6" kindref="member">BadImageCapturedHandle</ref></type>
+        <definition>BadImageCapturedHandle Sequlite.ALF.Imaging.ImageLiveCommand.OnCaptureBadImage</definition>
+        <argsstring></argsstring>
+        <name>OnCaptureBadImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a50a1bb29ca6470fc00f1f5291b8ca0e3" prot="private" static="no" mutable="no">
+        <type>Dispatcher</type>
+        <definition>Dispatcher Sequlite.ALF.Imaging.ImageLiveCommand._CallingDispatcher</definition>
+        <argsstring></argsstring>
+        <name>_CallingDispatcher</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ad2da15389d56a18476f51669affd993d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base" kindref="compound">CameraLibBase</ref></type>
+        <definition>CameraLibBase Sequlite.ALF.Imaging.ImageLiveCommand._ActiveCamera</definition>
+        <argsstring></argsstring>
+        <name>_ActiveCamera</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a4b8371ccb2eda4cf5ee36ce14640ddf2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" kindref="compound">Mainboard</ref></type>
+        <definition>Mainboard Sequlite.ALF.Imaging.ImageLiveCommand._Mainboard</definition>
+        <argsstring></argsstring>
+        <name>_Mainboard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ae50813daebb81886d5af7de7bc6fb2b5" prot="private" static="no" mutable="no">
+        <type>BitmapSource</type>
+        <definition>BitmapSource Sequlite.ALF.Imaging.ImageLiveCommand._DisplayBitmap</definition>
+        <argsstring></argsstring>
+        <name>_DisplayBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a5d8dd230aebbc610a8f0b6dedfe1fef6" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel_settings" kindref="compound">ImageChannelSettings</ref></type>
+        <definition>ImageChannelSettings Sequlite.ALF.Imaging.ImageLiveCommand._ImageChannel</definition>
+        <argsstring></argsstring>
+        <name>_ImageChannel</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1abd48779def5ea55a5e283f90ca763d67" prot="private" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect Sequlite.ALF.Imaging.ImageLiveCommand._RoiRect</definition>
+        <argsstring></argsstring>
+        <name>_RoiRect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a57bcfd60db1be4ff889ffe1ab98feb60" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.ImageLiveCommand._IsCommandAborted</definition>
+        <argsstring></argsstring>
+        <name>_IsCommandAborted</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="41" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ae225e0fcbb3af8b60a5629b528c9b8e0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.ImageLiveCommand._IsAutoDisplayRange</definition>
+        <argsstring></argsstring>
+        <name>_IsAutoDisplayRange</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1af1087d895d2c4e81398ddc121decce97" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.ImageLiveCommand._IsCapturingImage</definition>
+        <argsstring></argsstring>
+        <name>_IsCapturingImage</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="44" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1add312ffb197a40e23ed006b36ef80296" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+        <definition>ImageInfo Sequlite.ALF.Imaging.ImageLiveCommand._ImageInfo</definition>
+        <argsstring></argsstring>
+        <name>_ImageInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="45" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a23719c0fe1b3ab2e34ba4e9813da7470" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.ImageLiveCommand.IsFailedToSetLED</definition>
+        <argsstring></argsstring>
+        <name>IsFailedToSetLED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="48" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a810b87c202f58bfbb53de2fa4ccfb110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.Imaging.ImageLiveCommand.ImageReceivedHandler</definition>
+        <argsstring>(BitmapSource displayBitmap)</argsstring>
+        <name>ImageReceivedHandler</name>
+        <param>
+          <type>BitmapSource</type>
+          <declname>displayBitmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ace82fbbd3f1f0d84e31bb42d047fcec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.Imaging.ImageLiveCommand.LEDStateChangedHandle</definition>
+        <argsstring>(LEDTypes led, bool newState)</argsstring>
+        <name>LEDStateChangedHandle</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+          <declname>led</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>newState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1aa6287b04ceadb8878c862046cb9ddb17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.Imaging.ImageLiveCommand.CaptureLiveHandle</definition>
+        <argsstring>(WriteableBitmap capturedImage, ImageInfo info)</argsstring>
+        <name>CaptureLiveHandle</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>capturedImage</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a68b2cc1be976aef6befc38880e16f6a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.Imaging.ImageLiveCommand.BadImageCapturedHandle</definition>
+        <argsstring>()</argsstring>
+        <name>BadImageCapturedHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a80bf7945008af8d9dfb35a7153d0f7e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.ImageLiveCommand.ImageLiveCommand</definition>
+        <argsstring>(Dispatcher callingDispatcher, CameraLibBase camera, Mainboard mainboard, ImageChannelSettings imageChannel, Rect cropRect, bool autoDisplayRange)</argsstring>
+        <name>ImageLiveCommand</name>
+        <param>
+          <type>Dispatcher</type>
+          <declname>callingDispatcher</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base" kindref="compound">CameraLibBase</ref></type>
+          <declname>camera</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" kindref="compound">Mainboard</ref></type>
+          <declname>mainboard</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel_settings" kindref="compound">ImageChannelSettings</ref></type>
+          <declname>imageChannel</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>cropRect</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoDisplayRange</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="50" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="50" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a5b5b98383a5b2c3f0846ece1408b777c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.Imaging.ImageLiveCommand.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <reimplements refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a075aff57c71280b9dca53582a7d32ffa">Initialize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="65" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1aa6d0289f829cbc77a30e81ed37ee9fa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.Imaging.ImageLiveCommand.Finish</definition>
+        <argsstring>()</argsstring>
+        <name>Finish</name>
+        <reimplements refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a7e1063ba33c201d23949898ee25b8871">Finish</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="69" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="69" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ab906ac9f7b6bd8ff608d62863a9100ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.Imaging.ImageLiveCommand.ThreadFunction</definition>
+        <argsstring>()</argsstring>
+        <name>ThreadFunction</name>
+        <reimplements refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a403a9a5891d6cceed7fa795df8ed3c0b">ThreadFunction</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="75" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="75" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a387fca37394a83f67ac85104fab506db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.Imaging.ImageLiveCommand.AbortWork</definition>
+        <argsstring>()</argsstring>
+        <name>AbortWork</name>
+        <reimplements refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a88d18ca0cba84f497117a8eecc7bf586">AbortWork</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="228" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="228" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a16e92fbd73d1d6c01d56b51935a727d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.ImageLiveCommand.CaptureLiveImage</definition>
+        <argsstring>()</argsstring>
+        <name>CaptureLiveImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="246" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="246" bodyend="319"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a5d06f0aaed963e65383b5abe9080efc8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Imaging.ImageLiveCommand.MVCameraLive_CameraNotif</definition>
+        <argsstring>(object sender)</argsstring>
+        <name>MVCameraLive_CameraNotif</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="178" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="178" bodyend="226"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="560">
+        <label>ThreadBase</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_thread_base"/>
+      </node>
+      <node id="559">
+        <label>Sequlite.ALF.Imaging.ImageLiveCommand</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command"/>
+        <childnode refid="560" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="568">
+        <label>Sequlite.CameraLib.CameraLibBase</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base"/>
+      </node>
+      <node id="563">
+        <label>Sequlite.ALF.MainBoard.Mainboard</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard"/>
+        <childnode refid="564" relation="usage">
+          <edgelabel>_LEDOnTimer</edgelabel>
+        </childnode>
+        <childnode refid="565" relation="usage">
+          <edgelabel>_LEDLock</edgelabel>
+        </childnode>
+        <childnode refid="566" relation="usage">
+          <edgelabel>_Comm</edgelabel>
+        </childnode>
+      </node>
+      <node id="562">
+        <label>ThreadBase</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_thread_base"/>
+      </node>
+      <node id="567">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="564" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="570">
+        <label>Sequlite.ALF.Imaging.ImageInfo</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info"/>
+        <childnode refid="571" relation="public-inheritance">
+        </childnode>
+        <childnode refid="572" relation="usage">
+          <edgelabel>_MixChannel</edgelabel>
+          <edgelabel>_GreenChannel</edgelabel>
+          <edgelabel>_RedChannel</edgelabel>
+        </childnode>
+      </node>
+      <node id="564">
+        <label>System</label>
+      </node>
+      <node id="566">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="567" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="561">
+        <label>Sequlite.ALF.Imaging.ImageLiveCommand</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command"/>
+        <childnode refid="562" relation="public-inheritance">
+        </childnode>
+        <childnode refid="563" relation="usage">
+          <edgelabel>_Mainboard</edgelabel>
+        </childnode>
+        <childnode refid="568" relation="usage">
+          <edgelabel>_ActiveCamera</edgelabel>
+        </childnode>
+        <childnode refid="569" relation="usage">
+          <edgelabel>_ImageChannel</edgelabel>
+        </childnode>
+        <childnode refid="570" relation="usage">
+          <edgelabel>_ImageInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="569">
+        <label>Sequlite.ALF.Imaging.ImageChannelSettings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel_settings"/>
+      </node>
+      <node id="572">
+        <label>Sequlite.ALF.Imaging.ImageChannel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel"/>
+        <childnode refid="571" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="571">
+        <label>ICloneable</label>
+      </node>
+      <node id="565">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/ImageLiveCommand.cs" bodystart="15" bodyend="320"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ad2da15389d56a18476f51669affd993d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_ActiveCamera</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a783784c779d9f40b28dd62f4203d3ccb" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_AutoResetEvent</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a50a1bb29ca6470fc00f1f5291b8ca0e3" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_CallingDispatcher</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1adbe83bfa26413c421095eaa24e9f20b7" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_CommandSyncObject</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ae50813daebb81886d5af7de7bc6fb2b5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_DisplayBitmap</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a3cab4efa3a31cae3053675b85a6f69d4" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_Error</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ae08da82f1b87bf2fa4d49425a5f667b2" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_ExitStat</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a5d8dd230aebbc610a8f0b6dedfe1fef6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_ImageChannel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1add312ffb197a40e23ed006b36ef80296" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_ImageInfo</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ae225e0fcbb3af8b60a5629b528c9b8e0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_IsAutoDisplayRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1af1087d895d2c4e81398ddc121decce97" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_IsCapturingImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a57bcfd60db1be4ff889ffe1ab98feb60" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_IsCommandAborted</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a22b9863c9510108ba10b0799a6629595" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_IsOutOfMemory</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a4b8371ccb2eda4cf5ee36ce14640ddf2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_Mainboard</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1abd48779def5ea55a5e283f90ca763d67" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_RoiRect</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a875909622ecece6935fb1912352cfcad" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_simulation</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a9ccc20d1a114871ba40efce6e7dd3eef" prot="protected" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>_ThreadHandle</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a47ff6f3598522a1e3fd17a5d3a912e0f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>Abort</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a387fca37394a83f67ac85104fab506db" prot="public" virt="virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>AbortWork</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a68b2cc1be976aef6befc38880e16f6a6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>BadImageCapturedHandle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1aa6287b04ceadb8878c862046cb9ddb17" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>CaptureLiveHandle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a16e92fbd73d1d6c01d56b51935a727d0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>CaptureLiveImage</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a70f7ee3d7cdea4f0dfd04ebd565f1066" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>CommandCompletedHandler</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a6a61f5ba3acc838bd56e5c37c81e198d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>Completed</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a9d630019081a6ee79e140289cad5378c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>Error</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0804deade854e88000875b7db2478150" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>ExitStat</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1aa6d0289f829cbc77a30e81ed37ee9fa5" prot="public" virt="virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>Finish</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a80bf7945008af8d9dfb35a7153d0f7e4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>ImageLiveCommand</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a810b87c202f58bfbb53de2fa4ccfb110" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>ImageReceivedHandler</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a5b5b98383a5b2c3f0846ece1408b777c" prot="public" virt="virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>Initialize</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0fc2ffe2776eb9cde844a22c3a84cf0b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>IsAlive</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a23719c0fe1b3ab2e34ba4e9813da7470" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>IsFailedToSetLED</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ae52ad7ae28d438cb3cc56646aa1a0d8e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>IsOutOfMemory</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a31a64a977de5e15e6ff3754fa03d7f66" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>IsSimulationMode</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a05f62d4820e9be8059e4b53188055bda" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>Join</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ace82fbbd3f1f0d84e31bb42d047fcec4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>LEDStateChangedHandle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1af5707199c1e433e2b5206d727b4ee315" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>LiveImageReceived</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a5d06f0aaed963e65383b5abe9080efc8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>MVCameraLive_CameraNotif</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ad37c0e588219e7b5ed88cdc3f1b5cbb0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>Name</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a9627189ec0949eff29e832b9526cd34f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>OnCaptureBadImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1a95bb4f287bad58967dbcc3c92c2a8502" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>OnCaptureLiveImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1acdc58c78be21c47ba3d81b7d5c0ef1e8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>OnLEDStateChanged</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a82654757ec970eb1baa2ffc62ca4e18d" prot="protected" virt="virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>SimulateThreadFunction</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1adbe9d79b75bb3de28d033f19b8e64ade" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>Start</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1ac492d5cef5e12d445b1a42a05f3a3ac2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>Stop</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a2eba514dac15b3d238558a47c8410ab3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>ThreadBase</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a0ae32b8605809e5183eaec8a37a1aef9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>ThreadExitStat</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_live_command_1ab906ac9f7b6bd8ff608d62863a9100ca" prot="public" virt="virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>ThreadFunction</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_thread_base_1a2d010ff2f64d5f8edfa5c08174a14255" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ImageLiveCommand</scope><name>ThreadHandle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

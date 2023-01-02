@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Fluidics::FluidicsManager</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1ad36cdd3e6772d52001832740cfaa38f5" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution" kindref="compound">ValveSolution</ref> &gt;</type>
+        <definition>List&lt;ValveSolution&gt; Sequlite.ALF.Fluidics.FluidicsManager.Solutions</definition>
+        <argsstring></argsstring>
+        <name>Solutions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a68b0789078890b4fd0d0f560f075107e" compoundref="_recipe_run_thread_8cs" startline="344" endline="418">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a0603371dfb6545abf54ae5480104793d" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode" kindref="compound">PumpMode</ref> &gt;</type>
+        <definition>List&lt;PumpMode&gt; Sequlite.ALF.Fluidics.FluidicsManager.Modes</definition>
+        <argsstring></argsstring>
+        <name>Modes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a5d3a1b2b57bc7152df1ea56a0e8b3a47" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" kindref="member">PathOptions</ref> &gt;</type>
+        <definition>List&lt;PathOptions&gt; Sequlite.ALF.Fluidics.FluidicsManager.Paths</definition>
+        <argsstring></argsstring>
+        <name>Paths</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a6a224eb3d5731cde3ca5b9e5a0321441" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller" kindref="compound">PumpController</ref></type>
+        <definition>PumpController Sequlite.ALF.Fluidics.FluidicsManager.Pump</definition>
+        <argsstring></argsstring>
+        <name>Pump</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a9d957e7e88fc28794c2b5dd8f469fc0e" compoundref="_test_bench_2_hywire_8_a_l_f_8_pump_test_2_workspace_8cs" startline="119" endline="165">Hywire.ALF.PumpTest.Workspace.ExecuteInitializeCmd</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a75ba54e093526ea239020a7682b9d2e2" compoundref="_fluidics_view_model_8cs" startline="69" endline="88">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Pump_OnStatusChanged</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a28400f28fad818e1a49cb5c8475653c3" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller" kindref="compound">ValveController</ref></type>
+        <definition>ValveController Sequlite.ALF.Fluidics.FluidicsManager.Valve</definition>
+        <argsstring></argsstring>
+        <name>Valve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1aa89feedc854a6f26b257cea391ab17fa" compoundref="_test_bench_2_hywire_8_a_l_f_8_valve_test_2_workspace_8cs" startline="58" endline="71">Hywire.ALF.ValveTest.Workspace.ExecuteConnectCmd</referencedby>
+        <referencedby refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a1348ed3986938955c72805308b4afd8e" compoundref="_test_bench_2_hywire_8_a_l_f_8_valve_test_2_workspace_8cs" startline="109" endline="116">Hywire.ALF.ValveTest.Workspace.ExecuteHomeCmd</referencedby>
+        <referencedby refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a86d89ab4c1627195b1816a9566e0f343" compoundref="_test_bench_2_hywire_8_a_l_f_8_valve_test_2_workspace_8cs" startline="172" endline="189">Hywire.ALF.ValveTest.Workspace.ExecuteSetPosCmd</referencedby>
+        <referencedby refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_workspace_1a1ef13985d6392ae6c4781e80c48468e6" compoundref="_test_bench_2_hywire_8_a_l_f_8_valve_test_2_workspace_8cs" startline="31" endline="42">Hywire.ALF.ValveTest.Workspace.QueryProcessing</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread_1a6f24d42ae04ee027a84fa16d6637e9d7" compoundref="_run_pumping_thread_8cs" startline="38" endline="82">Sequlite.ALF.Fluidics.RunPumpingThread.ThreadFunction</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a04534f6fc5a909f2865323f573c6d0e8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Sequlite.ALF.Fluidics.FluidicsManager.FluidicsManager</definition>
+        <argsstring>()</argsstring>
+        <name>FluidicsManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" bodystart="17" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" bodystart="5" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a04534f6fc5a909f2865323f573c6d0e8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::FluidicsManager</scope><name>FluidicsManager</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a0603371dfb6545abf54ae5480104793d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::FluidicsManager</scope><name>Modes</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a5d3a1b2b57bc7152df1ea56a0e8b3a47" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::FluidicsManager</scope><name>Paths</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a6a224eb3d5731cde3ca5b9e5a0321441" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::FluidicsManager</scope><name>Pump</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1ad36cdd3e6772d52001832740cfaa38f5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::FluidicsManager</scope><name>Solutions</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a28400f28fad818e1a49cb5c8475653c3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::FluidicsManager</scope><name>Valve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

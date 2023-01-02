@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Common::GainType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type_1add377c40fda0a560bcc0b8ed79d32366" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.GainType.Position</definition>
+        <argsstring></argsstring>
+        <name>Position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="55" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type_1a13a9e25d9b9bf6563384364dd94e7b1a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.GainType.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type_1aadff680e1f497e841bd159359a9df8a5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Common.GainType.DisplayName</definition>
+        <argsstring></argsstring>
+        <name>DisplayName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="59" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type_1ac71698eace2e215b90bd2447520ef91c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Common.GainType.GainType</definition>
+        <argsstring>()</argsstring>
+        <name>GainType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="65" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type_1a8923662bdc7e6e9e586623f41402bc3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Common.GainType.GainType</definition>
+        <argsstring>(int position, int value, string displayName)</argsstring>
+        <name>GainType</name>
+        <param>
+          <type>int</type>
+          <declname>position</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>displayName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="69" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="69" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" line="52" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/BinningFactorType.cs" bodystart="51" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type_1aadff680e1f497e841bd159359a9df8a5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::GainType</scope><name>DisplayName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type_1ac71698eace2e215b90bd2447520ef91c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::GainType</scope><name>GainType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type_1a8923662bdc7e6e9e586623f41402bc3d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::GainType</scope><name>GainType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type_1add377c40fda0a560bcc0b8ed79d32366" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::GainType</scope><name>Position</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type_1a13a9e25d9b9bf6563384364dd94e7b1a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::GainType</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

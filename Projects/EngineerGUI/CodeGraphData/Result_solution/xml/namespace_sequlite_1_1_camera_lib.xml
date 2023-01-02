@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_camera_lib" kind="namespace">
+    <compoundname>Sequlite::CameraLib</compoundname>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_camera_lib_base" prot="public">Sequlite::CameraLib::CameraLibBase</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_lucid_camera" prot="public">Sequlite::CameraLib::LucidCamera</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera" prot="public">Sequlite::CameraLib::PhotometricsCamera</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications" prot="public">Sequlite::CameraLib::CameraNotifications</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_msg_types" prot="public">Sequlite::CameraLib::MsgTypes</innerclass>
+    <innerclass refid="struct_sequlite_1_1_camera_lib_1_1_acq_params_context" prot="public">Sequlite::CameraLib::AcqParamsContext</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_speed_table" prot="public">Sequlite::CameraLib::SpeedTable</innerclass>
+    <innerclass refid="struct_sequlite_1_1_camera_lib_1_1_readout_option" prot="public">Sequlite::CameraLib::ReadoutOption</innerclass>
+    <innerclass refid="struct_sequlite_1_1_camera_lib_1_1_n_v_p" prot="public">Sequlite::CameraLib::NVP</innerclass>
+    <innerclass refid="struct_sequlite_1_1_camera_lib_1_1_p_p___function" prot="public">Sequlite::CameraLib::PP_Function</innerclass>
+    <innerclass refid="struct_sequlite_1_1_camera_lib_1_1_p_p___feature" prot="public">Sequlite::CameraLib::PP_Feature</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_image_stats" prot="public">Sequlite::CameraLib::ImageStats</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_frame_metadata" prot="public">Sequlite::CameraLib::FrameMetadata</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_r_o_i_metadata" prot="public">Sequlite::CameraLib::ROIMetadata</innerclass>
+    <innerclass refid="struct_sequlite_1_1_camera_lib_1_1_centroid" prot="public">Sequlite::CameraLib::Centroid</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera" prot="public">Sequlite::CameraLib::PVCamCamera</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_report_message" prot="public">Sequlite::CameraLib::ReportMessage</innerclass>
+    <innerclass refid="class_sequlite_1_1_camera_lib_1_1_report_event" prot="public">Sequlite::CameraLib::ReportEvent</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_camera_lib_1ab7a879b5b698a15f6c0f1b7b301fddac" prot="public" static="no">
+        <name>CaptureFrameType</name>
+        <enumvalue id="namespace_sequlite_1_1_camera_lib_1ab7a879b5b698a15f6c0f1b7b301fddaca960b44c579bc2f6818d2daaf9e4c16f0" prot="public">
+          <name>Normal</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_camera_lib_1ab7a879b5b698a15f6c0f1b7b301fddacaa18366b217ebf811ad1886e4f4f865b2" prot="public">
+          <name>Dark</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="6" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_camera_lib_1adf877ec3e94b9627573c53341c664b6d" prot="public" static="no">
+        <name>CameraMake</name>
+        <enumvalue id="namespace_sequlite_1_1_camera_lib_1adf877ec3e94b9627573c53341c664b6da40bea05699cf5192813d9535f3e527ca" prot="public">
+          <name>Apogee</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_camera_lib_1adf877ec3e94b9627573c53341c664b6dafda526c4c53760c839b24296637327da" prot="public">
+          <name>Photometrics</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/CameraLibBase.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

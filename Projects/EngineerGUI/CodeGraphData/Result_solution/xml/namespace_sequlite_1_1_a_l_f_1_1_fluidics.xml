@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_fluidics" kind="namespace">
+    <compoundname>Sequlite::ALF::Fluidics</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager" prot="public">Sequlite::ALF::Fluidics::FluidicsManager</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller" prot="public">Sequlite::ALF::Fluidics::PumpController</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_mode" prot="public">Sequlite::ALF::Fluidics::PumpMode</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol" prot="public">Sequlite::ALF::Fluidics::PumpDTProtocol</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol" prot="public">Sequlite::ALF::Fluidics::PumpOEMProtocol</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol" prot="public">Sequlite::ALF::Fluidics::PumpProtocol</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_run_pumping_thread" prot="public">Sequlite::ALF::Fluidics::RunPumpingThread</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings" prot="public">Sequlite::ALF::Fluidics::PumpingSettings</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_controller" prot="public">Sequlite::ALF::Fluidics::ValveController</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution" prot="public">Sequlite::ALF::Fluidics::ValveSolution</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5c" prot="public" static="no">
+        <name>ModeOptions</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5cac9ece64a3c7ced143c60b52d7510289d" prot="public">
+          <name>AspirateDispense</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5ca54fda18993e80d1b5126af4f7e05e058" prot="public">
+          <name>Aspirate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5cae766f2bd3d581ab7cbb7910d96b60f57" prot="public">
+          <name>Dispense</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5ca718f59718640c6506b3721fbc8bf3a4d" prot="public">
+          <name>Pull</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5ca9c6a9d9f033001a9b3104984d319563b" prot="public">
+          <name>Push</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5cabac97826011b50c8158ec875a0e85688" prot="public">
+          <name>PullPush</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="8" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" prot="public" static="no">
+        <name>PathOptions</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927ea6b8f0029ce30f9b4d5fe0def33875511" prot="public">
+          <name>FC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927ea977fe39d1cc13e3e5e6abec301be214d" prot="public">
+          <name>Waste</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927ea5ce88c4d66118388a69c6fd4262ca3a1" prot="public">
+          <name>Bypass</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1a5e17197ac8bdd0cb8345834b17a4319c" prot="public" static="no">
+        <name>ValveStatusTypes</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1a5e17197ac8bdd0cb8345834b17a4319caa60852f204ed8028c1c58808b746d115" prot="public">
+          <name>Ok</name>
+          <initializer>= 0x00</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1a5e17197ac8bdd0cb8345834b17a4319cad8a942ef2b04672adfafef0ad817a407" prot="public">
+          <name>Busy</name>
+          <initializer>= 0x2A</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1a5e17197ac8bdd0cb8345834b17a4319caa881bde1466535c59c2b801dcbf5d184" prot="public">
+          <name>HomeError</name>
+          <initializer>= 0x63</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1a5e17197ac8bdd0cb8345834b17a4319cacedcbd07d779d35295f55a5b5de1e855" prot="public">
+          <name>MemoryError</name>
+          <initializer>= 0x58</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1a5e17197ac8bdd0cb8345834b17a4319ca1053efdc7a34708782767df3ed95cded" prot="public">
+          <name>ConfigError</name>
+          <initializer>= 0x4D</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1a5e17197ac8bdd0cb8345834b17a4319cac9a06356d273502e2dc86ca2c6640bba" prot="public">
+          <name>PositionError</name>
+          <initializer>= 0x42</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1a5e17197ac8bdd0cb8345834b17a4319ca7d6d042af32dd9fafb65dd01592c12da" prot="public">
+          <name>IntegrityError</name>
+          <initializer>= 0x37</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1a5e17197ac8bdd0cb8345834b17a4319ca8717c18fa957be6f62f14404ce4c014b" prot="public">
+          <name>CRCError</name>
+          <initializer>= 0x2C</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/ValveController.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/ValveController.cs" bodystart="9" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/FluidicsManager.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

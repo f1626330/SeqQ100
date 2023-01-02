@@ -1,0 +1,432 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.ALF.EngineerGUI.View"
+             xmlns:viewmodels="clr-namespace:Sequlite.ALF.EngineerGUI.ViewModel"
+             xmlns:motionctrl="clr-namespace:Sequlite.ALF.MotionControl;assembly=Sequlite.ALF.MotionControl"
+             xmlns:commonlib="clr-namespace:Sequlite.ALF.Common;assembly=Sequlite.ALF.Common"
+             x:Class="Sequlite.ALF.EngineerGUI.View.MotorsViewControl"
+             mc:Ignorable="d" 
+             d:DataContext="{d:DesignInstance {x:Type viewmodels:MotionViewModel}, IsDesignTimeCreatable=False}"
+             d:DesignHeight="240" d:DesignWidth="1400">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Sequlite.WPF.Framework;component/Resources/ConverterDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Home" Grid.Column="0" Grid.Row="0" Grid.RowSpan="6" Margin="5">
+            <Grid x:Name="GridHome">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <StackPanel x:Name="_FMotionStack" Grid.Column="0" Grid.Row="0" Orientation="Horizontal"
+                    Visibility="{Binding DataContext.IsMachineRev2, Converter={StaticResource boolToVisibilityCollapsedConverter}, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Control}}}">
+                    <TextBlock Text="F" Margin="5" VerticalAlignment="Center"/>
+                    <Button Content="Home" Width="96" Height="32" Margin="5"
+                    Command="{Binding HomeCmd}" CommandParameter="{x:Static commonlib:MotionTypes.Filter}"/>
+                </StackPanel>
+                <StackPanel x:Name="_XMotionStack" Grid.Column="0" Grid.Row="0" Orientation="Horizontal"
+                    Visibility="{Binding DataContext.IsMachineRev2, Converter={StaticResource boolToVisibilityVisibleConverter}, RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type Control}}}">
+                    <TextBlock Text="X" Margin="5" VerticalAlignment="Center" Foreground="Red"/>
+                    <Button Content="Home" Width="96" Height="32" Margin="5" IsEnabled="{Binding Path=IsXBusy, Converter={StaticResource booleanReverseConverter}}"
+                    Command="{Binding HomeCmd}" CommandParameter="{x:Static commonlib:MotionTypes.XStage}" Background="#ff6e6e"/>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="1" Orientation="Horizontal">
+                    <TextBlock Text="Y" Margin="5" VerticalAlignment="Center" Foreground="Green"/>
+                    <Button Content="Home" Width="96" Height="32" Margin="5" IsEnabled="{Binding Path=IsYBusy, Converter={StaticResource booleanReverseConverter}}"
+                    Command="{Binding HomeCmd}" CommandParameter="{x:Static commonlib:MotionTypes.YStage}" Background="LightGreen"/>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="2" Orientation="Horizontal">
+                    <TextBlock Text="Z" Margin="5" VerticalAlignment="Center" Foreground="Blue"/>
+                    <Button Content="Home" Width="96" Height="32" Margin="5"
+                    Command="{Binding HomeCmd}" CommandParameter="{x:Static commonlib:MotionTypes.ZStage}" Background="LightBlue"/>
+                </StackPanel>
+                <StackPanel Grid.Column="0" Grid.Row="3" Orientation="Horizontal">
+                    <TextBlock Text="C" Margin="5" VerticalAlignment="Center"/>
+                    <Button Content="Home" Width="96" Height="32" Margin="5"
+                    Command="{Binding HomeCmd}" CommandParameter="{x:Static commonlib:MotionTypes.Cartridge}"/>
+                </StackPanel>
+                <StackPanel x:Name="_FCDoorStack" Grid.Column="0" Grid.Row="4" Orientation="Horizontal"
+                    Visibility="{Binding Path=IsProtocolRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}">
+                    <TextBlock Text="D" Margin="5" VerticalAlignment="Center"/>
+                    <Button Content="Home" Width="96" Height="32" Margin="5" IsEnabled="{Binding Path=IsXBusy, Converter={StaticResource booleanReverseConverter}}"
+                    Command="{Binding HomeCmd}" CommandParameter="{x:Static commonlib:MotionTypes.FCDoor}"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+
+        <!--  Speed  -->
+        <!--<TextBlock Text="Speed" Grid.Column="1" Grid.Row="0" Margin="5"/>-->
+        <GroupBox Header="Speed" Grid.Column="1" Grid.Row="0" Grid.RowSpan="6" Margin="5">
+            <Grid x:Name="GridSpeed">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <local:DoubleSpinBox x:Name="DoubleSpinBoxFSpeed" Width="96" Height="32" Grid.Row="0" Margin="5" Value="{Binding FMotionSpeed, Mode=TwoWay}"
+                                 MaxValue ="{Binding FSpeedLimitH}" Visibility="{Binding ElementName=_FMotionStack, Path=Visibility}"/>
+                <local:DoubleSpinBox x:Name="DoubleSpinBoxXSpeed" Width="96" Height="32" Grid.Row="0" Margin="5" Value="{Binding XMotionSpeed, Mode=TwoWay}"
+                                 MaxValue ="{Binding XSpeedLimitH}" Visibility="{Binding ElementName=_XMotionStack, Path=Visibility}"/>
+                <local:DoubleSpinBox x:Name="DoubleSpinBoxYSpeed" Width="96" Height="32" Grid.Row="1" Margin="5" Value="{Binding YMotionSpeed, Mode=TwoWay}"
+                                 MaxValue ="{Binding YSpeedLimitH}"/>
+                <local:DoubleSpinBox x:Name="DoubleSpinBoxZSpeed" Width="96" Height="32" Grid.Row="2" Margin="5" Value="{Binding ZMotionSpeed, Mode=TwoWay}"
+                                 MaxValue ="{Binding ZSpeedLimitH}"/>
+                <local:DoubleSpinBox x:Name="CartridgeSpeed" Width="96" Height="32" Grid.Row="3" Margin="5" Value="{Binding CMotionSpeed, Mode=TwoWay}"
+                                 MaxValue ="{Binding CSpeedLimitH}" Visibility="{Binding Path=IsMachineRev2P4, Converter={StaticResource boolToVisibilityCollapsedConverter}}"/>
+                <ComboBox Width="96" Height="32" Grid.Row="3" Margin="5" VerticalContentAlignment="Center" ItemsSource="{Binding Path=CartridgeMotorSpeedOptions}" SelectedItem="{Binding Path=SelectedCartridgeMotorSpeed}"
+                  Visibility="{Binding Path=IsProtocolRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}"/>
+                <local:DoubleSpinBox x:Name="FCDoorSpeed" Width="96" Height="32" Grid.Row="4" Margin="5" Value="{Binding FCDoorSpeed, Mode=TwoWay}"
+                                 MaxValue ="{Binding FCDoorSpeedLimitH}" Visibility="{Binding Path=IsProtocolRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}"/>
+
+                <!--<TextBox Width="60" Grid.Column="1" Grid.Row="1" Margin="5" Text="{Binding FMotionSpeed}"
+                 Visibility="{Binding ElementName=_FMotionStack, Path=Visibility}"/>
+        <TextBox Width="60" Grid.Column="1" Grid.Row="1" Margin="5" Text="{Binding XMotionSpeed}"
+                 Visibility="{Binding ElementName=_XMotionStack, Path=Visibility}"/>
+        <TextBox Width="60" Grid.Column="1" Grid.Row="2" Margin="5" Text="{Binding YMotionSpeed}"/>
+        <TextBox Width="60" Grid.Column="1" Grid.Row="3" Margin="5" Text="{Binding ZMotionSpeed}"/>
+        <TextBox Width="60" Grid.Column="1" Grid.Row="4" Margin="5" Text="{Binding CMotionSpeed}" x:Name="CartridgeSpeed"
+                 Visibility="{Binding Path=IsMachineRev2P4, Converter={StaticResource boolToVisibilityCollapsedConverter}}"/>
+        <ComboBox Width="60" Grid.Column="1" Grid.Row="4" Margin="5" ItemsSource="{Binding Path=CartridgeMotorSpeedOptions}" SelectedItem="{Binding Path=SelectedCartridgeMotorSpeed}"
+                  Visibility="{Binding Path=IsProtocolRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}"/>
+        <TextBox Width="60" Grid.Column="1" Grid.Row="5" Margin="5" Text="{Binding FCDoorSpeed}" x:Name="FCDoorSpeed"
+                 Visibility="{Binding Path=IsProtocolRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}"/>-->
+
+            </Grid>
+        </GroupBox>
+
+        <!--  Acceleration  -->
+        <GroupBox Header="Acceleration" Grid.Column="2" Grid.Row="0" Grid.RowSpan="6" Margin="5">
+            <Grid x:Name="GridAcceleration">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <local:DoubleSpinBox x:Name="DoubleSpinBoxFAccel" Width="96" Height="32" Grid.Row="0" Margin="5" Value="{Binding FMotionAccel, Mode=TwoWay}"
+                                     MaxValue ="{Binding FAccelLimitH}" Visibility="{Binding ElementName=_FMotionStack, Path=Visibility}"/>
+                <local:DoubleSpinBox x:Name="DoubleSpinBoxXAccel" Width="96" Height="32" Grid.Row="0" Margin="5" Value="{Binding XMotionAccel, Mode=TwoWay}"
+                                     MaxValue ="{Binding XAccelLimitH}" Visibility="{Binding ElementName=_XMotionStack, Path=Visibility}"/>
+                <local:DoubleSpinBox x:Name="DoubleSpinBoxYAccel" Width="96" Height="32" Grid.Row="1" Margin="5" Value="{Binding YMotionAccel, Mode=TwoWay}"
+                                     MaxValue ="{Binding YAccelLimitH}" />
+                <local:DoubleSpinBox x:Name="DoubleSpinBoxZAccel" Width="96" Height="32" Grid.Row="2" Margin="5" Value="{Binding ZMotionAccel, Mode=TwoWay}"
+                                     MaxValue ="{Binding ZAccelLimitH}" />
+                <local:DoubleSpinBox x:Name="DoubleSpinBoxCAccel" Width="96" Height="32" Grid.Row="3" Margin="5" Value="{Binding CMotionAccel, Mode=TwoWay}"
+                                     MaxValue ="{Binding CAccelLimitH}" Visibility="{Binding ElementName=CartridgeSpeed,Path=Visibility}"/>
+                <local:DoubleSpinBox x:Name="DoubleSpinBoxFCDoorAccel" Width="96" Height="32" Grid.Row="4" Margin="5" Value="{Binding FCDoorAccel, Mode=TwoWay}"
+                                     MaxValue ="{Binding FCDoorAccelLimitH}" Visibility="{Binding ElementName=FCDoorSpeed,Path=Visibility}"/>
+
+                <!--<TextBox Width="60" Grid.Row="1" Margin="5" Text="{Binding FMotionAccel}"
+                 Visibility="{Binding ElementName=_FMotionStack, Path=Visibility}"/>
+        <TextBox Width="60" Grid.Row="1" Margin="5" Text="{Binding XMotionAccel}"
+                 Visibility="{Binding ElementName=_XMotionStack, Path=Visibility}"/>
+        <TextBox Width="60" Grid.Row="2" Margin="5" Text="{Binding YMotionAccel}"/>
+        <TextBox Width="60" Grid.Row="3" Margin="5" Text="{Binding ZMotionAccel}"/>
+        <TextBox Width="60" Grid.Row="4" Margin="5" Text="{Binding CMotionAccel}"
+                 Visibility="{Binding ElementName=CartridgeSpeed,Path=Visibility}"/>
+        <TextBox Width="60" Grid.Row="5" Margin="5" Text="{Binding FCDoorAccel}"
+                 Visibility="{Binding ElementName=FCDoorSpeed,Path=Visibility}"/>-->
+
+            </Grid>
+        </GroupBox>
+
+        <!--  Absolute position  -->
+        <GroupBox Header="Absolute Move" Grid.Column="3" Grid.Row="0" Grid.RowSpan="6" Margin="5" BorderBrush="MediumPurple">
+            <Grid x:Name="GridAbsMove">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Orientation="Horizontal" Grid.Row="0" Visibility="{Binding ElementName=_FMotionStack, Path=Visibility}">
+                    <!--TextBox Width="60" Margin="5" Text="{Binding Path=FMotionAbsolutePos}"/>-->
+                    <ComboBox Width="60" Margin="5" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" ItemsSource="{Binding FilterOptions}" SelectedItem="{Binding SelectedFilter}"/>
+                    <Button Content="Go" Width="32" Height ="32" Margin="4,5,5,5"
+                    Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.Filter}" Background="#d5cdf3"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="0" Visibility="{Binding ElementName=_XMotionStack, Path=Visibility}">
+                    <local:DoubleSpinBox x:Name="DoubleSpinBoxXAbsPos" Width="64" Height="32" Margin="5" Value="{Binding XMotionAbsolutePos, Mode=TwoWay}" 
+                                         ButtonsVisible="False" MinValue="{Binding XMotionLimitL}" MaxValue="{Binding XMotionLimitH}">
+                        <local:DoubleSpinBox.InputBindings>
+                            <KeyBinding Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.XStage}" Key="Enter" />
+                        </local:DoubleSpinBox.InputBindings>
+                    </local:DoubleSpinBox>
+                    <Button Content="Go" Width="32" Height ="32" Margin="0,5,5,5" Visibility="{Binding Path=IsXBusy, Converter={StaticResource boolToVisibilityCollapsedConverter}}"
+                    Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.XStage}" Background="#d5cdf3"/>
+                    <Button Content="Stop" Width="32" Height ="32" Margin="0,5,5,5" Visibility="{Binding Path=IsXBusy, Converter={StaticResource boolToVisibilityVisibleConverter}}"
+                    Command="{Binding StopMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.XStage}" Background="#ff6e6e"/>
+
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="1" >
+                    <local:DoubleSpinBox x:Name="DoubleSpinBoxYAbsPos" Width="64" Height="32" Margin="5" Value="{Binding YMotionAbsolutePos, Mode=TwoWay}"
+                                         ButtonsVisible="False" MinValue="{Binding YMotionLimitL}" MaxValue="{Binding YMotionLimitH}">
+                        <local:DoubleSpinBox.InputBindings>
+                            <KeyBinding Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.YStage}" Key="Enter" />
+                        </local:DoubleSpinBox.InputBindings>
+                    </local:DoubleSpinBox>
+                    <Button Content="Go" Width="32" Height ="32" Margin="0,5,5,5" Visibility="{Binding Path=IsYBusy, Converter={StaticResource boolToVisibilityCollapsedConverter}}"
+                    Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.YStage}" Background="#d5cdf3"/>
+                    <Button Content="Stop" Width="32" Height ="32" Margin="0,5,5,5" Visibility="{Binding Path=IsYBusy, Converter={StaticResource boolToVisibilityVisibleConverter}}"
+                    Command="{Binding StopMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.YStage}" Background="#ff6e6e"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="2">
+                    <local:DoubleSpinBox x:Name="DoubleSpinBoxZAbsPos" Width="64" Height="32" Margin="5" Value="{Binding ZMotionAbsolutePos, Mode=TwoWay}"
+                                         ButtonsVisible="False"  MinValue="{Binding ZMotionLimitL}" MaxValue="{Binding ZMotionLimitH}" Precision="2">
+                        <local:DoubleSpinBox.InputBindings>
+                            <KeyBinding Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.ZStage}" Key="Enter" />
+                        </local:DoubleSpinBox.InputBindings>
+                    </local:DoubleSpinBox>
+                    <Button Content="Go" Width="32" Height ="32" Margin="0,5,5,5"
+                    Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.ZStage}" Background="#d5cdf3"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="3">
+                    <local:DoubleSpinBox x:Name="DoubleSpinBoxCAbsPos" Width="64" Height="32" Margin="5" Value="{Binding CMotionAbsolutePos, Mode=TwoWay}"
+                                         ButtonsVisible="False" MinValue="{Binding CMotionLimitL}" MaxValue="{Binding CMotionLimitH}" Precision="0">
+                        <local:DoubleSpinBox.InputBindings>
+                            <KeyBinding Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.Cartridge}" Key="Enter" />
+                        </local:DoubleSpinBox.InputBindings>
+                    </local:DoubleSpinBox>
+                    <Button Content="Go" Width="32" Height ="32" Margin="0,5,5,5"
+                    Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.Cartridge}" Background="#d5cdf3"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="4" Visibility="{Binding ElementName=_FCDoorStack, Path=Visibility}">
+                    <local:DoubleSpinBox x:Name="DoubleSpinBoxFCDoorAbsPos" Width="64" Height="32" Margin="5" Value="{Binding FCDoorAbsolutePos, Mode=TwoWay}"
+                                         ButtonsVisible="False" MinValue="{Binding FCDoorLimitL}" MaxValue="{Binding FCDoorLimitH}">
+                        <local:DoubleSpinBox.InputBindings>
+                            <KeyBinding Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.FCDoor}" Key="Enter" />
+                        </local:DoubleSpinBox.InputBindings>
+                    </local:DoubleSpinBox>
+                    <Button Content="Go" Width="32" Height ="32" Margin="0,5,5,5"
+                    Command="{Binding AbsoluteMoveCmd}" CommandParameter="{x:Static commonlib:MotionTypes.FCDoor}" Background="#d5cdf3"/>
+                </StackPanel>
+
+            </Grid>
+        </GroupBox>
+        <!--  Relative Move -->
+        <GroupBox Header="Relative Move" Grid.Column="4" Grid.Row="0" Grid.RowSpan="6" Margin="5" BorderBrush="#FFD27F">
+            <Grid x:Name="GridRelMove">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Orientation="Horizontal" Grid.Row="0" Visibility="{Binding ElementName=_FMotionStack, Path=Visibility}">
+                    <Button Content="-" Width="32" Height ="32" Margin="5,5,0,5" VerticalAlignment="Center"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="FNegative" Background="#FFEDCC"/>
+                    <TextBox Width="64" Height="32" Margin="5" VerticalContentAlignment="Center" TextAlignment="Right" Text="{Binding FMotionPosShift, Mode=TwoWay}"/>
+                    <Button Content="+" Width="32" Height ="32" Margin="0,5,5,5" VerticalAlignment="Center"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="FPositive" Background="#FFEDCC"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="0" Visibility="{Binding ElementName=_XMotionStack, Path=Visibility}">
+                    <Button Content="-" Width="32" Height ="32" Margin="5,5,0,5" VerticalAlignment="Center" IsEnabled="{Binding Path=IsXBusy, Converter={StaticResource booleanReverseConverter}}"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="XNegative" Background="#FFEDCC"/>
+                    <local:DoubleSpinBox x:Name="DoubleSpinBoxXRelPos" Width="64" Height="32" Margin="5" Value="{Binding XMotionPosShift, Mode=TwoWay}" ButtonsVisible="False" Increment="0.1"/>
+                    <Button Content="+" Width="32" Height ="32" Margin="0,5,5,5" VerticalAlignment="Center" IsEnabled="{Binding Path=IsXBusy, Converter={StaticResource booleanReverseConverter}}"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="XPositive" Background="#FFEDCC"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="1">
+                    <Button Content="-" Width="32" Height ="32" Margin="5,5,0,5" VerticalAlignment="Center" IsEnabled="{Binding Path=IsYBusy, Converter={StaticResource booleanReverseConverter}}"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="YNegative" Background="#FFEDCC"/>
+                    <local:DoubleSpinBox x:Name="DoubleSpinBoxYRelPos" Width="64" Height="32" Margin="5" Value="{Binding YMotionPosShift, Mode=TwoWay}" ButtonsVisible="False"  Increment="0.1"/>
+                    <Button Content="+" Width="32" Height ="32" Margin="0,5,5,5" VerticalAlignment="Center" IsEnabled="{Binding Path=IsYBusy, Converter={StaticResource booleanReverseConverter}}"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="YPositive" Background="#FFEDCC"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="2">
+                    <Button Content="-" Width="32" Height ="32" Margin="5,5,0,5" VerticalAlignment="Center"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="ZNegative" Background="#FFEDCC"/>
+                    <local:DoubleSpinBox x:Name="DoubleSpinBoxZRelPos" Width="64" Height="32" Margin="5" Value="{Binding ZMotionPosShift, Mode=TwoWay}" ButtonsVisible="False"  Increment="0.5"/>
+                    <Button Content="+" Width="32" Height ="32" Margin="0,5,5,5" VerticalAlignment="Center"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="ZPositive" Background="#FFEDCC"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="3">
+                    <Button Content="-" Width="32" Height ="32" Margin="5,5,0,5" VerticalAlignment="Center"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="CNegative" Background="#FFEDCC"/>
+                    <local:DoubleSpinBox x:Name="DoubleSpinBoxCRelPos" Width="64" Height="32" Margin="5" Value="{Binding CMotionPosShift, Mode=TwoWay}" ButtonsVisible="False"/>
+                    <Button Content="+" Width="32" Height ="32" Margin="0,5,5,5" VerticalAlignment="Center"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="CPositive" Background="#FFEDCC"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Grid.Row="4" Visibility="{Binding ElementName=_FCDoorStack, Path=Visibility}">
+                    <Button Content="-" Width="32" Height ="32" Margin="5,5,0,5" VerticalAlignment="Center"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="DNegative" Background="#FFEDCC"/>
+                    <local:DoubleSpinBox x:Name="DoubleSpinBoxFCDoorRelPos" Width="64" Height="32" Margin="5" Value="{Binding FCDoorPosShift, Mode=TwoWay}" ButtonsVisible="False"/>
+                    <Button Content="+" Width="32" Height ="32" Margin="0,5,5,5" VerticalAlignment="Center"
+                    Command="{Binding RelativeMoveCmd}" CommandParameter="DPositive" Background="#FFEDCC"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <!--  Current Position  -->
+        <GroupBox Header="Current Position" Grid.Column="5" Grid.Row="0" Grid.RowSpan="6" Margin="5">
+            <Grid x:Name="GridCurPosMove">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal"  HorizontalAlignment="Right" Visibility="{Binding ElementName=_FMotionStack, Path=Visibility}">
+                    <TextBlock Width="60" Margin="5" Text="{Binding FMotionCurrentPos, StringFormat='\{0:N0}       '}" VerticalAlignment="Center" TextAlignment="Right"/>
+                    <TextBlock Text="" Margin="5" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="0" Orientation="Horizontal"  HorizontalAlignment="Right" Visibility="{Binding ElementName=_XMotionStack, Path=Visibility}">
+                    <TextBlock Width="60" Margin="5" Text="{Binding XMotionCurrentPos, StringFormat='\{0:F3} mm'}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal"  HorizontalAlignment="Right">
+                    <TextBlock Width="60" Margin="5" Text="{Binding YMotionCurrentPos, StringFormat='\{0:F3} mm'}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Width="60" Margin="5" Text="{Binding ZMotionCurrentPos, StringFormat='\{0:F3} μm'}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Width="60" Margin="5" Text="{Binding CMotionCurrentPos, StringFormat='\{0:F3} mm'}" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="4" Orientation="Horizontal"  HorizontalAlignment="Right" Visibility="{Binding ElementName=_FCDoorStack, Path=Visibility}">
+                    <TextBlock Width="60" Margin="5" Text="{Binding FCDoorCurrentPos, StringFormat='\{0} mm'}" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <!--  Limits  -->
+        <GroupBox Header="   -   Limits   +   " Grid.Column="6" Grid.Row="0" Grid.RowSpan="6" Margin="5">
+            <Grid x:Name="GridLimits">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackPanel  Grid.Row="0" Orientation="Horizontal"  HorizontalAlignment="Right" Visibility="{Binding ElementName=_FMotionStack, Path=Visibility}">
+                    <TextBlock Text="{Binding FMotionLimitL, StringFormat='\{0:N0},  '}" TextAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding FMotionLimitH, StringFormat='\{0:N0}   '}" Width ="60"  TextAlignment="Right" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right"  Visibility="{Binding ElementName=_XMotionStack, Path=Visibility}">
+                    <TextBlock Text="{Binding XMotionLimitL, StringFormat='\{0:N0},  '}" TextAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding XMotionLimitH, StringFormat='\{0:N0} mm'}" Width ="60" TextAlignment="Right" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Text="{Binding YMotionLimitL, StringFormat='\{0:N0},  '}" TextAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding YMotionLimitH, StringFormat='\{0:N0} mm'}" Width ="60" TextAlignment="Right" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Text="{Binding ZMotionLimitL, StringFormat='\{0:N0},  '}" TextAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding ZMotionLimitH, StringFormat='\{0:N0} μm'}" Width ="60" TextAlignment="Right" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Text="{Binding CMotionLimitL, StringFormat='\{0:N0},  '}" TextAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding CMotionLimitH, StringFormat='\{0:N0} mm'}" Width ="60" TextAlignment="Right" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel Grid.Row="4" Orientation="Horizontal"  HorizontalAlignment="Right" Visibility="{Binding ElementName=_FCDoorStack, Path=Visibility}">
+                    <TextBlock Text="{Binding FCDoorLimitL, StringFormat='\{0:N0},  '}" TextAlignment="Right" VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding FCDoorLimitH, StringFormat='\{0:N0} mm'}" Width ="60" TextAlignment="Right" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+        </GroupBox>
+        <!--  Encoder Positions  -->
+        <GroupBox Header="Encoder Position" Grid.Column="8" Grid.Row="0" Grid.RowSpan="6" Margin="5" Visibility="{Binding ElementName=_XMotionStack, Path=Visibility}">
+            <Grid x:Name="GridEncoderPos">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.Row="0" Orientation="Horizontal">
+                    <TextBlock Width="70" Margin="5" Text="{Binding XMotionEncoderPos, StringFormat='\{0:F4} mm'}" VerticalAlignment="Center"/>
+                    <Button Content="Reset" Width="48" Height="24" Margin="5" Command="{Binding Path=ResetEncoderPosCmd}" CommandParameter="X"/>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal">
+                    <TextBlock Width="70" Margin="5" Text="{Binding YMotionEncoderPos, StringFormat='\{0:F4} mm'}" VerticalAlignment="Center"/>
+                    <Button Content="Reset" Width="48" Height="24" Margin="5" Command="{Binding Path=ResetEncoderPosCmd}" CommandParameter="Y"/>
+                </StackPanel>
+
+
+            </Grid>
+        </GroupBox>
+
+        <!--  Motor Enable   -->
+        <GroupBox Header="Motors " Grid.Column="9" Grid.Row="0" Grid.RowSpan="6" Margin="5" Visibility="{Binding ElementName=_XMotionStack, Path=Visibility}">
+            <Grid x:Name="GridMotorEn">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <CheckBox Grid.Column="0" Grid.Row="0" Content="Enable X" IsChecked="{Binding Path=EnableX}" VerticalAlignment="Center" Margin="5"/>
+                <CheckBox Grid.Column="0" Grid.Row="1" Content="Enable Y" IsChecked="{Binding Path=EnableY}" VerticalAlignment="Center" Margin="5"/>
+            </Grid>
+        </GroupBox>
+
+
+        <!--<CheckBox Grid.Column="9" Grid.Row="3" Content="Enable" IsChecked="{Binding Path=EnableZ}" VerticalAlignment="Center" Margin="5"/>-->
+
+        <GroupBox Header="Other " Grid.Column="10" Grid.Row="0" Grid.RowSpan="6" Margin="5">
+            <Grid x:Name="GridOther">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <!--  Enable/Disable config  -->
+                <StackPanel Grid.Row="0" Orientation="Vertical" Margin="5">
+                    <CheckBox Content="Enable FC Door Sensor" Margin="5" IsChecked="{Binding Path=IsFcDoorSensorEnabled}"/>
+                    <CheckBox Content="Enable Reagent Door" Margin="5" IsChecked="{Binding Path=MotionController.IsReagentDoorEnabled}"/>
+                    <CheckBox Content="Enable RFID Reader" Margin="5" IsChecked="{Binding Path=MotionController.IsRFIDReaderEnabled}"/>
+                    <CheckBox Content="Enable Barcode Reader" Margin="5" IsChecked="{Binding Path=MotionController.IsBarcodeReaderEnabled}"/>
+                    <CheckBox Content="Enable Fluidic Check" Margin="5" IsChecked="{Binding Path=MotionController.IsFluidicCheckEnabled}"/>
+                </StackPanel>
+        
+                <!--  Cartridge Status  -->
+                <StackPanel Grid.Row="4" Orientation="Horizontal" Visibility="{Binding Path=IsMachineRev2P4, Converter={StaticResource boolToVisibilityVisibleConverter}}">
+                    <TextBlock Text="Status: " Margin="5"/>
+                    <TextBlock Text="{Binding Path=CartridgeMotorStatus}" Margin="5"/>
+                </StackPanel>
+
+                <!--  Cartridge Door Lock  -->
+                <StackPanel Grid.Row="3" Orientation="Horizontal" Visibility="{Binding Path=IsProtocolRev2, Converter={StaticResource boolToVisibilityVisibleConverter}}">
+                    <TextBlock Text="Chiller Door Lock" Margin="5"/>
+                    <CheckBox Content="Lock" Margin="5" IsChecked="{Binding Path=IsChillerDoorLocked}"/>
+                </StackPanel>   
+            </Grid>
+        </GroupBox>
+        
+    </Grid>
+</UserControl>

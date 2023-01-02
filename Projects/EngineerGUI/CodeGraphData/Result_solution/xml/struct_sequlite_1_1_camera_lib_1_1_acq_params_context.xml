@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_camera_lib_1_1_acq_params_context" kind="struct" prot="public">
+    <compoundname>Sequlite::CameraLib::AcqParamsContext</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_acq_params_context_1a36c3a363c6d7e25d58b201381d86c2d3" prot="public" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.AcqParamsContext.exposureTime</definition>
+        <argsstring></argsstring>
+        <name>exposureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_acq_params_context_1a5e926f51c7160fbb55d6a59690b556fd" prot="public" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.AcqParamsContext.binning</definition>
+        <argsstring></argsstring>
+        <name>binning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="58" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_acq_params_context_1a40ba626593c9841c735fe280a83e3d13" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.AcqParamsContext.Binning</definition>
+        <argsstring></argsstring>
+        <name>Binning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="60" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_acq_params_context_1afca91516523fa2ae217da507deec03be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.AcqParamsContext.ExposureTime</definition>
+        <argsstring></argsstring>
+        <name>ExposureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="65" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="56" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="55" bodyend="70"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_acq_params_context_1a5e926f51c7160fbb55d6a59690b556fd" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::AcqParamsContext</scope><name>binning</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_acq_params_context_1a40ba626593c9841c735fe280a83e3d13" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::AcqParamsContext</scope><name>Binning</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_acq_params_context_1afca91516523fa2ae217da507deec03be" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::AcqParamsContext</scope><name>ExposureTime</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_acq_params_context_1a36c3a363c6d7e25d58b201381d86c2d3" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::AcqParamsContext</scope><name>exposureTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_745215f245b1904448a07df3ae2fbc66" kind="dir">
+    <compoundname>D:/Source/Alf/Projects</compoundname>
+    <innerdir refid="dir_ab06ee57cbbbf1f108b40971fad3f721">D:/Source/Alf/Projects/EngineerGUI</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/"/>
+  </compounddef>
+</doxygen>

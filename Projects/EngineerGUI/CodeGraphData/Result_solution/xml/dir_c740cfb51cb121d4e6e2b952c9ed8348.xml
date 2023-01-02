@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_c740cfb51cb121d4e6e2b952c9ed8348" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Hywire.Image.Processing</compoundname>
+    <innerdir refid="dir_3587593df1233bdaf8bc1ae17f1b2cfd">D:/Source/Alf/Libraries/Hywire.Image.Processing/Properties</innerdir>
+    <innerfile refid="_hywire_8_image_8_processing_2_global_suppressions_8cs">GlobalSuppressions.cs</innerfile>
+    <innerfile refid="_hywire_8_image_8_processing_2_image_processing_8cs">ImageProcessing.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Hywire.Image.Processing/"/>
+  </compounddef>
+</doxygen>

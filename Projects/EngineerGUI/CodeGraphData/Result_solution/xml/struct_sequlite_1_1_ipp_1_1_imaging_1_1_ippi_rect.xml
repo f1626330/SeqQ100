@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_rect" kind="struct" prot="public">
+    <compoundname>Sequlite::Ipp::Imaging::IppiRect</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_rect_1a123b8ddf8331e5c3869727e826746dd5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Ipp.Imaging.IppiRect.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="305" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_rect_1a48473ddc8cd0ce59b253021c7c9a20a8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Ipp.Imaging.IppiRect.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="307" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_rect_1a8f090f6a763245a050a14fb7c67235c5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Ipp.Imaging.IppiRect.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="309" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_rect_1a31b921c850418a0278f6046b2ea369c2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Ipp.Imaging.IppiRect.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="311" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="303" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="302" bodyend="312"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_rect_1a31b921c850418a0278f6046b2ea369c2" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppiRect</scope><name>height</name></member>
+      <member refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_rect_1a8f090f6a763245a050a14fb7c67235c5" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppiRect</scope><name>width</name></member>
+      <member refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_rect_1a123b8ddf8331e5c3869727e826746dd5" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppiRect</scope><name>x</name></member>
+      <member refid="struct_sequlite_1_1_ipp_1_1_imaging_1_1_ippi_rect_1a48473ddc8cd0ce59b253021c7c9a20a8" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppiRect</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

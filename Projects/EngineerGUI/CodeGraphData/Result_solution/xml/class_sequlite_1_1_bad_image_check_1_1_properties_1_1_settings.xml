@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings" kind="class" prot="package">
+    <compoundname>Sequlite::BadImageCheck::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings_1abcab66f083fef014a67f5c02452f9b4c" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Sequlite.BadImageCheck.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings_1af16bbd6844086156807aac3ee992767f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Sequlite.BadImageCheck.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/Properties/Settings.Designer.cs" line="22" column="1" bodyfile="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/Properties/Settings.Designer.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1181">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1180">
+        <label>Sequlite.BadImageCheck.Properties.Settings</label>
+        <link refid="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings"/>
+        <childnode refid="1181" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1183">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1182">
+        <label>Sequlite.BadImageCheck.Properties.Settings</label>
+        <link refid="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings"/>
+        <childnode refid="1183" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1184" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="1184">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="D:/Source/Alf/TestBench/Sequlite.BadImageCheck/Properties/Settings.Designer.cs" bodystart="17" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings_1af16bbd6844086156807aac3ee992767f" prot="public" virt="non-virtual"><scope>Sequlite::BadImageCheck::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_sequlite_1_1_bad_image_check_1_1_properties_1_1_settings_1abcab66f083fef014a67f5c02452f9b4c" prot="private" virt="non-virtual"><scope>Sequlite::BadImageCheck::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

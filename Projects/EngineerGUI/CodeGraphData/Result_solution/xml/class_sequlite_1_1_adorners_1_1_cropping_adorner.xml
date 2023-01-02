@@ -1,0 +1,983 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_adorners_1_1_cropping_adorner" kind="class" prot="public">
+    <compoundname>Sequlite::Adorners::CroppingAdorner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Adorner</basecompoundref>
+    <innerclass refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" prot="private">Sequlite::Adorners::CroppingAdorner::CropThumb</innerclass>
+    <innerclass refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_draw_grid" prot="private">Sequlite::Adorners::CroppingAdorner::DrawGrid</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a5fcf1c6d064b59f37f6dc6d302f1856f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Adorners.CroppingAdorner._cpxThumbWidth</definition>
+        <argsstring></argsstring>
+        <name>_cpxThumbWidth</name>
+        <initializer>= 160</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aef51b292e32d212d3178d7ca6015809b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_adorners_1_1_punctured_rect" kindref="compound">PuncturedRect</ref></type>
+        <definition>PuncturedRect Sequlite.Adorners.CroppingAdorner._prCropMask</definition>
+        <argsstring></argsstring>
+        <name>_prCropMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aa5653140b53970278ce3bee9599aa44b" prot="private" static="no" mutable="no">
+        <type>Canvas</type>
+        <definition>Canvas Sequlite.Adorners.CroppingAdorner._cnvThumbs</definition>
+        <argsstring></argsstring>
+        <name>_cnvThumbs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ad4c298c5c5d2d0238a36c5d28db2d622" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kindref="compound">CropThumb</ref></type>
+        <definition>CropThumb Sequlite.Adorners.CroppingAdorner._crtTopLeft</definition>
+        <argsstring></argsstring>
+        <name>_crtTopLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a8a4157de8bc2d959f0e72894238fe84b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kindref="compound">CropThumb</ref></type>
+        <definition>CropThumb Sequlite.Adorners.CroppingAdorner._crtTopRight</definition>
+        <argsstring></argsstring>
+        <name>_crtTopRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a5604488112ddfc73476baabde052c066" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kindref="compound">CropThumb</ref></type>
+        <definition>CropThumb Sequlite.Adorners.CroppingAdorner._crtBottomLeft</definition>
+        <argsstring></argsstring>
+        <name>_crtBottomLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a5afb43e6f6d69db8d388ae82c9d1ddb9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kindref="compound">CropThumb</ref></type>
+        <definition>CropThumb Sequlite.Adorners.CroppingAdorner._crtBottomRight</definition>
+        <argsstring></argsstring>
+        <name>_crtBottomRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a34033356043b7f6ccd0605feefea720f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kindref="compound">CropThumb</ref></type>
+        <definition>CropThumb Sequlite.Adorners.CroppingAdorner._crtTop</definition>
+        <argsstring></argsstring>
+        <name>_crtTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a002e3f887233a09ceeedca90ba5136cb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kindref="compound">CropThumb</ref></type>
+        <definition>CropThumb Sequlite.Adorners.CroppingAdorner._crtLeft</definition>
+        <argsstring></argsstring>
+        <name>_crtLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a307c8869607c9177c9c198a07ba99b3f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kindref="compound">CropThumb</ref></type>
+        <definition>CropThumb Sequlite.Adorners.CroppingAdorner._crtBottom</definition>
+        <argsstring></argsstring>
+        <name>_crtBottom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a93d4cc70d66cefe67ba451c7a34fe171" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kindref="compound">CropThumb</ref></type>
+        <definition>CropThumb Sequlite.Adorners.CroppingAdorner._crtRight</definition>
+        <argsstring></argsstring>
+        <name>_crtRight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a48d79a1105ce89032a772471dbe7a906" prot="private" static="no" mutable="no">
+        <type>VisualCollection</type>
+        <definition>VisualCollection Sequlite.Adorners.CroppingAdorner._vc</definition>
+        <argsstring></argsstring>
+        <name>_vc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a9d669e5720e1ca6f94dd191e52b05250" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Adorners.CroppingAdorner._xStart</definition>
+        <argsstring></argsstring>
+        <name>_xStart</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="374" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a71bb95274f0a25f3e7f607717d15e7ff" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Adorners.CroppingAdorner._yStart</definition>
+        <argsstring></argsstring>
+        <name>_yStart</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="380" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ae6d008251b2d8910f81bc58dcd365168" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Adorners.CroppingAdorner._width</definition>
+        <argsstring></argsstring>
+        <name>_width</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="387" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="387" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aecd6881246a525269e34fe093ebc0702" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Adorners.CroppingAdorner._height</definition>
+        <argsstring></argsstring>
+        <name>_height</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="394" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="394" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aa6824fe2f86f053f1749fb924d5f7e4b" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Adorners.CroppingAdorner.s_dpiX</definition>
+        <argsstring></argsstring>
+        <name>s_dpiX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a06beb669ae1aa59c80d9f0a455b8f62c" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.Adorners.CroppingAdorner.s_dpiY</definition>
+        <argsstring></argsstring>
+        <name>s_dpiY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a7d688c7fc53b1a4ab44be4f8768d9956" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Rect</type>
+        <definition>Rect Sequlite.Adorners.CroppingAdorner.ClippingRectangle</definition>
+        <argsstring></argsstring>
+        <name>ClippingRectangle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a6ed3a256948aedb251f1dced65133c7a" prot="public" static="no" readable="no" writable="no" gettable="no" settable="no">
+        <type>RoutedEventHandler</type>
+        <definition>RoutedEventHandler Sequlite.Adorners.CroppingAdorner.CropChanged</definition>
+        <argsstring></argsstring>
+        <name>CropChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="59" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aa08b659ae7f0a9ed662f71dd16a87dc0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Brush</type>
+        <definition>Brush Sequlite.Adorners.CroppingAdorner.Fill</definition>
+        <argsstring></argsstring>
+        <name>Fill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="75" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a9f1ea3fffc32dab502a10db7e463e6bf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Adorners.CroppingAdorner.XStart</definition>
+        <argsstring></argsstring>
+        <name>XStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="375" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a466fd05d327f363e6f78c75501fd3631" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Adorners.CroppingAdorner.YStart</definition>
+        <argsstring></argsstring>
+        <name>YStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="381" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a28b878631455e4e9e5dea742ac9910ae" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Adorners.CroppingAdorner.CropWidth</definition>
+        <argsstring></argsstring>
+        <name>CropWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="388" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a80850eb1bfb7c538768eb1637e389b7d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Adorners.CroppingAdorner.CropHeight</definition>
+        <argsstring></argsstring>
+        <name>CropHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="395" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a5ff96e2b1d4fcd0e6784922f16db2ab5" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override int</type>
+        <definition>override int Sequlite.Adorners.CroppingAdorner.VisualChildrenCount</definition>
+        <argsstring></argsstring>
+        <name>VisualChildrenCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="496" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="496" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a4a49c6edf659a274ee6235a31ddb42b3" prot="public" static="yes" mutable="no">
+        <type>readonly RoutedEvent</type>
+        <definition>readonly RoutedEvent Sequlite.Adorners.CroppingAdorner.CropChangedEvent</definition>
+        <argsstring></argsstring>
+        <name>CropChangedEvent</name>
+        <initializer>= EventManager.RegisterRoutedEvent(
+            &quot;CropChanged&quot;,
+            RoutingStrategy.Bubble,
+            typeof(RoutedEventHandler),
+            typeof(<ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner" kindref="compound">CroppingAdorner</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="53" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a89dfdc3599485190f324f7713e8d4156" prot="public" static="yes" mutable="no">
+        <type>DependencyProperty</type>
+        <definition>DependencyProperty Sequlite.Adorners.CroppingAdorner.FillProperty</definition>
+        <argsstring></argsstring>
+        <name>FillProperty</name>
+        <initializer>= Shape.FillProperty.AddOwner(typeof(<ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner" kindref="compound">CroppingAdorner</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="73" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a7c3e409db321decfda07232988eb5126" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.Adorners.CroppingAdorner.FillPropChanged</definition>
+        <argsstring>(DependencyObject d, DependencyPropertyChangedEventArgs args)</argsstring>
+        <name>FillPropChanged</name>
+        <param>
+          <type>DependencyObject</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>DependencyPropertyChangedEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="81" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="81" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aa1f67c239abecc0324826b6dcd70e6bf" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static Sequlite.Adorners.CroppingAdorner.CroppingAdorner</definition>
+        <argsstring>()</argsstring>
+        <name>CroppingAdorner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="93" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="93" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a0bca5ce567a1b141b67d005fd77d1013" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Adorners.CroppingAdorner.CroppingAdorner</definition>
+        <argsstring>(UIElement adornedElement, Rect rcInit, Double zoom, bool bGrid)</argsstring>
+        <name>CroppingAdorner</name>
+        <param>
+          <type>UIElement</type>
+          <declname>adornedElement</declname>
+        </param>
+        <param>
+          <type>Rect</type>
+          <declname>rcInit</declname>
+        </param>
+        <param>
+          <type>Double</type>
+          <declname>zoom</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="107" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="107" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a54f0e66fc3785833ad6a24ca72c38694" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.SetRectanglePara</definition>
+        <argsstring>()</argsstring>
+        <name>SetRectanglePara</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="403" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="403" bodyend="412"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1afa9882027576182fdacf0a1a2d672577" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BitmapSource</type>
+        <definition>BitmapSource Sequlite.Adorners.CroppingAdorner.BpsCrop</definition>
+        <argsstring>()</argsstring>
+        <name>BpsCrop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="413" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="413" bodyend="442"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ab298a425bc59c7ab8b0b3f299539aed6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.HandleThumb</definition>
+        <argsstring>(double drcL, double drcT, double drcW, double drcH, double dx, double dy)</argsstring>
+        <name>HandleThumb</name>
+        <param>
+          <type>double</type>
+          <declname>drcL</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>drcT</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>drcW</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>drcH</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="174" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="174" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ac82d14a8063e7e6cf2c06a88cde71e5a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.HandleBottomLeft</definition>
+        <argsstring>(object sender, DragDeltaEventArgs args)</argsstring>
+        <name>HandleBottomLeft</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DragDeltaEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="206" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="206" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a8847d3e826f4e94fd4ed6adc837e7649" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.HandleBottomRight</definition>
+        <argsstring>(object sender, DragDeltaEventArgs args)</argsstring>
+        <name>HandleBottomRight</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DragDeltaEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="218" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="218" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a65d6bd0505568e20dc5aa9458bdde5e4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.HandleTopRight</definition>
+        <argsstring>(object sender, DragDeltaEventArgs args)</argsstring>
+        <name>HandleTopRight</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DragDeltaEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="230" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="230" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aa62f639b595e3d5597119e5719d03bca" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.HandleTopLeft</definition>
+        <argsstring>(object sender, DragDeltaEventArgs args)</argsstring>
+        <name>HandleTopLeft</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DragDeltaEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="242" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="242" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1abb4b6c2b539c962b7a48eb012de035ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.HandleTop</definition>
+        <argsstring>(object sender, DragDeltaEventArgs args)</argsstring>
+        <name>HandleTop</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DragDeltaEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="254" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="254" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a39d611bc2ab5100b41642500d3917e33" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.HandleLeft</definition>
+        <argsstring>(object sender, DragDeltaEventArgs args)</argsstring>
+        <name>HandleLeft</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DragDeltaEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="266" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="266" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a58e900a9b68b1035c05cb3b597119fd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.HandleRight</definition>
+        <argsstring>(object sender, DragDeltaEventArgs args)</argsstring>
+        <name>HandleRight</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DragDeltaEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="278" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="278" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a3bd0189cb2a75248f6433706bc9bcada" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.HandleBottom</definition>
+        <argsstring>(object sender, DragDeltaEventArgs args)</argsstring>
+        <name>HandleBottom</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DragDeltaEventArgs</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="290" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="290" bodyend="299"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a52e96c1ec98e2c6859635d08756d34d3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.AdornedElement_SizeChanged</definition>
+        <argsstring>(object sender, SizeChangedEventArgs e)</argsstring>
+        <name>AdornedElement_SizeChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SizeChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="303" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="303" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a1eed46833fbdb3df4270ea56a5d30ad3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.SetThumbs</definition>
+        <argsstring>(Rect rc)</argsstring>
+        <name>SetThumbs</name>
+        <param>
+          <type>Rect</type>
+          <declname>rc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="347" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="347" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a0ec69c6f3a17f0a8b0f30f7b305e3f90" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Thickness</type>
+        <definition>Thickness Sequlite.Adorners.CroppingAdorner.AdornerMargin</definition>
+        <argsstring>()</argsstring>
+        <name>AdornerMargin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="446" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="446" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a1e9a8ade54aabe79f012bdac825c84ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.BuildCorner</definition>
+        <argsstring>(ref CropThumb crt, Cursor crs)</argsstring>
+        <name>BuildCorner</name>
+        <param>
+          <type>ref <ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kindref="compound">CropThumb</ref></type>
+          <declname>crt</declname>
+        </param>
+        <param>
+          <type>Cursor</type>
+          <declname>crs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="456" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="456" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a36c59074c4213bb8f689f9608a5c06bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.BuildGridCorner</definition>
+        <argsstring>(ref CropThumb crt, Cursor crs)</argsstring>
+        <name>BuildGridCorner</name>
+        <param>
+          <type>ref <ref refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb" kindref="compound">CropThumb</ref></type>
+          <declname>crt</declname>
+        </param>
+        <param>
+          <type>Cursor</type>
+          <declname>crs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="468" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="468" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ae997829190826b8d997eeea73f946e5d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Adorners.CroppingAdorner.BuildGrid</definition>
+        <argsstring>(Rect rect)</argsstring>
+        <name>BuildGrid</name>
+        <param>
+          <type>Rect</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="480" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="480" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a9c256824884467f8886a6ab224a11dc1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref></type>
+        <definition>Point Sequlite.Adorners.CroppingAdorner.UnitsToPx</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>UnitsToPx</name>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="487" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="487" bodyend="490"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ab104dc1110b93cac3b90a5d06269909c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Size</type>
+        <definition>override Size Sequlite.Adorners.CroppingAdorner.ArrangeOverride</definition>
+        <argsstring>(Size finalSize)</argsstring>
+        <name>ArrangeOverride</name>
+        <param>
+          <type>Size</type>
+          <declname>finalSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="360" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="360" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_adorners_1_1_cropping_adorner_1abe9598205e4789650154f010439a7db8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override Visual</type>
+        <definition>override Visual Sequlite.Adorners.CroppingAdorner.GetVisualChild</definition>
+        <argsstring>(int index)</argsstring>
+        <name>GetVisualChild</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="497" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="497" bodyend="497"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="319">
+        <label>Sequlite.Adorners.CroppingAdorner</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_cropping_adorner"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>Adorner</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="321">
+        <label>Sequlite.Adorners.CroppingAdorner</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_cropping_adorner"/>
+        <childnode refid="322" relation="public-inheritance">
+        </childnode>
+        <childnode refid="323" relation="usage">
+          <edgelabel>_prCropMask</edgelabel>
+        </childnode>
+        <childnode refid="325" relation="usage">
+          <edgelabel>s_dpiX</edgelabel>
+          <edgelabel>s_dpiY</edgelabel>
+          <edgelabel>FillProperty</edgelabel>
+          <edgelabel>CropChangedEvent</edgelabel>
+        </childnode>
+        <childnode refid="326" relation="usage">
+          <edgelabel>_crtLeft</edgelabel>
+          <edgelabel>_crtTopRight</edgelabel>
+          <edgelabel>_crtBottom</edgelabel>
+          <edgelabel>_crtRight</edgelabel>
+          <edgelabel>_crtTop</edgelabel>
+          <edgelabel>_crtTopLeft</edgelabel>
+          <edgelabel>_crtBottomRight</edgelabel>
+          <edgelabel>_crtBottomLeft</edgelabel>
+        </childnode>
+      </node>
+      <node id="327">
+        <label>Thumb</label>
+      </node>
+      <node id="324">
+        <label>Shape</label>
+      </node>
+      <node id="326">
+        <label>Sequlite.Adorners.CroppingAdorner.CropThumb</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1_1_crop_thumb"/>
+        <childnode refid="327" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>Sequlite.Adorners.PuncturedRect</label>
+        <link refid="class_sequlite_1_1_adorners_1_1_punctured_rect"/>
+        <childnode refid="324" relation="public-inheritance">
+        </childnode>
+        <childnode refid="325" relation="usage">
+          <edgelabel>RectExteriorProperty</edgelabel>
+          <edgelabel>RectInteriorProperty</edgelabel>
+        </childnode>
+      </node>
+      <node id="322">
+        <label>Adorner</label>
+      </node>
+      <node id="325">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Adorner/CroppingAdorner.cs" bodystart="17" bodyend="591"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aa5653140b53970278ce3bee9599aa44b" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_cnvThumbs</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a5fcf1c6d064b59f37f6dc6d302f1856f" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_cpxThumbWidth</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a307c8869607c9177c9c198a07ba99b3f" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_crtBottom</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a5604488112ddfc73476baabde052c066" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_crtBottomLeft</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a5afb43e6f6d69db8d388ae82c9d1ddb9" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_crtBottomRight</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a002e3f887233a09ceeedca90ba5136cb" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_crtLeft</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a93d4cc70d66cefe67ba451c7a34fe171" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_crtRight</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a34033356043b7f6ccd0605feefea720f" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_crtTop</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ad4c298c5c5d2d0238a36c5d28db2d622" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_crtTopLeft</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a8a4157de8bc2d959f0e72894238fe84b" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_crtTopRight</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aecd6881246a525269e34fe093ebc0702" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_height</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aef51b292e32d212d3178d7ca6015809b" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_prCropMask</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a48d79a1105ce89032a772471dbe7a906" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_vc</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ae6d008251b2d8910f81bc58dcd365168" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_width</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a9d669e5720e1ca6f94dd191e52b05250" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_xStart</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a71bb95274f0a25f3e7f607717d15e7ff" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>_yStart</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a52e96c1ec98e2c6859635d08756d34d3" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>AdornedElement_SizeChanged</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a0ec69c6f3a17f0a8b0f30f7b305e3f90" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>AdornerMargin</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ab104dc1110b93cac3b90a5d06269909c" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>ArrangeOverride</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1afa9882027576182fdacf0a1a2d672577" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>BpsCrop</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a1e9a8ade54aabe79f012bdac825c84ee" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>BuildCorner</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ae997829190826b8d997eeea73f946e5d" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>BuildGrid</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a36c59074c4213bb8f689f9608a5c06bb" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>BuildGridCorner</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a7d688c7fc53b1a4ab44be4f8768d9956" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>ClippingRectangle</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a6ed3a256948aedb251f1dced65133c7a" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>CropChanged</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a4a49c6edf659a274ee6235a31ddb42b3" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>CropChangedEvent</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a80850eb1bfb7c538768eb1637e389b7d" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>CropHeight</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aa1f67c239abecc0324826b6dcd70e6bf" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>CroppingAdorner</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a0bca5ce567a1b141b67d005fd77d1013" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>CroppingAdorner</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a28b878631455e4e9e5dea742ac9910ae" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>CropWidth</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aa08b659ae7f0a9ed662f71dd16a87dc0" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>Fill</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a7c3e409db321decfda07232988eb5126" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>FillPropChanged</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a89dfdc3599485190f324f7713e8d4156" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>FillProperty</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1abe9598205e4789650154f010439a7db8" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>GetVisualChild</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a3bd0189cb2a75248f6433706bc9bcada" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>HandleBottom</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ac82d14a8063e7e6cf2c06a88cde71e5a" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>HandleBottomLeft</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a8847d3e826f4e94fd4ed6adc837e7649" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>HandleBottomRight</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a39d611bc2ab5100b41642500d3917e33" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>HandleLeft</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a58e900a9b68b1035c05cb3b597119fd7" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>HandleRight</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1ab298a425bc59c7ab8b0b3f299539aed6" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>HandleThumb</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1abb4b6c2b539c962b7a48eb012de035ed" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>HandleTop</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aa62f639b595e3d5597119e5719d03bca" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>HandleTopLeft</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a65d6bd0505568e20dc5aa9458bdde5e4" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>HandleTopRight</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1aa6824fe2f86f053f1749fb924d5f7e4b" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>s_dpiX</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a06beb669ae1aa59c80d9f0a455b8f62c" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>s_dpiY</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a54f0e66fc3785833ad6a24ca72c38694" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>SetRectanglePara</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a1eed46833fbdb3df4270ea56a5d30ad3" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>SetThumbs</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a9c256824884467f8886a6ab224a11dc1" prot="private" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>UnitsToPx</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a5ff96e2b1d4fcd0e6784922f16db2ab5" prot="protected" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>VisualChildrenCount</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a9f1ea3fffc32dab502a10db7e463e6bf" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>XStart</name></member>
+      <member refid="class_sequlite_1_1_adorners_1_1_cropping_adorner_1a466fd05d327f363e6f78c75501fd3631" prot="public" virt="non-virtual"><scope>Sequlite::Adorners::CroppingAdorner</scope><name>YStart</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

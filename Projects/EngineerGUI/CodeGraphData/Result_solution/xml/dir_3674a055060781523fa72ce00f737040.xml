@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_3674a055060781523fa72ce00f737040" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils</compoundname>
+    <innerfile refid="_c_i_e_lab_8cs">CIELab.cs</innerfile>
+    <innerfile refid="_c_i_e_x_y_z_8cs">CIEXYZ.cs</innerfile>
+    <innerfile refid="_c_m_y_k_8cs">CMYK.cs</innerfile>
+    <innerfile refid="_color_space_helper_8cs">ColorSpaceHelper.cs</innerfile>
+    <innerfile refid="_h_s_b_8cs">HSB.cs</innerfile>
+    <innerfile refid="_h_s_l_8cs">HSL.cs</innerfile>
+    <innerfile refid="_r_g_b_8cs">RGB.cs</innerfile>
+    <innerfile refid="_y_u_v_8cs">YUV.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/"/>
+  </compounddef>
+</doxygen>

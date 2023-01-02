@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_command_lib_1_1_base_command" kind="class" prot="public" abstract="yes">
+    <compoundname>Sequlite::CommandLib::BaseCommand</compoundname>
+    <derivedcompoundref refid="class_sequlite_1_1_command_lib_1_1_parallel_command" prot="public" virt="non-virtual">Sequlite.CommandLib.ParallelCommand</derivedcompoundref>
+    <derivedcompoundref refid="class_sequlite_1_1_command_lib_1_1_serial_command" prot="public" virt="non-virtual">Sequlite.CommandLib.SerialCommand</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_base_command_1a1f328d9c98dd8ec0e398e6ea55df4c43" prot="protected" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.CommandLib.BaseCommand._CommandName</definition>
+        <argsstring></argsstring>
+        <name>_CommandName</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_base_command_1a9e33172aced47418946c0fd7a0ea7470" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CommandLib.BaseCommand._msTimeoutTime</definition>
+        <argsstring></argsstring>
+        <name>_msTimeoutTime</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_base_command_1a974633280b8244f7986ad3e644f61b09" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref></type>
+        <definition>CommandMediator Sequlite.CommandLib.BaseCommand._OwningMediator</definition>
+        <argsstring></argsstring>
+        <name>_OwningMediator</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_base_command_1a46ff2638d3e0121f62e4d8448a39de68" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_base_command" kindref="compound">BaseCommand</ref></type>
+        <definition>BaseCommand Sequlite.CommandLib.BaseCommand._Parent</definition>
+        <argsstring></argsstring>
+        <name>_Parent</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_base_command_1aa0b2a2d74a9517fac73788d29380d582" prot="protected" static="no" mutable="no">
+        <type>Guid</type>
+        <definition>Guid Sequlite.CommandLib.BaseCommand._Guid</definition>
+        <argsstring></argsstring>
+        <name>_Guid</name>
+        <initializer>= Guid.NewGuid()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_base_command_1a19a90a0c8a09f2daac65b2ca9f37b882" prot="protected" static="no" mutable="no">
+        <type>AutoResetEvent</type>
+        <definition>AutoResetEvent Sequlite.CommandLib.BaseCommand._AutoResetEvent</definition>
+        <argsstring></argsstring>
+        <name>_AutoResetEvent</name>
+        <initializer>= new AutoResetEvent(false)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_base_command_1a046939ec157076e652b473ef1b184b68" prot="protected" static="no" mutable="no">
+        <type>Thread</type>
+        <definition>Thread Sequlite.CommandLib.BaseCommand._CommandThread</definition>
+        <argsstring></argsstring>
+        <name>_CommandThread</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_base_command_1afb4eaf378b58213998163c684faf824c" prot="protected" static="no" mutable="no">
+        <type>SynchronizationContext</type>
+        <definition>SynchronizationContext Sequlite.CommandLib.BaseCommand._SyncContext</definition>
+        <argsstring></argsstring>
+        <name>_SyncContext</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_command_lib_1_1_base_command_1aa83428de0aa0183cf279691711c2df38" prot="package" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref></type>
+        <definition>ExecutionState Sequlite.CommandLib.BaseCommand._ExecutionInfo</definition>
+        <argsstring></argsstring>
+        <name>_ExecutionInfo</name>
+        <briefdescription>
+<para>The command&apos;s execution info. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_command_lib_1_1_base_command_1a48044b4ac91848f4eba10409d6ad8447" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="namespace_sequlite_1_1_command_lib_1ada4643f622f4c8af2f011c37f9292a93" kindref="member">CommandCompletedHandler</ref></type>
+        <definition>CommandCompletedHandler Sequlite.CommandLib.BaseCommand.Completed</definition>
+        <argsstring></argsstring>
+        <name>Completed</name>
+        <briefdescription>
+<para>Command completed event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_base_command_1a7fa84e614fe284153e113f7dcc6f010c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.CommandLib.BaseCommand.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+<para>Get the unique identifying name of the command. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_base_command_1ad4a4b77afbdadb3b935da5a1a8dc57ae" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.CommandLib.BaseCommand.TimeOut</definition>
+        <argsstring></argsstring>
+        <name>TimeOut</name>
+        <briefdescription>
+<para>Get/set the command timeout time in milliseconds. If the command has not completed it&apos;s task in this time then it will time out. A value of -1 means the timeout time is infinite. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="65" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_base_command_1ad814e26eb4775bd261dcd49ce3a3d64e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>Guid</type>
+        <definition>Guid Sequlite.CommandLib.BaseCommand.UniqueID</definition>
+        <argsstring></argsstring>
+        <name>UniqueID</name>
+        <briefdescription>
+<para>Get the unique identifier for this command. Every object instance of this command type have a unique ID (Guid). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="77" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_base_command_1a8d156e13cf7f1c0723e9630243eb2282" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_base_command" kindref="compound">BaseCommand</ref></type>
+        <definition>BaseCommand Sequlite.CommandLib.BaseCommand.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+<para>Get the parent command (if null, this command is not a child command). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="87" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_base_command_1af14b60cb88b4341ee52204f8764efda4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref></type>
+        <definition>CommandMediator Sequlite.CommandLib.BaseCommand.OwningMediator</definition>
+        <argsstring></argsstring>
+        <name>OwningMediator</name>
+        <briefdescription>
+<para>Get the owning <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref> object instance. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="98" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_command_lib_1_1_base_command_1a30f0c8b4624b111825186fa966921805" prot="package" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>AutoResetEvent</type>
+        <definition>AutoResetEvent Sequlite.CommandLib.BaseCommand.AutoReset</definition>
+        <argsstring></argsstring>
+        <name>AutoReset</name>
+        <briefdescription>
+<para>Used to notify waiting threads that this command&apos;s task has completed. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="110" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_base_command_1a81b28c3609efcee977208ad83225ef81" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.BaseCommand.Execute</definition>
+        <argsstring>()</argsstring>
+        <name>Execute</name>
+        <briefdescription>
+<para>Execute the command&apos;s task which is implemented by the abstract method <ref refid="class_sequlite_1_1_command_lib_1_1_base_command_1a194c50f4ffe85b23d4de84096f37779f" kindref="member">DoTask</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>Do not call this method directly from code, the <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref> object will invoke this method. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="124" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="124" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_base_command_1ada3a13097a62c7cc4f980ae85328bfe4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref></type>
+        <definition>virtual ExecutionState Sequlite.CommandLib.BaseCommand.CreateExecutionState</definition>
+        <argsstring>(BaseCommand parent)</argsstring>
+        <name>CreateExecutionState</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_command_lib_1_1_base_command" kindref="compound">BaseCommand</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para>Create the <ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref> tracking object for this command. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="176" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="176" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_base_command_1a0956f385e9460679fa206471bd42486a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.BaseCommand.ExecuteWorker</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteWorker</name>
+        <briefdescription>
+<para>The worker thread method that calls the <ref refid="class_sequlite_1_1_command_lib_1_1_base_command_1a194c50f4ffe85b23d4de84096f37779f" kindref="member">DoTask</ref> protected abstract method. This wrapper method takes care of profiling commands, logging to the CommandInvoker, and handling ThreadAbortExceptions and other exceptions while determining the <ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref> of the command. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="189" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="189" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_base_command_1a75549ea85b3f1609ba2a34d899ca127e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.CommandLib.BaseCommand.CheckForStoppedOnChildException</definition>
+        <argsstring>()</argsstring>
+        <name>CheckForStoppedOnChildException</name>
+        <briefdescription>
+<para>Check to see if the reason for the ThreadAbortException is due to a child command being &quot;StoppedOnException&quot;. If so, set this command&apos;s <ref refid="class_sequlite_1_1_command_lib_1_1_execution_state" kindref="compound">ExecutionState</ref> to &quot;StoppedOnException&quot; and if this command has a parent then abort the parent command. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the reason for the ThreadAbortException was due to a child being &quot;StoppedOnException&quot;, returns false otherwise. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="327" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="327" bodyend="352"/>
+        <references refid="class_sequlite_1_1_command_lib_1_1_execution_state_1acaea888c0a7b9bbb1ecac6697fe97060" compoundref="_execution_state_8cs" startline="96">Sequlite.CommandLib.ExecutionState.Children</references>
+        <references refid="class_sequlite_1_1_command_lib_1_1_execution_state_1a3206f7be95939147faf73c3dff6c0a12" compoundref="_execution_state_8cs" startline="104">Sequlite.CommandLib.ExecutionState.Status</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_base_command_1a43239f06a0b519e3781534f57c2ada91" prot="package" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Sequlite.CommandLib.BaseCommand.NullCommandThread</definition>
+        <argsstring>()</argsstring>
+        <name>NullCommandThread</name>
+        <reimplementedby refid="class_sequlite_1_1_command_lib_1_1_parallel_command_1a607ea34c1b29d189f362464a5d6f1b2b">NullCommandThread</reimplementedby>
+        <briefdescription>
+<para>This method is called by the <ref refid="class_sequlite_1_1_command_lib_1_1_command_mediator" kindref="compound">CommandMediator</ref> (and by any <ref refid="class_sequlite_1_1_command_lib_1_1_parallel_command" kindref="compound">ParallelCommand</ref> for each child) to make sure that each command&apos;s thread is available for garbage collection. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="359" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="359" bodyend="362"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_base_command_1a243288e8bf8ffad026f240fcf212eb65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.BaseCommand.Stop</definition>
+        <argsstring>()</argsstring>
+        <name>Stop</name>
+        <briefdescription>
+<para>stop the thread </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="144" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="144" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_base_command_1a4c774afeaea6749ca282fc265745fa57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.BaseCommand.Cancel</definition>
+        <argsstring>()</argsstring>
+        <name>Cancel</name>
+        <briefdescription>
+<para>Cancel the command. This method calls Thread.Abort on the internal thread which raises a ThreadAbortException on the command&apos;s thread. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="155" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="155" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_base_command_1a194c50f4ffe85b23d4de84096f37779f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract void</type>
+        <definition>abstract void Sequlite.CommandLib.BaseCommand.DoTask</definition>
+        <argsstring>()</argsstring>
+        <name>DoTask</name>
+        <reimplementedby refid="class_sequlite_1_1_command_lib_1_1_serial_command_1ac74a98cd95313cd0c9c414dfbb99d3aa">DoTask</reimplementedby>
+        <reimplementedby refid="class_sequlite_1_1_command_lib_1_1_parallel_command_1ab45116e49dea80d76734164938ff2590">DoTask</reimplementedby>
+        <briefdescription>
+<para>Override this method to implement the code that implements the command&apos;s task. It is not necessary to add exception handling in this method because there is a wrapper method that calls this method that handles all exceptions. If you do add exception handling be sure to rethrow any caught exceptions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="296" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_base_command_1aaccf66b88f118962f0abb38b6210db2c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Sequlite.CommandLib.BaseCommand.CleanUpOnAbort</definition>
+        <argsstring>()</argsstring>
+        <name>CleanUpOnAbort</name>
+        <briefdescription>
+<para>This method is called before a command is aborted due to calling &quot;Cancel&quot; or because of exception. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="302" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="302" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_command_lib_1_1_base_command_1aeadda49efc6660e20e78e1f291b548d5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void Sequlite.CommandLib.BaseCommand.SimulateDoTask</definition>
+        <argsstring>()</argsstring>
+        <name>SimulateDoTask</name>
+        <briefdescription>
+<para>This method is provided to simulate the task instead of actually performing the task. For commands that talk to hardware this method would be useful while &quot;connected&quot; to a simulator of the actual hardware. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="312" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="312" bodyend="315"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract base command for all commands. </para>    </briefdescription>
+    <detaileddescription>
+<para>Copyright: Created by Tony Jenniges, 2008-2009, All rights reserved.</para><para>Contact: <ulink url="mailto:tonyjenniges@yahoo.com">tonyjenniges@yahoo.com</ulink></para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="118">
+        <label>Sequlite.CommandLib.SerialCommand</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_serial_command"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="116">
+        <label>Sequlite.CommandLib.BaseCommand</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_base_command"/>
+      </node>
+      <node id="117">
+        <label>Sequlite.CommandLib.ParallelCommand</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_parallel_command"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="119">
+        <label>Sequlite.CommandLib.BaseCommand</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_base_command"/>
+        <childnode refid="119" relation="usage">
+          <edgelabel>_Parent</edgelabel>
+        </childnode>
+        <childnode refid="120" relation="usage">
+          <edgelabel>_OwningMediator</edgelabel>
+        </childnode>
+        <childnode refid="122" relation="usage">
+          <edgelabel>_ExecutionInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="123">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="122">
+        <label>Sequlite.CommandLib.ExecutionState</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_execution_state"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+        <childnode refid="122" relation="usage">
+          <edgelabel>_ParentExecutionState</edgelabel>
+        </childnode>
+      </node>
+      <node id="121">
+        <label>Sequlite.CommandLib.ILogger</label>
+        <link refid="interface_sequlite_1_1_command_lib_1_1_i_logger"/>
+      </node>
+      <node id="120">
+        <label>Sequlite.CommandLib.CommandMediator</label>
+        <link refid="class_sequlite_1_1_command_lib_1_1_command_mediator"/>
+        <childnode refid="121" relation="usage">
+          <edgelabel>_Logger</edgelabel>
+        </childnode>
+        <childnode refid="119" relation="usage">
+          <edgelabel>_ExecutingCommand</edgelabel>
+        </childnode>
+        <childnode refid="122" relation="usage">
+          <edgelabel>_ExecutingCommandState</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/BaseCommand.cs" bodystart="16" bodyend="364"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a19a90a0c8a09f2daac65b2ca9f37b882" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>_AutoResetEvent</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a1f328d9c98dd8ec0e398e6ea55df4c43" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>_CommandName</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a046939ec157076e652b473ef1b184b68" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>_CommandThread</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1aa83428de0aa0183cf279691711c2df38" prot="package" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>_ExecutionInfo</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1aa0b2a2d74a9517fac73788d29380d582" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>_Guid</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a9e33172aced47418946c0fd7a0ea7470" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>_msTimeoutTime</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a974633280b8244f7986ad3e644f61b09" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>_OwningMediator</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a46ff2638d3e0121f62e4d8448a39de68" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>_Parent</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1afb4eaf378b58213998163c684faf824c" prot="protected" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>_SyncContext</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a30f0c8b4624b111825186fa966921805" prot="package" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>AutoReset</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a4c774afeaea6749ca282fc265745fa57" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>Cancel</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a75549ea85b3f1609ba2a34d899ca127e" prot="package" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>CheckForStoppedOnChildException</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1aaccf66b88f118962f0abb38b6210db2c" prot="protected" virt="virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>CleanUpOnAbort</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a48044b4ac91848f4eba10409d6ad8447" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>Completed</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1ada3a13097a62c7cc4f980ae85328bfe4" prot="package" virt="virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>CreateExecutionState</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a194c50f4ffe85b23d4de84096f37779f" prot="protected" virt="pure-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>DoTask</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a81b28c3609efcee977208ad83225ef81" prot="package" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>Execute</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a0956f385e9460679fa206471bd42486a" prot="package" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>ExecuteWorker</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a7fa84e614fe284153e113f7dcc6f010c" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>Name</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a43239f06a0b519e3781534f57c2ada91" prot="package" virt="virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>NullCommandThread</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1af14b60cb88b4341ee52204f8764efda4" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>OwningMediator</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a8d156e13cf7f1c0723e9630243eb2282" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>Parent</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1aeadda49efc6660e20e78e1f291b548d5" prot="protected" virt="virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>SimulateDoTask</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1a243288e8bf8ffad026f240fcf212eb65" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>Stop</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1ad4a4b77afbdadb3b935da5a1a8dc57ae" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>TimeOut</name></member>
+      <member refid="class_sequlite_1_1_command_lib_1_1_base_command_1ad814e26eb4775bd261dcd49ce3a3d64e" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::BaseCommand</scope><name>UniqueID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

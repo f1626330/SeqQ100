@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1aae4d434482579b146ce4fbb35a5a7ebe" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.TargetTemper</definition>
+        <argsstring></argsstring>
+        <name>TargetTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1aec93762321458c9253ecf9e621292f3f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.TemperTolerance</definition>
+        <argsstring></argsstring>
+        <name>TemperTolerance</name>
+        <initializer>= 22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a807853d553f307d16dcc4105eeb95341" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.Duration</definition>
+        <argsstring></argsstring>
+        <name>Duration</name>
+        <initializer>= 0.2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a649195332897837e3588aa0dc65e6be7" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.WaitForComplete</definition>
+        <argsstring></argsstring>
+        <name>WaitForComplete</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a15d9262709d72b006beeeaa0d4ca2b9f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a13996f83788b6646899d6da885790574" kindref="member">ImagingChannels</ref></type>
+        <definition>ImagingChannels Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.CaptureChannel</definition>
+        <argsstring></argsstring>
+        <name>CaptureChannel</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a21e818a274e03d27f8cf0c09c502c61f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.RedIntensity</definition>
+        <argsstring></argsstring>
+        <name>RedIntensity</name>
+        <initializer>= ImagingChannels.RedGreen</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1aa4e18794f5ff5093af400fd7e817c4c1" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.GreenIntensity</definition>
+        <argsstring></argsstring>
+        <name>GreenIntensity</name>
+        <initializer>= 90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1afdf26f4a91d6daaad038a0e994baf370" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.RedExposure</definition>
+        <argsstring></argsstring>
+        <name>RedExposure</name>
+        <initializer>= 90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a38c02897611d7d115c85f6fd9e8629e0" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.GreenExposure</definition>
+        <argsstring></argsstring>
+        <name>GreenExposure</name>
+        <initializer>= 0.2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1abf60ade3bf63d068bf900cc85b18758e" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.IsAutoFocusOn</definition>
+        <argsstring></argsstring>
+        <name>IsAutoFocusOn</name>
+        <initializer>= 0.2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1ac7e1fa04b91ac87d837d314c45f3a160" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5c" kindref="member">ModeOptions</ref></type>
+        <definition>ModeOptions Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.PumpingType</definition>
+        <argsstring></argsstring>
+        <name>PumpingType</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a56cd7acef3928e0001a6e9200dafbee2" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.PumpingVol</definition>
+        <argsstring></argsstring>
+        <name>PumpingVol</name>
+        <initializer>= ModeOptions.PullPush</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a3ab7bc18c632e6af0f2c3182acd342e5" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.PullRate</definition>
+        <argsstring></argsstring>
+        <name>PullRate</name>
+        <initializer>= 200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1aacdddc2ee1c96fde33c27c9adc7b84f3" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.PushRate</definition>
+        <argsstring></argsstring>
+        <name>PushRate</name>
+        <initializer>= 200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a013203950b4942c6f607a741b8e1e5e0" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" kindref="member">PathOptions</ref></type>
+        <definition>PathOptions Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.PullPath</definition>
+        <argsstring></argsstring>
+        <name>PullPath</name>
+        <initializer>= 5000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1aba0857af248dc479adf871fd044f7a68" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" kindref="member">PathOptions</ref></type>
+        <definition>PathOptions Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.PushPath</definition>
+        <argsstring></argsstring>
+        <name>PushPath</name>
+        <initializer>= PathOptions.FC</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a6fac7b6360c081ddfcc1461a012790e2" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.Reagent</definition>
+        <argsstring></argsstring>
+        <name>Reagent</name>
+        <initializer>= PathOptions.Waste</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="30" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1afaff88d62b11f319fc402e4c03b93453" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.LoopCycles</definition>
+        <argsstring></argsstring>
+        <name>LoopCycles</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1ad1298ad9948659934943fa2e3360dc18" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.LoopName</definition>
+        <argsstring></argsstring>
+        <name>LoopName</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a3abfe1b2f2ef7f50d987e429d61b35fe" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.RecipeLib.RecipeStepDefaultSettings.WaitingTime</definition>
+        <argsstring></argsstring>
+        <name>WaitingTime</name>
+        <initializer>= &quot;Default <ref refid="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a312e9cdd824733417f61c6643ea3191fa89d7b10cb4238977d2b523dfd9ea7745" kindref="member">Loop</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStepDefaultSettings.cs" bodystart="5" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a15d9262709d72b006beeeaa0d4ca2b9f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>CaptureChannel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a807853d553f307d16dcc4105eeb95341" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>Duration</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a38c02897611d7d115c85f6fd9e8629e0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>GreenExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1aa4e18794f5ff5093af400fd7e817c4c1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>GreenIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1abf60ade3bf63d068bf900cc85b18758e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>IsAutoFocusOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1afaff88d62b11f319fc402e4c03b93453" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>LoopCycles</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1ad1298ad9948659934943fa2e3360dc18" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>LoopName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a013203950b4942c6f607a741b8e1e5e0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>PullPath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a3ab7bc18c632e6af0f2c3182acd342e5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>PullRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1ac7e1fa04b91ac87d837d314c45f3a160" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>PumpingType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a56cd7acef3928e0001a6e9200dafbee2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>PumpingVol</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1aba0857af248dc479adf871fd044f7a68" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>PushPath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1aacdddc2ee1c96fde33c27c9adc7b84f3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>PushRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a6fac7b6360c081ddfcc1461a012790e2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>Reagent</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1afdf26f4a91d6daaad038a0e994baf370" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>RedExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a21e818a274e03d27f8cf0c09c502c61f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>RedIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1aae4d434482579b146ce4fbb35a5a7ebe" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>TargetTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1aec93762321458c9253ecf9e621292f3f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>TemperTolerance</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a649195332897837e3588aa0dc65e6be7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>WaitForComplete</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_default_settings_1a3abfe1b2f2ef7f50d987e429d61b35fe" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::RecipeStepDefaultSettings</scope><name>WaitingTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

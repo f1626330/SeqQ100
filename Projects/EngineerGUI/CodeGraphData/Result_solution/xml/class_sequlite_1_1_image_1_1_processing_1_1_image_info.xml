@@ -1,0 +1,938 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_image_info" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::ImageInfo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ICloneable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ae37b15a28062255998bfaa9d5bd1c74b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" kindref="compound">ImageChannel</ref></type>
+        <definition>ImageChannel Sequlite.Image.Processing.ImageInfo._RedChannel</definition>
+        <argsstring></argsstring>
+        <name>_RedChannel</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="90" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aa7a465220998a665c06b61261c2b398a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" kindref="compound">ImageChannel</ref></type>
+        <definition>ImageChannel Sequlite.Image.Processing.ImageInfo._GreenChannel</definition>
+        <argsstring></argsstring>
+        <name>_GreenChannel</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="92" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ab27bb8709ef03e84ac4f7c1c980c1744" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" kindref="compound">ImageChannel</ref></type>
+        <definition>ImageChannel Sequlite.Image.Processing.ImageInfo._BlueChannel</definition>
+        <argsstring></argsstring>
+        <name>_BlueChannel</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="94" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aeaff14430fe32679dbc7677799bda5eb" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" kindref="compound">ImageChannel</ref></type>
+        <definition>ImageChannel Sequlite.Image.Processing.ImageInfo._GrayChannel</definition>
+        <argsstring></argsstring>
+        <name>_GrayChannel</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="96" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a58db281389d2dba83618c5d6f98af6ab" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" kindref="compound">ImageChannel</ref></type>
+        <definition>ImageChannel Sequlite.Image.Processing.ImageInfo._MixChannel</definition>
+        <argsstring></argsstring>
+        <name>_MixChannel</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="98" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a0566e51d479f7eb889d43b540c3053fa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.SoftwareVersion</definition>
+        <argsstring></argsstring>
+        <name>SoftwareVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="105" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a66c39718e30f4a0eb5ad47077d876191" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.CameraFirmware</definition>
+        <argsstring></argsstring>
+        <name>CameraFirmware</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="107" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ae25fac422a7f49f20cf9ef4f418e1122" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.Model</definition>
+        <argsstring></argsstring>
+        <name>Model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="110" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a46cc72e451f2e105cf5d019589e26ecc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.Comment</definition>
+        <argsstring></argsstring>
+        <name>Comment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="112" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ab59e23019692f0be76f647388bb3083d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.LightSourceChan1</definition>
+        <argsstring></argsstring>
+        <name>LightSourceChan1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="116" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1afbdb4008cdc06adb4ac54d2392613edf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.ReadoutSpeed</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="119" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a869137919fd2ef61eb8d3692706ae80e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.BlackValue</definition>
+        <argsstring></argsstring>
+        <name>BlackValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="122" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a55e4e81b9ef5c6d544768808aa939d9a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.WhiteValue</definition>
+        <argsstring></argsstring>
+        <name>WhiteValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="123" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a6be7f56b6cc62d857e9d2ec161075226" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.ImageInfo.GammaValue</definition>
+        <argsstring></argsstring>
+        <name>GammaValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="124" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a7397c5227b3324bd712af59cbfc272c7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.PrevBlackValue</definition>
+        <argsstring></argsstring>
+        <name>PrevBlackValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="125" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a2157bba28013a9b1a8ed4f5c252f5ac6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.PrevWhiteValue</definition>
+        <argsstring></argsstring>
+        <name>PrevWhiteValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="126" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a746f295453eeb24f7116d79e3d538435" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.ImageInfo.PrevGammaValue</definition>
+        <argsstring></argsstring>
+        <name>PrevGammaValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="127" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ae211184da3a341a9cf53b54a299b01ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" kindref="compound">ImageChannel</ref></type>
+        <definition>ImageChannel Sequlite.Image.Processing.ImageInfo.RedChannel</definition>
+        <argsstring></argsstring>
+        <name>RedChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="130" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="131" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac6057b8c8b00fb831fc1d95b784dc86f" compoundref="_image_processing_helper_8cs" startline="389" endline="660">Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a27e3d547d7151c1bc0301d140d21b22f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" kindref="compound">ImageChannel</ref></type>
+        <definition>ImageChannel Sequlite.Image.Processing.ImageInfo.GreenChannel</definition>
+        <argsstring></argsstring>
+        <name>GreenChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="135" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="136" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac6057b8c8b00fb831fc1d95b784dc86f" compoundref="_image_processing_helper_8cs" startline="389" endline="660">Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a6d39394b48908d790d2607e6ad37fec5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" kindref="compound">ImageChannel</ref></type>
+        <definition>ImageChannel Sequlite.Image.Processing.ImageInfo.BlueChannel</definition>
+        <argsstring></argsstring>
+        <name>BlueChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="140" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="141" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac6057b8c8b00fb831fc1d95b784dc86f" compoundref="_image_processing_helper_8cs" startline="389" endline="660">Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a8f7ce63b8bbfca882b5f829cf25331d7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" kindref="compound">ImageChannel</ref></type>
+        <definition>ImageChannel Sequlite.Image.Processing.ImageInfo.GrayChannel</definition>
+        <argsstring></argsstring>
+        <name>GrayChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="145" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="146" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac6057b8c8b00fb831fc1d95b784dc86f" compoundref="_image_processing_helper_8cs" startline="389" endline="660">Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1abd5e60988ee061a642dd82408af9370d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel" kindref="compound">ImageChannel</ref></type>
+        <definition>ImageChannel Sequlite.Image.Processing.ImageInfo.MixChannel</definition>
+        <argsstring></argsstring>
+        <name>MixChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="151" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="152" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac6057b8c8b00fb831fc1d95b784dc86f" compoundref="_image_processing_helper_8cs" startline="389" endline="660">Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a50a54b2bc549e2d8a693a21773346f1c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.NumOfChannels</definition>
+        <argsstring></argsstring>
+        <name>NumOfChannels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="157" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="157" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac6057b8c8b00fb831fc1d95b784dc86f" compoundref="_image_processing_helper_8cs" startline="389" endline="660">Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ab35d3dd784f801f1d357eb8f588d360e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_image_1_1_processing_1ab9edef8e4a8caaf7bda4a0be1023a1cd" kindref="member">ImageChannelFlag</ref></type>
+        <definition>ImageChannelFlag Sequlite.Image.Processing.ImageInfo.SelectedChannelFlags</definition>
+        <argsstring></argsstring>
+        <name>SelectedChannelFlags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="159" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a55fc8af7b4d1453a2169dad1ceea830f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.Aperture</definition>
+        <argsstring></argsstring>
+        <name>Aperture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="161" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a796b3574c7e6464ce449f259780a947e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.BinFactor</definition>
+        <argsstring></argsstring>
+        <name>BinFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="162" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a46bf380f6a747ec0e1e572cb795e1ac5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.DateTime</definition>
+        <argsstring></argsstring>
+        <name>DateTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="163" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aefe27331e904cbbb7a6d8668af1e64c6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.CaptureType</definition>
+        <argsstring></argsstring>
+        <name>CaptureType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="164" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="164" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac6057b8c8b00fb831fc1d95b784dc86f" compoundref="_image_processing_helper_8cs" startline="389" endline="660">Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1afa6a9eaa0d3d15973e62bfe1e8c286a2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.Calibration</definition>
+        <argsstring></argsstring>
+        <name>Calibration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="165" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aed15dcd60b2f8c02580258ca920d67ad" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_image_1_1_processing_1a9580648dc6a7ed18378e21806ebfaabb" kindref="member">ImageChannelType</ref></type>
+        <definition>ImageChannelType Sequlite.Image.Processing.ImageInfo.SelectedChannel</definition>
+        <argsstring></argsstring>
+        <name>SelectedChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="168" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="168" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_helper_1ac6057b8c8b00fb831fc1d95b784dc86f" compoundref="_image_processing_helper_8cs" startline="389" endline="660">Sequlite.Image.Processing.ImageProcessingHelper.UpdateDisplayImage</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1afbba824e97f6156bf26d0c6fd255bc8f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.SaturationThreshold</definition>
+        <argsstring></argsstring>
+        <name>SaturationThreshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="170" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a4a7e8c0818367acb10789bc052f9bfd1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.GainValue</definition>
+        <argsstring></argsstring>
+        <name>GainValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="171" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a4b0b9207298e3e8ee0dd31dbac8a9749" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ushort</type>
+        <definition>ushort Sequlite.Image.Processing.ImageInfo.PhotometricInterpretation</definition>
+        <argsstring></argsstring>
+        <name>PhotometricInterpretation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="172" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a48a87e11e3a4fed4d17adfaa5782edc0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.Image.Processing.ImageInfo.IsPixelInverted</definition>
+        <argsstring></argsstring>
+        <name>IsPixelInverted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="173" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a61c2e816a362e65c477a339d682736f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.Image.Processing.ImageInfo.IsChemiImage</definition>
+        <argsstring></argsstring>
+        <name>IsChemiImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="174" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a946a9c3392fea093f22f6ad3248ddd1d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.Image.Processing.ImageInfo.IsScannedImage</definition>
+        <argsstring></argsstring>
+        <name>IsScannedImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="175" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aec5d0df447b6cf259cea8c45f8bc90b7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.FpgaFirmware</definition>
+        <argsstring></argsstring>
+        <name>FpgaFirmware</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="178" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1adbc679bd97a1efc22c6edf3f4dc6c03c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ApdAGain</definition>
+        <argsstring></argsstring>
+        <name>ApdAGain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="179" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a195c6123c578aeeeed7f543ddccca376" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ApdBGain</definition>
+        <argsstring></argsstring>
+        <name>ApdBGain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="180" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a6c47f1fbeaed2c6d0c9e939bcc84444e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ApdCGain</definition>
+        <argsstring></argsstring>
+        <name>ApdCGain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="181" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a277cea09fcb187ec0104a019be53108b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ApdDGain</definition>
+        <argsstring></argsstring>
+        <name>ApdDGain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="182" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a39a62728e3498924a4c789f00d94611f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ApdAPga</definition>
+        <argsstring></argsstring>
+        <name>ApdAPga</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="183" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ac7a7f72927f96efec327af89445b7a04" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ApdBPga</definition>
+        <argsstring></argsstring>
+        <name>ApdBPga</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="184" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a2399a649011382f797465f08d16e0726" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ApdCPga</definition>
+        <argsstring></argsstring>
+        <name>ApdCPga</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="185" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a38e9d5eeb6c7d015b9a8abd362532921" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ApdDPga</definition>
+        <argsstring></argsstring>
+        <name>ApdDPga</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="186" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a547a176af958d256582893273871db1c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.LaserAIntensity</definition>
+        <argsstring></argsstring>
+        <name>LaserAIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="187" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a604e12b2e8aa4bafa4e6f35f186fae1e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.LaserBIntensity</definition>
+        <argsstring></argsstring>
+        <name>LaserBIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="188" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ae0ebb29c09b5f4591df174ace16f1db6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.LaserCIntensity</definition>
+        <argsstring></argsstring>
+        <name>LaserCIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="189" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a4e5f85c2848c1612d2f51d33071cf628" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.LaserDIntensity</definition>
+        <argsstring></argsstring>
+        <name>LaserDIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="190" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ab9cb3aaef54bc4400d25ecaaced4ebe4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ScanQuality</definition>
+        <argsstring></argsstring>
+        <name>ScanQuality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="191" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a258da7e99510239cc00560ede25043b5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ScanResolution</definition>
+        <argsstring></argsstring>
+        <name>ScanResolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="192" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a468421e7910ba1c36a768a214d3ed318" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ScanX0</definition>
+        <argsstring></argsstring>
+        <name>ScanX0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="193" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a00398b86dca8b4ce39ae6b267ca54ed8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.ScanY0</definition>
+        <argsstring></argsstring>
+        <name>ScanY0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="194" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a725e6d13c50ced898ced6d930cc053ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.DeltaX</definition>
+        <argsstring></argsstring>
+        <name>DeltaX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="195" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a44c629cf5c1fd9c59a4a126846942614" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageInfo.DeltaY</definition>
+        <argsstring></argsstring>
+        <name>DeltaY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="196" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="196" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a1cfc85d4e447f99fff3ee7ce258f3582" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.Image.Processing.ImageInfo.ScanZ0</definition>
+        <argsstring></argsstring>
+        <name>ScanZ0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="197" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a58b4709f89f206c1e1c70be29bd939af" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.SampleType</definition>
+        <argsstring></argsstring>
+        <name>SampleType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="199" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1adc7ce58a1359cf407f53808ae7c79a24" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.ScanSpeed</definition>
+        <argsstring></argsstring>
+        <name>ScanSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="201" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a805f6e1f907c7f0bfe0889f131c077d1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.IntensityLevel</definition>
+        <argsstring></argsstring>
+        <name>IntensityLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="203" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a5832cfb23c4a97bb905e517707942d85" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageInfo.AutoExposureType</definition>
+        <argsstring></argsstring>
+        <name>AutoExposureType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="206" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ada6b394dc2ad865e1347a50d9f8deffa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.ImageInfo.ImageInfo</definition>
+        <argsstring>()</argsstring>
+        <name>ImageInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="212" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="212" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a2e89b171cba51bbcc679c5fb689c99a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.Image.Processing.ImageInfo.Clone</definition>
+        <argsstring>()</argsstring>
+        <name>Clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="236" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="236" bodyend="247"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="545">
+        <label>Sequlite.Image.Processing.ImageInfo</label>
+        <link refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info"/>
+        <childnode refid="546" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="546">
+        <label>ICloneable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="547">
+        <label>Sequlite.Image.Processing.ImageInfo</label>
+        <link refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info"/>
+        <childnode refid="548" relation="public-inheritance">
+        </childnode>
+        <childnode refid="549" relation="usage">
+          <edgelabel>_GrayChannel</edgelabel>
+          <edgelabel>_BlueChannel</edgelabel>
+          <edgelabel>_MixChannel</edgelabel>
+          <edgelabel>_GreenChannel</edgelabel>
+          <edgelabel>_RedChannel</edgelabel>
+        </childnode>
+      </node>
+      <node id="549">
+        <label>Sequlite.Image.Processing.ImageChannel</label>
+        <link refid="class_sequlite_1_1_image_1_1_processing_1_1_image_channel"/>
+        <childnode refid="548" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="548">
+        <label>ICloneable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" line="86" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageInfo.cs" bodystart="85" bodyend="267"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ab27bb8709ef03e84ac4f7c1c980c1744" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>_BlueChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aeaff14430fe32679dbc7677799bda5eb" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>_GrayChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aa7a465220998a665c06b61261c2b398a" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>_GreenChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a58db281389d2dba83618c5d6f98af6ab" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>_MixChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ae37b15a28062255998bfaa9d5bd1c74b" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>_RedChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1adbc679bd97a1efc22c6edf3f4dc6c03c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ApdAGain</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a39a62728e3498924a4c789f00d94611f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ApdAPga</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a195c6123c578aeeeed7f543ddccca376" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ApdBGain</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ac7a7f72927f96efec327af89445b7a04" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ApdBPga</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a6c47f1fbeaed2c6d0c9e939bcc84444e" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ApdCGain</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a2399a649011382f797465f08d16e0726" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ApdCPga</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a277cea09fcb187ec0104a019be53108b" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ApdDGain</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a38e9d5eeb6c7d015b9a8abd362532921" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ApdDPga</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a55fc8af7b4d1453a2169dad1ceea830f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>Aperture</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a5832cfb23c4a97bb905e517707942d85" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>AutoExposureType</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a796b3574c7e6464ce449f259780a947e" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>BinFactor</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a869137919fd2ef61eb8d3692706ae80e" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>BlackValue</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a6d39394b48908d790d2607e6ad37fec5" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>BlueChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1afa6a9eaa0d3d15973e62bfe1e8c286a2" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>Calibration</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a66c39718e30f4a0eb5ad47077d876191" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>CameraFirmware</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aefe27331e904cbbb7a6d8668af1e64c6" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>CaptureType</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a2e89b171cba51bbcc679c5fb689c99a6" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>Clone</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a46cc72e451f2e105cf5d019589e26ecc" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>Comment</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a46bf380f6a747ec0e1e572cb795e1ac5" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>DateTime</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a725e6d13c50ced898ced6d930cc053ca" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>DeltaX</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a44c629cf5c1fd9c59a4a126846942614" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>DeltaY</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aec5d0df447b6cf259cea8c45f8bc90b7" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>FpgaFirmware</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a4a7e8c0818367acb10789bc052f9bfd1" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>GainValue</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a6be7f56b6cc62d857e9d2ec161075226" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>GammaValue</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a8f7ce63b8bbfca882b5f829cf25331d7" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>GrayChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a27e3d547d7151c1bc0301d140d21b22f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>GreenChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ada6b394dc2ad865e1347a50d9f8deffa" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ImageInfo</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a805f6e1f907c7f0bfe0889f131c077d1" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>IntensityLevel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a61c2e816a362e65c477a339d682736f5" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>IsChemiImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a48a87e11e3a4fed4d17adfaa5782edc0" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>IsPixelInverted</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a946a9c3392fea093f22f6ad3248ddd1d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>IsScannedImage</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a547a176af958d256582893273871db1c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>LaserAIntensity</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a604e12b2e8aa4bafa4e6f35f186fae1e" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>LaserBIntensity</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ae0ebb29c09b5f4591df174ace16f1db6" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>LaserCIntensity</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a4e5f85c2848c1612d2f51d33071cf628" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>LaserDIntensity</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ab59e23019692f0be76f647388bb3083d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>LightSourceChan1</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1abd5e60988ee061a642dd82408af9370d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>MixChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ae25fac422a7f49f20cf9ef4f418e1122" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>Model</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a50a54b2bc549e2d8a693a21773346f1c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>NumOfChannels</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a4b0b9207298e3e8ee0dd31dbac8a9749" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>PhotometricInterpretation</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a7397c5227b3324bd712af59cbfc272c7" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>PrevBlackValue</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a746f295453eeb24f7116d79e3d538435" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>PrevGammaValue</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a2157bba28013a9b1a8ed4f5c252f5ac6" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>PrevWhiteValue</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1afbdb4008cdc06adb4ac54d2392613edf" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ReadoutSpeed</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ae211184da3a341a9cf53b54a299b01ee" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>RedChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a58b4709f89f206c1e1c70be29bd939af" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>SampleType</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1afbba824e97f6156bf26d0c6fd255bc8f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>SaturationThreshold</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ab9cb3aaef54bc4400d25ecaaced4ebe4" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ScanQuality</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a258da7e99510239cc00560ede25043b5" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ScanResolution</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1adc7ce58a1359cf407f53808ae7c79a24" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ScanSpeed</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a468421e7910ba1c36a768a214d3ed318" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ScanX0</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a00398b86dca8b4ce39ae6b267ca54ed8" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ScanY0</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a1cfc85d4e447f99fff3ee7ce258f3582" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>ScanZ0</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1aed15dcd60b2f8c02580258ca920d67ad" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>SelectedChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1ab35d3dd784f801f1d357eb8f588d360e" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>SelectedChannelFlags</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a0566e51d479f7eb889d43b540c3053fa" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>SoftwareVersion</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info_1a55e4e81b9ef5c6d544768808aa939d9a" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageInfo</scope><name>WhiteValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

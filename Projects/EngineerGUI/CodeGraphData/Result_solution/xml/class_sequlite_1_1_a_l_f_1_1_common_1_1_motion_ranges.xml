@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_ranges" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Common::MotionRanges</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_ranges_1ae8d130c4ef9d5a3aa168de8d22c2e39d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.Common.MotionRanges.SpeedRange</definition>
+        <argsstring></argsstring>
+        <name>SpeedRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_ranges_1a571a6a9ed1f61d2935021b553faab6a1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.Common.MotionRanges.AccelRange</definition>
+        <argsstring></argsstring>
+        <name>AccelRange</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_ranges_1aacd8095a3c0fb796070bc38386321068" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref></type>
+        <definition>SettingRange Sequlite.ALF.Common.MotionRanges.MotionRange</definition>
+        <argsstring></argsstring>
+        <name>MotionRange</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" kindref="compound">SettingRange</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" bodystart="11" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_ranges_1a571a6a9ed1f61d2935021b553faab6a1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::MotionRanges</scope><name>AccelRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_ranges_1aacd8095a3c0fb796070bc38386321068" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::MotionRanges</scope><name>MotionRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_ranges_1ae8d130c4ef9d5a3aa168de8d22c2e39d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::MotionRanges</scope><name>SpeedRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

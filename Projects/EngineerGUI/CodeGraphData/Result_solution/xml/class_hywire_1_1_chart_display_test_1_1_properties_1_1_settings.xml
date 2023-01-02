@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings" kind="class" prot="package">
+    <compoundname>Hywire::ChartDisplayTest::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings_1a79fd7414dfe2ae79e455935ed43a0f6e" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Hywire.ChartDisplayTest.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/Properties/Settings.Designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings_1ab5f0841b104c825853b8fe65ce929cdc" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Hywire.ChartDisplayTest.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1186">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1185">
+        <label>Hywire.ChartDisplayTest.Properties.Settings</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings"/>
+        <childnode refid="1186" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1188">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1187">
+        <label>Hywire.ChartDisplayTest.Properties.Settings</label>
+        <link refid="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings"/>
+        <childnode refid="1188" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1189" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="1189">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/Properties/Settings.Designer.cs" line="16" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/Properties/Settings.Designer.cs" bodystart="16" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings_1ab5f0841b104c825853b8fe65ce929cdc" prot="public" virt="non-virtual"><scope>Hywire::ChartDisplayTest::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_hywire_1_1_chart_display_test_1_1_properties_1_1_settings_1a79fd7414dfe2ae79e455935ed43a0f6e" prot="private" virt="non-virtual"><scope>Hywire::ChartDisplayTest::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_camera_lib_1_1_p_p___feature" kind="struct" prot="public">
+    <compoundname>Sequlite::CameraLib::PP_Feature</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1adc47b88cc90cc5c4243ddba753015cb2" prot="public" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.PP_Feature.m_id</definition>
+        <argsstring></argsstring>
+        <name>m_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="226" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1a41480eb8d263ddc58cc06f63185c4f4d" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Sequlite.CameraLib.PP_Feature.m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="227" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1a56a524414701fddc7c571c2bdd7e35d5" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="struct_sequlite_1_1_camera_lib_1_1_p_p___function" kindref="compound">PP_Function</ref> &gt;</type>
+        <definition>List&lt;PP_Function&gt; Sequlite.CameraLib.PP_Feature.m_functionList</definition>
+        <argsstring></argsstring>
+        <name>m_functionList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="228" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1af63a598279ccd84afee8d2b864140138" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UInt32</type>
+        <definition>UInt32 Sequlite.CameraLib.PP_Feature.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="230" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1a0fffd37a2708ded92377c4eae6a509db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>String</type>
+        <definition>String Sequlite.CameraLib.PP_Feature.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="236" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1adec98f91fae47f9afb2198665ef1a306" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="struct_sequlite_1_1_camera_lib_1_1_p_p___function" kindref="compound">PP_Function</ref> &gt;</type>
+        <definition>List&lt;PP_Function&gt; Sequlite.CameraLib.PP_Feature.FunctionList</definition>
+        <argsstring></argsstring>
+        <name>FunctionList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="242" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="225" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="224" bodyend="247"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1adec98f91fae47f9afb2198665ef1a306" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PP_Feature</scope><name>FunctionList</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1af63a598279ccd84afee8d2b864140138" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PP_Feature</scope><name>ID</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1a56a524414701fddc7c571c2bdd7e35d5" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PP_Feature</scope><name>m_functionList</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1adc47b88cc90cc5c4243ddba753015cb2" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PP_Feature</scope><name>m_id</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1a41480eb8d263ddc58cc06f63185c4f4d" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PP_Feature</scope><name>m_name</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_p_p___feature_1a0fffd37a2708ded92377c4eae6a509db" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::PP_Feature</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,208 @@
+﻿<Window x:Class="Sequlite.ImageCorrectionTool.MainWindow"
+        x:Name="_this"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sequlite.ImageCorrectionTool"
+        mc:Ignorable="d"
+        DataContext="ImageCorrectionTool.MainWindow"
+        MinHeight="400" MinWidth="600">
+    <Window.Resources>
+        <Thickness x:Key="textboxMargin">6, 0</Thickness>
+        <BooleanToVisibilityConverter x:Key="b2v" />
+    </Window.Resources>
+    <Grid x:Name="GridMain">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition x:Name="hideableRow">
+                <RowDefinition.Style>
+                    <Style TargetType="{x:Type RowDefinition}">
+                        <Setter Property="Height" Value="*" />
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsChecked, ElementName=CheckBoxDisplaySource}" Value="False">
+                                <Setter Property="Height" Value="0" />
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </RowDefinition.Style>
+            </RowDefinition>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0">
+            <GroupBox x:Name="FileInput" Header="File Input" Margin="6">
+                <StackPanel x:Name="StackPanelFileInput" Margin="6">
+                    <StackPanel.Resources>
+                        <Style TargetType="{x:Type TextBox}">
+                            <Setter Property="Margin" Value="{StaticResource textboxMargin}"/>
+                        </Style>
+                    </StackPanel.Resources>
+                    <StackPanel Orientation="Horizontal" Margin="6">
+                        <TextBlock Text="■" Foreground="Green" Margin="6"/>
+                        <Button x:Name="ButtonLoadImage1" Content="Load Image 1 (G1)..." Click="ButtonLoadImage1_Click"/>
+                        <TextBox x:Name="Image1PathLabel" DataContext="{Binding ElementName=_this}" Text="{Binding Image1Path}" VerticalAlignment="Center" TextWrapping="Wrap"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="6">
+                        <TextBlock Text="■" Foreground="Red" Margin="6"/>
+                        <Button x:Name="ButtonLoadImage2" Content="Load Image 2 (G2)..." Click="ButtonLoadImage2_Click"/>
+                        <TextBox x:Name="Image2PathLabel" DataContext="{Binding ElementName=_this}" Text="{Binding Image2Path}" VerticalAlignment="Center" TextWrapping="Wrap"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="2">
+                        <CheckBox x:Name="CheckBoxDisplaySource" Content="Display Source Images" Margin="0,0,20,0" DataContext="{Binding ElementName=_this}" IsChecked="{Binding Path=DisplaySourceImagesEnabled, Mode=TwoWay}"/>
+                        <CheckBox x:Name="CheckBoxNormalize" Content="Normalize Images" Margin="0,0,20,0" DataContext="{Binding ElementName=_this}" IsChecked="{Binding Path=NormalizeImagesEnabled, Mode=TwoWay}" Click="CheckBoxNormalize_Click"/>
+                        <Button x:Name="ButtonSaveTransformed" Content="Save Trasformed Images"  Click="ButtonSaveTransformed_Click"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox x:Name="Scoring" Header="Scoring" Margin="6">
+                <StackPanel x:Name="StackPanelScoring" Margin="6">
+                    <StackPanel Orientation="Horizontal">
+                        <Button x:Name="ButtonResetScores" Content="Reset Scores" Click="ButtonResetScores_Click"  Grid.Row="3" Grid.Column="0" Margin="6"></Button>
+                        <TextBlock x:Name="TextBlockScore" Text="Score: N/A" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="6"></TextBlock>
+                        <TextBlock x:Name="TextBlockBestScore" Text="Best Score: N/A" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="6"></TextBlock>
+                        <TextBlock x:Name="TextBlockBestParam" Text="Best Parameters: N/A" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="6"></TextBlock>
+                        <Button x:Name="ButtonRestoreBest" Content="Restore Best" Click="ButtonRestoreBest_Click"  Grid.Row="3" Grid.Column="0" Margin="6"></Button>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="TextBlockFinalDimensions" Text="Final dimensions:" Margin="6"/>
+                        <TextBlock x:Name="TextBlockValidDimensions" Text="" Margin="6"/>
+                    </StackPanel>
+                </StackPanel>
+            </GroupBox>
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1">
+            <GroupBox x:Name="ParameterInput" Header="Transform Parameters (G1)" Margin="6">
+                <Grid x:Name="GridTransformParam">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="LabelWidthAdjust" Text="Width Adjust" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="6"/>
+                    <TextBlock x:Name="LabelHeightAdjust" Text="Height Adjust" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock Text="X Offset" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock Text="Y Offset" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBox x:Name="TextBoxWidthAdjust" TextAlignment="Center" Margin="2" DataContext="{Binding ElementName=_this}" Text="{Binding WidthAdjust, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" KeyDown="OnKeyDownHandler" Grid.Row="1" Grid.Column="0"/>
+                    <TextBox x:Name="TextBoxHeightAdjust" TextAlignment="Center" Margin="2" DataContext="{Binding ElementName=_this}" Text="{Binding HeightAdjust, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" KeyDown="OnKeyDownHandler" Grid.Row="1" Grid.Column="1"/>
+                    <TextBox x:Name="TextBoxXOffset" TextAlignment="Center" Margin="2" DataContext="{Binding ElementName=_this}" Text="{Binding XOffset, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" KeyDown="OnKeyDownHandler" Grid.Row="1" Grid.Column="2"/>
+                    <TextBox x:Name="TextBoxYOffset" TextAlignment="Center" Margin="2" DataContext="{Binding ElementName=_this}" Text="{Binding YOffset, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" KeyDown="OnKeyDownHandler" Grid.Row="1" Grid.Column="3"/>
+                    <TextBlock Text="{Binding ElementName=SliderThreshold, Path=Value, UpdateSourceTrigger=PropertyChanged, StringFormat='Threshold: {0:N0}'}" Grid.Row="2" Grid.Column="0" TextAlignment="Right"></TextBlock>
+                    <Slider x:Name="SliderThreshold" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" DataContext="{Binding ElementName=_this}" Value="{Binding Path=Threshold, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay, Delay=500}" Minimum="100" Maximum="65000" Margin="6 0"/>
+                    <TextBlock Text="Progress:" Grid.Column="0" Grid.Row="3" TextAlignment="Right"/>
+                    <ProgressBar x:Name="ProgressBarCompute" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="3" Height="10" Margin="6"/>
+                    <Button x:Name="ButtonApplyParameters" Content="Apply" Click="ButtonApplyParameters_Click" Grid.Column="4" Grid.Row="0" Grid.RowSpan="3" Margin="6"/>
+                </Grid>
+            </GroupBox>
+            <GroupBox x:Name="AutoTune" Header="Automatic Tuning" Margin="6">
+                <Grid x:Name="GridAutoTune">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="LabelWidthRange" Text="Width Range" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+                    <TextBlock x:Name="LabelHeightRange" Text="Height Range" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock x:Name="LabelXRange" Text="X Offset Range" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock x:Name="LabelYRange" Text="Y Offset Range" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBox x:Name="TextBoxWidthRange" Grid.Row="1" Grid.Column="0"  TextAlignment="Center" VerticalAlignment="Center" Margin="2" DataContext="{Binding ElementName=_this}" Text="{Binding WidthRange, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBox x:Name="TextBoxHeightRange" Grid.Row="1" Grid.Column="1"  TextAlignment="Center" VerticalAlignment="Center" Margin="2" DataContext="{Binding ElementName=_this}" Text="{Binding HeightRange, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBox x:Name="TextBoxXRange" Grid.Row="1" Grid.Column="2"  TextAlignment="Center" VerticalAlignment="Center" Margin="2" DataContext="{Binding ElementName=_this}" Text="{Binding XOffsetRange, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBox x:Name="TextBoxYRange" Grid.Row="1" Grid.Column="3"  TextAlignment="Center" VerticalAlignment="Center" Margin="2" DataContext="{Binding ElementName=_this}" Text="{Binding YOffsetRange, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                    <TextBlock x:Name="TextBlockAutoTuneProgress" Text="Progress:" Grid.Row="2" Grid.Column="0" TextAlignment="Right"/>
+                    <ProgressBar x:Name="ProgressBarAuto" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" Height="10" Margin="6"/>
+                    <Button x:Name="ButtonAutoTune" Content="Auto" Grid.Row="0" Grid.RowSpan="3" Grid.Column="4" Margin="6" Click="ButtonAutoTune_Click" IsEnabled="False"></Button>
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+
+        <ScrollViewer x:Name="ScrollViewer1" Grid.Row="1" Grid.Column="0" Margin="12" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" CanContentScroll="true" >
+            <Canvas x:Name="Canvas1" Background="LightGray">
+                <Image x:Name="Image1"
+                            Width="{Binding ElementName=Canvas2, Path=ActualWidth}"
+                            Height="{Binding ElementName=Canvas2, Path=ActualHeight}"
+                            Canvas.Left="0"
+                            Canvas.Top="0"
+                            OpacityMask="{x:Null}"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Top"
+                            MouseWheel="OnImageMouseWheel"
+                            MouseDown="OnImageMouseDown"
+                            MouseUp="OnImageMouseUp"
+                            MouseMove="OnImageMouseMove"
+                            SizeChanged="OnImageSizeChanged"
+                            Stretch="Uniform"
+                            RenderOptions.BitmapScalingMode="HighQuality">
+                </Image>
+            </Canvas>
+        </ScrollViewer>
+        <ScrollViewer x:Name="ScrollViewer2" Grid.Row="1" Grid.Column="1" Margin="12" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" CanContentScroll="true">
+            <Canvas x:Name="Canvas2" Background="LightGray">
+                <Image x:Name="Image2"
+                            Width="{Binding ElementName=Canvas2, Path=ActualWidth}"
+                            Height="{Binding ElementName=Canvas2, Path=ActualHeight}"
+                            Canvas.Left="0"
+                            Canvas.Top="0"
+                            OpacityMask="{x:Null}"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Top"
+                            MouseWheel="OnImageMouseWheel"
+                            SizeChanged="OnImageSizeChanged"
+                            Stretch="Uniform"
+                            RenderOptions.BitmapScalingMode="HighQuality">
+                </Image>
+            </Canvas>
+        </ScrollViewer>
+        <ScrollViewer x:Name="ScrollViewer3" Grid.Row="2" Grid.Column="0" Margin="12" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" CanContentScroll="true" Background="LightGray">
+            <Image x:Name="Image3"
+                            OpacityMask="{x:Null}"
+                            MouseWheel="OnImageMouseWheel"
+                            SizeChanged="OnImageSizeChanged"
+                            Stretch="None"
+                            RenderOptions.BitmapScalingMode="HighQuality">
+                </Image>
+        </ScrollViewer>
+        <ScrollViewer x:Name="ScrollViewer4" Grid.Row="2" Grid.Column="1" Margin="12" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" CanContentScroll="true" Background="LightGray">
+            
+                <Image x:Name="Image4"
+                            Width="{Binding ElementName=Canvas4, Path=ActualWidth}"
+                            Height="{Binding ElementName=Canvas4, Path=ActualHeight}"
+                            Canvas.Left="0"
+                            Canvas.Top="0"
+                            OpacityMask="{x:Null}"
+                            HorizontalAlignment="Left"
+                            VerticalAlignment="Top"
+                            MouseWheel="OnImageMouseWheel"
+                            SizeChanged="OnImageSizeChanged"
+                            Stretch="Uniform"
+                            RenderOptions.BitmapScalingMode="HighQuality">
+                </Image>
+            
+        </ScrollViewer>
+        <StatusBar  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2">
+            <StatusBarItem>
+                <TextBlock x:Name="statusBarText" />
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

@@ -1,0 +1,68 @@
+﻿<Window x:Class="Sequlite.UI.View.SearchAccountView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sequlite.UI.View"
+         xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner"
+        Title="Search User Account" Height="400" Width="600">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/StyleDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            </ResourceDictionary>
+        </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Style="{StaticResource PageBorderStyle}" Margin="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Content="Login Name:" />
+                <TextBox  Grid.Column="1" Text="{Binding SearchUserName, UpdateSourceTrigger=PropertyChanged}" Margin="2"/>
+
+                <wpfFramework:ImageButton Width="32" Height="32" Grid.Row="0" Grid.Column="2" 
+                                          Command="{Binding SearchCommand}" Margin="4"
+                                          Style="{StaticResource btnAction}"  
+                        
+                        ImageContent="pack://application:,,,/Resources/Images/search.png"
+                            ToolTip="Search Account" HorizontalAlignment="Left">
+                    <!--<Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Image Stretch="Uniform" Source="pack://application:,,,/Resources/Images/search.png"></Image>
+                        </ControlTemplate>
+                    </Button.Template>-->
+                </wpfFramework:ImageButton>
+            </Grid>
+        </Border>
+        <Border Grid.Row="1" Style="{StaticResource PageBorderStyle}" Margin="5">
+            <ListView ItemsSource="{Binding UserAccounts}"  SelectedItem="{Binding UserAccount}"
+                      ScrollViewer.HorizontalScrollBarVisibility="Hidden" SelectionMode="Single">
+            </ListView>
+        </Border>
+
+        <Border Grid.Row="2" Style="{StaticResource PageBorderStyle}" Margin="10" BorderThickness="0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition  />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" Content="OK" Width="80" Command="{Binding OKCommand}"
+                        />
+                <Button Grid.Column="1" Content="Cancel" IsCancel="True" IsDefault="True" 
+                        Width="80"/>
+            </Grid>
+            
+        </Border>
+    </Grid>
+</Window>

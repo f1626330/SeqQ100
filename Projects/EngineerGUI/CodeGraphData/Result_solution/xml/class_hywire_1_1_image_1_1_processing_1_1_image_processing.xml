@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_image_1_1_processing_1_1_image_processing" kind="class" prot="public">
+    <compoundname>Hywire::Image::Processing::ImageProcessing</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a0c7519a0a0de1c2dd88f05ee38627c3a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>WriteableBitmap</type>
+        <definition>static WriteableBitmap Hywire.Image.Processing.ImageProcessing.Load</definition>
+        <argsstring>(String @sFilePath)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>String @</type>
+          <declname>sFilePath</declname>
+        </param>
+        <briefdescription>
+<para>load image file </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sFileName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>file name</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" bodystart="18" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a3e22cb585776cd9af1e316d83dd2f151" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Hywire.Image.Processing.ImageProcessing.Save</definition>
+        <argsstring>(string strFilePath, WriteableBitmap srcImage, ImageInfo srcImageInfo, bool bCompressed, bool bOverrideDefaultDpi=false)</argsstring>
+        <name>Save</name>
+        <param>
+          <type>string</type>
+          <declname>strFilePath</declname>
+        </param>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+          <declname>srcImageInfo</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bCompressed</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bOverrideDefaultDpi</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" bodystart="39" bodyend="153"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel_1a9f179d09d76c919a83a6badff65f5eb0" compoundref="_sequlite_8_a_l_f_8_imaging_2_image_info_8cs" startline="40">Sequlite.ALF.Imaging.ImageChannel.IsInvertChecked</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info_1a08bc97934c485628dbbf1235ba59895c" compoundref="_sequlite_8_a_l_f_8_imaging_2_image_info_8cs" startline="139">Sequlite.ALF.Imaging.ImageInfo.MixChannel</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a400e525a80111454ef4ca5e0c5b71c11" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>static unsafe WriteableBitmap Hywire.Image.Processing.ImageProcessing.Invert</definition>
+        <argsstring>(WriteableBitmap srcBitmap)</argsstring>
+        <name>Invert</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcBitmap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" line="155" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" bodystart="155" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a7c9e460d83dd3ceccced08b086c83c32" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.Image.Processing.ImageProcessing.ObjectToByteArray</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>ObjectToByteArray</name>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" line="187" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" bodystart="187" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1aaaa19cf5050dd3b6a57289de9b078063" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Object</type>
+        <definition>static Object Hywire.Image.Processing.ImageProcessing.ByteArrayToObject</definition>
+        <argsstring>(byte[] arrBytes)</argsstring>
+        <name>ByteArrayToObject</name>
+        <param>
+          <type>byte[]</type>
+          <declname>arrBytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" line="198" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" bodystart="198" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a4f07c7a8456df57b2b7e1c44b65ce02b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+        <definition>static ImageInfo Hywire.Image.Processing.ImageProcessing.ReadMetadata</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>ReadMetadata</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" line="211" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" bodystart="211" bodyend="248"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a83cb0541695ebc4f0ff675df072dc3f8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>WriteableBitmap</type>
+        <definition>static WriteableBitmap Hywire.Image.Processing.ImageProcessing.CreateWriteableBitmap</definition>
+        <argsstring>(Stream stream)</argsstring>
+        <name>CreateWriteableBitmap</name>
+        <param>
+          <type>Stream</type>
+          <declname>stream</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" line="250" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" bodystart="250" bodyend="280"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.Image.Processing/ImageProcessing.cs" bodystart="11" bodyend="282"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1aaaa19cf5050dd3b6a57289de9b078063" prot="public" virt="non-virtual"><scope>Hywire::Image::Processing::ImageProcessing</scope><name>ByteArrayToObject</name></member>
+      <member refid="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a83cb0541695ebc4f0ff675df072dc3f8" prot="private" virt="non-virtual"><scope>Hywire::Image::Processing::ImageProcessing</scope><name>CreateWriteableBitmap</name></member>
+      <member refid="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a400e525a80111454ef4ca5e0c5b71c11" prot="public" virt="non-virtual"><scope>Hywire::Image::Processing::ImageProcessing</scope><name>Invert</name></member>
+      <member refid="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a0c7519a0a0de1c2dd88f05ee38627c3a" prot="public" virt="non-virtual"><scope>Hywire::Image::Processing::ImageProcessing</scope><name>Load</name></member>
+      <member refid="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a7c9e460d83dd3ceccced08b086c83c32" prot="public" virt="non-virtual"><scope>Hywire::Image::Processing::ImageProcessing</scope><name>ObjectToByteArray</name></member>
+      <member refid="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a4f07c7a8456df57b2b7e1c44b65ce02b" prot="public" virt="non-virtual"><scope>Hywire::Image::Processing::ImageProcessing</scope><name>ReadMetadata</name></member>
+      <member refid="class_hywire_1_1_image_1_1_processing_1_1_image_processing_1a3e22cb585776cd9af1e316d83dd2f151" prot="public" virt="non-virtual"><scope>Hywire::Image::Processing::ImageProcessing</scope><name>Save</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

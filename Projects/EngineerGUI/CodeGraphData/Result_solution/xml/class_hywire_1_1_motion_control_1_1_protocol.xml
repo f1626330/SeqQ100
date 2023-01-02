@@ -1,0 +1,285 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_motion_control_1_1_protocol" kind="class" prot="package">
+    <compoundname>Hywire::MotionControl::Protocol</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1a243869f7a0487ffee741037b63a5bd8d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.GetControllerVersion</definition>
+        <argsstring>()</argsstring>
+        <name>GetControllerVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="32" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1ac33bd069bdadcc2088c8826edcdc9c64" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.GetMotionStates</definition>
+        <argsstring>()</argsstring>
+        <name>GetMotionStates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="40" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1a1b3f14f69686562133e4bd62f3b5484b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.SetStartSpeed</definition>
+        <argsstring>(MotorTypes motion, int startSpeed)</argsstring>
+        <name>SetStartSpeed</name>
+        <param>
+          <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+          <declname>motion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startSpeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="48" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="48" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1a302567b3cce9fd559cefb5b82113f28c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.SetTopSpeed</definition>
+        <argsstring>(MotorTypes motion, int topSpeed)</argsstring>
+        <name>SetTopSpeed</name>
+        <param>
+          <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+          <declname>motion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>topSpeed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="57" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1a003d28385d868b28678766d6bc903dfe" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.SetAcceleration</definition>
+        <argsstring>(MotorTypes motion, int accVal)</argsstring>
+        <name>SetAcceleration</name>
+        <param>
+          <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+          <declname>motion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>accVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="66" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="66" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1a6e0999c6c292073a760b14a858b1cd8a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.SetDeceleration</definition>
+        <argsstring>(MotorTypes motion, int dccVal)</argsstring>
+        <name>SetDeceleration</name>
+        <param>
+          <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+          <declname>motion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dccVal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="75" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="75" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1a276bb211235bf280fdabd0a149ba6404" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.SetDccPos</definition>
+        <argsstring>(MotorTypes motion, int dccPos)</argsstring>
+        <name>SetDccPos</name>
+        <param>
+          <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+          <declname>motion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dccPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="84" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="84" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1ab4b07c8fa5c8fae00d5cbb18078b300c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.SetTgtPos</definition>
+        <argsstring>(MotorTypes motion, int tgtPos)</argsstring>
+        <name>SetTgtPos</name>
+        <param>
+          <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+          <declname>motion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tgtPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="93" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="93" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1a67dfed416e2aed81e5f83416f8d88a76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.GetCrntPos</definition>
+        <argsstring>(MotorTypes motion)</argsstring>
+        <name>GetCrntPos</name>
+        <param>
+          <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+          <declname>motion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="102" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="102" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1a401a0f180976e23d48566b8bd1d66c71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.SetMotionStart</definition>
+        <argsstring>(MotorTypes motion, bool start)</argsstring>
+        <name>SetMotionStart</name>
+        <param>
+          <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+          <declname>motion</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>start</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="111" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="111" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1a8fb7a1c6c32c679dd6c6a2d9111c08c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.SetMotionEnable</definition>
+        <argsstring>(MotorTypes motion, bool enable)</argsstring>
+        <name>SetMotionEnable</name>
+        <param>
+          <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+          <declname>motion</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="120" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="120" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1ad15cbf7b104d28db197954826bf1e8a0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.SetMotionHome</definition>
+        <argsstring>(MotorTypes motion)</argsstring>
+        <name>SetMotionHome</name>
+        <param>
+          <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+          <declname>motion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="129" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="129" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_protocol_1a6e8090802dfc9533a498854ca5a9e361" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte [] Hywire.MotionControl.Protocol.SetMotionPolarities</definition>
+        <argsstring>(MotionSignalPolarity polar_x, MotionSignalPolarity polar_y, MotionSignalPolarity polar_z, MotionSignalPolarity polar_w)</argsstring>
+        <name>SetMotionPolarities</name>
+        <param>
+          <type><ref refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity" kindref="compound">MotionSignalPolarity</ref></type>
+          <declname>polar_x</declname>
+        </param>
+        <param>
+          <type><ref refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity" kindref="compound">MotionSignalPolarity</ref></type>
+          <declname>polar_y</declname>
+        </param>
+        <param>
+          <type><ref refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity" kindref="compound">MotionSignalPolarity</ref></type>
+          <declname>polar_z</declname>
+        </param>
+        <param>
+          <type><ref refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity" kindref="compound">MotionSignalPolarity</ref></type>
+          <declname>polar_w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="138" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="138" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/Protocol.cs" bodystart="30" bodyend="149"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1a243869f7a0487ffee741037b63a5bd8d" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>GetControllerVersion</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1a67dfed416e2aed81e5f83416f8d88a76" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>GetCrntPos</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1ac33bd069bdadcc2088c8826edcdc9c64" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>GetMotionStates</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1a003d28385d868b28678766d6bc903dfe" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>SetAcceleration</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1a276bb211235bf280fdabd0a149ba6404" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>SetDccPos</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1a6e0999c6c292073a760b14a858b1cd8a" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>SetDeceleration</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1a8fb7a1c6c32c679dd6c6a2d9111c08c8" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>SetMotionEnable</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1ad15cbf7b104d28db197954826bf1e8a0" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>SetMotionHome</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1a6e8090802dfc9533a498854ca5a9e361" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>SetMotionPolarities</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1a401a0f180976e23d48566b8bd1d66c71" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>SetMotionStart</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1a1b3f14f69686562133e4bd62f3b5484b" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>SetStartSpeed</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1ab4b07c8fa5c8fae00d5cbb18078b300c" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>SetTgtPos</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_protocol_1a302567b3cce9fd559cefb5b82113f28c" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::Protocol</scope><name>SetTopSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings" kind="class" prot="package">
+    <compoundname>Sequlite::ALF::EthernetCamera::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings_1aa95cdf609edeae04eca98f994617af3f" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Sequlite.ALF.EthernetCamera.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/Properties/Settings.Designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings_1a4c4388f17bb5896fa4e0c58a2ce2527d" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Sequlite.ALF.EthernetCamera.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1191">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1190">
+        <label>Sequlite.ALF.EthernetCamera.Properties.Settings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings"/>
+        <childnode refid="1191" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1193">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="1192">
+        <label>Sequlite.ALF.EthernetCamera.Properties.Settings</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings"/>
+        <childnode refid="1193" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1194" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="1194">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/Properties/Settings.Designer.cs" line="16" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/Properties/Settings.Designer.cs" bodystart="16" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings_1a4c4388f17bb5896fa4e0c58a2ce2527d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EthernetCamera::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_properties_1_1_settings_1aa95cdf609edeae04eca98f994617af3f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EthernetCamera::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

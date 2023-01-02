@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_common" kind="namespace">
+    <compoundname>Sequlite::ALF::Common</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings" prot="public">Sequlite::ALF::Common::AutoFocusSettings</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_binning_factor_type" prot="public">Sequlite::ALF::Common::BinningFactorType</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_gain_type" prot="public">Sequlite::ALF::Common::GainType</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_readout_type" prot="public">Sequlite::ALF::Common::ReadoutType</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings" prot="public">Sequlite::ALF::Common::CameraSettings</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_fluidics_settings" prot="public">Sequlite::ALF::Common::FluidicsSettings</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_settings" prot="public">Sequlite::ALF::Common::MotionSettings</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_motion_ranges" prot="public">Sequlite::ALF::Common::MotionRanges</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_setting_range" prot="public">Sequlite::ALF::Common::SettingRange</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" prot="public" static="no">
+        <name>LEDTypes</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1dfad382816a3cbeed082c9e216e7392eed1" prot="public">
+          <name>Green</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1dfaee38e4d5dd68c4e440825018d549cb47" prot="public">
+          <name>Red</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1dfa25a81701fbfa4a1efdf660a950c1d006" prot="public">
+          <name>White</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="5" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1b" prot="public" static="no">
+        <name>MotionTypes</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1ba6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1bad7778d0c64b6ba21494c97f77a66885a" prot="public">
+          <name>Filter</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1ba65c7f0c2ea691dd0e8b4c62579533b1a" prot="public">
+          <name>YStage</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1ba0f42b882928055fed3465103d094b607" prot="public">
+          <name>ZStage</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_common_1afc17335eb938c1013244cc64563abf1baff348f109bf581d37c90c393f0b87f9f" prot="public">
+          <name>Cartridge</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/MotionSettings.cs" bodystart="18" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

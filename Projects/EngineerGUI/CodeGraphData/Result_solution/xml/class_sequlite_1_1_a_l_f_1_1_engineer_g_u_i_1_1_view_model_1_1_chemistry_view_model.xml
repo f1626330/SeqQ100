@@ -1,0 +1,1169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ac3ad71a9655e828d6a11b9df9dc42bd9" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._ChemiTemperGet</definition>
+        <argsstring></argsstring>
+        <name>_ChemiTemperGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="17" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a9db90b5324b84d593cd5cbd8d02ed5f5" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._ChemiTemperSet</definition>
+        <argsstring></argsstring>
+        <name>_ChemiTemperSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="18" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ac5342bd7b353021ae0acf6cba55c9ee6" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._IsChemiTemperCtrlOnGet</definition>
+        <argsstring></argsstring>
+        <name>_IsChemiTemperCtrlOnGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="19" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1af14c0660cf39dfb3d888c7147a7435d2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._IsChemiTemperCtrlOnSet</definition>
+        <argsstring></argsstring>
+        <name>_IsChemiTemperCtrlOnSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="20" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a10230bcf1fd7e74267ac9ef6e0ef5876" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._ChemiTemperCtrlRampGet</definition>
+        <argsstring></argsstring>
+        <name>_ChemiTemperCtrlRampGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="21" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1accd27fd8712d0dab133c2bc61b4d0d53" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._ChemiTemperCtrlRampSet</definition>
+        <argsstring></argsstring>
+        <name>_ChemiTemperCtrlRampSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="22" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ab7ba974952d892cfc469f949c31d4ef8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._ChemiTemperCtrlPowerGet</definition>
+        <argsstring></argsstring>
+        <name>_ChemiTemperCtrlPowerGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="23" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1afafbc554f7573d1e7de3698b333f02d2" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._ChemiTemperCtrlPowerSet</definition>
+        <argsstring></argsstring>
+        <name>_ChemiTemperCtrlPowerSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="24" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a48c01cf85572ef217d17c2030cadd09b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._HeatSinkTemper</definition>
+        <argsstring></argsstring>
+        <name>_HeatSinkTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="25" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a3bfe15f1bcf16b87462d9cdf4eae297a" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._CoolerTemperGet</definition>
+        <argsstring></argsstring>
+        <name>_CoolerTemperGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="26" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a2732635f98c37b6180911fe38937a5bd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._CoolerTemperSet</definition>
+        <argsstring></argsstring>
+        <name>_CoolerTemperSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="27" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aa0cbb3546a24ef7cddb14ffb0a5a66ed" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._AmbientTemper</definition>
+        <argsstring></argsstring>
+        <name>_AmbientTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="28" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ab9f46f1c8b59d33b545234593fbb0add" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._TemperCtrlKp</definition>
+        <argsstring></argsstring>
+        <name>_TemperCtrlKp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="29" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a10fcba1ac3538b28541fe65db0fd6668" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._TemperCtrlKi</definition>
+        <argsstring></argsstring>
+        <name>_TemperCtrlKi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="30" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a701f5d26f64d0d89085dbd22c9a64ac0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._TemperCtrlKd</definition>
+        <argsstring></argsstring>
+        <name>_TemperCtrlKd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="31" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ae0c4e1ff4d27bf203ea6395a7cba849e" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._SampleInterval</definition>
+        <argsstring></argsstring>
+        <name>_SampleInterval</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="32" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a60bf7705f8d485bf5e29ab74a0d15be8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._ChemiTemperSetLimitHigh</definition>
+        <argsstring></argsstring>
+        <name>_ChemiTemperSetLimitHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="33" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a0d31da2cf972106587196df455f1308b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._ChemiTemperSetLimitLow</definition>
+        <argsstring></argsstring>
+        <name>_ChemiTemperSetLimitLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="34" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ac674940f7b9c3dfc5a4ed68a6125f868" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._ChemiTemperRampSetLimitHigh</definition>
+        <argsstring></argsstring>
+        <name>_ChemiTemperRampSetLimitHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="35" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1af9b934c0c2de22878a77f4f7adcdf365" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._ChemiTemperRampSetLimitLow</definition>
+        <argsstring></argsstring>
+        <name>_ChemiTemperRampSetLimitLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="36" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a9a5870c2bda6c7c4a3350fa785aa9f5c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._TemperCtrlMaxCrnt</definition>
+        <argsstring></argsstring>
+        <name>_TemperCtrlMaxCrnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="37" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a39a7d26ea27b45b5f6e8e5a5d4b417c0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._SetTemperCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetTemperCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="329" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a0b85f103ae4114e18adf03e065ad2fcf" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._SetTemperRampCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetTemperRampCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="374" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a86401579e7681e12cb9b8f2016879055" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._SaveDataCmd</definition>
+        <argsstring></argsstring>
+        <name>_SaveDataCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="399" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1add2d4871e13a983016d8bd146ddd2814" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._VisitTemperCtrlParaCmd</definition>
+        <argsstring></argsstring>
+        <name>_VisitTemperCtrlParaCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="455" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a87bd34ded30b8766411d1cb3bae1cd4b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._SetCoolerTemperCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetCoolerTemperCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="488" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="488" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aad4a6370ebc07e837777838128a3fd49" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel._SetSampleIntervalCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetSampleIntervalCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="516" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="516" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a700e1c53bb5e04d8550833e772480029" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableDataSource&lt; <ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref> &gt;</type>
+        <definition>ObservableDataSource&lt;Point&gt; Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperLine</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="56" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a72d10029ed0b2fd6e1cb5ce981352d73" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableDataSource&lt; <ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref> &gt;</type>
+        <definition>ObservableDataSource&lt;Point&gt; Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.HeatSinkTemperLine</definition>
+        <argsstring></argsstring>
+        <name>HeatSinkTemperLine</name>
+        <initializer>= new ObservableDataSource&lt;<ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="57" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1af2262839d43993b9eca16cff610ab703" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableDataSource&lt; <ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref> &gt;</type>
+        <definition>ObservableDataSource&lt;Point&gt; Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.CoolerTemperLine</definition>
+        <argsstring></argsstring>
+        <name>CoolerTemperLine</name>
+        <initializer>= new ObservableDataSource&lt;<ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="58" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a48414d5528f40b5e812209d6e4874a5f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableDataSource&lt; <ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref> &gt;</type>
+        <definition>ObservableDataSource&lt;Point&gt; Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.AmbientTemperLine</definition>
+        <argsstring></argsstring>
+        <name>AmbientTemperLine</name>
+        <initializer>= new ObservableDataSource&lt;<ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="59" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1acbff2734c55effa23a678ca3024cecd0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperGet</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperGet</name>
+        <initializer>= new ObservableDataSource&lt;<ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="60" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a91dc4e85240634211d135b0c8162a882" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperSet</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="72" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a63f90f491d3afc111b39920dae0046bf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperRampSet</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperRampSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="91" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a9c1566aef4cf4e700431c643c506ee89" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.IsChemiTemperCtrlOnGet</definition>
+        <argsstring></argsstring>
+        <name>IsChemiTemperCtrlOnGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="110" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a4caaf7eff1ded30abdd302bfe60331c2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.IsChemiTemperCtrlOnSet</definition>
+        <argsstring></argsstring>
+        <name>IsChemiTemperCtrlOnSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="122" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a37d624ea25b9ec1f2327909478b36e3f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperCtrlRampGet</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperCtrlRampGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="134" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a6182c0afa9fd31ee35905388fb25f0dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperCtrlRampSet</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperCtrlRampSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="146" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aa8ae23754c9a58220f9215eeb1605925" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperCtrlPowerGet</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperCtrlPowerGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="158" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a515e026e684b2ce2c5bad11925368bda" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperCtrlPowerSet</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperCtrlPowerSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="170" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ae0f7f87cc3f02b1908934c989f9a4cd8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.HeatSinkTemper</definition>
+        <argsstring></argsstring>
+        <name>HeatSinkTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="182" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1af977fab93668bd3b77a83f741b3c5e4d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.CoolerTemperGet</definition>
+        <argsstring></argsstring>
+        <name>CoolerTemperGet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="194" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ae537eed7f923ea871dc0c775803eeebe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.CoolerTemperSet</definition>
+        <argsstring></argsstring>
+        <name>CoolerTemperSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="206" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a88c7ca6eb97df2f6c08e4b5f56e88311" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.AmbientTemper</definition>
+        <argsstring></argsstring>
+        <name>AmbientTemper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="218" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ab4afda21f43a58b12c467183f145de3c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.TemperCtrlKp</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlKp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="230" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a051debbf65a18db9ef085d0097138967" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.TemperCtrlKi</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlKi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="242" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a3a155af709145154856a0dfbd8c3c0ad" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.TemperCtrlKd</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlKd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="254" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a5e35afe3bb078e2952cb0a8d9618f7bc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.SampleInterval</definition>
+        <argsstring></argsstring>
+        <name>SampleInterval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="266" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="267" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1afec579d77f456441741a9876064de097" compoundref="_main_board_view_model_8cs" startline="522" endline="574">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.QueryingProcess</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a252f29ca87d5aa097dc3bf074ac0a480" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperSetLimitHigh</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperSetLimitHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="285" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a3692ce8c7d57ecd283226197ae8bbf67" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperSetLimitLow</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperSetLimitLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="289" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a7724e68b0d6c8bd531c07fa8f7ff3d7c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperRampSetLimitHigh</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperRampSetLimitHigh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="293" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a9449ee7745c3585b2fc88cdb3e27fb1e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemiTemperRampSetLimitLow</definition>
+        <argsstring></argsstring>
+        <name>ChemiTemperRampSetLimitLow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="297" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aeb623b56529895fe40a21a6edae5a288" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.TemperCtrlMaxCrnt</definition>
+        <argsstring></argsstring>
+        <name>TemperCtrlMaxCrnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="301" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ab12a6c3aa337d63a1f52a07cf5fb6a43" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.SetTemperCmd</definition>
+        <argsstring></argsstring>
+        <name>SetTemperCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="330" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aa5deba0a383551156aa0789e71226b43" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.SetTemperRampCmd</definition>
+        <argsstring></argsstring>
+        <name>SetTemperRampCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="375" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a448fcb19b6d6551cbf1cea87336a923b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.SaveDataCmd</definition>
+        <argsstring></argsstring>
+        <name>SaveDataCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="400" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a93a07c40ff4fa89981215affc4f46a83" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.VisitTemperCtrlParaCmd</definition>
+        <argsstring></argsstring>
+        <name>VisitTemperCtrlParaCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="456" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a24af5c38e2599af0fb242e6699324eed" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.SetCoolerTemperCmd</definition>
+        <argsstring></argsstring>
+        <name>SetCoolerTemperCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="489" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="490" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1affdee5e6d8684e06749ce769d272655b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.SetSampleIntervalCmd</definition>
+        <argsstring></argsstring>
+        <name>SetSampleIntervalCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="517" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="518" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a950b786414fdeafe4457498458ce6e25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ChemistryViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>ChemistryViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="41" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="41" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1afc42a173647dd81a0e5fd0fc13bff19b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="44" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="44" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a26ea37947a39a0fce48d2e6b1b26d2bf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSetTemperCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetTemperCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="342" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="342" bodyend="365"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab19fa62fd1881c7f2edb044097d7d23b" compoundref="_main_board_view_model_8cs" startline="155">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.MainBoard</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af637674b4bc00a0ba294a8a16710a510" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="101">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MainBoardVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a5cb850288e007d047ec71d248a227c36" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.CanExecuteSetTemperCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetTemperCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="367" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="367" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a4e0bbaa1484275a94291d96ae7adc957" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSetTemperRampCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetTemperRampCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="387" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="387" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a9885bc6d02e327cb3d7a965e7bb8ef27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.CanExecuteSetTemperRampCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetTemperRampCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="392" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="392" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a5e10393ce6ba62954974fa71dfcbaead" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSaveDataCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSaveDataCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="412" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="412" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aa0b6314b34ecbd74d20a8851b5395330" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.CanExecuteSaveDataCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSaveDataCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="448" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="448" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1af800705717c5959d4c4eb3c1a67f33c3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteGetTemperCtrlParaCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteGetTemperCtrlParaCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="468" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="468" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ae2777a4674b777c966c8a9daf2137f50" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.CanExecuteGetTemperCtrlParaCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteGetTemperCtrlParaCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="481" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="481" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a192f5b1184316171dd65a6a6b8a569d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSetCoolerTemperCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetCoolerTemperCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="501" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="501" bodyend="507"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model_1ab19fa62fd1881c7f2edb044097d7d23b" compoundref="_main_board_view_model_8cs" startline="155">Sequlite.ALF.EngineerGUI.ViewModel.MainBoardViewModel.MainBoard</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af637674b4bc00a0ba294a8a16710a510" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="101">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.MainBoardVM</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace_1af97aac8b7ff8b55ebbd2bbe589d1d792" compoundref="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_engineer_g_u_i_2_view_model_2_workspace_8cs" startline="12">Sequlite.ALF.EngineerGUI.ViewModel.Workspace.This</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a756420e7f27f8fef3aee06ed3e07dfb4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.CanExecuteSetCoolerTemperCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetCoolerTemperCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="509" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="509" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a668717fc7e8e285874403fed428b3e35" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.ExecuteSetSampleIntervalCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetSampleIntervalCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="529" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="529" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a34711fb358ae82cf9a0323db7e244046" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel.CanExecuteSetSampleIntervalCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetSampleIntervalCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="534" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="534" bodyend="537"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="251">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model"/>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="254">
+        <label>IDisposable</label>
+      </node>
+      <node id="252">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+        <childnode refid="254" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="255">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.ChemistryViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+        <childnode refid="259" relation="usage">
+          <edgelabel>_SetTemperRampCmd</edgelabel>
+          <edgelabel>_SetCoolerTemperCmd</edgelabel>
+          <edgelabel>_VisitTemperCtrlParaCmd</edgelabel>
+          <edgelabel>_SaveDataCmd</edgelabel>
+          <edgelabel>_SetSampleIntervalCmd</edgelabel>
+          <edgelabel>_SetTemperCmd</edgelabel>
+        </childnode>
+      </node>
+      <node id="260">
+        <label>ICommand</label>
+      </node>
+      <node id="257">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="258">
+        <label>IDisposable</label>
+      </node>
+      <node id="256">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="257" relation="public-inheritance">
+        </childnode>
+        <childnode refid="258" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="260" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" line="15" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/ChemistryViewModel.cs" bodystart="14" bodyend="539"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aa0cbb3546a24ef7cddb14ffb0a5a66ed" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_AmbientTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ab7ba974952d892cfc469f949c31d4ef8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_ChemiTemperCtrlPowerGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1afafbc554f7573d1e7de3698b333f02d2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_ChemiTemperCtrlPowerSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a10230bcf1fd7e74267ac9ef6e0ef5876" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_ChemiTemperCtrlRampGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1accd27fd8712d0dab133c2bc61b4d0d53" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_ChemiTemperCtrlRampSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ac3ad71a9655e828d6a11b9df9dc42bd9" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_ChemiTemperGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ac674940f7b9c3dfc5a4ed68a6125f868" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_ChemiTemperRampSetLimitHigh</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1af9b934c0c2de22878a77f4f7adcdf365" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_ChemiTemperRampSetLimitLow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a9db90b5324b84d593cd5cbd8d02ed5f5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_ChemiTemperSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a60bf7705f8d485bf5e29ab74a0d15be8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_ChemiTemperSetLimitHigh</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a0d31da2cf972106587196df455f1308b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_ChemiTemperSetLimitLow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a3bfe15f1bcf16b87462d9cdf4eae297a" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_CoolerTemperGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a2732635f98c37b6180911fe38937a5bd" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_CoolerTemperSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a48c01cf85572ef217d17c2030cadd09b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_HeatSinkTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ac5342bd7b353021ae0acf6cba55c9ee6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_IsChemiTemperCtrlOnGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1af14c0660cf39dfb3d888c7147a7435d2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_IsChemiTemperCtrlOnSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ae0c4e1ff4d27bf203ea6395a7cba849e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_SampleInterval</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a86401579e7681e12cb9b8f2016879055" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_SaveDataCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a87bd34ded30b8766411d1cb3bae1cd4b" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_SetCoolerTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aad4a6370ebc07e837777838128a3fd49" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_SetSampleIntervalCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a39a7d26ea27b45b5f6e8e5a5d4b417c0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_SetTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a0b85f103ae4114e18adf03e065ad2fcf" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_SetTemperRampCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a701f5d26f64d0d89085dbd22c9a64ac0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_TemperCtrlKd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a10fcba1ac3538b28541fe65db0fd6668" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_TemperCtrlKi</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ab9f46f1c8b59d33b545234593fbb0add" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_TemperCtrlKp</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a9a5870c2bda6c7c4a3350fa785aa9f5c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_TemperCtrlMaxCrnt</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1add2d4871e13a983016d8bd146ddd2814" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>_VisitTemperCtrlParaCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a88c7ca6eb97df2f6c08e4b5f56e88311" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>AmbientTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a48414d5528f40b5e812209d6e4874a5f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>AmbientTemperLine</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ae2777a4674b777c966c8a9daf2137f50" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>CanExecuteGetTemperCtrlParaCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aa0b6314b34ecbd74d20a8851b5395330" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>CanExecuteSaveDataCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a756420e7f27f8fef3aee06ed3e07dfb4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>CanExecuteSetCoolerTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a34711fb358ae82cf9a0323db7e244046" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>CanExecuteSetSampleIntervalCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a5cb850288e007d047ec71d248a227c36" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>CanExecuteSetTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a9885bc6d02e327cb3d7a965e7bb8ef27" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>CanExecuteSetTemperRampCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a950b786414fdeafe4457498458ce6e25" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemistryViewModel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aa8ae23754c9a58220f9215eeb1605925" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperCtrlPowerGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a515e026e684b2ce2c5bad11925368bda" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperCtrlPowerSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a37d624ea25b9ec1f2327909478b36e3f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperCtrlRampGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a6182c0afa9fd31ee35905388fb25f0dd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperCtrlRampSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1acbff2734c55effa23a678ca3024cecd0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a700e1c53bb5e04d8550833e772480029" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperLine</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a63f90f491d3afc111b39920dae0046bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperRampSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a7724e68b0d6c8bd531c07fa8f7ff3d7c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperRampSetLimitHigh</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a9449ee7745c3585b2fc88cdb3e27fb1e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperRampSetLimitLow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a91dc4e85240634211d135b0c8162a882" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperSet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a252f29ca87d5aa097dc3bf074ac0a480" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperSetLimitHigh</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a3692ce8c7d57ecd283226197ae8bbf67" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ChemiTemperSetLimitLow</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1af977fab93668bd3b77a83f741b3c5e4d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>CoolerTemperGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1af2262839d43993b9eca16cff610ab703" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>CoolerTemperLine</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ae537eed7f923ea871dc0c775803eeebe" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>CoolerTemperSet</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1af800705717c5959d4c4eb3c1a67f33c3" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ExecuteGetTemperCtrlParaCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a5e10393ce6ba62954974fa71dfcbaead" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ExecuteSaveDataCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a192f5b1184316171dd65a6a6b8a569d2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ExecuteSetCoolerTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a668717fc7e8e285874403fed428b3e35" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ExecuteSetSampleIntervalCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a26ea37947a39a0fce48d2e6b1b26d2bf" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ExecuteSetTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a4e0bbaa1484275a94291d96ae7adc957" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>ExecuteSetTemperRampCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ae0f7f87cc3f02b1908934c989f9a4cd8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>HeatSinkTemper</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a72d10029ed0b2fd6e1cb5ce981352d73" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>HeatSinkTemperLine</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1afc42a173647dd81a0e5fd0fc13bff19b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>Initialize</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a9c1566aef4cf4e700431c643c506ee89" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>IsChemiTemperCtrlOnGet</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a4caaf7eff1ded30abdd302bfe60331c2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>IsChemiTemperCtrlOnSet</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a5e35afe3bb078e2952cb0a8d9618f7bc" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>SampleInterval</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a448fcb19b6d6551cbf1cea87336a923b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>SaveDataCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a24af5c38e2599af0fb242e6699324eed" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>SetCoolerTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1affdee5e6d8684e06749ce769d272655b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>SetSampleIntervalCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ab12a6c3aa337d63a1f52a07cf5fb6a43" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>SetTemperCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aa5deba0a383551156aa0789e71226b43" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>SetTemperRampCmd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a3a155af709145154856a0dfbd8c3c0ad" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>TemperCtrlKd</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a051debbf65a18db9ef085d0097138967" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>TemperCtrlKi</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1ab4afda21f43a58b12c467183f145de3c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>TemperCtrlKp</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1aeb623b56529895fe40a21a6edae5a288" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>TemperCtrlMaxCrnt</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model_1a93a07c40ff4fa89981215affc4f46a83" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</scope><name>VisitTemperCtrlParaCmd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

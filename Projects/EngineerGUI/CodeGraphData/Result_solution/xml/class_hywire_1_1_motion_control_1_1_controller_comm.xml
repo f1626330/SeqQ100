@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_motion_control_1_1_controller_comm" kind="class" prot="package">
+    <compoundname>Hywire::MotionControl::ControllerComm</compoundname>
+    <basecompoundref refid="class_hywire_1_1_comm_library_1_1_serial_comm_base" prot="public" virt="non-virtual">Hywire.CommLibrary.SerialCommBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_motion_control_1_1_controller_comm_1a8bb629fc8fc578fa19f40f3e161ec7bf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_hywire_1_1_motion_control_1_1_frame" kindref="compound">Frame</ref></type>
+        <definition>Frame Hywire.MotionControl.ControllerComm.Response</definition>
+        <argsstring></argsstring>
+        <name>Response</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/ControllerComm.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/ControllerComm.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_controller_comm_1a003c1c16610a9e9ec928af3d97298505" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.MotionControl.ControllerComm.ControllerComm</definition>
+        <argsstring>()</argsstring>
+        <name>ControllerComm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/ControllerComm.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/ControllerComm.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_controller_comm_1adae29c840b45333ef05ad7fd71d3edac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.MotionControl.ControllerComm.SetStatusIdle</definition>
+        <argsstring>()</argsstring>
+        <name>SetStatusIdle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/ControllerComm.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/ControllerComm.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_hywire_1_1_motion_control_1_1_controller_comm_1a7a945157c9f9f2633a4af748a6f4e5cb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Hywire.MotionControl.ControllerComm.ResponseDetect</definition>
+        <argsstring>(out int detectedFrameIndex)</argsstring>
+        <name>ResponseDetect</name>
+        <reimplements refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a75d160e2aa3c64b61d1295f44854cd4c">ResponseDetect</reimplements>
+        <param>
+          <type>out int</type>
+          <declname>detectedFrameIndex</declname>
+        </param>
+        <briefdescription>
+<para>Inheritance Class must override this function. In this function, Status would be set to &quot;GotResponse&quot; when response is arrived to avoid time out event. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>detectedFrameIndex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Should be set to 0 or last index (start index + frame length) of the response bytes.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/ControllerComm.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/ControllerComm.cs" bodystart="20" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="306">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+      </node>
+      <node id="305">
+        <label>Hywire.MotionControl.ControllerComm</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_controller_comm"/>
+        <childnode refid="306" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="308">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="309" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="309">
+        <label>System</label>
+      </node>
+      <node id="307">
+        <label>Hywire.MotionControl.ControllerComm</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_controller_comm"/>
+        <childnode refid="308" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/ControllerComm.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Hywire.MotionControl/ControllerComm.cs" bodystart="5" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a71d5421637b29094f573bdde3e427b59" prot="protected" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>_TimeOutInMilliSec</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a3be1273eac241f702c74a0bc9243230d" prot="protected" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>_Timer</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a582275bf6b0a7c3c70d795892246246b" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>Close</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1ac54f52f9863960a011aff00f017a17d6" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>CommStatus</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a02a7186547647fb4d1d117df4e74cd18" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>CommTimeOutHandler</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_controller_comm_1a003c1c16610a9e9ec928af3d97298505" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>ControllerComm</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1af1a88b005fb380b8da60d362e361cbc7" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>IsOpened</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1aaf8d5b1116ee2b60174112fb9e4b8ff1" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>OnCommTimeOut</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a2f8a2fa03f1283664ebf778f7f408e00" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>Open</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1af860daf2c9ae673c6f4bb7925933fffa" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>ReadBuf</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1abb5ea5ee52e5eb99ed4d568c4176e82e" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>ReadIndex</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_controller_comm_1a8bb629fc8fc578fa19f40f3e161ec7bf" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>Response</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_controller_comm_1a7a945157c9f9f2633a4af748a6f4e5cb" prot="protected" virt="virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>ResponseDetect</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a4264b603beda69d3d9d5b48bdf6ba006" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>SendBytes</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a846a0d177e040c3a0d8a7e0543b06c9b" prot="public" virt="virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>SendBytes</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a8d0a350c653a9465a9cbba8361015c5c" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>SerialCommBase</name></member>
+      <member refid="class_hywire_1_1_motion_control_1_1_controller_comm_1adae29c840b45333ef05ad7fd71d3edac" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>SetStatusIdle</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1ae3b86709ad5d0b433d57ce5c363fbd83" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>Status</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a8910f94cc02971b4dfa9cfeec8506df1" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>TimeOutInMilliSec</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1aab07c2581e9bc12842502c77d18f4873" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>WaitForStatus</name></member>
+      <member refid="class_hywire_1_1_comm_library_1_1_serial_comm_base_1a834f32a98733091bb2a37e1eb53acc3c" prot="public" virt="non-virtual"><scope>Hywire::MotionControl::ControllerComm</scope><name>WaitForStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

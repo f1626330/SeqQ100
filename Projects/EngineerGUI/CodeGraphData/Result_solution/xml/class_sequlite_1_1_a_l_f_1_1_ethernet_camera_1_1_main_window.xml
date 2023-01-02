@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_main_window" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EthernetCamera::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_main_window_1a69a858ea43312a1069fc4f6d95d76d09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EthernetCamera.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/MainWindow.xaml.cs" line="10" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/MainWindow.xaml.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for MainWindow.xaml </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="735">
+        <label>Window</label>
+      </node>
+      <node id="734">
+        <label>Sequlite.ALF.EthernetCamera.MainWindow</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_main_window"/>
+        <childnode refid="735" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="737">
+        <label>Window</label>
+      </node>
+      <node id="736">
+        <label>Sequlite.ALF.EthernetCamera.MainWindow</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_main_window"/>
+        <childnode refid="737" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/MainWindow.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/MainWindow.xaml.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_main_window_1a69a858ea43312a1069fc4f6d95d76d09" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EthernetCamera::MainWindow</scope><name>MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

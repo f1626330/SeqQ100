@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_4fcd1d40d5d7e32a7d570965c524834e" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries</compoundname>
+    <innerdir refid="dir_3c1cddeb30764dbfba2563ec0239eb83">D:/Source/Alf/Libraries/Hywire.CommLibrary</innerdir>
+    <innerdir refid="dir_c740cfb51cb121d4e6e2b952c9ed8348">D:/Source/Alf/Libraries/Hywire.Image.Processing</innerdir>
+    <innerdir refid="dir_edd36d3f497d1177897473ce9b2385d7">D:/Source/Alf/Libraries/Hywire.MotionControl</innerdir>
+    <innerdir refid="dir_456dece3f122f001fd9dfc108a1bf187">D:/Source/Alf/Libraries/PVCam.NET</innerdir>
+    <innerdir refid="dir_3f2618eaf381200bf2c42a3ffc91d8c1">D:/Source/Alf/Libraries/Sequlite.Adorner</innerdir>
+    <innerdir refid="dir_536c7b476611a2be91a9888cabb95a2b">D:/Source/Alf/Libraries/Sequlite.ALF.Common</innerdir>
+    <innerdir refid="dir_caaa45d3370916b66e700b873b0e8047">D:/Source/Alf/Libraries/Sequlite.ALF.Configuration</innerdir>
+    <innerdir refid="dir_930579ab01411dffa31f1589bfeb7687">D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics</innerdir>
+    <innerdir refid="dir_76ab2d0129b83f9f8cdfc8d0fb7842b3">D:/Source/Alf/Libraries/Sequlite.ALF.Imaging</innerdir>
+    <innerdir refid="dir_773a04a05fa13d3eeea34afbdcc8de4b">D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard</innerdir>
+    <innerdir refid="dir_e01323e00e07501ebb2f18b65da56351">D:/Source/Alf/Libraries/Sequlite.ALF.MotionControl</innerdir>
+    <innerdir refid="dir_ec9ff4bf9a5514ad35b06ece5893a720">D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib</innerdir>
+    <innerdir refid="dir_282882b001d311da050bb83c04307e06">D:/Source/Alf/Libraries/Sequlite.CameraLib</innerdir>
+    <innerdir refid="dir_680902e1fd1455679b373bfe38cdfb54">D:/Source/Alf/Libraries/Sequlite.CommandLib</innerdir>
+    <innerdir refid="dir_c63ff6a97f1cffbe8f6e54470010746c">D:/Source/Alf/Libraries/Sequlite.Image.Processing</innerdir>
+    <innerdir refid="dir_bb5d9e429bc86fc4d1c6dbe8d9d80c3d">D:/Source/Alf/Libraries/Sequlite.IppImaging.NET</innerdir>
+    <innerdir refid="dir_a3d284458714ec704858a4bfa703ed9b">D:/Source/Alf/Libraries/Sequlite.LucidCameraLib</innerdir>
+    <innerdir refid="dir_020ff34dfb8f898e04eef89b0033cb8b">D:/Source/Alf/Libraries/Sequlite.WPF.Framework</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/"/>
+  </compounddef>
+</doxygen>

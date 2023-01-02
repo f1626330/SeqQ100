@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CheckPage_Instruction" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;u&gt; Check:&lt;/u&gt; System verifies everything is in order (hardware, user input, etc.).&lt;/h4&gt;
+              &lt;ul&gt;
+                    &lt;li&gt;User interaction fields:
+                        &lt;ol&gt; 
+                          &lt;li&gt;Start Run:&lt;/li&gt;
+                        &lt;/ol&gt;
+                    &lt;/li&gt;
+              &lt;/ul&gt;  
+  
+              &lt;ul&gt;
+                    &lt;li&gt;System Checks
+                      &lt;ol&gt; 
+                          &lt;li&gt;Doors Closed&lt;/li&gt;
+                          &lt;li&gt;Consumables Loaded&lt;/li&gt;
+                          &lt;li&gt;Required Software&lt;/li&gt;
+                          &lt;li&gt;Instrument Disk Space&lt;/li&gt;
+                          &lt;li&gt;Network Connection&lt;/li&gt;
+                          &lt;li&gt;Network Disk Space&lt;/li&gt;
+                      &lt;/ol&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Temperature&lt;/li&gt;
+                    &lt;li&gt;Image System&lt;/li&gt;
+                    &lt;li&gt;Reagent Delivery&lt;/li&gt;
+              &lt;/ul&gt; 
+  
+               &lt;ul&gt;
+                    &lt;li&gt;Other notes:
+                      &lt;ol&gt; 
+                          &lt;li&gt; &lt;/li&gt;
+                      &lt;/ol&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;</value>
+  </data>
+  <data name="LoadPage_Instruction" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;u&gt; Load:&lt;/u&gt; Instructs the user to load the flow cell, cartridge, waste, etc.&lt;/h4&gt;
+              &lt;ul&gt;
+                    &lt;li&gt;User interaction fields:
+                      &lt;ol&gt; 
+                          &lt;li&gt;Next(Buttons) to move to the next component to be loaded&lt;/li&gt;
+                          &lt;li&gt;Grace Hopper&lt;/li&gt;
+                          &lt;li&gt;Load(Buttons)&lt;/li&gt;
+                      &lt;/ol&gt;
+                    &lt;/li&gt;
+              &lt;/ul&gt;  
+  
+              &lt;ul&gt;
+                    &lt;li&gt;Display info:
+                      &lt;ol&gt; 
+                          &lt;li&gt;Diagram or animation showing flow cell loading&lt;/li&gt;
+                          &lt;li&gt;Diagram or animation showing reagent cartridge loading&lt;/li&gt;
+                          &lt;li&gt;Diagram or animation showing buffer loading&lt;/li&gt;
+                          &lt;li&gt;Diagram or animation showing waste emptying&lt;/li&gt;
+                          &lt;li&gt;Barcode/RFID for FC/Reagent/Buffer(left)&lt;/li&gt;
+                          &lt;li&gt;Check box status(FC, Reagent cartridge, etc) (right)&lt;/li&gt;
+                      &lt;/ol&gt;
+                    &lt;/li&gt;
+              &lt;/ul&gt; 
+  
+               &lt;ul&gt;
+                    &lt;li&gt;Other notes:
+                      &lt;ol&gt; 
+                          &lt;li&gt; &lt;/li&gt;
+                      &lt;/ol&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;</value>
+  </data>
+  <data name="PostRunPage_Instruction" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;u&gt; Automatic Post-Run Wash:&lt;/u&gt; NaOCI&lt;/h4&gt;
+             
+            &lt;ol&gt; 
+                &lt;li&gt;~90 mins&lt;/li&gt;
+                &lt;li&gt;Sippers remain in the down position, replace next run&lt;/li&gt;
+                &lt;li&gt;Leave the used FC reagent/ buffer&lt;/li&gt;
+            &lt;/ol&gt;</value>
+  </data>
+  <data name="RunSetupPage_Instruction" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;u&gt; Setup Run Parameters:&lt;/u&gt; Asks user to verify run configurations, depending on the kit.&lt;/h4&gt;
+              &lt;ul&gt;
+                    &lt;li&gt;User interaction fields:
+                      &lt;ol&gt; 
+                          &lt;li&gt;Run selection&lt;/li&gt;
+                          &lt;li&gt;Edit(Button):&lt;/li&gt;
+                          &lt;li&gt;Save(Button):&lt;/li&gt;
+                          &lt;li&gt;Next: move to pre-run check&lt;/li&gt;
+                      &lt;/ol&gt;
+                    &lt;/li&gt;
+              &lt;/ul&gt;  
+  
+              &lt;ul&gt;
+                    &lt;li&gt;Display info:
+                      &lt;ol&gt; 
+                          &lt;li&gt;Run Name&lt;/li&gt;
+                          &lt;li&gt;Library ID&lt;/li&gt;
+                          &lt;li&gt;Recipe Name&lt;/li&gt;
+                          &lt;li&gt;Read Type&lt;/li&gt;
+                          &lt;li&gt;Read Length&lt;/li&gt;
+                          &lt;li&gt;Custom Primers&lt;/li&gt;
+                      &lt;/ol&gt;
+                    &lt;/li&gt;
+              &lt;/ul&gt; 
+  
+               &lt;ul&gt;
+                    &lt;li&gt;Other notes:
+                      &lt;ol&gt; 
+                          &lt;li&gt; &lt;/li&gt;
+                      &lt;/ol&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;</value>
+  </data>
+  <data name="SequencePage_Instruction" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;u&gt; Sequencing Run:&lt;/u&gt; SW selects corresponding recipe to run and display key information.&lt;/h4&gt;
+              &lt;ul&gt;
+                    &lt;li&gt;User interaction fields:
+                        &lt;ol&gt; 
+                          &lt;li&gt;Start Stop:&lt;/li&gt;
+                          &lt;li&gt;Start Pause:&lt;/li&gt;
+                          &lt;li&gt;Start Start/Continue:&lt;/li&gt;
+                        &lt;/ol&gt;
+                    &lt;/li&gt;
+              &lt;/ul&gt;  
+  
+              &lt;ul&gt;
+                    &lt;li&gt;Display info
+                      &lt;ol&gt; 
+                          &lt;li&gt;Q-score&lt;/li&gt;
+                          &lt;li&gt;Intensity&lt;/li&gt;
+                          &lt;li&gt;Cluster Density&lt;/li&gt;
+                          &lt;li&gt;Cluster Pass Filter: &amp;quot;fraction of good cluster &amp;quot;.
+                          &lt;small&gt;&lt;i&gt;&lt;br&gt; &amp;quot;filters raw data to remove reads that do not meet the data quality threshold. Overlapping
+and low-quality clusters are removed. &amp;quot;&lt;/i&gt;&lt;/small&gt;
+&lt;br&gt; &amp;quot;Good &amp;quot; is based on the quality of base-calling not SNR.
+                          &lt;/li&gt;
+                          &lt;li&gt;Est Yield- Shows the number of bases projected for the run&lt;/li&gt;
+                          &lt;li&gt;Run progress&lt;/li&gt;
+                          &lt;li&gt;Workflow: (including in sample sheet?)&lt;/li&gt;
+                          &lt;li&gt;Flow cell ID&lt;/li&gt;
+                          &lt;li&gt;Buffer ID&lt;/li&gt;
+                          &lt;li&gt;Reagent ID&lt;/li&gt;
+                          &lt;li&gt;Data transfer status (local run manager/ output folder/ BaseSpace)&lt;/li&gt;
+                      &lt;/ol&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;Temperature&lt;/li&gt;
+                    &lt;li&gt;Image System&lt;/li&gt;
+                    &lt;li&gt;Reagent Delivery&lt;/li&gt;
+              &lt;/ul&gt; 
+  
+               &lt;ul&gt;
+                    &lt;li&gt;Other notes:
+                      &lt;ol&gt; 
+                          &lt;li&gt; &lt;/li&gt;
+                      &lt;/ol&gt;
+                    &lt;/li&gt;
+                &lt;/ul&gt;</value>
+  </data>
+  <data name="SummaryPage_Instruction" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;u&gt; Summary:&lt;/u&gt; to do&lt;/h4&gt;   
+                &lt;ol&gt; 
+                    &lt;li&gt;Run Summary.&lt;/li&gt;
+                    &lt;li&gt;Charts &amp; Graphs.&lt;/li&gt;
+                    &lt;li&gt;Sample Sheet.&lt;/li&gt;
+                &lt;/ol&gt;</value>
+  </data>
+  <data name="UserPage_Instruction" xml:space="preserve">
+    <value>&lt;h4&gt;&lt;u&gt; User:&lt;/u&gt; User Profile&lt;/h4&gt;   
+                &lt;ol&gt; 
+                    &lt;li&gt;Name.&lt;/li&gt;
+                    &lt;li&gt;Email.&lt;/li&gt;
+                    &lt;li&gt;Recent Run History.&lt;/li&gt;
+                &lt;/ol&gt;</value>
+  </data>
+</root>

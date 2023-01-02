@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_36d7ecf074cae232a5f9005cd936b66b" kind="dir">
+    <compoundname>D:/Source/Alf/TestBench/Hywire.ChartDisplayTest</compoundname>
+    <innerdir refid="dir_18eb7ea3b94c6bedaef8e810509cf2c4">D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/Properties</innerdir>
+    <innerfile refid="_test_bench_2_hywire_8_chart_display_test_2_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_chart_display_test_2_file_view_model_8cs">FileViewModel.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_chart_display_test_2_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_chart_display_test_2_pane_view_model_8cs">PaneViewModel.cs</innerfile>
+    <innerfile refid="_test_bench_2_hywire_8_chart_display_test_2_workspace_8cs">Workspace.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/TestBench/Hywire.ChartDisplayTest/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Common::CameraSettings</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1ae36eb10750f977778fbb0eb610920669" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.CameraSettings.BinFactor</definition>
+        <argsstring></argsstring>
+        <name>BinFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" line="5" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1abbd6ef7df9fa8c2e2cfb796a6940bab5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.CameraSettings.Gain</definition>
+        <argsstring></argsstring>
+        <name>Gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1a27f5028db347942baed8a459c297f778" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.CameraSettings.RoiLeft</definition>
+        <argsstring></argsstring>
+        <name>RoiLeft</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1abe5bd80aec8971b924008c90ec58713f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.CameraSettings.RoiTop</definition>
+        <argsstring></argsstring>
+        <name>RoiTop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1a73ecf50bc682e7a746cc361f73d3c754" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.CameraSettings.RoiWidth</definition>
+        <argsstring></argsstring>
+        <name>RoiWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a391c1aa35ab33193d0dc124ebf76a916" compoundref="_recipe_run_thread_8cs" startline="431" endline="825">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1a237ba8fb7325b85b2fa33053bab9dfeb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.CameraSettings.RoiHeight</definition>
+        <argsstring></argsstring>
+        <name>RoiHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a391c1aa35ab33193d0dc124ebf76a916" compoundref="_recipe_run_thread_8cs" startline="431" endline="825">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1a142c51082146f6863698e2e67f4af590" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.Common.CameraSettings.ReadoutSpeed</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a391c1aa35ab33193d0dc124ebf76a916" compoundref="_recipe_run_thread_8cs" startline="431" endline="825">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1a56bfa132470894f99ff774975aada588" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.CameraSettings.ExtraExposure</definition>
+        <argsstring></argsstring>
+        <name>ExtraExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" line="4" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/CameraSettings.cs" bodystart="3" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1ae36eb10750f977778fbb0eb610920669" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::CameraSettings</scope><name>BinFactor</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1a56bfa132470894f99ff774975aada588" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::CameraSettings</scope><name>ExtraExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1abbd6ef7df9fa8c2e2cfb796a6940bab5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::CameraSettings</scope><name>Gain</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1a142c51082146f6863698e2e67f4af590" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::CameraSettings</scope><name>ReadoutSpeed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1a237ba8fb7325b85b2fa33053bab9dfeb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::CameraSettings</scope><name>RoiHeight</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1a27f5028db347942baed8a459c297f778" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::CameraSettings</scope><name>RoiLeft</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1abe5bd80aec8971b924008c90ec58713f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::CameraSettings</scope><name>RoiTop</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_camera_settings_1a73ecf50bc682e7a746cc361f73d3c754" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::CameraSettings</scope><name>RoiWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

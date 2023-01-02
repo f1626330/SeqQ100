@@ -1,0 +1,289 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_camera_lib_1_1_camera_notifications" kind="class" prot="public">
+    <compoundname>Sequlite::CameraLib::CameraNotifications</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a3c5e3a61e7ef5dc0ecfc7e555f77d03c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_SINGLE_STARTED</definition>
+        <argsstring></argsstring>
+        <name>ACQ_SINGLE_STARTED</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a2e3db9493c7bea889027de4fb611dd5a" compoundref="_p_v_cam_camera_8cs" startline="892" endline="934">Sequlite.CameraLib.PVCamCamera.StartSeqAcq</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a053e3f9c502629c3a2cf2f66b1d51f2b" compoundref="_p_v_cam_camera_8cs" startline="937" endline="980">Sequlite.CameraLib.PVCamCamera.StartSyncSeqAcq</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1aca31f6b114a6a8f643f222ccbbf82bee" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_SINGLE_READY</definition>
+        <argsstring></argsstring>
+        <name>ACQ_SINGLE_READY</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a4d1c8f72f3e33a02084110965e18ada6" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_SINGLE_FINISHED</definition>
+        <argsstring></argsstring>
+        <name>ACQ_SINGLE_FINISHED</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1aaa2432d02e851d1dc9d77c69bff73246" compoundref="_p_v_cam_camera_8cs" startline="983" endline="1168">Sequlite.CameraLib.PVCamCamera.SingleAcquisition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a5db8ea33bfb1ec30ff4f69fbaf2fad7d" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_SINGLE_FAILED</definition>
+        <argsstring></argsstring>
+        <name>ACQ_SINGLE_FAILED</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1aaa2432d02e851d1dc9d77c69bff73246" compoundref="_p_v_cam_camera_8cs" startline="983" endline="1168">Sequlite.CameraLib.PVCamCamera.SingleAcquisition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1ac22d8609ea3042b1fbe0d4d7da0a25f6" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_SINGLE_CANCELLED</definition>
+        <argsstring></argsstring>
+        <name>ACQ_SINGLE_CANCELLED</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a02fe03cd05ec0cc084a7ae429d230887" compoundref="_p_v_cam_camera_8cs" startline="1651" endline="1718">Sequlite.CameraLib.PVCamCamera.StopAcquisition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a30aeb27d5c5af1f5449991dfb7de9aca" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_CONT_STARTED</definition>
+        <argsstring></argsstring>
+        <name>ACQ_CONT_STARTED</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a55fd1296dc18a2a1887afa7e8b108a57" compoundref="_p_v_cam_camera_8cs" startline="1171" endline="1216">Sequlite.CameraLib.PVCamCamera.StartContinuousAcquisition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a832eda696a77351b63a9d72844fb60db" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_CONT_READY</definition>
+        <argsstring></argsstring>
+        <name>ACQ_CONT_READY</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1ae778ab6b0c3f15b1740da2975c5655ac" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_CONT_FINISHED</definition>
+        <argsstring></argsstring>
+        <name>ACQ_CONT_FINISHED</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ae049f9ff5897e6c02e6ff9be243ac429" compoundref="_photometrics_camera_8cs" startline="765" endline="814">Sequlite.CameraLib.PhotometricsCamera._PVCamCamera_CamNotif</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ac579cc45d5973b0edb315a3d13f2c3a3" compoundref="_p_v_cam_camera_8cs" startline="1219" endline="1395">Sequlite.CameraLib.PVCamCamera.GetNewFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1ad286c6a28d156570a5f6f490b7ad42fd" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_CONT_FAILED</definition>
+        <argsstring></argsstring>
+        <name>ACQ_CONT_FAILED</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ac579cc45d5973b0edb315a3d13f2c3a3" compoundref="_p_v_cam_camera_8cs" startline="1219" endline="1395">Sequlite.CameraLib.PVCamCamera.GetNewFrame</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1afdaa3211b131ed94f4579ce61e6b69e2" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_CONT_CANCELED</definition>
+        <argsstring></argsstring>
+        <name>ACQ_CONT_CANCELED</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="30" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a02fe03cd05ec0cc084a7ae429d230887" compoundref="_p_v_cam_camera_8cs" startline="1651" endline="1718">Sequlite.CameraLib.PVCamCamera.StopAcquisition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a73115b6aef9f23a0f6ee1ee356a6080a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.ACQ_NEW_FRAME_RECEIVED</definition>
+        <argsstring></argsstring>
+        <name>ACQ_NEW_FRAME_RECEIVED</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ae049f9ff5897e6c02e6ff9be243ac429" compoundref="_photometrics_camera_8cs" startline="765" endline="814">Sequlite.CameraLib.PhotometricsCamera._PVCamCamera_CamNotif</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ac579cc45d5973b0edb315a3d13f2c3a3" compoundref="_p_v_cam_camera_8cs" startline="1219" endline="1395">Sequlite.CameraLib.PVCamCamera.GetNewFrame</referencedby>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1aaa2432d02e851d1dc9d77c69bff73246" compoundref="_p_v_cam_camera_8cs" startline="983" endline="1168">Sequlite.CameraLib.PVCamCamera.SingleAcquisition</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1ac74b69c992406cfa4e1a54a2ccd73bb8" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.NO_CAMERA_FOUND</definition>
+        <argsstring></argsstring>
+        <name>NO_CAMERA_FOUND</name>
+        <initializer>= 11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a4a543bbefa93f63aea3b11ee6187fdf0" compoundref="_p_v_cam_camera_8cs" startline="4422" endline="4515">Sequlite.CameraLib.PVCamCamera.RefreshCameras</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a347af0a50eb239667e5c3afaae2370d8" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.CAMERA_REFRESH_DONE</definition>
+        <argsstring></argsstring>
+        <name>CAMERA_REFRESH_DONE</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a4a543bbefa93f63aea3b11ee6187fdf0" compoundref="_p_v_cam_camera_8cs" startline="4422" endline="4515">Sequlite.CameraLib.PVCamCamera.RefreshCameras</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a5f11406fd7527b20db56085cfee78ad4" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.CAMERA_OPENED</definition>
+        <argsstring></argsstring>
+        <name>CAMERA_OPENED</name>
+        <initializer>= 13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a63773085db16fb211c91e33eac9f7176" compoundref="_p_v_cam_camera_8cs" startline="1745" endline="1778">Sequlite.CameraLib.PVCamCamera.OpenCamera</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a7f9d3362095092dac270b38e9a6250fb" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.CAMERA_PARAM_READOUT_COMPLETE</definition>
+        <argsstring></argsstring>
+        <name>CAMERA_PARAM_READOUT_COMPLETE</name>
+        <initializer>= 14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1ae3959900c532ebf7f32a16585f4e4550" compoundref="_p_v_cam_camera_8cs" startline="3288" endline="3602">Sequlite.CameraLib.PVCamCamera.ReadCameraParams</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1aa22e0d674206794352dd1018a1eae6ed" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.SPEED_TABLE_BUILD_DONE</definition>
+        <argsstring></argsstring>
+        <name>SPEED_TABLE_BUILD_DONE</name>
+        <initializer>= 15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a865b1d1f73886255863d9c4248782049" compoundref="_p_v_cam_camera_8cs" startline="4284" endline="4394">Sequlite.CameraLib.PVCamCamera.BuildSpeedTable</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a346655c0e9d5f00f6efdee7ef918ec14" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Sequlite.CameraLib.CameraNotifications.READOUT_SPEED_CHANGED</definition>
+        <argsstring></argsstring>
+        <name>READOUT_SPEED_CHANGED</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="40" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_p_v_cam_camera_1a96ecc40b8cdb49def44b38a83a92e49f" compoundref="_p_v_cam_camera_8cs" startline="4009" endline="4057">Sequlite.CameraLib.PVCamCamera.SetReadoutSpeed</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="18" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1afdaa3211b131ed94f4579ce61e6b69e2" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_CONT_CANCELED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1ad286c6a28d156570a5f6f490b7ad42fd" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_CONT_FAILED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1ae778ab6b0c3f15b1740da2975c5655ac" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_CONT_FINISHED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a832eda696a77351b63a9d72844fb60db" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_CONT_READY</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a30aeb27d5c5af1f5449991dfb7de9aca" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_CONT_STARTED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a73115b6aef9f23a0f6ee1ee356a6080a" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_NEW_FRAME_RECEIVED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1ac22d8609ea3042b1fbe0d4d7da0a25f6" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_SINGLE_CANCELLED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a5db8ea33bfb1ec30ff4f69fbaf2fad7d" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_SINGLE_FAILED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a4d1c8f72f3e33a02084110965e18ada6" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_SINGLE_FINISHED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1aca31f6b114a6a8f643f222ccbbf82bee" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_SINGLE_READY</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a3c5e3a61e7ef5dc0ecfc7e555f77d03c" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>ACQ_SINGLE_STARTED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a5f11406fd7527b20db56085cfee78ad4" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>CAMERA_OPENED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a7f9d3362095092dac270b38e9a6250fb" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>CAMERA_PARAM_READOUT_COMPLETE</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a347af0a50eb239667e5c3afaae2370d8" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>CAMERA_REFRESH_DONE</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1ac74b69c992406cfa4e1a54a2ccd73bb8" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>NO_CAMERA_FOUND</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1a346655c0e9d5f00f6efdee7ef918ec14" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>READOUT_SPEED_CHANGED</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_camera_notifications_1aa22e0d674206794352dd1018a1eae6ed" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::CameraNotifications</scope><name>SPEED_TABLE_BUILD_DONE</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

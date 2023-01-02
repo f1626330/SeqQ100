@@ -1,0 +1,808 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model" prot="public" virt="non-virtual">Sequlite.ALF.EngineerGUI.ViewModel.PaneViewModel</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aaa8c745899071909614fe61dcd583fd1" prot="private" static="no" mutable="no">
+        <type>SafeHandle</type>
+        <definition>SafeHandle Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <initializer>= new SafeFileHandle(IntPtr.Zero, true)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="15" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a4a7721f8ea5a8248c87cdc43326605d1" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._PixelX</definition>
+        <argsstring></argsstring>
+        <name>_PixelX</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="18" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a99059d725aff4303d454bb7f75a0f1e6" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._PixelY</definition>
+        <argsstring></argsstring>
+        <name>_PixelY</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="19" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ab2a4b811bff323e5a59b52e82080f4ab" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._PixelIntensity</definition>
+        <argsstring></argsstring>
+        <name>_PixelIntensity</name>
+        <initializer>= string.Empty</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="20" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a505c0be8564682fa9ff7f718e42d044e" prot="private" static="no" mutable="no">
+        <type>WriteableBitmap</type>
+        <definition>WriteableBitmap Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._SourceImage</definition>
+        <argsstring></argsstring>
+        <name>_SourceImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="21" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a92c17f7dbab2765e347df5fb4580c1e7" prot="private" static="no" mutable="no">
+        <type>WriteableBitmap</type>
+        <definition>WriteableBitmap Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._DisplayImage</definition>
+        <argsstring></argsstring>
+        <name>_DisplayImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="22" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1abb4551c6ce145bdb27ce515555b12bef" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+        <definition>ImageInfo Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._ImageInfo</definition>
+        <argsstring></argsstring>
+        <name>_ImageInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="23" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aaa24b065a15aad05a8ed6af284cdca6e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info" kindref="compound">Sequlite.Image.Processing.ImageInfo</ref></type>
+        <definition>Sequlite.Image.Processing.ImageInfo Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._SequliteImageInfo</definition>
+        <argsstring></argsstring>
+        <name>_SequliteImageInfo</name>
+        <initializer>= new <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_info" kindref="compound">Sequlite.Image.Processing.ImageInfo</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="24" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a5d8d4f72c224c7259e49f37fa8494158" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._FilePath</definition>
+        <argsstring></argsstring>
+        <name>_FilePath</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="25" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a0c743529223d58fab43aea15935237a8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._IsDirty</definition>
+        <argsstring></argsstring>
+        <name>_IsDirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="26" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ace325091c7144cedb3ac6bf5ae0d834d" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a7299ae88667fa7aa0344055c0c05e733" kindref="member">DirtyType</ref></type>
+        <definition>DirtyType Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._DocDirtyType</definition>
+        <argsstring></argsstring>
+        <name>_DocDirtyType</name>
+        <initializer>= DirtyType.None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="28" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a7c20b164cec89a29c5d9b1d8cd73ce45" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._BlackValue</definition>
+        <argsstring></argsstring>
+        <name>_BlackValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="29" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1abc6a1fc900ff8ad88292023253a93891" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._WhiteValue</definition>
+        <argsstring></argsstring>
+        <name>_WhiteValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="30" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1acb2d9551df53bf80ead8cdfc42698ed4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._GammaValue</definition>
+        <argsstring></argsstring>
+        <name>_GammaValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="31" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a3499bbbf2f8b11055b0c2d82752669e2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._MaxPixelValue</definition>
+        <argsstring></argsstring>
+        <name>_MaxPixelValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="32" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a99aaaf94e95fe3fb5520de0611930102" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._ZoomRate</definition>
+        <argsstring></argsstring>
+        <name>_ZoomRate</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="35" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a51131d7281a8e893c8df7a0899104d77" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._OffSetX</definition>
+        <argsstring></argsstring>
+        <name>_OffSetX</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="36" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1adf81aaaae700eade771e879645b47c52" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._OffsetY</definition>
+        <argsstring></argsstring>
+        <name>_OffsetY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="37" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a12de8dd25cc44277ae4b3a833cd6a29f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._LargeChange</definition>
+        <argsstring></argsstring>
+        <name>_LargeChange</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="424" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ab3bdf4a852e56f33e95ac40d2b207d02" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._SmallChange</definition>
+        <argsstring></argsstring>
+        <name>_SmallChange</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="449" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="449" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a0c677ce8ee2b9802a924605f3870ee4c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel._Disposed</definition>
+        <argsstring></argsstring>
+        <name>_Disposed</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="556" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="556" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aca1eff679e652d76d47b372860674db2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>WriteableBitmap</type>
+        <definition>WriteableBitmap Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.SourceImage</definition>
+        <argsstring></argsstring>
+        <name>SourceImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="142" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="143" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control_1a6419a31d66f65ebba261ca36b792d2ab" compoundref="_image_viewer_control_8xaml_8cs" startline="46" endline="95">Sequlite.ALF.EngineerGUI.View.ImageViewerControl._DisplayImage_MouseMove</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1af083a30e83338ca46d67f3705253915d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>WriteableBitmap</type>
+        <definition>WriteableBitmap Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.DisplayImage</definition>
+        <argsstring></argsstring>
+        <name>DisplayImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="147" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ade7da18adfb7fca4699b0b78e4a3d39c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+        <definition>ImageInfo Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.ImageInfo</definition>
+        <argsstring></argsstring>
+        <name>ImageInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="160" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aee0692def9878dc588cb2084f27a4725" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.Width</definition>
+        <argsstring></argsstring>
+        <name>Width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="166" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ac2afb6be89140e0dc71f4f066f436f60" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.Height</definition>
+        <argsstring></argsstring>
+        <name>Height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="175" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a2bd29eaef8d3c7d11697c9564c3e7cb7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.FilePath</definition>
+        <argsstring></argsstring>
+        <name>FilePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="184" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a5f2bf972b71340360a42df2998bc004e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="201" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ac8850cf386fe156d66bec2a963b4f7d4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.IsDirty</definition>
+        <argsstring></argsstring>
+        <name>IsDirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="212" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="213" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_image_gallery_view_model_1a064d9f1e957541d301b7a2355b24ec3f" compoundref="_image_gallery_view_model_8cs" startline="127" endline="161">Sequlite.ALF.EngineerGUI.ViewModel.ImageGalleryViewModel.CloseFile</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aeafd1148376a685f4d509dc42b9ab831" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a7299ae88667fa7aa0344055c0c05e733" kindref="member">DirtyType</ref></type>
+        <definition>DirtyType Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.DocDirtyType</definition>
+        <argsstring></argsstring>
+        <name>DocDirtyType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="229" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ab7f8deb77dbaa5a663075f4b0c5520ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.BlackValue</definition>
+        <argsstring></argsstring>
+        <name>BlackValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="250" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a9a893beab65ccb238725f92c64bdc5b6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.WhiteValue</definition>
+        <argsstring></argsstring>
+        <name>WhiteValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="305" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a7b9e05b9dd9166e27edc55d410a69ef4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.GammaValue</definition>
+        <argsstring></argsstring>
+        <name>GammaValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="360" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a56f32e5346e84a075654dd4b30b36d97" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.MaxPixelValue</definition>
+        <argsstring></argsstring>
+        <name>MaxPixelValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="411" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a911998750172000f01404fd75bf377aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.LargeChange</definition>
+        <argsstring></argsstring>
+        <name>LargeChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="425" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1afb57e42474eb8a17c8c66d55817f3f6a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.SmallChange</definition>
+        <argsstring></argsstring>
+        <name>SmallChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="450" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a261c9643f6506019c60c3ec5bd152fe5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.PixelX</definition>
+        <argsstring></argsstring>
+        <name>PixelX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="473" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ac6edde8483222d53802894d146d46dda" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.PixelY</definition>
+        <argsstring></argsstring>
+        <name>PixelY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="485" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a4750ee44c256c9c191930ce6d5474332" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.PixelIntensity</definition>
+        <argsstring></argsstring>
+        <name>PixelIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="497" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1abd95c3778b8fd7de4d8046d106c0764a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.ZoomRate</definition>
+        <argsstring></argsstring>
+        <name>ZoomRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="510" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="511" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a6c2644dd2600fd0139790ef0fa0df6d9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.OffsetX</definition>
+        <argsstring></argsstring>
+        <name>OffsetX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="522" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="523" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a62080f83306c394c1ba4244e1f671804" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.OffsetY</definition>
+        <argsstring></argsstring>
+        <name>OffsetY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="534" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="535" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a6044a4ca29987a0cd05ec5005100d1a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.FileViewModel</definition>
+        <argsstring>(string filePath)</argsstring>
+        <name>FileViewModel</name>
+        <param>
+          <type>string</type>
+          <declname>filePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="41" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="41" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a31ba33074ba5275619c8853b1d077cbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.FileViewModel</definition>
+        <argsstring>(WriteableBitmap newImage, ImageInfo imageInfo, string title)</argsstring>
+        <name>FileViewModel</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>newImage</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info" kindref="compound">ImageInfo</ref></type>
+          <declname>imageInfo</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="104" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="104" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aebe2016e075a49f34ba4ff1d6a7b48e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.Close</definition>
+        <argsstring>()</argsstring>
+        <name>Close</name>
+        <reimplements refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1aa6577da69ceebf0323208b39c788d49f">Close</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="548" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="548" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a2053bc9bae9b84c1c01edb855260297d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.UpdateDisplayImage</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateDisplayImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="613" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="613" bodyend="628"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a753496def19e17306cc186bb90f5aa0d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <reimplements refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3">Dispose</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="558" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="558" bodyend="609"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="394">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="398">
+        <label>IDisposable</label>
+      </node>
+      <node id="396">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="397" relation="public-inheritance">
+        </childnode>
+        <childnode refid="398" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>PaneViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model"/>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="399">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.FileViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model"/>
+        <childnode refid="400" relation="public-inheritance">
+        </childnode>
+        <childnode refid="404" relation="usage">
+          <edgelabel>_SequliteImageInfo</edgelabel>
+        </childnode>
+        <childnode refid="405" relation="usage">
+          <edgelabel>_ImageInfo</edgelabel>
+        </childnode>
+      </node>
+      <node id="402">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="403">
+        <label>IDisposable</label>
+      </node>
+      <node id="401">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="402" relation="public-inheritance">
+        </childnode>
+        <childnode refid="403" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>Sequlite.ALF.Imaging.ImageInfo</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_info"/>
+        <childnode refid="406" relation="public-inheritance">
+        </childnode>
+        <childnode refid="407" relation="usage">
+          <edgelabel>_MixChannel</edgelabel>
+          <edgelabel>_GreenChannel</edgelabel>
+          <edgelabel>_RedChannel</edgelabel>
+        </childnode>
+      </node>
+      <node id="400">
+        <label>PaneViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model"/>
+        <childnode refid="401" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="404">
+        <label>Processing</label>
+      </node>
+      <node id="407">
+        <label>Sequlite.ALF.Imaging.ImageChannel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_image_channel"/>
+        <childnode refid="406" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="406">
+        <label>ICloneable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="13" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="12" bodyend="630"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a7c20b164cec89a29c5d9b1d8cd73ce45" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_BlackValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a92c17f7dbab2765e347df5fb4580c1e7" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_DisplayImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a0c677ce8ee2b9802a924605f3870ee4c" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_Disposed</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ace325091c7144cedb3ac6bf5ae0d834d" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_DocDirtyType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a5d8d4f72c224c7259e49f37fa8494158" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_FilePath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1acb2d9551df53bf80ead8cdfc42698ed4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_GammaValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1abb4551c6ce145bdb27ce515555b12bef" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_ImageInfo</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a0c743529223d58fab43aea15935237a8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_IsDirty</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a12de8dd25cc44277ae4b3a833cd6a29f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_LargeChange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a3499bbbf2f8b11055b0c2d82752669e2" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_MaxPixelValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a51131d7281a8e893c8df7a0899104d77" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_OffSetX</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1adf81aaaae700eade771e879645b47c52" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_OffsetY</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ab2a4b811bff323e5a59b52e82080f4ab" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_PixelIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a4a7721f8ea5a8248c87cdc43326605d1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_PixelX</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a99059d725aff4303d454bb7f75a0f1e6" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_PixelY</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aaa24b065a15aad05a8ed6af284cdca6e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_SequliteImageInfo</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ab3bdf4a852e56f33e95ac40d2b207d02" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_SmallChange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a505c0be8564682fa9ff7f718e42d044e" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_SourceImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1abc6a1fc900ff8ad88292023253a93891" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_WhiteValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a99aaaf94e95fe3fb5520de0611930102" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>_ZoomRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ab7f8deb77dbaa5a663075f4b0c5520ca" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>BlackValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aebe2016e075a49f34ba4ff1d6a7b48e4" prot="public" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>Close</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1a685435498bca389cafdb18a2f0e1f093" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>CloseCommand</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1af083a30e83338ca46d67f3705253915d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>DisplayImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a753496def19e17306cc186bb90f5aa0d" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual" ambiguityscope="Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel."><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aeafd1148376a685f4d509dc42b9ab831" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>DocDirtyType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a5f2bf972b71340360a42df2998bc004e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>FileName</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a2bd29eaef8d3c7d11697c9564c3e7cb7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>FilePath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a6044a4ca29987a0cd05ec5005100d1a1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>FileViewModel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a31ba33074ba5275619c8853b1d077cbf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>FileViewModel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a7b9e05b9dd9166e27edc55d410a69ef4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>GammaValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aaa8c745899071909614fe61dcd583fd1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>handle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ac2afb6be89140e0dc71f4f066f436f60" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>Height</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ade7da18adfb7fca4699b0b78e4a3d39c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>ImageInfo</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1a3d380e2a0893a615198f64e383c4dd9c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>IsActive</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ac8850cf386fe156d66bec2a963b4f7d4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>IsDirty</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a911998750172000f01404fd75bf377aa" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>LargeChange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a56f32e5346e84a075654dd4b30b36d97" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>MaxPixelValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a6c2644dd2600fd0139790ef0fa0df6d9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>OffsetX</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a62080f83306c394c1ba4244e1f671804" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>OffsetY</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a4750ee44c256c9c191930ce6d5474332" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>PixelIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a261c9643f6506019c60c3ec5bd152fe5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>PixelX</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1ac6edde8483222d53802894d146d46dda" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>PixelY</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1afb57e42474eb8a17c8c66d55817f3f6a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>SmallChange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aca1eff679e652d76d47b372860674db2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>SourceImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model_1ab705ff4f41388257680a7e4290a04a02" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>Title</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a2053bc9bae9b84c1c01edb855260297d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>UpdateDisplayImage</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1a9a893beab65ccb238725f92c64bdc5b6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>WhiteValue</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1aee0692def9878dc588cb2084f27a4725" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>Width</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model_1abd95c3778b8fd7de4d8046d106c0764a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</scope><name>ZoomRate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

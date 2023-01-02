@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_enum_to_boolean_converter" kind="class" prot="public">
+    <compoundname>Sequlite::WPF::Framework::EnumToBooleanConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_enum_to_boolean_converter_1a0e17f95709e811557a5447b901b37306" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.EnumToBooleanConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>System.Globalization.CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/EnumToBooleanConverter.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/EnumToBooleanConverter.cs" bodystart="8" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_w_p_f_1_1_framework_1_1_enum_to_boolean_converter_1a00bfc69bb5cf291663c9a9ddc1977a6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Sequlite.WPF.Framework.EnumToBooleanConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>System.Globalization.CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/EnumToBooleanConverter.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/EnumToBooleanConverter.cs" bodystart="32" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="371">
+        <label>IValueConverter</label>
+      </node>
+      <node id="370">
+        <label>Sequlite.WPF.Framework.EnumToBooleanConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_enum_to_boolean_converter"/>
+        <childnode refid="371" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="373">
+        <label>IValueConverter</label>
+      </node>
+      <node id="372">
+        <label>Sequlite.WPF.Framework.EnumToBooleanConverter</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_enum_to_boolean_converter"/>
+        <childnode refid="373" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/EnumToBooleanConverter.cs" line="7" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Converters/EnumToBooleanConverter.cs" bodystart="6" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_enum_to_boolean_converter_1a0e17f95709e811557a5447b901b37306" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::EnumToBooleanConverter</scope><name>Convert</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_enum_to_boolean_converter_1a00bfc69bb5cf291663c9a9ddc1977a6b" prot="public" virt="non-virtual"><scope>Sequlite::WPF::Framework::EnumToBooleanConverter</scope><name>ConvertBack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

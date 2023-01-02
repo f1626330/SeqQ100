@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Engineering Model">
+    <Position X="0.5" Y="0.5" Height="0.406" Width="8.367" />
+  </Comment>
+  <Class Name="Sequlite.Image.Processing.BadImageIdentifier">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.Image.Processing.Despeckle3x3Filter">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.Image.Processing.FastGaussianFilter">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.Image.Processing.FlatFieldCalibrate">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.Image.Processing.ImageArithmetic">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.Image.Processing.ImageChannel" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.Image.Processing.ImageInfo" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.Image.Processing.ImageProcessingHelper">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.Image.Processing.ImageStatistics">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.Image.Processing.RankFilter">
+    <Position X="2.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.Image.Processing.RIPPStats">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.BinLevelConverter">
+    <Position X="0.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.BooleanToHiddenNegateConverter">
+    <Position X="5.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.BooleanToVisibilityConverter" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.BooleanToVisibilityNegateConverter" BaseTypeListCollapsed="true">
+    <Position X="4" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.BooleanToVisibileHiddenConverter" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.BooleanToVisibleMultiConverter" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="14" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.BooleanToVisiblePasteMultiConverter" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.BoolToVisCloseAllMultiConverter" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.BoolToVisGainMultiConverter" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.ContentToMarginConverter" BaseTypeListCollapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.ContentToPathConverter" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.EnumToBooleanConverter" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="14" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.ExposureTimeConverter" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.FilterLightFocusConverter" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.GainValueConverter" BaseTypeListCollapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.GammaValueConverter" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.LogicalNegateConverter" BaseTypeListCollapsed="true">
+    <Position X="4" Y="14" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.LogicalOrConverter" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.LogicalOrNegateConverter" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.LogicalOrToVisibilityMultiConverter" BaseTypeListCollapsed="true">
+    <Position X="4" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.RealGammaConverter" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.StringNullableToIntConverter">
+    <Position X="0.5" Y="14" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.ZeroToEmptyStringConverter">
+    <Position X="2.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sequlite.WPF.Framework.RelayCommand">
+    <Position X="4" Y="17.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="Sequlite.Image.Processing.IImageStatistics">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="Sequlite.Image.Processing.ImageChannelFlag">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="Sequlite.Image.Processing.ImageChannelType">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

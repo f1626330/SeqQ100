@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_w_p_f_1_1_framework" kind="namespace">
+    <compoundname>Sequlite::WPF::Framework</compoundname>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_app_info" prot="public">Sequlite::WPF::Framework::AppInfo</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_assembly_display_info" prot="public">Sequlite::WPF::Framework::AssemblyDisplayInfo</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_common_application_data" prot="public">Sequlite::WPF::Framework::CommonApplicationData</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger" prot="public">Sequlite::WPF::Framework::Logger</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_bin_level_converter" prot="public">Sequlite::WPF::Framework::BinLevelConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_hidden_negate_converter" prot="public">Sequlite::WPF::Framework::BooleanToHiddenNegateConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visibility_converter" prot="public">Sequlite::WPF::Framework::BooleanToVisibilityConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visibility_negate_converter" prot="public">Sequlite::WPF::Framework::BooleanToVisibilityNegateConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visibile_hidden_converter" prot="public">Sequlite::WPF::Framework::BooleanToVisibileHiddenConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visible_multi_converter" prot="public">Sequlite::WPF::Framework::BooleanToVisibleMultiConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_boolean_to_visible_paste_multi_converter" prot="public">Sequlite::WPF::Framework::BooleanToVisiblePasteMultiConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_bool_to_vis_close_all_multi_converter" prot="public">Sequlite::WPF::Framework::BoolToVisCloseAllMultiConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_bool_to_vis_gain_multi_converter" prot="public">Sequlite::WPF::Framework::BoolToVisGainMultiConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_margin_converter" prot="public">Sequlite::WPF::Framework::ContentToMarginConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_content_to_path_converter" prot="public">Sequlite::WPF::Framework::ContentToPathConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_enum_to_boolean_converter" prot="public">Sequlite::WPF::Framework::EnumToBooleanConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_exposure_time_converter" prot="public">Sequlite::WPF::Framework::ExposureTimeConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_filter_light_focus_converter" prot="public">Sequlite::WPF::Framework::FilterLightFocusConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_gain_value_converter" prot="public">Sequlite::WPF::Framework::GainValueConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_gamma_value_converter" prot="public">Sequlite::WPF::Framework::GammaValueConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_negate_converter" prot="public">Sequlite::WPF::Framework::LogicalNegateConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_or_converter" prot="public">Sequlite::WPF::Framework::LogicalOrConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_or_negate_converter" prot="public">Sequlite::WPF::Framework::LogicalOrNegateConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logical_or_to_visibility_multi_converter" prot="public">Sequlite::WPF::Framework::LogicalOrToVisibilityMultiConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_real_gamma_converter" prot="public">Sequlite::WPF::Framework::RealGammaConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_string_nullable_to_int_converter" prot="public">Sequlite::WPF::Framework::StringNullableToIntConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_zero_to_empty_string_converter" prot="public">Sequlite::WPF::Framework::ZeroToEmptyStringConverter</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" prot="public">Sequlite::WPF::Framework::RelayCommand</innerclass>
+    <innerclass refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public">Sequlite::WPF::Framework::ViewModelBase</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_sequlite_1_1_w_p_f_1_1_framework_1abdcf524d2e49d747db1304378d5e9d0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.WPF.Framework.LogUpdatedDelegate</definition>
+        <argsstring>(string logEntry)</argsstring>
+        <name>LogUpdatedDelegate</name>
+        <param>
+          <type>string</type>
+          <declname>logEntry</declname>
+        </param>
+        <briefdescription>
+<para>Log updated delegate. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>logEntry</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_sequlite_1_1_w_p_f_1_1_framework_1a2842868e5d59b913ed088d61051f3a08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.WPF.Framework.LoggingExceptionDelegate</definition>
+        <argsstring>(Exception ex)</argsstring>
+        <name>LoggingExceptionDelegate</name>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+<para>Logging exception delegate. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ex</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/Logger.cs" line="19" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.WPF.Framework/AppInfo.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type" kind="struct" prot="public">
+    <compoundname>Photometrics::Pvcam::PvTypes::RegionType</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1ae3cd355078a8856ca2a3c5635457d170" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Photometrics.Pvcam.PvTypes.RegionType.s1</definition>
+        <argsstring></argsstring>
+        <name>s1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="768" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1a50ca1699d50242e0fc6266e58bde4b5e" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Photometrics.Pvcam.PvTypes.RegionType.s2</definition>
+        <argsstring></argsstring>
+        <name>s2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="770" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="770" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1a390bc388151db9adb2256b6ebb2dfc41" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Photometrics.Pvcam.PvTypes.RegionType.sbin</definition>
+        <argsstring></argsstring>
+        <name>sbin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="772" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="772" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1ac43a1eab62f1bab1cf1adb9efd7882de" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Photometrics.Pvcam.PvTypes.RegionType.p1</definition>
+        <argsstring></argsstring>
+        <name>p1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="774" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="774" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1abfc5064aa81eecf8fc9b379419f081cb" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Photometrics.Pvcam.PvTypes.RegionType.p2</definition>
+        <argsstring></argsstring>
+        <name>p2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="776" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="776" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1ad2631c06fc4642abb8a2fb40ad5b3887" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Photometrics.Pvcam.PvTypes.RegionType.pbin</definition>
+        <argsstring></argsstring>
+        <name>pbin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="778" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="778" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="766" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="765" bodyend="779"/>
+    <listofallmembers>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1ac43a1eab62f1bab1cf1adb9efd7882de" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::RegionType</scope><name>p1</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1abfc5064aa81eecf8fc9b379419f081cb" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::RegionType</scope><name>p2</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1ad2631c06fc4642abb8a2fb40ad5b3887" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::RegionType</scope><name>pbin</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1ae3cd355078a8856ca2a3c5635457d170" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::RegionType</scope><name>s1</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1a50ca1699d50242e0fc6266e58bde4b5e" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::RegionType</scope><name>s2</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type_1a390bc388151db9adb2256b6ebb2dfc41" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::RegionType</scope><name>sbin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

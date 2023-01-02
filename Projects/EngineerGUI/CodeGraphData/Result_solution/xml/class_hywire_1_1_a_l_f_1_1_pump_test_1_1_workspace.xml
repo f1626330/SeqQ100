@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace" kind="class" prot="public">
+    <compoundname>Hywire::ALF::PumpTest::Workspace</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ae5f6337fa883efb46b3b59a921e67f66" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace" kindref="compound">Workspace</ref></type>
+        <definition>Workspace Hywire.ALF.PumpTest.Workspace.This</definition>
+        <argsstring></argsstring>
+        <name>This</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="13" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1af928480960fecdb119c83da3304afa2e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref> &gt;</type>
+        <definition>List&lt;PumpProtocol.Addresses&gt; Hywire.ALF.PumpTest.Workspace.PumpAddressOptions</definition>
+        <argsstring></argsstring>
+        <name>PumpAddressOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="39" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ae4e3b7bf727f0b12fa40710c55d1b2c9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+        <definition>PumpProtocol.Addresses Hywire.ALF.PumpTest.Workspace.SelectedPumpAddress</definition>
+        <argsstring></argsstring>
+        <name>SelectedPumpAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="40" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a75e9026144be5fd2034f6b44e705b4a1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.PumpTest.Workspace.IsConnected</definition>
+        <argsstring></argsstring>
+        <name>IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="43" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a02a1c86ec40d52ad14dc563598ab0b78" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.PumpTest.Workspace.IsInitialized</definition>
+        <argsstring></argsstring>
+        <name>IsInitialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="57" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a287856101c8206292c56133f56d8c656" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.PumpTest.Workspace.ConnectCmd</definition>
+        <argsstring></argsstring>
+        <name>ConnectCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="73" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ac65c31b0571a0de47a1ab9f294d99e06" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.ALF.PumpTest.Workspace.InitializeCmd</definition>
+        <argsstring></argsstring>
+        <name>InitializeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="107" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ad942982deb75d896b714e2bd4310c426" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.PumpTest.Workspace._IsConnected</definition>
+        <argsstring></argsstring>
+        <name>_IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="42" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ab3880626ac160618cd941427693eae67" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.PumpTest.Workspace._IsInitialized</definition>
+        <argsstring></argsstring>
+        <name>_IsInitialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="56" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1aa0ef6060f42eaf6478f1a59db56faad3" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.PumpTest.Workspace._ConnectCmd</definition>
+        <argsstring></argsstring>
+        <name>_ConnectCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="72" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ae9aae73a87ac19d3536b7bca861955b7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.ALF.PumpTest.Workspace._InitializeCmd</definition>
+        <argsstring></argsstring>
+        <name>_InitializeCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="106" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1aaa488c1990f31a63f49c27a96c8395ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.PumpTest.Workspace.Workspace</definition>
+        <argsstring>()</argsstring>
+        <name>Workspace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="16" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="16" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1aa1c7ca8fe86d947800d5cef9ff602ea8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.PumpTest.Workspace.ExecuteConnectCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteConnectCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="85" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="85" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ac71593e6708291367c363c1add20b94c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.PumpTest.Workspace.CanExecuteConnectCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteConnectCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="99" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a9d957e7e88fc28794c2b5dd8f469fc0e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.PumpTest.Workspace.ExecuteInitializeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteInitializeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="119" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="119" bodyend="165"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a0c4a722ba6daec9630b28aed376fed4a" compoundref="_pump_controller_8cs" startline="92">Sequlite.ALF.Fluidics.PumpController.ErrorCode</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_fluidics_manager_1a6a224eb3d5731cde3ca5b9e5a0321441" compoundref="_fluidics_manager_8cs" startline="12">Sequlite.ALF.Fluidics.FluidicsManager.Pump</references>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1af5afafe3cc7a4b098efb686d9db287bf" compoundref="_pump_controller_8cs" startline="168" endline="192">Sequlite.ALF.Fluidics.PumpController.ReportDeviceStatus</references>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1aabf9d64b7b79d94a8ac339d71f1f36f9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.PumpTest.Workspace.CanExecuteInitializeCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteInitializeCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="167" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="167" bodyend="170"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1314">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1315">
+        <label>IDisposable</label>
+      </node>
+      <node id="1313">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1314" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1315" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1312">
+        <label>Hywire.ALF.PumpTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace"/>
+        <childnode refid="1313" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1321">
+        <label>ICommand</label>
+      </node>
+      <node id="1318">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1319">
+        <label>IDisposable</label>
+      </node>
+      <node id="1317">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1318" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1319" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1320">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="1321" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1316">
+        <label>Hywire.ALF.PumpTest.Workspace</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace"/>
+        <childnode refid="1317" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1320" relation="usage">
+          <edgelabel>_InitializeCmd</edgelabel>
+          <edgelabel>_ConnectCmd</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" line="12" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PumpTest/Workspace.cs" bodystart="11" bodyend="172"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1aa0ef6060f42eaf6478f1a59db56faad3" prot="private" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>_ConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ae9aae73a87ac19d3536b7bca861955b7" prot="private" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>_InitializeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ad942982deb75d896b714e2bd4310c426" prot="private" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>_IsConnected</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ab3880626ac160618cd941427693eae67" prot="private" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>_IsInitialized</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ac71593e6708291367c363c1add20b94c" prot="private" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>CanExecuteConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1aabf9d64b7b79d94a8ac339d71f1f36f9" prot="private" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>CanExecuteInitializeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a287856101c8206292c56133f56d8c656" prot="public" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>ConnectCmd</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1aa1c7ca8fe86d947800d5cef9ff602ea8" prot="private" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>ExecuteConnectCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a9d957e7e88fc28794c2b5dd8f469fc0e" prot="private" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>ExecuteInitializeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ac65c31b0571a0de47a1ab9f294d99e06" prot="public" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>InitializeCmd</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a75e9026144be5fd2034f6b44e705b4a1" prot="public" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>IsConnected</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a02a1c86ec40d52ad14dc563598ab0b78" prot="public" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>IsInitialized</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>PropertyChanged</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1af928480960fecdb119c83da3304afa2e" prot="public" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>PumpAddressOptions</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ae4e3b7bf727f0b12fa40710c55d1b2c9" prot="public" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>SelectedPumpAddress</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1ae5f6337fa883efb46b3b59a921e67f66" prot="public" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>This</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1aaa488c1990f31a63f49c27a96c8395ef" prot="public" virt="non-virtual"><scope>Hywire::ALF::PumpTest::Workspace</scope><name>Workspace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

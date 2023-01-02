@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::MainBoard::OnOffInputsType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1a4b45d7a8fbe1450af276a09d48abf388" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.OnOffInputsType.IsDoorOpen</definition>
+        <argsstring></argsstring>
+        <name>IsDoorOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="400" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1a3aab2378634e7ed855cef7b5c228aa4e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.OnOffInputsType.IsOvflowSnsrOn</definition>
+        <argsstring></argsstring>
+        <name>IsOvflowSnsrOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="401" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1ad08071b39e4f54d67a0ca7ac382dcb50" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.OnOffInputsType.IsCartridgeSnsrOn</definition>
+        <argsstring></argsstring>
+        <name>IsCartridgeSnsrOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="402" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1a1900f17686fdc899817a223944977be5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.OnOffInputsType.IsFCSensorOn</definition>
+        <argsstring></argsstring>
+        <name>IsFCSensorOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="403" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1a8c246fd8accf1992ae94ed64623d2fb7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.MainBoard.OnOffInputsType.IsFCClampSnsrOn</definition>
+        <argsstring></argsstring>
+        <name>IsFCClampSnsrOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="404" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1aa796ab0e202aceae16d817e6e5a08a2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.MainBoard.OnOffInputsType.ConvertToUint32</definition>
+        <argsstring>()</argsstring>
+        <name>ConvertToUint32</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="406" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="406" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1a4747764718b7291e284d7f01b43363e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.MainBoard.OnOffInputsType.MapFromUint32</definition>
+        <argsstring>(uint input)</argsstring>
+        <name>MapFromUint32</name>
+        <param>
+          <type>uint</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="418" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="418" bodyend="425"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" line="399" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.MainBoard/MBProtocol.cs" bodystart="398" bodyend="426"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1aa796ab0e202aceae16d817e6e5a08a2d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::OnOffInputsType</scope><name>ConvertToUint32</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1ad08071b39e4f54d67a0ca7ac382dcb50" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::OnOffInputsType</scope><name>IsCartridgeSnsrOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1a4b45d7a8fbe1450af276a09d48abf388" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::OnOffInputsType</scope><name>IsDoorOpen</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1a8c246fd8accf1992ae94ed64623d2fb7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::OnOffInputsType</scope><name>IsFCClampSnsrOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1a1900f17686fdc899817a223944977be5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::OnOffInputsType</scope><name>IsFCSensorOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1a3aab2378634e7ed855cef7b5c228aa4e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::OnOffInputsType</scope><name>IsOvflowSnsrOn</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_on_off_inputs_type_1a4747764718b7291e284d7f01b43363e8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::MainBoard::OnOffInputsType</scope><name>MapFromUint32</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

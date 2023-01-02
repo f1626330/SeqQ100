@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::LiveMode</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode_1a44e9c6d2e81a8b70ade940e4b78ddafd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.LiveMode.BinningMode</definition>
+        <argsstring></argsstring>
+        <name>BinningMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="200" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode_1a543ae873798a00908d200e5950cd0a72" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.LiveMode.ReadoutSpeed</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="201" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode_1aa807370bd1d1b91eb8ec9eb3bb605d62" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.LiveMode.ExposureTime</definition>
+        <argsstring></argsstring>
+        <name>ExposureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="202" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode_1a7695268fee17f9c1743dbffdf01fc0f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.LiveMode.LiveMode</definition>
+        <argsstring>()</argsstring>
+        <name>LiveMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="204" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="204" bodyend="209"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="199" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="198" bodyend="210"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode_1a44e9c6d2e81a8b70ade940e4b78ddafd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::LiveMode</scope><name>BinningMode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode_1aa807370bd1d1b91eb8ec9eb3bb605d62" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::LiveMode</scope><name>ExposureTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode_1a7695268fee17f9c1743dbffdf01fc0f6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::LiveMode</scope><name>LiveMode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_live_mode_1a543ae873798a00908d200e5950cd0a72" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::LiveMode</scope><name>ReadoutSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

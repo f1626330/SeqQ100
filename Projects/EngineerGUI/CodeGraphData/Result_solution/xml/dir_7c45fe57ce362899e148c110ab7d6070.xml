@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7c45fe57ce362899e148c110ab7d6070" kind="dir">
+    <compoundname>D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera</compoundname>
+    <innerdir refid="dir_19c831767ddd17557ad7ae5ea760decd">D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/Properties</innerdir>
+    <innerfile refid="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_ethernet_camera_2_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_class1_8cs">Class1.cs</innerfile>
+    <innerfile refid="_projects_2_engineer_g_u_i_2_sequlite_8_a_l_f_8_ethernet_camera_2_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/"/>
+  </compounddef>
+</doxygen>

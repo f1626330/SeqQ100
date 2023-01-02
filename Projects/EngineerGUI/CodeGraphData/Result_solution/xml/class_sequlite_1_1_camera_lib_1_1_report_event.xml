@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_camera_lib_1_1_report_event" kind="class" prot="public">
+    <compoundname>Sequlite::CameraLib::ReportEvent</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EventArgs</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_camera_lib_1_1_report_event_1a23451a95537cc40bd0cb0ac5dfd4cdfe" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.ReportEvent.NotifEventReport</definition>
+        <argsstring></argsstring>
+        <name>NotifEventReport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="5009" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="5009" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_camera_lib_1_1_report_event_1ae48e65780e28a91396556c14445cd5d9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.CameraLib.ReportEvent.NotifEvent</definition>
+        <argsstring></argsstring>
+        <name>NotifEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="5010" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="5011" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_camera_lib_1_1_photometrics_camera_1ae049f9ff5897e6c02e6ff9be243ac429" compoundref="_photometrics_camera_8cs" startline="765" endline="814">Sequlite.CameraLib.PhotometricsCamera._PVCamCamera_CamNotif</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_camera_lib_1_1_report_event_1aa4eb348d50ca6ccce900c48defc6ecba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.CameraLib.ReportEvent.ReportEvent</definition>
+        <argsstring>(int e)</argsstring>
+        <name>ReportEvent</name>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="5005" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="5005" bodyend="5008"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1063">
+        <label>Sequlite.CameraLib.ReportEvent</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_report_event"/>
+        <childnode refid="1064" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1064">
+        <label>EventArgs</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1065">
+        <label>Sequlite.CameraLib.ReportEvent</label>
+        <link refid="class_sequlite_1_1_camera_lib_1_1_report_event"/>
+        <childnode refid="1066" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1066">
+        <label>EventArgs</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="5004" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="5003" bodyend="5021"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_report_event_1ae48e65780e28a91396556c14445cd5d9" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReportEvent</scope><name>NotifEvent</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_report_event_1a23451a95537cc40bd0cb0ac5dfd4cdfe" prot="private" virt="non-virtual"><scope>Sequlite::CameraLib::ReportEvent</scope><name>NotifEventReport</name></member>
+      <member refid="class_sequlite_1_1_camera_lib_1_1_report_event_1aa4eb348d50ca6ccce900c48defc6ecba" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::ReportEvent</scope><name>ReportEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

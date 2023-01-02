@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b" kind="struct" prot="public">
+    <compoundname>Sequlite::Image::Processing::RGB</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a12ed0f1cec1fe12b4c9129a3084f0dbf" prot="public" static="yes" mutable="no">
+        <type>readonly <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b" kindref="compound">RGB</ref></type>
+        <definition>readonly RGB Sequlite.Image.Processing.RGB.Empty</definition>
+        <argsstring></argsstring>
+        <name>Empty</name>
+        <initializer>= new <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b" kindref="compound">RGB</ref>()</initializer>
+        <briefdescription>
+<para>Gets an empty <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b" kindref="compound">RGB</ref> structure; </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a093e859dc96b3669fe29aac9c66b6ca4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.RGB.red</definition>
+        <argsstring></argsstring>
+        <name>red</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a11f901c8cb0fc26c3b767d158278393d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.RGB.green</definition>
+        <argsstring></argsstring>
+        <name>green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1ac34c0a9fcf695cd56961bb0c0b247b08" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.RGB.blue</definition>
+        <argsstring></argsstring>
+        <name>blue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a3fdedb2d0f2707524aa377113e1839b5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.RGB.Red</definition>
+        <argsstring></argsstring>
+        <name>Red</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="46" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="47" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a35853da771e8e8a5ca96230e54895286" compoundref="_color_space_helper_8cs" startline="854" endline="859">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1aa42f2cab657a26bdc8990affa37b5620" compoundref="_color_space_helper_8cs" startline="844" endline="849">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoHSL</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a17f3ca23bcdbacf00abd1625dd033328" compoundref="_color_space_helper_8cs" startline="864" endline="869">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoYUV</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad1b05f0914257660fe64cc0d63437ceb" compoundref="_color_space_helper_8cs" startline="355" endline="360">Sequlite.Image.Processing.ColorSpaceHelper.HSBtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1af249e3f0d95671223498acc856ca2735" compoundref="_color_space_helper_8cs" startline="345" endline="350">Sequlite.Image.Processing.ColorSpaceHelper.HSBtoHSL</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1aae9366f3e14b5e417e8b988fbe424b52" compoundref="_color_space_helper_8cs" startline="365" endline="370">Sequlite.Image.Processing.ColorSpaceHelper.HSBtoYUV</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1afaafbf20396ba13b975182a2ec5828de" compoundref="_color_space_helper_8cs" startline="475" endline="480">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a96998666fb9d299a415b087977d6d535" compoundref="_color_space_helper_8cs" startline="465" endline="470">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ac954199231c1c9a0768f267f4077550e" compoundref="_color_space_helper_8cs" startline="485" endline="490">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoYUV</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1af48c61ff2f23a26a680fee43758b6824" compoundref="_r_g_b_8cs" startline="33" endline="40">Sequlite.Image.Processing.RGB.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a68efa9bf62b0cd7efe8326a8f4b6ad3c" compoundref="_r_g_b_8cs" startline="24" endline="31">Sequlite.Image.Processing.RGB.operator==</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a37482931206bd048309da0936757cc94" compoundref="_color_space_helper_8cs" startline="664" endline="667">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a81495a0f58b282de594c043d6bb5c2c3" compoundref="_color_space_helper_8cs" startline="615" endline="618">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a83feec563f71edd8163d0584e061f609" compoundref="_color_space_helper_8cs" startline="562" endline="565">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoHSL</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad5bc652e304a96c3dd07a65a82a24854" compoundref="_color_space_helper_8cs" startline="761" endline="764">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoLab</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a91be95f928cd58d784cdc9c0b3050b67" compoundref="_color_space_helper_8cs" startline="737" endline="740">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoXYZ</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1afc0d91d8f84e8768d6ad3b4d01c800e9" compoundref="_color_space_helper_8cs" startline="703" endline="706">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoYUV</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ae7ebd8c7081fbaee382c4fd8d2ce1f7c" compoundref="_color_space_helper_8cs" startline="956" endline="961">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1aca9945f5e646a12d0d62cf0528b5e3f7" compoundref="_color_space_helper_8cs" startline="943" endline="948">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad60c5bf32edd119165efa1086b9feced" compoundref="_color_space_helper_8cs" startline="930" endline="935">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoHSL</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a8efdbb3ebf641d5ea70e060a0efe4cc2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.RGB.Green</definition>
+        <argsstring></argsstring>
+        <name>Green</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="59" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a35853da771e8e8a5ca96230e54895286" compoundref="_color_space_helper_8cs" startline="854" endline="859">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1aa42f2cab657a26bdc8990affa37b5620" compoundref="_color_space_helper_8cs" startline="844" endline="849">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoHSL</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a17f3ca23bcdbacf00abd1625dd033328" compoundref="_color_space_helper_8cs" startline="864" endline="869">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoYUV</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad1b05f0914257660fe64cc0d63437ceb" compoundref="_color_space_helper_8cs" startline="355" endline="360">Sequlite.Image.Processing.ColorSpaceHelper.HSBtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1af249e3f0d95671223498acc856ca2735" compoundref="_color_space_helper_8cs" startline="345" endline="350">Sequlite.Image.Processing.ColorSpaceHelper.HSBtoHSL</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1aae9366f3e14b5e417e8b988fbe424b52" compoundref="_color_space_helper_8cs" startline="365" endline="370">Sequlite.Image.Processing.ColorSpaceHelper.HSBtoYUV</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1afaafbf20396ba13b975182a2ec5828de" compoundref="_color_space_helper_8cs" startline="475" endline="480">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a96998666fb9d299a415b087977d6d535" compoundref="_color_space_helper_8cs" startline="465" endline="470">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ac954199231c1c9a0768f267f4077550e" compoundref="_color_space_helper_8cs" startline="485" endline="490">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoYUV</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1af48c61ff2f23a26a680fee43758b6824" compoundref="_r_g_b_8cs" startline="33" endline="40">Sequlite.Image.Processing.RGB.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a68efa9bf62b0cd7efe8326a8f4b6ad3c" compoundref="_r_g_b_8cs" startline="24" endline="31">Sequlite.Image.Processing.RGB.operator==</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a37482931206bd048309da0936757cc94" compoundref="_color_space_helper_8cs" startline="664" endline="667">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a81495a0f58b282de594c043d6bb5c2c3" compoundref="_color_space_helper_8cs" startline="615" endline="618">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a83feec563f71edd8163d0584e061f609" compoundref="_color_space_helper_8cs" startline="562" endline="565">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoHSL</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad5bc652e304a96c3dd07a65a82a24854" compoundref="_color_space_helper_8cs" startline="761" endline="764">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoLab</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a91be95f928cd58d784cdc9c0b3050b67" compoundref="_color_space_helper_8cs" startline="737" endline="740">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoXYZ</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1afc0d91d8f84e8768d6ad3b4d01c800e9" compoundref="_color_space_helper_8cs" startline="703" endline="706">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoYUV</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ae7ebd8c7081fbaee382c4fd8d2ce1f7c" compoundref="_color_space_helper_8cs" startline="956" endline="961">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1aca9945f5e646a12d0d62cf0528b5e3f7" compoundref="_color_space_helper_8cs" startline="943" endline="948">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad60c5bf32edd119165efa1086b9feced" compoundref="_color_space_helper_8cs" startline="930" endline="935">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoHSL</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a017a779b5a94b74c61bd8bffeccef0da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.RGB.Blue</definition>
+        <argsstring></argsstring>
+        <name>Blue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="72" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="73" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a35853da771e8e8a5ca96230e54895286" compoundref="_color_space_helper_8cs" startline="854" endline="859">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1aa42f2cab657a26bdc8990affa37b5620" compoundref="_color_space_helper_8cs" startline="844" endline="849">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoHSL</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a17f3ca23bcdbacf00abd1625dd033328" compoundref="_color_space_helper_8cs" startline="864" endline="869">Sequlite.Image.Processing.ColorSpaceHelper.CMYKtoYUV</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad1b05f0914257660fe64cc0d63437ceb" compoundref="_color_space_helper_8cs" startline="355" endline="360">Sequlite.Image.Processing.ColorSpaceHelper.HSBtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1af249e3f0d95671223498acc856ca2735" compoundref="_color_space_helper_8cs" startline="345" endline="350">Sequlite.Image.Processing.ColorSpaceHelper.HSBtoHSL</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1aae9366f3e14b5e417e8b988fbe424b52" compoundref="_color_space_helper_8cs" startline="365" endline="370">Sequlite.Image.Processing.ColorSpaceHelper.HSBtoYUV</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1afaafbf20396ba13b975182a2ec5828de" compoundref="_color_space_helper_8cs" startline="475" endline="480">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a96998666fb9d299a415b087977d6d535" compoundref="_color_space_helper_8cs" startline="465" endline="470">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ac954199231c1c9a0768f267f4077550e" compoundref="_color_space_helper_8cs" startline="485" endline="490">Sequlite.Image.Processing.ColorSpaceHelper.HSLtoYUV</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1af48c61ff2f23a26a680fee43758b6824" compoundref="_r_g_b_8cs" startline="33" endline="40">Sequlite.Image.Processing.RGB.operator!=</referencedby>
+        <referencedby refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a68efa9bf62b0cd7efe8326a8f4b6ad3c" compoundref="_r_g_b_8cs" startline="24" endline="31">Sequlite.Image.Processing.RGB.operator==</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a37482931206bd048309da0936757cc94" compoundref="_color_space_helper_8cs" startline="664" endline="667">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a81495a0f58b282de594c043d6bb5c2c3" compoundref="_color_space_helper_8cs" startline="615" endline="618">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a83feec563f71edd8163d0584e061f609" compoundref="_color_space_helper_8cs" startline="562" endline="565">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoHSL</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad5bc652e304a96c3dd07a65a82a24854" compoundref="_color_space_helper_8cs" startline="761" endline="764">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoLab</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1a91be95f928cd58d784cdc9c0b3050b67" compoundref="_color_space_helper_8cs" startline="737" endline="740">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoXYZ</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1afc0d91d8f84e8768d6ad3b4d01c800e9" compoundref="_color_space_helper_8cs" startline="703" endline="706">Sequlite.Image.Processing.ColorSpaceHelper.RGBtoYUV</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ae7ebd8c7081fbaee382c4fd8d2ce1f7c" compoundref="_color_space_helper_8cs" startline="956" endline="961">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoCMYK</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1aca9945f5e646a12d0d62cf0528b5e3f7" compoundref="_color_space_helper_8cs" startline="943" endline="948">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoHSB</referencedby>
+        <referencedby refid="class_sequlite_1_1_image_1_1_processing_1_1_color_space_helper_1ad60c5bf32edd119165efa1086b9feced" compoundref="_color_space_helper_8cs" startline="930" endline="935">Sequlite.Image.Processing.ColorSpaceHelper.YUVtoHSL</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a68efa9bf62b0cd7efe8326a8f4b6ad3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.RGB.operator==</definition>
+        <argsstring>(RGB item1, RGB item2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b" kindref="compound">RGB</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b" kindref="compound">RGB</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="24" bodyend="31"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a017a779b5a94b74c61bd8bffeccef0da" compoundref="_r_g_b_8cs" startline="73">Sequlite.Image.Processing.RGB.Blue</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a8efdbb3ebf641d5ea70e060a0efe4cc2" compoundref="_r_g_b_8cs" startline="60">Sequlite.Image.Processing.RGB.Green</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a3fdedb2d0f2707524aa377113e1839b5" compoundref="_r_g_b_8cs" startline="47">Sequlite.Image.Processing.RGB.Red</references>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1af48c61ff2f23a26a680fee43758b6824" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Sequlite.Image.Processing.RGB.operator!=</definition>
+        <argsstring>(RGB item1, RGB item2)</argsstring>
+        <name>operator!=</name>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b" kindref="compound">RGB</ref></type>
+          <declname>item1</declname>
+        </param>
+        <param>
+          <type><ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b" kindref="compound">RGB</ref></type>
+          <declname>item2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="33" bodyend="40"/>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a017a779b5a94b74c61bd8bffeccef0da" compoundref="_r_g_b_8cs" startline="73">Sequlite.Image.Processing.RGB.Blue</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a8efdbb3ebf641d5ea70e060a0efe4cc2" compoundref="_r_g_b_8cs" startline="60">Sequlite.Image.Processing.RGB.Green</references>
+        <references refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a3fdedb2d0f2707524aa377113e1839b5" compoundref="_r_g_b_8cs" startline="47">Sequlite.Image.Processing.RGB.Red</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a1007d8b602546b8cb8fc6aceed923b88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.RGB.RGB</definition>
+        <argsstring>(int R, int G, int B)</argsstring>
+        <name>RGB</name>
+        <param>
+          <type>int</type>
+          <declname>R</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>G</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>B</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="85" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="85" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a7683d85b8cb2a60b57a8c20b08f0e116" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Sequlite.Image.Processing.RGB.Equals</definition>
+        <argsstring>(Object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="93" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="93" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1afb6a9090a2daa0f17640641114656e8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Sequlite.Image.Processing.RGB.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="100" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="100" bodyend="103"/>
+        <references refid="namespace_sequlite_1_1_image_1_1_processing_1ab9edef8e4a8caaf7bda4a0be1023a1cdad382816a3cbeed082c9e216e7392eed1">Sequlite.Image.Processing.Green</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Structure to define <ref refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b" kindref="compound">RGB</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1111">
+        <label>Sequlite.Image.Processing.RGB</label>
+        <link refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b"/>
+        <childnode refid="1112" relation="usage">
+          <edgelabel>Empty</edgelabel>
+        </childnode>
+      </node>
+      <node id="1112">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/utils/RGB.cs" bodystart="9" bodyend="106"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1ac34c0a9fcf695cd56961bb0c0b247b08" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>blue</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a017a779b5a94b74c61bd8bffeccef0da" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>Blue</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a12ed0f1cec1fe12b4c9129a3084f0dbf" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>Empty</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a7683d85b8cb2a60b57a8c20b08f0e116" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>Equals</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1afb6a9090a2daa0f17640641114656e8d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>GetHashCode</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a8efdbb3ebf641d5ea70e060a0efe4cc2" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>Green</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a11f901c8cb0fc26c3b767d158278393d" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>green</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1af48c61ff2f23a26a680fee43758b6824" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>operator!=</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a68efa9bf62b0cd7efe8326a8f4b6ad3c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>operator==</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a3fdedb2d0f2707524aa377113e1839b5" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>Red</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a093e859dc96b3669fe29aac9c66b6ca4" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>red</name></member>
+      <member refid="struct_sequlite_1_1_image_1_1_processing_1_1_r_g_b_1a1007d8b602546b8cb8fc6aceed923b88" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RGB</scope><name>RGB</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

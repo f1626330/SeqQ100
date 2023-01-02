@@ -1,0 +1,1097 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64" kind="class" prot="package">
+    <compoundname>Photometrics::Pvcam::PVCAM64</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1afbfebc1c9bdec24c715f347be6ac8ef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_pvcam_init</definition>
+        <argsstring>()</argsstring>
+        <name>pl_pvcam_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a206005de4137bd533cf76a0707edaccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_pvcam_uninit</definition>
+        <argsstring>()</argsstring>
+        <name>pl_pvcam_uninit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a2aa13a6fa3561e4d93a099f3c871460a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_pvcam_get_ver</definition>
+        <argsstring>(out UInt16 version)</argsstring>
+        <name>pl_pvcam_get_ver</name>
+        <param>
+          <type>out UInt16</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ac34e543eb41529f20c247401540350ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_cam_close</definition>
+        <argsstring>(Int16 hCam)</argsstring>
+        <name>pl_cam_close</name>
+        <param>
+          <type>Int16</type>
+          <declname>hCam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a487bf1a68c09b2dddd624f8d62a33301" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_cam_get_name</definition>
+        <argsstring>(Int16 cameraNumber, StringBuilder cameraName)</argsstring>
+        <name>pl_cam_get_name</name>
+        <param>
+          <type>Int16</type>
+          <declname>cameraNumber</declname>
+        </param>
+        <param>
+          <type>StringBuilder</type>
+          <declname>cameraName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ac641f61f0cf536cdbc141cfad2169f26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_cam_get_total</definition>
+        <argsstring>(out Int16 hCam)</argsstring>
+        <name>pl_cam_get_total</name>
+        <param>
+          <type>out Int16</type>
+          <declname>hCam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a7030cdedc497098c6037bf71e2a270a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_cam_open</definition>
+        <argsstring>(StringBuilder cameraName, out Int16 hCam, PvTypes.CameraOpenMode o_mode)</argsstring>
+        <name>pl_cam_open</name>
+        <param>
+          <type>StringBuilder</type>
+          <declname>cameraName</declname>
+        </param>
+        <param>
+          <type>out Int16</type>
+          <declname>hCam</declname>
+        </param>
+        <param>
+          <type><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a5a947f05f0e1e6e47451c4b895e5bf28" kindref="member">PvTypes.CameraOpenMode</ref></type>
+          <declname>o_mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a4c82300cc22f24e271b3ea8ea43a2eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_cam_register_callback</definition>
+        <argsstring>(Int16 hCam, PvTypes.PL_CALLBACK_EVENT callBackEvent, PvTypes.PMCallBack callback)</argsstring>
+        <name>pl_cam_register_callback</name>
+        <param>
+          <type>Int16</type>
+          <declname>hCam</declname>
+        </param>
+        <param>
+          <type><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a0a94e12528477cef576abd2dfb786d11" kindref="member">PvTypes.PL_CALLBACK_EVENT</ref></type>
+          <declname>callBackEvent</declname>
+        </param>
+        <param>
+          <type><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1ae0cf03c6e1ba3aedccf853435a137649" kindref="member">PvTypes.PMCallBack</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a786db99faccb02247363eeaa9a61f082" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_cam_register_callback_ex</definition>
+        <argsstring>(Int16 hCam, PvTypes.PL_CALLBACK_EVENT callBackEvent, PvTypes.PMCallBack_Ex callback, IntPtr context)</argsstring>
+        <name>pl_cam_register_callback_ex</name>
+        <param>
+          <type>Int16</type>
+          <declname>hCam</declname>
+        </param>
+        <param>
+          <type><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a0a94e12528477cef576abd2dfb786d11" kindref="member">PvTypes.PL_CALLBACK_EVENT</ref></type>
+          <declname>callBackEvent</declname>
+        </param>
+        <param>
+          <type><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a26590302a31cc0af4271ad4cf01bbcef" kindref="member">PvTypes.PMCallBack_Ex</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a96bc2a6a6db1921d235a04aabf7c8372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_cam_register_callback_ex2</definition>
+        <argsstring>(Int16 hCam, PvTypes.PL_CALLBACK_EVENT callBackEvent, PvTypes.PMCallBack_Ex2 callback)</argsstring>
+        <name>pl_cam_register_callback_ex2</name>
+        <param>
+          <type>Int16</type>
+          <declname>hCam</declname>
+        </param>
+        <param>
+          <type><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a0a94e12528477cef576abd2dfb786d11" kindref="member">PvTypes.PL_CALLBACK_EVENT</ref></type>
+          <declname>callBackEvent</declname>
+        </param>
+        <param>
+          <type><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a7ab45d0800063810e3788fc398fb8f83" kindref="member">PvTypes.PMCallBack_Ex2</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a60cd0e1e7d150303dd5c36621e7a008d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_cam_register_callback_ex3</definition>
+        <argsstring>(Int16 hCam, PvTypes.PL_CALLBACK_EVENT callBackEvent, PvTypes.PMCallBack_Ex3 callback, IntPtr context)</argsstring>
+        <name>pl_cam_register_callback_ex3</name>
+        <param>
+          <type>Int16</type>
+          <declname>hCam</declname>
+        </param>
+        <param>
+          <type><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a0a94e12528477cef576abd2dfb786d11" kindref="member">PvTypes.PL_CALLBACK_EVENT</ref></type>
+          <declname>callBackEvent</declname>
+        </param>
+        <param>
+          <type><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1af9a99057685ae90bedd90c01a966ceec" kindref="member">PvTypes.PMCallBack_Ex3</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a02bd75c3527c4ea3a636eb353f21330c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_cam_deregister_callback</definition>
+        <argsstring>(Int16 hCam, PvTypes.PL_CALLBACK_EVENT callBackEvent)</argsstring>
+        <name>pl_cam_deregister_callback</name>
+        <param>
+          <type>Int16</type>
+          <declname>hCam</declname>
+        </param>
+        <param>
+          <type><ref refid="class_photometrics_1_1_pvcam_1_1_pv_types_1a0a94e12528477cef576abd2dfb786d11" kindref="member">PvTypes.PL_CALLBACK_EVENT</ref></type>
+          <declname>callBackEvent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ae4987f9851ecd27d2ef6f7e49c5f352b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Int16</type>
+        <definition>static Int16 Photometrics.Pvcam.PVCAM64.pl_error_code</definition>
+        <argsstring>()</argsstring>
+        <name>pl_error_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a4af98d09844587230812cf403dfd80af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_error_message</definition>
+        <argsstring>(Int16 err_code, StringBuilder msg)</argsstring>
+        <name>pl_error_message</name>
+        <param>
+          <type>Int16</type>
+          <declname>err_code</declname>
+        </param>
+        <param>
+          <type>StringBuilder</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a5f2bcb7325bb5057625bd4b42f9e5a31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_get_param</definition>
+        <argsstring>(Int16 hcam, UInt32 param_id, Int16 param_attrib, IntPtr param_value)</argsstring>
+        <name>pl_get_param</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>param_id</declname>
+        </param>
+        <param>
+          <type>Int16</type>
+          <declname>param_attrib</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>param_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a64557a62359f43366b7c69212119f908" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_set_param</definition>
+        <argsstring>(Int16 hcam, UInt32 param_id, IntPtr param_value)</argsstring>
+        <name>pl_set_param</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>param_id</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>param_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1af7065ff61789628e7df3d969cade8838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_get_enum_param</definition>
+        <argsstring>(Int16 hcam, UInt32 param_id, UInt32 index, out Int32 value, StringBuilder desc, UInt32 length)</argsstring>
+        <name>pl_get_enum_param</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>param_id</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out Int32</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>StringBuilder</type>
+          <declname>desc</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="95" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a38fa41dbc238392c4eccc7fd21587421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_enum_str_length</definition>
+        <argsstring>(Int16 hcam, UInt32 param_id, UInt32 index, out UInt32 length)</argsstring>
+        <name>pl_enum_str_length</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>param_id</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>out UInt32</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a0d37f55a11842c88fcdcc38e175a3388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_pp_reset</definition>
+        <argsstring>(Int16 hcam)</argsstring>
+        <name>pl_pp_reset</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ae45172e8ed10a2bda21b5c51dcf7cee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_create_smart_stream_struct</definition>
+        <argsstring>(out PvTypes.smart_stream_type smtStreamStruct, UInt16 entries)</argsstring>
+        <name>pl_create_smart_stream_struct</name>
+        <param>
+          <type>out <ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1smart__stream__type" kindref="compound">PvTypes.smart_stream_type</ref></type>
+          <declname>smtStreamStruct</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>entries</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a3f3d1f8a8446188802d254706025ad9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_release_smart_stream_struct</definition>
+        <argsstring>(out PvTypes.smart_stream_type smtStreamStruct)</argsstring>
+        <name>pl_release_smart_stream_struct</name>
+        <param>
+          <type>out <ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1smart__stream__type" kindref="compound">PvTypes.smart_stream_type</ref></type>
+          <declname>smtStreamStruct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a3ce2ef1cc59c9e31db5acd38455ed405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_create_frame_info_struct</definition>
+        <argsstring>(out PvTypes.FRAME_INFO new_frame)</argsstring>
+        <name>pl_create_frame_info_struct</name>
+        <param>
+          <type>out <ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o" kindref="compound">PvTypes.FRAME_INFO</ref></type>
+          <declname>new_frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="119" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a585fab7eb2d4d92d83d0fcc4737af1ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_release_frame_info_struct</definition>
+        <argsstring>(PvTypes.FRAME_INFO frame_to_delete)</argsstring>
+        <name>pl_release_frame_info_struct</name>
+        <param>
+          <type><ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o" kindref="compound">PvTypes.FRAME_INFO</ref></type>
+          <declname>frame_to_delete</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a91872d0141f1d331aec2712092078965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_init_seq</definition>
+        <argsstring>()</argsstring>
+        <name>pl_exp_init_seq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a48ef0018bf0e12726630fec27659a08f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_setup_seq</definition>
+        <argsstring>(Int16 hcam, UInt16 exp_total, UInt16 rgn_total, ref PvTypes.RegionType rgn_array, Int16 mode, UInt32 exposure_time, out UInt32 stream_size)</argsstring>
+        <name>pl_exp_setup_seq</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>exp_total</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>rgn_total</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type" kindref="compound">PvTypes.RegionType</ref></type>
+          <declname>rgn_array</declname>
+        </param>
+        <param>
+          <type>Int16</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>exposure_time</declname>
+        </param>
+        <param>
+          <type>out UInt32</type>
+          <declname>stream_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1aabaa0d9cb91f053f7b9a9330415d433c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_start_seq</definition>
+        <argsstring>(Int16 hcam, IntPtr pixel_stream_ptr)</argsstring>
+        <name>pl_exp_start_seq</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>pixel_stream_ptr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="142" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a78b48cbecb1a3b0c7be2e4741dd7b006" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_check_status</definition>
+        <argsstring>(Int16 hcam, out Int16 status, out UInt32 byte_cnt)</argsstring>
+        <name>pl_exp_check_status</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>out Int16</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>out UInt32</type>
+          <declname>byte_cnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="146" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a05b5298cec6c907a4e09fc1aa5c58b53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_finish_seq</definition>
+        <argsstring>(Int16 hcam, IntPtr pixel_stream_ptr, Int16 hbuf)</argsstring>
+        <name>pl_exp_finish_seq</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>pixel_stream_ptr</declname>
+        </param>
+        <param>
+          <type>Int16</type>
+          <declname>hbuf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="151" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a79fd9d276b2789bf45f4397c0162e288" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_uninit_seq</definition>
+        <argsstring>()</argsstring>
+        <name>pl_exp_uninit_seq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="155" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a440f27e2a5204119c247a685136f3841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_abort</definition>
+        <argsstring>(Int16 hcam, Int16 cam_state)</argsstring>
+        <name>pl_exp_abort</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>Int16</type>
+          <declname>cam_state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="159" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ae2624307d5dfcb67105c5e3632bd603b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_start_cont</definition>
+        <argsstring>(Int16 hcam, IntPtr pixel_stream, UInt32 size)</argsstring>
+        <name>pl_exp_start_cont</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>pixel_stream</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="163" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a3ee7a91df45508acfb9aad1e69001540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_setup_cont</definition>
+        <argsstring>(Int16 hcam, UInt16 rgn_total, ref PvTypes.RegionType rgn_array, Int16 mode, UInt32 exposure_time, out UInt32 stream_size, Int16 circ_mode)</argsstring>
+        <name>pl_exp_setup_cont</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>rgn_total</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_region_type" kindref="compound">PvTypes.RegionType</ref></type>
+          <declname>rgn_array</declname>
+        </param>
+        <param>
+          <type>Int16</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>exposure_time</declname>
+        </param>
+        <param>
+          <type>out UInt32</type>
+          <declname>stream_size</declname>
+        </param>
+        <param>
+          <type>Int16</type>
+          <declname>circ_mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="167" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a565290632f45bf4b987b62cdbdaf5c57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_get_latest_frame</definition>
+        <argsstring>(Int16 hcam, out IntPtr frame)</argsstring>
+        <name>pl_exp_get_latest_frame</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="174" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ac97e7759f43858db30987e067746cb2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_get_latest_frame_ex</definition>
+        <argsstring>(Int16 hcam, out IntPtr frame, out PvTypes.FRAME_INFO pFrameInfo)</argsstring>
+        <name>pl_exp_get_latest_frame_ex</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o" kindref="compound">PvTypes.FRAME_INFO</ref></type>
+          <declname>pFrameInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="178" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a36838608472f9de3fa4bd291c5fa0fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_get_oldest_frame</definition>
+        <argsstring>(Int16 hcam, out IntPtr frame)</argsstring>
+        <name>pl_exp_get_oldest_frame</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="183" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a8c89e07bb014f7425f326df31ff439c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_get_oldest_frame_ex</definition>
+        <argsstring>(Int16 hcam, out IntPtr frame, out PvTypes.FRAME_INFO pFrameInfo)</argsstring>
+        <name>pl_exp_get_oldest_frame_ex</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>out IntPtr</type>
+          <declname>frame</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o" kindref="compound">PvTypes.FRAME_INFO</ref></type>
+          <declname>pFrameInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="187" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ac05209eaeeef62a96ae9fe74f0d6b8fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_check_cont_status</definition>
+        <argsstring>(Int16 hcam, out Int16 status, out UInt32 byte_cnt, out UInt32 buffer_cnt)</argsstring>
+        <name>pl_exp_check_cont_status</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>out Int16</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>out UInt32</type>
+          <declname>byte_cnt</declname>
+        </param>
+        <param>
+          <type>out UInt32</type>
+          <declname>buffer_cnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="192" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ac9724a3f6e406f3adc55915ba6cba6af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_check_cont_status_ex</definition>
+        <argsstring>(Int16 hcam, out Int16 status, out UInt32 byte_cnt, out UInt32 buffer_cnt, out PvTypes.FRAME_INFO pFrameInfo)</argsstring>
+        <name>pl_exp_check_cont_status_ex</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>out Int16</type>
+          <declname>status</declname>
+        </param>
+        <param>
+          <type>out UInt32</type>
+          <declname>byte_cnt</declname>
+        </param>
+        <param>
+          <type>out UInt32</type>
+          <declname>buffer_cnt</declname>
+        </param>
+        <param>
+          <type>out <ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_f_r_a_m_e___i_n_f_o" kindref="compound">PvTypes.FRAME_INFO</ref></type>
+          <declname>pFrameInfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="197" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a7dcc2b2b70ece65833d9dbcb244d56b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_stop_cont</definition>
+        <argsstring>(Int16 hcam, Int16 cam_state)</argsstring>
+        <name>pl_exp_stop_cont</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <param>
+          <type>Int16</type>
+          <declname>cam_state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="203" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a9218902103d2496314958b70004d3459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_exp_unlock_oldest_frame</definition>
+        <argsstring>(Int16 hcam)</argsstring>
+        <name>pl_exp_unlock_oldest_frame</name>
+        <param>
+          <type>Int16</type>
+          <declname>hcam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="207" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1af055efc1ee75f1b94764ea7e95b8aaa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_md_frame_decode</definition>
+        <argsstring>(IntPtr pDstFrame, IntPtr pSrcBuf, UInt32 srcBufSize)</argsstring>
+        <name>pl_md_frame_decode</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>pDstFrame</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>pSrcBuf</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>srcBufSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="211" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a637294becf9a539dd2f78116b09013ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_md_frame_recompose</definition>
+        <argsstring>(IntPtr pDstBuf, UInt16 offX, UInt16 offY, UInt16 dstWidth, UInt16 dstHeight, ref PvTypes.MD_Frame pSrcFrame)</argsstring>
+        <name>pl_md_frame_recompose</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>pDstBuf</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>offX</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>offY</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>dstWidth</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>dstHeight</declname>
+        </param>
+        <param>
+          <type>ref <ref refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_m_d___frame" kindref="compound">PvTypes.MD_Frame</ref></type>
+          <declname>pSrcFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="215" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a5ce1b36d736236ffbecda0d0282d2fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_md_create_frame_struct_cont</definition>
+        <argsstring>(ref IntPtr pFrame, UInt16 roiCount)</argsstring>
+        <name>pl_md_create_frame_struct_cont</name>
+        <param>
+          <type>ref IntPtr</type>
+          <declname>pFrame</declname>
+        </param>
+        <param>
+          <type>UInt16</type>
+          <declname>roiCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="221" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1aa26ee499f98056e75999c994327fbaab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_md_create_frame_struct</definition>
+        <argsstring>(ref IntPtr pFrame, IntPtr pSrcBuf, UInt32 srcBufSize)</argsstring>
+        <name>pl_md_create_frame_struct</name>
+        <param>
+          <type>ref IntPtr</type>
+          <declname>pFrame</declname>
+        </param>
+        <param>
+          <type>IntPtr</type>
+          <declname>pSrcBuf</declname>
+        </param>
+        <param>
+          <type>UInt32</type>
+          <declname>srcBufSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="225" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ae3f1f2676f552cfea68b1fb3807f3a48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Photometrics.Pvcam.PVCAM64.pl_md_release_frame_struct</definition>
+        <argsstring>(IntPtr pFrame)</argsstring>
+        <name>pl_md_release_frame_struct</name>
+        <param>
+          <type>IntPtr</type>
+          <declname>pFrame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="229" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PVCAM64.cs" bodystart="9" bodyend="233"/>
+    <listofallmembers>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ac34e543eb41529f20c247401540350ca" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_cam_close</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a02bd75c3527c4ea3a636eb353f21330c" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_cam_deregister_callback</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a487bf1a68c09b2dddd624f8d62a33301" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_cam_get_name</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ac641f61f0cf536cdbc141cfad2169f26" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_cam_get_total</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a7030cdedc497098c6037bf71e2a270a3" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_cam_open</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a4c82300cc22f24e271b3ea8ea43a2eeb" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_cam_register_callback</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a786db99faccb02247363eeaa9a61f082" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_cam_register_callback_ex</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a96bc2a6a6db1921d235a04aabf7c8372" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_cam_register_callback_ex2</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a60cd0e1e7d150303dd5c36621e7a008d" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_cam_register_callback_ex3</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a3ce2ef1cc59c9e31db5acd38455ed405" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_create_frame_info_struct</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ae45172e8ed10a2bda21b5c51dcf7cee1" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_create_smart_stream_struct</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a38fa41dbc238392c4eccc7fd21587421" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_enum_str_length</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ae4987f9851ecd27d2ef6f7e49c5f352b" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_error_code</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a4af98d09844587230812cf403dfd80af" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_error_message</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a440f27e2a5204119c247a685136f3841" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_abort</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ac05209eaeeef62a96ae9fe74f0d6b8fc" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_check_cont_status</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ac9724a3f6e406f3adc55915ba6cba6af" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_check_cont_status_ex</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a78b48cbecb1a3b0c7be2e4741dd7b006" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_check_status</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a05b5298cec6c907a4e09fc1aa5c58b53" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_finish_seq</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a565290632f45bf4b987b62cdbdaf5c57" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_get_latest_frame</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ac97e7759f43858db30987e067746cb2a" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_get_latest_frame_ex</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a36838608472f9de3fa4bd291c5fa0fca" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_get_oldest_frame</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a8c89e07bb014f7425f326df31ff439c4" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_get_oldest_frame_ex</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a91872d0141f1d331aec2712092078965" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_init_seq</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a3ee7a91df45508acfb9aad1e69001540" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_setup_cont</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a48ef0018bf0e12726630fec27659a08f" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_setup_seq</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ae2624307d5dfcb67105c5e3632bd603b" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_start_cont</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1aabaa0d9cb91f053f7b9a9330415d433c" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_start_seq</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a7dcc2b2b70ece65833d9dbcb244d56b6" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_stop_cont</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a79fd9d276b2789bf45f4397c0162e288" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_uninit_seq</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a9218902103d2496314958b70004d3459" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_exp_unlock_oldest_frame</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1af7065ff61789628e7df3d969cade8838" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_get_enum_param</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a5f2bcb7325bb5057625bd4b42f9e5a31" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_get_param</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1aa26ee499f98056e75999c994327fbaab" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_md_create_frame_struct</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a5ce1b36d736236ffbecda0d0282d2fc9" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_md_create_frame_struct_cont</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1af055efc1ee75f1b94764ea7e95b8aaa0" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_md_frame_decode</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a637294becf9a539dd2f78116b09013ae" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_md_frame_recompose</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1ae3f1f2676f552cfea68b1fb3807f3a48" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_md_release_frame_struct</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a0d37f55a11842c88fcdcc38e175a3388" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_pp_reset</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a2aa13a6fa3561e4d93a099f3c871460a" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_pvcam_get_ver</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1afbfebc1c9bdec24c715f347be6ac8ef8" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_pvcam_init</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a206005de4137bd533cf76a0707edaccc" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_pvcam_uninit</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a585fab7eb2d4d92d83d0fcc4737af1ca" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_release_frame_info_struct</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a3f3d1f8a8446188802d254706025ad9a" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_release_smart_stream_struct</name></member>
+      <member refid="class_photometrics_1_1_pvcam_1_1_p_v_c_a_m64_1a64557a62359f43366b7c69212119f908" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PVCAM64</scope><name>pl_set_param</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

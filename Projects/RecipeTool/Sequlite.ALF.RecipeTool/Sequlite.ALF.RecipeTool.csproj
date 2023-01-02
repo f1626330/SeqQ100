@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{70E802E2-610B-441E-B6ED-94419FCF6646}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sequlite.ALF.RecipeTool</RootNamespace>
+    <AssemblyName>Sequlite.ALF.RecipeTool</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ViewModel\CommentStepViewModel.cs" />
+    <Compile Include="ViewModel\Region.cs" />
+    <Compile Include="ViewModel\StepEditViewModel.cs" />
+    <Compile Include="ViewModel\ImagingStepViewModel.cs" />
+    <Compile Include="ViewModel\LoopStepViewModel.cs" />
+    <Compile Include="ViewModel\MoveStageStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipeStepViewModel.cs" />
+    <Compile Include="ViewModel\PumpingStepViewModel.cs" />
+    <Compile Include="ViewModel\RecipeToolRecipeViewModel.cs" />
+    <Compile Include="ViewModel\RunRecipeStepViewModel.cs" />
+    <Compile Include="ViewModel\SetTemperStepViewModel.cs" />
+    <Compile Include="ViewModel\StepManipulationViewModel.cs" />
+    <Compile Include="ViewModel\StepsTreeViewModel.cs" />
+    <Compile Include="ViewModel\StopTemperStepViewModel.cs" />
+    <Compile Include="ViewModel\WaitingStepViewModel.cs" />
+    <Compile Include="ViewModel\Workspace.cs" />
+    <Compile Include="View\CommentStepView.xaml.cs">
+      <DependentUpon>CommentStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ImagingStepView.xaml.cs">
+      <DependentUpon>ImagingStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoopStepView.xaml.cs">
+      <DependentUpon>LoopStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MoveStageStepView.xaml.cs">
+      <DependentUpon>MoveStageStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NewStepView.xaml.cs">
+      <DependentUpon>NewStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PumpingStepView.xaml.cs">
+      <DependentUpon>PumpingStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RecipeViewControl.xaml.cs">
+      <DependentUpon>RecipeViewControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RunRecipeStepView.xaml.cs">
+      <DependentUpon>RunRecipeStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SetTemperStepView.xaml.cs">
+      <DependentUpon>SetTemperStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StepEditWindow.xaml.cs">
+      <DependentUpon>StepEditWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StepManipulationView.xaml.cs">
+      <DependentUpon>StepManipulationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StopTemperStepView.xaml.cs">
+      <DependentUpon>StopTemperStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WaitingStepView.xaml.cs">
+      <DependentUpon>WaitingStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WpfConverters\EnumToVisibilityCollapsedConverter.cs" />
+    <Compile Include="WpfConverters\EnumToVisibilityHiddenConverter.cs" />
+    <Compile Include="WpfConverters\EnumToVisibilityVisibleConverter.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\CommentStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ImagingStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\LoopStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\MoveStageStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\NewStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\PumpingStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RecipeViewControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RunRecipeStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SetTemperStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StepEditWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StepManipulationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StopTemperStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\WaitingStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="RecipeTemplate.xml">
+      <SubType>Designer</SubType>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.Common\Sequlite.ALF.Common.csproj">
+      <Project>{62dba0e8-7f0c-4575-a907-b0d153f51524}</Project>
+      <Name>Sequlite.ALF.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.Fluidics\Sequlite.ALF.Fluidics.csproj">
+      <Project>{07A59F91-59D0-41EF-96A5-3CE699BFB68D}</Project>
+      <Name>Sequlite.ALF.Fluidics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.MainBoard\Sequlite.ALF.MainBoard.csproj">
+      <Project>{c7850d7d-a231-4ce4-bc75-9787f59bcc75}</Project>
+      <Name>Sequlite.ALF.MainBoard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.MotionControl\Sequlite.ALF.MotionControl.csproj">
+      <Project>{0d77fd7c-df0d-4c9e-91dd-0c19b118edaf}</Project>
+      <Name>Sequlite.ALF.MotionControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.ALF.RecipeLib\Sequlite.ALF.RecipeLib.csproj">
+      <Project>{b1cfa372-fe3f-4cb6-94d4-d7fff1a55f1d}</Project>
+      <Name>Sequlite.ALF.RecipeLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Libraries\Sequlite.WPF.Framework\Sequlite.WPF.Framework.csproj">
+      <Project>{3a6581b3-94d2-47d0-b4af-e182d15ebbbe}</Project>
+      <Name>Sequlite.WPF.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

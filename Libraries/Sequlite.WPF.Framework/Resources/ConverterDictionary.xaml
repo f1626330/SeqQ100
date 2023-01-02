@@ -1,0 +1,41 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework"
+                    >
+    <wpfFramework:BinLevelConverter x:Key="binLevelConverter"/>
+    <wpfFramework:BooleanToVisibileHiddenConverter x:Key="boolToVisibilityHiddenConverter"/>
+    <wpfFramework:BooleanToVisibilityConverter x:Key="boolToVisibilityVisibleConverter"/>
+    <wpfFramework:BooleanToVisibilityNegateConverter x:Key="boolToVisibilityCollapsedConverter"/>
+    <wpfFramework:BooleanToVisibleMultiConverter x:Key="boolToVisibleMultiConverter"/>
+    <wpfFramework:VisibilityToCheckedConverter x:Key="visibilityToCheckedConverter"/>
+    <wpfFramework:EnumToBooleanConverter x:Key="enumToBooleanConverter"/>
+    <wpfFramework:EnumToCollectionConverter x:Key="enumToCollectionConverter"/>
+    <wpfFramework:EnumToNameConverter x:Key="enumToNameConverter"/>
+    <wpfFramework:EnumToDisplayNameConverter x:Key="enumToDisplayNameConverter"/>
+    <wpfFramework:EnumToDisplayDescriptionConverter x:Key="enumToDisplayDescriptionConverter"/>
+    <wpfFramework:LogicalNegateConverter x:Key="boolReverseConverter"/>
+    <wpfFramework:LogicalOrNegateConverter x:Key="logicalOrNegateConverter"/>
+    <wpfFramework:LogicalOrConverter x:Key="logicalOrConverter"/>
+    <wpfFramework:IsFalseMutipleConverter x:Key="isFalseMutipleConverter"/>
+    <!--<wpfFramework:LogWindow x:Key="{x:Type wpfFramework:LogWindowViewModel}" x:Shared="False"/>-->
+
+    <wpfFramework:EnumToVisibilityVisibleConverter x:Key="enumToVisibilityVisibleConverter"/>
+    <wpfFramework:EnumToVisibilityHiddenConverter x:Key="enumToVisibilityHiddenConverter"/>
+    <wpfFramework:BoolReverseConverter x:Key="booleanReverseConverter"/>
+    <wpfFramework:BooleanToHiddenNegateConverter  x:Key="booleanToHiddenNegateConverter"/>
+    <wpfFramework:BooleanToVisibilityMultiConverter  x:Key="booleanToVisibilityMultiConverter"/>
+    <wpfFramework:BooleanToVisibleMultiConverter  x:Key="booleanToVisibleMultiConverter"/>
+    <wpfFramework:ReverseBooleanToVisibilityMultiConverter  x:Key="reverseBooleanToVisibilityMultiConverter"/>
+    <wpfFramework:ArrayWrapperConverter  x:Key="arrayWrapperConverter"/>
+    <wpfFramework:SimpleMathConverter  x:Key="mathConverter"/>
+    <wpfFramework:MathConverter  x:Key="advanceMathConverter"/>
+    <wpfFramework:StringNullableToIntConverter  x:Key="stringNullableToIntConverter"/>
+
+    <wpfFramework:MultiplyConverter  x:Key="multiplyConverter"/>
+    <wpfFramework:EnumToVisibilityMultiConverter  x:Key="enumToVisibilityMultiConverter"/>
+    <wpfFramework:EnumToBooleanMultiConverter  x:Key="enumToBooleanMultiConverter"/>
+    <wpfFramework:EnumToBooleanReverseMultiConverter  x:Key="enumToBooleanReverseMultiConverter"/>
+    <wpfFramework:NullToBooleanConverter  x:Key="nullToBooleanConverter"/>
+    <wpfFramework:NullVisibilityConverter  x:Key="nullVisibilityConverter"/>
+    <wpfFramework:CountConverter  x:Key="countConverter"/>
+</ResourceDictionary>

@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window" kind="class" prot="public">
+    <compoundname>Hywire::ALF::PDCurveTest::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a25654f76161c3f6ad754dfd8d42dbb23" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Hywire.ALF.PDCurveTest.MainWindow._IsSampling</definition>
+        <argsstring></argsstring>
+        <name>_IsSampling</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="27" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1ad71c97c73e9f893b0828a79b2f2ae83b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard" kindref="compound">Mainboard</ref></type>
+        <definition>Mainboard Hywire.ALF.PDCurveTest.MainWindow._MB</definition>
+        <argsstring></argsstring>
+        <name>_MB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="28" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a35c70e3d99525a44fc10871fea1b0fdb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Hywire.ALF.PDCurveTest.MainWindow._SampleRate</definition>
+        <argsstring></argsstring>
+        <name>_SampleRate</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="29" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a72b19c4812096ac708078bc80de41001" prot="private" static="no" mutable="no">
+        <type>System.Timers.Timer</type>
+        <definition>System.Timers.Timer Hywire.ALF.PDCurveTest.MainWindow._SampleTimer</definition>
+        <argsstring></argsstring>
+        <name>_SampleTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="30" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1ae1ca54d252680448680a58ed8c0f0a10" prot="private" static="no" mutable="no">
+        <type>ObservableDataSource&lt; <ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref> &gt;</type>
+        <definition>ObservableDataSource&lt;Point&gt; Hywire.ALF.PDCurveTest.MainWindow._DataSource</definition>
+        <argsstring></argsstring>
+        <name>_DataSource</name>
+        <initializer>= new ObservableDataSource&lt;<ref refid="_cropping_adorner_8cs_1a869cb8a0434b55ce0b742c828373c455" kindref="member">Point</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="31" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1ad5472cc7946c9701fba9cf85769d202a" prot="private" static="no" mutable="no">
+        <type>long</type>
+        <definition>long Hywire.ALF.PDCurveTest.MainWindow._StartedTicks</definition>
+        <argsstring></argsstring>
+        <name>_StartedTicks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="32" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a7c44db068b459a6b9781407bc481d4c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.PDCurveTest.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="33" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1acc9935c3ce4cdead6a3513dab9044dd7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.PDCurveTest.MainWindow.Window_Loaded</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Window_Loaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="38" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="38" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a1636031972fdce51504ab28eb860a16f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.PDCurveTest.MainWindow._SampleTimer_Elapsed</definition>
+        <argsstring>(object sender, System.Timers.ElapsedEventArgs e)</argsstring>
+        <name>_SampleTimer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.Timers.ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="68" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="68" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a75ac272f08f8998db9af57149e7ad5e7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.PDCurveTest.MainWindow.OnBtn_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>OnBtn_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="78" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="78" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a5789f24e96f2337d64c6c86a44305c00" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.PDCurveTest.MainWindow.OffBtn_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>OffBtn_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="118" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="118" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1ac681ffa19bb9440c51391d1e58174f86" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.PDCurveTest.MainWindow.SetBtn_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>SetBtn_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="144" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="144" bodyend="159"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MainWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="743">
+        <label>Window</label>
+      </node>
+      <node id="742">
+        <label>Hywire.ALF.PDCurveTest.MainWindow</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window"/>
+        <childnode refid="743" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="746">
+        <label>Sequlite.ALF.MainBoard.Mainboard</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_mainboard"/>
+        <childnode refid="747" relation="usage">
+          <edgelabel>_LEDOnTimer</edgelabel>
+        </childnode>
+        <childnode refid="748" relation="usage">
+          <edgelabel>_LEDLock</edgelabel>
+        </childnode>
+        <childnode refid="749" relation="usage">
+          <edgelabel>_Comm</edgelabel>
+        </childnode>
+      </node>
+      <node id="745">
+        <label>Window</label>
+      </node>
+      <node id="750">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="747" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="744">
+        <label>Hywire.ALF.PDCurveTest.MainWindow</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window"/>
+        <childnode refid="745" relation="public-inheritance">
+        </childnode>
+        <childnode refid="746" relation="usage">
+          <edgelabel>_MB</edgelabel>
+        </childnode>
+        <childnode refid="747" relation="usage">
+          <edgelabel>_SampleTimer</edgelabel>
+        </childnode>
+      </node>
+      <node id="747">
+        <label>System</label>
+      </node>
+      <node id="749">
+        <label>Sequlite.ALF.MainBoard.SerialComm</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_main_board_1_1_serial_comm"/>
+        <childnode refid="750" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="748">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" line="26" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.PDCurveTest/MainWindow.xaml.cs" bodystart="25" bodyend="160"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1ae1ca54d252680448680a58ed8c0f0a10" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>_DataSource</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a25654f76161c3f6ad754dfd8d42dbb23" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>_IsSampling</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1ad71c97c73e9f893b0828a79b2f2ae83b" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>_MB</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a35c70e3d99525a44fc10871fea1b0fdb" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>_SampleRate</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a72b19c4812096ac708078bc80de41001" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>_SampleTimer</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a1636031972fdce51504ab28eb860a16f" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>_SampleTimer_Elapsed</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1ad5472cc7946c9701fba9cf85769d202a" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>_StartedTicks</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a7c44db068b459a6b9781407bc481d4c4" prot="public" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a5789f24e96f2337d64c6c86a44305c00" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>OffBtn_Click</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1a75ac272f08f8998db9af57149e7ad5e7" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>OnBtn_Click</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1ac681ffa19bb9440c51391d1e58174f86" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>SetBtn_Click</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_p_d_curve_test_1_1_main_window_1acc9935c3ce4cdead6a3513dab9044dd7" prot="private" virt="non-virtual"><scope>Hywire::ALF::PDCurveTest::MainWindow</scope><name>Window_Loaded</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

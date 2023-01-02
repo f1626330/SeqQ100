@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_edd36d3f497d1177897473ce9b2385d7" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Hywire.MotionControl</compoundname>
+    <innerdir refid="dir_47db491daceded9ad98cc13d9a909728">D:/Source/Alf/Libraries/Hywire.MotionControl/Properties</innerdir>
+    <innerfile refid="_controller_comm_8cs">ControllerComm.cs</innerfile>
+    <innerfile refid="_hywire_controller_8cs">HywireController.cs</innerfile>
+    <innerfile refid="_hywire_8_motion_control_2_protocol_8cs">Protocol.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Hywire.MotionControl/"/>
+  </compounddef>
+</doxygen>

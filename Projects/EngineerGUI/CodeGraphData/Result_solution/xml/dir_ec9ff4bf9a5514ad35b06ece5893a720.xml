@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ec9ff4bf9a5514ad35b06ece5893a720" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib</compoundname>
+    <innerdir refid="dir_2da18dcbdb99960ba9abf00a488cd675">D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/Properties</innerdir>
+    <innerfile refid="_recipe_8cs">Recipe.cs</innerfile>
+    <innerfile refid="_recipe_run_thread_8cs">RecipeRunThread.cs</innerfile>
+    <innerfile refid="_recipe_step_8cs">RecipeStep.cs</innerfile>
+    <innerfile refid="_recipe_step_default_settings_8cs">RecipeStepDefaultSettings.cs</innerfile>
+    <innerfile refid="_steps_tree_8cs">StepsTree.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/"/>
+  </compounddef>
+</doxygen>

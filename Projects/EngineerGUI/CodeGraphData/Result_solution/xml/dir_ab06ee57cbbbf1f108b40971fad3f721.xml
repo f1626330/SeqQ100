@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ab06ee57cbbbf1f108b40971fad3f721" kind="dir">
+    <compoundname>D:/Source/Alf/Projects/EngineerGUI</compoundname>
+    <innerdir refid="dir_fd5b26f26299a08ad18a071fefb3d0af">D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI</innerdir>
+    <innerdir refid="dir_7c45fe57ce362899e148c110ab7d6070">D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/"/>
+  </compounddef>
+</doxygen>

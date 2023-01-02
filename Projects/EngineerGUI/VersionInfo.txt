@@ -1,0 +1,1542 @@
+20180913-V1.0.0.0:
+Initial Engineering GUI framework;
+
+20181204-V1.0.1.1204:
+Added main board communication;
+
+20190102-V1.0.2.0102:
+Added Camera library, Capture function completed;
+
+20190201-V2.0.0.0:
+Added: Image processing library;
+Modified: sub modules (pump, valve, mainboard, z stage, etc.) connections will be attempted several times before failure;
+Added: Pump relative move function;
+Added: Run Pumping thread, now it will not block the UI thread;
+Modified: upgrade the Z stage library to improve the connection reliability;
+Modified: replace the galil motion control library with own library;
+Added: Launch window to show the connection process;
+Modified: Set Camera ROI is valid now;
+Added: Camera Live mode;
+Added: Recipe library, including Step definations and Step running process;
+Added: Image pixel information in gallery, image contrast adjustment, image open & save;
+Modified: UIs;
+
+20190209-V2.0.0.1:
+Added: Cartridge motion control, define the Load/Unload Cartridge action;
+Modified: Automatically Home all motions (Cartridge, Filter, Y stage, Z stage) when the software is launching;
+Modified: Imaging step takes two captures one by one in [R,G] channel;
+
+20190228-V2.0.1.0
+Modified: Default settings in Chemi/Fluidics tab are set in config.xml file;
+Added: Hywire.Image.Processing library for captured image information, which is displayed in gallery tab;
+Modified: Read PD value in capture image process;
+Added: Auto display range in live mode;
+Modified: Recipe imaging step has exposure time for each channel;
+Added: Load Cartridge button;
+Modified: Move the legend of the temperature chart from top-right to bottom left;
+Removed: Cartridge motor test window;
+Added: Recipe running log in Recipe tab and txt file;
+
+20190318-V2.0.3.0
+Modified: Fixed the pump running thread termination crash bug;
+Modified: Change the pump initialization path to waste;
+Added: Display looping counts of loop step in Recipe tab;
+Added: Capture live image button in Imaging tab (only in live mode);
+Added: Diaplay current temperature ramp in Chemi/Fluidics tab;
+Added: Zoom in/out the live image;
+
+20190318-V2.0.3.1
+Modified: Move the legend location to left bottom of the temperature chart;
+
+20190322-V2.0.3.2
+Added: Capture live image function;
+
+20190325-V2.0.4.0
+Added: Default motor settings when the EUI launched;
+Added: Third party library source files to the solution folder;
+
+20190426-V2.0.5.0
+Modified: Filter position control is now selectable by a combo box;
+Modified: Z stage will stay static if ZPos of the region is 10000.0 in imaging step;
+Added: LED status verification in imaging step;
+
+20190430-V2.0.6.1
+Modified: Imaging step supports white LED source;
+Fixed: Imaging step ROI settings did not work;
+
+20190506-V2.0.7.0
+Added: Auto focusing function;
+
+20190506-V2.0.7.1
+Fixed: auto focusing process did not specify the dispatcher for image live thread;
+
+20190509-V2.0.8.0
+Modified: delete live mode in auto focusing process;
+Fixed: Filter motion Home speed was too high at the software launching phase;
+Added: Auto focusing dynamic states display;
+Added: Z scan function in auto focusing tab;
+
+20190510-V2.0.8.1
+Fixed: Adjusting the "Black"/"White" text box did not change the display range;
+
+20190515-V2.0.9.0
+Modified: replace manual read CCD temperature by automatically reading every 1 second;
+
+20190520-V2.1.0.0
+Fixed: z stage moved out of the setting range for auto focusing;
+Added: automatically close camera and lasers when the App closing;
+Added: ROI can be selected by thumb control in live mode, when change the selected region, ROI values in both imaging tab and auto focusing tab will be changed accordingly;
+Modified: ROI values in auto focusing tab are not normalized now;
+Fixed: ROI selection was flipped horizontally;
+
+20190523-V2.1.1.0
+Added: Mainboard communication is logged to file;
+Fixed: ROI selection thumb was opacity;
+Modified: ROI selection thumb could be moved without size change;
+Modified: Verify LED status for maximum of 5 times before capturing image to avoid UI block;
+
+20190602-V3.0.0.0
+Rearrange the solution structure;
+
+20190607-V3.0.1.0
+Modified: Y stage current position is now updated in real time;
+
+20190618-V3.0.2.0
+Added: Cartridge Motor Power and Enable control in Other Settings window;
+Modified: Motor settings in Other Settings window;
+Added: Warning message to prompt loading cartridge before running recipe if it is unloaded;
+Added: Timer for LED Maximum On time settings, it's configurable in config.xml file;
+Added: Auto focusing settings in config.xml file;
+Added: Filter, AutoFocus in image info;
+Modified: new capture image step process with auto focusing;
+
+20190624-V3.0.2.1
+Removed: Galil reference in Sequlite.ALF.MotionControl library, since we do not use it at all;
+Fixed: It was using if statement for waiting motion movement completed, now replace if with while;
+Modified: Unsaved images' title is attached with "*";
+Added: Full ROI check box for capturing image;
+Modified: Capture Live command is now seperate as "Cancel", "Capture", "Live" commands;
+Fixed: Freeze  temperature curves immediately when "Save Data" button is clicked;
+Fixed: reading cartridge position in real time to update the IsCartridgeLoaded property;
+
+20190625-V3.0.3.0
+Fixed: Motion position updating with wrong data;
+Modified: use auto reset timer for motion status updating;
+Fixed: use Math.Round function for motion parameters;
+Modified: Regions default settings in config.xml file;
+Added: warning message before closing the program if there are unsaved images;
+Added: warning message before closing unsaved images in gallery tab;
+Fixed: Load/Unload Cartridge button function;
+
+V3.0.2.0622:
+Added: Bad image identification after capturing image, close and open the camera to retry capture image if it's bad image for up to 5 times;
+Fixed: replace if statement with while statement in waiting motion completed;
+Modified: change default values in configuration file: Max Y stage position, Y positions of regions;
+Modified: restore Temperature curves immediately after SaveData button is clicked;
+Modified: unsaved images' titles are attached with "*";
+
+V3.0.2.0623:
+Fixed: Program frozen when it retried to capture image after detecting bad image;
+Fixed: Unsaved image title did not attach "*";
+
+V3.0.2.0625:
+Modified: Moved Setting LED status into ImageCaptureCommand and ImageLiveCommand to reduce LED on time;
+Fixed: the motion position failed to update correctly, it's due to wrong data records decoding;
+Fixed: the cartridge failed to load/unload, using Math.Round method to round the cartridge position;
+Added: warning message before closing unsaved images or closing program if there are unsaved images;
+
+V3.0.2.0626:
+Fixed: Read PD value before LED is turn on when Capturing Image;
+Modified: made captured image and live image the same processing (mirrored by y axis);
+Modified: moved capture live function inside the LiveModeCommand class, trying to reduce the camera error chance;
+Modified: used a timer for LED turn off in running imaging step;
+
+V3.0.2.0626-Fixed:
+Fixed: Filter position updating failure;
+Fixed: wrong focus position for captured images in running imaging step;
+Fixed: failed to save images in running imaging step;
+Added: error hint in running recipe;
+
+V3.0.2.0626-Modified:
+Modified: changed the imaging step loop process to capture each imaging in each focus, previously it's capture each focus in each imaging;
+
+V3.0.2.0627:
+Added: Default readout speed in configuration file, which is used in imaging step;
+Modified: used a timer for led exposure time control, the timer interval is set as Exposure + 0.5 sec;
+Fixed: IsAutoFocus and Filter properties in captured image metadata were not updated;
+Modified: removed camera close->reopen operation when bad image captured, aiming to avoid acquisition error;
+Fixed: it throws error when autofocusing in imaging step;
+Modified: applied ImageCaptureCommand in imaging step to capture image;
+Modified: filter position is updated by real position, and now support relative move;
+Modified: changed Chemistry Tab, move chiller temper below ramp;
+Modified: used auto display range for opening existing images;
+
+V3.0.2.0627-Fixed:
+Fixed: error saving images in running imaging step;
+
+V3.0.2.0628:
+Modified: Created a new library Sequlite.ALF.Common, moved some common classes into this library, so we can reference Configuration lib in other libs;
+Added: filter option in autofocusing settings in config.xml;
+Added: for autofocusing process, if filter is not 0, move filter to the specified one;
+Fixed: for autofocusing process, check the bad image;
+Modified: in imaging step, if autofocus is on, the for each region, capture the focusing image as the first saved image, then for each imaging, capture images at each focus excluding the reference focus (focus 0); if autofocus is off, for each imaging, capture images at each focus including the reference focus;
+Fixed: images generated by "Capture" or "Capture Live" commands did not update the filter position to the metadata;
+
+V3.0.2.0629
+Added: Workflow if atuofocus failed
+Added: Sample intercal set button
+Added: Detail image info in recipe log
+Fixed: Autofocus ROI issue & save button
+Modified: LED time extension, config update
+
+
+20190712-V3.1.0.0
+Modified: merged branch "Bad image fix" into master branch, the "Bad image fix" is from V3.0.2.0622 to V3.0.2.0629;
+
+20190712-V3.1.1.0
+Added: Loop counts in the image file name in running recipes;
+Fixed: in gallery, image zoom state was reset when it's not selected;
+Fixed: open image failure caused the program crash;
+
+20190716-V3.1.1.1
+Modified: Enabled temperature chart while running recipes;
+
+20190722-V3.1.1.2
+Modified: change the pixel format of live image from indexd8 to gray16;
+
+20190729-V3.1.1.3
+Add: Solution volume tracking;
+Fixed: Valve controller method wait condition;
+Add: More recipe log info autosaved everytime;
+
+20190806-V3.1.1.4
+Add: Image average option & LED check in Autofocus step;
+Add: ROI metadata;
+Add: Recipe log and name of saved image update & warning message of FC cover;
+Modified: Tolerance of error of solution volume tracking in recipe run;
+Modified: Smaller step size in Autofucus
+
+20190809-V3.1.1.5
+Add: Volume tracking;
+Add: Pumping volume check;
+Add: More detailed recipe log (Time, step, pumping volume, exception/error message);
+Add: Recipe log lock to prevent conflict of different thread;
+Add: LED check in Autofocus;
+Add: Autofocus scan cancel button;
+Add: Take averaged image button;
+Add: Autofocus on averaged image;
+Fixed: Valve command conflict;
+Modified: Image name pattern in recipe capture image step;
+
+20190822-V3.1.1.5(newautofocusbranch)
+Modified: Autofocus on buttom surface directly based on StdDev of cropped image;
+Modified: Take one image for each setting;
+
+20190828-V3.1.1.6
+Add: Image exception handling during recipe run;
+Add: CameraLog to track activity of camera, narrowing down camera crash issue during recipe run;
+Add: Memory usage log;
+Fixed: Remove runtime reading of camera temperature;
+Modified: Take 5 images around buttom surface, increase exposure time in long recipe run;
+
+20190912-V3.1.1.7
+Add: Lock in update loop step event to prevent conflict of multi-thread;
+Add: Runtime Image QC analysis tab, pre-loop;
+Fixed: Turn off LED after cancel autofocus scan;
+
+20190919-V3.1.1.8
+Fixed: Average Image command;
+Modified: Autofocus on single image;
+Modified: Step size change back to 1um;
+Add: Simulation mode
+
+20190822-V3.1.1.8(newautofocusbranch)
+Modified: Autofocus on buttom surface directly based on "Fraction of Good feature" in QC analysis;
+
+201909
+20190918-V3.1.2.0
+Added: Chiller temperature control power in Chemi/Fluidics tab;
+Fixed: Chiller temperature control parameter reading bug;
+Modified: Motion controller connection process, connect other stages after connecting main board, thus determine which motion controller to use(Galil or Hywire);
+
+20190919-V3.1.2.1
+Fixed: Hywire motion controller status update bug;
+Fixed: Mainboard protocol was not compatible with previous;
+
+20190922-V3.1.2.0922
+Modified: in "Image Capture" & "Auto Focus" process, the camera triggers LED to turn on at the exposure starting time, the LED is turned off after the given exposure time; the camera's actual exposure time is the given time + configurable extra time;
+
+20190925-V3.1.2.2
+Modified: Merge new LED control workflow with master branch(including ImageCaptureCMD, Reciperunthread and AutofocusCMD);
+Add: Run QC analysi once user save the image in gallery;
+Add: Textbox for user modified the multiplier of image setting in recipe run and runtime QC switch;
+
+20190927-V3.1.2.2(Cameratest branch for memory issue)
+Add: Test button for continuesouly create new thread for ImageCaptureCMD;
+Modifed: Test with continuesouly capture and save image in one thread;
+
+20191001-V3.1.2.3
+Modified: Put the image capture code inside the recipe thread, too many threads cause memory leak;
+Modified: Update new LED control, fixed LED flashing issue
+
+20191003-V3.1.2.3001(newautofocus)
+Modified: Update new LED control in same thread;
+
+20191003-V3.1.2.3002
+Fixed: Update new LED control, fixed LED flashing issue
+
+20191011-V3.1.2.4
+Added: Run time Image analysis/basecall
+Modified: New motion control
+
+20191016-V3.1.2.5
+Added: LED failure event & exception handling
+Modified: New autofocus based on new fiducial mask
+Added: Image rotation for fiducial mask STDV calculation
+Added: Naming thread
+Added: Pump exception handling/workflow
+Added: Save autofocus images
+
+20191029-V3.1.2.6
+Modified: Updated RIPP
+Fixed: Z-stage moving bug
+Fixed: Hywire motion controller issue
+Added: LED reliablity test project
+Modified: New LED method, combine with new hardware feature: LED switch on requires exposure of camera and turn on command
+
+20191119-V3.1.2.7
+Fixed: Path:Push pushing path issue
+Added: Autofocus offset button: auto-calculation of offset between fiducial and FC
+Added: Config input for recipe run (StartInc, Factors, etc)
+Added: Image filename confilct handling in recipe run
+Added: Image intensity check
+Modified: Default ROI
+Added: Simulation mode for getting images
+Modified: Condition checked in pumping step 
+
+20191127-V3.1.2.8
+Added: Email notification function
+Added: Potential bubble flushing during autofocus failure exception handling
+Modified: Pump exception handling in recipe run
+Modified: Inner recipe run update for flucated fiducial focus z position
+Fixed: Mainboard connection issue
+Added: Config file for offset calculation
+Added: Thread for offset calculation
+Modified: Autofocus failed exception handling
+Added/Modified/Fixed: 2.0 peripherals: barcode reader, motion controller, pump model
+Added: view for Fluidics 2.0
+Added: Test program for Fludics system 2.0
+
+20200107-V3.1.2.9
+Added: Temp control exception handling in recipe run
+Added: Current EUI dependecy graph and planned new dependecy graph
+Added: New sharpeness evaluation method
+Added: New pump thread
+Fixed: 2.0 pump communication/function
+Modified: RIPP integration
+Modified: Save log for mainboard and motion controller
+Added: AvalonDock library
+Modified: Update Ethernet Camera drive codes
+
+20200121-V3.1.3.0
+Modified: Rearrange part of dll and class based on new dependency graph
+Modified: Updated 2.0 fludics system
+Modified: Updated XMP6000 Pump's valve control subfunction
+Added: New AvalonDock library replacing the previous library to avoid the license issue
+Modified: Update Chemistry and Fluidics View Model with new sensors' graph & new valves position
+Fixed: XMP6000 pump valve change issue
+Modified: Lucid Camera Connection code
+Modified: XMP6000 Pump set valve function
+
+
+20200122
+Added: Logging Implementation - interface/Factory
+Fixed: XMP Pump communication issue
+Added: Image Metadata extraction
+Modified: More rearrangment
+Fixed: Camera event unsubscribe
+Added: Auto-backup image during reicpe run
+
+20200127
+Modified: .Net4.72
+Fixed: LED turn on check
+Fixed: Z stage position check
+Added: Mainboard Communication logging
+Modified: RecipeTool .Net4.72
+
+20200130-V3.1.3.1
+Added: RecipeTool Tab in EUI
+Added: Implement auto-analysis pipeline
+Added: Exception handling for filter / motioncontroller failure
+Added: Imageinfo saved in json string
+Added: Implemented log view UI, replaced launching window
+
+20200203
+Fixed: RecipeTool Tab bug
+Added: Recipe step for ALF2.0
+Added: Log display filter
+Added: Push function in pumping step in recipe thread
+Fixed: Thread issue for logging MVVM
+
+20200205-V3.1.3.2
+Fixed: Lucid Camera reference issue
+Fixed: Push path tracking volume issue
+Added: New recipe step for 2.0 fludicis
+Fixed: Add lock to copy file, avoid coping too many file in parallel
+Added: async API for MotionVM in EUI
+Fixed: Re-assign the ArenaNET.dll reference
+Added: New EUI solution that does not include benchtest
+Added: Post build to copy Arena c++ dll
+Fixed: Timing issue of logging
+Added: Recalculate offset during the recipe run
+Modified: Divide Fluidics VM to V1 and V2, refactory Fluidics VM
+Added: Lucid Camera capture image and live mode
+Added: RFID test branch
+
+20200220
+Fixed: Live mode bug
+Modified: Refactory workspace, removed workspace.This
+Added: Instrument initialization in App.xaml.cs before main window
+Fixed: New pump recipe thread workflow issue
+Fixed: New image recipe step in RecipeTool
+Fixed: bug for launching window
+Added: Fluidics interface optimization, implementation
+Fixed: SmartValve 2 and 3 in fluidics thread
+Added: Image focus metric
+Fixed: Lucid Camera continuous mode threading issue
+Removed: Old LucidCamera lib
+Fixed: Temperature curve issue and LED control
+Fixed: Confilct of txt file for NAS pipeline with OLA
+
+20200302-V3.1.3.5
+Modified: Change config setting to json
+Fixed: Bugs in json config
+Modified: Autofocus implement Camera Interface
+Added: Log filter setting in config 
+Added: Simulation mode in Recipe run
+Modified: Re-factory ReciperunThread, V1 & V2
+Fixed: Red LED turnon failure
+Fixed: Tecan Smart Valve connection error & Mainboard connection
+Fixed: ALF2.0 Motioncontroller board & chiller & heating plate connection 
+Added: Waiting step empty pump to save time
+Fixed: Backupfile thread join issue
+Fixed: Updated X stage motion config
+
+20200309
+Added: re-position Y stage after image step in parallel with inc
+Added: Top surface offset calculation and imaging
+Added: New region mapping on ALF1.0
+Added: New "Add same images" button in RecipeTool tab
+Fixed: Recipe run log issue
+
+20200318
+Modified: Update simulation mode in recipe run thread
+Added: Implement OLA job manager
+Added: Pump pushing step in recipe run
+Added: Exception logging
+Added: Ecoli Library switch
+Modiified: Pump position update
+Modified: Update motion controller reading frequency
+Fixed: OLA bugs
+
+20200330
+Added: One reference scan in recipe run
+Modified: Move rotation angle for AF in config
+Fixed: One reference method & waiting in motion controller
+Modified: All RS232 devices' connect function includes a PortName parameter to reduce the connecting time
+Modified: Cartridge motor's driving current is reduced half after Load/Unload action
+Modified: Valve's position is updated after initialization and SetNewPos
+Modified: ImageCaptureCommand use Lucid Camera's IO Line0 to trigger exposure, Line1 to turn on LED
+Modified: ImageLiveCommand use Lucid Camera's IO Line1 to turn on LED
+Modified: X motion's range from -2 to 38; Z motion's range from -2000 to 1100
+Modified: Bad image store to Gallery
+Modified: Update motion positions only when they are moving
+Fixed: Valve SetToNewPos function returned while valve was not moved to the new position yet  
+Added: X and Y motion encoder positions and enable/disable control
+Added: RFID Reader is now available
+Added: Each time LED turns on, the LED controller can log up to 200 points of PD Values, PC host can get and display the PD curve
+Added: UI for FC temperature controller which is provided by Sequlite
+Added: New Tabs in EUI: PD/LED calibration; Hw verification
+Added: All existing sensor status diaplay in Fluidics Tab
+Added: Firmware Upgrader Tools for Mainboard/Chiller/LED/Fluid/Motion controller
+
+20200406
+Fixed: Recipe VM loop count update function issue
+Added: Retry backup image at the end of the recipe
+Added: Commerical GUI frameworks
+Added: Implement commerical GUI and App Interfaces
+Modified: Created ALF UIControl project and moved most of views and view models to this project. EUI and Commercial can re-use controls in UIControl.
+Modified: Migrate all NuGet packages config into PackageReference. (https://docs.microsoft.com/en-us/nuget/consume-packages/migrate-packages-config-to-package-reference)
+Fixed: Clean up redundant reference
+Added: Motion controller unresponse exception handling
+
+20200413
+Modified: Motion Encoder position was reset at the optical home; now is reset by command;
+Modified: recipe(set temper, imaging), auto focus command fit 2.0 machine;
+Modified: Lucid Camera configuration: Reverse Y, Receive packet size 9000;
+Added: Chiller Heatsink temper display & save;
+Added: cross cursor center in live image;
+Fixed: Hardware connection issue in ALF2.0
+Fixed: Fludicis Initialization errors
+Added: Pump timeout exception catch and handling
+Fixed: Binding issue for IsMachineRev2 and IsBusy properties
+Fixed: Chemsity tab visibility
+Modified: Record LED failure in ImageCaptureCommand
+Fixed: Capture Live Image crash the app
+Fixed: ROI reduced when set full range to capture image
+
+20200420
+Fixed: Pump initialization factor
+Fixed: Replace unnecessary reset pump with push step
+Added: Sub-pages for Commerical GUI
+Modified: Supporting nested wizard or tab view in sub pages
+Added: canClose to launching window to prevent form being closed too early
+Added: Use WPF Converters, Behaviors and controls
+Fixed: Set Canclose value for  LaunchingWindow view model during engineering UI startup
+Fixed: Recipe abort issue
+Fixed: Valve initialize waiting
+Added: SendCommand exception catch
+Added: More log for fluidics system
+Fixed: Fixed a bug in scroll to bottom in log window: items are out of sync with bidding collection sometimes
+Added: Seq-App Load Page API for Commerical GUI
+Added: New pump path
+
+20200427:
+Added: Error handling for all commands and event handler in recipe VM
+Added: Implemented a sharing abort flag object for recipe thread and its inner thread
+Added: TPL config flags in config.json for OLA; some minor improvement for aborting
+Added: Seq-App Check Page API for Commerical GUI
+Fixed: Load Page API issue with workflow
+Modified: Recipe run thread V2 workflow
+Added: ALF2 fluidics volume tracking
+Added: catch exception in SendBytes function of SerialCommBase, it would throw Exception if the serial port is disconnected
+Modified: in connecting the tecan smart valves, wait for the valve to be initialized before return
+Fixed: ChemiTemperControl view binding bug
+Added: Serial Comm Device configuration in Json file, specify port names
+Added: Close All button in gallery tab
+Modified: XY positions for read bar code in HardwareVerifyViewModel
+Modified: OLA improvment and bugs fixed
+Added: More logging for OLA
+Modified: Prevent OLA Manager premature exit
+Modified: Load page API Barcode pos & Buffer Pos config
+Fixed: Tecan Pump Factor
+Fixed: Volume Tracking Vol2
+Added: Galil/Mainboard CommLog & Galil SendCommand longer time response 
+Fixed: RecipethreadV2 Fluidics volume check
+Fixed: RecipeTool new pump step issue
+Added: Implement the Load page API
+
+20200504
+Modified: Stop offset calcuation if fiducial focus failed
+Added: Log image file list that failed transfer
+Added: Stop initializing pump if valve failed to initialize
+Modified: Update Load/check page workflow
+Added: Keep cartrigde down after connection
+Added: Set valve to pos 24 after initialization
+Added: Set chiller to 4 degree after initialize
+Modified: Sequence Page disabled until chiller ready
+Fixed: Config issue in simulation mode for OLA
+Fixed: Unload FC button in ALF2.0
+Fixed: Pump re-position in Reciperun V2
+Added: Hooked up real API to all loading pages in CUI
+Added: Implemented app message notifications in app interface
+Added: Implemented CUI to subscribe app messages and update app status in CUI
+Modified: Some other improvements for updating CUI button enable/disable
+Fixed:Implemented correct behavior for cancel button in each load page so that application would be shut down unexpectedly
+Added: Add UI simulation mode for loading pages in app config
+
+20200511
+Modified: Changed the path of System.Reactive.dll referenced by Sequlite.ALF.App to the Solution Package path
+Added: FC temperature configuration & initialization
+Modified: Lucid camera can be set to enable/disable trigger mode in both SingleFrame mode & Continuous mode
+Modified: in "ImageCaptureCommand" and "ImageLiveCommand" for UI button clicking, the camera is set to disable trigger mode
+Modified: in "AutoFocusCommand", the camera is set to enable trigger mode and use external trigger
+Added: LED Calibration Currents can be read from the LED controller
+Fixed: Autofocus offset bug
+Added: Retry moving the filter after first failure
+Modified: Stage movement after scan the barcode
+Modified: Autofocus update with new imaging workflow
+Added: More Lucid camera logging
+Added: Hywire inhouse test recipe steps
+Fixed: lucid camera failed to set exposure because frame rate was incorrect
+Modified: Waiting step's time changed to double type
+
+20200518
+Added: Run Setup Page in CUI
+Added: Sample sheet viewer/editor
+Modified: Configure maximum number of regions for OLA. Remove an external loop of 4 tries around a call to ExtractIntensities. Some clean-up.
+Modified: Load cartridge update with high limit
+
+20200525
+Added: new default pump path options
+Modified: 2.0 image step refactory for speed
+Added: Save data button for fluidics sensor data
+Added: OLA support for BaseCall weight, ngram and bgram files
+Fixed: Bug in FC list generator
+Fixed: Bug in proc.txt creator
+Modified: Improve implementation "Check" pages
+Added:  DialogService interface and page model data manager
+Added: Helper function to build final recipe with user input
+Fixed: Inconstant project settings which  cause commercial UI fail to launch
+Fixed: Minor fix for build recipe helper function
+Removed: "prefer 32bit " in the project settings
+
+20200601
+Fixed: Image step image name
+Added: LED trigger enable/disable
+Modified: Config for autofcus
+Added: camera channels info for ALF2.0(tempo)
+Modified: Creation region map
+Added: Home cartridge
+Modified: Set reference Z position to limit if AF out of range in first time
+Modified: Adapt OLAStats to non-integer tile locations
+Fixed: Prevent OLAStats exceptions, when Stat*.txt files haven't been generated. Use seqP JoinCycles-static.exe for joining cycles, because it generates a proc-int file
+Modified: Set default OLAMaximumFCCount to 1 for starters
+Modified: Avoid unnecessary re-initialization of camera during AF inside recipe
+Added: Exception protection when FC list is empty
+Added: AF cmd option to not initialize camera
+Added: wait trigger armed
+Modified: Recipe OLA no stop/wait if innerrecipe & only run OLA for Inc
+Modified: Improve image step workflow
+Added: helper function initialize/uninitiazlize
+Added: Camera wait trigger helper function
+Added: camera serial numbers of each channel in LED controller
+Added: channel info in LucidCamera and ImageInfo
+Modified: start continuous for all imagings of single step in the ImagingStep
+Fixed: FC temperature controller parameter initialization failure
+Modified: Pressure & Flow are now read from sensors and send to PC directly, PC software then convert them to phisical unit
+Added: Fluid controller Reset Pressure & Start log functions, Pressure & Flow are sampled at 100msec interval
+Fixed: The Fluid controller, RFID Reader connection would be skipped if valve connection failed
+Fixed: RFID connetion was always successful even no device connected
+Modified: LED controller protocol are changed to enable camera exposure selection for single LED at the same time
+Modified: LED controller protocol is simplified in LEDs' settings
+Modified: Lucid camera Start Continious mode will not wait for 400 msec if it was enabled trigger mode in last stream
+Modified: Imaging step set both cameras to "Continious" & "Trigger On" to grab images using the same trigger signal
+Added; Camera Channel info (G1/R3 or G2/R4) in image info
+Added: Hywire inhouse recipe steps
+Fixed: FwUpgrader failed to upgarde with files which has a long path
+Added: Motion Control Fw upgrader project, not fully functional yet
+Added: Lucid Camera Debug Program
+Added: Add default -U parameter to BaseCall command
+
+20200608
+Modified: Update motion info when wait=false
+Modified: Z stage return if already in pos
+Modified: No list file if OLA & Image step workflow update
+Added: LED controller log & Lucid camera more log
+Fixed: Lucid camera bitdepth & Pump pathoption FClaneXs config
+Modified: Add more tries to JoinCycles. Improve OLA logging. Some clean-up.
+Fixed: FC region mapping for V2
+Added: Add OLA support for inner recipes
+Modified: Move image processor from RecipeRunThread to OLAJobs
+Added: Check OLA image list for cycle+color duplicates and keep the latest image
+Modified: Implemented real hardware checks in commercial UI check pages
+Modified: Increase number of tries for OLA seqP exes
+
+20200615
+Added: Background update of Z stage pos if wait==false
+Modified: Update X/Y pos in higher frequency in recipe
+Modified: pump rate limit
+Modified: Increase motion info query frequency to reduce the duration of the AbsoluteMove function
+Modified: Move X forward 2mm to avoid slow home action
+Added: Hywire inhouse test recipe run codes
+Fixed: Flow rate convertion bugs which cause a fake rate around 130 mL/min while actually it's around zero
+Fixed: FC temperature controller did not initialize sensor type
+Modified: added try-catch module for LucidCamera's StopStream function
+Added: Hywire Motion Controller FW upgrader program
+Modified: New image workflow implementation
+Fixed: RecipeTool Image step fix
+Modified: Autofocus update with new image workflow
+Modified: Re-arrange Lucid Camera class
+Fixed: Fixed LED intensity calibration bugs & Motion Encoder Position Reset bugs
+Removed: Machine rev2 flag  in recipe class, recipe data should not depends on hardware flag
+
+20200622
+Fixed: Live mode adapt new continues mode implementation
+Added: more logging in recipe run & new AF config
+Modified: CUI Check page: AF for new reference, Flow check
+Modified: CUI Sequence page edit image recipe
+Modified: Reset fluidics sensors if pulling from test line
+Modified: Zeroing sensor using smaller set of data
+Modified: Spread OLA parallel processing over tile sub-lists to better manage RAM shortage
+Modified: Y Motion Control Mode changed to avoid exceeding the step motor drive's spec;
+Added: Test project in which the X/Y Stage moving while imaging continuously to evaluate the motion status;
+Modified: OLA workflow read filter parameters from run.sh runtime, because they are different for ec and 8t cases
+
+20200701-V3.2.0.0
+Fixed: CUI Seq page API fine recipe helper function fix
+Modified: Camera Initialization in Reciperun V2
+Fixed: Reference focus upate in Reciperun V2
+Added: Exposure change function in Reciperun V2
+Fixed: RecipeTool Image step verison issue
+Fixed: Abort function in Reciperun V2 2 
+Added: Code for simulation in Reciperun V2
+Added: GUI to display loaded recipe file name
+Added: logging manager for threading exits
+
+20200709:
+Modified: Use Thread class for save functions
+Fixed: Pass different data array from different carema to Save function
+Modified: Image name pattern
+Modified: Wait the pointer of image object being duplicated, then requeue buffer
+Added: Setup Gain in Lucid Camera & Gain options
+
+20200715:
+Modified: pump status update event with path boolean
+Modified: try twice for pump control, return if failed twice, do not continue pumping if failed to set pump valve
+Removed: Unused project
+Removed: Extra reference to ArenaNet.dll
+Fixed: Use Task class for save function, Thread class has memory leaking issue
+Fixed: Make copy of data instead of pointer before image was requeue, avoiding memory leaking
+Modified: Write to list file only when backup, compatiblity with V2
+Fixed: Make copy of image data array before requeue, potential memory leaking issue
+Modified: AF repeatiblity scan (comment out)
+Modified: config for AF ROI and FC map for BOE FC
+Fixed: IsmachineRev2 boolean
+Fixed: resend FC temp control
+Fixed: ExposureNotif event unsubscribe
+Added: Cartridge move control
+Modified: Default gain and bitdepth
+Added: Time stamp for command in Gail controller
+Modifed: Stop rampping if new temp set command execute & no ramp if temp very close to target
+
+20200721:
+Fixed: ReadProcess in SerialCommBase would close the SerialPort when catch any exception;
+Added: Turn off FC temperature control at the EUI closing time;
+Added: FC Door Control for ALF2.3 (Whose HW version is 2.0.0.1);
+Added: Compare the changes of current positions and encoder positions to judge a moving failure for X/Y stage;
+Modified: Bubble status query frequency is 100msec;
+Fixed: FC Temperature control may failed due to previous control ramping;
+Added: FW Version display of Mainboard, Chiller, Fluid, and LED controller
+Fixed: X motion may failed when compare the encoder position shift with the current position shift, now take the servo controller's delay into account;
+Fixed: Hardware version's seperator was "," other than ".", so 2.1 machine was regarded as not 2.1 and was enabled the FC door control;
+Modified: Updated the X&Y motions' speeds & accelerations in the configuration file;
+Fixed: X motion move failure due to encoder position shift comparision;
+Added: Automatically reset encoder positions when X&Y are at home after launching the SW;
+Modified: For 2.3 machine (HW Version 2.0.0.1), FC clamped sensor output is reversed;
+
+20200719-V 2 Image branch:
+Added: Image saving and backup thread/queue
+Added: V2-imaging by using image Id
+Added: recipe name display
+Added: PD value check
+Added: Improved simulation mode
+Added: ImgArg to pass image data array
+
+20200722:
+Added: Lock for read and write to boolean GotImage
+Added: Flag _Copied for waiting data reference was copied propoerly
+Fixed: error handling for creating image step recipe
+Modified: Map for HM FC
+Modified: Offset moved to config file
+Fixed: Mainboard reference at AF VM
+
+20200729-V3.2.1.0
+Merged Image V2 branch
+Fixed: Gail Controller Send Command dead loop
+Fixed: Buffer size error & not wait Save and Backup if inner thread
+Added: Imaging class enable inner recipe to not wait for saving and transferring
+Added: First implementation of OLA Post processing
+Modified: Adapt OLA to ALF2.X image name pattern
+Fixed: Save image message log
+Added: Imageinfo x pos & camera info in recipe run & gain
+Added: OLA: control the number of parallel ExtractInt exes to prevent RAM overrun
+Fixed: Minor update of pump controller waiting
+Modified: AF image folder
+
+20200810
+Fixed: FC Clamp sensor
+Added: Compatiblity of 2.3 fiducial mask orientation
+Fixed: Motion would failed to decelerate if it could not reach the top speed
+Fixed: fixed wrong lucid camera event arg type in autofocus  and  imagelivecommand
+Merged: V-2 branch
+Added: OLA: implemented 3 modes of OLA job manager. Improved Post Processing. Provided support for V2 recipes and ALF2.X images
+Added: Flow check button
+Fixed: Temp controller record bug
+Modified: OLA: support using fraction of tiles to keep up with recipe. Promote OLABinDir to DirectoryInfo. Allow loading run.sh from OLABinDir.
+Modify: Workflow of initializing camera
+Fixed: Bug in SeqApp flow check
+Added: Load page FC door
+Fixed: Home sipper
+Added: Lower down sipper once start CUI after homed
+Modified: AF range & Scan/Hillclimb step size
+Added: implemented calibration settings;
+Added: OLA UI controls to CUI
+Fixed: Wait movement of stage of no image  and skip af {just for AF test}
+Fixed:  accidentally checking hardcore  " IsMachineRev2 = true " for my local simulation testing only
+Added: OLA: configure minimum number of cycles for BuildTmplt and BaseCall. Log RAM usage
+Modified: rearrange recipe tab
+Fixed: Potential AF memory issue
+Fixed: AF change exposure unit
+Fixed: AF camera continuous mode use task class instead of thread
+Fixed: Bypass read/store/check  barcode/RFID
+Modified: AF range at second try during recipe image step
+
+
+20200817
+Added: Hywire motion controller log file
+Modified: 3 digit of exposure calculation
+Modified: Update reference of rest of FCmap
+Modified: AF range at second try
+Modified: AF at cycle 2
+Fixed: AFCMD set exposure
+Added: OLA: support image start and image step for BuildTmplt
+Modified: Pump path name change
+Fixed: AF by fluorscent signal V2
+Added: Imageinfo for AF image
+Modified: Check image quality in recipe step V2
+Modified: re-focus by fluorscent signal
+Added: Initial reference focus for instrument
+Modified: move to first region and set to imaging temp in checking page for AF
+Added: check doors for Checking page
+Fixed: FC clamp logic for different hardware in check page
+Fixed: Buffer sensor output in check and load page CUI
+Modified: Imaging workflow for check focus with fluro in recipe step V2
+Fixed: OLA:Prevent crashes in the simulation mode b/c of some null hardware pointers. OLA: use the final cycle count of the Sequence recipe for the Post Processing
+
+20200824
+Added: simulation config to config json;
+Modified: Moved out OLA creation from Recipe thread;Moved OLA events into OLA from run recipe thread
+Fixed: run recipe path problem for CUI sequence
+Modified: Restructured SeqApp implementation , creat different class to  implement  different App interface
+Modified: CUI check page, AF top surface first
+Fixed: FC bool at check page
+Fixed: AF cmd z stage movement bug
+Fixed: Motion controller log lock
+Fixed: Use focused top/bottom pos to build sequencing recipe
+
+20200826-V3.2.2.0
+Added: Secondary ROI
+Modified: more template option in addtion to 8t and  ecoli
+Added: Exposure time increase controller depends on relative intensity
+Modified: Flow test just FC Lane1 for initial launch
+Added: PrimingRecipe path to config json
+Added: Recipe parameter class
+Modified: Re-implement Post Processing an an integral part of the OLAJobs thread
+Modified: Retry AF with 2nd ROI if failed with first
+Modified: Removed unused avalonDock
+Added oneref flag to config json
+Added: user  mail to cui sequence
+Modified: enhanced UI error handling
+Fixed: other minor fixes for CUI
+Added: UsingOneref Flag
+Fixed: Recipe Path issue
+Fixed: Exeption handling in OLA
+Added: separate imaging backup thread from RecipeRunThreadV2
+
+20200831
+Fixed: CUI recipethread V2 function calling issue
+Modified: Fluor image test folder
+Added: Post run page in CUI
+Fixed: check by fluro issue
+Added: Reset operation for z stage during connection time
+Updated Hywire Motion Controller codes
+Modified: LogToFile action is changed to use a string list and log thread;
+Added: Log time info;
+Modified: Added retry (3 times) in Home & AbsoluteMove function in case of failure instructions;
+Modified: The timer controlled status query will be skipped if the bus is busy;
+Fixed: Recipe parameter startInc setup 
+Fixed: OLA created twice
+Fixed: OLA: Crash when moving stage in simulation. 
+Fixed: OLA: Check MinTemplateCycle against total cycle count.
+Fixed: Load wash recipe inside seq step
+Fixed: flow check with input of solutions
+Added: Solution volume update event, update solution inside fluidics interface
+Modified: Empty pump with difference condition for V1 V2
+Added: Implement Helper function of Image check with fluorescent signal
+Modifed: EUI version 3.2.2.1
+Added: sessionId for running sequence wizard
+Added: status bar sizes in sequence page
+Added: status UI indicators for post run page
+Fixed: check order conflict between temp controller and fluidics
+Fixed: AF range at check page
+Fixed: door check error
+Added: OLA status animation
+Fixed: sequence OLA $ image backup waiting issues
+Fixed: Abort issue in sequence UI page
+Fixed: recipe parameter startinc inner recipe V1
+Fixed: Flow check push step selector valve pos
+Added: OLA and image backup status UI to postrunpage
+
+20200907
+Added: Implemented correct wizard button states for sequence , post run and summary pages
+Added: temperature monitor to App and UI
+Added: Hooked up real post washing API to UI
+Fixed: Wrong temp property 
+Fixed: Fluidics solution volumne tracking V1
+Fixed: delete template option none
+Fixed: check page chiller temp check & flow check baseline range
+Fixed: Wait Save thread finish before add null to backup Q
+Added: OLA: Load basecalling parameters depending on the selected library template
+Added: helper methods for calculating the total number of imaging cycles from the recipe
+Fixed: Flow check data point selection
+Fixed: run wrong page button states;
+Fixed: using fixed space font for temperature display;
+Modified: improving animation for OLA and image backup UI
+Modified: Improving monitor data efficiency
+Modified: Disabled App monitor service for EUI
+Modified: Updated Galil motion control log process
+Modified: Use List<string> & specific Thread to replace the Task.Run function
+Modified: Raise sipper at unloadFC
+Added: Log selector vavle pos
+Added: implementing sequence data virtualization
+Added: OLA: Add I/O profiling. 
+Added: OLA: an option to reduce output size
+
+20200914
+Fixed: OLA: do not clean diskspace up until last cycle
+Fixed: Motion controller absolute move remove Task to sendcommand V1
+Added: Log flow check result
+Modified: OLA: some improvements to profiling
+Added: Improve support for various template options
+Modified: OLA: implement saving bcqc files. Update logic for  min cycles
+Added: implementing line graph displays for sequence OLA data( in progress simulation only now)
+Modifed: Timing to call OLA, do not wait until next cycle start, call OLA just after current cycle finish.
+
+20200921
+Modified: Move selector valve to 24(sealed pos) if wait > 15s
+Modified: Pump step with volume 0, will just move selecor valve
+Added: Instrument info added to image meta data
+Modified: Implement OLA update event. 
+Fixed: calculate -D for BaseCall; do not use proc.ProcessName after process exit
+Added: EUI compress files button
+Modified: Update Lucid Camera SDK
+Added: OLA result simulation, this is useful for quickly  testing CUI OLA data visualization  using offline OLA result csv files when ruining sequence with OLA and post processing disabled in CUI ;
+Added:Implementation of OLA data visualization is in progress
+
+20200929
+Fixed: cycle number issue for sequence OLA offline data simulation
+Fixed: check recipe image base dir drive instead of C
+Added: Save function using SaveNET
+Added: FC temp control step while loop time limit
+Added: Same post run wash page copied to Maintenance Page
+Added: Full AF scan cycle AF every 2 regions
+Modified: OLA: implement progress tracking and serialization. Clean-up.
+Modified: OLA: Improve calculation of the last extracted intensity cycle
+Modified: Implementing Sequence OLA data visualization
+Modified: OLA: do not treat exception in the process profiling as an exception in the process itself
+Modified: OLA: Serialize tile progress more frequently
+Modifed: Implementing line graphs and heater maps for OLA sequence data visualization
+
+20201005
+Added: If data saving throw exception, abortwork
+Added: Save with compress function
+Fixed: regioncount conflict
+Fixed: AF workflow bug V2
+
+20201012
+Fixed: Reverse heater map display from bottom to up by lane
+Modified: OLA: use a faster JoinCycles algorithm
+Modified: OLA: Make BaseCall output only qc csv files, unless it is the whole run.
+Fixed: line graph and heat map bug fixing
+Modifed: Re-organize code for better implementations of data visualization
+Modified: OLA: First pass at the automatic determination of the RAM-allowed parallel task count
+Fixed: line graph and heatmap bug fixes. 
+Added: Implemented "fit to data" (dynamic range) for heatmap and line graph displays
+Modified: OLA: log calculated parallel count
+
+20201019
+OLA: Add support for the EP parameter, update parameter choices dependent on the species.
+Added grid line for tile in heatmap;
+Modified: Made heatmap tiles configurable based on config settings;
+Modifed: Making re-usabel heatmap and line graph controls for sequence data visualization (in progress).
+Modified: OLA: RAM usage optimization: minimize number of RAM tests, allow different parallel cell count for BuildTmplt and BaseCall
+Modified: Implemented common user controls for sequence data visualization: DataBtCycleControl(line graph), DataByTileControl (heatmap) and DataInTableControl
+
+20201026
+Modified: OLA: use BaseCall RAM usage history to predict next cycle RAM usage.
+Added: Flowcheck calibration setting
+Fixed: RAM usage calculations.
+Fixed: monitor heatsink temp, pump controller exception handling, save image compress
+Modified: Updated Pump communication & Capture Live Image's info
+Fixed: Pump response would not contain data block, which may cause the SW crash
+Fixed: CaptureLiveImage's X position is not set correctly
+Added: Usage track in log CUI & Email notify CUI
+Modified: Read config for flowcheck calibration target level
+Modified: Further improvements for OLA RAM calculations
+Added: missing file FluidicsCalib.cs;
+Modified: Made sequence run output folder name unique by using run name and session ID;
+Modified: Made using sample sheet optional
+
+20201102
+Fixed: AF exception handling
+Modified:  OLA: Add more robustness to the RAM calculation algorithm
+Fixed: OLA: Bugfix to the previous update. Log the total number of tiles as parsed by the OLA manager
+Added: implemented data graphing in summary page
+Fixed: bugs in Maintenance UI
+Added missing tabs to Engineering UI control
+Fixed: issues in chiller temperature checking in Home page
+Added: log button to home page;
+Added: Template selection button
+Modified: use sample sheet default false
+Added: Seq Wash
+Fixed: Chiller temp check and lower down sipper after startup
+Added: Post run wash update
+Modified: AF workflow update , AF order fix
+Fixed: AF order workflow edge condition
+Added: FCID/RFID shown at hardware check page
+Modified: OLA: more careful calculation of tested and unprocessed cells
+Modified: OLA: improved calculation of BaseCall RAM usage.
+Fixed: AF order even number
+
+20201109
+Added: Temp controll unresponsive exception handling
+Added: Exposure / Readout exception handling
+Added: Camera task at RecipeV2 creation option long run
+Modified: OLA: Let RAM-safe partitioning be done by TPL partitioner
+Added: restrictions to the calculation of cells/images per TPL task
+Added: More restrictions on number of threads used by TPL
+Modified: Consolidate restrictions on TPL thread count
+Added: Implemented login in home page, some improvements on system monitoring UI
+Fixed: Reposition sipper workflow
+Fixed: Recipe push step volumn update fix
+Modified: Fit data range a bit larger than min and max, so that most intensity fall in middle of the range
+Modified: OLA: Handle ExtractInt and JoinCycles error conditions. Handle abnormal exit of seqP exes. Handle failed tiles.
+Added: Do not initialize the waitmovement function if abs move called inside V2Recipe run thread
+Added: Height different between reagent / wash cartridge
+Added: Username for XY
+Added: exception handling in image step recipe editing
+Fixed: test bench program issue
+Fixed:Test bench program "Hywire.ALF.XStageDynamicImaging" was out of date in getting images from LucidCamera
+Modified: Only image top for demo
+Added: Disk space in check page
+Added: Wash/reagent cartridge pos in Cali setting
+Modified: check disk space depends on tiles and readlength
+Modified: Initialize cartridge in CUI to higher pos (Wash/Reagent)
+Modified: Log RAM and thread count. Restrict ExtractInt TPL thread count.
+Fixed: Fix a bug in non-TPL ExtractInt
+Added: support for qscore-maps. Update seqP parameter choices. Better organize logging. Temporarily disable logging to the main log.
+Fixed: An issue with copying cell lists. Clean up logging
+Fixed: an issue with BaseCall -Q parameter
+
+20201116
+Modified: Make BaseCall q-map option work.
+Added: implementing CUI full screen mode and added some UI improvements
+Added Motion Home Settings in Configuration
+Modified: Motion home speed & acceleration are now different from the absolute move settings.
+Fixed: Motion X Home Error; 
+Added: Motion FW version display
+Modified: Bypass checking error for low disk space in simulation mode: changed low disk space error to warning for simulation mode
+Modified: After BaseCall on last cycle, move cpf.fastq file to an experiment-level fastq directory
+Added: Wash options in Maintanence page
+Added: Maintanence wash/ manualpost run wash/ pre run wash
+Modified: hide the run summary page for now
+Modified: Font size and button size
+Added: Wait for sipper home at check chill temp step
+Added: Re-AF at first scan to pervent local maximum
+Fixed: Sipper pos with coeffi in monitor page
+Modified: check cartridge present before lower down sipper
+Modified: check temp & sipper pos before loggin
+Modified: Waitmotion different waiting for different controller, and refresh status for hywireMotioncontroller
+Modified: Flowcheck return add to Fluidics check result
+Modified: Hide Postprocessing and set default to false
+Fix: flowcheck bool typo
+Modified: Load Page CUI do not initialize waitMovement
+Modified: Monitor thread chill temp set point & sipper pos check condition changes
+Fixed: broken CUI summary page for data visualization
+Fixed: OLA RAM test doesn't work correctly in PP mode.
+Added: Messagebox event handler in Maintenance VM
+Added: Hywire motion controller replace waitstatus with thread Lock
+Modified: Maintenance wash reload warning message
+Fixed: Failed to show CUI app icon sometimes.
+Added: missing ico file
+Fixed: BaseCall crash when number of threads exceeds number of cycles. Always notify GUI, when OLA is finished. Clean-up
+Added: gif display lib
+Added: implemented animation play in cui page
+
+20201123
+Added: More AnimationMedia for different load page/PostWash
+Added: Unload Buffer button, no instrument check but as a reminder
+Fixed: bug fix for Animation video / gig playing on CUI pages.  
+Added Mouse click to pause and a re-play button.
+Modified: changed tool tips on media play
+Added:  Implement bcqc info file
+Added data viz button in the home page, implementation in progress
+Removed: temporary patch for BaseCall crash. Requires update of seqP software.
+
+20201130
+Modified: Use SeqLogFlagEnum in OLA logging
+Modified: Use OLAFilterOutFlags instead of OLADebug
+Added: Allow overshoot with tolerance in temp control
+Added: implementing user account editor UI under "Setting"
+Added: Adapt OLAJobManager for the off-line analysis.
+Modifed: Motioncontroller waitMovement try count limit fix
+
+20201207
+Added: FC Door control SW for lock/unlock Zstage
+Added: User account Database infrastructure and password encryption algorithms
+Added: OLA: fix bugs in adapting to offline processing. Check pumping thread for null reference in simulation mode
+Added: Implemented user login using database
+Added: Animation for login button
+Fixed: Inconstant color scheme in CUI
+Added: Copy info.json from Data to bcqc directory
+Modified: Better property name for library template. Log JoinCycles execution time
+Fixed: bug in RecipeViewModel log error formatting
+Added: implementing "Data" Button, in progress
+Modifed: New motion controller startup parameter
+Added: Implementing "Data" UI, re-structuring sequence wizard code for reuse in Data wizard
+Fixed: Capture image in Recipe thread exception handling
+
+20201214
+Fixed: Check page camera triggermode settting typo
+Added: Modified version of bad image check, implemented into Recipe run V2
+Added: Temp log
+Added: Implemented Data wizard UI framework
+Added: remove CUI assembly name from resource dictionary
+Added: Implementing Data view; moved OLASequenceInfo to common lib for sharing
+Added: Implementing data view; restructuring code to make ready for process and view offline OLA data (in progress)
+Added: Implemented Data graphic view on  OLA offline processed data
+
+20201221
+Modified: Data delete implement
+Fixeed: Improvements for OLA Data view
+Fixed: data view bug fix 
+Added: an information icon button in home page, make it ready to implement "about box" in the future
+Fixed: remove average for ReadPF and Yield
+Modified: Small improvements on Data view
+
+20201228/0104
+Modified: Flowcheck modified
+Added: Template option
+Modified: Cartridge cali pos int to  double
+Modified: Volumn track check V1 recipe
+Modified: template option PhiX
+Modified: backup directory with Instrument Info
+Added: BackUp switch
+Added: config settings for OLA parameter choice
+Modified: Implement framework for libblobs.dll 
+Removed: multiple tries when running blobs exes 
+Added: timing of major pipeline steps
+Modified: Log blobs DLL session handles only in debug mode
+Added: Implementing Data re-process, in progress
+Added: implementing OLA offline data processing --- in progress
+
+20200111
+Added: Com port test
+Modified: com port reconnect function
+Fixed: Sipper pos in Recipe run
+Added: e8739 template
+Added: flow check during post runwash (ongoing)
+Modified: Combine all fastq files after OLA processing
+Modified: Correct default OLA parameters. Add safety to CombineFASTQFiles
+Modified: OLA: handle a case when a line in run.sh ends with one or more spaces
+Added: experiment name and session ID to OLASequenceInfo. 
+Modified: Improve Combine FASTQ Files functionality
+Added: Fluidics sensor trigger event in pump thread- ongoing
+Modified: Implementing ola offline data processing 
+Modified: Re-structuring code to re-use sequence view model. In-progress
+
+20210118
+Fixed: Save directory
+Modified: Pre-run flow check
+Fixed: bugs and improvements for data view and process in CUI
+Added: Implementing Pdf export for OLA data view  
+Fixed: bug fixing and improvements for data view and reprocess
+Modified: Read config file from Appdomin (temp)
+Modified: Log file size constrain
+Fixed: bug fixing and improvements for data processing
+Modified: Implement full flow test
+Fixed: email subject
+Fixed: a bug CUI froze if temperature check failed
+Added: UI to display a failure message when  temperature check fails.
+Added: Implementing Pdf report for data processing (in progress)
+
+20210125
+Modified: Handle a case when the OLA thread has started, but the cycle number has not been updated. 
+Added: a comment to the combine fastq method.
+Fixed: Bug fix and improvement for data processing; Implementing Pdf export (in progress)
+Fixed: Bug fix and improvements for data processing; bug fix for showing negative color value in heat map
+
+
+20210201
+Modifed: Config OLA param
+Fixed: Data table density
+Modified: OLA: Stub for FindBlobs. Support for short run lengths.
+Added: implementing PDF export --- adding summary page
+Fixed: bug fixing for readPF, density and Yield calculations in data charts.
+Fixed: Fixed: use last cycle for table data
+Fixed: fixed wrong calculations on data table items.
+Modified: Template option update
+
+20210208
+Fixed: bug fixes for Pf view in data process
+Modified: changed "GetOLAManager" to new "OLAManager" in data process
+Added: try catch in setting camera function & continuous mode Lucid Camera
+Modified: re-AF if cyclediff larger than 4, exception cycle 1 2 frist 3 region
+Added: First implementation of sliding window for base calling 
+Fixed: copy info.json from Data to bcqc
+Modified: OLA: configure number of overlap cycles instead of sliding window width.
+Fixed: Smart flow test
+
+20210215
+Modified: Region mapping add vertical / horizontal direction interval
+Added: Change selector valve to 24 during unload
+Fixed: Potentially incorrect calculation of the base calling stage width
+Modified: Implemented redesigned-UI for Data wizard front page
+Modified: implemented "auto-generating PDF"
+Fixed: bug fix for data re-processing
+Added: more fields into info.json to be saved
+Modified: Improvement on data wizard front page
+Fixed: a bug where the file size is zero in PDF export
+Modified: implementing user account settings
+
+20210222
+Added: flow test logging
+Modified: CUI check flow test workflow change
+Modified: implementing user account setting UI
+
+20210301
+Modified: Fit 2.4 machine HW changes (Mainly the cartridge motor is controlled by chiller other than motion controller
+Modified: Chiller temperature curve legend;
+Fixed: Cartridge motor didn't go back home when SW is launched;
+Modified: Serial peripheral test bench;
+Modified: mplementing account setting UI (added password validation; added cancel button)
+Modified: implementing account settings (added required field indicator; added filed validations)
+Modified: implementing account setting UI (added access right list based on on the current logged in account access level);
+Modified: implementing user account settings (adding core functions for account manipulations)
+
+20210308
+Added: Implement data transfer
+Modified: Implementing account setting (hooked up read password change function
+Modified: disable "Exit" button while account settings in edit mode
+Fixed: bug fixes for missing "Setting button" in the main page while a user logs in with Admin or Tech level;
+Added: a log in dialog box for re-logging in if the current user passwaord is changed
+Modified:implementing user account setting UI, fixed issues in account setting UI when logging in to different account levels.
+Modified: 2.4 check cartridge sipper status
+Modified: Implementing user account UI (added account creation; added account searching functions)
+Fixed: Smart wash push steps
+Added: Implementing USER setting UI (added missing files; added functions for updating user profile; added acessrigh filter for account search);
+
+20210315
+Modified:Ccompleted implementation of User account setting UI
+Added log window button to data and Maintenance pages
+Added: implemented "Shutdown" for non-master user in CUI
+
+20210322
+Fixed: Save/transfer image folder when multi image recipe
+Added: New fiducial mask moving window metric
+Modified: AF workflow (on going)
+Modified: OLA: Implemented an option for a fixed sliding window width, averaging overlapping bcqc cycle metrics
+Modified: support for a single cycle base calling
+Fixed: OLA: Fix a bug in stitching bcqc files
+Modified: OLA: adapt BaseCall RAM usage calculation to the sliding window
+Modified: OLA: more changes to adapt BaseCall RAM usage calculation to the sliding window
+Fixed: data backup path issue with multi sub image recipe
+Modified: Implemented summary sub-page for sequence run
+Modified: bypass "Shutdown" for debug build in the main login page
+Fixed: a wrong session id  was assigned to data offline process , it should be the same id as that data process UI displayed
+Modified: Set back user login level to "user" if logging out, doing this will make "Shutdown" button do real shutting down after a user logs in and logs out in Debug mode
+So the only exception now is: Shutdown" button in the main login UI  will not do  real shutting if there is no any user who has ever tried to logged in in the Debug Build
+
+20210329
+Modified: "Data transfer" UI and functionality  improvements
+Modified: Improving "Data transfer" and "Data delete" UI
+Modified: Implementing "Upload data" in sequence "Summary" page in CUI.
+
+20210405
+Added: Sharpness calculation MTF metric
+Added: new Fiducial logging
+Modified: digital in flow test log
+Added: EUI icon
+Modified: improved data process UI
+
+20210412
+Modified: Camera expection handling
+Modifed: Image backup bugs
+Modifed: cancel scan through for first cycle first few region to save time, since focus should not be change much
+Modified: Implemented "Upload Data" UI in sequence summary page
+Modified: OLA: support for hybrid base calling ranges. Remove e9739 enum
+Added: OLA: support for hg38
+Fixed: data processing experiment name
+
+20210419
+Modified: Pass information about indexed and paired runs to OLA manager constructor Let OLA manager figure out image data directory 
+Added: SubStep enum to ImagingStep class 
+Added: Generate automatically BaseCall ranges from configured step and overlap
+Removed: removing and replacing message box in system code
+Modified: AF image save directory
+Modified: AF top surface first, auto detect top surface
+Modified: Sharpness moving window metric with normalization with avg intensity of each window
+Modified: Save function / directory
+Modified: Transfer function / directory
+Modified: Run setup page rearrange
+Fixed: Paired end / index enable boolean
+Modified: OLA: set BaseCall range strategy to 2-0.
+Fixed: save image folder
+Fixed: image recipe edition bug
+Fixed: Working Dir error
+Fixed: Index image loop/ image name
+Fixed: Index number view
+
+20210426
+Fixed: X stage parameter & txt file
+Fixed: index run list file
+Fixed: recipe Name info reagrrantment
+Fixed: Image recipe name in cui
+Modified: Turn off temp controller after outter recipe done
+Modified: Delete "_Inc" from the image recipe name
+
+20210503
+Fixed: Accomodate with change of image recipe name pattern
+Modified: SW cutoff of temperatures
+Fixed: Recipe editor new pump selector valve2/3 not show issue
+Modified: Config file structure chanages pervent modification
+Modified: move stage mapping to calib config insteand of system config
+Modified: Cancel message box of error during recipe, just abort and stop after those error
+Modified: OLA: support for indexed runs - work in progress.
+Fixed: Recipe editor new pump selector valve2/3 not show issue
+Modified: Config file structure chanages pervent modification
+Modified: move stage mapping to calib config insteand of system config
+Modified: Cancel message box of error during recipe, just abort and stop after those error
+Added: Index template
+Modified: Default image step/ fluidics step recipe parameters
+Modified: Assembly Version Update 3.3.0.0
+
+20210510
+Fixed: Image step recipe loading bug
+Modified: New fiducial test
+Fixed: OLA incorrect image data directory, update parameter for hg38
+Modified: change run setup UI for supporting indexing
+Added: Implemented loading and using sample sheet for run setup page
+Modified: New fiducial improvment
+Fixed: data logging for new fiducial
+Fixed: Combo box for index and reads sequencing 
+Modified: Add OLAFreeInstrumentCores config
+Fixed: OLA Crash fix about initialization of recipe config
+Modified: change sequence parameter for supporting indexing
+
+20210517
+Added: OLA support for indexing run - in progress
+Modified: Split OLAUseSlidingWindow config into Main and Index. 
+Added: Implement indexing of Read1 cpf and clr fastq files. Do not use previous base-clust if -D or -g change. Do not input Read1 clr for indexing unless the stage range starts with 0.
+Modified: OLA change the stage ranges generation so that all ranges have the same width
+Fixed: OLA info json serialization and data path (in progress) for supporting index
+Modified: implementing multiple OLA data graphs to support indexes and multiple reads. (in progress)
+Fixed: OLA: fix BaseCall ranges generator.
+
+20210524
+Modified: Implementing multiple data graph view to support index and  reads.
+Modified: OLA: Wait for seqP exes in a non-blocking way. Safety update for base calling ranges generator. Skip Read1 indexing if there is no Index1 read.
+Modified: Add check for number of image recipe regions and ask user if more than one + one ref auto mapping turned on
+Added: Implemented GUI processor affinity config setting
+Addded: OLA: assign seqP CPU cores complementary to the CUI CPU cores. Set OLA jobs priority below normal.
+Modifed: OLA: disable OLAFreeInstrumentCores - will use process affinity instead.
+Modified: OLA: support an option for processing old data in a non-simulation experiment.
+Modified: Image recipe editor channel match check
+Fixed: OLA: fix a bug in ExecuteSync. Restrict number of ExtractInt-s running in parallel by the number of logical threads.
+Modified: OLA: relax restriction on number of ExtractInt-s to run in parallel.
+Modified: OLA: support -a and -G seqP parameters.
+
+20210531
+Fixed: minor target temp and waiting limit fix for 2.4/new chemistry target
+Fixed: PD exception handling fix
+Modified: Enable stream packet resend
+Added: implementing multiple data graphs to display indexes and read2 OLA data
+
+20210607
+Added changes for "Data process" and "App-sequence" to support indexes and read 2.
+Added: OLA: add robustness to affinity assignment, fix a bug in indexing of fastq files, first pass at using multi-image ExtractInt exes
+Modified: OLA: new config params to support multi-image ExtractInt exes
+Modified: OLA: output affinity in hexadecimal form. Restrict number of images extracted in parallel to the maximum allowed number of threads
+Modified: Camera SDK version update to 1.0.29.5
+
+20210614
+OLA: Bug-fix: uninitialized command-line parameters. Support for multi-threaded ExtractInt - work in progress
+Modified: change StartStream Buffer
+Modified: Add exception handling of timeout exception null image
+Added: Support for multi-threaded ExtractInt and for no-JoinCycles: work in progress
+Modified: OLA: restore initialization of available RAM and number of cells to test.
+Modified: OLA: improvements to RAM calculations
+Modified: Support for multi-threaded ExtractInt: work in progress
+Modified: OLA: use apriori slope of ExtractInt RAM curve; do not calculate it
+Modified: OLA: optimize number of threads used by seqP executables.
+
+20210621
+Added: Reconnect function to motion controllers
+Modified: Implement retry machanism inside motion controller function instead of calling multiple times outside
+Modified: change exception handling when waiting stages stable failed, log final pos
+Modified: Log message after received null image V2
+Fixed: Camera exception handling fix
+fixed: error in saving message
+Modified: Changed sequence run UI to support index and read2. Bug fix for "Data View"
+Modified: Changed sequence run and UI pages to support index and read2
+Fixed: Reconnect function in motion controller
+Fixed: OLA: fix wrong data directory; double seqP threads count.
+
+20210628
+Modified: Exception handling if top surface scanned was outside top surface
+Modified: re-organized the autofocus setttings
+Added: new fiduicial workflow(ongoing) Metric calculation
+Fixed: Camera timeout exception handling fix
+Modified: cancel error message if just retry
+Added: Add stop watch to timing the waiting new image from camera in trigger mode
+Fixed sequence report to support index and read2
+Fixed: Unix EOL lost when stitching sliding window fastq files. Cleanup.
+Modified: OLA: use a system log file
+Modified: OLA: update default seqP parameters; cleanup of config.json
+Modified: OLA: go back to using JoinCycles, b/c indexing results got worse without it.
+
+20210705
+Fixed: OLE log bug.
+Added: IsIndex bool for accomdata the pipeline
+Fixed: Correct Brca template and delete unused 8T,
+Modified: Disable load recipe button when recipe running
+Modified: OLA: Log some recipe config settings
+Modified: Heatsink temp reading
+Modified: CUI Load page xy stage movement
+Modified: logging message modification add heatsink temp
+Fixed: temp log error
+Modified: code warning clean up
+Modified: OLA: generating a fasta indexing file and converting it to a binary file - work in progress.
+Modified: OLA: improvements to lane-sample-index info.
+Modified: Cleaning up compilation warnings 
+Modified: set all project for X64; updated all .Net dependencies to the latest versions through NuGet
+
+20210712
+Fixed: OLA: fix an exception when TileProgress.json is not found. Capitalize some class member names.
+Modified: OLA: use -T 36 0 1 for BuildTmplt. Clean directories: extr, locs, calls/save. Move Sliding Window intermediate logs to logs directory.
+Modified: Implementing sample sheet lane index info  for sequence run and OLA ((in progress)).
+Modified: new fiducial focus implementation
+Modified: OLA: Update CUI bcqc on every tile.
+Fixed: Sharpness thershold
+Modified: valve move to 24 after recipe done
+Modified: Implemented sample sheet index info for sequence run and OLA
+Fixed: new fiducial bugs
+Fixing: need check the object for  sample sheet data info if it is null
+Modified: chiller sipper pos check
+Added: NIPT template option
+Modifed: Image recipe oneref improvement
+Fixed: CUI temp log
+Fixed: Check page camera issue in simulation mode
+Fixed: Index image step issue
+Modified: OLA: improve JobsRun loop algorithm. 
+Removed: deserialization of TileProgress.
+
+20210719
+Modified: OLA: re-enable Recipe notifications for Index read cycles.
+Modified: OLA: run BaseCall on the whole Index1 sequence.
+Fixed: OLA bugfix: If OLA is ahead of Recipe, OLA should wait for Recipe to acquire next cycle
+Modified: OLA: provide parameter choice for NIPT and Brca.
+Modified: OLA: implement indexing and merging of fastq files - part 1
+Fixed: id issue for sample index info
+
+20210726
+Modified: OLA: implement indexing and merging of fastq files - part 2.
+Added: ValidateOLALaneSampleIndexInfo method
+Fixed: Post Run wash auto push back bug
+Modified: change structure of new fiducial pattern info
+Added: calculate threshold depend on each region's pattern's max metrix
+Modified: AF sharpness threshold
+Modified: condition statement loop count optimization
+Removed: Do not call ValidateOLALaneSampleIndexInfo on null data
+Modified: change i12 to idx
+Fixed: waiting trigger timeout limit
+Modified: log one ref boolean
+Modified: OLA: format fastq file according to Illumina format
+Added validating sample sheet in runsetup UI page
+Modified: OLA: generate run id just in time for fastq generation. Clean up error messgaes
+Fixed: new fiduical fix
+Modified: OLA: implement formatting and merging of non-indexed Read1.
+Fixed: OLA: correct a log message.
+
+20210802
+Fixed: AF Sharpness threshold bug
+Fixed: slowness issue when switching tabs in multiple data graph view
+Fixed: OLA Read1 base sequence line is missing in the indexed fastq file.
+Modified: Nas folder directory
+Modified: New fiducial metric recording
+Modified: Nas list file copy folder
+Modified: OLA: generate a separate pipeline cycle range for the template cycles.
+Fixed: OLA: fix tile name regex parser.
+Added: a place holder for a new Recipe update method
+Added: Transfer info.json file if existing
+Added: tile location notification to OLA
+
+20210809
+Modified: Data process ans sequence run UI improvements: displaying cycles for index in data process view
+Modified: Displaying read for current imaging cycle in sequence run UI
+Modified: Reorganize log file directory
+Fixed: log reorgan fix bug
+Fixed: AF exposure time setting for reducing camera error
+Modifed: ALF2.5 new hardware upgrade
+Modified: OLA: First implementation of just-in-time tile processing
+Modified: Change name cell to tile in lots of places. Simplify Parallel.ForEach usage
+Fixed: minor new AF record directory
+Modified: OLA: improve the logic of waiting for a tile being acquired
+Fixed: a compile problem
+Fixed: OLA: Fix a bug in tile name parser
+Added: safety to OLA initialization and updates
+Modified: OLA: No need to call cycle update in off-line mode
+Modified: OLA: Do not wait for a tile if all tiles are already acquired.
+Modified: OLA: For off-line processing build list of tiles from data directory, not from sequence info.
+Modified: Save function exception handling
+Fixed: new fiducial bug fix
+Modified: OLA: Improve flow of tile processing
+Modified: re-structuring AutoFocusCommand code, separating code between rev1 and rev2
+Added: "Abort checking" for some of while loops  
+Removed most "return" statements in the middle of  functions in the autofocuscommand so that the flow code can always do clean up
+
+20210816
+Modified: OLA: Stop inflating number of threads. Report an error when cannot stich fastq files
+Modified: OLA: Use sliding window with 1 cycle step
+Removed: _IsMachineRev2 
+Modified: moved rev2 only class members from  AutoFocusCommandBase to AutoFocusCommand2
+Added: PreHeating recipe step and stop preheating recipe step
+Modified: Update code for camera led channel setup tool
+Modified: Version number update
+Modified: turn off pre heating after experiment done/ software closed/ experiment aborted
+Fixed: Minor improvement of AF
+Fixed: ALFRev2 CustomDevicesTest bug fix
+Fixed: Autofocuscmd2 bug
+Fixed: log directory error
+Fixed: Z stage pos check condition bug
+Fixed: null image count bug causing OLA issue
+Modified: isnull check for convert bytearray to image
+Fixed: OLA notification boolean bug
+Fixed: AF Thread waiting time for new image
+Fixed: uncompress saving boolean and null image count bug
+Fixed: camera isincomplete check bug
+Fixed: motion log folder bug
+
+20210823
+Fixed: new fiducial workflow bug fix
+Fixed: slowness issue when switching sub-pages in sequence summary page
+Fixed: left tick mark display issue in heatmap
+Modified: new AF algorithm improvement/ z pos limitation
+Fixed: null image count in different thread
+Modified: focus at wrong surface exception handling
+Added: Mass of waste function / chiller door lock /  water cooling system liquid level check
+Fixed: new autofocus fix
+Modified: Implemented Auto focus simulation
+
+20210830
+Fixed: new features condition boolean IsProtocolRev2
+Modified: cancel exposure time change of ALF2.0s
+Added: Backup failure count exception handling
+Modified: Extend range of std variance tolerance
+Modified: Re-map the New Fiducial pattern every 45 cycle to accomdate the change of light reflection
+Modifed: use previous method if change of focus in one region is too large or the range is large
+Modified: add number of buffer of camera to 100
+Added: New metric for new fiducial, likelihood metric
+Modified: OLA: keep the last cycle bcqc file in the calls directory
+Modified: new fiducial try count limit
+Modifed: FC Clamp boolean correction in hardware level code
+
+20210906
+Fixed: new fiducial re-calibration minor issue fix
+Modified: lucid camera minor loop threadsleep
+Modified: Hw Version number-HW control pair confusion
+Fixed: New metric algorithm fix
+Fixed: Pre heating recipe tool modify step
+Fixed: pre heating recipe step isue
+
+20210913 3.5.0.0
+Added: surface Multiplier function
+Fixed: Postrun bug fix
+Modified: FC clamp boolean
+Modified: NF new metric implementation test
+Fixed: sharpness evaluation new metric issue
+Modified: Implement new metric for new fiducial
+Modified: Requeue Buffer before send out image to avoid potentially requeue buffer at same time as triggering next image
+Modified: OLA: Stand-alone IndexMerge. Optional PF cluster minimum length
+Modified: Version info update

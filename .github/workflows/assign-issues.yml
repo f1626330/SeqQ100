@@ -1,0 +1,48 @@
+# GitHub action to automatically assign new issue cards
+name: Auto Assign to Project(s)
+
+# Controls when the workflow will run
+on:
+  issues:
+    types: [opened, labeled]
+  pull_request:
+    types: [opened, labeled]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+   assign_one_project:
+     runs-on: ubuntu-latest
+     name: Assign to One Project
+     # Steps represent a sequence of tasks that will be executed as part of the job
+     steps:
+     - name: Assign NEW issues and NEW pull requests to triage
+       uses: srggrs/assign-one-project-github-action@1.2.1
+       if: github.event.action == 'opened'
+       with:
+         project: 'https://github.com/Sequlite/Alf/projects/2'
+         column_name: 'Needs triage'
+      
+     - name: Assign issues and pull requests with `bug` label to bug board
+       uses: srggrs/assign-one-project-github-action@1.2.1
+       if: |
+         contains(github.event.issue.labels.*.name, 'bug') ||
+         contains(github.event.pull_request.labels.*.name, 'bug')
+       with:
+         project: 'https://github.com/Sequlite/Alf/projects/5'
+         column_name: 'To do'
+        
+     - name: Assign issues and pull requests with `enhancement` label to features and improvements board
+       uses: srggrs/assign-one-project-github-action@1.2.1
+       if: |
+         contains(github.event.issue.labels.*.name, 'enhancement') ||
+         contains(github.event.pull_request.labels.*.name, 'enhancement')
+       with:
+         project: 'https://github.com/Sequlite/Alf/projects/7'
+         column_name: 'To do'
+         

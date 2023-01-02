@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view" kind="namespace">
+    <compoundname>Sequlite::ALF::EngineerGUI::View</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_auto_focus_tab_control" prot="public">Sequlite::ALF::EngineerGUI::View::AutoFocusTabControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_ccd_view_control" prot="public">Sequlite::ALF::EngineerGUI::View::CcdViewControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_chemi_temper_control" prot="public">Sequlite::ALF::EngineerGUI::View::ChemiTemperControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_detector_parameter_setup_wind" prot="public">Sequlite::ALF::EngineerGUI::View::DetectorParameterSetupWind</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_flow_control_control" prot="public">Sequlite::ALF::EngineerGUI::View::FlowControlControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_fluidics_tab_control" prot="public">Sequlite::ALF::EngineerGUI::View::FluidicsTabControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_gallery_tab_control" prot="public">Sequlite::ALF::EngineerGUI::View::GalleryTabControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_container_control" prot="public">Sequlite::ALF::EngineerGUI::View::ImageContainerControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_info_control" prot="public">Sequlite::ALF::EngineerGUI::View::ImageInfoControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_image_viewer_control" prot="public">Sequlite::ALF::EngineerGUI::View::ImageViewerControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_imaging_tab_control" prot="public">Sequlite::ALF::EngineerGUI::View::ImagingTabControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_leds_view_control" prot="public">Sequlite::ALF::EngineerGUI::View::LedsViewControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_main_board_control" prot="public">Sequlite::ALF::EngineerGUI::View::MainBoardControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_motors_view_control" prot="public">Sequlite::ALF::EngineerGUI::View::MotorsViewControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_p_d_view_control" prot="public">Sequlite::ALF::EngineerGUI::View::PDViewControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_recipe_tab_control" prot="public">Sequlite::ALF::EngineerGUI::View::RecipeTabControl</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_1_1_r_i_p_p_tab_control" prot="public">Sequlite::ALF::EngineerGUI::View::RIPPTabControl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/View/AutoFocusTabControl.xaml.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::RecipeLib::ImagingSetting</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a2c5d9c39d47f9334a5e5cb125ce1d184" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1a13996f83788b6646899d6da885790574" kindref="member">ImagingChannels</ref></type>
+        <definition>ImagingChannels Sequlite.ALF.RecipeLib.ImagingSetting.Channels</definition>
+        <argsstring></argsstring>
+        <name>Channels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="217" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a4e3ffc56b4b70142614af4636f28a764" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.RecipeLib.ImagingSetting.RedExposureTime</definition>
+        <argsstring></argsstring>
+        <name>RedExposureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="218" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1ae67fe3f45e2998d36ffd38150a24d84e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.RecipeLib.ImagingSetting.GreenExposureTime</definition>
+        <argsstring></argsstring>
+        <name>GreenExposureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="219" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1ab2df1a9cad1b7e5f580a2e2d2f006272" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.RecipeLib.ImagingSetting.WhiteExposureTime</definition>
+        <argsstring></argsstring>
+        <name>WhiteExposureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="220" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a118d8aceb465f11ae96ce018c6ec7058" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.RecipeLib.ImagingSetting.RedIntensity</definition>
+        <argsstring></argsstring>
+        <name>RedIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="221" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a5b28eecdb36ec911d03f19758e797a42" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.RecipeLib.ImagingSetting.GreenIntensity</definition>
+        <argsstring></argsstring>
+        <name>GreenIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="222" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a2a0a5cf3e2c759d71124b4975c3b0494" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.RecipeLib.ImagingSetting.WhiteIntensity</definition>
+        <argsstring></argsstring>
+        <name>WhiteIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="223" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1abcf49f64417d1066c749ef8826dab2e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_recipe_lib_1ad55dbd5b1650843764ab08b9c2bc709a" kindref="member">FilterTypes</ref></type>
+        <definition>FilterTypes Sequlite.ALF.RecipeLib.ImagingSetting.Filter</definition>
+        <argsstring></argsstring>
+        <name>Filter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="224" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a7fb107ed6a0582e3eac0d85f85b9a631" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.RecipeLib.ImagingSetting.ImagingSetting</definition>
+        <argsstring>()</argsstring>
+        <name>ImagingSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="225" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="225" bodyend="228"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" line="216" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/RecipeStep.cs" bodystart="215" bodyend="229"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a2c5d9c39d47f9334a5e5cb125ce1d184" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingSetting</scope><name>Channels</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1abcf49f64417d1066c749ef8826dab2e1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingSetting</scope><name>Filter</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1ae67fe3f45e2998d36ffd38150a24d84e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingSetting</scope><name>GreenExposureTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a5b28eecdb36ec911d03f19758e797a42" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingSetting</scope><name>GreenIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a7fb107ed6a0582e3eac0d85f85b9a631" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingSetting</scope><name>ImagingSetting</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a4e3ffc56b4b70142614af4636f28a764" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingSetting</scope><name>RedExposureTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a118d8aceb465f11ae96ce018c6ec7058" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingSetting</scope><name>RedIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1ab2df1a9cad1b7e5f580a2e2d2f006272" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingSetting</scope><name>WhiteExposureTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_imaging_setting_1a2a0a5cf3e2c759d71124b4975c3b0494" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::ImagingSetting</scope><name>WhiteIntensity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

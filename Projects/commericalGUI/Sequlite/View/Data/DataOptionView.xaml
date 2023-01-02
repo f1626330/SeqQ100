@@ -1,0 +1,168 @@
+﻿<UserControl x:Class="Sequlite.UI.View.DataOptionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:view="clr-namespace:Sequlite.UI.View"
+             xmlns:viewModel="clr-namespace:Sequlite.UI.ViewModel"
+             xmlns:system="clr-namespace:System;assembly=mscorlib"
+             xmlns:res="clr-namespace:Sequlite.UI.Resources"
+              xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+              xmlns:app="clr-namespace:Sequlite.ALF.App;assembly=Sequlite.ALF.App"
+             xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="WhiteSmoke">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Sequlite.WPF.Framework;component/Resources/StyleDictionary.xaml"/>
+                <ResourceDictionary Source="/Resources/PageViewDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <DataTemplate DataType="{x:Type viewModel:DataWizardViewModel}">
+                <view:DataWizardView />
+            </DataTemplate>
+            <!--<Style TargetType="{x:Type RadioButton}"  x:Key="radioButtonStyle">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type RadioButton}">
+                            <BulletDecorator Background="Transparent" Cursor="Hand">
+                                <BulletDecorator.Bullet>
+                                    <Grid Height="32" Width="32">
+                                        --><!--Define size of the Bullet-->
+                                        <!--The two borders--><!--
+                                        <Border Name="RadioOuter" Background="Transparent" BorderBrush="Gainsboro" BorderThickness="2" CornerRadius="2" />
+                                        <Border CornerRadius="0" Margin="4" Name="RadioMark" Background="DarkGreen" Visibility="Hidden" />
+                                    </Grid>
+                                </BulletDecorator.Bullet>
+                                --><!--Text element--><!--
+                                <TextBlock Margin="10,1,0,0" Foreground="Black" FontFamily="Calibri" FontSize="22" >
+                        <ContentPresenter />
+                                </TextBlock>
+                            </BulletDecorator>
+                            --><!--If item is checked, trigger the visibility of the mark--><!--
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsChecked" Value="true">
+                                    --><!--If item is checked, trigger the visibility of the mark and change the color of the selected bullet into a darker gray for better highlighting--><!--
+                                    <Setter TargetName="RadioMark" Property="Visibility" Value="Visible"/>
+                                    <Setter TargetName="RadioOuter" Property="BorderBrush" Value="#FFADADAD" />
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>-->
+            <!--<DataTemplate DataType="{x:Type viewModel:DataOption}">
+                <RadioButton  Focusable="False"   VerticalContentAlignment="Center" VerticalAlignment="Center"
+                    IsHitTestVisible="False" Style="{StaticResource radioButtonStyle}"
+                    Content="{Binding Display}"
+                    
+                    IsChecked="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=ListBoxItem}}">
+                </RadioButton>
+            </DataTemplate>-->
+            <Style x:Key="btnAction2" TargetType="{x:Type wpfFramework:ImageButton}" BasedOn="{StaticResource btnAction}">
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="Command" Value="{Binding ContinueCommand}" />
+                <Setter Property="Content" Value="{Binding Path=CommandParameter, RelativeSource={RelativeSource Self}, Converter={StaticResource enumToDisplayNameConverter} }" />
+                <Setter Property="ToolTip" Value="{Binding Path=CommandParameter, RelativeSource={RelativeSource Self}, Converter={StaticResource enumToDisplayDescriptionConverter} }" />
+            </Style>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" VerticalAlignment="Stretch" Background="{StaticResource commonBk}"
+                Visibility="{Binding IsVisible, ElementName=pg, Converter={StaticResource booleanToHiddenNegateConverter}}">
+            <!--<Border.Background>
+                <LinearGradientBrush EndPoint="0.504,1.5" StartPoint="0.504,0.03">
+                    <GradientStop Color="#BDD8E6" Offset="0"/>
+                    <GradientStop Color="#FFFFFFFF" Offset="0.567"/>
+                </LinearGradientBrush>
+            </Border.Background>-->
+            <Grid VerticalAlignment="Center" >
+                <Grid.RowDefinitions>
+                    <!--<RowDefinition Height="Auto" />-->
+                    <RowDefinition Height="Auto"/>
+                    <!--<RowDefinition Height="68"/>-->
+                    
+                </Grid.RowDefinitions>
+
+                <!--<TextBlock Grid.Row="0" Text="Select one of the options below to continue"  HorizontalAlignment="Center" 
+                       Style="{StaticResource bigTextBlockStyle}" Foreground="#FEFEFEFE" FontWeight="Bold"/>-->
+                <!--<TextBlock Grid.Row="0" Text="Click a button to continue"  HorizontalAlignment="Center" FontSize="28"
+                       Style="{StaticResource bigTextBlockStyle}" Foreground="#FEFEFEFE" FontWeight="Bold"/>-->
+                <!--<ListView Grid.Row="1" x:Name="ls" ItemsSource="{Binding Options}" SelectedItem="{Binding SelectedOption}" 
+                     VerticalAlignment="Center" HorizontalAlignment="Center"  MinWidth="276" Opacity="0.7" BorderThickness="0.1" >
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="BorderThickness" Value="0"/>
+                            <Setter Property="Margin" Value="15"/>
+                            <Setter Property="Padding" Value="4"/>
+                            <Setter Property="ToolTip" Value="{Binding Description}" />
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                </ListView>-->
+                <Grid  Grid.Row="0" HorizontalAlignment="Center" Background="Transparent" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <wpfFramework:ImageButton Grid.Row="0"
+                        Style="{StaticResource btnAction2}"  
+                        
+                        ImageContent="pack://application:,,,/Resources/Images/DataView.png" >
+                        <Button.CommandParameter>
+                            <viewModel:DataOptionTypeEnum>View</viewModel:DataOptionTypeEnum>
+                        </Button.CommandParameter>
+                    </wpfFramework:ImageButton>
+
+                    <wpfFramework:ImageButton Grid.Row="1"
+                        Style="{StaticResource btnAction2}"  
+                        ImageContent="pack://application:,,,/Resources/Images/DataProcess.png" >
+                        <Button.CommandParameter>
+                            <viewModel:DataOptionTypeEnum>Process</viewModel:DataOptionTypeEnum>
+                        </Button.CommandParameter>
+                    </wpfFramework:ImageButton>
+
+                    <wpfFramework:ImageButton Grid.Row="2"
+                        Style="{StaticResource btnAction2}"  
+                        ImageContent="pack://application:,,,/Resources/Images/DataTransfer.png" >
+                        <Button.CommandParameter>
+                            <viewModel:DataOptionTypeEnum>Transfer</viewModel:DataOptionTypeEnum>
+                        </Button.CommandParameter>
+                    </wpfFramework:ImageButton>
+
+                    <wpfFramework:ImageButton Grid.Row="3"
+                        Style="{StaticResource btnAction2}"  
+                        ImageContent="pack://application:,,,/Resources/Images/DataDelete.png" >
+                        <Button.CommandParameter>
+                            <viewModel:DataOptionTypeEnum>Delete</viewModel:DataOptionTypeEnum>
+                        </Button.CommandParameter>
+                    </wpfFramework:ImageButton>
+
+                    <wpfFramework:ImageButton Grid.Row="4"
+                        Style="{StaticResource btnAction2}"  
+                        ImageContent="pack://application:,,,/Resources/Images/BackToHome.png" >
+                        <Button.CommandParameter>
+                            <viewModel:DataOptionTypeEnum>Back</viewModel:DataOptionTypeEnum>
+                        </Button.CommandParameter>
+                    </wpfFramework:ImageButton>
+                </Grid>
+                <!--<StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Continue"  Width="120" Margin="5,20,5,5"  Command="{Binding ContinueCommand}" Opacity="0.9" BorderThickness="0.5"                 
+                            IsEnabled="{Binding SelectedItem, ElementName=ls, Converter={StaticResource nullToBooleanConverter}}"/>
+                    <Button Content="Back" Command="{Binding ExitCommand}" Width="120" Margin="35,20,5,5" ToolTip="Go back to the home page" Opacity="0.9" BorderThickness="0.5"/>
+                </StackPanel>-->
+               
+            </Grid>
+            
+        </Border>
+        <Grid Grid.Row="0" x:Name="pg" Visibility="{Binding CurrentPage, Converter={StaticResource nullVisibilityConverter}}">
+            <ContentControl Content="{Binding Path=CurrentPage}" VerticalContentAlignment="Stretch"/>
+        </Grid>
+    </Grid>
+</UserControl>

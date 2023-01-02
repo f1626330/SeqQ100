@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Imaging::ChemiSetting</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1ab890f2d4b76e3edd9fa20cbb28285e84" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.ChemiSetting.NumFrames</definition>
+        <argsstring></argsstring>
+        <name>NumFrames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="163" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a4e16085e743849dd9abecd9473a564e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.ChemiSetting.ReadoutSpeed</definition>
+        <argsstring></argsstring>
+        <name>ReadoutSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="164" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a885d14e5b933cf1c885455e3bc843218" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.ChemiSetting.Gain</definition>
+        <argsstring></argsstring>
+        <name>Gain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="165" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1af65aad3fe48b508175eb95aaeef0e624" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.ChemiSetting.MinExposure</definition>
+        <argsstring></argsstring>
+        <name>MinExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="166" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a3eb386718f62b786e4d0f058a42f66b8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.ChemiSetting.MaxExposure</definition>
+        <argsstring></argsstring>
+        <name>MaxExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="167" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1aa4bd2d5bf15739fa8baa2b7e0ea1b114" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.ChemiSetting.MarkerRedChExposure</definition>
+        <argsstring></argsstring>
+        <name>MarkerRedChExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="168" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a06c7a065da8b1097b61efc5ad742af1a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.ChemiSetting.MarkerGreenChExposure</definition>
+        <argsstring></argsstring>
+        <name>MarkerGreenChExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="169" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a829b0268dbd42a526e07221e9a24200a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Imaging.ChemiSetting.MarkerBlueChExposure</definition>
+        <argsstring></argsstring>
+        <name>MarkerBlueChExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="170" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a4a816b294e77d56ac9cc690a93c502e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.ChemiSetting.PvCamScalingThreshold</definition>
+        <argsstring></argsstring>
+        <name>PvCamScalingThreshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="171" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a1dd7a66793901742438e6a7d3d12e61d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.ChemiSetting.AutoExposureUpperCeiling</definition>
+        <argsstring></argsstring>
+        <name>AutoExposureUpperCeiling</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="172" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a76e35b50879a1de1ed648b9c317b953b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.ChemiSetting.AEUnderExposure</definition>
+        <argsstring></argsstring>
+        <name>AEUnderExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="173" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a0cebfa78adb4625258bcb1025265c20a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.ChemiSetting.AEOverExposure</definition>
+        <argsstring></argsstring>
+        <name>AEOverExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="174" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1abc0197cf38eebc2b279e13ee0270f3e7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Imaging.ChemiSetting.AEWideDynamicRange</definition>
+        <argsstring></argsstring>
+        <name>AEWideDynamicRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="175" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a72d15d9fc36ca99dd688b310b64f1d8e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Imaging.ChemiSetting.IsDarkCorrection</definition>
+        <argsstring></argsstring>
+        <name>IsDarkCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="176" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a6b8408be1494f258455000bcb8294dc1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Imaging.ChemiSetting.ChemiSetting</definition>
+        <argsstring>()</argsstring>
+        <name>ChemiSetting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="178" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="178" bodyend="180"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" line="162" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Imaging/CameraModeSettings.cs" bodystart="161" bodyend="181"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a0cebfa78adb4625258bcb1025265c20a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>AEOverExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a76e35b50879a1de1ed648b9c317b953b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>AEUnderExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1abc0197cf38eebc2b279e13ee0270f3e7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>AEWideDynamicRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a1dd7a66793901742438e6a7d3d12e61d" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>AutoExposureUpperCeiling</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a6b8408be1494f258455000bcb8294dc1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>ChemiSetting</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a885d14e5b933cf1c885455e3bc843218" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>Gain</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a72d15d9fc36ca99dd688b310b64f1d8e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>IsDarkCorrection</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a829b0268dbd42a526e07221e9a24200a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>MarkerBlueChExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a06c7a065da8b1097b61efc5ad742af1a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>MarkerGreenChExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1aa4bd2d5bf15739fa8baa2b7e0ea1b114" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>MarkerRedChExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a3eb386718f62b786e4d0f058a42f66b8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>MaxExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1af65aad3fe48b508175eb95aaeef0e624" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>MinExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1ab890f2d4b76e3edd9fa20cbb28285e84" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>NumFrames</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a4a816b294e77d56ac9cc690a93c502e9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>PvCamScalingThreshold</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_imaging_1_1_chemi_setting_1a4e16085e743849dd9abecd9473a564e3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Imaging::ChemiSetting</scope><name>ReadoutSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

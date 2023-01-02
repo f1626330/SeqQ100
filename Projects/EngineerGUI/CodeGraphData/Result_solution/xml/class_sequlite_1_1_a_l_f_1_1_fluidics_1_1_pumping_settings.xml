@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Fluidics::PumpingSettings</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1ac655480f1a689b532bf78d99cbd4f9c2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Fluidics.PumpingSettings.PullRate</definition>
+        <argsstring></argsstring>
+        <name>PullRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="236" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1a60e7be20c71d95ff6812a5f582c3ef2b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Fluidics.PumpingSettings.PushRate</definition>
+        <argsstring></argsstring>
+        <name>PushRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="237" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1aed4154fcbc27e55f7c790815faadfeb7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Fluidics.PumpingSettings.PumpingVolume</definition>
+        <argsstring></argsstring>
+        <name>PumpingVolume</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="238" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="238" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a68b0789078890b4fd0d0f560f075107e" compoundref="_recipe_run_thread_8cs" startline="344" endline="418">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1a4aec1cdb5e8e7106d82c73dc97dfab4e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_valve_solution" kindref="compound">ValveSolution</ref></type>
+        <definition>ValveSolution Sequlite.ALF.Fluidics.PumpingSettings.SelectedSolution</definition>
+        <argsstring></argsstring>
+        <name>SelectedSolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="239" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="239" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a68b0789078890b4fd0d0f560f075107e" compoundref="_recipe_run_thread_8cs" startline="344" endline="418">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1aef35a769ba5b64cd5bcb02b56d81b2da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" kindref="member">PathOptions</ref></type>
+        <definition>PathOptions Sequlite.ALF.Fluidics.PumpingSettings.SelectedPullPath</definition>
+        <argsstring></argsstring>
+        <name>SelectedPullPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="240" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1a2be642d8d2beea6276d93c5945dd83b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" kindref="member">PathOptions</ref></type>
+        <definition>PathOptions Sequlite.ALF.Fluidics.PumpingSettings.SelectedPushPath</definition>
+        <argsstring></argsstring>
+        <name>SelectedPushPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="241" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1a1ab878adf4d9dd5baa2ae9596aee0b2c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5c" kindref="member">ModeOptions</ref></type>
+        <definition>ModeOptions Sequlite.ALF.Fluidics.PumpingSettings.SelectedMode</definition>
+        <argsstring></argsstring>
+        <name>SelectedMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="242" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1a284dd8218706f9b495ebe659356c9f4f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Fluidics.PumpingSettings.PullDelayTime</definition>
+        <argsstring></argsstring>
+        <name>PullDelayTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="243" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" line="234" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/RunPumpingThread.cs" bodystart="233" bodyend="245"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1a284dd8218706f9b495ebe659356c9f4f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpingSettings</scope><name>PullDelayTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1ac655480f1a689b532bf78d99cbd4f9c2" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpingSettings</scope><name>PullRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1aed4154fcbc27e55f7c790815faadfeb7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpingSettings</scope><name>PumpingVolume</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1a60e7be20c71d95ff6812a5f582c3ef2b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpingSettings</scope><name>PushRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1a1ab878adf4d9dd5baa2ae9596aee0b2c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpingSettings</scope><name>SelectedMode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1aef35a769ba5b64cd5bcb02b56d81b2da" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpingSettings</scope><name>SelectedPullPath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1a2be642d8d2beea6276d93c5945dd83b0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpingSettings</scope><name>SelectedPushPath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pumping_settings_1a4aec1cdb5e8e7106d82c73dc97dfab4e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpingSettings</scope><name>SelectedSolution</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

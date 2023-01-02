@@ -1,0 +1,43 @@
+﻿<Window x:Class="Sequlite.UI.View.UserLoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sequlite.UI.View"
+        xmlns:viewModel="clr-namespace:Sequlite.UI.ViewModel"
+         xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+        mc:Ignorable="d"
+        Title="User Login" Height="300" Width="400" WindowStartupLocation="CenterOwner" WindowStyle="None" ResizeMode="NoResize">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/StyleDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <LinearGradientBrush x:Key="Bk" EndPoint="0.504,1.5" StartPoint="0.504,0.03">
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Color="#BDD8E6" Offset="0"/>
+                    <GradientStop Color="lightgray" Offset="0.567"/>
+                </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid Background="{StaticResource Bk}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="{Binding Message}" HorizontalAlignment="Center"  TextAlignment="Center" TextWrapping="Wrap" 
+                   FontSize="21" Width="350"
+                    FontWeight="SemiBold"  
+                      Foreground="WhiteSmoke" Margin="5"/>
+        <Border  Grid.Row="1" BorderThickness="1" BorderBrush="WhiteSmoke" Margin="5">
+        <ContentControl  HorizontalAlignment="Center" Background="Transparent" x:Name="lg"
+                      Visibility="{Binding  UserModel.IsLoggedIn, Converter={StaticResource boolToVisibilityCollapsedConverter}, Mode=OneWay}"
+                     Style='{StaticResource UserLoginUI}'/>
+        </Border>
+        <ContentControl Grid.Row="1" Style="{StaticResource busyIndicator}" Height="38" Width="38" Foreground="CornflowerBlue"
+                      Visibility="{Binding IsLogging, Converter={StaticResource boolToVisibilityVisibleConverter}}" 
+                                Margin="210,143,345.6,111.8"
+                     />
+    </Grid>
+</Window>

@@ -1,0 +1,135 @@
+﻿<UserControl x:Class="Sequlite.UI.View.LoadFlowCellPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.UI.View"
+             xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/PageViewDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid    HorizontalAlignment="Stretch" VerticalAlignment="Top">
+       
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" Style="{StaticResource PageBorderStyle}" >
+            <Grid  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="60" />
+                    <RowDefinition Height="10"/>
+                   
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <RichTextBox Grid.Row="0" Style="{StaticResource richTextBoxStyle}" 
+                    wpfFramework:RichTextboxAssistant.BoundDocument = "{Binding Instruction_LoadFlowCell, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                    VerticalScrollBarVisibility="Hidden"  HorizontalScrollBarVisibility="Hidden" Margin="0,0,0,10"/>
+                <Grid Grid.Row="1" Name="grid1" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" Content="Eject" Name="btnEject" Width="80" HorizontalAlignment="Center" Margin="5" VerticalContentAlignment="Center"
+                           Command="{Binding EjectCmd}" />
+                    <xctk:BusyIndicator Grid.Column="1" Height="{Binding ActualHeight, ElementName=grid1}"
+                          Background="Transparent" BorderThickness="0" IsBusy="{Binding IsLoadingFlowCell}" 
+                            DisplayAfter="0" Margin="0" >
+                        <xctk:BusyIndicator.BusyContentTemplate>
+                            <DataTemplate>
+                                <Grid >
+                                   
+                                    <TextBox Text="Loading Flow Cell"  BorderThickness="0" HorizontalContentAlignment="Center" VerticalContentAlignment ="Center" 
+                                       VerticalAlignment="Stretch"      Background="Transparent" Padding="5,0,5,0"/>
+                                    <ProgressBar  Width ="130" IsIndeterminate="True"  Background="Transparent" BorderThickness="0" Padding="0"/>
+                                    <!--<Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Button Grid.Column="0" Content="Pause" HorizontalAlignment="Right" Margin="0 0 2 0"/>
+                                        <Button Grid.Column="1" Content="Cancel" HorizontalAlignment="Left" Margin="2 0 0 0"/>
+                                    </Grid>-->
+                                </Grid>
+                            </DataTemplate>
+                        </xctk:BusyIndicator.BusyContentTemplate>
+                        <xctk:BusyIndicator.OverlayStyle>
+                            <Style TargetType="Rectangle">
+                                <Setter Property="Fill" Value="Transparent"/>
+                            </Style>
+                        </xctk:BusyIndicator.OverlayStyle>
+                        <xctk:BusyIndicator.ProgressBarStyle>
+                            <Style TargetType="ProgressBar">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                                
+                            </Style>
+                        </xctk:BusyIndicator.ProgressBarStyle>
+                        
+                        <Button  Content="Load"  Width="{Binding ActualWidth, ElementName=btnEject}" HorizontalAlignment="Center" Margin="5" VerticalContentAlignment="Center" 
+                                 Command="{Binding LoadFlowCellCmd}" />
+                            
+                    </xctk:BusyIndicator>
+                </Grid>
+                <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="10,0,0,0">
+                    <Label  Content="Barcode ID:" VerticalContentAlignment="Center"/>
+                    <TextBox Text="{Binding LoadModel.FCBarcodeId, Mode=OneWay}" IsReadOnly="True" VerticalAlignment="Center" HorizontalAlignment="Stretch" 
+                             Background="Transparent" BorderThickness="0"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+        <Border Grid.Column="1" Style="{StaticResource PageBorderStyle}">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="Loading animation, please wait ..." Margin="5" FontSize="16" Foreground="Gainsboro"/>
+                
+                <FlowDocumentScrollViewer Grid.Row="0" IsToolBarVisible="false"  HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"
+                                          HorizontalAlignment="Center" VerticalAlignment="Top">
+                    <FlowDocument TextAlignment="Center" FontSize="22">
+                        <Paragraph >
+                            <Bold>Animation showing:</Bold>
+                        </Paragraph>
+
+
+                        <List MarkerStyle="Box" TextAlignment="Center" FontSize="18" >
+
+                            <ListItem  >
+                                <Paragraph>Old FC unloading</Paragraph>
+                            </ListItem>
+                           
+                            <ListItem>
+                                <Paragraph>Unpacking new FC</Paragraph>
+                            </ListItem>
+                            <ListItem>
+                                <Paragraph>Clamping new FC</Paragraph>
+                            </ListItem>
+                        </List>
+                        <Paragraph FontSize="11">
+                            <Italic >
+                                (Possibly show written descriptions along with animation)</Italic>
+                        </Paragraph>
+
+                    </FlowDocument>
+                </FlowDocumentScrollViewer>
+                <ContentControl Grid.Row="0" Style="{StaticResource PageMediaPlayer}" />
+               
+                <ListView Grid.Row="1" Style="{StaticResource StatusListView}" IsHitTestVisible ="False" ItemsSource="{Binding StatusList}" 
+                          ItemTemplate="{StaticResource StatusListViewItemTemplate}"
+                          ScrollViewer.HorizontalScrollBarVisibility="Hidden"
+                          >
+                </ListView>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

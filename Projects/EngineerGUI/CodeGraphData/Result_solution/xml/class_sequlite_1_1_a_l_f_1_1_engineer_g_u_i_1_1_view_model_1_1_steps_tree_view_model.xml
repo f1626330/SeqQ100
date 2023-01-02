@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kind="class" prot="package">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a70e97faa32d8648f1f57383e8853dec0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref></type>
+        <definition>StepsTreeViewModel Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel._Parent</definition>
+        <argsstring></argsstring>
+        <name>_Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="10" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1aad082cc0f54fd2c6bc796d652ab1bf33" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree" kindref="compound">StepsTree</ref></type>
+        <definition>StepsTree Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel._Content</definition>
+        <argsstring></argsstring>
+        <name>_Content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="11" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1aed1b6e0f8cef0e0ec062a197ce6f907f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel._IsSelected</definition>
+        <argsstring></argsstring>
+        <name>_IsSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="12" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1af74e1250e20f847901564edc99ea1510" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel._IsExpanded</definition>
+        <argsstring></argsstring>
+        <name>_IsExpanded</name>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="13" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a122e73e0028b08e0ec9647713ec220e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree" kindref="compound">StepsTree</ref></type>
+        <definition>StepsTree Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.Content</definition>
+        <argsstring></argsstring>
+        <name>Content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="32" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a85fc49315473b8a60486872bfdbde127" compoundref="_recipe_view_model_8cs" startline="541" endline="556">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.MarkStep</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9defc9edb989603acef3caeba3cc3964" compoundref="_recipe_view_model_8cs" startline="419" endline="446">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.UpdateLoopCounts</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a4c836f950a8a4d5dfb2e63407a9702da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.IsSelected</definition>
+        <argsstring></argsstring>
+        <name>IsSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="44" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1ac37357746da315de98e640e607b7d0ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.IsExpanded</definition>
+        <argsstring></argsstring>
+        <name>IsExpanded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="56" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1aa2d564d834d2e26b6a2571039752070c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref></type>
+        <definition>StepsTreeViewModel Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="68" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a334be4a653bd58f79e73dda6c37f1d95" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ObservableCollection&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref> &gt;</type>
+        <definition>ObservableCollection&lt;StepsTreeViewModel&gt; Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="80" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1aab564b0667d98fe238276c9018706f2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.StepsTreeViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>StepsTreeViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="17" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1af17a63b452ae3e58c0902091e4eff773" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.StepsTreeViewModel</definition>
+        <argsstring>(StepsTree content, StepsTreeViewModel parent)</argsstring>
+        <name>StepsTreeViewModel</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree" kindref="compound">StepsTree</ref></type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="18" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="18" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a6382f1ffe3cdc829d0d8898e63683a22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.AppendChild</definition>
+        <argsstring>(StepsTree child)</argsstring>
+        <name>AppendChild</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree" kindref="compound">StepsTree</ref></type>
+          <declname>child</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="84" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1addc386e5680b8bab07857d7e564d932e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref></type>
+        <definition>static StepsTreeViewModel Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.CreateViewModel</definition>
+        <argsstring>(StepsTree content, StepsTreeViewModel parent)</argsstring>
+        <name>CreateViewModel</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree" kindref="compound">StepsTree</ref></type>
+          <declname>content</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+<para>Create a <ref refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" kindref="compound">StepsTreeViewModel</ref> object with children&apos;s view models added automatically. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>root</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="93" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="93" bodyend="104"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a5347d92dbe99347189cb53923d2fd43a" compoundref="_steps_tree_8cs" startline="9">Sequlite.ALF.RecipeLib.StepsTree.Children</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1242">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1243">
+        <label>IDisposable</label>
+      </node>
+      <node id="1241">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1242" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1243" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1240">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model"/>
+        <childnode refid="1241" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1246">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1247">
+        <label>IDisposable</label>
+      </node>
+      <node id="1245">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1246" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>Sequlite.ALF.RecipeLib.StepsTree</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree"/>
+      </node>
+      <node id="1244">
+        <label>Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model"/>
+        <childnode refid="1245" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1248" relation="usage">
+          <edgelabel>_Content</edgelabel>
+        </childnode>
+        <childnode refid="1244" relation="usage">
+          <edgelabel>_Parent</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" line="8" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/StepsTreeViewModel.cs" bodystart="7" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1aad082cc0f54fd2c6bc796d652ab1bf33" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>_Content</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1af74e1250e20f847901564edc99ea1510" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>_IsExpanded</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1aed1b6e0f8cef0e0ec062a197ce6f907f" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>_IsSelected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a70e97faa32d8648f1f57383e8853dec0" prot="private" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>_Parent</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a6382f1ffe3cdc829d0d8898e63683a22" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>AppendChild</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a334be4a653bd58f79e73dda6c37f1d95" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>Children</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a122e73e0028b08e0ec9647713ec220e6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>Content</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1addc386e5680b8bab07857d7e564d932e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>CreateViewModel</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1ac37357746da315de98e640e607b7d0ea" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>IsExpanded</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1a4c836f950a8a4d5dfb2e63407a9702da" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>IsSelected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1aa2d564d834d2e26b6a2571039752070c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>Parent</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1aab564b0667d98fe238276c9018706f2a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>StepsTreeViewModel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1af17a63b452ae3e58c0902091e4eff773" prot="public" virt="non-virtual"><scope>Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</scope><name>StepsTreeViewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

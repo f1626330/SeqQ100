@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_bb5d9e429bc86fc4d1c6dbe8d9d80c3d" kind="dir">
+    <compoundname>D:/Source/Alf/Libraries/Sequlite.IppImaging.NET</compoundname>
+    <innerdir refid="dir_80ec4329a66f31951a6fdb770dbbacb5">D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/Properties</innerdir>
+    <innerfile refid="_ipp_imaging_8cs">IppImaging.cs</innerfile>
+    <innerfile refid="_ipp_imaging32_8cs">IppImaging32.cs</innerfile>
+    <innerfile refid="_ipp_imaging64_8cs">IppImaging64.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/"/>
+  </compounddef>
+</doxygen>

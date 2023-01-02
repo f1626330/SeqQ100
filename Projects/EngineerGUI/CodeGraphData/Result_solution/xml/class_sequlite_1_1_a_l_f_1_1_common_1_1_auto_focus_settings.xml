@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Common::AutoFocusSettings</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a1b482b3877668bf4ffbae89642bd8d39" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.AutoFocusSettings.ExposureTime</definition>
+        <argsstring></argsstring>
+        <name>ExposureTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a6fafb1b89923a92f48a766c00c4dcfd7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_common_1ab9957ad6e798e0534cb35ba804b6e1df" kindref="member">LEDTypes</ref></type>
+        <definition>LEDTypes Sequlite.ALF.Common.AutoFocusSettings.LEDType</definition>
+        <argsstring></argsstring>
+        <name>LEDType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="14" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1aad336dc2206548126ea133286cbfb4a6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>uint</type>
+        <definition>uint Sequlite.ALF.Common.AutoFocusSettings.LEDIntensity</definition>
+        <argsstring></argsstring>
+        <name>LEDIntensity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a95fd94f47bb5eb20c762813ae80381c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Int32Rect</type>
+        <definition>Int32Rect Sequlite.ALF.Common.AutoFocusSettings.ROI</definition>
+        <argsstring></argsstring>
+        <name>ROI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a54e2ef4bcb4b6ca1ccd553231da71b9e" compoundref="_auto_focus_settings_8cs" startline="30" endline="42">Sequlite.ALF.Common.AutoFocusSettings.AutoFocusSettings</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1a391c1aa35ab33193d0dc124ebf76a916" compoundref="_recipe_run_thread_8cs" startline="431" endline="825">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepProc</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a29a4cda1435cfb1972be6c596469dfd8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.AutoFocusSettings.ZstageSpeed</definition>
+        <argsstring></argsstring>
+        <name>ZstageSpeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1af37292aa7e3f4a8bad499a0bc93c5df1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.AutoFocusSettings.ZstageAccel</definition>
+        <argsstring></argsstring>
+        <name>ZstageAccel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1aba5e1af6cbe503c536e63fbcc4de1f32" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.AutoFocusSettings.ZstageLimitH</definition>
+        <argsstring></argsstring>
+        <name>ZstageLimitH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a5519fa2a623b8bbf2777b6aafc2ec343" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.AutoFocusSettings.ZstageLimitL</definition>
+        <argsstring></argsstring>
+        <name>ZstageLimitL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a792dd4bfa582ca514642ac36b8a05919" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.AutoFocusSettings.ZRange</definition>
+        <argsstring></argsstring>
+        <name>ZRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a76800dc11d3450472cb7e73cef3ffc65" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Common.AutoFocusSettings.FilterIndex</definition>
+        <argsstring></argsstring>
+        <name>FilterIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a05baecffe0b0fd5796d62dda9cebeeb5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>double</type>
+        <definition>double Sequlite.ALF.Common.AutoFocusSettings.ExtraExposure</definition>
+        <argsstring></argsstring>
+        <name>ExtraExposure</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a8066d2844546ac919ba8774d50869118" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Common.AutoFocusSettings.AutoFocusSettings</definition>
+        <argsstring>()</argsstring>
+        <name>AutoFocusSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a54e2ef4bcb4b6ca1ccd553231da71b9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Common.AutoFocusSettings.AutoFocusSettings</definition>
+        <argsstring>(AutoFocusSettings otherSettings)</argsstring>
+        <name>AutoFocusSettings</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings" kindref="compound">AutoFocusSettings</ref></type>
+          <declname>otherSettings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="30" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="30" bodyend="42"/>
+        <references refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a95fd94f47bb5eb20c762813ae80381c3" compoundref="_auto_focus_settings_8cs" startline="16">Sequlite.ALF.Common.AutoFocusSettings.ROI</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" line="12" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Common/AutoFocusSettings.cs" bodystart="11" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a8066d2844546ac919ba8774d50869118" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>AutoFocusSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a54e2ef4bcb4b6ca1ccd553231da71b9e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>AutoFocusSettings</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a1b482b3877668bf4ffbae89642bd8d39" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>ExposureTime</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a05baecffe0b0fd5796d62dda9cebeeb5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>ExtraExposure</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a76800dc11d3450472cb7e73cef3ffc65" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>FilterIndex</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1aad336dc2206548126ea133286cbfb4a6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>LEDIntensity</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a6fafb1b89923a92f48a766c00c4dcfd7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>LEDType</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a95fd94f47bb5eb20c762813ae80381c3" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>ROI</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a792dd4bfa582ca514642ac36b8a05919" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>ZRange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1af37292aa7e3f4a8bad499a0bc93c5df1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>ZstageAccel</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1aba5e1af6cbe503c536e63fbcc4de1f32" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>ZstageLimitH</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a5519fa2a623b8bbf2777b6aafc2ec343" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>ZstageLimitL</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_common_1_1_auto_focus_settings_1a29a4cda1435cfb1972be6c596469dfd8" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Common::AutoFocusSettings</scope><name>ZstageSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

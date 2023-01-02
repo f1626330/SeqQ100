@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_app" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::EthernetCamera::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <briefdescription>
+<para>Interaction logic for App.xaml </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="44">
+        <label>Application</label>
+      </node>
+      <node id="43">
+        <label>Sequlite.ALF.EthernetCamera.App</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_app"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="46">
+        <label>Application</label>
+      </node>
+      <node id="45">
+        <label>Sequlite.ALF.EthernetCamera.App</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_ethernet_camera_1_1_app"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/App.xaml.cs" line="9" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EthernetCamera/App.xaml.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_sequlite_1_1_command_lib_1_1_i_logger" kind="interface" prot="public">
+    <compoundname>Sequlite::CommandLib::ILogger</compoundname>
+    <derivedcompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger" prot="public" virt="non-virtual">Sequlite.WPF.Framework.Logger</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_sequlite_1_1_command_lib_1_1_i_logger_1a33d551498d15febefd95b09e9971033d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.ILogger.LogEmptyLine</definition>
+        <argsstring>()</argsstring>
+        <name>LogEmptyLine</name>
+        <reimplementedby refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a5bf9ff23725bf229bdd28a85d662aa69">LogEmptyLine</reimplementedby>
+        <briefdescription>
+<para>Log an empty line with no date/time stamp. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ILogger.cs" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_sequlite_1_1_command_lib_1_1_i_logger_1ab25f6c0ac6a8a31cb9b6ab8549f8d4c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.ILogger.LogMessage</definition>
+        <argsstring>(string message)</argsstring>
+        <name>LogMessage</name>
+        <reimplementedby refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a8809134f542b59d0baff851d33e3716f">LogMessage</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Log a 1-line message of the following format: [MS] MM/dd/YYYY hh:mm:ss.fff PM msg </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message to log</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ILogger.cs" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_sequlite_1_1_command_lib_1_1_i_logger_1a486c2f01fe23d30b7281b5bb92e261c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.ILogger.LogParamValuePair</definition>
+        <argsstring>(string paramName, string value)</argsstring>
+        <name>LogParamValuePair</name>
+        <reimplementedby refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1a45628da6be9d91e519a1075f5a920793">LogParamValuePair</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>paramName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Log an indented parameter value pair of the following format: [PV] paramName = value </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>paramName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ILogger.cs" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_sequlite_1_1_command_lib_1_1_i_logger_1a69e68539bc542cbb6cb98332767108df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.CommandLib.ILogger.LogException</definition>
+        <argsstring>(string header, Exception ex)</argsstring>
+        <name>LogException</name>
+        <reimplementedby refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger_1acff0a6bbee708ddf1c0e80750e68b0d5">LogException</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>header</declname>
+        </param>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+<para>Log an exception. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A message describing the current context. Can be null or empty</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ex</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The exception that was caught</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ILogger.cs" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="interface_sequlite_1_1_command_lib_1_1_i_logger" kindref="compound">ILogger</ref> interface definition. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="501">
+        <label>Sequlite.WPF.Framework.Logger</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_logger"/>
+        <childnode refid="500" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="500">
+        <label>Sequlite.CommandLib.ILogger</label>
+        <link refid="interface_sequlite_1_1_command_lib_1_1_i_logger"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CommandLib/ILogger.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CommandLib/ILogger.cs" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="interface_sequlite_1_1_command_lib_1_1_i_logger_1a33d551498d15febefd95b09e9971033d" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ILogger</scope><name>LogEmptyLine</name></member>
+      <member refid="interface_sequlite_1_1_command_lib_1_1_i_logger_1a69e68539bc542cbb6cb98332767108df" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ILogger</scope><name>LogException</name></member>
+      <member refid="interface_sequlite_1_1_command_lib_1_1_i_logger_1ab25f6c0ac6a8a31cb9b6ab8549f8d4c4" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ILogger</scope><name>LogMessage</name></member>
+      <member refid="interface_sequlite_1_1_command_lib_1_1_i_logger_1a486c2f01fe23d30b7281b5bb92e261c5" prot="public" virt="non-virtual"><scope>Sequlite::CommandLib::ILogger</scope><name>LogParamValuePair</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_loader" kind="class" prot="public">
+    <compoundname>Sequlite::Ipp::Imaging::IppLoader</compoundname>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_loader_1a09082cf8d3bc75cc144a004c45f9df1a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IntPtr</type>
+        <definition>static IntPtr Sequlite.Ipp.Imaging.IppLoader.LoadLibrary</definition>
+        <argsstring>(string fileName)</argsstring>
+        <name>LoadLibrary</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="2337" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_loader_1a0c2c99137a911e615635068fc4d55932" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.Ipp.Imaging.IppLoader.PreloadDll</definition>
+        <argsstring>(string dllName)</argsstring>
+        <name>PreloadDll</name>
+        <param>
+          <type>string</type>
+          <declname>dllName</declname>
+        </param>
+        <briefdescription>
+<para>Preloads a DLL from either 32 or 64 </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dllName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the DLL without a path</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="2344" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="2344" bodyend="2384"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" line="2335" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.IppImaging.NET/IppImaging.cs" bodystart="2334" bodyend="2386"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_loader_1a09082cf8d3bc75cc144a004c45f9df1a" prot="private" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppLoader</scope><name>LoadLibrary</name></member>
+      <member refid="class_sequlite_1_1_ipp_1_1_imaging_1_1_ipp_loader_1a0c2c99137a911e615635068fc4d55932" prot="public" virt="non-virtual"><scope>Sequlite::Ipp::Imaging::IppLoader</scope><name>PreloadDll</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

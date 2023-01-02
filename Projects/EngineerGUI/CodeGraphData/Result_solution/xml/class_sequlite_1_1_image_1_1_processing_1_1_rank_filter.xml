@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_rank_filter" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::RankFilter</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_rank_filter_1a50d963e01a66681f3bdbc720c07be634" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.RankFilter.RankFilter</definition>
+        <argsstring>()</argsstring>
+        <name>RankFilter</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RankFilter.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RankFilter.cs" bodystart="19" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_rank_filter_1a443c502ef0e65bd0b206265a7e930e00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>WriteableBitmap</type>
+        <definition>WriteableBitmap Sequlite.Image.Processing.RankFilter.Execute</definition>
+        <argsstring>(WriteableBitmap sourceImage, int kernelSize)</argsstring>
+        <name>Execute</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>sourceImage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kernelSize</declname>
+        </param>
+        <briefdescription>
+<para>Execute filter. The filter creates a copy of the source image and filters this copy. The source image is not changed by this method call. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceImage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The filtered image</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RankFilter.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RankFilter.cs" bodystart="29" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_rank_filter_1aae92146420cc66fd884e07bd41127274" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe WriteableBitmap</type>
+        <definition>unsafe WriteableBitmap Sequlite.Image.Processing.RankFilter.Process16BitChannel</definition>
+        <argsstring>(WriteableBitmap srcImage, int kernel)</argsstring>
+        <name>Process16BitChannel</name>
+        <param>
+          <type>WriteableBitmap</type>
+          <declname>srcImage</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>kernel</declname>
+        </param>
+        <briefdescription>
+<para>Process an 16-bit image. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sourceImage</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>coeffs</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The filtered image.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RankFilter.cs" line="66" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RankFilter.cs" bodystart="66" bodyend="183"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Rank filter. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RankFilter.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/RankFilter.cs" bodystart="10" bodyend="185"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_rank_filter_1a443c502ef0e65bd0b206265a7e930e00" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RankFilter</scope><name>Execute</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_rank_filter_1aae92146420cc66fd884e07bd41127274" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::RankFilter</scope><name>Process16BitChannel</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_rank_filter_1a50d963e01a66681f3bdbc720c07be634" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::RankFilter</scope><name>RankFilter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

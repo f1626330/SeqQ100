@@ -1,0 +1,732 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::Fluidics::PumpController</compoundname>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1aba461ba323af5d8af90909b3ddb864e9" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a64a90c68fcfc2e0699778c16806bb52f" kindref="member">UpdateStatusHandler</ref></type>
+        <definition>UpdateStatusHandler Sequlite.ALF.Fluidics.PumpController.OnStatusChanged</definition>
+        <argsstring></argsstring>
+        <name>OnStatusChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a0072b70c3d74466986cc6dd2866f07a5" prot="private" static="no" mutable="no">
+        <type>SerialPort</type>
+        <definition>SerialPort Sequlite.ALF.Fluidics.PumpController._Port</definition>
+        <argsstring></argsstring>
+        <name>_Port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a5584ad58b948e1ac8e300550a192ab00" prot="private" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] Sequlite.ALF.Fluidics.PumpController._ReadBuf</definition>
+        <argsstring></argsstring>
+        <name>_ReadBuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="30" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a1f48c4ad595e8a0c53f5345b70eaa6be" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Fluidics.PumpController._ReadIndex</definition>
+        <argsstring></argsstring>
+        <name>_ReadIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1abe0b78dce346361da36ea5763c3cb9ed" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol_1_1_answer_block" kindref="compound">PumpOEMProtocol.AnswerBlock</ref></type>
+        <definition>PumpOEMProtocol.AnswerBlock Sequlite.ALF.Fluidics.PumpController._Answer</definition>
+        <argsstring></argsstring>
+        <name>_Answer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a2bc4da472bb4c8c6c1da1ab5eeb4c4c4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol_1_1_answer_block" kindref="compound">PumpDTProtocol.AnswerBlock</ref></type>
+        <definition>PumpDTProtocol.AnswerBlock Sequlite.ALF.Fluidics.PumpController._DTAnswer</definition>
+        <argsstring></argsstring>
+        <name>_DTAnswer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a84bda23b4b567427970971edd2774046" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5c" kindref="member">ModeOptions</ref></type>
+        <definition>ModeOptions Sequlite.ALF.Fluidics.PumpController._SelectedMode</definition>
+        <argsstring></argsstring>
+        <name>_SelectedMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a38dcd8613bdf1fa6dd4930bea9d11478" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" kindref="member">PathOptions</ref></type>
+        <definition>PathOptions Sequlite.ALF.Fluidics.PumpController._SelectedPath</definition>
+        <argsstring></argsstring>
+        <name>_SelectedPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="65" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a39b181c294cf39d1160f6b563c482ffc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ae4ed84245064a23d6141c1621fb29c5c" kindref="member">ModeOptions</ref></type>
+        <definition>ModeOptions Sequlite.ALF.Fluidics.PumpController.SelectedMode</definition>
+        <argsstring></argsstring>
+        <name>SelectedMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="38" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1aadde7d044b22239af31534a81f2396c6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" kindref="member">PathOptions</ref></type>
+        <definition>PathOptions Sequlite.ALF.Fluidics.PumpController.SelectedPath</definition>
+        <argsstring></argsstring>
+        <name>SelectedPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="66" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ad07fc54e9e82b01dc1b6ba0ffb7f7c08" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.IsAllowPathChange</definition>
+        <argsstring></argsstring>
+        <name>IsAllowPathChange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="82" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1acb78625bbfb0a1e6a9432e0a46cb26ff" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.IsConnected</definition>
+        <argsstring></argsstring>
+        <name>IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="87" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a509865c4ef523ef55d863a0894e00c98" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.IsIdle</definition>
+        <argsstring></argsstring>
+        <name>IsIdle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="88" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a3ba2530de645165d4cdb5fb53501e9cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.IsPumpingCanceled</definition>
+        <argsstring></argsstring>
+        <name>IsPumpingCanceled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="89" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1addff5a86648f50d38bf613ddb6b15056" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1ac9ae4028f0c10cc699f1d98964d01fa9" kindref="member">PumpProtocol.Addresses</ref></type>
+        <definition>PumpProtocol.Addresses Sequlite.ALF.Fluidics.PumpController.PumpAddress</definition>
+        <argsstring></argsstring>
+        <name>PumpAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="90" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a8351e274adff1929268e2087830de7de" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.IsReady</definition>
+        <argsstring></argsstring>
+        <name>IsReady</name>
+        <initializer>= PumpProtocol.Addresses.Device0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="91" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a0c4a722ba6daec9630b28aed376fed4a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a1622bfb7fd4d57f41dcacfb1ac492a80" kindref="member">PumpProtocol.ErrorCodes</ref></type>
+        <definition>PumpProtocol.ErrorCodes Sequlite.ALF.Fluidics.PumpController.ErrorCode</definition>
+        <argsstring></argsstring>
+        <name>ErrorCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="92" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="92" bodyend="-1"/>
+        <referencedby refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a9d957e7e88fc28794c2b5dd8f469fc0e" compoundref="_test_bench_2_hywire_8_a_l_f_8_pump_test_2_workspace_8cs" startline="119" endline="165">Hywire.ALF.PumpTest.Workspace.ExecuteInitializeCmd</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a797db271ae750f378a073eba278d2cc1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Fluidics.PumpController.CurrentValvePos</definition>
+        <argsstring></argsstring>
+        <name>CurrentValvePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="94" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a91eae18064855ca7b43330b53bad46dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Fluidics.PumpController.PumpAbsolutePos</definition>
+        <argsstring></argsstring>
+        <name>PumpAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="95" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="95" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a75ba54e093526ea239020a7682b9d2e2" compoundref="_fluidics_view_model_8cs" startline="69" endline="88">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Pump_OnStatusChanged</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ab32af9dc4aec421af39d0280cef2d422" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Fluidics.PumpController.PumpActualPos</definition>
+        <argsstring></argsstring>
+        <name>PumpActualPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="96" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a17f794c63f155816f7c1d36d00e6ab0a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.ALF.Fluidics.PumpController.StartPos</definition>
+        <argsstring></argsstring>
+        <name>StartPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="97" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="97" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a75ba54e093526ea239020a7682b9d2e2" compoundref="_fluidics_view_model_8cs" startline="69" endline="88">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Pump_OnStatusChanged</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ab327dc91155bd54b87ead233f4af8fae" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.IsPullingFC</definition>
+        <argsstring></argsstring>
+        <name>IsPullingFC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="98" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="98" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model_1a75ba54e093526ea239020a7682b9d2e2" compoundref="_fluidics_view_model_8cs" startline="69" endline="88">Sequlite.ALF.EngineerGUI.ViewModel.FluidicsViewModel.Pump_OnStatusChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a64a90c68fcfc2e0699778c16806bb52f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void Sequlite.ALF.Fluidics.PumpController.UpdateStatusHandler</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateStatusHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a588bcac8a2755eeb3cf5512412f8a184" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.Fluidics.PumpController.PumpController</definition>
+        <argsstring>()</argsstring>
+        <name>PumpController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="101" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="101" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a09d68ee37c4c600e318ca7aa985ece4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.Reconnect</definition>
+        <argsstring>()</argsstring>
+        <name>Reconnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="110" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="110" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a48e7eb211c89ff01c1cf03061a88060c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.Connect</definition>
+        <argsstring>(PumpProtocol.BaudrateOptions baudRate=PumpProtocol.BaudrateOptions.Rate_9600)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_protocol_1a7b1cdf0f66808cf6cc751258cb2024c7" kindref="member">PumpProtocol.BaudrateOptions</ref></type>
+          <declname>baudRate</declname>
+          <defval>PumpProtocol.BaudrateOptions.Rate_9600</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="118" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="118" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1af5afafe3cc7a4b098efb686d9db287bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.ReportDeviceStatus</definition>
+        <argsstring>()</argsstring>
+        <name>ReportDeviceStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="168" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="168" bodyend="192"/>
+        <referencedby refid="class_hywire_1_1_a_l_f_1_1_pump_test_1_1_workspace_1a9d957e7e88fc28794c2b5dd8f469fc0e" compoundref="_test_bench_2_hywire_8_a_l_f_8_pump_test_2_workspace_8cs" startline="119" endline="165">Hywire.ALF.PumpTest.Workspace.ExecuteInitializeCmd</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ac935f0dd68a37d72787b9da801a71d5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.InitializePump</definition>
+        <argsstring>(bool isCCW=false, int speed=1, int inputPort=0, int outputPort=1)</argsstring>
+        <name>InitializePump</name>
+        <param>
+          <type>bool</type>
+          <declname>isCCW</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>speed</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inputPort</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>outputPort</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="194" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="194" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ad3018ee42e63ca4788d76edb9911e243" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.SetMicroStepMode</definition>
+        <argsstring>(bool enable)</argsstring>
+        <name>SetMicroStepMode</name>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="213" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="213" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a95e10f6b95f49b772b0db40383e7fde0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.ReportValvePos</definition>
+        <argsstring>()</argsstring>
+        <name>ReportValvePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="227" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="227" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a18295e1194394458691cb33c410d6ae4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.GetPumpPos</definition>
+        <argsstring>()</argsstring>
+        <name>GetPumpPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="242" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="242" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a4da712163723e858118af9e011d4c1fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.SetPumpAbsPos</definition>
+        <argsstring>(int pos, bool waitEnded=false)</argsstring>
+        <name>SetPumpAbsPos</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitEnded</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="285" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="285" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a057b70ee17a98deb125ad6e9ab235f09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.SetPumpRelPos</definition>
+        <argsstring>(int pos, bool waitEnded=false)</argsstring>
+        <name>SetPumpRelPos</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitEnded</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="325" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="325" bodyend="375"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a9922d51699efb273346ce85c55c2d702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.SetValvePath</definition>
+        <argsstring>(PathOptions path, bool waitEnded=false)</argsstring>
+        <name>SetValvePath</name>
+        <param>
+          <type><ref refid="namespace_sequlite_1_1_a_l_f_1_1_fluidics_1ac540e85fb064b166ef307a9d1a01927e" kindref="member">PathOptions</ref></type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitEnded</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="422" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="422" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a4dd9fdc2efb59770b7a30a0c4b83ddd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.SetTopFlowRate</definition>
+        <argsstring>(int speed, bool waitEnded=false)</argsstring>
+        <name>SetTopFlowRate</name>
+        <param>
+          <type>int</type>
+          <declname>speed</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitEnded</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Set the top speed when pump moves </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>unit of pulse/s</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>waitEnded</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="446" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="446" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a14350f4720236ed153628fa1221cac9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.TerminateAction</definition>
+        <argsstring>()</argsstring>
+        <name>TerminateAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="485" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="485" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ac1d8cf10e19f499509b705a3889240b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.Fluidics.PumpController.CancelPumping</definition>
+        <argsstring>()</argsstring>
+        <name>CancelPumping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="510" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="510" bodyend="522"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a32ff4ce42bb059f8a728fd6135822e16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.ReportPumpAbsolutePos</definition>
+        <argsstring>()</argsstring>
+        <name>ReportPumpAbsolutePos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="254" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="254" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a356bae806098e1b6a580efaab8c4e7d8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.ReportPumpActualPos</definition>
+        <argsstring>()</argsstring>
+        <name>ReportPumpActualPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="269" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="269" bodyend="283"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a0b77d654c380694c212943d6b3cb1c45" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.SetValvePos</definition>
+        <argsstring>(int pos, bool waitEnded=false)</argsstring>
+        <name>SetValvePos</name>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>waitEnded</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="377" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="377" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ac1b7b12f048cccf4bd332658d368e2e1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.ReadOEMResponse</definition>
+        <argsstring>(int timeout=250)</argsstring>
+        <name>ReadOEMResponse</name>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+          <defval>250</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="526" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="526" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a0db6ad97e6fb10ec825ad3d6b1002c17" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Sequlite.ALF.Fluidics.PumpController.ReadDTResponse</definition>
+        <argsstring>()</argsstring>
+        <name>ReadDTResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="566" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="566" bodyend="598"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="909">
+        <label>Sequlite.ALF.Fluidics.PumpController</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller"/>
+        <childnode refid="910" relation="usage">
+          <edgelabel>_Answer</edgelabel>
+        </childnode>
+        <childnode refid="911" relation="usage">
+          <edgelabel>_DTAnswer</edgelabel>
+        </childnode>
+      </node>
+      <node id="911">
+        <label>Sequlite.ALF.Fluidics.PumpDTProtocol</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_d_t_protocol"/>
+      </node>
+      <node id="910">
+        <label>Sequlite.ALF.Fluidics.PumpOEMProtocol</label>
+        <link refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_o_e_m_protocol"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" line="24" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.Fluidics/PumpController.cs" bodystart="23" bodyend="600"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1abe0b78dce346361da36ea5763c3cb9ed" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>_Answer</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a2bc4da472bb4c8c6c1da1ab5eeb4c4c4" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>_DTAnswer</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a0072b70c3d74466986cc6dd2866f07a5" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>_Port</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a5584ad58b948e1ac8e300550a192ab00" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>_ReadBuf</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a1f48c4ad595e8a0c53f5345b70eaa6be" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>_ReadIndex</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a84bda23b4b567427970971edd2774046" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>_SelectedMode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a38dcd8613bdf1fa6dd4930bea9d11478" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>_SelectedPath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ac1d8cf10e19f499509b705a3889240b7" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>CancelPumping</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a48e7eb211c89ff01c1cf03061a88060c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>Connect</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a797db271ae750f378a073eba278d2cc1" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>CurrentValvePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a0c4a722ba6daec9630b28aed376fed4a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>ErrorCode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a18295e1194394458691cb33c410d6ae4" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>GetPumpPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ac935f0dd68a37d72787b9da801a71d5b" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>InitializePump</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ad07fc54e9e82b01dc1b6ba0ffb7f7c08" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>IsAllowPathChange</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1acb78625bbfb0a1e6a9432e0a46cb26ff" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>IsConnected</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a509865c4ef523ef55d863a0894e00c98" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>IsIdle</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ab327dc91155bd54b87ead233f4af8fae" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>IsPullingFC</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a3ba2530de645165d4cdb5fb53501e9cb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>IsPumpingCanceled</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a8351e274adff1929268e2087830de7de" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>IsReady</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1aba461ba323af5d8af90909b3ddb864e9" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>OnStatusChanged</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a91eae18064855ca7b43330b53bad46dd" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>PumpAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ab32af9dc4aec421af39d0280cef2d422" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>PumpActualPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1addff5a86648f50d38bf613ddb6b15056" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>PumpAddress</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a588bcac8a2755eeb3cf5512412f8a184" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>PumpController</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a0db6ad97e6fb10ec825ad3d6b1002c17" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>ReadDTResponse</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ac1b7b12f048cccf4bd332658d368e2e1" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>ReadOEMResponse</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a09d68ee37c4c600e318ca7aa985ece4c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>Reconnect</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1af5afafe3cc7a4b098efb686d9db287bf" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>ReportDeviceStatus</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a32ff4ce42bb059f8a728fd6135822e16" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>ReportPumpAbsolutePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a356bae806098e1b6a580efaab8c4e7d8" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>ReportPumpActualPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a95e10f6b95f49b772b0db40383e7fde0" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>ReportValvePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a39b181c294cf39d1160f6b563c482ffc" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>SelectedMode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1aadde7d044b22239af31534a81f2396c6" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>SelectedPath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1ad3018ee42e63ca4788d76edb9911e243" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>SetMicroStepMode</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a4da712163723e858118af9e011d4c1fb" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>SetPumpAbsPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a057b70ee17a98deb125ad6e9ab235f09" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>SetPumpRelPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a4dd9fdc2efb59770b7a30a0c4b83ddd5" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>SetTopFlowRate</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a9922d51699efb273346ce85c55c2d702" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>SetValvePath</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a0b77d654c380694c212943d6b3cb1c45" prot="private" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>SetValvePos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a17f794c63f155816f7c1d36d00e6ab0a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>StartPos</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a14350f4720236ed153628fa1221cac9c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>TerminateAction</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_fluidics_1_1_pump_controller_1a64a90c68fcfc2e0699778c16806bb52f" prot="public" virt="non-virtual"><scope>Sequlite::ALF::Fluidics::PumpController</scope><name>UpdateStatusHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

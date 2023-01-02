@@ -1,0 +1,445 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_motion_controller_test_1_1_workspace" kind="class" prot="package">
+    <compoundname>Hywire::MotionControllerTest::Workspace</compoundname>
+    <basecompoundref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base" prot="public" virt="non-virtual">Sequlite.WPF.Framework.ViewModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1ae6d80be5a2c486e18cde7a81197ef397" prot="private" static="no" mutable="no">
+        <type><ref refid="class_hywire_1_1_motion_control_1_1_hywire_controller" kindref="compound">HywireController</ref></type>
+        <definition>HywireController Hywire.MotionControllerTest.Workspace._Controller</definition>
+        <argsstring></argsstring>
+        <name>_Controller</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="13" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1ac410ff34af56196d244de4532fbef90d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControllerTest.Workspace._IsConnected</definition>
+        <argsstring></argsstring>
+        <name>_IsConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="14" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1a99dfdac1a2f475a1ac92d4bc303810f8" prot="private" static="no" mutable="no">
+        <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+        <definition>MotorTypes Hywire.MotionControllerTest.Workspace._SelectedType</definition>
+        <argsstring></argsstring>
+        <name>_SelectedType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="15" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1ab526592ae8c492dd2934514e25f16a3c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_hywire_1_1_motion_controller_test_1_1_motion_view_model" kindref="compound">MotionViewModel</ref></type>
+        <definition>MotionViewModel Hywire.MotionControllerTest.Workspace._SelectedMotionVm</definition>
+        <argsstring></argsstring>
+        <name>_SelectedMotionVm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="16" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1a0674c422713f542bd802bcdca98bc590" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref>, <ref refid="class_hywire_1_1_motion_controller_test_1_1_motion_view_model" kindref="compound">MotionViewModel</ref> &gt;</type>
+        <definition>Dictionary&lt;MotorTypes, MotionViewModel&gt; Hywire.MotionControllerTest.Workspace._MotionViewModels</definition>
+        <argsstring></argsstring>
+        <name>_MotionViewModels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="17" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1a5953494d190bc20e63bd02501be44a1a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.MotionControllerTest.Workspace._ConnectCmd</definition>
+        <argsstring></argsstring>
+        <name>_ConnectCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="123" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1acf51946c93b938d090a3f55ca2d55ed7" prot="private" static="no" mutable="no">
+        <type><ref refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command" kindref="compound">RelayCommand</ref></type>
+        <definition>RelayCommand Hywire.MotionControllerTest.Workspace._SetCmd</definition>
+        <argsstring></argsstring>
+        <name>_SetCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="163" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1ab57c141ed5274bb98a2cfca690be75a1" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_hywire_1_1_motion_controller_test_1_1_workspace" kindref="compound">Workspace</ref></type>
+        <definition>Workspace Hywire.MotionControllerTest.Workspace.This</definition>
+        <argsstring></argsstring>
+        <name>This</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="81" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1a30210ca133771f7f1e9253c901235495" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControllerTest.Workspace.IsConnected</definition>
+        <argsstring></argsstring>
+        <name>IsConnected</name>
+        <initializer>= new <ref refid="class_hywire_1_1_motion_controller_test_1_1_workspace" kindref="compound">Workspace</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="82" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1afdb1a23fbc7346734a3fa57fd2d49f9a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>List&lt; <ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref> &gt;</type>
+        <definition>List&lt;MotorTypes&gt; Hywire.MotionControllerTest.Workspace.MotionTypeOptions</definition>
+        <argsstring></argsstring>
+        <name>MotionTypeOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="94" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1a9576e2e80574f2cf0f0ff3bf88d6bdd0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_hywire_1_1_motion_control_1a259e02ead6ba9937d2b961884572eaf1" kindref="member">MotorTypes</ref></type>
+        <definition>MotorTypes Hywire.MotionControllerTest.Workspace.SelectedType</definition>
+        <argsstring></argsstring>
+        <name>SelectedType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="95" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1a30e5dc012626f17ddfba8d28d736b032" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_hywire_1_1_motion_controller_test_1_1_motion_view_model" kindref="compound">MotionViewModel</ref></type>
+        <definition>MotionViewModel Hywire.MotionControllerTest.Workspace.SelectedMotionVm</definition>
+        <argsstring></argsstring>
+        <name>SelectedMotionVm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="108" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1a4ad234c84f31f56c31604c04af331bf4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.MotionControllerTest.Workspace.ConnectCmd</definition>
+        <argsstring></argsstring>
+        <name>ConnectCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="124" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1afa21cc09cbdca6b3f5ae37969a06ce12" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>ICommand</type>
+        <definition>ICommand Hywire.MotionControllerTest.Workspace.SetCmd</definition>
+        <argsstring></argsstring>
+        <name>SetCmd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="164" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1a551ad2de63ca4fab8dbdf76d2938426e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.MotionControllerTest.Workspace.Workspace</definition>
+        <argsstring>()</argsstring>
+        <name>Workspace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="21" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="21" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1ab0d51bf684121426c2b3ef914edc3fe0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.MotionControllerTest.Workspace.Initialize</definition>
+        <argsstring>()</argsstring>
+        <name>Initialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="41" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="41" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1ab7df619f38ea9da1f7cea1b392e31c38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.MotionControllerTest.Workspace._Controller_OnQueryUpdated</definition>
+        <argsstring>()</argsstring>
+        <name>_Controller_OnQueryUpdated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="50" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="50" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1acb84f7b878002d614d22fc8958fbe5db" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.MotionControllerTest.Workspace.ExecuteConnectCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteConnectCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="136" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="136" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1aa1eb937d668b170a72aeacc24b05408e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControllerTest.Workspace.CanExecuteConnectCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteConnectCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="156" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="156" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1a53ed28129347d41fdeb3ec5abbae30b0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.MotionControllerTest.Workspace.ExecuteSetCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>ExecuteSetCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="176" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="176" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_motion_controller_test_1_1_workspace_1a597a78a1d40b086ce18f73cbf6135326" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Hywire.MotionControllerTest.Workspace.CanExecuteSetCmd</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>CanExecuteSetCmd</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="240" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="240" bodyend="243"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1364">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1365">
+        <label>IDisposable</label>
+      </node>
+      <node id="1363">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1364" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1365" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1362">
+        <label>Hywire.MotionControllerTest.Workspace</label>
+        <link refid="class_hywire_1_1_motion_controller_test_1_1_workspace"/>
+        <childnode refid="1363" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1376">
+        <label>SerialCommBase</label>
+        <link refid="class_hywire_1_1_comm_library_1_1_serial_comm_base"/>
+        <childnode refid="1377" relation="usage">
+          <edgelabel>_Timer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1371">
+        <label>ICommand</label>
+      </node>
+      <node id="1368">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="1369">
+        <label>IDisposable</label>
+      </node>
+      <node id="1367">
+        <label>ViewModelBase</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base"/>
+        <childnode refid="1368" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1369" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1370">
+        <label>Sequlite.WPF.Framework.RelayCommand</label>
+        <link refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_relay_command"/>
+        <childnode refid="1371" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1377">
+        <label>System</label>
+      </node>
+      <node id="1366">
+        <label>Hywire.MotionControllerTest.Workspace</label>
+        <link refid="class_hywire_1_1_motion_controller_test_1_1_workspace"/>
+        <childnode refid="1367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1370" relation="usage">
+          <edgelabel>_SetCmd</edgelabel>
+          <edgelabel>_ConnectCmd</edgelabel>
+        </childnode>
+        <childnode refid="1372" relation="usage">
+          <edgelabel>_SelectedMotionVm</edgelabel>
+        </childnode>
+        <childnode refid="1374" relation="usage">
+          <edgelabel>_Controller</edgelabel>
+        </childnode>
+      </node>
+      <node id="1372">
+        <label>Hywire.MotionControllerTest.MotionViewModel</label>
+        <link refid="class_hywire_1_1_motion_controller_test_1_1_motion_view_model"/>
+        <childnode refid="1367" relation="public-inheritance">
+        </childnode>
+        <childnode refid="1373" relation="usage">
+          <edgelabel>_Polarities</edgelabel>
+        </childnode>
+      </node>
+      <node id="1374">
+        <label>Hywire.MotionControl.HywireController</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_hywire_controller"/>
+        <childnode refid="1375" relation="usage">
+          <edgelabel>_Port</edgelabel>
+        </childnode>
+        <childnode refid="1377" relation="usage">
+          <edgelabel>_QueryTimer</edgelabel>
+        </childnode>
+        <childnode refid="1378" relation="usage">
+          <edgelabel>_MotionLock</edgelabel>
+        </childnode>
+      </node>
+      <node id="1375">
+        <label>Hywire.MotionControl.ControllerComm</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_controller_comm"/>
+        <childnode refid="1376" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1378">
+        <label>static</label>
+      </node>
+      <node id="1373">
+        <label>Hywire.MotionControl.MotionSignalPolarity</label>
+        <link refid="class_hywire_1_1_motion_control_1_1_motion_signal_polarity"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" line="11" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.MotionControllerTest/Workspace.cs" bodystart="10" bodyend="245"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1a5953494d190bc20e63bd02501be44a1a" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>_ConnectCmd</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1ae6d80be5a2c486e18cde7a81197ef397" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>_Controller</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1ab7df619f38ea9da1f7cea1b392e31c38" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>_Controller_OnQueryUpdated</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1ac410ff34af56196d244de4532fbef90d" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>_IsConnected</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1a0674c422713f542bd802bcdca98bc590" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>_MotionViewModels</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1ab526592ae8c492dd2934514e25f16a3c" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>_SelectedMotionVm</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1a99dfdac1a2f475a1ac92d4bc303810f8" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>_SelectedType</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1acf51946c93b938d090a3f55ca2d55ed7" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>_SetCmd</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1aa1eb937d668b170a72aeacc24b05408e" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>CanExecuteConnectCmd</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1a597a78a1d40b086ce18f73cbf6135326" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>CanExecuteSetCmd</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1a4ad234c84f31f56c31604c04af331bf4" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>ConnectCmd</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a5cd1cae820324d83d166d138134983bf" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1ab89f3afbb5021423ff231b3fb17380c3" prot="protected" virt="virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>Dispose</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1acb84f7b878002d614d22fc8958fbe5db" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>ExecuteConnectCmd</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1a53ed28129347d41fdeb3ec5abbae30b0" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>ExecuteSetCmd</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1ab0d51bf684121426c2b3ef914edc3fe0" prot="private" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>Initialize</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1a30210ca133771f7f1e9253c901235495" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>IsConnected</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1afdb1a23fbc7346734a3fa57fd2d49f9a" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>MotionTypeOptions</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a2b7723568f68680f9ea15ccff86ef584" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>PropertyChanged</name></member>
+      <member refid="class_sequlite_1_1_w_p_f_1_1_framework_1_1_view_model_base_1a9f3874ad1c3690647c5e7d62fdb9ff33" prot="protected" virt="virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1a30e5dc012626f17ddfba8d28d736b032" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>SelectedMotionVm</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1a9576e2e80574f2cf0f0ff3bf88d6bdd0" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>SelectedType</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1afa21cc09cbdca6b3f5ae37969a06ce12" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>SetCmd</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1ab57c141ed5274bb98a2cfca690be75a1" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>This</name></member>
+      <member refid="class_hywire_1_1_motion_controller_test_1_1_workspace_1a551ad2de63ca4fab8dbdf76d2938426e" prot="public" virt="non-virtual"><scope>Hywire::MotionControllerTest::Workspace</scope><name>Workspace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

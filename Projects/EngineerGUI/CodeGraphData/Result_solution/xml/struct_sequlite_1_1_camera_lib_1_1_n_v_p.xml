@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_sequlite_1_1_camera_lib_1_1_n_v_p" kind="struct" prot="public">
+    <compoundname>Sequlite::CameraLib::NVP</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_n_v_p_1a36136a3f19acd2157b6114f66d9e4e26" prot="public" static="no" mutable="no">
+        <type>Int32</type>
+        <definition>Int32 Sequlite.CameraLib.NVP.m_value</definition>
+        <argsstring></argsstring>
+        <name>m_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="159" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_sequlite_1_1_camera_lib_1_1_n_v_p_1afe394acf51a2c65770167b0357edd61d" prot="public" static="no" mutable="no">
+        <type>String</type>
+        <definition>String Sequlite.CameraLib.NVP.m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="160" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_n_v_p_1ae64883e7c645c364e13c60ea7e70aa53" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Int32</type>
+        <definition>Int32 Sequlite.CameraLib.NVP.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="162" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_sequlite_1_1_camera_lib_1_1_n_v_p_1ab438e59c06949783777b5e6bb90c2ac4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>String</type>
+        <definition>String Sequlite.CameraLib.NVP.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="168" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" line="158" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.CameraLib/Photometrics/PVCamCamera.cs" bodystart="157" bodyend="173"/>
+    <listofallmembers>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_n_v_p_1afe394acf51a2c65770167b0357edd61d" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::NVP</scope><name>m_name</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_n_v_p_1a36136a3f19acd2157b6114f66d9e4e26" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::NVP</scope><name>m_value</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_n_v_p_1ab438e59c06949783777b5e6bb90c2ac4" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::NVP</scope><name>Name</name></member>
+      <member refid="struct_sequlite_1_1_camera_lib_1_1_n_v_p_1ae64883e7c645c364e13c60ea7e70aa53" prot="public" virt="non-virtual"><scope>Sequlite::CameraLib::NVP</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

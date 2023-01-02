@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_configuration" kind="namespace">
+    <compoundname>Sequlite::ALF::Configuration</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_config_settings" prot="public">Sequlite::ALF::Configuration::ConfigSettings</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_chemistry_settings" prot="public">Sequlite::ALF::Configuration::ChemistrySettings</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_configuration_1_1_settings_manager" prot="public">Sequlite::ALF::Configuration::SettingsManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.Configuration/ConfigSettings.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

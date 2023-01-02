@@ -1,0 +1,436 @@
+﻿using Sequlite.ALF.Common;
+using Sequlite.ALF.RecipeLib;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Documents;
+using System.Windows.Threading;
+
+namespace Sequlite.ALF.App
+{
+    class SeqAppSequence : ISequence
+    {
+        RecipeBuildSettings _RecipeBuildSettings;
+        RecipeRunThreadV2 _RecipeRunThreadV2_sequnce;
+        ThreadBase.ThreadExitStat _ExitState;
+        public OLAJobManager OLAJobs { get; private set; }
+<<<<<<< Updated upstream
+        ImageBackup ImageBackingup { get; set; }
+=======
+        public ImageBackup ImageBackingup { get; private set; }
+>>>>>>> Stashed changes
+        bool _Sequencerunning;
+        Stopwatch _SW;
+         
+        public string PostWashingRecipeFile { get; set; }
+        SeqApp SeqApp { get; }
+        bool NeedWaitForOLACompletedInSideRecipe { get; set; } = false;
+        bool NeedWaitForBackupCompleteInSideRecipe { get; set; } = false;
+       
+        public SeqAppSequence(SeqApp seqApp)
+        {
+            SeqApp = seqApp;
+        }
+        //private static object _StepsLock = new object();
+        public bool Sequence(RunSeqenceParameters seqParams)
+        {
+            try
+            {
+               
+                bool isSimulation = seqParams.IsSimulation;
+             
+                if (_Sequencerunning)
+                {
+                    SeqApp.NotifyNormalError("Cannot start a new sequence while another sequence is still running.");
+                    return false;
+                }
+
+                _RecipeBuildSettings = SettingsManager.ConfigSettings.SystemConfig.RecipeBuildConfig;
+                Recipe finalrecipe = BuildRecipe(seqParams);
+
+
+                
+                if (seqParams.IsEnableOLA || seqParams.IsEnablePP)
+                {
+                    OLAJobs = new OLAJobManager(true /*V2 recipe*/);
+                }
+                else
+                {
+                    OLAJobs = null;
+                }
+                RecipeThreadParameters _RecipeParam = new RecipeThreadParameters()
+                {
+                    Bottom_Offset = SettingsManager.ConfigSettings.AutoFocusingSettings.BottomOffset,
+                    Top_Offset = SettingsManager.ConfigSettings.AutoFocusingSettings.TopOffset,
+                    SelectedTemplate = TemplateOptions.none,
+                    IsSimulation = isSimulation,
+                    IsEnableOLA = seqParams.IsEnableOLA,
+                    IsEnablePP = seqParams.IsEnablePP,
+                    IsBC = true,
+                    OneRef = _RecipeBuildSettings.UsingOneRef,//true,
+                    GLEDinc = 1,
+                    RLEDinc = 1,
+                    Expoinc = 1.014,
+                    StartInc = 2,
+                    LoadCartridge = false,
+                    UserEmail = seqParams.UserEmail,
+                };
+<<<<<<< Updated upstream
+                ImageBackingup = new ImageBackup(SeqApp.Logger);
+=======
+
+                ImageBackup imgBackup = new ImageBackup(SeqApp.Logger) { IsSimulationMode = isSimulation };
+                imgBackup.OnImageBackupStatus += ImgBackup_OnImageBackupStatus;
+                ImageBackingup = imgBackup;
+
+>>>>>>> Stashed changes
+                _RecipeRunThreadV2_sequnce = new RecipeRunThreadV2(
+                             SeqApp.TheDispatcher,
+                            SettingsManager.ConfigSettings.SystemConfig.RecipeRunConfig,
+                            finalrecipe,
+                            SeqApp.EthernetCameraA,
+                            SeqApp.EthernetCameraB,
+                            SeqApp.MotionController,
+                            SeqApp.MainboardDevice,
+                            SeqApp.LEDController,
+                            SeqApp.FluidicsInterface,
+                            _RecipeParam,
+                            null, //outterThread
+<<<<<<< Updated upstream
+                            OLAJobs, // OLA
+                            needWaitForOLACompletedInSideRecipe, //no wait for OLA completion
+                            ImageBackingup,
+                            false
+=======
+                             OLAJobs, // OLA
+                             NeedWaitForOLACompletedInSideRecipe, //no wait for OLA completion
+                             imgBackup, NeedWaitForBackupCompleteInSideRecipe
+>>>>>>> Stashed changes
+                            );
+                _RecipeRunThreadV2_sequnce.IsSimulationMode = isSimulation;
+                _RecipeRunThreadV2_sequnce.IsEnablePP = seqParams.IsEnablePP;
+
+                _RecipeRunThreadV2_sequnce.OnStepRunUpdated += _RecipeRunThreadV2_sequnce_OnStepRunUpdated;
+                _RecipeRunThreadV2_sequnce.OnLoopStepUpdated += _RecipeRunThreadV2_sequnce_OnLoopStepUpdated;
+                _RecipeRunThreadV2_sequnce.Completed += _RecipeRunThreadV2_sequnce_Completed;
+                if (OLAJobs != null)
+                {
+                    OLAJobs.OLAUpdated += _RecipeRunThreadV2_sequnce_OLAUpdated;
+                    OLAJobs.OnOLAStatusUpdated += _RecipeRunThreadV2_sequnce_OnOLAStatusUpdated;
+
+                    string str = "";
+                    if (seqParams.IsEnableOLA)
+                    {
+                        if (seqParams.IsEnablePP)
+                        {
+                            str = "OLA & Post Processing ON";
+                        }
+                        else
+                        {
+                            str = "OLA ON";
+                        }
+                    }
+                    else if (seqParams.IsEnablePP)
+                    {
+                        str = "Post Processing ON";
+                    }
+                    else
+                    {
+                        str = "OLA OFF";
+                    }
+                    OLAJobs.OnOLAStatusUpdatedInvoke(new OLARunningEventArgs() { Message = str });
+
+                }
+                _RecipeRunThreadV2_sequnce.OnImageSaved += _RecipeRunThreadV2_sequnce_OnImageSaved;
+                _RecipeRunThreadV2_sequnce.Name = "Sequence";
+                _ExitState = ThreadBase.ThreadExitStat.None;
+                _SW = Stopwatch.StartNew();
+                _RecipeRunThreadV2_sequnce.Start();
+                return WaitForSequenceCompleted();
+            }
+            catch (Exception ex)
+            {
+                SeqApp.NotifyNormalError($"Failed to run sequence: Exception error {ex.Message}");
+                return false;
+            }
+
+        }
+
+        private void ImgBackup_OnImageBackupStatus(object sender, ImageBackupEventArgs e)
+        {
+            _RecipeRunThreadV2_sequnce?.OnStepRunUpdatedInvoke(e.Step, e.Message, e.IsError);
+            SeqApp.UpdateAppMessage(e.Message, e.IsError ? AppMessageTypeEnum.Error : AppMessageTypeEnum.Normal);
+        }
+
+        bool WaitForSequenceCompleted()
+        {
+            if (_RecipeRunThreadV2_sequnce != null)
+            {
+                _RecipeRunThreadV2_sequnce.WaitForCompleted();
+                _RecipeRunThreadV2_sequnce = null;
+            }
+            
+            if (OLAJobs != null && NeedWaitForOLACompletedInSideRecipe)
+            {
+                OLAJobs.WaitForAllDone();
+                OLAJobs.OLAUpdated -= _RecipeRunThreadV2_sequnce_OLAUpdated;
+                OLAJobs.OnOLAStatusUpdated -= _RecipeRunThreadV2_sequnce_OnOLAStatusUpdated;
+            }
+
+            if (ImageBackingup != null && NeedWaitForBackupCompleteInSideRecipe)
+            {
+                ImageBackingup.WaitForBackingupImageComplete();
+                ImageBackingup.OnImageBackupStatus -= ImgBackup_OnImageBackupStatus;
+            }
+
+            _Sequencerunning = false;
+            return _ExitState == ThreadBase.ThreadExitStat.None;
+        }
+
+        private void _RecipeRunThreadV2_sequnce_OnImageSaved(ImageSavedEventArgs args)
+        {
+            // UpdateRunningLog(string.Format("[{0} Temp: {1:F1}°] {2}", DateTime.Now.ToString("HH:mm:ss"), ChemistryVM.ChemiTemperGet, msg));
+            SeqApp.UpdateAppMessage(args.Message);
+            SeqApp.UpdateAppMessage(new AppSequenceStatusImage() { ImageSaved = Path.GetFileName(args.ImageFile) }, AppMessageTypeEnum.Status);
+            SeqApp.UpdateAppMessage(new AppSequenceStatusCycle() { Cycle = args.ImageCurrentLoopCount }, AppMessageTypeEnum.Status);
+        }
+
+        private void _RecipeRunThreadV2_sequnce_OnStepRunUpdated(RecipeStepBase step, string msg, bool isCritical)
+        {
+            SeqApp.UpdateAppMessage(msg + "\r\n" + step.ToString());
+            SeqApp.UpdateAppMessage(new AppSequenceStatusTime() { TimeElapsed = _SW.Elapsed }, AppMessageTypeEnum.Status);
+            if (msg == "Starts Running")
+            {
+                SeqApp.UpdateAppMessage(new AppSequenceStatusStep() { Step = step.StepName }, AppMessageTypeEnum.Status);
+            }
+            //if (msg == "Starts Running")
+            //{
+            //    UpdateRunningLog(string.Format("[{0} Temp: {1:F1}°] Thread:{3} {2}", DateTime.Now.ToString("HH:mm:ss"), ChemistryVM.ChemiTemperGet, step.ToString(), Thread.CurrentThread.Name));
+            //}
+            //else
+            //{
+            //    UpdateRunningLog(string.Format("[{0} Temp: {1:F1}°] {2}", DateTime.Now.ToString("HH:mm:ss"), ChemistryVM.ChemiTemperGet, msg));
+            //}
+        }
+
+
+
+        private void _RecipeRunThreadV2_sequnce_OnLoopStepUpdated(StepsTree steptree)
+        {
+
+
+            //if (_IsMachineRev2)
+            //{
+            //    RecipeStepBase step = steptree.Step;
+            //    if (_RecipeRunThreadV2_sequnce.IsInnerRecipeRunning)
+            //    {
+            //        if (step.StepType == RecipeStepTypes.Imaging)
+            //        {
+            //            if (steptree.Parent != null)
+            //            {
+            //                int ok = 1;
+            //                ok = 2;
+            //            }
+            //        }
+            //    }
+            //    else
+            //    {
+            //        if (steptree.Step is LoopStep)
+            //        {
+            //            UpdateAppMessage(new AppSequenceStatusCycle() { Cycle = (step as LoopStep).LoopCounts }, AppMessageTypeEnum.Status);
+            //        }
+            //    }
+
+            //}
+        }
+
+
+        private void _RecipeRunThreadV2_sequnce_Completed(ThreadBase sender, ThreadBase.ThreadExitStat exitState)
+        {
+            try
+            {
+                _ExitState = _RecipeRunThreadV2_sequnce.ExitStat;
+                string str = "";
+                AppMessageTypeEnum appMessageTypeEnum = AppMessageTypeEnum.Normal;
+                StepMessageTypeEnum stepMessageType = StepMessageTypeEnum.InProgress;
+                if (_RecipeRunThreadV2_sequnce.IsAbort)
+                {
+                    _ExitState = ThreadBase.ThreadExitStat.Abort;
+                    str = "Sequence Aborted";
+                    appMessageTypeEnum = AppMessageTypeEnum.Warning;
+                    stepMessageType = StepMessageTypeEnum.Aborted;
+                }
+
+                if (_ExitState == ThreadBase.ThreadExitStat.None)
+                {
+                    str = "Sequence Completed";
+                    appMessageTypeEnum = AppMessageTypeEnum.Completed;
+                    stepMessageType = StepMessageTypeEnum.Completed;
+                }
+                else if (_ExitState == ThreadBase.ThreadExitStat.Error)
+                {
+                    str = "Sequence Failed";
+                    appMessageTypeEnum = AppMessageTypeEnum.Error;
+                    stepMessageType = StepMessageTypeEnum.Failed;
+                }
+
+
+                _RecipeRunThreadV2_sequnce.OnStepRunUpdated -= _RecipeRunThreadV2_sequnce_OnStepRunUpdated;
+                _RecipeRunThreadV2_sequnce.OnLoopStepUpdated -= _RecipeRunThreadV2_sequnce_OnLoopStepUpdated;
+                _RecipeRunThreadV2_sequnce.Completed -= _RecipeRunThreadV2_sequnce_Completed;
+
+                SeqApp.UpdateAppMessage(str, appMessageTypeEnum);
+
+                SeqApp.UpdateAppMessage(new AppSequenceStatusStep() { Step = str, StepMessageType = stepMessageType }, AppMessageTypeEnum.Status);
+            }
+            catch (Exception ex)
+            {
+                SeqApp.Logger.LogError(string.Format("Exception error in recipe complete event handler: {0}, Exception:\n{1}",
+                    ex.Message, ex.StackTrace));
+                SeqApp.UpdateAppMessage($"Exception error in recipe complete event handler: {ex.Message}", AppMessageTypeEnum.Error);
+            }
+        }
+
+        private void _RecipeRunThreadV2_sequnce_OLAUpdated(DirectoryInfo directory)
+        {
+            //try
+            //{
+            //    OLAStats = new OLAStats(directory.FullName);
+
+            //    OLAParameterOptions = OLAStats.AvailableParams();
+            //    if (OLAParameterOptions.Count() > 0)
+            //        _SelectedParameter = OLAParameterOptions[0];
+            //    else
+            //        _SelectedParameter = "";
+
+            //    OLATileOptions = OLAStats.AvailableTiles();
+            //    if (OLATileOptions.Count() > 0)
+            //        _SelectedTile = OLATileOptions[0];
+            //    else
+            //        _SelectedTile = "";
+            //}
+            //catch (Exception ex)
+            //{
+            //    Logger.LogError(string.Format("Exception error in OLA updating event handler: " + ex.Message));
+            //}
+
+        }
+
+        private void _RecipeRunThreadV2_sequnce_OnOLAStatusUpdated(object sender, OLARunningEventArgs e)
+        {
+            // OLAStatusInfo = e.Message;
+            SeqApp.UpdateAppMessage(new AppSequenceStatusOLA() { Message = e.Message }, AppMessageTypeEnum.Status);
+        }
+
+        public Recipe BuildRecipe(RunSeqenceParameters seqParams)
+        {
+            int readlength = seqParams.Readlength;
+            bool paired = seqParams.Paired;
+            int IndexNumber = seqParams.IndexNumber;
+            double focusedBottomPos = seqParams.FocusedBottomPos;
+            double focusedTopPos = seqParams.FocusedTopPos;
+            Recipe newrecipe = new Recipe("Sequence");
+            newrecipe.CreatedTime = DateTime.Now;
+            newrecipe.UpdatedTime = newrecipe.CreatedTime;
+            newrecipe.ToolVersion = string.Format($" {System.Reflection.Assembly.GetExecutingAssembly().GetName().Version}");
+
+            //Edit Image recipe with new AF reference pos
+            string str = DateTime.Now.ToString("yyMMdd-HHmmss");
+            string recipeDir = SeqApp.CreateTempRecipeLocation(str);
+            string originalRecipeDir = _RecipeBuildSettings.RecipeBaseDir;
+            //image recipe
+            Recipe OrignalRecipe = Recipe.LoadFromXmlFile(_RecipeBuildSettings.OriginalImageRecipePath);
+            OrignalRecipe.RecipeName = "Inc-" + str;
+            OrignalRecipe.UpdatedTime = newrecipe.UpdatedTime;
+            ((ImagingStep)OrignalRecipe.Steps[0].Step).Regions[0].ReferenceFocuses[0].Position = focusedBottomPos;
+            ((ImagingStep)OrignalRecipe.Steps[0].Step).Regions[0].ReferenceFocuses[1].Position = focusedTopPos;
+            string fileName = Path.Combine(recipeDir, Path.GetFileName(_RecipeBuildSettings.OriginalImageRecipePath));
+            //probably no effects foe imaging recipe
+            SeqApp.ReplaceAndCopyRunRecipePath(OrignalRecipe, recipeDir, originalRecipeDir);
+            Recipe.SaveToXmlFile(OrignalRecipe, fileName);
+            RunRecipeStep _ImageRecipe = new RunRecipeStep();
+            _ImageRecipe.RecipePath = fileName;
+
+            //Cluster Gen may include first inc
+            RunRecipeStep _ClusterGen = new RunRecipeStep();
+            _ClusterGen.RecipePath = SeqApp.SaveRecipeToNewPath(_RecipeBuildSettings.ClusterGenRecipePath, recipeDir, null, originalRecipeDir);
+
+            //Hyb
+            RunRecipeStep _HybRecipe = new RunRecipeStep();
+            _HybRecipe.RecipePath = SeqApp.SaveRecipeToNewPath(_RecipeBuildSettings.HybRecipePath, recipeDir, null, originalRecipeDir);
+            // Inc + CL
+            RunRecipeStep _IncRecipe = new RunRecipeStep();
+            _IncRecipe.RecipePath = SeqApp.SaveRecipeToNewPath(_RecipeBuildSettings.IncRecipePath, recipeDir, null, originalRecipeDir);
+            RunRecipeStep _CLRecipe = new RunRecipeStep();
+            _CLRecipe.RecipePath = SeqApp.SaveRecipeToNewPath(_RecipeBuildSettings.CLRecipePath, recipeDir, null, originalRecipeDir);
+
+            //Paired end Turnaround ?
+            RunRecipeStep _PairedT = null;
+            if (!string.IsNullOrEmpty(_RecipeBuildSettings.PairedTRecipePath))
+            {
+                _PairedT = new RunRecipeStep();
+                _PairedT.RecipePath = SeqApp.SaveRecipeToNewPath(_RecipeBuildSettings.PairedTRecipePath, recipeDir, null, originalRecipeDir);
+            }
+
+            //Loop for Seq
+            LoopStep _SeqLoopStep = new LoopStep();
+            _SeqLoopStep.LoopCycles = readlength - 1;
+            StepsTree loopSequnceStepTree = new StepsTree(null, _SeqLoopStep);
+
+            //Loop for Indexing
+            LoopStep _IndLoopStep = new LoopStep();
+            _IndLoopStep.LoopCycles = IndexNumber;
+
+
+            newrecipe.Steps.Add(new StepsTree(null, _ClusterGen));
+            newrecipe.Steps.Add(new StepsTree(null, _HybRecipe));
+            newrecipe.Steps.Add(new StepsTree(null, _ImageRecipe));
+            newrecipe.Steps.Add(new StepsTree(null, _SeqLoopStep));
+
+            newrecipe.Steps[3].Children.Add(new StepsTree(loopSequnceStepTree, _CLRecipe));
+            newrecipe.Steps[3].Children.Add(new StepsTree(loopSequnceStepTree, _IncRecipe));
+            newrecipe.Steps[3].Children.Add(new StepsTree(loopSequnceStepTree, _ImageRecipe));
+
+
+
+            if (IndexNumber != 0) { }// todo
+            if (_PairedT != null) //todo: add paired recipe
+            {
+            }
+            //to do: add paired recipe
+            //if (paired)
+            //{
+            //    newrecipe.Steps.Add(new StepsTree(null, _PairedT));
+            //    newrecipe.Steps.Add(new StepsTree(new StepsTree(null, _SeqLoopStep), _Sequencing2));
+            //    if (IndexNumber != 0) { }// todo
+            //}
+
+            // Post Wash
+            PostWashingRecipeFile = SeqApp.SaveRecipeToNewPath(_RecipeBuildSettings.PostWashRecipePath, recipeDir, "PostWash.xml", originalRecipeDir);
+            //todo: will remove the following lines
+            RunRecipeStep postwashRecipe = new RunRecipeStep();
+            postwashRecipe.RecipePath = PostWashingRecipeFile;
+            newrecipe.Steps.Add(new StepsTree(null, postwashRecipe));
+
+            string newRecipeFile = Path.Combine(recipeDir, newrecipe.RecipeName + ".xml");
+            Recipe.SaveToXmlFile(newrecipe, newRecipeFile);
+            //load it again to ensure child and parent relationship
+            newrecipe = Recipe.LoadFromXmlFile(newRecipeFile);
+
+            return newrecipe;
+        }
+
+        public bool StopSequence()
+        {
+            _RecipeRunThreadV2_sequnce?.AbortWork();
+            WaitForSequenceCompleted();
+            return true;
+        }
+
+        
+    }
+}

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree" kind="class" prot="public">
+    <compoundname>Sequlite::ALF::RecipeLib::StepsTree</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a5092c4c4322eaa6201636b2413b665da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree" kindref="compound">StepsTree</ref></type>
+        <definition>StepsTree Sequlite.ALF.RecipeLib.StepsTree.Parent</definition>
+        <argsstring></argsstring>
+        <name>Parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" line="8" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a5347d92dbe99347189cb53923d2fd43a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree" kindref="compound">StepsTree</ref> &gt;</type>
+        <definition>List&lt;StepsTree&gt; Sequlite.ALF.RecipeLib.StepsTree.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" bodystart="9" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model_1addc386e5680b8bab07857d7e564d932e" compoundref="_steps_tree_view_model_8cs" startline="93" endline="104">Sequlite.ALF.EngineerGUI.ViewModel.StepsTreeViewModel.CreateViewModel</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1ad4732bbeebe44174edc4db68c6f481b3" compoundref="_recipe_run_thread_8cs" startline="160" endline="173">Sequlite.ALF.RecipeLib.RecipeRunThread.ResetLoopStepCounts</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1ac41f5d51e25bd0c4b362624f60b0ff87" compoundref="_recipe_run_thread_8cs" startline="228" endline="277">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepTree</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_1a83d1b01db6ceb6f912875ba30a360d47" compoundref="_recipe_8cs" startline="45" endline="179">Sequlite.ALF.RecipeLib.Recipe.SetStepAttributes</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a5c7c1ecb29d21562202a1b63ea2a9987" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" kindref="compound">RecipeStepBase</ref></type>
+        <definition>RecipeStepBase Sequlite.ALF.RecipeLib.StepsTree.Step</definition>
+        <argsstring></argsstring>
+        <name>Step</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a85fc49315473b8a60486872bfdbde127" compoundref="_recipe_view_model_8cs" startline="541" endline="556">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.MarkStep</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1ad4732bbeebe44174edc4db68c6f481b3" compoundref="_recipe_run_thread_8cs" startline="160" endline="173">Sequlite.ALF.RecipeLib.RecipeRunThread.ResetLoopStepCounts</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_run_thread_1ac41f5d51e25bd0c4b362624f60b0ff87" compoundref="_recipe_run_thread_8cs" startline="228" endline="277">Sequlite.ALF.RecipeLib.RecipeRunThread.RunStepTree</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_1a83d1b01db6ceb6f912875ba30a360d47" compoundref="_recipe_8cs" startline="45" endline="179">Sequlite.ALF.RecipeLib.Recipe.SetStepAttributes</referencedby>
+        <referencedby refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model_1a9defc9edb989603acef3caeba3cc3964" compoundref="_recipe_view_model_8cs" startline="419" endline="446">Sequlite.ALF.EngineerGUI.ViewModel.RecipeViewModel.UpdateLoopCounts</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a630d8692b4552b83d5969e1a3404fb1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.ALF.RecipeLib.StepsTree.StepsTree</definition>
+        <argsstring>(StepsTree parent, RecipeStepBase step)</argsstring>
+        <name>StepsTree</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree" kindref="compound">StepsTree</ref></type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" kindref="compound">RecipeStepBase</ref></type>
+          <declname>step</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" bodystart="13" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a1d56faaa3b384a81040901df5d34d347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.ALF.RecipeLib.StepsTree.AppendSubStep</definition>
+        <argsstring>(RecipeStepBase subStep)</argsstring>
+        <name>AppendSubStep</name>
+        <param>
+          <type><ref refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_recipe_step_base" kindref="compound">RecipeStepBase</ref></type>
+          <declname>subStep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a9e19d19be227e8840d22e2b19bbb659e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Sequlite.ALF.RecipeLib.StepsTree.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" line="6" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.ALF.RecipeLib/StepsTree.cs" bodystart="5" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a1d56faaa3b384a81040901df5d34d347" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::StepsTree</scope><name>AppendSubStep</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a5347d92dbe99347189cb53923d2fd43a" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::StepsTree</scope><name>Children</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a5092c4c4322eaa6201636b2413b665da" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::StepsTree</scope><name>Parent</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a5c7c1ecb29d21562202a1b63ea2a9987" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::StepsTree</scope><name>Step</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a630d8692b4552b83d5969e1a3404fb1c" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::StepsTree</scope><name>StepsTree</name></member>
+      <member refid="class_sequlite_1_1_a_l_f_1_1_recipe_lib_1_1_steps_tree_1a9e19d19be227e8840d22e2b19bbb659e" prot="public" virt="non-virtual"><scope>Sequlite::ALF::RecipeLib::StepsTree</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

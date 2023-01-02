@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_main_window" kind="class" prot="public">
+    <compoundname>Hywire::ALF::ImageSharpnessTest::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_main_window_1a10d6d6b23c09d407f3eba98e3475be90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.ImageSharpnessTest.MainWindow.MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/MainWindow.xaml.cs" line="14" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/MainWindow.xaml.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_main_window_1ac4524b60b70f13bef3cd7d56fcff2432" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ImageSharpnessTest.MainWindow.Button_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Button_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/MainWindow.xaml.cs" line="23" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/MainWindow.xaml.cs" bodystart="23" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_main_window_1a4afa7c54979eb6f6320ba470a58d9b5e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Hywire.ALF.ImageSharpnessTest.MainWindow._ClearBtn_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>_ClearBtn_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/MainWindow.xaml.cs" line="37" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/MainWindow.xaml.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>MainWindow.xaml 的交互逻辑 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="723">
+        <label>Window</label>
+      </node>
+      <node id="722">
+        <label>Hywire.ALF.ImageSharpnessTest.MainWindow</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_main_window"/>
+        <childnode refid="723" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="725">
+        <label>Window</label>
+      </node>
+      <node id="724">
+        <label>Hywire.ALF.ImageSharpnessTest.MainWindow</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_main_window"/>
+        <childnode refid="725" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/MainWindow.xaml.cs" line="13" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ImageSharpnessTest/MainWindow.xaml.cs" bodystart="12" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_main_window_1a4afa7c54979eb6f6320ba470a58d9b5e" prot="private" virt="non-virtual"><scope>Hywire::ALF::ImageSharpnessTest::MainWindow</scope><name>_ClearBtn_Click</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_main_window_1ac4524b60b70f13bef3cd7d56fcff2432" prot="private" virt="non-virtual"><scope>Hywire::ALF::ImageSharpnessTest::MainWindow</scope><name>Button_Click</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_image_sharpness_test_1_1_main_window_1a10d6d6b23c09d407f3eba98e3475be90" prot="public" virt="non-virtual"><scope>Hywire::ALF::ImageSharpnessTest::MainWindow</scope><name>MainWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

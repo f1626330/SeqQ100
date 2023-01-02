@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7fc03af3c2a839929358e4681191e7ab" kind="dir">
+    <compoundname>D:/Source/Alf</compoundname>
+    <innerdir refid="dir_4fcd1d40d5d7e32a7d570965c524834e">D:/Source/Alf/Libraries</innerdir>
+    <innerdir refid="dir_745215f245b1904448a07df3ae2fbc66">D:/Source/Alf/Projects</innerdir>
+    <innerdir refid="dir_83c793edd0368e529c8cfd196dced906">D:/Source/Alf/TestBench</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/"/>
+  </compounddef>
+</doxygen>

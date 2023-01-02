@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model" kind="namespace">
+    <compoundname>Sequlite::ALF::EngineerGUI::ViewModel</compoundname>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_auto_focus_view_model" prot="package">Sequlite::ALF::EngineerGUI::ViewModel::AutoFocusViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_camera_view_model" prot="public">Sequlite::ALF::EngineerGUI::ViewModel::CameraViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_chemistry_view_model" prot="public">Sequlite::ALF::EngineerGUI::ViewModel::ChemistryViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_detector_parameters_view_model" prot="public">Sequlite::ALF::EngineerGUI::ViewModel::DetectorParametersViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_parameters" prot="public">Sequlite::ALF::EngineerGUI::ViewModel::MotionParameters</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_file_view_model" prot="public">Sequlite::ALF::EngineerGUI::ViewModel::FileViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_fluidics_view_model" prot="public">Sequlite::ALF::EngineerGUI::ViewModel::FluidicsViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_image_gallery_view_model" prot="public">Sequlite::ALF::EngineerGUI::ViewModel::ImageGalleryViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_main_board_view_model" prot="public">Sequlite::ALF::EngineerGUI::ViewModel::MainBoardViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_motion_view_model" prot="public">Sequlite::ALF::EngineerGUI::ViewModel::MotionViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_pane_view_model" prot="public">Sequlite::ALF::EngineerGUI::ViewModel::PaneViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_recipe_view_model" prot="package">Sequlite::ALF::EngineerGUI::ViewModel::RecipeViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_steps_tree_view_model" prot="package">Sequlite::ALF::EngineerGUI::ViewModel::StepsTreeViewModel</innerclass>
+    <innerclass refid="class_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1_1_workspace" prot="package">Sequlite::ALF::EngineerGUI::ViewModel::Workspace</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a6d703d88f74eeba3c64756d490f16700" prot="public" static="no">
+        <name>CameraStatusEnums</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a6d703d88f74eeba3c64756d490f16700aef70e46fd3bbc21e3e1f0b6815e750c0" prot="public">
+          <name>Disconnected</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a6d703d88f74eeba3c64756d490f16700ae599161956d626eda4cb0a5ffb85271c" prot="public">
+          <name>Idle</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a6d703d88f74eeba3c64756d490f16700a44a50f07b4bdc57740901280f9eddaf5" prot="public">
+          <name>Capture</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a6d703d88f74eeba3c64756d490f16700a535863a82f163709557e59e2eb8139a7" prot="public">
+          <name>Continuous</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a6d703d88f74eeba3c64756d490f16700a955ad3298db330b5ee880c2c9e6f23a0" prot="public">
+          <name>Live</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" line="17" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/CameraViewModel.cs" bodystart="16" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a7299ae88667fa7aa0344055c0c05e733" prot="public" static="no">
+        <name>DirtyType</name>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a7299ae88667fa7aa0344055c0c05e733ae512243b6d60a26fe0c1eace5b169f0c" prot="public">
+          <name>NewCreate</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a7299ae88667fa7aa0344055c0c05e733a35e0c8c0b180c95d4e122e55ed62cc64" prot="public">
+          <name>Modified</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_sequlite_1_1_a_l_f_1_1_engineer_g_u_i_1_1_view_model_1a7299ae88667fa7aa0344055c0c05e733a6adf97f83acf6453d4a6a4b1070f3754" prot="public">
+          <name>None</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" line="11" column="1" bodyfile="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/FileViewModel.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Projects/EngineerGUI/Sequlite.ALF.EngineerGUI/ViewModel/AutoFocusViewModel.cs" line="21" column="1"/>
+  </compounddef>
+</doxygen>

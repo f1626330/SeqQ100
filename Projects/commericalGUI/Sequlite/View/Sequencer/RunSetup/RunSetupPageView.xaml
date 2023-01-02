@@ -1,0 +1,191 @@
+﻿<UserControl x:Class="Sequlite.UI.View.RunSetupPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sequlite.UI.View"
+             xmlns:wpfFramework="clr-namespace:Sequlite.WPF.Framework;assembly=Sequlite.WPF.Framework"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/PageViewDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Grid VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="50"/>
+            <RowDefinition Height="Auto" MinHeight="50"/>
+            <RowDefinition Height="Auto" MinHeight="110"/>
+            <RowDefinition Height="Auto" MinHeight="50"/>
+            <RowDefinition Height="Auto" MinHeight="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Style="{StaticResource PageBorderStyle}">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="38"/>
+                    <ColumnDefinition Width="*" MinWidth="320"/>
+                    <ColumnDefinition Width="*" MinWidth="115"/>
+                </Grid.ColumnDefinitions>
+                <Label  Grid.Column="0" Content="Use Sample Sheet:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,5,0,5" Margin="5"/>
+                <CheckBox  Grid.Column="1" x:Name="chkSampleSheet" Height="32" IsChecked="{Binding RunSetupModel.UseSampleSheet}"  Margin="1,5,5,2" Style="{StaticResource BigCheckboxMarkStyle}"  
+                  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBox  Grid.Column="2" TextWrapping="Wrap" 
+                          HorizontalContentAlignment="Stretch" Padding="5" VerticalContentAlignment="Center"  Margin="5,8,5,8"
+                          IsReadOnly="{Binding IsChecked, ElementName=chkSampleSheet, Converter={StaticResource boolReverseConverter}}">
+                    <TextBox.Style >
+                        <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource CustomErrorControlOnErrorStyle}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=chkSampleSheet, Path=IsChecked}" Value="True">
+                                    <Setter Property="Text" Value="{Binding RunSetupModel.SampleSheet, Mode=TwoWay, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged}" />
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding ElementName=chkSampleSheet, Path=IsChecked}" Value="False">
+                                    <Setter Property="Text" Value="{Binding  RunSetupModel.SampleSheet, Mode=TwoWay, ValidatesOnDataErrors=False, UpdateSourceTrigger=PropertyChanged}"></Setter>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBox.Style >
+                </TextBox>
+
+                <Button Grid.Column="3" Content="View / Open"   Height="50" Width="160" HorizontalAlignment="Left" Margin="10,5,5,5" VerticalContentAlignment="Center" VerticalAlignment="Center"
+                           Command="{Binding SelectSampleSheetCmd}" 
+                         IsEnabled="{Binding IsChecked, ElementName=chkSampleSheet}"/>
+
+            </Grid>
+        </Border>
+        <Border Grid.Row="1" Style="{StaticResource PageBorderStyle}">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="3*" />
+                </Grid.ColumnDefinitions>
+                <Label  Grid.Column="0" Content="Run Name:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"  Margin="5"/>
+                <TextBox  Grid.Column="1" TextWrapping="Wrap" Text="{Binding RunSetupModel.RunName, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" 
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="15,8,5,8"
+                          Style="{StaticResource CustomErrorControlOnErrorStyle}" />
+                
+                <Label  Grid.Column="2" Content="Description:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center"  Margin="5"/>
+                <TextBox  Grid.Column="3"  TextWrapping="Wrap" Text="{Binding RunSetupModel.Description,  UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"
+                          HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,8,15,8"
+                          Style="{StaticResource CustomErrorControlOnErrorStyle}"/>
+            </Grid>
+        </Border>
+        <Border Grid.Row="2" Style="{StaticResource PageBorderStyle}" 
+                IsHitTestVisible="{Binding IsChecked, ElementName=chkSampleSheet, Converter={StaticResource booleanReverseConverter}}">
+            <Grid  >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition Height="60"/>
+                    
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Reads:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5" Margin="5"/>
+
+                <CheckBox Grid.Row="0" Grid.Column="1" Height="32" x:Name="Read1Chk" Content="Read 1" IsChecked="{Binding RunSetupModel.EnableRead1}"  Margin="15,8,8,8" Style="{StaticResource BigCheckboxMarkStyle}"  
+                  HorizontalAlignment="Left" IsHitTestVisible="False"/>
+                 <CheckBox Grid.Row="0" Grid.Column="2" Height="32" x:Name="Index1Chk" Content="Index 1" IsChecked="{Binding RunSetupModel.EnableIndex1}"  Margin="8" Style="{StaticResource BigCheckboxMarkStyle}"  
+                  HorizontalAlignment="Left"/>
+                <CheckBox Grid.Row="0" Grid.Column="3" Height="32" x:Name="Index2Chk" Content="Index 2" IsChecked="{Binding RunSetupModel.EnableIndex2}"  Margin="8" Style="{StaticResource BigCheckboxMarkStyle}"  
+                  HorizontalAlignment="Left" IsHitTestVisible="False"/>
+                <CheckBox Grid.Row="0" Grid.Column="4" Height="32"  x:Name="Read2Chk" Content="Read 2" IsChecked="{Binding RunSetupModel.EnableRead2}"  Margin="8" Style="{StaticResource BigCheckboxMarkStyle}"  
+                  HorizontalAlignment="Left" IsHitTestVisible="False"/>
+
+                <TextBox x:Name="rd1" Grid.Row="1"  Grid.Column="1" Width="90" 
+                         Text="{Binding RunSetupModel.Read1Value , UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  
+                         wpfFramework:NonNegativeIntegerTextBox.IsEnabled="True"
+                         IsReadOnly="{Binding IsChecked, ElementName=Read1Chk, Converter={StaticResource boolReverseConverter}}"
+                        HorizontalAlignment="Left" HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="15,8,5,8"
+                         Style="{StaticResource CustomErrorControlOnErrorStyle}"/>
+
+                <!-- index1-->
+                <TextBox Grid.Row="1"  Grid.Column="2" Width="90" x:Name="Index1V"
+                         Text="{Binding RunSetupModel.Index1Value,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"  
+                         wpfFramework:NonNegativeIntegerTextBox.IsEnabled="True"
+                         IsReadOnly="{Binding IsChecked, ElementName=Index1Chk, Converter={StaticResource booleanReverseConverter}}"
+                        HorizontalAlignment="Left"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,8,5,8"
+                         Style="{StaticResource CustomErrorControlOnErrorStyle}"/>
+                <TextBox Grid.Row="1"  Grid.Column="2" Width="90" 
+                          Text="N/A" IsReadOnly="True" Visibility="{Binding IsChecked,ElementName=Index1Chk, Converter={StaticResource booleanToHiddenNegateConverter}}"
+                         Background="LightGray"
+                        HorizontalAlignment="Left"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,8,5,8"
+                         />
+
+                <!-- index2-->
+                <TextBox Grid.Row="1"  Grid.Column="3" Width="90" 
+                         Text="{Binding RunSetupModel.Index2Value,UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}" 
+                         wpfFramework:NonNegativeIntegerTextBox.IsEnabled="True"
+                         IsReadOnly="{Binding IsChecked, ElementName=Index2Chk, Converter={StaticResource boolReverseConverter}}"
+                        HorizontalAlignment="Left"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,8,5,8"
+                         Style="{StaticResource CustomErrorControlOnErrorStyle}"/>
+                <TextBox Grid.Row="1"  Grid.Column="3" Width="90" 
+                         Text="N/A" 
+                         IsReadOnly="True"
+                         Background="LightGray"
+                         Visibility="{Binding IsChecked, ElementName=Index2Chk, Converter={StaticResource booleanToHiddenNegateConverter}}"
+                        HorizontalAlignment="Left"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,8,5,8"
+                         />
+                
+                <!-- read2-->
+                <TextBox Grid.Row="1"  Grid.Column="4" Width="90" 
+                         Text="{Binding RunSetupModel.Read1Value, UpdateSourceTrigger=PropertyChanged,ValidatesOnDataErrors=True}"  
+                         wpfFramework:NonNegativeIntegerTextBox.IsEnabled="True"
+                         IsReadOnly="{Binding IsChecked, ElementName=Read2Chk, Converter={StaticResource booleanReverseConverter}}"
+                        HorizontalAlignment="Left"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,8,5,8"
+                        />
+                <TextBox Grid.Row="1"  Grid.Column="4" Width="90" 
+                         Text="N/A"  Background="LightGray"
+                         IsReadOnly="True"
+                        Visibility="{Binding IsChecked, ElementName=Read2Chk, Converter={StaticResource booleanToHiddenNegateConverter}}"
+                        HorizontalAlignment="Left"  HorizontalContentAlignment="Left" Padding="5" VerticalContentAlignment="Center"  Margin="5,8,5,8"
+                        />
+
+            </Grid>
+        </Border>
+
+        <!--<Border Grid.Row="3" Style="{StaticResource PageBorderStyle}">
+            <WrapPanel  Orientation="Horizontal">
+                <Label  Content="Custom Primers:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,5,0,5" Margin="5"/>
+                <CheckBox   Height="32" IsChecked="{Binding RunSetupModel.UseCustomPrimers}"  Margin="1,5,5,5" Style="{StaticResource BigCheckboxMarkStyle}"  
+                  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+
+                
+            </WrapPanel>
+        </Border>-->
+        <Border Grid.Row="3" Style="{StaticResource PageBorderStyle}">
+
+            <WrapPanel  Orientation="Horizontal">
+                <!--<Label  Content="Enable OLA:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,5,0,5" Margin="5"/>
+                <CheckBox  Height="32" IsChecked="{Binding RunSetupModel.IsEnableOLA}"  Margin="1,5,5,5" Style="{StaticResource BigCheckboxMarkStyle}"  
+                  HorizontalAlignment="Left" VerticalAlignment="Center"/>-->
+                <Label  Content="CG:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="5,5,0,5" Margin="5"/>
+                <CheckBox  Height="32" IsChecked="{Binding RunSetupModel.IsCG}"  Margin="1,5,5,5" Style="{StaticResource BigCheckboxMarkStyle}"  
+                  HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <!-- <Label  Content="Enable Post Processing:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="10,5,0,5" Margin="5"/>
+                <CheckBox  Height="32" IsChecked="{Binding RunSetupModel.IsEnablePP}"  Margin="1,5,5,5" Style="{StaticResource BigCheckboxMarkStyle}"  
+                  HorizontalAlignment="Left" VerticalAlignment="Center"/>-->
+                <!--<Label  Content="Read Template:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="10,5,0,5" Margin="5"/>
+                <ComboBox Width="100" Grid.Row="0" Grid.Column="1" Margin="5" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                      ItemsSource="{Binding RunSetupModel.Templateoptions}" SelectedItem="{Binding RunSetupModel.SelectedTemplate}"/>
+                <Label  Content="Index Template:" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" Padding="10,5,0,5" Margin="5"/>
+                <ComboBox Width="100" Grid.Row="0" Grid.Column="1" Margin="5" FontSize="22" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                      ItemsSource="{Binding RunSetupModel.IndexTemplateoptions}" SelectedItem="{Binding RunSetupModel.SelectedIndTemplate}"/>-->
+            </WrapPanel>
+
+        </Border>
+
+    </Grid>
+</UserControl>

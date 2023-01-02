@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                     xmlns:local="clr-namespace:Sequlite.WPF.Framework">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Sequlite.WPF.Framework;component/Styles/ColorDictionary.xaml"/>
+        <!--<ResourceDictionary Source="/Sequlite.WPF.Framework;component/Styles/WizardStyle.xaml"/>
+        <ResourceDictionary Source="/Sequlite.WPF.Framework;component/Styles/ExpanderStyle.xaml"/>-->
+        
+    </ResourceDictionary.MergedDictionaries>
+    <Style TargetType="{x:Type local:ShowCapLock}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type local:ShowCapLock}">
+                    <Grid>
+                        <ContentPresenter Name="Presenter"/>
+                        <Popup Placement="Bottom" PlacementTarget="{Binding ElementName=Presenter}" 
+                           IsOpen="{TemplateBinding ShowMessage}">
+                            <Border Background="LightGoldenrodYellow" BorderThickness="1" BorderBrush="Black">
+                                <TextBlock >
+                                <TextBlock>Caps Lock is down.</TextBlock>
+                            </TextBlock>
+                            </Border>
+                        </Popup>
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--<Style TargetType="{x:Type TextBox}">
+        <Setter Property="Control.Background" Value="#D2FFFFFF"/>
+    </Style>
+    <Style x:Key="HeaderLabel" TargetType="{x:Type Label}" BasedOn="{StaticResource {x:Type Label}}">
+        <Style.Triggers>
+            <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Foreground" Value="{StaticResource scb09}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <LinearGradientBrush x:Key="HeaderBackground" EndPoint="0,0" StartPoint="0,1">
+        <GradientStop Color="{DynamicResource c14}" Offset="0"/>
+        <GradientStop Color="{DynamicResource c18}" Offset="0.5"/>
+        <GradientStop Color="{DynamicResource c12}" Offset="1"/>
+    </LinearGradientBrush>-->
+</ResourceDictionary>

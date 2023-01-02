@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources" kind="class" prot="package">
+    <compoundname>Hywire::ALF::ValveTest::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources_1a717b6109c93f7fcbb62b9ae58c8db9eb" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Hywire.ALF.ValveTest.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" line="27" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources_1abc3289b1d8b4418bfd08be6b40302795" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Hywire.ALF.ValveTest.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" line="29" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources_1a60f7525e384a65d85c2725694a8d4d84" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager Hywire.ALF.ValveTest.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>返回此类使用的缓存的 ResourceManager 实例。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" line="39" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources_1a3befe085ae2f5112422922c97c4c8bb6" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo Hywire.ALF.ValveTest.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>使用此强类型资源类，为所有资源查找 重写当前线程的 CurrentUICulture 属性。 </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" line="54" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources_1a21d1ea223cc3130a673600b37b210b63" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Hywire.ALF.ValveTest.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" line="32" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>一个强类型的资源类，用于查找本地化的字符串等。 </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1096">
+        <label>Hywire.ALF.ValveTest.Properties.Resources</label>
+        <link refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources"/>
+        <childnode refid="1097" relation="usage">
+          <edgelabel>resourceCulture</edgelabel>
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+      <node id="1097">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" line="25" column="1" bodyfile="D:/Source/Alf/TestBench/Hywire.ALF.ValveTest/Properties/Resources.Designer.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources_1a3befe085ae2f5112422922c97c4c8bb6" prot="package" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources_1abc3289b1d8b4418bfd08be6b40302795" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources_1a717b6109c93f7fcbb62b9ae58c8db9eb" prot="private" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources_1a60f7525e384a65d85c2725694a8d4d84" prot="package" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_hywire_1_1_a_l_f_1_1_valve_test_1_1_properties_1_1_resources_1a21d1ea223cc3130a673600b37b210b63" prot="package" virt="non-virtual"><scope>Hywire::ALF::ValveTest::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

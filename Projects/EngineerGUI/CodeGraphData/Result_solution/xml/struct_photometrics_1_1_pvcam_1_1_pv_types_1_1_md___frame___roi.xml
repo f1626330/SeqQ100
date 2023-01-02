@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi" kind="struct" prot="public">
+    <compoundname>Photometrics::Pvcam::PvTypes::Md_Frame_Roi</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi_1a8bf539f266f10f6fd0a1a2ea343d1879" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr Photometrics.Pvcam.PvTypes.Md_Frame_Roi.header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="911" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="911" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi_1aa54f628465b2f5394d3acf3a8eacf883" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr Photometrics.Pvcam.PvTypes.Md_Frame_Roi.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="912" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="912" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi_1a4358c4aeeac516754a6631b125852c51" prot="public" static="no" mutable="no">
+        <type>UInt32</type>
+        <definition>UInt32 Photometrics.Pvcam.PvTypes.Md_Frame_Roi.dataSize</definition>
+        <argsstring></argsstring>
+        <name>dataSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="914" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="914" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi_1add7e2cb4216f8be909291cbe30c13fbb" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr Photometrics.Pvcam.PvTypes.Md_Frame_Roi.extMdData</definition>
+        <argsstring></argsstring>
+        <name>extMdData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="915" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="915" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi_1aebcaa63d824c9cd53a7c5db589815c2b" prot="public" static="no" mutable="no">
+        <type>UInt16</type>
+        <definition>UInt16 Photometrics.Pvcam.PvTypes.Md_Frame_Roi.extMdDataSize</definition>
+        <argsstring></argsstring>
+        <name>extMdDataSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="917" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="917" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" line="910" column="1" bodyfile="D:/Source/Alf/Libraries/PVCam.NET/PVCAM/PvTypes.cs" bodystart="909" bodyend="918"/>
+    <listofallmembers>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi_1aa54f628465b2f5394d3acf3a8eacf883" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::Md_Frame_Roi</scope><name>data</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi_1a4358c4aeeac516754a6631b125852c51" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::Md_Frame_Roi</scope><name>dataSize</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi_1add7e2cb4216f8be909291cbe30c13fbb" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::Md_Frame_Roi</scope><name>extMdData</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi_1aebcaa63d824c9cd53a7c5db589815c2b" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::Md_Frame_Roi</scope><name>extMdDataSize</name></member>
+      <member refid="struct_photometrics_1_1_pvcam_1_1_pv_types_1_1_md___frame___roi_1a8bf539f266f10f6fd0a1a2ea343d1879" prot="public" virt="non-virtual"><scope>Photometrics::Pvcam::PvTypes::Md_Frame_Roi</scope><name>header</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::TileParameter</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter_1a9f6c8d288d8b58145474d18f818247ac" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.TileParameter.tile</definition>
+        <argsstring></argsstring>
+        <name>tile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" line="10" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter_1a968a8d4fbaa162f61af0f4ce3f405efb" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; int, <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter" kindref="compound">CycleParameter</ref> &gt;</type>
+        <definition>Dictionary&lt;int, CycleParameter&gt; Sequlite.Image.Processing.TileParameter._cycles</definition>
+        <argsstring></argsstring>
+        <name>_cycles</name>
+        <initializer>= new Dictionary&lt;int, <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_cycle_parameter" kindref="compound">CycleParameter</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" line="11" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter_1a6025ab284d698d2f2f1ae4e6d7455b4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Sequlite.Image.Processing.TileParameter.TileParameter</definition>
+        <argsstring>(int tile)</argsstring>
+        <name>TileParameter</name>
+        <param>
+          <type>int</type>
+          <declname>tile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" line="13" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter_1a4730aeffc252331e4e17bfe0caabada7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.TileParameter.Add</definition>
+        <argsstring>(int cycle, int color, float value)</argsstring>
+        <name>Add</name>
+        <param>
+          <type>int</type>
+          <declname>cycle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" bodystart="18" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter_1a0fec462012268b41bb4a8bc11b264271" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.TileParameter.GetByCycle</definition>
+        <argsstring>(int clr, ref Dictionary&lt; int, float &gt; ret)</argsstring>
+        <name>GetByCycle</name>
+        <param>
+          <type>int</type>
+          <declname>clr</declname>
+        </param>
+        <param>
+          <type>ref Dictionary&lt; int, float &gt;</type>
+          <declname>ret</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" bodystart="26" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" line="9" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/TileParameter.cs" bodystart="8" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter_1a968a8d4fbaa162f61af0f4ce3f405efb" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::TileParameter</scope><name>_cycles</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter_1a4730aeffc252331e4e17bfe0caabada7" prot="package" virt="non-virtual"><scope>Sequlite::Image::Processing::TileParameter</scope><name>Add</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter_1a0fec462012268b41bb4a8bc11b264271" prot="package" virt="non-virtual"><scope>Sequlite::Image::Processing::TileParameter</scope><name>GetByCycle</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter_1a9f6c8d288d8b58145474d18f818247ac" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::TileParameter</scope><name>tile</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_tile_parameter_1a6025ab284d698d2f2f1ae4e6d7455b4f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::TileParameter</scope><name>TileParameter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

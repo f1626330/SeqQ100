@@ -1,0 +1,1872 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d" kind="class" prot="public">
+    <compoundname>Sequlite::Image::Processing::ImageProcessingCMD</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a61fa4e0b42fa65b3f20682bddbc1d3cb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._RN</definition>
+        <argsstring></argsstring>
+        <name>_RN</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="16" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a54500b1b67caceae3ed9807694491c35" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._FC</definition>
+        <argsstring></argsstring>
+        <name>_FC</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="17" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3f5a647b3aca285c126ad4facecd194e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._BO</definition>
+        <argsstring></argsstring>
+        <name>_BO</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="19" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a5981581532e752cd1e895ae7116f3f8a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._CE</definition>
+        <argsstring></argsstring>
+        <name>_CE</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="20" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8340321b2f2bd3250325f5f4fcaf9518" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._TP</definition>
+        <argsstring></argsstring>
+        <name>_TP</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="21" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ae6ae7ad66a70afc8d43b6337971b96c3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD._NC</definition>
+        <argsstring></argsstring>
+        <name>_NC</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="22" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ac05ddd671b3682302bb5c822d3ea8a5a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD._NS</definition>
+        <argsstring></argsstring>
+        <name>_NS</name>
+        <initializer>= -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="23" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ad0da6c33036d7570fdf74765786c22e5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD._CD</definition>
+        <argsstring></argsstring>
+        <name>_CD</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="25" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ae79f37d95f102b010bb4136fd30dd88b" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._PP</definition>
+        <argsstring></argsstring>
+        <name>_PP</name>
+        <initializer>= &quot;0 -0.01 0.5&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="26" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a28880a377da9c7d2222800e7679c7395" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._CN</definition>
+        <argsstring></argsstring>
+        <name>_CN</name>
+        <initializer>= &quot;1 0 1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="27" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af478d55953ab46ed97b3075d616dfd9a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._TO</definition>
+        <argsstring></argsstring>
+        <name>_TO</name>
+        <initializer>= &quot;-S 2 -n 0 -s 0 -r 1 -t 0.5 -e 0 -M 0 -F 2 -P 0 -K 0 -Q 0 -m 0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="29" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a173c58f245ac00fbc0d9d248095c07a6" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._CO</definition>
+        <argsstring></argsstring>
+        <name>_CO</name>
+        <initializer>= &quot;-S 1 -n 0 -s 0 -t 0 -c 1 -W 1 -Q 0 -k 1 -o 0 -d 1 -B 0.01 -E 0.5&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="30" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3fd34b652a1010574ccc243eec7d4afb" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._JO</definition>
+        <argsstring></argsstring>
+        <name>_JO</name>
+        <initializer>= &quot;-S 1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="31" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8aa98162e87d119cb2a84140fba3dc43" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD._RI</definition>
+        <argsstring></argsstring>
+        <name>_RI</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="32" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af7ecbad1706b2d99e135b1ed8c3fa7cf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD._BC</definition>
+        <argsstring></argsstring>
+        <name>_BC</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="33" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a843534f419d5932d5616ac215fe2cdf2" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.Image.Processing.ImageProcessingCMD._SEQP</definition>
+        <argsstring></argsstring>
+        <name>_SEQP</name>
+        <initializer>= &quot;pwd&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="34" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8f9beb1b28a5ac9af96a3d890eb2d27d" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.Image.Processing.ImageProcessingCMD._ARCH</definition>
+        <argsstring></argsstring>
+        <name>_ARCH</name>
+        <initializer>= &quot;uname&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="35" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa78272989f0d6b8f0c880643b30de4b1" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.Image.Processing.ImageProcessingCMD._FT</definition>
+        <argsstring></argsstring>
+        <name>_FT</name>
+        <initializer>= &quot;0.01 1 1 0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="36" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a18b5d8631abca35c13ae6105cf81aa41" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.Image.Processing.ImageProcessingCMD._FE</definition>
+        <argsstring></argsstring>
+        <name>_FE</name>
+        <initializer>= &quot;0.01 1 1 0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="37" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3bf071124ec39c0b04474cfd8a34674d" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.Image.Processing.ImageProcessingCMD._ST</definition>
+        <argsstring></argsstring>
+        <name>_ST</name>
+        <initializer>= &quot;350 0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="38" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8201b908245bdbb426f0282d59ff9e04" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.Image.Processing.ImageProcessingCMD._SE</definition>
+        <argsstring></argsstring>
+        <name>_SE</name>
+        <initializer>= &quot;350 4&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="39" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ad5149512dfe2b9718e2c553a3d98cdc8" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.Image.Processing.ImageProcessingCMD._TT</definition>
+        <argsstring></argsstring>
+        <name>_TT</name>
+        <initializer>= &quot;3 3 1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="40" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aed1b0044f245f633799b2f816a15fe1c" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.Image.Processing.ImageProcessingCMD._TE</definition>
+        <argsstring></argsstring>
+        <name>_TE</name>
+        <initializer>= &quot;0 0 1&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="41" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1addc824975ff2ae97c9fdb5b99e9a0f01" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Sequlite.Image.Processing.ImageProcessingCMD._EP</definition>
+        <argsstring></argsstring>
+        <name>_EP</name>
+        <initializer>= &quot;1 11 0.1 0.5&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="42" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aba1181a66307514ab9dd43cdbaf3c7c0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD.minTemplateCycle</definition>
+        <argsstring></argsstring>
+        <name>minTemplateCycle</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="47" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a5577f928c4be9200a788cbb7a4715016" prot="private" static="no" mutable="no">
+        <type>bool[]</type>
+        <definition>bool [] Sequlite.Image.Processing.ImageProcessingCMD._templateCreated</definition>
+        <argsstring></argsstring>
+        <name>_templateCreated</name>
+        <initializer>= { false, false, false, false, false, false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="50" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ab5d6875399f8e515fa6f1d087baa31b1" prot="private" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] Sequlite.Image.Processing.ImageProcessingCMD._LastCycleExtracted</definition>
+        <argsstring></argsstring>
+        <name>_LastCycleExtracted</name>
+        <initializer>= { 0, 0, 0, 0, 0, 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="51" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a51ed1e0404e1127e47dcd264a1cec379" prot="private" static="no" mutable="no">
+        <type>bool[]</type>
+        <definition>bool [] Sequlite.Image.Processing.ImageProcessingCMD._enableTile</definition>
+        <argsstring></argsstring>
+        <name>_enableTile</name>
+        <initializer>= { true, true, true, true, true, true }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="52" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af380343fff34650160fe3780f41b51ca" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD._baseCallMinCycle</definition>
+        <argsstring></argsstring>
+        <name>_baseCallMinCycle</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="54" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa95a643aee3f50a327b7bc867294eadf" prot="private" static="yes" mutable="no">
+        <type>int[]</type>
+        <definition>int [] Sequlite.Image.Processing.ImageProcessingCMD._FCList</definition>
+        <argsstring></argsstring>
+        <name>_FCList</name>
+        <initializer>= { 0, 5, 10, 15, 20, 25 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="18" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa0a8f3c5756f2bc6e271322f4f91a630" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD._EO</definition>
+        <argsstring></argsstring>
+        <name>_EO</name>
+        <initializer>= &quot;-S 2 -n 1 -s 1 -r 1 -t 0.5 -M 0 -T 1 -O 0 -Q 0 -F 2&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="28" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a4bfc2aaaa817d1b61a2c8c8490b63437" prot="private" static="yes" mutable="no">
+        <type>DirectoryInfo</type>
+        <definition>DirectoryInfo Sequlite.Image.Processing.ImageProcessingCMD._TargetDir</definition>
+        <argsstring></argsstring>
+        <name>_TargetDir</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="43" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1adef280ba59113165b4db1e00ca57d707" prot="private" static="yes" mutable="no">
+        <type>object[]</type>
+        <definition>object [] Sequlite.Image.Processing.ImageProcessingCMD._lockObject</definition>
+        <argsstring></argsstring>
+        <name>_lockObject</name>
+        <initializer>= { 0, 1, 2, 3, 4, 5, 6, 7 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="44" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a0ea7d1aa354144d54e8a4e8e55694821" prot="private" static="yes" mutable="no">
+        <type>Dictionary&lt; string, int &gt;</type>
+        <definition>Dictionary&lt;string, int&gt; Sequlite.Image.Processing.ImageProcessingCMD.CellToIndex</definition>
+        <argsstring></argsstring>
+        <name>CellToIndex</name>
+        <initializer>= new Dictionary&lt;string, int&gt; { { &quot;proc-0&quot;, 0 }, { &quot;proc-5&quot;, 1 }, { &quot;proc-10&quot;, 2 }, { &quot;proc-15&quot;, 3 }, { &quot;proc-20&quot;, 4 }, { &quot;proc-25&quot;, 5 },
+            { &quot;extr&quot;, 6 }, {&quot;calls&quot;, 7 } }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="45" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa4c5503313bfdc34381bf568e3fb063a" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.logFileName</definition>
+        <argsstring></argsstring>
+        <name>logFileName</name>
+        <initializer>= &quot;trackingCMD.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="48" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3b755036d0d5b0604cfc836015c5d222" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.LogFile</definition>
+        <argsstring></argsstring>
+        <name>LogFile</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="49" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aacf640904274d8c7be46716be1fba8e7" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.Image.Processing.ImageProcessingCMD._LogCMDLineOutput</definition>
+        <argsstring></argsstring>
+        <name>_LogCMDLineOutput</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="53" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a2bf3441589c20de3aaee030c7ea3863b" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Sequlite.Image.Processing.ImageProcessingCMD._DoNotExe</definition>
+        <argsstring></argsstring>
+        <name>_DoNotExe</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="76" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a232b099bc105af3bb034c8bcf85dec71" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.RN</definition>
+        <argsstring></argsstring>
+        <name>RN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="56" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a9e195f1734c60637c97c37689b6668b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.FC</definition>
+        <argsstring></argsstring>
+        <name>FC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="57" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa4a33bebf2113623bcb6ab88a241124c" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int[]</type>
+        <definition>int [] Sequlite.Image.Processing.ImageProcessingCMD.FCList</definition>
+        <argsstring></argsstring>
+        <name>FCList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="58" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a07db8a902c266a683c8cf563d4a6562a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.BO</definition>
+        <argsstring></argsstring>
+        <name>BO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="59" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a5a46bf7486be1ff95d581a64dd743f4d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.CE</definition>
+        <argsstring></argsstring>
+        <name>CE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="60" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a0141380325113e7ef88f4045bab8223d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.TP</definition>
+        <argsstring></argsstring>
+        <name>TP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="61" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1afc052cd2a4b6488fb5de0dc9e5a601cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD.NC</definition>
+        <argsstring></argsstring>
+        <name>NC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="62" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a5a4403c458429964defc24f6d2c2e883" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD.NS</definition>
+        <argsstring></argsstring>
+        <name>NS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="63" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3ded70255ccb6d40169c7965a6eb5960" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD.CycleFrames</definition>
+        <argsstring></argsstring>
+        <name>CycleFrames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="64" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ab3866d66c4847c7101881ba59a510c07" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD.CD</definition>
+        <argsstring></argsstring>
+        <name>CD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="65" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a320f15f5bff0c78425046313d1a09e27" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.PP</definition>
+        <argsstring></argsstring>
+        <name>PP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="66" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a57a8c04ddca221c538b599f3ed9e0d28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.CN</definition>
+        <argsstring></argsstring>
+        <name>CN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="67" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a217c59e58738882b2232e9aca0a848f3" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.EO</definition>
+        <argsstring></argsstring>
+        <name>EO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="68" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a199256efb9bd6f1f4721df61f24a7f39" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.TO</definition>
+        <argsstring></argsstring>
+        <name>TO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="69" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a07cd26da6ffa411af1a3b78a510e5bbf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.CO</definition>
+        <argsstring></argsstring>
+        <name>CO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="70" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aeff642d89d041be549db6267318058df" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.JO</definition>
+        <argsstring></argsstring>
+        <name>JO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="71" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa9baadedf31e88182eee7e78c0e7ee14" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD.RI</definition>
+        <argsstring></argsstring>
+        <name>RI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="72" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aee01354742ee5c80dbbe0d897ac27e72" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD.BC</definition>
+        <argsstring></argsstring>
+        <name>BC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="73" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aada55f9cc9092b011ca98295ffc7051b" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DirectoryInfo</type>
+        <definition>DirectoryInfo Sequlite.Image.Processing.ImageProcessingCMD.TargetDir</definition>
+        <argsstring></argsstring>
+        <name>TargetDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="96" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a2c7e6be2da9039093029e2a990d6be53" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Sequlite.Image.Processing.ImageProcessingCMD.DoNotExe</definition>
+        <argsstring></argsstring>
+        <name>DoNotExe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="97" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a968bff9964f120d459ee73e6bc6f46ad" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.EO1</definition>
+        <argsstring></argsstring>
+        <name>EO1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="98" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a0cfa0191713d848269fbc99e8dd8e02f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.TO1</definition>
+        <argsstring></argsstring>
+        <name>TO1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="99" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af088c8d0fd46cc9aea982b133b1d74b9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.CO1</definition>
+        <argsstring></argsstring>
+        <name>CO1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="100" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a1426fb85aafd49663b02a3a5bfb1f2e5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.JO1</definition>
+        <argsstring></argsstring>
+        <name>JO1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="101" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a10d87a03130155e86ef30e8ef30f255b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD.RI1</definition>
+        <argsstring></argsstring>
+        <name>RI1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="102" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8b47b2215ef2c133171e249b7c257223" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD.BC1</definition>
+        <argsstring></argsstring>
+        <name>BC1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="103" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a6a361e0d0784734ea975d1085b3aec84" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool[]</type>
+        <definition>bool [] Sequlite.Image.Processing.ImageProcessingCMD.TemplateCreated</definition>
+        <argsstring></argsstring>
+        <name>TemplateCreated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="104" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aae9570e8fd5fad92cc0d6d3e5a918069" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Sequlite.Image.Processing.ImageProcessingCMD.BaseCallMinCycle</definition>
+        <argsstring></argsstring>
+        <name>BaseCallMinCycle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="105" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a4cd2281b279947d9aa12386ec396d25e" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.SEQP</definition>
+        <argsstring></argsstring>
+        <name>SEQP</name>
+        <initializer>=&gt; <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a843534f419d5932d5616ac215fe2cdf2" kindref="member">_SEQP</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="78" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af96f3fb04de20783ed37ca2c1eb2ea7b" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.ARCH</definition>
+        <argsstring></argsstring>
+        <name>ARCH</name>
+        <initializer>=&gt; <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8f9beb1b28a5ac9af96a3d890eb2d27d" kindref="member">_ARCH</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="80" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aeafd263292ae440a2c7e48a130c46ba7" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.FT</definition>
+        <argsstring></argsstring>
+        <name>FT</name>
+        <initializer>=&gt; <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa78272989f0d6b8f0c880643b30de4b1" kindref="member">_FT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="82" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a5537744d743fb0eff86672e27a191504" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.FE</definition>
+        <argsstring></argsstring>
+        <name>FE</name>
+        <initializer>=&gt; <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a18b5d8631abca35c13ae6105cf81aa41" kindref="member">_FE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="84" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1abef4de5503e810a6c942c08c75bee047" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.ST</definition>
+        <argsstring></argsstring>
+        <name>ST</name>
+        <initializer>=&gt; <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3bf071124ec39c0b04474cfd8a34674d" kindref="member">_ST</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="86" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ac9cf2160cd205d065680f19af9908345" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.SE</definition>
+        <argsstring></argsstring>
+        <name>SE</name>
+        <initializer>=&gt; <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8201b908245bdbb426f0282d59ff9e04" kindref="member">_SE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="88" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a55a5b63b4a7a0197200c55893112c540" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.TT</definition>
+        <argsstring></argsstring>
+        <name>TT</name>
+        <initializer>=&gt; <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ad5149512dfe2b9718e2c553a3d98cdc8" kindref="member">_TT</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="90" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ae1b0b87ed0d6248be76787b56615a60c" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.TE</definition>
+        <argsstring></argsstring>
+        <name>TE</name>
+        <initializer>=&gt; <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aed1b0044f245f633799b2f816a15fe1c" kindref="member">_TE</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="92" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a264821de86a130b1bd159f218e9b56d8" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Sequlite.Image.Processing.ImageProcessingCMD.EP</definition>
+        <argsstring></argsstring>
+        <name>EP</name>
+        <initializer>=&gt; <ref refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1addc824975ff2ae97c9fdb5b99e9a0f01" kindref="member">_EP</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="94" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a4c3a059f9e80c2ce1acb3c90a717153c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.PostProcess</definition>
+        <argsstring>()</argsstring>
+        <name>PostProcess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="107" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="107" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8081beec6b0c44a8bf91a27fe7b77f09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.ResetTemplateCreate</definition>
+        <argsstring>()</argsstring>
+        <name>ResetTemplateCreate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="119" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="119" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a618d6b346dc272f430443dff9eed3b69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.BaseCall</definition>
+        <argsstring>()</argsstring>
+        <name>BaseCall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="145" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="145" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a65bf36dcafa36bf82de396888ca89a7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.JoinCycles</definition>
+        <argsstring>()</argsstring>
+        <name>JoinCycles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="231" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="231" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8e637f4524e5b932462b4420129d331d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.WriteToParams</definition>
+        <argsstring>(DirectoryInfo target=null)</argsstring>
+        <name>WriteToParams</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>target</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="265" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="265" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a1f317e292e2516f171fb0780475ce865" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.ExtractIntensities</definition>
+        <argsstring>()</argsstring>
+        <name>ExtractIntensities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="315" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="315" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a23c631892aa1eb8101d9cbfa54e3b845" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.CallMatchStats</definition>
+        <argsstring>(ref Dictionary&lt; string, float &gt; perfectMatch, ref Dictionary&lt; string, float &gt; OneOff)</argsstring>
+        <name>CallMatchStats</name>
+        <param>
+          <type>ref Dictionary&lt; string, float &gt;</type>
+          <declname>perfectMatch</declname>
+        </param>
+        <param>
+          <type>ref Dictionary&lt; string, float &gt;</type>
+          <declname>OneOff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="388" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="388" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a620e608ad773a83b19351b3c30874066" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.BuildTemplate</definition>
+        <argsstring>()</argsstring>
+        <name>BuildTemplate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="516" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="516" bodyend="527"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a6bc8d64d0b73bd3159ae2c3d6ee49388" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.Prep</definition>
+        <argsstring>(DirectoryInfo target=null)</argsstring>
+        <name>Prep</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>target</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="611" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="611" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a939815d9439ae23a7670d4eb971e3523" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.RunCycle</definition>
+        <argsstring>(int cycle, DirectoryInfo baseDir)</argsstring>
+        <name>RunCycle</name>
+        <param>
+          <type>int</type>
+          <declname>cycle</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>baseDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="723" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="723" bodyend="740"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a78197766ac5ee18b9d813f6ca68eb1c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.RunCycleAsynch</definition>
+        <argsstring>(int cycle, DirectoryInfo baseDir)</argsstring>
+        <name>RunCycleAsynch</name>
+        <param>
+          <type>int</type>
+          <declname>cycle</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>baseDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="742" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="742" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a79f2755468060c4d46ebe0b9e0096d4f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.RunAllByTile</definition>
+        <argsstring>(DirectoryInfo baseDir)</argsstring>
+        <name>RunAllByTile</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>baseDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="758" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="758" bodyend="771"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af0efc8f107d9b36201679c03aa184960" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.PostProcess</definition>
+        <argsstring>(DirectoryInfo basedir)</argsstring>
+        <name>PostProcess</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>basedir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="773" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="773" bodyend="778"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aeb2f6945cb5eca53810db824be585f09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.RunAll</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>RunAll</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="795" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="795" bodyend="840"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a26ae09f3100ebe3b608fe54841a45f98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.PostProcessByCell</definition>
+        <argsstring>(DirectoryInfo sd)</argsstring>
+        <name>PostProcessByCell</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>sd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="125" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="125" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ae38c21a0b7d125365055b330ee7b8acb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.Log</definition>
+        <argsstring>(string msg, DirectoryInfo di=null)</argsstring>
+        <name>Log</name>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>di</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="139" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="139" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a244e5e104f56d5242fddb6bd6daffeb1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.BaseCallByCell</definition>
+        <argsstring>(DirectoryInfo sd, int cycle=0)</argsstring>
+        <name>BaseCallByCell</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>sd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cycle</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="157" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="157" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa8142633994bbaf0d969b3abe3441986" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.JoinCyclesByCell</definition>
+        <argsstring>(DirectoryInfo sd, int cycle=0)</argsstring>
+        <name>JoinCyclesByCell</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>sd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cycle</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="244" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="244" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a62932ffbe92b5ac3c9373daf5efde9af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.ExtractIntensitiesByCell</definition>
+        <argsstring>(DirectoryInfo sd, int cycleStart, int cycleStop)</argsstring>
+        <name>ExtractIntensitiesByCell</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>sd</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cycleStart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cycleStop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="330" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="330" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af66aa2a12fffee6393a640c13be667da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.PostProcessingForExtractIntensities</definition>
+        <argsstring>(DirectoryInfo sd)</argsstring>
+        <name>PostProcessingForExtractIntensities</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>sd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="357" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="357" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aea255af9e37328422a5d3b80d58d3072" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.BuildTemplateForaCell</definition>
+        <argsstring>(DirectoryInfo sd)</argsstring>
+        <name>BuildTemplateForaCell</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>sd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="529" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="529" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a249d14a327ec716180d26e8209b6a135" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.WriteParams</definition>
+        <argsstring>(DirectoryInfo paramDir, string name, string contents)</argsstring>
+        <name>WriteParams</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>paramDir</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>contents</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="551" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="551" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a7ece1e4994fc8f0da1755e42ff3386d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.RemoveFiles</definition>
+        <argsstring>(string directory, string filter)</argsstring>
+        <name>RemoveFiles</name>
+        <param>
+          <type>string</type>
+          <declname>directory</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>filter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="601" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="601" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8da371843ac2accea0b265c2a21cbfad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.CleanDirectory</definition>
+        <argsstring>(string targetDir)</argsstring>
+        <name>CleanDirectory</name>
+        <param>
+          <type>string</type>
+          <declname>targetDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="655" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="655" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ae08e293d28a617f5a0e89d8607a9e346" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.CreateDirectory</definition>
+        <argsstring>(DirectoryInfo sd, string subdir)</argsstring>
+        <name>CreateDirectory</name>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>sd</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>subdir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="667" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="667" bodyend="671"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3014c76d4696e84f5180140e14f9a7be" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.CreateDirectory</definition>
+        <argsstring>(string dirPath)</argsstring>
+        <name>CreateDirectory</name>
+        <param>
+          <type>string</type>
+          <declname>dirPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="673" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="673" bodyend="677"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a214b6c9779bc747fe2ab17cb69f617d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.CreateProcTxt</definition>
+        <argsstring>(int startCycle, int stopCycle, DirectoryInfo subDir=null, bool subDirCreate=true)</argsstring>
+        <name>CreateProcTxt</name>
+        <param>
+          <type>int</type>
+          <declname>startCycle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stopCycle</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>subDir</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>subDirCreate</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="679" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="679" bodyend="703"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a4eb7877a4b33d9fec9742de1a464c06a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.RunCyclesSynch</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>RunCyclesSynch</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="752" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="752" bodyend="756"/>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_directory_number_1aa82b78f9579e9b47e8eea70ac0030516" compoundref="_sequlite_8_image_8_processing_2_directory_number_8cs" startline="23">Sequlite.Image.Processing.DirectoryNumber.BaseDirectory</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_directory_number_1af76c91bf339ea24e19128421296bbb60" compoundref="_sequlite_8_image_8_processing_2_directory_number_8cs" startline="24">Sequlite.Image.Processing.DirectoryNumber.Cycle</references>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aaef99cffb691d23ca9dab3db7d106ab0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.RunPostProcess</definition>
+        <argsstring>()</argsstring>
+        <name>RunPostProcess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="780" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="780" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa07a5bacd9733aa803f8ba67e99d32f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.RunCycles</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>RunCycles</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="842" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="842" bodyend="899"/>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_directory_number_1aa82b78f9579e9b47e8eea70ac0030516" compoundref="_sequlite_8_image_8_processing_2_directory_number_8cs" startline="23">Sequlite.Image.Processing.DirectoryNumber.BaseDirectory</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_directory_number_1af76c91bf339ea24e19128421296bbb60" compoundref="_sequlite_8_image_8_processing_2_directory_number_8cs" startline="24">Sequlite.Image.Processing.DirectoryNumber.Cycle</references>
+        <references refid="class_sequlite_1_1_image_1_1_processing_1_1_directory_number_1ab8bbab4d61fa0ddc475e52476e5c7bbc" compoundref="_sequlite_8_image_8_processing_2_directory_number_8cs" startline="22">Sequlite.Image.Processing.DirectoryNumber.Tile</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a933f229615e72c819bf110db4369fa39" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.LoadRunSHParameters</definition>
+        <argsstring>()</argsstring>
+        <name>LoadRunSHParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="183" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="183" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a1c6e4610c2aedbc6774ed85cb83dd13e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Sequlite.Image.Processing.ImageProcessingCMD.CallMatchStats</definition>
+        <argsstring>(int tileName, ref Dictionary&lt; string, float &gt; perfectMatch, ref Dictionary&lt; string, float &gt; OneOff)</argsstring>
+        <name>CallMatchStats</name>
+        <param>
+          <type>int</type>
+          <declname>tileName</declname>
+        </param>
+        <param>
+          <type>ref Dictionary&lt; string, float &gt;</type>
+          <declname>perfectMatch</declname>
+        </param>
+        <param>
+          <type>ref Dictionary&lt; string, float &gt;</type>
+          <declname>OneOff</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="395" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="395" bodyend="491"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a0aa26d980311c76d081856a5c9788849" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.Image.Processing.ImageProcessingCMD.ExtractSingleIntensity</definition>
+        <argsstring>(object item)</argsstring>
+        <name>ExtractSingleIntensity</name>
+        <param>
+          <type>object</type>
+          <declname>item</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="368" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="368" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1adb93cce5148a113988703a5128ac306b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.Image.Processing.ImageProcessingCMD.LogToFile</definition>
+        <argsstring>(string msg, DirectoryInfo di=null)</argsstring>
+        <name>LogToFile</name>
+        <param>
+          <type>string</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>di</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="493" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="493" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a707042f7e6a2aab9de6b437e8a4fde2d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.Image.Processing.ImageProcessingCMD.FileCreateProcTxt</definition>
+        <argsstring>(int startCycle, int stopCycle, int zheight, DirectoryInfo data, DirectoryInfo sd)</argsstring>
+        <name>FileCreateProcTxt</name>
+        <param>
+          <type>int</type>
+          <declname>startCycle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stopCycle</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>zheight</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>sd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="705" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="705" bodyend="721"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a6f024eb6fc13f38f3fa08ecdc9d29d62" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Sequlite.Image.Processing.ImageProcessingCMD.ExecuteCommandSync</definition>
+        <argsstring>(string command, DirectoryInfo workingDir)</argsstring>
+        <name>ExecuteCommandSync</name>
+        <param>
+          <type>string</type>
+          <declname>command</declname>
+        </param>
+        <param>
+          <type>DirectoryInfo</type>
+          <declname>workingDir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="560" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="560" bodyend="598"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Process Instrument images files all the way to FASTQ </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="576">
+        <label>Sequlite.Image.Processing.ImageProcessingCMD</label>
+        <link refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d"/>
+        <childnode refid="577" relation="usage">
+          <edgelabel>TT</edgelabel>
+          <edgelabel>ST</edgelabel>
+          <edgelabel>TE</edgelabel>
+          <edgelabel>SEQP</edgelabel>
+          <edgelabel>SE</edgelabel>
+          <edgelabel>_EO</edgelabel>
+          <edgelabel>ARCH</edgelabel>
+          <edgelabel>_LogCMDLineOutput</edgelabel>
+          <edgelabel>_TargetDir</edgelabel>
+          <edgelabel>_DoNotExe</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="577">
+        <label>static</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" line="15" column="1" bodyfile="D:/Source/Alf/Libraries/Sequlite.Image.Processing/ImageProcessingCMD.cs" bodystart="14" bodyend="900"/>
+    <listofallmembers>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8f9beb1b28a5ac9af96a3d890eb2d27d" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_ARCH</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af380343fff34650160fe3780f41b51ca" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_baseCallMinCycle</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af7ecbad1706b2d99e135b1ed8c3fa7cf" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_BC</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3f5a647b3aca285c126ad4facecd194e" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_BO</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ad0da6c33036d7570fdf74765786c22e5" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_CD</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a5981581532e752cd1e895ae7116f3f8a" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_CE</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a28880a377da9c7d2222800e7679c7395" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_CN</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a173c58f245ac00fbc0d9d248095c07a6" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_CO</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a2bf3441589c20de3aaee030c7ea3863b" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_DoNotExe</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a51ed1e0404e1127e47dcd264a1cec379" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_enableTile</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa0a8f3c5756f2bc6e271322f4f91a630" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_EO</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1addc824975ff2ae97c9fdb5b99e9a0f01" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_EP</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a54500b1b67caceae3ed9807694491c35" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_FC</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa95a643aee3f50a327b7bc867294eadf" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_FCList</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a18b5d8631abca35c13ae6105cf81aa41" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_FE</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa78272989f0d6b8f0c880643b30de4b1" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_FT</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3fd34b652a1010574ccc243eec7d4afb" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_JO</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ab5d6875399f8e515fa6f1d087baa31b1" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_LastCycleExtracted</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1adef280ba59113165b4db1e00ca57d707" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_lockObject</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aacf640904274d8c7be46716be1fba8e7" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_LogCMDLineOutput</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ae6ae7ad66a70afc8d43b6337971b96c3" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_NC</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ac05ddd671b3682302bb5c822d3ea8a5a" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_NS</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ae79f37d95f102b010bb4136fd30dd88b" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_PP</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8aa98162e87d119cb2a84140fba3dc43" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_RI</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a61fa4e0b42fa65b3f20682bddbc1d3cb" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_RN</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8201b908245bdbb426f0282d59ff9e04" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_SE</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a843534f419d5932d5616ac215fe2cdf2" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_SEQP</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3bf071124ec39c0b04474cfd8a34674d" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_ST</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a4bfc2aaaa817d1b61a2c8c8490b63437" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_TargetDir</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aed1b0044f245f633799b2f816a15fe1c" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_TE</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a5577f928c4be9200a788cbb7a4715016" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_templateCreated</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af478d55953ab46ed97b3075d616dfd9a" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_TO</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8340321b2f2bd3250325f5f4fcaf9518" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_TP</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ad5149512dfe2b9718e2c553a3d98cdc8" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>_TT</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af96f3fb04de20783ed37ca2c1eb2ea7b" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>ARCH</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a618d6b346dc272f430443dff9eed3b69" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>BaseCall</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a244e5e104f56d5242fddb6bd6daffeb1" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>BaseCallByCell</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aae9570e8fd5fad92cc0d6d3e5a918069" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>BaseCallMinCycle</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aee01354742ee5c80dbbe0d897ac27e72" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>BC</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8b47b2215ef2c133171e249b7c257223" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>BC1</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a07db8a902c266a683c8cf563d4a6562a" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>BO</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a620e608ad773a83b19351b3c30874066" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>BuildTemplate</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aea255af9e37328422a5d3b80d58d3072" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>BuildTemplateForaCell</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a23c631892aa1eb8101d9cbfa54e3b845" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CallMatchStats</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a1c6e4610c2aedbc6774ed85cb83dd13e" prot="package" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CallMatchStats</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ab3866d66c4847c7101881ba59a510c07" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CD</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a5a46bf7486be1ff95d581a64dd743f4d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CE</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a0ea7d1aa354144d54e8a4e8e55694821" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CellToIndex</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8da371843ac2accea0b265c2a21cbfad" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CleanDirectory</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a57a8c04ddca221c538b599f3ed9e0d28" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CN</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a07cd26da6ffa411af1a3b78a510e5bbf" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CO</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af088c8d0fd46cc9aea982b133b1d74b9" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CO1</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ae08e293d28a617f5a0e89d8607a9e346" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CreateDirectory</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3014c76d4696e84f5180140e14f9a7be" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CreateDirectory</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a214b6c9779bc747fe2ab17cb69f617d5" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CreateProcTxt</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3ded70255ccb6d40169c7965a6eb5960" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>CycleFrames</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a2c7e6be2da9039093029e2a990d6be53" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>DoNotExe</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a217c59e58738882b2232e9aca0a848f3" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>EO</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a968bff9964f120d459ee73e6bc6f46ad" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>EO1</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a264821de86a130b1bd159f218e9b56d8" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>EP</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a6f024eb6fc13f38f3fa08ecdc9d29d62" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>ExecuteCommandSync</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a1f317e292e2516f171fb0780475ce865" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>ExtractIntensities</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a62932ffbe92b5ac3c9373daf5efde9af" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>ExtractIntensitiesByCell</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a0aa26d980311c76d081856a5c9788849" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>ExtractSingleIntensity</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a9e195f1734c60637c97c37689b6668b1" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>FC</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa4a33bebf2113623bcb6ab88a241124c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>FCList</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a5537744d743fb0eff86672e27a191504" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>FE</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a707042f7e6a2aab9de6b437e8a4fde2d" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>FileCreateProcTxt</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aeafd263292ae440a2c7e48a130c46ba7" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>FT</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aeff642d89d041be549db6267318058df" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>JO</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a1426fb85aafd49663b02a3a5bfb1f2e5" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>JO1</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a65bf36dcafa36bf82de396888ca89a7e" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>JoinCycles</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa8142633994bbaf0d969b3abe3441986" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>JoinCyclesByCell</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a933f229615e72c819bf110db4369fa39" prot="package" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>LoadRunSHParameters</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ae38c21a0b7d125365055b330ee7b8acb" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>Log</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a3b755036d0d5b0604cfc836015c5d222" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>LogFile</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa4c5503313bfdc34381bf568e3fb063a" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>logFileName</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1adb93cce5148a113988703a5128ac306b" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>LogToFile</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aba1181a66307514ab9dd43cdbaf3c7c0" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>minTemplateCycle</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1afc052cd2a4b6488fb5de0dc9e5a601cb" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>NC</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a5a4403c458429964defc24f6d2c2e883" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>NS</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a4c3a059f9e80c2ce1acb3c90a717153c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>PostProcess</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af0efc8f107d9b36201679c03aa184960" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>PostProcess</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a26ae09f3100ebe3b608fe54841a45f98" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>PostProcessByCell</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1af66aa2a12fffee6393a640c13be667da" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>PostProcessingForExtractIntensities</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a320f15f5bff0c78425046313d1a09e27" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>PP</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a6bc8d64d0b73bd3159ae2c3d6ee49388" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>Prep</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a7ece1e4994fc8f0da1755e42ff3386d0" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RemoveFiles</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8081beec6b0c44a8bf91a27fe7b77f09" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>ResetTemplateCreate</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa9baadedf31e88182eee7e78c0e7ee14" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RI</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a10d87a03130155e86ef30e8ef30f255b" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RI1</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a232b099bc105af3bb034c8bcf85dec71" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RN</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aeb2f6945cb5eca53810db824be585f09" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RunAll</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a79f2755468060c4d46ebe0b9e0096d4f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RunAllByTile</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a939815d9439ae23a7670d4eb971e3523" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RunCycle</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a78197766ac5ee18b9d813f6ca68eb1c7" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RunCycleAsynch</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aa07a5bacd9733aa803f8ba67e99d32f7" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RunCycles</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a4eb7877a4b33d9fec9742de1a464c06a" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RunCyclesSynch</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aaef99cffb691d23ca9dab3db7d106ab0" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>RunPostProcess</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ac9cf2160cd205d065680f19af9908345" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>SE</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a4cd2281b279947d9aa12386ec396d25e" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>SEQP</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1abef4de5503e810a6c942c08c75bee047" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>ST</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1aada55f9cc9092b011ca98295ffc7051b" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>TargetDir</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1ae1b0b87ed0d6248be76787b56615a60c" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>TE</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a6a361e0d0784734ea975d1085b3aec84" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>TemplateCreated</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a199256efb9bd6f1f4721df61f24a7f39" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>TO</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a0cfa0191713d848269fbc99e8dd8e02f" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>TO1</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a0141380325113e7ef88f4045bab8223d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>TP</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a55a5b63b4a7a0197200c55893112c540" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>TT</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a249d14a327ec716180d26e8209b6a135" prot="private" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>WriteParams</name></member>
+      <member refid="class_sequlite_1_1_image_1_1_processing_1_1_image_processing_c_m_d_1a8e637f4524e5b932462b4420129d331d" prot="public" virt="non-virtual"><scope>Sequlite::Image::Processing::ImageProcessingCMD</scope><name>WriteToParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{62DBA0E8-7F0C-4575-A907-B0D153F51524}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sequlite.ALF.Common</RootNamespace>
+    <AssemblyName>Sequlite.ALF.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>..\..\RuleSets\SequliteRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisRuleSet>..\..\RuleSets\SequliteRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommandLib\BaseCommand.cs" />
+    <Compile Include="CommandLib\CommandMediator.cs" />
+    <Compile Include="CommandLib\ExecutionState.cs" />
+    <Compile Include="CommandLib\ParallelCommand.cs" />
+    <Compile Include="CommandLib\SerialCommand.cs" />
+    <Compile Include="CommandLib\ThreadBase.cs" />
+    <Compile Include="Config\CalibSettings.cs" />
+    <Compile Include="Config\SettingJsonManipulater.cs" />
+    <Compile Include="Config\SystemCalibJson.cs" />
+    <Compile Include="Config\SystemConfigJson.cs" />
+    <Compile Include="Db\DatabaseContext.cs" />
+    <Compile Include="Db\DBTableBaseImpl.cs" />
+    <Compile Include="Db\Entities.cs" />
+    <Compile Include="Events\ComponentConnection.cs" />
+    <Compile Include="IDHistory\IDHistoryFactory.cs" />
+    <Compile Include="IDHistory\IDHistoryImpl.cs" />
+    <Compile Include="IDHistory\IDHistoryInterface.cs" />
+    <Compile Include="Settings\CalibrationVersion.cs" />
+    <Compile Include="Settings\CameraCalib.cs" />
+    <Compile Include="Settings\FluidicsCalib.cs" />
+    <Compile Include="Logging\Extension\SeqLogExtensions.cs" />
+    <Compile Include="Logging\Impl\SeqLogMessageHeaderParser.cs" />
+    <Compile Include="Logging\Interface\ISeqLogMessageHeaderParser.cs" />
+    <Compile Include="Settings\AutoFocusSettings.cs" />
+    <Compile Include="Settings\BaseDirSelectionConstant.cs" />
+    <Compile Include="Settings\BinningFactorType.cs" />
+    <Compile Include="Settings\CameraSettings.cs" />
+    <Compile Include="Config\ConfigSettings.cs" />
+    <Compile Include="Settings\ChemistrySettings.cs" />
+    <Compile Include="Settings\FCTemperCtrlSettings.cs" />
+    <Compile Include="Settings\FluidicsSettings.cs" />
+    <Compile Include="Settings\FluidicsValueSettings.cs" />
+    <Compile Include="Logging\Factory\SeqLogFactory.cs" />
+    <Compile Include="Logging\Impl\SeqFileLogger.cs" />
+    <Compile Include="Logging\Impl\SeqFileLogProxy.cs" />
+    <Compile Include="Logging\Interface\ISeqFileLog.cs" />
+    <Compile Include="Logging\Interface\ISeqLog.cs" />
+    <Compile Include="Settings\InstrumentInfo.cs" />
+    <Compile Include="Settings\RecipeBuildSettings.cs" />
+    <Compile Include="Settings\RecipRunSettings.cs" />
+    <Compile Include="Settings\LEDSetting.cs" />
+    <Compile Include="Settings\LoggerSettings.cs" />
+    <Compile Include="Settings\MotionSettings.cs" />
+    <Compile Include="Settings\PumpingSettings.cs" />
+    <Compile Include="Settings\PumpMode.cs" />
+    <Compile Include="Settings\PumpPathSettings.cs" />
+    <Compile Include="Settings\SerialCommSettings.cs" />
+    <Compile Include="Settings\SettingRange.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Config\SettingsManager.cs" />
+    <Compile Include="Settings\RegionIndex.cs" />
+    <Compile Include="Settings\SimulationConfig.cs" />
+    <Compile Include="Settings\StageRegion.cs" />
+    <Compile Include="Types\BaseModel.cs" />
+    <Compile Include="Types\FluidControllerStatus.cs" />
+    <Compile Include="UserAccount\UserAccountFactory.cs" />
+    <Compile Include="UserAccount\UserAccountImpl.cs" />
+    <Compile Include="UserAccount\UserLogins.cs" />
+    <Compile Include="Utils\csv\MetricsCommon.cs" />
+    <Compile Include="Utils\csv\SmartCsvOutputFile.cs" />
+    <Compile Include="Utils\EventHelper\EventRaiser.cs" />
+    <Compile Include="Utils\General\AutoSetQueue.cs" />
+    <Compile Include="Settings\ValveSolution.cs" />
+    <Compile Include="Utils\General\BoolClass.cs" />
+    <Compile Include="Utils\General\PasswordHashProvider.cs" />
+    <Compile Include="Utils\General\TrackableData.cs" />
+    <Compile Include="Utils\Json\JsonDictionaryConverter.cs" />
+    <Compile Include="Utils\Pdf\PdfHelper.cs" />
+    <Compile Include="VersionTextTemplate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VersionTextTemplate.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="PdfSharp">
+      <Version>1.50.5147</Version>
+    </PackageReference>
+    <PackageReference Include="System.Data.SQLite">
+      <Version>1.0.114.4</Version>
+    </PackageReference>
+    <PackageReference Include="System.Data.SQLite.EF6">
+      <Version>1.0.114</Version>
+    </PackageReference>
+    <PackageReference Include="System.Text.Json">
+      <Version>5.0.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VersionTextTemplate.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>VersionTextTemplate.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>forfiles /p "$(ProjectDir)." /m "*.tt" /s /c "cmd /c echo Transforming @path &amp;&amp; \"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\TextTransform.exe\" @file"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
